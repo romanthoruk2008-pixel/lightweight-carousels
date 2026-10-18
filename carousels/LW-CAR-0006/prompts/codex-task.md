@@ -1,6 +1,6 @@
 # Codex task — LW-CAR-0006 "THE MUSCLES YOU'RE FORGETTING" (original Lightweight carousel)
 
-First read `carousels/CODEX-SERIES-RULES.md`. It covers palette, Rubik, logo, phone ending, format, saving and manifest. Exact copy: `carousels/LW-CAR-0006/copy.json` (content_version 1.0). Repository: romanthoruk2008-pixel/lightweight-carousels, branch `claude/charming-einstein-xgejky`.
+First read `carousels/CODEX-SERIES-RULES.md`. It covers palette, Rubik, logo, phone ending, format, saving and manifest. Exact copy: `carousels/LW-CAR-0006/copy.json` (content_version 1.1). Repository: romanthoruk2008-pixel/lightweight-carousels, branch `claude/charming-einstein-xgejky`.
 
 **This one is different:** it is our own topic and text, and there is no competitor reference. The visual references are **our own approved slides of LW-CAR-0001** ("WEAK BACK?"). Open them and copy their look exactly: composition, spacing, type sizes, badge and underline shapes, illustration style, line weights, colors, wordmark. Only the text, the highlighted muscles and the exercises change.
 
@@ -27,7 +27,7 @@ Semi-realistic anatomical "écorché" mannequin as on LW-CAR-0001: bald, faceles
 - Below: one full-body anatomical man in a **three-quarter rear view**, standing confidently, one arm slightly forward so the forearm is visible. The five "forgotten" muscles are filled #F26445: **rear delts, forearms, obliques / side of the core, hamstrings, calves**. Everything else sand / ivory. Whole figure visible, calves included. Pale #FBE3DD arch behind on the right as on the template.
 
 ### Slide 2 — map (template: LW-CAR-0001 slide 2)
-- Title centered at top: `Most Lifters Skip These` (bold, #2A2A2A), short #F26445 underline bar.
+- Title centered at top: `Most People Skip These` (bold, #2A2A2A), short #F26445 underline bar.
 - Center: a large full-body anatomical man in a three-quarter rear view (same as the cover figure), with the same five muscles filled #F26445.
 - **Five** rounded thumbnail cards with thin dark outlines, exactly like the template's cards. Each shows a mini figure with only that muscle in #F26445, and a dark label bar at the bottom with white caps:
   - left column, top to bottom: `REAR DELTS`, `FOREARMS`, `CORE` (the CORE card shows a mini **front** torso with abs and obliques in #F26445)
@@ -57,7 +57,7 @@ Copy the approved slide's composition exactly: wordmark, left-aligned headline, 
 - Short #F26445 underline bar.
 - Body, two paragraphs, regular #6B6B6B:
   - `Log your workouts in Lightweight.`
-  - `Muscle Balance shows which muscles get your sets — and which ones you're forgetting.`
+  - `Lightweight shows which muscles you're forgetting.`
 - Phone: the **same real Lightweight Muscle balance screenshot** as the approved slide (it shows "No core work in this period"), true proportions, never squashed, phone may run off the bottom edge. Do not generate, redraw or imitate UI.
 
 ## Caption

@@ -1,6 +1,6 @@
 # Codex task — LW-CAR-0007 "HOW MANY SETS DO YOU ACTUALLY NEED?" (original Lightweight carousel)
 
-First read `carousels/CODEX-SERIES-RULES.md`. It covers palette, Rubik, logo, phone ending, format, saving and manifest. Exact copy: `carousels/LW-CAR-0007/copy.json` (content_version 1.0). Repository: romanthoruk2008-pixel/lightweight-carousels, branch `claude/charming-einstein-xgejky`.
+First read `carousels/CODEX-SERIES-RULES.md`. It covers palette, Rubik, logo, phone ending, format, saving and manifest. Exact copy: `carousels/LW-CAR-0007/copy.json` (content_version 1.1). Repository: romanthoruk2008-pixel/lightweight-carousels, branch `claude/charming-einstein-xgejky`.
 
 This is our own topic and text, with no competitor carousel to copy. It must look like the same series as LW-CAR-0001 and LW-CAR-0002: same background, arch, wordmark, Rubik, palette, illustration style. Several slides here are **information slides** (a big number, a checklist, a table, a small chart). Make them clean, large and readable on a phone. Treat them like a premium fitness infographic, never cluttered.
 
@@ -31,7 +31,7 @@ Same anatomical mannequin as the series: bald, faceless, **smooth plastic anatom
 ### Slide 2 — the answer
 - Top-left: `The Short Answer` (bold, #2A2A2A) + short #F26445 underline bar.
 - Center: huge `10+` in heaviest Rubik #F26445 (the biggest element on the slide). Directly under it, large bold #2A2A2A: `hard sets per muscle, per week`.
-- Under that, regular #6B6B6B: `Most lifters grow well between 10 and 20.`
+- Under that, regular #6B6B6B: `Most people grow well between 10 and 20.`
 - Lower part: a clean horizontal scale bar with tick labels `0` `5` `10` `20+` (#2A2A2A). The bar is #D9CBBE, and the 10–20 zone is filled #F26445.
 - Bottom-left, small regular #6B6B6B footnote: `Based on Schoenfeld et al., 2017`
 - Optional, small, bottom-right: a cropped anatomical figure (head and shoulders) for series consistency. Do not let it compete with the number.
@@ -81,7 +81,7 @@ Copy the approved slide's composition exactly: wordmark, left-aligned headline, 
 - Headline: `Do You Know Your Number?` (bold, #2A2A2A)
 - Short #F26445 underline bar.
 - Body, two paragraphs, regular #6B6B6B:
-  - `Most lifters guess.`
+  - `Most people guess.`
   - `Lightweight counts your working sets and shows how they're split across every muscle group.`
 - Phone: the **same real Lightweight Muscle balance screenshot** as the approved slide ("Based on Working sets", Sets 35), true proportions, never squashed, may run off the bottom edge. Do not generate, redraw or imitate UI.
 

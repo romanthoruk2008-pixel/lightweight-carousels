@@ -1,6 +1,6 @@
 {
   "carousel_id": "LW-CAR-0007",
-  "content_version": "1.0",
+  "content_version": "1.1",
   "status": "frozen",
   "type": "original",
   "source": {
@@ -40,20 +40,44 @@
       "n": 1,
       "role": "hook",
       "text": [
-        {"string": "HOW MANY", "style": "cover line 1, uppercase, heaviest Rubik, text_dark"},
-        {"string": "SETS DO YOU", "style": "cover line 2, uppercase, heaviest Rubik, text_dark"},
-        {"string": "ACTUALLY NEED?", "style": "cover line 3, uppercase, heaviest Rubik, accent"}
+        {
+          "string": "HOW MANY",
+          "style": "cover line 1, uppercase, heaviest Rubik, text_dark"
+        },
+        {
+          "string": "SETS DO YOU",
+          "style": "cover line 2, uppercase, heaviest Rubik, text_dark"
+        },
+        {
+          "string": "ACTUALLY NEED?",
+          "style": "cover line 3, uppercase, heaviest Rubik, accent"
+        }
       ]
     },
     {
       "n": 2,
       "role": "the answer",
       "text": [
-        {"string": "The Short Answer", "style": "title, bold, text_dark, left-aligned"},
-        {"string": "10+", "style": "huge number, heaviest Rubik, accent"},
-        {"string": "hard sets per muscle, per week", "style": "large, bold, text_dark, next to or under the number"},
-        {"string": "Most lifters grow well between 10 and 20.", "style": "body, regular, text_body_grey"},
-        {"string": "Based on Schoenfeld et al., 2017", "style": "small footnote, regular, text_body_grey"}
+        {
+          "string": "The Short Answer",
+          "style": "title, bold, text_dark, left-aligned"
+        },
+        {
+          "string": "10+",
+          "style": "huge number, heaviest Rubik, accent"
+        },
+        {
+          "string": "hard sets per muscle, per week",
+          "style": "large, bold, text_dark, next to or under the number"
+        },
+        {
+          "string": "Most people grow well between 10 and 20.",
+          "style": "body, regular, text_body_grey"
+        },
+        {
+          "string": "Based on Schoenfeld et al., 2017",
+          "style": "small footnote, regular, text_body_grey"
+        }
       ],
       "graphic": "horizontal scale 0 · 5 · 10 · 20+ with the 10–20 zone in accent"
     },
@@ -61,47 +85,144 @@
       "n": 3,
       "role": "rule 1",
       "text": [
-        {"string": "Only Hard Sets Count", "style": "title, bold, text_dark, left-aligned"},
-        {"string": "Warm-up sets", "style": "✗ row"},
-        {"string": "Sets you stop with 5+ reps left", "style": "✗ row"},
-        {"string": "Sets that end 1-3 reps before failure", "style": "✓ row, bold"},
-        {"string": "You don't need to hit failure. You just need to get close.", "style": "body, regular, text_body_grey"}
+        {
+          "string": "Only Hard Sets Count",
+          "style": "title, bold, text_dark, left-aligned"
+        },
+        {
+          "string": "Warm-up sets",
+          "style": "✗ row"
+        },
+        {
+          "string": "Sets you stop with 5+ reps left",
+          "style": "✗ row"
+        },
+        {
+          "string": "Sets that end 1-3 reps before failure",
+          "style": "✓ row, bold"
+        },
+        {
+          "string": "You don't need to hit failure. You just need to get close.",
+          "style": "body, regular, text_body_grey"
+        }
       ]
     },
     {
       "n": 4,
       "role": "rule 2",
       "text": [
-        {"string": "Count Per Muscle, Not Per Exercise", "style": "title, bold, text_dark, left-aligned, may wrap to two lines"},
-        {"string": "3 sets", "style": "accent badge under exercise 1"},
-        {"string": "Incline DB Bench", "style": "exercise label"},
-        {"string": "3 sets", "style": "accent badge under exercise 2"},
-        {"string": "Flat Machine Press", "style": "exercise label"},
-        {"string": "4 sets", "style": "accent badge under exercise 3"},
-        {"string": "Pec Dec", "style": "exercise label"},
-        {"string": "= 10 chest sets", "style": "large, heaviest Rubik; '10' in accent, rest text_dark"}
+        {
+          "string": "Count Per Muscle, Not Per Exercise",
+          "style": "title, bold, text_dark, left-aligned, may wrap to two lines"
+        },
+        {
+          "string": "3 sets",
+          "style": "accent badge under exercise 1"
+        },
+        {
+          "string": "Incline DB Bench",
+          "style": "exercise label"
+        },
+        {
+          "string": "3 sets",
+          "style": "accent badge under exercise 2"
+        },
+        {
+          "string": "Flat Machine Press",
+          "style": "exercise label"
+        },
+        {
+          "string": "4 sets",
+          "style": "accent badge under exercise 3"
+        },
+        {
+          "string": "Pec Dec",
+          "style": "exercise label"
+        },
+        {
+          "string": "= 10 chest sets",
+          "style": "large, heaviest Rubik; '10' in accent, rest text_dark"
+        }
       ]
     },
     {
       "n": 5,
       "role": "rule 3",
       "text": [
-        {"string": "Spread Them Over The Week", "style": "title, bold, text_dark, left-aligned"},
-        {"string": "Hard to do 10+ good sets in one session? Split them over 2 days.", "style": "body, regular, text_body_grey"},
-        {"string": "MON", "style": "table header"}, {"string": "TUE", "style": "table header"}, {"string": "WED", "style": "table header"},
-        {"string": "THU", "style": "table header"}, {"string": "FRI", "style": "table header"}, {"string": "SAT", "style": "table header"}, {"string": "SUN", "style": "table header"},
-        {"string": "5 sets", "style": "accent label under MON and under THU"},
-        {"string": "= 10 chest sets / week", "style": "large, heaviest Rubik; '10' in accent"}
+        {
+          "string": "Spread Them Over The Week",
+          "style": "title, bold, text_dark, left-aligned"
+        },
+        {
+          "string": "Hard to do 10+ good sets in one session? Split them over 2 days.",
+          "style": "body, regular, text_body_grey"
+        },
+        {
+          "string": "MON",
+          "style": "table header"
+        },
+        {
+          "string": "TUE",
+          "style": "table header"
+        },
+        {
+          "string": "WED",
+          "style": "table header"
+        },
+        {
+          "string": "THU",
+          "style": "table header"
+        },
+        {
+          "string": "FRI",
+          "style": "table header"
+        },
+        {
+          "string": "SAT",
+          "style": "table header"
+        },
+        {
+          "string": "SUN",
+          "style": "table header"
+        },
+        {
+          "string": "5 sets",
+          "style": "accent label under MON and under THU"
+        },
+        {
+          "string": "= 10 chest sets / week",
+          "style": "large, heaviest Rubik; '10' in accent"
+        }
       ]
     },
     {
       "n": 6,
       "role": "how to progress",
       "text": [
-        {"string": "Start Low, Then Add", "style": "title, bold, text_dark, left-aligned"},
-        {"string": "New to lifting? Start near 10 sets per muscle.", "style": "body, regular, text_body_grey"},
-        {"string": "Progress stalled for weeks? Add 2-3 sets, not 10.", "style": "body, regular, text_body_grey"},
-        {"string": "10", "style": "bar label"}, {"string": "12", "style": "bar label"}, {"string": "15", "style": "bar label"}
+        {
+          "string": "Start Low, Then Add",
+          "style": "title, bold, text_dark, left-aligned"
+        },
+        {
+          "string": "New to lifting? Start near 10 sets per muscle.",
+          "style": "body, regular, text_body_grey"
+        },
+        {
+          "string": "Progress stalled for weeks? Add 2-3 sets, not 10.",
+          "style": "body, regular, text_body_grey"
+        },
+        {
+          "string": "10",
+          "style": "bar label"
+        },
+        {
+          "string": "12",
+          "style": "bar label"
+        },
+        {
+          "string": "15",
+          "style": "bar label"
+        }
       ],
       "graphic": "three rising bars 10 → 12 → 15, the last one in accent"
     },
@@ -109,21 +230,48 @@
       "n": 7,
       "role": "troubleshooting",
       "text": [
-        {"string": "Not Growing? Check This First", "style": "title, bold, text_dark, left-aligned"},
-        {"string": "Are your sets actually hard?", "style": "checklist row"},
-        {"string": "Are you adding weight or reps over time?", "style": "checklist row"},
-        {"string": "Are you eating enough protein?", "style": "checklist row"},
-        {"string": "Are you sleeping enough?", "style": "checklist row"},
-        {"string": "More sets won't fix bad sets.", "style": "bold, accent"}
+        {
+          "string": "Not Growing? Check This First",
+          "style": "title, bold, text_dark, left-aligned"
+        },
+        {
+          "string": "Are your sets actually hard?",
+          "style": "checklist row"
+        },
+        {
+          "string": "Are you adding weight or reps over time?",
+          "style": "checklist row"
+        },
+        {
+          "string": "Are you eating enough protein?",
+          "style": "checklist row"
+        },
+        {
+          "string": "Are you sleeping enough?",
+          "style": "checklist row"
+        },
+        {
+          "string": "More sets won't fix bad sets.",
+          "style": "bold, accent"
+        }
       ]
     },
     {
       "n": 8,
       "role": "product ending",
       "text": [
-        {"string": "Do You Know Your Number?", "style": "headline, bold, text_dark, left-aligned"},
-        {"string": "Most lifters guess.", "style": "body, regular, text_body_grey"},
-        {"string": "Lightweight counts your working sets and shows how they're split across every muscle group.", "style": "body, regular, text_body_grey"}
+        {
+          "string": "Do You Know Your Number?",
+          "style": "headline, bold, text_dark, left-aligned"
+        },
+        {
+          "string": "Most people guess.",
+          "style": "body, regular, text_body_grey"
+        },
+        {
+          "string": "Lightweight counts your working sets and shows how they're split across every muscle group.",
+          "style": "body, regular, text_body_grey"
+        }
       ],
       "screen": "real Lightweight Progress / Muscle balance screenshot (as in approved LW-CAR-0001 slide 8: 'Based on Working sets', radar per muscle group, Sets 35)",
       "product_claims_checked_against_real_screen": [
@@ -134,9 +282,18 @@
   ],
   "claims_to_verify": [
     "'10+ hard sets per muscle, per week': Schoenfeld, Ogborn & Krieger, J Sports Sci 2017;35(11):1073-1082 — dose-response up to ~10 weekly sets; the <5 / 5-9 / 10+ categorical comparison was only a trend (p=0.074). Phrasing '10+' with 'Based on' is the honest level.",
-    "'Most lifters grow well between 10 and 20': coaching consensus; research above ~10 sets is thinner. Not attributed to the study on purpose.",
+    "'Most people grow well between 10 and 20': coaching consensus; research above ~10 sets is thinner. Not attributed to the study on purpose.",
     "'You don't need to hit failure. You just need to get close.': consistent with Refalo et al., Sports Med 2023;53(3):649-665 (no clear advantage of training to failure for hypertrophy).",
     "'1-3 reps before failure' and 'Add 2-3 sets, not 10': common coaching heuristics, not from a single study.",
     "'Split them over 2 days': framed as practicality (quality of sets), not as 'frequency builds more muscle' — volume-equated research shows frequency matters little."
+  ],
+  "changelog": [
+    {
+      "version": "1.1",
+      "date": "2026-10-19",
+      "changes": [
+        "'Most lifters' → 'Most people' on slides 2 and 8 (owner: no 'lifters')"
+      ]
+    }
   ]
 }

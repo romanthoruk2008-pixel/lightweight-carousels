@@ -28,7 +28,8 @@ Each task file lists the reference slide URLs in the **real** order. Use that or
 
 ## Format and saving
 - 1080 × 1350 px PNG per slide, `carousels/LW-CAR-XXXX/outputs/slide-01.png`, `slide-02.png` … in slide order.
-- Text must be exactly the strings in copy.json. No extra words, watermarks or signatures.
+- Text must be exactly the strings in copy.json: no extra words, no added punctuation (for example no period after a title that has none), no watermarks or signatures.
+- Every line of text must be fully visible, never clipped by the phone, an illustration or the slide edge. If something does not fit, move or shrink the illustration or phone, never the text.
 - Commit **one carousel = one commit**: all slides, prompts, `manifest.json`, `caption.txt`, ZIP. If a limit interrupts you, push what exists marked incomplete and record the next slide to generate.
 - Manifest per slide: prompt, result file, attempts, errors, save status. Set `agent_visual_review` to `not_performed` and `user_review` to `pending`. Mark `approved` only after the owner says so.
 - No automatic QA, OCR, reviewer passes or automatic regenerations. Redo a slide only when the owner asks, and only that slide.

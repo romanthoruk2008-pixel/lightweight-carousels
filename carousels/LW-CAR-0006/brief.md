@@ -15,13 +15,13 @@
 | # | Слайд | Текст |
 |---|---|---|
 | 1 | Обкладинка | THE MUSCLES / YOU'RE / **FORGETTING** + фігура з 5 підсвіченими м'язами |
-| 2 | Мапа | Most Lifters Skip These + 5 карток: REAR DELTS, FOREARMS, CORE, HAMSTRINGS, CALVES |
+| 2 | Мапа | Most People Skip These + 5 карток: REAR DELTS, FOREARMS, CORE, HAMSTRINGS, CALVES |
 | 3 | 1 Rear Delts | Pressing trains the front of your shoulders. The back gets almost nothing. — Reverse Pec Dec / Face Pull |
 | 4 | 2 Forearms | Big arms look smaller on top of skinny forearms. — Wrist Curl / Reverse Curl |
 | 5 | 3 Core | Heavy lifts use your core, but your abs still need direct work. — Cable Crunch / Hanging Leg Raise |
 | 6 | 4 Hamstrings | Squats and leg press are mostly quads. Hamstrings need their own exercise. — Romanian Deadlift / Seated Leg Curl |
 | 7 | 5 Calves | Walking all day won't grow them. Train them like any other muscle. — Standing / Seated Calf Raise |
-| 8 | Фінал | Not Sure What You're Skipping? / Log your workouts in Lightweight. / Muscle Balance shows which muscles get your sets — and which ones you're forgetting. + телефон зі справжнім екраном |
+| 8 | Фінал | Not Sure What You're Skipping? / Log your workouts in Lightweight. / Lightweight shows which muscles you're forgetting. + телефон зі справжнім екраном |
 
 Порядок м'язів — згори вниз по тілу, щоб гортати було логічно.
 

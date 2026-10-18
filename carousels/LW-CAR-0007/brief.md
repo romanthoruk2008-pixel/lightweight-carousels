@@ -14,13 +14,13 @@
 | # | Слайд | Головне |
 |---|---|---|
 | 1 | HOW MANY / SETS DO YOU / **ACTUALLY NEED?** | фігура з гантелею + лічильник підходів 1-2-3-4 |
-| 2 | The Short Answer | **10+** hard sets per muscle, per week; «Most lifters grow well between 10 and 20.»; шкала 0–5–10–20+; «Based on Schoenfeld et al., 2017» |
+| 2 | The Short Answer | **10+** hard sets per muscle, per week; «Most people grow well between 10 and 20.»; шкала 0–5–10–20+; «Based on Schoenfeld et al., 2017» |
 | 3 | Only Hard Sets Count | ✗ розминка, ✗ підходи з 5+ запасу, ✓ 1–3 повтори до відмови; «You don't need to hit failure…» |
 | 4 | Count Per Muscle, Not Per Exercise | 3 + 3 + 4 = **10 chest sets** (три вправи на груди) |
 | 5 | Spread Them Over The Week | таблиця тижня: ПН 5 + ЧТ 5 = **10 / week** |
 | 6 | Start Low, Then Add | новачку ~10; застій — +2-3 підходи; стовпчики 10 → 12 → 15 |
 | 7 | Not Growing? Check This First | 4 питання-чекліст; «More sets won't fix bad sets.» |
-| 8 | Do You Know Your Number? | «Most lifters guess.» + Lightweight рахує робочі підходи й розподіл по м'язах; телефон зі справжнім екраном |
+| 8 | Do You Know Your Number? | «Most people guess.» + Lightweight рахує робочі підходи й розподіл по м'язах; телефон зі справжнім екраном |
 
 ## Твердження й джерела
 - «10+» спирається на метааналіз Schoenfeld, Ogborn & Krieger (J Sports Sci, 2017). Ріст кращає приблизно до 10 підходів на тиждень; порівняння груп <5 / 5–9 / 10+ там на межі значущості, тому на слайді «10+», а не точне число.
