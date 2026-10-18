@@ -1,47 +1,50 @@
 # Lightweight carousel production
 
-Read docs/BRAND.md, docs/DECISIONS.md, docs/WORKFLOW.md, docs/handoff.md and data/carousel-progress.json before work. Task templates live in docs/AGENT-PROMPTS.md. Claude also reads CLAUDE.md.
+Read docs/BRAND.md, docs/DECISIONS.md, docs/WORKFLOW.md, docs/handoff.md and data/carousel-progress.json. Task templates: docs/AGENT-PROMPTS.md. Claude also reads CLAUDE.md.
 
-## Current state — binding owner clarification
+## Binding current decisions
 
-THE VISUAL STYLE IS NOT APPROVED. Only the base palette has been recorded. The six-slide Best Arm Day sample is an experiment, not an approved master. Do not infer approval from positive preliminary feedback. approved_style_version remains null.
+The visual style is NOT approved. Only the base palette is recorded. Best Arm Day is an experiment; approved_style_version=null.
 
-We are designing the workflow and agent instructions. No agents, Claude integration, scheduled workflow or cloud image-generation pipeline have been launched or configured. No production assets are stored here yet.
+The owner removed the reviewer role and automatic post-generation review. Do NOT run visual QA, OCR, anatomy audits, additional reviewer agents or paid evaluation calls after generation. Set agent_visual_review=not_performed. The owner reviews results. Prepare factually sound copy and exercise prompts before generation; do not add a separate downstream review stage.
 
-## Remote-only execution
+We are designing the workflow. Claude, cloud image generation, remote output transfer and scheduled runs are not configured. Do not claim otherwise.
 
-The owner requested that nothing be downloaded or cloned to their computer. Work directly through GitHub or an explicitly selected cloud environment. No local checkout, installation or asset download to the owner's device.
+## Remote-only
 
-## Roles
+Nothing may be downloaded, cloned or installed on the owner's computer. Use GitHub or an explicitly selected cloud environment. No local checkout or media downloads.
 
-- Owner: creative direction, explicit style/result acceptance and publishing.
-- Coordinator: assigns stable carousel IDs and batches; integrates results and updates the global summary.
-- Claude / copywriter: owns brief.md and versioned copy.json, including a topic-relevant Lightweight ending.
-- Codex / visual producer: owns prompts and outputs for a whole assigned carousel; preserves approved copy verbatim.
-- Reviewer: one defined pass over content, anatomy, equipment mechanics, text accuracy, consistency and CTA relevance.
+## Shared references
 
-These are proposed workflow roles, not authorization to start agents, connect accounts or trigger mass production.
+references/CAROUSELS.md is the shared reference board. One REF-XXX section = one carousel; top-to-bottom image links = slide order. Read only assigned sections. Record source commit, REF-ID, ordered image URLs and a concise extracted brief.
 
-## Handoffs and consistency
+A file containing image URLs does not itself grant pixel access to a model. Confirm needed references open in the actual execution environment before claiming fidelity. Report a precise blocker when they do not. Do not repeatedly ask the owner to reattach an already accessible reference.
 
-One directory and working branch per carousel. One visual producer per carousel. Each slide needs an ID, purpose, exact text and visual brief. Freeze a specific copy version/commit before visual production. A copy change creates a new version.
+## Three working roles
 
-The assigned worker owns its carousel manifest; the coordinator owns data/carousel-progress.json. This ownership is procedural, not an installed lock service. Merge the copy handoff before visual work branches from it. Distinguish branch-only results from main.
+- Coordinator: stable carousel IDs, small packages, ownership, handoffs and global progress.
+- Claude / copywriter: brief.md, versioned copy.json, useful content and a topic-relevant Lightweight ending.
+- Codex/ChatGPT / visual producer: one complete carousel from frozen copy and selected references; prompts, actual outputs and save status.
+- Owner: style choice, feedback and acceptance.
 
-## Progress and recovery
+Do not launch agents, connect accounts or start bulk generation based only on these role descriptions.
 
-Keep actual attempts, prompts, references, style/content versions, output paths, hashes and errors. Update after every slide; checkpoint after a complete carousel. Preparation is not a generation attempt. Before resuming, reconcile manifests with actual outputs; do not blindly repeat in_progress calls.
+## Handoffs and progress
 
-Separate technical_check, content_review, agent_visual_review, user_review and remote_backup. Do not invent a check or mark user approval yourself. A temporary cloud file is not durable backup. Mark remote verification only after checking the real saved file.
+One directory and working branch per carousel. One visual producer owns the whole series. Only the assigned worker edits its manifest; coordinator edits the global summary. These are procedural conventions, not an installed lock service.
+
+Freeze exact text at a known content version/commit. Do not silently rewrite Claude's copy. Record actual calls, reference/style/content versions, outputs and errors after each slide; checkpoint after a carousel or interruption.
+
+Before resuming, reconcile the log with actual outputs; do not blindly repeat in_progress calls. Separate generated, remotely saved and owner-approved. Skip existing/accepted outputs unless explicitly asked to correct them.
+
+No default audit scripts or checksum passes are required. Record the output actually returned and whether its remote save succeeded. Keep not_run/not_performed for checks that did not happen. A successful save is not a visual review or owner approval. Temporary cloud paths are not durable storage.
 
 ## Generation boundaries
 
-Use the built-in image generator only where actually available. No agreed paid API fallback exists. On quota or unavailable tools, stop the package and write a handoff instead of repeatedly calling or switching providers.
+Use built-in image_gen only where actually available. No paid API fallback has been agreed. On quota/unavailable tools, stop the package and save the exact next step. No automatic correction passes.
 
-Review and retry limits must be explicit in the task package. Otherwise report required corrections without automatic regeneration. Never replace accepted outputs silently.
+Do not invent product features, app screens, logos, citations, unavailable reference fidelity or social performance. Seriozha is not an AI coach. Keep secrets/private data out of this public repository. Do not auto-publish social posts.
 
-Do not invent features, app screens, logos, citations, unavailable reference fidelity or social performance. Seriozha is not an AI coach. Keep secrets and private data out of this public repository. Do not auto-publish social posts.
+The final slide connects its topic to a real Lightweight capability. Generic save copy with a brand wordmark is insufficient; no exact final-slide copy/layout is approved.
 
-The final slide must connect the carousel topic to a real Lightweight capability; merely adding the brand name to a generic save prompt is insufficient. No specific final-slide design or copy is approved yet.
-
-Record owner feedback in docs/DECISIONS.md without erasing earlier history.
+Record owner feedback in docs/DECISIONS.md and preserve earlier decisions as history.
