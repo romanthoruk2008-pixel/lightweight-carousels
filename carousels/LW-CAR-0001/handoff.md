@@ -13,3 +13,9 @@ No visual QA, OCR, anatomy audits, reviewer calls, font checks, or automatic reg
 caption.txt contains the exact caption, including “simpliest”. The ZIP contains the eight PNG exports in numbered order plus caption, frozen copy, manifest, prompts and this handoff. GitHub remote save status is recorded separately in manifest.json; a cloud path by itself is not durable remote storage.
 
 All eight exported PNGs, prompts, caption and first manifest checkpoint were successfully pushed to GitHub in commit `f49490e1c9094c69545dd1c82bb094e63df601e8`. The manifest now records confirmed remote output links. The delivery ZIP is included in the following checkpoint commit. No social posts were published.
+
+## Owner-requested slide 8 revision
+
+The owner reported a vertically compressed phone/screen and requested the original tall screenshot proportions. Existing colors and general layout received positive feedback; this does not establish an approved master. One additional image-edit call was made for slide 8 only (attempt 2, total calls 9). Prompt: prompts/slide-08-attempt-02.txt. Requested source ratio approximately 946:2048, uniform scaling, natural phone tilt and lower-phone cropping beyond the canvas instead of squeezing all screen content into the visible area. Export used uniform scaling to fit 1080 x 1350, without independent axis stretching. Slides 1–7 are unchanged. No downstream visual QA or automatic correction pass occurred; owner review remains pending. Pixel-exact screenshot preservation and achieved screen geometry remain unverified.
+
+Concurrent GitHub changes from commits 807397d and 662c09f were preserved: slides 1–7 retain the owner-requested warm-sand recolor and all remote palette/approval metadata. This revision changes only the slide 8 output.

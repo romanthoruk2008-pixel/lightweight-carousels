@@ -1,0 +1,13 @@
+Edit ONLY the FIRST attached image (the Lightweight "Trying to Build Muscle?" carousel slide). The SECOND attached image is the owner's ORIGINAL full-height app screenshot and is the authoritative source for the phone screen. Return one corrected slide PNG, portrait 1080x1350.
+
+OWNER'S PRECISE CORRECTION: The previous slide compressed the phone screen vertically. Fix that single problem. The real screenshot is approximately 946 pixels wide by 2048 pixels high: its screen width/height ratio is 0.461914, or height 2.165 times width. The phone display MUST retain these ORIGINAL TALL proportions before the natural mild perspective/rotation is applied. Uniformly scale the screenshot as a whole, then map it onto a natural tall smartphone display. NEVER resize width and height independently. NEVER compress the screenshot vertically to fit more UI on this slide. Do not shorten gaps between UI cards or reshape the chart to squeeze the entire source onto the visible phone.
+
+Keep the phone's top near the existing position immediately below the body text, with the same mild clockwise tilt and natural handheld perspective. Keep a substantial phone width comparable to the current phone; LENGTHEN its real physical screen and housing DOWNWARD to the true tall aspect ratio. Its lower end and some lower screen content SHOULD naturally extend beyond the bottom canvas edge. Cropping the LOWER PHONE AND SCREEN at the slide edge is correct, as for a close-up real phone held in a hand. Do not force the entire phone or all of the screenshot into the lower 60% area. Do not make a squat handset, wide display, or tablet. The source screenshot should remain a normal uncompressed phone UI, with its chart and card proportions intact. Preserve the actual provided screen content; no new UI, no invented data, no rearranging the screen.
+
+Adjust the existing line-art hand only where needed to hold the corrected tall black phone naturally. Keep the existing hand/phone drawing style, black bezel and dynamic-island treatment. Do not add a second status bar or duplicate the source status icons.
+EVERYTHING ELSE in the first image stays exactly the same: the small Lightweight logo, its position, off-white #F0F1EB background, pale coral arch #FBE3DD, coral underline, typeface, text positions, spacing and the exact three text blocks:
+Trying to Build Muscle?
+Then you need to be consistently progress overloading.
+Check your progress in Lightweight to make sure you’re still growing.
+
+The owner likes the existing colors and overall slide. This is a targeted screen/phone aspect-ratio correction, not a redesign. Preserve all surrounding pixels wherever possible. No added text, caption, signature, watermark, other objects or layout changes.
