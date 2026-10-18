@@ -23,5 +23,18 @@
       "accepted_assets": []
     }
   ],
-  "next_action": "Review proposed workflow and agent prompts; do not start bulk generation."
+  "next_action": "Owner uploads screenshots grouped in references/CAROUSELS.md; continue style exploration, no bulk generation.",
+  "review_policy": {
+    "separate_reviewer": false,
+    "automatic_post_generation_visual_review": false,
+    "automatic_audit_scripts": false,
+    "agent_visual_review": "not_performed",
+    "reviewer": "owner"
+  },
+  "references": {
+    "source": "references/CAROUSELS.md",
+    "grouping": "one REF-XXX section per carousel",
+    "slide_order": "top-to-bottom image links",
+    "uploaded_carousels": 0
+  }
 }
