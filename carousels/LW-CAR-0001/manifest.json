@@ -19,8 +19,8 @@
       "https://github.com/user-attachments/assets/a6645f77-62e7-4284-9cf3-ef2d1e527897"
     ]
   },
-  "updated_at": "2026-10-18T20:44:26.289543+00:00",
-  "status": "generated_pending_owner_review",
+  "updated_at": "2026-10-18T20:53:25+00:00",
+  "status": "slides_1_7_approved_slide_8_changes_requested",
   "format": {
     "width": 1080,
     "height": 1350,
@@ -40,11 +40,11 @@
     "source": "First image in owner chat message; Lightweight wordmark in Figma screenshot"
   },
   "agent_visual_review": "not_performed",
-  "user_review": "pending",
+  "user_review": "partially_approved",
   "generation_call_count": 8,
   "remote_save_status": "saved_github",
-  "next_slide_to_generate": null,
-  "next_action": "Restore image access or receive the eight reference screenshots as attachments; open all references before generating slide 1. Slide 8 additionally requires a real Lightweight screenshot and confirmation of its draft copy. No regeneration or visual QA is authorized.",
+  "next_slide_to_generate": 8,
+  "next_action": "Wait for the owner's new slide 8 instructions, regenerate slide 8 only, commit it with the carousel. Do not touch approved slides 1-7.",
   "slides": [
     {
       "slide_number": 1,
@@ -87,7 +87,7 @@
       ],
       "save_status": "saved_github",
       "agent_visual_review": "not_performed",
-      "user_review": "pending",
+      "user_review": "approved",
       "generation_result_original_path": "/workspace/generated_images/exec-0aaa1413-fd6a-4845-a692-1a31049ad1ee.png",
       "generated_dimensions": {
         "width": 1122,
@@ -99,7 +99,14 @@
       },
       "export_method": "Mechanical PNG export to requested dimensions with ImageMagick; original image-tool output retained. No creative edits, OCR or visual QA.",
       "result_bytes": 1531780,
-      "remote_save_status": "saved_github"
+      "remote_save_status": "saved_github",
+      "approved_version": {
+        "file": "carousels/LW-CAR-0001/outputs/slide-01.png",
+        "commit": "f49490e1c9094c69545dd1c82bb094e63df601e8",
+        "sha256": "027a175c6105670e05c3a5b4e73f5cc864bd108d10791513d5a063c1ac216c1b",
+        "approved_at": "2026-10-18T20:53:25+00:00",
+        "approved_by": "owner (chat with Claude)"
+      }
     },
     {
       "slide_number": 2,
@@ -142,7 +149,7 @@
       ],
       "save_status": "saved_github",
       "agent_visual_review": "not_performed",
-      "user_review": "pending",
+      "user_review": "approved",
       "generation_result_original_path": "/workspace/generated_images/exec-440e6df2-44ca-4a66-a85f-3699838828f6.png",
       "generated_dimensions": {
         "width": 1122,
@@ -154,7 +161,14 @@
       },
       "export_method": "Mechanical PNG export to requested dimensions with ImageMagick; original image-tool output retained. No creative edits, OCR or visual QA.",
       "result_bytes": 1635116,
-      "remote_save_status": "saved_github"
+      "remote_save_status": "saved_github",
+      "approved_version": {
+        "file": "carousels/LW-CAR-0001/outputs/slide-02.png",
+        "commit": "f49490e1c9094c69545dd1c82bb094e63df601e8",
+        "sha256": "f2c7c3d592d8465500ab71151b596fd9d334f0c6d3bab7880263bfbd2672b5e9",
+        "approved_at": "2026-10-18T20:53:25+00:00",
+        "approved_by": "owner (chat with Claude)"
+      }
     },
     {
       "slide_number": 3,
@@ -197,7 +211,7 @@
       ],
       "save_status": "saved_github",
       "agent_visual_review": "not_performed",
-      "user_review": "pending",
+      "user_review": "approved",
       "generation_result_original_path": "/workspace/generated_images/exec-ac7cdab2-03e1-4377-84b4-360d10d4a86c.png",
       "generated_dimensions": {
         "width": 1122,
@@ -209,7 +223,14 @@
       },
       "export_method": "Mechanical PNG export to requested dimensions with ImageMagick; original image-tool output retained. No creative edits, OCR or visual QA.",
       "result_bytes": 1498311,
-      "remote_save_status": "saved_github"
+      "remote_save_status": "saved_github",
+      "approved_version": {
+        "file": "carousels/LW-CAR-0001/outputs/slide-03.png",
+        "commit": "f49490e1c9094c69545dd1c82bb094e63df601e8",
+        "sha256": "c891a8188dc93fc51e7c244a9d1b02bb520eebeab6ef1839f7311aea4eae161b",
+        "approved_at": "2026-10-18T20:53:25+00:00",
+        "approved_by": "owner (chat with Claude)"
+      }
     },
     {
       "slide_number": 4,
@@ -252,7 +273,7 @@
       ],
       "save_status": "saved_github",
       "agent_visual_review": "not_performed",
-      "user_review": "pending",
+      "user_review": "approved",
       "generation_result_original_path": "/workspace/generated_images/exec-86dcd2b8-5d5c-486e-9930-e49df54f1f56.png",
       "generated_dimensions": {
         "width": 1122,
@@ -264,7 +285,14 @@
       },
       "export_method": "Mechanical PNG export to requested dimensions with ImageMagick; original image-tool output retained. No creative edits, OCR or visual QA.",
       "result_bytes": 1514247,
-      "remote_save_status": "saved_github"
+      "remote_save_status": "saved_github",
+      "approved_version": {
+        "file": "carousels/LW-CAR-0001/outputs/slide-04.png",
+        "commit": "f49490e1c9094c69545dd1c82bb094e63df601e8",
+        "sha256": "686353611c2dfaa26f1cbe7b343b2624d3057481437e1d3e4c6ef4c603920621",
+        "approved_at": "2026-10-18T20:53:25+00:00",
+        "approved_by": "owner (chat with Claude)"
+      }
     },
     {
       "slide_number": 5,
@@ -307,7 +335,7 @@
       ],
       "save_status": "saved_github",
       "agent_visual_review": "not_performed",
-      "user_review": "pending",
+      "user_review": "approved",
       "generation_result_original_path": "/workspace/generated_images/exec-36c6367c-5636-4085-aa07-8e61232df6ab.png",
       "generated_dimensions": {
         "width": 1122,
@@ -319,7 +347,14 @@
       },
       "export_method": "Mechanical PNG export to requested dimensions with ImageMagick; original image-tool output retained. No creative edits, OCR or visual QA.",
       "result_bytes": 1562926,
-      "remote_save_status": "saved_github"
+      "remote_save_status": "saved_github",
+      "approved_version": {
+        "file": "carousels/LW-CAR-0001/outputs/slide-05.png",
+        "commit": "f49490e1c9094c69545dd1c82bb094e63df601e8",
+        "sha256": "445a3209474ad4dc618081851aade8de8ec3d105cf5a195cbf34565041f143d8",
+        "approved_at": "2026-10-18T20:53:25+00:00",
+        "approved_by": "owner (chat with Claude)"
+      }
     },
     {
       "slide_number": 6,
@@ -362,7 +397,7 @@
       ],
       "save_status": "saved_github",
       "agent_visual_review": "not_performed",
-      "user_review": "pending",
+      "user_review": "approved",
       "generation_result_original_path": "/workspace/generated_images/exec-2d8f61a2-f1b9-4a58-9a73-ce93aee14505.png",
       "generated_dimensions": {
         "width": 1122,
@@ -374,7 +409,14 @@
       },
       "export_method": "Mechanical PNG export to requested dimensions with ImageMagick; original image-tool output retained. No creative edits, OCR or visual QA.",
       "result_bytes": 1502465,
-      "remote_save_status": "saved_github"
+      "remote_save_status": "saved_github",
+      "approved_version": {
+        "file": "carousels/LW-CAR-0001/outputs/slide-06.png",
+        "commit": "f49490e1c9094c69545dd1c82bb094e63df601e8",
+        "sha256": "b3eb9532d0d7cd75cbeecded1059b64f911afe1c16e8a185c4a0ab1e43cd2587",
+        "approved_at": "2026-10-18T20:53:25+00:00",
+        "approved_by": "owner (chat with Claude)"
+      }
     },
     {
       "slide_number": 7,
@@ -417,7 +459,7 @@
       ],
       "save_status": "saved_github",
       "agent_visual_review": "not_performed",
-      "user_review": "pending",
+      "user_review": "approved",
       "generation_result_original_path": "/workspace/generated_images/exec-2d8be6f6-59a3-44c9-8a99-812a205f3eb3.png",
       "generated_dimensions": {
         "width": 1122,
@@ -429,7 +471,14 @@
       },
       "export_method": "Mechanical PNG export to requested dimensions with ImageMagick; original image-tool output retained. No creative edits, OCR or visual QA.",
       "result_bytes": 1518800,
-      "remote_save_status": "saved_github"
+      "remote_save_status": "saved_github",
+      "approved_version": {
+        "file": "carousels/LW-CAR-0001/outputs/slide-07.png",
+        "commit": "f49490e1c9094c69545dd1c82bb094e63df601e8",
+        "sha256": "45672c2c47ac2a46c4bdb3ad75169080b79961b18c7d133210c52c88631e6233",
+        "approved_at": "2026-10-18T20:53:25+00:00",
+        "approved_by": "owner (chat with Claude)"
+      }
     },
     {
       "slide_number": 8,
@@ -472,7 +521,7 @@
       ],
       "save_status": "saved_github",
       "agent_visual_review": "not_performed",
-      "user_review": "pending",
+      "user_review": "changes_requested",
       "generation_result_original_path": "/workspace/generated_images/exec-5cac9a41-c895-4ff9-92be-3ae4c078f488.png",
       "generated_dimensions": {
         "width": 1122,
@@ -484,7 +533,11 @@
       },
       "export_method": "Mechanical PNG export to requested dimensions with ImageMagick; original image-tool output retained. No creative edits, OCR or visual QA.",
       "result_bytes": 1470365,
-      "remote_save_status": "saved_github"
+      "remote_save_status": "saved_github",
+      "owner_feedback": {
+        "at": "2026-10-18T20:53:25+00:00",
+        "note": "Owner will change slide 8; regenerate slide 8 only, per the owner's new instructions. Slides 1-7 are approved and must not be regenerated."
+      }
     }
   ],
   "owner_product_screenshot": "Second image in owner chat message: Lightweight Progress / Muscle balance screen",

@@ -33,6 +33,8 @@ Do not launch agents, connect accounts or start bulk generation based only on th
 
 One directory and working branch per carousel. One visual producer owns the whole series. Only the assigned worker edits its manifest; coordinator edits the global summary. These are procedural conventions, not an installed lock service.
 
+Commit each carousel as one complete commit (all slides in numbered order, prompts, manifest, caption); if a limit interrupts it, push what exists marked incomplete. Mark user_review approved only after the owner says so. Repository size is accepted for now.
+
 Freeze exact text at a known content version/commit. Do not silently rewrite Claude's copy. Record actual calls, reference/style/content versions, outputs and errors after each slide; checkpoint after a carousel or interruption.
 
 Before resuming, reconcile the log with actual outputs; do not blindly repeat in_progress calls. Separate generated, remotely saved and owner-approved. Skip existing/accepted outputs unless explicitly asked to correct them.

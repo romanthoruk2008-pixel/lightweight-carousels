@@ -17,12 +17,21 @@
       "content_version": "1.0",
       "copy_status": "frozen_for_pilot",
       "slides": 8,
-      "slides_blocked": [
-        8
-      ],
-      "generation": "not_started",
-      "user_review": "pending",
-      "path": "carousels/LW-CAR-0001/"
+      "slides_blocked": [],
+      "generation": "generated_8_of_8",
+      "user_review": "slides_1_7_approved_slide_8_changes_requested",
+      "path": "carousels/LW-CAR-0001/",
+      "outputs": "carousels/LW-CAR-0001/outputs/",
+      "outputs_commit": "f49490e",
+      "slides_approved": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
     }
   ],
   "experiments": [
@@ -38,7 +47,7 @@
       "accepted_assets": []
     }
   ],
-  "next_action": "Owner gives carousels/LW-CAR-0001/prompts/codex-task.md to Codex: slides 1 and 3 first, owner feedback, then 2,4-7. Slide 8 waits for a real Lightweight screenshot and owner-confirmed wording; logo only from owner-provided file.",
+  "next_action": "Owner provides new slide 8 direction for LW-CAR-0001; Codex regenerates slide 8 only.",
   "review_policy": {
     "separate_reviewer": false,
     "automatic_post_generation_visual_review": false,
@@ -77,5 +86,6 @@
     "actual Lightweight font",
     "Lightweight-specific product ending using real features/screens"
   ],
-  "source_claims_policy": "keep_reference_claims_verbatim"
+  "source_claims_policy": "keep_reference_claims_verbatim",
+  "storage_policy": "Commit each complete carousel (all slides, prompts, manifest, ZIP) to GitHub; repository size is accepted for now, owner will move outputs to a new repo or Google Drive later."
 }
