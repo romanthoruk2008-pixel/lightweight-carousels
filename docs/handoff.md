@@ -45,3 +45,6 @@ Claude, хмарна генерація, канал точного вставл�
 - LW-CAR-0004 «STRUCTURE THE PERFECT PULL DAY» (REF-005), 9 слайдів — 1–8 готові; слайд 9 чекає підтвердження «Personalised Plans» і трансформації Day 1 → Day 100.
 - LW-CAR-0005 «BEST EXERCISES… (Push Day Edition)» (REF-004), 8 слайдів — готовий до генерації.
 - LW-CAR-0002 слайд 9 розблоковано: за замовчуванням справжній екран Muscle balance.
+
+## LW-CAR-0006 «THE MUSCLES YOU'RE FORGETTING» — власна тема
+Пакет: carousels/LW-CAR-0006/. 8 слайдів, усі готові до генерації. Візуальний зразок — LW-CAR-0001 (обкладинка, мапа, список, прийнятий фінал зі справжнім екраном Muscle balance).

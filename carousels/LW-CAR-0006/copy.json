@@ -1,0 +1,145 @@
+{
+  "carousel_id": "LW-CAR-0006",
+  "content_version": "1.0",
+  "status": "frozen",
+  "type": "original",
+  "source": {
+    "ref_id": null,
+    "note": "Original Lightweight topic and copy (owner request 2026-10-19). Format follows the proven 'problem → map → numbered fixes → product' pattern from references/PATTERN.md. Visual templates are our own approved slides of LW-CAR-0001.",
+    "visual_templates": {
+      "cover": "carousels/LW-CAR-0001/outputs/slide-01.png",
+      "map": "carousels/LW-CAR-0001/outputs/slide-02.png",
+      "list": "carousels/LW-CAR-0001/outputs/slide-03.png … slide-07.png",
+      "ending": "carousels/LW-CAR-0001/outputs/slide-08.png"
+    }
+  },
+  "language": "en",
+  "font_family": "Rubik",
+  "colors": {
+    "accent": "#F26445",
+    "accent_tint_background_shape": "#FBE3DD",
+    "background": "#F0F1EB",
+    "text_dark": "#2A2A2A",
+    "text_body_grey": "#6B6B6B",
+    "white": "#FFFFFF",
+    "muscle_base_sand": "#D9CBBE",
+    "skin_ivory_approx": "#F5F0E5"
+  },
+  "caption": {
+    "text": "5 muscles most lifters forget to train. Which one are you skipping? 👇 #gymtips #musclebuilding #workouttips #gymtok",
+    "notes": "The question invites comments."
+  },
+  "hook_alternatives_not_used": [
+    "STOP SKIPPING THESE MUSCLES",
+    "5 MUSCLES YOU'RE NOT TRAINING"
+  ],
+  "slides": [
+    {
+      "n": 1,
+      "role": "hook",
+      "text": [
+        {"string": "THE MUSCLES", "style": "cover line 1, uppercase, heaviest Rubik, text_dark"},
+        {"string": "YOU'RE", "style": "cover line 2, uppercase, heaviest Rubik, text_dark"},
+        {"string": "FORGETTING", "style": "cover line 3, uppercase, heaviest Rubik, accent"}
+      ],
+      "highlight": ["rear delts", "forearms", "obliques / side of the core", "hamstrings", "calves"]
+    },
+    {
+      "n": 2,
+      "role": "map",
+      "text": [
+        {"string": "Most Lifters Skip These", "style": "title, bold, text_dark, centered"},
+        {"string": "REAR DELTS", "style": "card label, white caps on dark bar"},
+        {"string": "FOREARMS", "style": "card label"},
+        {"string": "CORE", "style": "card label"},
+        {"string": "HAMSTRINGS", "style": "card label"},
+        {"string": "CALVES", "style": "card label"}
+      ]
+    },
+    {
+      "n": 3,
+      "role": "list item 1",
+      "text": [
+        {"string": "1", "style": "white number in accent circle badge"},
+        {"string": "Rear Delts", "style": "title, bold, centered"},
+        {"string": "2-3 Sets x 10-15 Reps", "style": "subtitle, semibold, centered"},
+        {"string": "Pressing trains the front of your shoulders. The back gets almost nothing.", "style": "one short line, regular, text_body_grey, centered, max two lines"},
+        {"string": "Reverse Pec Dec", "style": "exercise label"},
+        {"string": "OR", "style": "accent badge"},
+        {"string": "Face Pull", "style": "exercise label"}
+      ]
+    },
+    {
+      "n": 4,
+      "role": "list item 2",
+      "text": [
+        {"string": "2", "style": "badge"},
+        {"string": "Forearms", "style": "title"},
+        {"string": "2-3 Sets x 10-15 Reps", "style": "subtitle"},
+        {"string": "Big arms look smaller on top of skinny forearms.", "style": "why line"},
+        {"string": "Wrist Curl", "style": "exercise label"},
+        {"string": "OR", "style": "accent badge"},
+        {"string": "Reverse Curl", "style": "exercise label"}
+      ]
+    },
+    {
+      "n": 5,
+      "role": "list item 3",
+      "text": [
+        {"string": "3", "style": "badge"},
+        {"string": "Core", "style": "title"},
+        {"string": "2-3 Sets x 10-15 Reps", "style": "subtitle"},
+        {"string": "Heavy lifts use your core, but your abs still need direct work.", "style": "why line"},
+        {"string": "Cable Crunch", "style": "exercise label"},
+        {"string": "OR", "style": "accent badge"},
+        {"string": "Hanging Leg Raise", "style": "exercise label"}
+      ]
+    },
+    {
+      "n": 6,
+      "role": "list item 4",
+      "text": [
+        {"string": "4", "style": "badge"},
+        {"string": "Hamstrings", "style": "title"},
+        {"string": "2-3 Sets x 8-12 Reps", "style": "subtitle"},
+        {"string": "Squats and leg press are mostly quads. Hamstrings need their own exercise.", "style": "why line"},
+        {"string": "Romanian Deadlift", "style": "exercise label"},
+        {"string": "OR", "style": "accent badge"},
+        {"string": "Seated Leg Curl", "style": "exercise label"}
+      ]
+    },
+    {
+      "n": 7,
+      "role": "list item 5",
+      "text": [
+        {"string": "5", "style": "badge"},
+        {"string": "Calves", "style": "title"},
+        {"string": "2-3 Sets x 10-15 Reps", "style": "subtitle"},
+        {"string": "Walking all day won't grow them. Train them like any other muscle.", "style": "why line"},
+        {"string": "Standing Calf Raise", "style": "exercise label"},
+        {"string": "OR", "style": "accent badge"},
+        {"string": "Seated Calf Raise", "style": "exercise label"}
+      ]
+    },
+    {
+      "n": 8,
+      "role": "product ending",
+      "text": [
+        {"string": "Not Sure What You're Skipping?", "style": "headline, bold, text_dark, left-aligned"},
+        {"string": "Log your workouts in Lightweight.", "style": "body, regular, text_body_grey"},
+        {"string": "Muscle Balance shows which muscles get your sets — and which ones you're forgetting.", "style": "body, regular, text_body_grey"}
+      ],
+      "screen": "real Lightweight Progress / Muscle balance screenshot (the one in approved LW-CAR-0001 slide 8; it shows 'No core work in this period')",
+      "product_claims_checked_against_real_screen": [
+        "Muscle balance is computed from working sets ('Based on Working sets' on the screen)",
+        "it flags neglected groups ('No core work in this period' on the screen)",
+        "workouts are logged in the app (Workout tab on the screen)"
+      ]
+    }
+  ],
+  "claims_to_verify": [
+    "Rep ranges are generic hypertrophy guidance, not sourced.",
+    "'Squats and leg press are mostly quads': consistent with research where squat training grew quads and adductors but not hamstrings (e.g. Kubo et al., 2019, squat depth study). Verify the citation before quoting it anywhere.",
+    "'your abs still need direct work': common coaching advice, kept mild on purpose."
+  ]
+}
