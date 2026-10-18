@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "phase": "workflow_design",
-  "style_status": "exploring",
+  "phase": "reference_adaptation_planning",
+  "style_status": "reference_direction_confirmed",
   "approved_style_version": null,
   "integrations": {
     "claude": "not_connected",
@@ -23,7 +23,7 @@
       "accepted_assets": []
     }
   ],
-  "next_action": "Owner uploads grouped carousel references and authentic app screens; continue style exploration without automatic QA or bulk generation.",
+  "next_action": "Select an assigned reference carousel and actual Lightweight font/product screen for the next requested adaptation. Current instruction is documentation only; do not generate.",
   "review_policy": {
     "separate_reviewer": false,
     "automatic_post_generation_visual_review": false,
@@ -35,12 +35,25 @@
     "source": "references/CAROUSELS.md",
     "grouping": "one REF-XXX section per carousel",
     "slide_order": "top-to-bottom image links",
-    "uploaded_carousels": 0
+    "uploaded_carousels": 7,
+    "unique_screenshots": 61,
+    "rendered_image_occurrences": 62,
+    "all_rendered_images_opened": true,
+    "access_checked_on": "2026-10-18"
   },
   "product_assets": {
     "source": "references/APP-SCREENS.md",
     "grouping": "one APP-XXX section per screen/state",
     "uploaded_screens": 0,
     "exact_ui_compositing": "proposed_not_configured"
-  }
+  },
+  "style_direction": "reference_adaptation",
+  "reference_direction_confirmed": true,
+  "font_family": null,
+  "content_voice": "match_assigned_reference",
+  "allowed_brand_changes": [
+    "Lightweight accent colors",
+    "actual Lightweight font",
+    "Lightweight-specific product ending using real features/screens"
+  ]
 }
