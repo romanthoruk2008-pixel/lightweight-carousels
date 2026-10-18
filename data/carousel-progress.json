@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "phase": "workflow_design",
+  "style_status": "exploring",
+  "approved_style_version": null,
+  "integrations": {
+    "claude": "not_connected",
+    "cloud_image_generation": "not_configured",
+    "remote_binary_storage": "not_configured",
+    "scheduled_runs": "not_configured"
+  },
+  "production_carousels": [],
+  "experiments": [
+    {
+      "id": "EXP-0001",
+      "title": "Best Arm Day",
+      "slide_count": 6,
+      "location": "conversation",
+      "repository_assets_imported": false,
+      "user_review": "changes_requested",
+      "style_approved": false,
+      "notes": "Preliminary positive feedback on slides; final CTA lacks product relevance. Owner explicitly states style is not approved.",
+      "accepted_assets": []
+    }
+  ],
+  "next_action": "Review proposed workflow and agent prompts; do not start bulk generation."
+}
