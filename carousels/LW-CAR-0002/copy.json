@@ -43,106 +43,250 @@
       "n": 1,
       "role": "hook",
       "text": [
-        {"string": "STRUCTURE", "style": "cover headline line 1, uppercase, heaviest Rubik, text_dark"},
-        {"string": "THE PERFECT", "style": "cover headline line 2, uppercase, heaviest Rubik, text_dark"},
-        {"string": "PUSH DAY", "style": "cover headline line 3, uppercase, heaviest Rubik, accent"}
+        {
+          "string": "STRUCTURE",
+          "style": "cover headline line 1, uppercase, heaviest Rubik, text_dark"
+        },
+        {
+          "string": "THE PERFECT",
+          "style": "cover headline line 2, uppercase, heaviest Rubik, text_dark"
+        },
+        {
+          "string": "PUSH DAY",
+          "style": "cover headline line 3, uppercase, heaviest Rubik, accent"
+        }
       ]
     },
     {
       "n": 2,
       "role": "overview checklist",
       "text": [
-        {"string": "Your Push Day\nShould Include:", "style": "title, bold, text_dark, left-aligned, two lines"},
-        {"string": "1x Chest (Mid/Low Head)", "style": "bullet; '1x' regular, 'Chest' bold, '(Mid/Low Head)' regular"},
-        {"string": "1x Chest (Upper Head)", "style": "bullet; 'Chest' bold"},
-        {"string": "1x Triceps (Lateral Head)", "style": "bullet; 'Triceps' bold"},
-        {"string": "1x Triceps (Long Head)", "style": "bullet; 'Triceps' bold"},
-        {"string": "1x Shoulders (Front Delt)", "style": "bullet; 'Shoulders' bold"},
-        {"string": "1x Shoulders (Side Delt)", "style": "bullet; 'Shoulders' bold"}
+        {
+          "string": "Your Push Day\nShould Include:",
+          "style": "title, bold, text_dark, left-aligned, two lines"
+        },
+        {
+          "string": "1x Chest (Mid/Low Head)",
+          "style": "bullet; '1x' regular, 'Chest' bold, '(Mid/Low Head)' regular"
+        },
+        {
+          "string": "1x Chest (Upper Head)",
+          "style": "bullet; 'Chest' bold"
+        },
+        {
+          "string": "1x Triceps (Lateral Head)",
+          "style": "bullet; 'Triceps' bold"
+        },
+        {
+          "string": "1x Triceps (Long Head)",
+          "style": "bullet; 'Triceps' bold"
+        },
+        {
+          "string": "1x Shoulders (Front Delt)",
+          "style": "bullet; 'Shoulders' bold"
+        },
+        {
+          "string": "1x Shoulders (Side Delt)",
+          "style": "bullet; 'Shoulders' bold"
+        }
       ]
     },
     {
       "n": 3,
       "role": "list item #1",
       "text": [
-        {"string": "#1", "style": "big number, bold, accent"},
-        {"string": "Upper Chest", "style": "title, bold, text_dark"},
-        {"string": "2-3 sets x 6-10 reps", "style": "subtitle, regular, text_body_grey"},
-        {"string": "Choose one of these exercises to bias your clavicular (upper) chest:", "style": "body, regular, text_body_grey, two lines"},
-        {"string": "Incline DB Bench", "style": "exercise label, regular"},
-        {"string": "Incline Machine Press", "style": "exercise label, regular"}
+        {
+          "string": "#1",
+          "style": "big number, bold, accent"
+        },
+        {
+          "string": "Upper Chest",
+          "style": "title, bold, text_dark"
+        },
+        {
+          "string": "2-3 sets x 6-10 reps",
+          "style": "subtitle, regular, text_body_grey"
+        },
+        {
+          "string": "Choose one of these exercises to bias your clavicular (upper) chest:",
+          "style": "body, regular, text_body_grey, two lines"
+        },
+        {
+          "string": "Incline DB Bench",
+          "style": "exercise label, regular"
+        },
+        {
+          "string": "Incline Machine Press",
+          "style": "exercise label, regular"
+        }
       ]
     },
     {
       "n": 4,
       "role": "list item #2",
       "text": [
-        {"string": "#2", "style": "big number, accent"},
-        {"string": "Mid/Low Chest", "style": "title"},
-        {"string": "2-3 sets x 6-12 reps", "style": "subtitle"},
-        {"string": "Choose one of these exercises to bias your sternocostal (mid/low) chest:", "style": "body"},
-        {"string": "Flat Machine Press", "style": "exercise label"},
-        {"string": "Pec Dec", "style": "exercise label"}
+        {
+          "string": "#2",
+          "style": "big number, accent"
+        },
+        {
+          "string": "Mid/Low Chest",
+          "style": "title"
+        },
+        {
+          "string": "2-3 sets x 6-12 reps",
+          "style": "subtitle"
+        },
+        {
+          "string": "Choose one of these exercises to bias your sternocostal (mid/low) chest:",
+          "style": "body"
+        },
+        {
+          "string": "Flat Machine Press",
+          "style": "exercise label"
+        },
+        {
+          "string": "Pec Dec",
+          "style": "exercise label"
+        }
       ]
     },
     {
       "n": 5,
       "role": "list item #3",
       "text": [
-        {"string": "#3", "style": "big number, accent"},
-        {"string": "Triceps Lateral Head", "style": "title"},
-        {"string": "2-3 sets x 6-12 reps", "style": "subtitle"},
-        {"string": "Choose one of these exercises to bias the lateral head of the triceps:", "style": "body"},
-        {"string": "Triceps Dips", "style": "exercise label"},
-        {"string": "JM Press", "style": "exercise label"}
+        {
+          "string": "#3",
+          "style": "big number, accent"
+        },
+        {
+          "string": "Triceps Lateral Head",
+          "style": "title"
+        },
+        {
+          "string": "2-3 sets x 6-12 reps",
+          "style": "subtitle"
+        },
+        {
+          "string": "Choose one of these exercises to bias the lateral head of the triceps:",
+          "style": "body"
+        },
+        {
+          "string": "Triceps Dips",
+          "style": "exercise label"
+        },
+        {
+          "string": "JM Press",
+          "style": "exercise label"
+        }
       ]
     },
     {
       "n": 6,
       "role": "list item #4",
       "text": [
-        {"string": "#4", "style": "big number, accent"},
-        {"string": "Triceps Long Head", "style": "title"},
-        {"string": "2-3 sets x 8-12 reps", "style": "subtitle"},
-        {"string": "Choose one of these exercises to bias the long head of the triceps:", "style": "body"},
-        {"string": "Triceps Extensions", "style": "exercise label"},
-        {"string": "Overhead Extensions", "style": "exercise label"}
+        {
+          "string": "#4",
+          "style": "big number, accent"
+        },
+        {
+          "string": "Triceps Long Head",
+          "style": "title"
+        },
+        {
+          "string": "2-3 sets x 8-12 reps",
+          "style": "subtitle"
+        },
+        {
+          "string": "Choose one of these exercises to bias the long head of the triceps:",
+          "style": "body"
+        },
+        {
+          "string": "Triceps Extensions",
+          "style": "exercise label"
+        },
+        {
+          "string": "Overhead Extensions",
+          "style": "exercise label"
+        }
       ]
     },
     {
       "n": 7,
       "role": "list item #5",
       "text": [
-        {"string": "#5", "style": "big number, accent"},
-        {"string": "Front Delt", "style": "title"},
-        {"string": "2-3 sets x 6-10 reps", "style": "subtitle"},
-        {"string": "Choose one of these exercises to target your front delts", "style": "body (no colon in source)"},
-        {"string": "DB Shoulder Press", "style": "exercise label"},
-        {"string": "Machine Shoulder Press", "style": "exercise label"}
+        {
+          "string": "#5",
+          "style": "big number, accent"
+        },
+        {
+          "string": "Front Delt",
+          "style": "title"
+        },
+        {
+          "string": "2-3 sets x 6-10 reps",
+          "style": "subtitle"
+        },
+        {
+          "string": "Choose one of these exercises to target your front delts",
+          "style": "body (no colon in source)"
+        },
+        {
+          "string": "DB Shoulder Press",
+          "style": "exercise label"
+        },
+        {
+          "string": "Machine Shoulder Press",
+          "style": "exercise label"
+        }
       ]
     },
     {
       "n": 8,
       "role": "list item #6",
       "text": [
-        {"string": "#6", "style": "big number, accent"},
-        {"string": "Side Delt", "style": "title"},
-        {"string": "2-3 sets x 8-12 reps", "style": "subtitle"},
-        {"string": "Choose one of these exercises to isolate your side delts", "style": "body (no colon in source)"},
-        {"string": "Cable Lateral Raise", "style": "exercise label"},
-        {"string": "DB Lateral Raise", "style": "exercise label"}
+        {
+          "string": "#6",
+          "style": "big number, accent"
+        },
+        {
+          "string": "Side Delt",
+          "style": "title"
+        },
+        {
+          "string": "2-3 sets x 8-12 reps",
+          "style": "subtitle"
+        },
+        {
+          "string": "Choose one of these exercises to isolate your side delts",
+          "style": "body (no colon in source)"
+        },
+        {
+          "string": "Cable Lateral Raise",
+          "style": "exercise label"
+        },
+        {
+          "string": "DB Lateral Raise",
+          "style": "exercise label"
+        }
       ]
     },
     {
       "n": 9,
       "role": "product ending",
-      "status": "pending_owner_screen",
-      "blocked_on": ["a real Lightweight screenshot that shows a logged or finished workout (workout log / summary), or the owner's choice of a ready ending variant"],
+      "status": "default_screen",
       "text": [
-        {"string": "Track Your Workouts.", "style": "headline line 1, heaviest Rubik, text_dark, left-aligned"},
-        {"string": "Build Strength & Muscle Faster.", "style": "headline line 2, heaviest Rubik, accent, left-aligned"}
+        {
+          "string": "Track Your Workouts.",
+          "style": "headline line 1, heaviest Rubik, text_dark, left-aligned"
+        },
+        {
+          "string": "Build Strength & Muscle Faster.",
+          "style": "headline line 2, heaviest Rubik, accent, left-aligned"
+        }
       ],
-      "note": "Kept verbatim from the source. 'Build Strength & Muscle Faster.' is a claim about the product; flagged to the owner, not decided."
+      "note": "Kept verbatim from the source. 'Build Strength & Muscle Faster.' is a claim about the product; flagged to the owner, not decided.",
+      "screen": "default real Lightweight screenshot per carousels/CODEX-SERIES-RULES.md (Muscle balance, as in approved LW-CAR-0001 slide 8); a workout-log screenshot from the owner replaces it if given"
     }
   ],
   "kept_verbatim_by_owner_decision": [

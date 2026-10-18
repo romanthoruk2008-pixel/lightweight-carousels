@@ -1,0 +1,249 @@
+{
+  "carousel_id": "LW-CAR-0005",
+  "content_version": "1.0",
+  "status": "frozen",
+  "language": "en",
+  "font_family": "Rubik",
+  "colors": {
+    "accent": "#F26445",
+    "accent_tint_background_shape": "#FBE3DD",
+    "background": "#F0F1EB",
+    "text_dark": "#2A2A2A",
+    "text_body_grey": "#6B6B6B",
+    "white": "#FFFFFF",
+    "muscle_base_sand": "#D9CBBE",
+    "skin_ivory_approx": "#F5F0E5"
+  },
+  "series_rules": "carousels/CODEX-SERIES-RULES.md",
+  "source": {
+    "ref_id": "REF-004",
+    "board": "references/CAROUSELS.md",
+    "board_commit": "061d7a12e93f3ebadc8fd58c9539df2e5a8bb5ff",
+    "original": "Arrow (@arrowfitnessapp), TikTok, posted 6-17, 73.9K likes, 110 comments, 40.5K saves",
+    "slide_image_urls_in_order": [
+      "https://github.com/user-attachments/assets/157c32e4-2c66-4494-8ca4-64a78f45559e",
+      "https://github.com/user-attachments/assets/7e5eae6a-2eeb-4522-95bc-7722a7105edb",
+      "https://github.com/user-attachments/assets/bab17eb5-4daf-4091-86fd-9d848fc4b61b",
+      "https://github.com/user-attachments/assets/5018a1e6-fe03-4e23-9336-6033df4f0a13",
+      "https://github.com/user-attachments/assets/1c075d5e-8626-403b-a664-81e08b5ea727",
+      "https://github.com/user-attachments/assets/af22285e-84e4-46d6-b4a6-c9a170644a58",
+      "https://github.com/user-attachments/assets/38a8e503-425f-4603-977b-87de9d11f659",
+      "https://github.com/user-attachments/assets/895d94f1-6998-4662-a70d-7767855d48db"
+    ]
+  },
+  "caption": {
+    "text": "The best exercises for every muscle group. Push day edition! Find out what the best exercises are to grow your chest, shoulders & triceps! #gymtips #pushday #bestexercises",
+    "notes": "Verbatim from source."
+  },
+  "slides": [
+    {
+      "n": 1,
+      "role": "hook",
+      "text": [
+        {
+          "string": "BEST EXERCISES",
+          "style": "cover line 1, uppercase, heaviest Rubik, accent"
+        },
+        {
+          "string": "FOR EVERY",
+          "style": "cover line 2, text_dark"
+        },
+        {
+          "string": "MUSCLE GROUP",
+          "style": "cover line 3, text_dark"
+        },
+        {
+          "string": "(Push Day Edition)",
+          "style": "small bold italic, text_dark, centered under the headline"
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "role": "list item #1",
+      "highlight": "upper (clavicular) pec band",
+      "text": [
+        {
+          "string": "#1",
+          "style": "number, bold, accent, underlined"
+        },
+        {
+          "string": "Upper Chest",
+          "style": "title, bold, text_dark"
+        },
+        {
+          "string": "Incline Machine Press",
+          "style": "left exercise label"
+        },
+        {
+          "string": "OR",
+          "style": "white text in accent circle badge"
+        },
+        {
+          "string": "Low-To-High Fly",
+          "style": "right exercise label"
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "role": "list item #2",
+      "highlight": "whole pecs",
+      "text": [
+        {
+          "string": "#2",
+          "style": "number, bold, accent, underlined"
+        },
+        {
+          "string": "Mid/Low Chest",
+          "style": "title, bold, text_dark"
+        },
+        {
+          "string": "Flat Machine Press",
+          "style": "left exercise label"
+        },
+        {
+          "string": "OR",
+          "style": "white text in accent circle badge"
+        },
+        {
+          "string": "Pec Dec",
+          "style": "right exercise label"
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "role": "list item #3",
+      "highlight": "anterior deltoid",
+      "text": [
+        {
+          "string": "#3",
+          "style": "number, bold, accent, underlined"
+        },
+        {
+          "string": "Front Deltoid",
+          "style": "title, bold, text_dark"
+        },
+        {
+          "string": "DB Shoulder Press",
+          "style": "left exercise label"
+        },
+        {
+          "string": "OR",
+          "style": "white text in accent circle badge"
+        },
+        {
+          "string": "Machine Shoulder Press",
+          "style": "right exercise label"
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "role": "list item #4",
+      "highlight": "lateral deltoid",
+      "text": [
+        {
+          "string": "#4",
+          "style": "number, bold, accent, underlined"
+        },
+        {
+          "string": "Side Deltoid",
+          "style": "title, bold, text_dark"
+        },
+        {
+          "string": "DB Lateral Raise",
+          "style": "left exercise label"
+        },
+        {
+          "string": "OR",
+          "style": "white text in accent circle badge"
+        },
+        {
+          "string": "Cable Lateral Raise",
+          "style": "right exercise label"
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "role": "list item #5",
+      "highlight": "outer (lateral) triceps on both arms",
+      "text": [
+        {
+          "string": "#5",
+          "style": "number, bold, accent, underlined"
+        },
+        {
+          "string": "Triceps (Lateral Head)",
+          "style": "title, bold, text_dark"
+        },
+        {
+          "string": "JM Press",
+          "style": "left exercise label"
+        },
+        {
+          "string": "OR",
+          "style": "white text in accent circle badge"
+        },
+        {
+          "string": "Machine Dips",
+          "style": "right exercise label"
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "role": "list item #6",
+      "highlight": "long head of the triceps on both arms",
+      "text": [
+        {
+          "string": "#6",
+          "style": "number, bold, accent, underlined"
+        },
+        {
+          "string": "Triceps (Long Head)",
+          "style": "title, bold, text_dark"
+        },
+        {
+          "string": "Triceps Extension",
+          "style": "left exercise label"
+        },
+        {
+          "string": "OR",
+          "style": "white text in accent circle badge"
+        },
+        {
+          "string": "Overhead Extension",
+          "style": "right exercise label"
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "role": "bonus tip / product ending",
+      "text": [
+        {
+          "string": "Bonus Tip",
+          "style": "title, bold, accent"
+        },
+        {
+          "string": "Track your workouts in every session",
+          "style": "body, regular, text_body_grey"
+        },
+        {
+          "string": "I use Lightweight for that.",
+          "style": "body, regular, text_body_grey"
+        }
+      ],
+      "substitution": "'I use Arrow for that.' → 'I use Lightweight for that.'",
+      "screen": "default real Lightweight screenshot per series rules"
+    }
+  ],
+  "kept_verbatim_by_owner_decision": [
+    "'Pec Dec' spelling",
+    "'every muscle group' on a push-only post",
+    "all exercise-to-muscle mappings"
+  ]
+}

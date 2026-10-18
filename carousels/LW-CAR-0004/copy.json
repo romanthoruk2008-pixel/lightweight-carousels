@@ -1,0 +1,335 @@
+{
+  "carousel_id": "LW-CAR-0004",
+  "content_version": "1.0",
+  "status": "frozen",
+  "language": "en",
+  "font_family": "Rubik",
+  "colors": {
+    "accent": "#F26445",
+    "accent_tint_background_shape": "#FBE3DD",
+    "background": "#F0F1EB",
+    "text_dark": "#2A2A2A",
+    "text_body_grey": "#6B6B6B",
+    "white": "#FFFFFF",
+    "muscle_base_sand": "#D9CBBE",
+    "skin_ivory_approx": "#F5F0E5"
+  },
+  "series_rules": "carousels/CODEX-SERIES-RULES.md",
+  "source": {
+    "ref_id": "REF-005",
+    "board": "references/CAROUSELS.md",
+    "board_commit": "061d7a12e93f3ebadc8fd58c9539df2e5a8bb5ff",
+    "original": "Arrow (@arrowfitnessapp), TikTok, posted 5-26, 68.5K likes, 137 comments, 50.4K saves",
+    "slide_image_urls_in_order": [
+      "https://github.com/user-attachments/assets/3bb9776f-78f1-403a-94a6-a7a601c6452a",
+      "https://github.com/user-attachments/assets/cb08c826-1b6e-4262-a952-35a279eb67f0",
+      "https://github.com/user-attachments/assets/cd6c5355-bc96-4561-aba1-f0b1fbf2af03",
+      "https://github.com/user-attachments/assets/6fc04959-7200-47c2-890e-e1f3b80729e5",
+      "https://github.com/user-attachments/assets/7b31441e-c330-45e9-9df0-ec9c2ea8c3bf",
+      "https://github.com/user-attachments/assets/8b35be12-35b0-4701-bdb1-0f80d013534f",
+      "https://github.com/user-attachments/assets/0da8d8f1-5797-433c-8daa-dc93107f7eb4",
+      "https://github.com/user-attachments/assets/c4b6d69f-f999-47f5-a025-40a455e48765",
+      "https://github.com/user-attachments/assets/bd2d8655-3b13-48b8-a340-5c8dafd5346e"
+    ],
+    "order_note": "CAROUSELS.md lists REF-005's #4 Rear Delts screenshot (8b35be12) after #5 and #6; the list above is the real order."
+  },
+  "caption": {
+    "title": "Build Your Perfect Pull Day",
+    "text": "Choose one of each exercise and you have built the perfect pull day to grow your back & biceps! #pullday #pulldayworkout #gymtips",
+    "notes": "Verbatim from source."
+  },
+  "slides": [
+    {
+      "n": 1,
+      "role": "hook",
+      "text": [
+        {
+          "string": "STRUCTURE",
+          "style": "cover line 1, uppercase, heaviest Rubik, text_dark"
+        },
+        {
+          "string": "THE PERFECT",
+          "style": "cover line 2, text_dark"
+        },
+        {
+          "string": "PULL DAY",
+          "style": "cover line 3, accent"
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "role": "overview checklist",
+      "text": [
+        {
+          "string": "Your Pull Day Should\nInclude:",
+          "style": "title, bold, text_dark, left-aligned, two lines"
+        },
+        {
+          "string": "1x Lat (Shoulder Adduction)",
+          "style": "bullet; 'Lat' bold"
+        },
+        {
+          "string": "1x Lat (Shoulder Extension)",
+          "style": "bullet; 'Lat' bold"
+        },
+        {
+          "string": "1x Trapezius (Upper Back)",
+          "style": "bullet; 'Trapezius' bold"
+        },
+        {
+          "string": "1x Shoulders (Rear Delt)",
+          "style": "bullet; 'Shoulders' bold"
+        },
+        {
+          "string": "1x Biceps",
+          "style": "bullet; 'Biceps' bold"
+        },
+        {
+          "string": "1x Brachioradialis",
+          "style": "bullet; 'Brachioradialis' bold"
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "role": "list item #1",
+      "text": [
+        {
+          "string": "#1",
+          "style": "big number, bold, accent"
+        },
+        {
+          "string": "Lats (Adduction)",
+          "style": "title: muscle bold, bracket regular, text_dark"
+        },
+        {
+          "string": "2-3 sets x 6-10 reps",
+          "style": "sets line, regular, text_body_grey"
+        },
+        {
+          "string": "Choose one of these exercises to train your lats through shoulder adduction:",
+          "style": "body, regular, text_body_grey, two lines"
+        },
+        {
+          "string": "Lat Pulldown",
+          "style": "left exercise label"
+        },
+        {
+          "string": "Pull-ups",
+          "style": "right exercise label"
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "role": "list item #2",
+      "text": [
+        {
+          "string": "#2",
+          "style": "big number, bold, accent"
+        },
+        {
+          "string": "Traps (Upper Back)",
+          "style": "title: muscle bold, bracket regular, text_dark"
+        },
+        {
+          "string": "2-3 sets x 6-10 reps",
+          "style": "sets line, regular, text_body_grey"
+        },
+        {
+          "string": "Choose one of these exercises to train your traps:",
+          "style": "body, regular, text_body_grey, two lines"
+        },
+        {
+          "string": "T-Bar Row",
+          "style": "left exercise label"
+        },
+        {
+          "string": "Wide-Grip Machine Row",
+          "style": "right exercise label"
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "role": "list item #3",
+      "text": [
+        {
+          "string": "#3",
+          "style": "big number, bold, accent"
+        },
+        {
+          "string": "Lats (Extension)",
+          "style": "title: muscle bold, bracket regular, text_dark"
+        },
+        {
+          "string": "2-3 sets x 6-10 reps",
+          "style": "sets line, regular, text_body_grey"
+        },
+        {
+          "string": "Choose one of these exercises to train your lats through shoulder extension:",
+          "style": "body, regular, text_body_grey, two lines"
+        },
+        {
+          "string": "Close-Grip Seated Row",
+          "style": "left exercise label"
+        },
+        {
+          "string": "Lat Pullover",
+          "style": "right exercise label"
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "role": "list item #4",
+      "text": [
+        {
+          "string": "#4",
+          "style": "big number, bold, accent"
+        },
+        {
+          "string": "Rear Delts",
+          "style": "title: muscle bold, bracket regular, text_dark"
+        },
+        {
+          "string": "2-3 sets x 8-12 reps",
+          "style": "sets line, regular, text_body_grey"
+        },
+        {
+          "string": "Choose one of these exercises to isolate your rear delts",
+          "style": "body, regular, text_body_grey, two lines"
+        },
+        {
+          "string": "Reverse Pec Dec",
+          "style": "left exercise label"
+        },
+        {
+          "string": "Cable Reverse Fly",
+          "style": "right exercise label"
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "role": "list item #5",
+      "text": [
+        {
+          "string": "#5",
+          "style": "big number, bold, accent"
+        },
+        {
+          "string": "Biceps",
+          "style": "title: muscle bold, bracket regular, text_dark"
+        },
+        {
+          "string": "2-3 sets x 8-12 reps",
+          "style": "sets line, regular, text_body_grey"
+        },
+        {
+          "string": "Choose one of these exercises to isolate your biceps",
+          "style": "body, regular, text_body_grey, two lines"
+        },
+        {
+          "string": "Preacher Curl",
+          "style": "left exercise label"
+        },
+        {
+          "string": "Cable Curl",
+          "style": "right exercise label"
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "role": "list item #6",
+      "text": [
+        {
+          "string": "#6",
+          "style": "big number, bold, accent"
+        },
+        {
+          "string": "Brachioradialis",
+          "style": "title: muscle bold, bracket regular, text_dark"
+        },
+        {
+          "string": "2-3 sets x 8-12 reps",
+          "style": "sets line, regular, text_body_grey"
+        },
+        {
+          "string": "Choose one of these exercises to train your brachioradialis (forearm)",
+          "style": "body, regular, text_body_grey, two lines"
+        },
+        {
+          "string": "Cable Hammer Curl",
+          "style": "left exercise label"
+        },
+        {
+          "string": "Cable Reverse Curl",
+          "style": "right exercise label"
+        }
+      ]
+    },
+    {
+      "n": 9,
+      "role": "product before/after",
+      "status": "blocked_pending_owner",
+      "blocked_on": [
+        "owner confirms Lightweight really offers personalised plans ('Personalised Plans'), or gives a replacement line",
+        "owner OK to keep the Day 1 → Day 100 transformation promise"
+      ],
+      "text": [
+        {
+          "string": "Day 1",
+          "style": "left column heading, heaviest Rubik, text_dark"
+        },
+        {
+          "string": "Of Using Lightweight",
+          "style": "left subheading; 'Of Using' text_dark, 'Lightweight' accent"
+        },
+        {
+          "string": "Day 100",
+          "style": "right column heading, heaviest Rubik, accent"
+        },
+        {
+          "string": "Of Using Lightweight",
+          "style": "right subheading; 'Lightweight' accent"
+        },
+        {
+          "string": "No Progress",
+          "style": "left list, dark circle ✗ icon"
+        },
+        {
+          "string": "No Structure",
+          "style": "left list, ✗"
+        },
+        {
+          "string": "No Results",
+          "style": "left list, ✗"
+        },
+        {
+          "string": "Consistent Progress",
+          "style": "right list, accent circle ✓ icon"
+        },
+        {
+          "string": "Personalised Plans",
+          "style": "right list, ✓ — needs owner confirmation"
+        },
+        {
+          "string": "Real Results",
+          "style": "right list, ✓"
+        }
+      ],
+      "substitution": "'Of Using Arrow' → 'Of Using Lightweight' (both columns). Everything else verbatim."
+    }
+  ],
+  "kept_verbatim_by_owner_decision": [
+    "slide 2 list order vs numbered slides",
+    "'Trapezius' vs 'Traps', 'Lat' vs 'Lats'",
+    "'Pec Dec' spelling",
+    "missing colons on slides 6-8",
+    "'Personalised' spelling",
+    "all exercise-to-muscle mappings and set/rep ranges"
+  ]
+}

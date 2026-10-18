@@ -40,12 +40,48 @@
       "content_version": "1.0",
       "copy_status": "frozen",
       "slides": 9,
+      "slides_blocked": [],
+      "generation": "not_started",
+      "user_review": "pending",
+      "path": "carousels/LW-CAR-0002/"
+    },
+    {
+      "id": "LW-CAR-0003",
+      "title": "THE ULTIMATE PULL DAY",
+      "source_ref": "REF-002",
+      "content_version": "1.0",
+      "copy_status": "frozen",
+      "slides": 8,
+      "slides_blocked": [],
+      "generation": "not_started",
+      "user_review": "pending",
+      "path": "carousels/LW-CAR-0003/"
+    },
+    {
+      "id": "LW-CAR-0004",
+      "title": "STRUCTURE THE PERFECT PULL DAY",
+      "source_ref": "REF-005",
+      "content_version": "1.0",
+      "copy_status": "frozen",
+      "slides": 9,
       "slides_blocked": [
         9
       ],
       "generation": "not_started",
       "user_review": "pending",
-      "path": "carousels/LW-CAR-0002/"
+      "path": "carousels/LW-CAR-0004/"
+    },
+    {
+      "id": "LW-CAR-0005",
+      "title": "BEST EXERCISES FOR EVERY MUSCLE GROUP (Push Day Edition)",
+      "source_ref": "REF-004",
+      "content_version": "1.0",
+      "copy_status": "frozen",
+      "slides": 8,
+      "slides_blocked": [],
+      "generation": "not_started",
+      "user_review": "pending",
+      "path": "carousels/LW-CAR-0005/"
     }
   ],
   "experiments": [
@@ -61,7 +97,7 @@
       "accepted_assets": []
     }
   ],
-  "next_action": "Codex: finish LW-CAR-0001 slide 8; then LW-CAR-0002 slides 1-8 from carousels/LW-CAR-0002/prompts/codex-task.md. Slide 9 waits for a real Lightweight workout screen or an ending variant.",
+  "next_action": "Codex generates LW-CAR-0002, 0003, 0005 fully and LW-CAR-0004 slides 1-8 (slide 9 waits for owner on \"Personalised Plans\"). One commit per carousel.",
   "review_policy": {
     "separate_reviewer": false,
     "automatic_post_generation_visual_review": false,
@@ -112,5 +148,6 @@
     "white": "#FFFFFF",
     "muscle_base_sand": "#D9CBBE",
     "skin_ivory_approx": "#F5F0E5"
-  }
+  },
+  "series_rules": "carousels/CODEX-SERIES-RULES.md"
 }

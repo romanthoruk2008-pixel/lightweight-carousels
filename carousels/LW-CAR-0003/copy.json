@@ -1,0 +1,208 @@
+{
+  "carousel_id": "LW-CAR-0003",
+  "content_version": "1.0",
+  "status": "frozen",
+  "language": "en",
+  "font_family": "Rubik",
+  "colors": {
+    "accent": "#F26445",
+    "accent_tint_background_shape": "#FBE3DD",
+    "background": "#F0F1EB",
+    "text_dark": "#2A2A2A",
+    "text_body_grey": "#6B6B6B",
+    "white": "#FFFFFF",
+    "muscle_base_sand": "#D9CBBE",
+    "skin_ivory_approx": "#F5F0E5"
+  },
+  "series_rules": "carousels/CODEX-SERIES-RULES.md",
+  "source": {
+    "ref_id": "REF-002",
+    "board": "references/CAROUSELS.md",
+    "board_commit": "061d7a12e93f3ebadc8fd58c9539df2e5a8bb5ff",
+    "original": "Arrow (@arrowfitnessapp), TikTok, posted 5-25, 83.3K likes, 185 comments, 53K saves",
+    "slide_image_urls_in_order": [
+      "https://github.com/user-attachments/assets/69bde988-637b-4ff9-8e7a-a40320f8bb80",
+      "https://github.com/user-attachments/assets/6a84bde8-1c8d-48b8-815b-3361190902a8",
+      "https://github.com/user-attachments/assets/7ce2b363-bbca-41eb-8aee-a52ed3053378",
+      "https://github.com/user-attachments/assets/b2b4562e-c423-4c58-86e8-e94e94f8bfce",
+      "https://github.com/user-attachments/assets/bb24abaf-4549-445e-9bfc-e981a7c6e326",
+      "https://github.com/user-attachments/assets/6c78840e-519e-4ec3-b505-f5ec6f40b80b",
+      "https://github.com/user-attachments/assets/cbc79323-0283-484a-8bdf-ccacca18b8c7",
+      "https://github.com/user-attachments/assets/8f69bcf5-333f-4ad9-98db-fdce155324c2"
+    ]
+  },
+  "caption": {
+    "text": "The ultimate pull day to grow your back & biceps. 1️⃣ Lat Pulldown 2️⃣ T-Bar Row (Chest Support) 3️⃣ Unilateral Seated Row 4️⃣ Reverse Fly 5️⃣ Preacher Curl 6️⃣ Cable Hammer Curl #backday #backdayworkout",
+    "notes": "Verbatim from source, including name differences vs slides."
+  },
+  "slides": [
+    {
+      "n": 1,
+      "role": "hook",
+      "text": [
+        {
+          "string": "THE ULTIMATE",
+          "style": "cover line 1, uppercase, heaviest Rubik, text_dark"
+        },
+        {
+          "string": "PULL DAY",
+          "style": "cover line 2, uppercase, heaviest Rubik, accent, larger"
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "role": "exercise #1",
+      "text": [
+        {
+          "string": "#1",
+          "style": "big number, bold, accent"
+        },
+        {
+          "string": "Lat Pulldown",
+          "style": "title, bold, text_dark"
+        },
+        {
+          "string": "2-3 Sets x 6-10 Reps",
+          "style": "sets line, regular, text_body_grey"
+        },
+        {
+          "string": "Use a wider grip and drive your elbows into the side of your body",
+          "style": "form cue, regular, text_body_grey, two lines"
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "role": "exercise #2",
+      "text": [
+        {
+          "string": "#2",
+          "style": "big number, bold, accent"
+        },
+        {
+          "string": "T-Bar Row",
+          "style": "title, bold, text_dark"
+        },
+        {
+          "string": "2-3 Sets x 6-10 Reps",
+          "style": "sets line, regular, text_body_grey"
+        },
+        {
+          "string": "To grow a thicker back, focuses on squeezing (retracting) your shoulder blades",
+          "style": "form cue, regular, text_body_grey, two lines"
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "role": "exercise #3",
+      "text": [
+        {
+          "string": "#3",
+          "style": "big number, bold, accent"
+        },
+        {
+          "string": "Unilateral Seated Row",
+          "style": "title, bold, text_dark"
+        },
+        {
+          "string": "2-3 Sets x 6-10 Reps",
+          "style": "sets line, regular, text_body_grey"
+        },
+        {
+          "string": "Keep your arm close to your body and drive your elbows towards your hips",
+          "style": "form cue, regular, text_body_grey, two lines"
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "role": "exercise #4",
+      "text": [
+        {
+          "string": "#4",
+          "style": "big number, bold, accent"
+        },
+        {
+          "string": "Reverse Fly",
+          "style": "title, bold, text_dark"
+        },
+        {
+          "string": "2-3 Sets x 8-12 Reps",
+          "style": "sets line, regular, text_body_grey"
+        },
+        {
+          "string": "Keep your upper arm straight and stop just before you’re about to squeeze your scapula",
+          "style": "form cue, regular, text_body_grey, two lines"
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "role": "exercise #5",
+      "text": [
+        {
+          "string": "#5",
+          "style": "big number, bold, accent"
+        },
+        {
+          "string": "DB Preacher Curl",
+          "style": "title, bold, text_dark"
+        },
+        {
+          "string": "2-3 Sets x 8-12 Reps",
+          "style": "sets line, regular, text_body_grey"
+        },
+        {
+          "string": "Any bicep curl variation works fine. Just pick your favourite and progress on it.",
+          "style": "form cue, regular, text_body_grey, two lines"
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "role": "exercise #6",
+      "text": [
+        {
+          "string": "#6",
+          "style": "big number, bold, accent"
+        },
+        {
+          "string": "Cable Hammer Curl",
+          "style": "title, bold, text_dark"
+        },
+        {
+          "string": "2-3 Sets x 8-12 Reps",
+          "style": "sets line, regular, text_body_grey"
+        },
+        {
+          "string": "These grow your forearms and add serious size to your arms.",
+          "style": "form cue, regular, text_body_grey, two lines"
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "role": "product ending",
+      "text": [
+        {
+          "string": "Track Your Workouts.",
+          "style": "headline line 1, heaviest Rubik, text_dark, left-aligned"
+        },
+        {
+          "string": "Build Strength & Muscle Faster.",
+          "style": "headline line 2, heaviest Rubik, accent, left-aligned"
+        }
+      ],
+      "screen": "default real Lightweight screenshot per series rules",
+      "note": "'Build Strength & Muscle Faster.' kept verbatim; product claim flagged to owner (same open question as LW-CAR-0002)."
+    }
+  ],
+  "kept_verbatim_by_owner_decision": [
+    "'focuses' grammar on slide 3",
+    "'favourite' spelling",
+    "caption vs slide exercise names",
+    "all form cues and set/rep ranges"
+  ]
+}

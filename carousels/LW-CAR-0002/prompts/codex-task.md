@@ -37,7 +37,7 @@ The images are TikTok web-viewer screenshots. The slide is the tall off-white im
 - Manifest per slide: prompt, result file, attempts, errors, save status. Set `agent_visual_review` to `not_performed` and `user_review` to `pending`. No automatic QA and no automatic regenerations. Redo a slide only when the owner asks.
 
 ## Order of work
-Slides 1–8 first. Slide 9 only after the owner gives the phone screen (see slide 9).
+All 9 slides. Also read `carousels/CODEX-SERIES-RULES.md`: its product-ending rules apply to slide 9.
 
 ## Slides
 
@@ -79,11 +79,11 @@ Off-white background #F0F1EB with a very large #FBE3DD rounded arch rising in th
 
 Slides 7 and 8 have no colon at the end of the sentence. Keep it that way.
 
-### Slide 9 — product ending (wait for the owner's screen)
+### Slide 9 — product ending
 - Top-left: short #F26445 bar, then a two-line left-aligned headline in the heaviest Rubik:
   - `Track Your Workouts.` in #2A2A2A
   - `Build Strength & Muscle Faster.` in #F26445
-- Lower ~65%: a sketch-style line-art hand (same drawing style as the figures) holds a black smartphone from the bottom left, slightly tilted. The screen shows the **real Lightweight screenshot** the owner gives you: a logged or finished workout. Do not generate, redraw or imitate app UI. If the owner instead picks a ready ending variant, use that. If you cannot insert the real screenshot cleanly, say so.
+- Lower ~65%: a sketch-style line-art hand (same drawing style as the figures) holds a black smartphone from the bottom left, slightly tilted. The screen shows the **default real Lightweight screenshot** from the series rules: the Muscle balance screen from approved LW-CAR-0001 slide 8, in its true proportions and never squashed; the phone may run off the bottom edge. If the owner gives a workout-log screenshot, use that instead. Do not generate, redraw or imitate app UI.
 
 ## Caption
 Write `caption.txt` from copy.json: title, body and hashtags. The 6th item and the hashtags are placeholders; the owner may change them.

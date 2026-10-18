@@ -1,0 +1,35 @@
+# Series rules for every Lightweight carousel (Codex)
+
+Read this before any `carousels/LW-CAR-XXXX/prompts/codex-task.md`. The task file adds that carousel's slides. If the two ever disagree, the task file and its `copy.json` win.
+
+## Goal
+Reproduce the assigned reference carousel 1:1: same slides, order, text, layout, illustrations, poses and equipment. Change only what is listed under "Substitutions". Do not add, remove, rewrite or "improve" anything, including copy that looks wrong. Owner decision: the source's spelling, grammar and debatable fitness claims stay exactly as they are.
+
+## Series master
+The approved slides of LW-CAR-0001 (`carousels/LW-CAR-0001/outputs/slide-01.png` … `slide-08.png`, warm-sand version). Match them for colors, Rubik type, the Lightweight wordmark (size and top-left position), illustration style, line weights and the phone ending. Take each slide's **layout** from the assigned reference, because different references are laid out differently.
+
+## Reference images
+Each task file lists the reference slide URLs in the **real** order. Use that order, not the order in `references/CAROUSELS.md`. The images are TikTok web-viewer screenshots. The slide is the tall off-white image on the left. Ignore all TikTok UI: the search bar "Знайти схожий контент", the arrows and dots at the bottom, and the dark right panel. The bottom few percent of a slide can be hidden behind the pager, so keep all labels fully visible in your version. Before generating, open the images and confirm you can see them. If you cannot, stop and tell the owner exactly which slide failed. Do not guess.
+
+## Substitutions (approved palette, 2026-10-18)
+- Everything bright green in the source → accent **#F26445**. That covers highlighted target muscles, accent words in headlines, "#N" numbers and number badges, short underline bars, dividers, arrows, "OR" badges and "Bonus Tip".
+- Pale-green background arch → **#FBE3DD**. Background **#F0F1EB**.
+- Non-highlighted muscles → warm sand **#D9CBBE**, with darker shades of the same sand for shading. No green or sage tint anywhere on the figures. Skin and tendons light ivory (about #F5F0E5). Fine grey linework.
+- Text: dark **#2A2A2A**, grey body **#6B6B6B**, white **#FFFFFF** on badges.
+- Font: **Rubik** for all text. Covers use the heaviest weight, titles bold, body regular. Rubik is wider than the sources' condensed cover font. Keep the same line breaks, scale to fit, and tell the owner if a layout cannot match. Never shorten text.
+- The Lightweight wordmark goes small in the top-left of every slide, exactly as on LW-CAR-0001, from the owner's wordmark file. Never draw or invent a logo.
+- The brand name "Arrow" in slide text → "Lightweight", only where the task file says so.
+
+## Product ending (phone slides)
+- The phone shows a **real Lightweight screenshot** the owner supplied. It is never generated, redrawn or imitated UI.
+- Default screen: the same Progress / "Muscle balance" screenshot used in the approved LW-CAR-0001 slide 8, unless the task file or the owner gives another one.
+- Keep the screenshot's original proportions and scale it evenly. The phone is a naturally tall real phone held by the sketch-style line-art hand, and it may run off the bottom edge. Never squash the screen to fit it all in (owner feedback on LW-CAR-0001).
+- If you cannot insert the real screenshot cleanly, say so instead of faking it.
+
+## Format and saving
+- 1080 × 1350 px PNG per slide, `carousels/LW-CAR-XXXX/outputs/slide-01.png`, `slide-02.png` … in slide order.
+- Text must be exactly the strings in copy.json. No extra words, watermarks or signatures.
+- Commit **one carousel = one commit**: all slides, prompts, `manifest.json`, `caption.txt`, ZIP. If a limit interrupts you, push what exists marked incomplete and record the next slide to generate.
+- Manifest per slide: prompt, result file, attempts, errors, save status. Set `agent_visual_review` to `not_performed` and `user_review` to `pending`. Mark `approved` only after the owner says so.
+- No automatic QA, OCR, reviewer passes or automatic regenerations. Redo a slide only when the owner asks, and only that slide.
+- Slides marked BLOCKED in the task file wait for the owner. Generate everything else.
