@@ -5,9 +5,9 @@
   "source_ref": "REF-002",
   "source_board_commit": "061d7a12e93f3ebadc8fd58c9539df2e5a8bb5ff",
   "style_master": "LW-CAR-0001 warm-sand outputs at d9225c0afcd9dacb8c532a0878fdd6b488764d06",
-  "status": "complete_pending_owner_review",
+  "status": "complete_partially_approved",
   "agent_visual_review": "not_performed",
-  "user_review": "pending",
+  "user_review": "partially_approved",
   "slides": [
     {
       "slide_number": 1,
@@ -21,7 +21,16 @@
           "attempt": 1,
           "status": "generated",
           "finished_at": "2026-10-18T21:23:28.218080+00:00",
-          "result_original_path": "/workspace/generated_images/exec-5eed443e-90bc-44e4-af97-96de29e14807.png"
+          "result_original_path": "/workspace/generated_images/exec-5eed443e-90bc-44e4-af97-96de29e14807.png",
+          "user_review": "approved",
+          "owner_approval": {
+            "date": "2026-10-19",
+            "timezone": "Europe/Kyiv",
+            "approved_by": "owner",
+            "source": "Explicit approval in this chat of all slides except the final phone slide. Owner called it ninth; this carousel contains eight slides, so exclusion applies to slide 8.",
+            "output_commit": "88c6b8fced33130c754f5e11dfe77f1e4e39b676",
+            "file": "carousels/LW-CAR-0003/outputs/slide-01.png"
+          }
         }
       ],
       "errors": [],
@@ -32,7 +41,7 @@
         "file_path": "/workspace/shared/LW-CAR-0003-references/reference-01.png"
       },
       "agent_visual_review": "not_performed",
-      "user_review": "pending",
+      "user_review": "approved",
       "generation_result_original_path": "/workspace/generated_images/exec-5eed443e-90bc-44e4-af97-96de29e14807.png",
       "export_dimensions": {
         "width": 1080,
@@ -40,7 +49,16 @@
       },
       "export_method": "ImageMagick uniform resize and centered canvas extent; original generation retained. No visual QA or OCR.",
       "reference_url": "https://github.com/user-attachments/assets/69bde988-637b-4ff9-8e7a-a40320f8bb80",
-      "content_version": "1.0"
+      "content_version": "1.0",
+      "owner_approval": {
+        "date": "2026-10-19",
+        "timezone": "Europe/Kyiv",
+        "approved_by": "owner",
+        "source": "Explicit approval in this chat of all slides except the final phone slide. Owner called it ninth; this carousel contains eight slides, so exclusion applies to slide 8.",
+        "output_commit": "88c6b8fced33130c754f5e11dfe77f1e4e39b676",
+        "file": "carousels/LW-CAR-0003/outputs/slide-01.png"
+      },
+      "remote_save_status": "saved_github"
     },
     {
       "slide_number": 2,
@@ -65,7 +83,16 @@
           "finished_at": "2026-10-18T21:32:05.664354+00:00",
           "result_original_path": "/workspace/generated_images/exec-9694fa8d-b8fd-4f13-b700-704be0e1041c.png",
           "prompt_file": "carousels/LW-CAR-0003/prompts/slide-02-attempt-02.txt",
-          "owner_authorized": true
+          "owner_authorized": true,
+          "user_review": "approved",
+          "owner_approval": {
+            "date": "2026-10-19",
+            "timezone": "Europe/Kyiv",
+            "approved_by": "owner",
+            "source": "Explicit approval in this chat of all slides except the final phone slide. Owner called it ninth; this carousel contains eight slides, so exclusion applies to slide 8.",
+            "output_commit": "88c6b8fced33130c754f5e11dfe77f1e4e39b676",
+            "file": "carousels/LW-CAR-0003/outputs/slide-02.png"
+          }
         }
       ],
       "errors": [
@@ -78,7 +105,7 @@
         "file_path": "/workspace/shared/LW-CAR-0003-references/reference-02.png"
       },
       "agent_visual_review": "not_performed",
-      "user_review": "pending",
+      "user_review": "approved",
       "reference_url": "https://github.com/user-attachments/assets/6a84bde8-1c8d-48b8-815b-3361190902a8",
       "content_version": "1.0",
       "owner_retry_authorization": "Owner explicitly requested one new attempt with short opaque warm-sand #D9CBBE shorts and all remaining artwork unchanged.",
@@ -87,7 +114,16 @@
         "width": 1080,
         "height": 1350
       },
-      "export_method": "ImageMagick uniform resize and centered canvas extent; original generation retained. No visual QA or OCR."
+      "export_method": "ImageMagick uniform resize and centered canvas extent; original generation retained. No visual QA or OCR.",
+      "owner_approval": {
+        "date": "2026-10-19",
+        "timezone": "Europe/Kyiv",
+        "approved_by": "owner",
+        "source": "Explicit approval in this chat of all slides except the final phone slide. Owner called it ninth; this carousel contains eight slides, so exclusion applies to slide 8.",
+        "output_commit": "88c6b8fced33130c754f5e11dfe77f1e4e39b676",
+        "file": "carousels/LW-CAR-0003/outputs/slide-02.png"
+      },
+      "remote_save_status": "saved_github"
     },
     {
       "slide_number": 3,
@@ -102,7 +138,16 @@
           "status": "generated",
           "started_at": "2026-10-18T21:24:52.736262+00:00",
           "finished_at": "2026-10-18T21:25:25.520250+00:00",
-          "result_original_path": "/workspace/generated_images/exec-4359110b-2ac1-4e4a-8fd4-b439a0031ac2.png"
+          "result_original_path": "/workspace/generated_images/exec-4359110b-2ac1-4e4a-8fd4-b439a0031ac2.png",
+          "user_review": "approved",
+          "owner_approval": {
+            "date": "2026-10-19",
+            "timezone": "Europe/Kyiv",
+            "approved_by": "owner",
+            "source": "Explicit approval in this chat of all slides except the final phone slide. Owner called it ninth; this carousel contains eight slides, so exclusion applies to slide 8.",
+            "output_commit": "88c6b8fced33130c754f5e11dfe77f1e4e39b676",
+            "file": "carousels/LW-CAR-0003/outputs/slide-03.png"
+          }
         }
       ],
       "errors": [],
@@ -113,7 +158,7 @@
         "file_path": "/workspace/shared/LW-CAR-0003-references/reference-03.png"
       },
       "agent_visual_review": "not_performed",
-      "user_review": "pending",
+      "user_review": "approved",
       "generation_result_original_path": "/workspace/generated_images/exec-4359110b-2ac1-4e4a-8fd4-b439a0031ac2.png",
       "export_dimensions": {
         "width": 1080,
@@ -121,7 +166,16 @@
       },
       "export_method": "ImageMagick uniform resize and centered canvas extent; original generation retained. No visual QA or OCR.",
       "reference_url": "https://github.com/user-attachments/assets/7ce2b363-bbca-41eb-8aee-a52ed3053378",
-      "content_version": "1.0"
+      "content_version": "1.0",
+      "owner_approval": {
+        "date": "2026-10-19",
+        "timezone": "Europe/Kyiv",
+        "approved_by": "owner",
+        "source": "Explicit approval in this chat of all slides except the final phone slide. Owner called it ninth; this carousel contains eight slides, so exclusion applies to slide 8.",
+        "output_commit": "88c6b8fced33130c754f5e11dfe77f1e4e39b676",
+        "file": "carousels/LW-CAR-0003/outputs/slide-03.png"
+      },
+      "remote_save_status": "saved_github"
     },
     {
       "slide_number": 4,
@@ -136,7 +190,16 @@
           "status": "generated",
           "started_at": "2026-10-18T21:25:38.548175+00:00",
           "finished_at": "2026-10-18T21:26:16.575631+00:00",
-          "result_original_path": "/workspace/generated_images/exec-bbfb6e04-f201-4e5b-8ead-538dad688ad0.png"
+          "result_original_path": "/workspace/generated_images/exec-bbfb6e04-f201-4e5b-8ead-538dad688ad0.png",
+          "user_review": "approved",
+          "owner_approval": {
+            "date": "2026-10-19",
+            "timezone": "Europe/Kyiv",
+            "approved_by": "owner",
+            "source": "Explicit approval in this chat of all slides except the final phone slide. Owner called it ninth; this carousel contains eight slides, so exclusion applies to slide 8.",
+            "output_commit": "88c6b8fced33130c754f5e11dfe77f1e4e39b676",
+            "file": "carousels/LW-CAR-0003/outputs/slide-04.png"
+          }
         }
       ],
       "errors": [],
@@ -147,7 +210,7 @@
         "file_path": "/workspace/shared/LW-CAR-0003-references/reference-04.png"
       },
       "agent_visual_review": "not_performed",
-      "user_review": "pending",
+      "user_review": "approved",
       "generation_result_original_path": "/workspace/generated_images/exec-bbfb6e04-f201-4e5b-8ead-538dad688ad0.png",
       "export_dimensions": {
         "width": 1080,
@@ -155,7 +218,16 @@
       },
       "export_method": "ImageMagick uniform resize and centered canvas extent; original generation retained. No visual QA or OCR.",
       "reference_url": "https://github.com/user-attachments/assets/b2b4562e-c423-4c58-86e8-e94e94f8bfce",
-      "content_version": "1.0"
+      "content_version": "1.0",
+      "owner_approval": {
+        "date": "2026-10-19",
+        "timezone": "Europe/Kyiv",
+        "approved_by": "owner",
+        "source": "Explicit approval in this chat of all slides except the final phone slide. Owner called it ninth; this carousel contains eight slides, so exclusion applies to slide 8.",
+        "output_commit": "88c6b8fced33130c754f5e11dfe77f1e4e39b676",
+        "file": "carousels/LW-CAR-0003/outputs/slide-04.png"
+      },
+      "remote_save_status": "saved_github"
     },
     {
       "slide_number": 5,
@@ -170,7 +242,16 @@
           "status": "generated",
           "started_at": "2026-10-18T21:26:23.923349+00:00",
           "finished_at": "2026-10-18T21:26:57.772703+00:00",
-          "result_original_path": "/workspace/generated_images/exec-beaf6c9e-5db9-4e7d-b3fa-6247ff81aa6d.png"
+          "result_original_path": "/workspace/generated_images/exec-beaf6c9e-5db9-4e7d-b3fa-6247ff81aa6d.png",
+          "user_review": "approved",
+          "owner_approval": {
+            "date": "2026-10-19",
+            "timezone": "Europe/Kyiv",
+            "approved_by": "owner",
+            "source": "Explicit approval in this chat of all slides except the final phone slide. Owner called it ninth; this carousel contains eight slides, so exclusion applies to slide 8.",
+            "output_commit": "88c6b8fced33130c754f5e11dfe77f1e4e39b676",
+            "file": "carousels/LW-CAR-0003/outputs/slide-05.png"
+          }
         }
       ],
       "errors": [],
@@ -181,7 +262,7 @@
         "file_path": "/workspace/shared/LW-CAR-0003-references/reference-05.png"
       },
       "agent_visual_review": "not_performed",
-      "user_review": "pending",
+      "user_review": "approved",
       "generation_result_original_path": "/workspace/generated_images/exec-beaf6c9e-5db9-4e7d-b3fa-6247ff81aa6d.png",
       "export_dimensions": {
         "width": 1080,
@@ -189,7 +270,16 @@
       },
       "export_method": "ImageMagick uniform resize and centered canvas extent; original generation retained. No visual QA or OCR.",
       "reference_url": "https://github.com/user-attachments/assets/bb24abaf-4549-445e-9bfc-e981a7c6e326",
-      "content_version": "1.0"
+      "content_version": "1.0",
+      "owner_approval": {
+        "date": "2026-10-19",
+        "timezone": "Europe/Kyiv",
+        "approved_by": "owner",
+        "source": "Explicit approval in this chat of all slides except the final phone slide. Owner called it ninth; this carousel contains eight slides, so exclusion applies to slide 8.",
+        "output_commit": "88c6b8fced33130c754f5e11dfe77f1e4e39b676",
+        "file": "carousels/LW-CAR-0003/outputs/slide-05.png"
+      },
+      "remote_save_status": "saved_github"
     },
     {
       "slide_number": 6,
@@ -204,7 +294,16 @@
           "status": "generated",
           "started_at": "2026-10-18T21:27:12.846477+00:00",
           "finished_at": "2026-10-18T21:27:43.259602+00:00",
-          "result_original_path": "/workspace/generated_images/exec-c5d40e48-e79d-4117-b114-40e034a3e068.png"
+          "result_original_path": "/workspace/generated_images/exec-c5d40e48-e79d-4117-b114-40e034a3e068.png",
+          "user_review": "approved",
+          "owner_approval": {
+            "date": "2026-10-19",
+            "timezone": "Europe/Kyiv",
+            "approved_by": "owner",
+            "source": "Explicit approval in this chat of all slides except the final phone slide. Owner called it ninth; this carousel contains eight slides, so exclusion applies to slide 8.",
+            "output_commit": "88c6b8fced33130c754f5e11dfe77f1e4e39b676",
+            "file": "carousels/LW-CAR-0003/outputs/slide-06.png"
+          }
         }
       ],
       "errors": [],
@@ -215,7 +314,7 @@
         "file_path": "/workspace/shared/LW-CAR-0003-references/reference-06.png"
       },
       "agent_visual_review": "not_performed",
-      "user_review": "pending",
+      "user_review": "approved",
       "generation_result_original_path": "/workspace/generated_images/exec-c5d40e48-e79d-4117-b114-40e034a3e068.png",
       "export_dimensions": {
         "width": 1080,
@@ -223,7 +322,16 @@
       },
       "export_method": "ImageMagick uniform resize and centered canvas extent; original generation retained. No visual QA or OCR.",
       "reference_url": "https://github.com/user-attachments/assets/6c78840e-519e-4ec3-b505-f5ec6f40b80b",
-      "content_version": "1.0"
+      "content_version": "1.0",
+      "owner_approval": {
+        "date": "2026-10-19",
+        "timezone": "Europe/Kyiv",
+        "approved_by": "owner",
+        "source": "Explicit approval in this chat of all slides except the final phone slide. Owner called it ninth; this carousel contains eight slides, so exclusion applies to slide 8.",
+        "output_commit": "88c6b8fced33130c754f5e11dfe77f1e4e39b676",
+        "file": "carousels/LW-CAR-0003/outputs/slide-06.png"
+      },
+      "remote_save_status": "saved_github"
     },
     {
       "slide_number": 7,
@@ -238,7 +346,16 @@
           "status": "generated",
           "started_at": "2026-10-18T21:27:50.159724+00:00",
           "finished_at": "2026-10-18T21:28:16.817488+00:00",
-          "result_original_path": "/workspace/generated_images/exec-f5ab81b5-2235-4df7-ac4d-930369aee672.png"
+          "result_original_path": "/workspace/generated_images/exec-f5ab81b5-2235-4df7-ac4d-930369aee672.png",
+          "user_review": "approved",
+          "owner_approval": {
+            "date": "2026-10-19",
+            "timezone": "Europe/Kyiv",
+            "approved_by": "owner",
+            "source": "Explicit approval in this chat of all slides except the final phone slide. Owner called it ninth; this carousel contains eight slides, so exclusion applies to slide 8.",
+            "output_commit": "88c6b8fced33130c754f5e11dfe77f1e4e39b676",
+            "file": "carousels/LW-CAR-0003/outputs/slide-07.png"
+          }
         }
       ],
       "errors": [],
@@ -249,7 +366,7 @@
         "file_path": "/workspace/shared/LW-CAR-0003-references/reference-07.png"
       },
       "agent_visual_review": "not_performed",
-      "user_review": "pending",
+      "user_review": "approved",
       "generation_result_original_path": "/workspace/generated_images/exec-f5ab81b5-2235-4df7-ac4d-930369aee672.png",
       "export_dimensions": {
         "width": 1080,
@@ -257,7 +374,16 @@
       },
       "export_method": "ImageMagick uniform resize and centered canvas extent; original generation retained. No visual QA or OCR.",
       "reference_url": "https://github.com/user-attachments/assets/cbc79323-0283-484a-8bdf-ccacca18b8c7",
-      "content_version": "1.0"
+      "content_version": "1.0",
+      "owner_approval": {
+        "date": "2026-10-19",
+        "timezone": "Europe/Kyiv",
+        "approved_by": "owner",
+        "source": "Explicit approval in this chat of all slides except the final phone slide. Owner called it ninth; this carousel contains eight slides, so exclusion applies to slide 8.",
+        "output_commit": "88c6b8fced33130c754f5e11dfe77f1e4e39b676",
+        "file": "carousels/LW-CAR-0003/outputs/slide-07.png"
+      },
+      "remote_save_status": "saved_github"
     },
     {
       "slide_number": 8,
@@ -305,7 +431,8 @@
       },
       "reused_at": "2026-10-18T21:31:12.408055+00:00",
       "provenance_limitation": "This reuses an owner-approved composed slide. Original raw screenshot pixel identity was not independently established for the earlier LW-CAR-0001 generated source, as recorded in its handoff. No new app UI was generated for this delivery.",
-      "assembly_count": 1
+      "assembly_count": 1,
+      "remote_save_status": "saved_github"
     }
   ],
   "expected_slide_count": 8,
@@ -325,7 +452,7 @@
   "delivery_archive": "carousels/LW-CAR-0003/LW-CAR-0003-1080x1350.zip",
   "caption_file": "carousels/LW-CAR-0003/caption.txt",
   "updated_at": "2026-10-18T21:32:41.529369+00:00",
-  "remote_save_status": "not_confirmed_at_commit_creation",
+  "remote_save_status": "saved_github",
   "generation_execution_order": [
     1,
     2,
@@ -345,7 +472,7 @@
     "Initial slide 2 call was blocked; exactly one owner-authorized retry with short opaque warm-sand shorts succeeded. No further retry was made."
   ],
   "next_actions": [
-    "Owner reviews all eight delivered final slides. No automatic regeneration or visual QA."
+    "Await owner instructions for final phone slide 8. Slides 1–7 are approved; do not regenerate them without an explicit request."
   ],
   "available_final_slides": [
     1,
@@ -362,5 +489,39 @@
   ],
   "latest_integrated_branch_commit": "205b5df0274b4afed3fdca15a1cb5349e8ad967e",
   "final_image_generation_success_count": 7,
-  "unused_production_scene_count": 1
+  "unused_production_scene_count": 1,
+  "slides_approved": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "slides_pending_review": [
+    8
+  ],
+  "remote_outputs_commit": "88c6b8fced33130c754f5e11dfe77f1e4e39b676",
+  "owner_approval_history": [
+    {
+      "date": "2026-10-19",
+      "timezone": "Europe/Kyiv",
+      "approved_by": "owner",
+      "source": "Explicit approval in this chat of all slides except the final phone slide. Owner called it ninth; this carousel contains eight slides, so exclusion applies to slide 8.",
+      "output_commit": "88c6b8fced33130c754f5e11dfe77f1e4e39b676",
+      "slides": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "excluded_slides": [
+        8
+      ]
+    }
+  ]
 }
