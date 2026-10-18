@@ -27,6 +27,7 @@
 <img width="1425" height="791" alt="image" src="https://github.com/user-attachments/assets/3ba07508-f8d9-438f-b626-4c09bf2e6c9e" />
 <img width="1425" height="791" alt="image" src="https://github.com/user-attachments/assets/63f0c37e-a5e9-49bf-acc9-f506b28a1b0a" />
 <img width="1425" height="791" alt="image" src="https://github.com/user-attachments/assets/a2f0fa97-e17c-4351-8619-70e9d9fae13d" />
+<img width="1425" height="791" alt="image" src="https://github.com/user-attachments/assets/26896496-ef7d-4dee-9505-ee82e772ff8d" />
 <img width="1425" height="791" alt="image" src="https://github.com/user-attachments/assets/01a4f31f-2128-4589-aa82-47fc88de873c" />
 <img width="1425" height="791" alt="image" src="https://github.com/user-attachments/assets/bffa48cc-558f-42e2-95cb-2e9b42688bbd" />
 <img width="1425" height="791" alt="image" src="https://github.com/user-attachments/assets/a9d5ce22-d17a-471b-be16-3880c2b055c4" />
@@ -44,7 +45,16 @@
 
 ### Слайди
 
-_Сюди додай скриншоти другої каруселі в порядку слайдів._
+<img width="1425" height="791" alt="image" src="https://github.com/user-attachments/assets/69bde988-637b-4ff9-8e7a-a40320f8bb80" />
+<img width="1425" height="791" alt="image" src="https://github.com/user-attachments/assets/6a84bde8-1c8d-48b8-815b-3361190902a8" />
+<img width="1425" height="791" alt="image" src="https://github.com/user-attachments/assets/7ce2b363-bbca-41eb-8aee-a52ed3053378" />
+<img width="1425" height="791" alt="image" src="https://github.com/user-attachments/assets/b2b4562e-c423-4c58-86e8-e94e94f8bfce" />
+<img width="1425" height="791" alt="image" src="https://github.com/user-attachments/assets/bb24abaf-4549-445e-9bfc-e981a7c6e326" />
+<img width="1425" height="791" alt="image" src="https://github.com/user-attachments/assets/6c78840e-519e-4ec3-b505-f5ec6f40b80b" />
+<img width="1425" height="791" alt="image" src="https://github.com/user-attachments/assets/cbc79323-0283-484a-8bdf-ccacca18b8c7" />
+<img width="1425" height="791" alt="image" src="https://github.com/user-attachments/assets/8f69bcf5-333f-4ad9-98db-fdce155324c2" />
+
+
 
 ---
 
@@ -56,7 +66,20 @@ _Сюди додай скриншоти другої каруселі в пор�
 
 ### Слайди
 
-_Сюди додай скриншоти третьої каруселі в порядку слайдів._
+<img width="1425" height="791" alt="image" src="https://github.com/user-attachments/assets/ee7218a9-ec64-4cf5-bcf4-8810b720fc47" />
+<img width="1425" height="791" alt="image" src="https://github.com/user-attachments/assets/50480490-5eb3-45d1-be5d-e2faf841227e" />
+<img width="1425" height="791" alt="image" src="https://github.com/user-attachments/assets/0958df30-f7c1-4b89-996a-8e8249306888" />
+<img width="1425" height="791" alt="image" src="https://github.com/user-attachments/assets/83a1be11-efe2-4f08-adf6-76197181abf0" />
+<img width="1425" height="791" alt="image" src="https://github.com/user-attachments/assets/7a3998d1-6d03-4255-a86f-563463367723" />
+<img width="1425" height="791" alt="image" src="https://github.com/user-attachments/assets/2cfcf6ce-6309-44f3-b4c7-2d8dc62d9a01" />
+<img width="1425" height="791" alt="image" src="https://github.com/user-attachments/assets/882ec5ca-ac94-422b-98ae-795e059ba497" />
+
+<img width="1425" height="791" alt="image" src="https://github.com/user-attachments/assets/f06398f6-4f41-46d3-9530-fb8c8a95072d" />
+
+<img width="1425" height="791" alt="image" src="https://github.com/user-attachments/assets/c7421cd7-d649-4f4d-b0e9-2a10c637c573" />
+
+<img width="1425" height="791" alt="image" src="https://github.com/user-attachments/assets/50d65c7d-3cbf-4e0f-bca2-6fafc9acf592" />
+
 
 ---
 
@@ -68,7 +91,89 @@ _Сюди додай скриншоти третьої каруселі в по�
 
 ### Слайди
 
-_Сюди додай скриншоти четвертої каруселі в порядку слайдів._
+
+<img width="1425" height="791" alt="image" src="https://github.com/user-attachments/assets/157c32e4-2c66-4494-8ca4-64a78f45559e" />
+
+<img width="1425" height="791" alt="image" src="https://github.com/user-attachments/assets/7e5eae6a-2eeb-4522-95bc-7722a7105edb" />
+
+<img width="1425" height="791" alt="image" src="https://github.com/user-attachments/assets/bab17eb5-4daf-4091-86fd-9d848fc4b61b" />
+
+<img width="1425" height="791" alt="image" src="https://github.com/user-attachments/assets/5018a1e6-fe03-4e23-9336-6033df4f0a13" />
+
+<img width="1425" height="791" alt="image" src="https://github.com/user-attachments/assets/1c075d5e-8626-403b-a664-81e08b5ea727" />
+
+<img width="1425" height="791" alt="image" src="https://github.com/user-attachments/assets/af22285e-84e4-46d6-b4a6-c9a170644a58" />
+
+<img width="1425" height="791" alt="image" src="https://github.com/user-attachments/assets/38a8e503-425f-4603-977b-87de9d11f659" />
+
+<img width="1425" height="791" alt="image" src="https://github.com/user-attachments/assets/895d94f1-6998-4662-a70d-7767855d48db" />
+
+
+---
+
+## REF-005 — Карусель 5
+
+Назва або тема:  
+Посилання на оригінал:  
+Що подобається:  
+
+### Слайди
+<img width="1425" height="791" alt="image" src="https://github.com/user-attachments/assets/3bb9776f-78f1-403a-94a6-a7a601c6452a" />
+<img width="1425" height="791" alt="image" src="https://github.com/user-attachments/assets/cb08c826-1b6e-4262-a952-35a279eb67f0" />
+<img width="1425" height="791" alt="image" src="https://github.com/user-attachments/assets/cd6c5355-bc96-4561-aba1-f0b1fbf2af03" />
+<img width="1425" height="791" alt="image" src="https://github.com/user-attachments/assets/6fc04959-7200-47c2-890e-e1f3b80729e5" />
+<img width="1425" height="791" alt="image" src="https://github.com/user-attachments/assets/7b31441e-c330-45e9-9df0-ec9c2ea8c3bf" />
+<img width="1425" height="791" alt="image" src="https://github.com/user-attachments/assets/0da8d8f1-5797-433c-8daa-dc93107f7eb4" />
+<img width="1425" height="791" alt="image" src="https://github.com/user-attachments/assets/c4b6d69f-f999-47f5-a025-40a455e48765" />
+<img width="1425" height="791" alt="image" src="https://github.com/user-attachments/assets/8b35be12-35b0-4701-bdb1-0f80d013534f" />
+<img width="1425" height="791" alt="image" src="https://github.com/user-attachments/assets/bd2d8655-3b13-48b8-a340-5c8dafd5346e" />
+
+
+
+
+---
+## REF-006 — Карусель 6
+
+Назва або тема:  
+Посилання на оригінал:  
+Що подобається:  
+
+### Слайди
+
+
+
+<img width="1425" height="791" alt="image" src="https://github.com/user-attachments/assets/2af5e6ad-edd3-4aae-9cf5-9a42129a2a04" />
+<img width="1425" height="791" alt="image" src="https://github.com/user-attachments/assets/bbf2844f-ec1e-46c2-a37f-2b43dfc4bb9e" />
+<img width="1425" height="791" alt="image" src="https://github.com/user-attachments/assets/d87ad4ff-c35d-4c6b-91bf-46ced214cb8a" />
+<img width="1425" height="791" alt="image" src="https://github.com/user-attachments/assets/9a46ca4e-6397-45a3-ae23-f69eb19b3aba" />
+<img width="1425" height="791" alt="image" src="https://github.com/user-attachments/assets/3436a5dc-0e52-4122-b8ba-b845286cc4ea" />
+<img width="1425" height="791" alt="image" src="https://github.com/user-attachments/assets/4c775bfb-9109-4296-b6b6-5aa1a81d6524" />
+<img width="1425" height="791" alt="image" src="https://github.com/user-attachments/assets/c8ed0268-a0b7-4482-848a-05c1350e46e2" />
+<img width="1425" height="791" alt="image" src="https://github.com/user-attachments/assets/83228b7b-bdfc-40d3-90e3-19cacf33a539" />
+
+
+
+---
+
+## REF-007 — Карусель 7
+
+Назва або тема:  
+Посилання на оригінал:  
+Що подобається:  
+
+### Слайди
+<img width="1425" height="791" alt="image" src="https://github.com/user-attachments/assets/665b9bc5-d7f3-44ef-ba52-e8ea4be6106a" />
+<img width="1425" height="791" alt="image" src="https://github.com/user-attachments/assets/9ee19fd9-ef3c-426c-bfaf-8628c5b6b0b7" />
+<img width="1425" height="791" alt="image" src="https://github.com/user-attachments/assets/278e33bf-3d2f-42c6-b0fa-5eb5ee7db450" />
+<img width="1425" height="791" alt="image" src="https://github.com/user-attachments/assets/9d88a5f8-c9f1-4941-bb29-3893c1b346ac" />
+<img width="1425" height="791" alt="image" src="https://github.com/user-attachments/assets/6272b431-ffd9-4b4f-b68b-ef49e9c51226" />
+<img width="1425" height="791" alt="image" src="https://github.com/user-attachments/assets/d6056f91-fdad-465b-8f62-3e3319a46686" />
+<img width="1425" height="791" alt="image" src="https://github.com/user-attachments/assets/123a918f-53f9-4db2-bb21-569d90cfd3ab" />
+<img width="1425" height="791" alt="image" src="https://github.com/user-attachments/assets/a6645f77-62e7-4284-9cf3-ef2d1e527897" />
+
+
+
+
 
 ---
 
