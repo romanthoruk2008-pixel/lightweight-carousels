@@ -21,7 +21,7 @@
     "order_note": "CAROUSELS.md lists REF-001 out of order: its 4th and 6th images are the same slide (#3) and its 5th image is #2. The list above is the real slide order; the duplicate bffa48cc is dropped."
   },
   "branch": "claude/charming-einstein-xgejky",
-  "status": "generated_all_9_pending_owner_review",
+  "status": "owner_approved",
   "format": {
     "width": 1080,
     "height": 1350,
@@ -50,7 +50,7 @@
   },
   "generation_call_count": 11,
   "agent_visual_review": "not_performed",
-  "user_review": "pending",
+  "user_review": "approved",
   "next_slide_to_generate": null,
   "delivery_complete": true,
   "slides": [
@@ -78,15 +78,25 @@
           "prompt_file": "carousels/LW-CAR-0002/prompts/slide-01.txt",
           "finished_at": "2026-10-18T21:07:54.464465+00:00",
           "result_original_path": "/workspace/generated_images/exec-264877c9-bbf8-4899-bb46-db3b5bfc1e22.png",
-          "result_file": "carousels/LW-CAR-0002/outputs/slide-01.png"
+          "result_file": "carousels/LW-CAR-0002/outputs/slide-01.png",
+          "user_review": "approved",
+          "owner_approval": {
+            "date": "2026-10-19",
+            "timezone": "Europe/Kyiv",
+            "approved_by": "owner",
+            "source": "Explicit acceptance of the whole LW-CAR-0002 carousel in this chat",
+            "attempt": 1,
+            "output_commit": "777e1f9499d9a08ae85c01642a4e7a4cf03dde24",
+            "file": "carousels/LW-CAR-0002/outputs/slide-01.png"
+          }
         }
       ],
       "result_file": "carousels/LW-CAR-0002/outputs/slide-01.png",
-      "result_link": "https://github.com/romanthoruk2008-pixel/lightweight-carousels/blob/claude/charming-einstein-xgejky/carousels/LW-CAR-0002/outputs/slide-01.png",
+      "result_link": "https://github.com/romanthoruk2008-pixel/lightweight-carousels/blob/777e1f9499d9a08ae85c01642a4e7a4cf03dde24/carousels/LW-CAR-0002/outputs/slide-01.png",
       "errors": [],
       "save_status": "saved_repository_file",
       "agent_visual_review": "not_performed",
-      "user_review": "pending",
+      "user_review": "approved",
       "blocked_on": [],
       "generation_result_original_path": "/workspace/generated_images/exec-264877c9-bbf8-4899-bb46-db3b5bfc1e22.png",
       "generated_dimensions": {
@@ -98,7 +108,16 @@
         "height": 1350
       },
       "export_method": "Uniform scaling to fit 1080x1350 and centered canvas extent with ImageMagick. No independent axis stretching or creative postprocessing. Original image-tool output retained.",
-      "result_bytes": 1457317
+      "result_bytes": 1457317,
+      "owner_approval": {
+        "date": "2026-10-19",
+        "timezone": "Europe/Kyiv",
+        "approved_by": "owner",
+        "source": "Explicit acceptance of the whole LW-CAR-0002 carousel in this chat",
+        "attempt": 1,
+        "output_commit": "777e1f9499d9a08ae85c01642a4e7a4cf03dde24",
+        "file": "carousels/LW-CAR-0002/outputs/slide-01.png"
+      }
     },
     {
       "slide_number": 2,
@@ -124,15 +143,25 @@
           "prompt_file": "carousels/LW-CAR-0002/prompts/slide-02.txt",
           "finished_at": "2026-10-18T21:08:32.688301+00:00",
           "result_original_path": "/workspace/generated_images/exec-10af98e3-0e9f-42ee-9a0d-ed2178aad76c.png",
-          "result_file": "carousels/LW-CAR-0002/outputs/slide-02.png"
+          "result_file": "carousels/LW-CAR-0002/outputs/slide-02.png",
+          "user_review": "approved",
+          "owner_approval": {
+            "date": "2026-10-19",
+            "timezone": "Europe/Kyiv",
+            "approved_by": "owner",
+            "source": "Explicit acceptance of the whole LW-CAR-0002 carousel in this chat",
+            "attempt": 1,
+            "output_commit": "777e1f9499d9a08ae85c01642a4e7a4cf03dde24",
+            "file": "carousels/LW-CAR-0002/outputs/slide-02.png"
+          }
         }
       ],
       "result_file": "carousels/LW-CAR-0002/outputs/slide-02.png",
-      "result_link": "https://github.com/romanthoruk2008-pixel/lightweight-carousels/blob/claude/charming-einstein-xgejky/carousels/LW-CAR-0002/outputs/slide-02.png",
+      "result_link": "https://github.com/romanthoruk2008-pixel/lightweight-carousels/blob/777e1f9499d9a08ae85c01642a4e7a4cf03dde24/carousels/LW-CAR-0002/outputs/slide-02.png",
       "errors": [],
       "save_status": "saved_repository_file",
       "agent_visual_review": "not_performed",
-      "user_review": "pending",
+      "user_review": "approved",
       "blocked_on": [],
       "generation_result_original_path": "/workspace/generated_images/exec-10af98e3-0e9f-42ee-9a0d-ed2178aad76c.png",
       "generated_dimensions": {
@@ -144,7 +173,16 @@
         "height": 1350
       },
       "export_method": "Uniform scaling to fit 1080x1350 and centered canvas extent with ImageMagick. No independent axis stretching or creative postprocessing. Original image-tool output retained.",
-      "result_bytes": 1553752
+      "result_bytes": 1553752,
+      "owner_approval": {
+        "date": "2026-10-19",
+        "timezone": "Europe/Kyiv",
+        "approved_by": "owner",
+        "source": "Explicit acceptance of the whole LW-CAR-0002 carousel in this chat",
+        "attempt": 1,
+        "output_commit": "777e1f9499d9a08ae85c01642a4e7a4cf03dde24",
+        "file": "carousels/LW-CAR-0002/outputs/slide-02.png"
+      }
     },
     {
       "slide_number": 3,
@@ -170,15 +208,25 @@
           "prompt_file": "carousels/LW-CAR-0002/prompts/slide-03.txt",
           "finished_at": "2026-10-18T21:08:59.260625+00:00",
           "result_original_path": "/workspace/generated_images/exec-d0f83edd-a3fa-4e77-9b38-9d6c32dc13ab.png",
-          "result_file": "carousels/LW-CAR-0002/outputs/slide-03.png"
+          "result_file": "carousels/LW-CAR-0002/outputs/slide-03.png",
+          "user_review": "approved",
+          "owner_approval": {
+            "date": "2026-10-19",
+            "timezone": "Europe/Kyiv",
+            "approved_by": "owner",
+            "source": "Explicit acceptance of the whole LW-CAR-0002 carousel in this chat",
+            "attempt": 1,
+            "output_commit": "777e1f9499d9a08ae85c01642a4e7a4cf03dde24",
+            "file": "carousels/LW-CAR-0002/outputs/slide-03.png"
+          }
         }
       ],
       "result_file": "carousels/LW-CAR-0002/outputs/slide-03.png",
-      "result_link": "https://github.com/romanthoruk2008-pixel/lightweight-carousels/blob/claude/charming-einstein-xgejky/carousels/LW-CAR-0002/outputs/slide-03.png",
+      "result_link": "https://github.com/romanthoruk2008-pixel/lightweight-carousels/blob/777e1f9499d9a08ae85c01642a4e7a4cf03dde24/carousels/LW-CAR-0002/outputs/slide-03.png",
       "errors": [],
       "save_status": "saved_repository_file",
       "agent_visual_review": "not_performed",
-      "user_review": "pending",
+      "user_review": "approved",
       "blocked_on": [],
       "generation_result_original_path": "/workspace/generated_images/exec-d0f83edd-a3fa-4e77-9b38-9d6c32dc13ab.png",
       "generated_dimensions": {
@@ -190,7 +238,16 @@
         "height": 1350
       },
       "export_method": "Uniform scaling to fit 1080x1350 and centered canvas extent with ImageMagick. No independent axis stretching or creative postprocessing. Original image-tool output retained.",
-      "result_bytes": 1460890
+      "result_bytes": 1460890,
+      "owner_approval": {
+        "date": "2026-10-19",
+        "timezone": "Europe/Kyiv",
+        "approved_by": "owner",
+        "source": "Explicit acceptance of the whole LW-CAR-0002 carousel in this chat",
+        "attempt": 1,
+        "output_commit": "777e1f9499d9a08ae85c01642a4e7a4cf03dde24",
+        "file": "carousels/LW-CAR-0002/outputs/slide-03.png"
+      }
     },
     {
       "slide_number": 4,
@@ -216,15 +273,25 @@
           "prompt_file": "carousels/LW-CAR-0002/prompts/slide-04.txt",
           "finished_at": "2026-10-18T21:09:40.928253+00:00",
           "result_original_path": "/workspace/generated_images/exec-4ac9f52a-4138-4bd2-aa55-fd3713df0a3d.png",
-          "result_file": "carousels/LW-CAR-0002/outputs/slide-04.png"
+          "result_file": "carousels/LW-CAR-0002/outputs/slide-04.png",
+          "user_review": "approved",
+          "owner_approval": {
+            "date": "2026-10-19",
+            "timezone": "Europe/Kyiv",
+            "approved_by": "owner",
+            "source": "Explicit acceptance of the whole LW-CAR-0002 carousel in this chat",
+            "attempt": 1,
+            "output_commit": "777e1f9499d9a08ae85c01642a4e7a4cf03dde24",
+            "file": "carousels/LW-CAR-0002/outputs/slide-04.png"
+          }
         }
       ],
       "result_file": "carousels/LW-CAR-0002/outputs/slide-04.png",
-      "result_link": "https://github.com/romanthoruk2008-pixel/lightweight-carousels/blob/claude/charming-einstein-xgejky/carousels/LW-CAR-0002/outputs/slide-04.png",
+      "result_link": "https://github.com/romanthoruk2008-pixel/lightweight-carousels/blob/777e1f9499d9a08ae85c01642a4e7a4cf03dde24/carousels/LW-CAR-0002/outputs/slide-04.png",
       "errors": [],
       "save_status": "saved_repository_file",
       "agent_visual_review": "not_performed",
-      "user_review": "pending",
+      "user_review": "approved",
       "blocked_on": [],
       "generation_result_original_path": "/workspace/generated_images/exec-4ac9f52a-4138-4bd2-aa55-fd3713df0a3d.png",
       "generated_dimensions": {
@@ -236,7 +303,16 @@
         "height": 1350
       },
       "export_method": "Uniform scaling to fit 1080x1350 and centered canvas extent with ImageMagick. No independent axis stretching or creative postprocessing. Original image-tool output retained.",
-      "result_bytes": 1501981
+      "result_bytes": 1501981,
+      "owner_approval": {
+        "date": "2026-10-19",
+        "timezone": "Europe/Kyiv",
+        "approved_by": "owner",
+        "source": "Explicit acceptance of the whole LW-CAR-0002 carousel in this chat",
+        "attempt": 1,
+        "output_commit": "777e1f9499d9a08ae85c01642a4e7a4cf03dde24",
+        "file": "carousels/LW-CAR-0002/outputs/slide-04.png"
+      }
     },
     {
       "slide_number": 5,
@@ -262,15 +338,25 @@
           "prompt_file": "carousels/LW-CAR-0002/prompts/slide-05.txt",
           "finished_at": "2026-10-18T21:10:15.556740+00:00",
           "result_original_path": "/workspace/generated_images/exec-2c121e5c-0bf4-4a6b-abd0-f673c99890bd.png",
-          "result_file": "carousels/LW-CAR-0002/outputs/slide-05.png"
+          "result_file": "carousels/LW-CAR-0002/outputs/slide-05.png",
+          "user_review": "approved",
+          "owner_approval": {
+            "date": "2026-10-19",
+            "timezone": "Europe/Kyiv",
+            "approved_by": "owner",
+            "source": "Explicit acceptance of the whole LW-CAR-0002 carousel in this chat",
+            "attempt": 1,
+            "output_commit": "777e1f9499d9a08ae85c01642a4e7a4cf03dde24",
+            "file": "carousels/LW-CAR-0002/outputs/slide-05.png"
+          }
         }
       ],
       "result_file": "carousels/LW-CAR-0002/outputs/slide-05.png",
-      "result_link": "https://github.com/romanthoruk2008-pixel/lightweight-carousels/blob/claude/charming-einstein-xgejky/carousels/LW-CAR-0002/outputs/slide-05.png",
+      "result_link": "https://github.com/romanthoruk2008-pixel/lightweight-carousels/blob/777e1f9499d9a08ae85c01642a4e7a4cf03dde24/carousels/LW-CAR-0002/outputs/slide-05.png",
       "errors": [],
       "save_status": "saved_repository_file",
       "agent_visual_review": "not_performed",
-      "user_review": "pending",
+      "user_review": "approved",
       "blocked_on": [],
       "generation_result_original_path": "/workspace/generated_images/exec-2c121e5c-0bf4-4a6b-abd0-f673c99890bd.png",
       "generated_dimensions": {
@@ -282,7 +368,16 @@
         "height": 1350
       },
       "export_method": "Uniform scaling to fit 1080x1350 and centered canvas extent with ImageMagick. No independent axis stretching or creative postprocessing. Original image-tool output retained.",
-      "result_bytes": 1402090
+      "result_bytes": 1402090,
+      "owner_approval": {
+        "date": "2026-10-19",
+        "timezone": "Europe/Kyiv",
+        "approved_by": "owner",
+        "source": "Explicit acceptance of the whole LW-CAR-0002 carousel in this chat",
+        "attempt": 1,
+        "output_commit": "777e1f9499d9a08ae85c01642a4e7a4cf03dde24",
+        "file": "carousels/LW-CAR-0002/outputs/slide-05.png"
+      }
     },
     {
       "slide_number": 6,
@@ -324,11 +419,21 @@
           "authorization": "Explicit owner request in current chat",
           "finished_at": "2026-10-18T21:19:37.402067+00:00",
           "result_original_path": "/workspace/generated_images/exec-bdce2ded-ef27-49f7-b979-90d6bb7311ee.png",
-          "result_file": "carousels/LW-CAR-0002/outputs/slide-06.png"
+          "result_file": "carousels/LW-CAR-0002/outputs/slide-06.png",
+          "user_review": "approved",
+          "owner_approval": {
+            "date": "2026-10-19",
+            "timezone": "Europe/Kyiv",
+            "approved_by": "owner",
+            "source": "Explicit acceptance of the whole LW-CAR-0002 carousel in this chat",
+            "attempt": 3,
+            "output_commit": "3b6c89477a2cda4348803eef626e4a08c0711a95",
+            "file": "carousels/LW-CAR-0002/outputs/slide-06.png"
+          }
         }
       ],
       "result_file": "carousels/LW-CAR-0002/outputs/slide-06.png",
-      "result_link": "https://github.com/romanthoruk2008-pixel/lightweight-carousels/blob/claude/charming-einstein-xgejky/carousels/LW-CAR-0002/outputs/slide-06.png",
+      "result_link": "https://github.com/romanthoruk2008-pixel/lightweight-carousels/blob/3b6c89477a2cda4348803eef626e4a08c0711a95/carousels/LW-CAR-0002/outputs/slide-06.png",
       "errors": [
         "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 3c9f1644-410d-45a5-bb9f-8c430f195c6c. safety_violations=[sexual].\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"sexual\\\"\\n      ]\\n    }\\n  }\\n}\")",
         "Image generation failed: HTTP 400 moderation_blocked at output stage; safety_violations=[sexual]; request ID 3c9f1644-410d-45a5-bb9f-8c430f195c6c. No image returned. No automatic retry.",
@@ -336,7 +441,7 @@
       ],
       "save_status": "saved_repository_file",
       "agent_visual_review": "not_performed",
-      "user_review": "pending",
+      "user_review": "approved",
       "blocked_on": [],
       "generation_result_original_path": "/workspace/generated_images/exec-bdce2ded-ef27-49f7-b979-90d6bb7311ee.png",
       "generated_dimensions": {
@@ -349,7 +454,16 @@
       },
       "export_method": "Uniform scaling to fit 1080x1350 plus centered canvas extent; no independent-axis stretching. Original image-tool file retained.",
       "result_bytes": 1413981,
-      "owner_requested_variant": "plain opaque sand #D9CBBE short shorts; attempt 3 succeeded after two output-moderation blocks"
+      "owner_requested_variant": "plain opaque sand #D9CBBE short shorts; attempt 3 succeeded after two output-moderation blocks",
+      "owner_approval": {
+        "date": "2026-10-19",
+        "timezone": "Europe/Kyiv",
+        "approved_by": "owner",
+        "source": "Explicit acceptance of the whole LW-CAR-0002 carousel in this chat",
+        "attempt": 3,
+        "output_commit": "3b6c89477a2cda4348803eef626e4a08c0711a95",
+        "file": "carousels/LW-CAR-0002/outputs/slide-06.png"
+      }
     },
     {
       "slide_number": 7,
@@ -375,15 +489,25 @@
           "prompt_file": "carousels/LW-CAR-0002/prompts/slide-07.txt",
           "finished_at": "2026-10-18T21:11:52.200903+00:00",
           "result_original_path": "/workspace/generated_images/exec-9c63ba8b-8e95-47ec-aebe-8f2cecee464e.png",
-          "result_file": "carousels/LW-CAR-0002/outputs/slide-07.png"
+          "result_file": "carousels/LW-CAR-0002/outputs/slide-07.png",
+          "user_review": "approved",
+          "owner_approval": {
+            "date": "2026-10-19",
+            "timezone": "Europe/Kyiv",
+            "approved_by": "owner",
+            "source": "Explicit acceptance of the whole LW-CAR-0002 carousel in this chat",
+            "attempt": 1,
+            "output_commit": "777e1f9499d9a08ae85c01642a4e7a4cf03dde24",
+            "file": "carousels/LW-CAR-0002/outputs/slide-07.png"
+          }
         }
       ],
       "result_file": "carousels/LW-CAR-0002/outputs/slide-07.png",
-      "result_link": "https://github.com/romanthoruk2008-pixel/lightweight-carousels/blob/claude/charming-einstein-xgejky/carousels/LW-CAR-0002/outputs/slide-07.png",
+      "result_link": "https://github.com/romanthoruk2008-pixel/lightweight-carousels/blob/777e1f9499d9a08ae85c01642a4e7a4cf03dde24/carousels/LW-CAR-0002/outputs/slide-07.png",
       "errors": [],
       "save_status": "saved_repository_file",
       "agent_visual_review": "not_performed",
-      "user_review": "pending",
+      "user_review": "approved",
       "blocked_on": [],
       "generation_result_original_path": "/workspace/generated_images/exec-9c63ba8b-8e95-47ec-aebe-8f2cecee464e.png",
       "generated_dimensions": {
@@ -395,7 +519,16 @@
         "height": 1350
       },
       "export_method": "Uniform scaling to fit 1080x1350 and centered canvas extent with ImageMagick. No independent axis stretching or creative postprocessing. Original image-tool output retained.",
-      "result_bytes": 1476851
+      "result_bytes": 1476851,
+      "owner_approval": {
+        "date": "2026-10-19",
+        "timezone": "Europe/Kyiv",
+        "approved_by": "owner",
+        "source": "Explicit acceptance of the whole LW-CAR-0002 carousel in this chat",
+        "attempt": 1,
+        "output_commit": "777e1f9499d9a08ae85c01642a4e7a4cf03dde24",
+        "file": "carousels/LW-CAR-0002/outputs/slide-07.png"
+      }
     },
     {
       "slide_number": 8,
@@ -421,15 +554,25 @@
           "prompt_file": "carousels/LW-CAR-0002/prompts/slide-08.txt",
           "finished_at": "2026-10-18T21:12:21.486212+00:00",
           "result_original_path": "/workspace/generated_images/exec-1193387b-1353-47c8-8adf-36c262c74437.png",
-          "result_file": "carousels/LW-CAR-0002/outputs/slide-08.png"
+          "result_file": "carousels/LW-CAR-0002/outputs/slide-08.png",
+          "user_review": "approved",
+          "owner_approval": {
+            "date": "2026-10-19",
+            "timezone": "Europe/Kyiv",
+            "approved_by": "owner",
+            "source": "Explicit acceptance of the whole LW-CAR-0002 carousel in this chat",
+            "attempt": 1,
+            "output_commit": "777e1f9499d9a08ae85c01642a4e7a4cf03dde24",
+            "file": "carousels/LW-CAR-0002/outputs/slide-08.png"
+          }
         }
       ],
       "result_file": "carousels/LW-CAR-0002/outputs/slide-08.png",
-      "result_link": "https://github.com/romanthoruk2008-pixel/lightweight-carousels/blob/claude/charming-einstein-xgejky/carousels/LW-CAR-0002/outputs/slide-08.png",
+      "result_link": "https://github.com/romanthoruk2008-pixel/lightweight-carousels/blob/777e1f9499d9a08ae85c01642a4e7a4cf03dde24/carousels/LW-CAR-0002/outputs/slide-08.png",
       "errors": [],
       "save_status": "saved_repository_file",
       "agent_visual_review": "not_performed",
-      "user_review": "pending",
+      "user_review": "approved",
       "blocked_on": [],
       "generation_result_original_path": "/workspace/generated_images/exec-1193387b-1353-47c8-8adf-36c262c74437.png",
       "generated_dimensions": {
@@ -441,7 +584,16 @@
         "height": 1350
       },
       "export_method": "Uniform scaling to fit 1080x1350 and centered canvas extent with ImageMagick. No independent axis stretching or creative postprocessing. Original image-tool output retained.",
-      "result_bytes": 1386619
+      "result_bytes": 1386619,
+      "owner_approval": {
+        "date": "2026-10-19",
+        "timezone": "Europe/Kyiv",
+        "approved_by": "owner",
+        "source": "Explicit acceptance of the whole LW-CAR-0002 carousel in this chat",
+        "attempt": 1,
+        "output_commit": "777e1f9499d9a08ae85c01642a4e7a4cf03dde24",
+        "file": "carousels/LW-CAR-0002/outputs/slide-08.png"
+      }
     },
     {
       "slide_number": 9,
@@ -469,15 +621,25 @@
           "finished_at": "2026-10-18T21:21:26.593994+00:00",
           "result_original_path": "/workspace/generated_images/exec-0a9e1266-7a06-4bf1-a873-3364d9410d6e.png",
           "result_file": "carousels/LW-CAR-0002/outputs/slide-09.png",
-          "post_generation_assembly": "Applied preplanned uniform-scale bitmap layer from approved master at y420; no downstream visual QA or correction pass."
+          "post_generation_assembly": "Applied preplanned uniform-scale bitmap layer from approved master at y420; no downstream visual QA or correction pass.",
+          "user_review": "approved",
+          "owner_approval": {
+            "date": "2026-10-19",
+            "timezone": "Europe/Kyiv",
+            "approved_by": "owner",
+            "source": "Explicit acceptance of the whole LW-CAR-0002 carousel in this chat",
+            "attempt": 1,
+            "output_commit": "3b6c89477a2cda4348803eef626e4a08c0711a95",
+            "file": "carousels/LW-CAR-0002/outputs/slide-09.png"
+          }
         }
       ],
       "result_file": "carousels/LW-CAR-0002/outputs/slide-09.png",
-      "result_link": "https://github.com/romanthoruk2008-pixel/lightweight-carousels/blob/claude/charming-einstein-xgejky/carousels/LW-CAR-0002/outputs/slide-09.png",
+      "result_link": "https://github.com/romanthoruk2008-pixel/lightweight-carousels/blob/3b6c89477a2cda4348803eef626e4a08c0711a95/carousels/LW-CAR-0002/outputs/slide-09.png",
       "errors": [],
       "save_status": "saved_repository_file",
       "agent_visual_review": "not_performed",
-      "user_review": "pending",
+      "user_review": "approved",
       "blocked_on": [],
       "screen_source": {
         "kind": "owner_approved_phone_hand_composite",
@@ -511,7 +673,16 @@
         "height": 1350
       },
       "export_method": "Uniform scaling to fit 1080x1350 plus centered canvas extent; no independent-axis stretching. Original image-tool file retained.",
-      "result_bytes": 1314203
+      "result_bytes": 1314203,
+      "owner_approval": {
+        "date": "2026-10-19",
+        "timezone": "Europe/Kyiv",
+        "approved_by": "owner",
+        "source": "Explicit acceptance of the whole LW-CAR-0002 carousel in this chat",
+        "attempt": 1,
+        "output_commit": "3b6c89477a2cda4348803eef626e4a08c0711a95",
+        "file": "carousels/LW-CAR-0002/outputs/slide-09.png"
+      }
     }
   ],
   "updated_at": "2026-10-18T21:22:40.887634+00:00",
@@ -538,7 +709,7 @@
     9
   ],
   "missing_slides": [],
-  "next_action": "Owner reviews all nine slides. Preserve existing outputs; make changes only on explicit request.",
+  "next_action": "All nine current outputs are accepted by the owner. Preserve them; edit or regenerate only on a new explicit request.",
   "caption_file": "carousels/LW-CAR-0002/caption.txt",
   "delivery_archive": "carousels/LW-CAR-0002/LW-CAR-0002-1080x1350.zip",
   "storage": {
@@ -573,5 +744,13 @@
     "slide6_successful_attempt": 3,
     "slide6_variant": "plain opaque warm-sand #D9CBBE short shorts on both mannequins",
     "slide9_screen": "Default Muscle balance: approved LW-CAR-0001 slide 8 phone/hand composite, copied as image pixels with uniform scaling."
+  },
+  "owner_approval": {
+    "date": "2026-10-19",
+    "timezone": "Europe/Kyiv",
+    "approved_by": "owner",
+    "source": "Explicit acceptance of the whole LW-CAR-0002 carousel in this chat",
+    "accepted_output_bundle_commit": "3b6c894",
+    "scope": "all nine current slide outputs, content_version 1.0"
   }
 }
