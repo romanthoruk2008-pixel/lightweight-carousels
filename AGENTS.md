@@ -1,34 +1,47 @@
 # Lightweight carousel production
 
-Read this file, docs/BRAND.md, docs/WORKFLOW.md and docs/DECISIONS.md before starting work.
+Read docs/BRAND.md, docs/DECISIONS.md, docs/WORKFLOW.md, docs/handoff.md and data/carousel-progress.json before work. Task templates live in docs/AGENT-PROMPTS.md. Claude also reads CLAUDE.md.
 
-## Current phase
+## Current state — binding owner clarification
 
-Repository foundation. No scheduled workflow, provider authentication, Claude integration or image-generation automation has been configured. Do not describe the pipeline as operational until an end-to-end task has passed.
+THE VISUAL STYLE IS NOT APPROVED. Only the base palette has been recorded. The six-slide Best Arm Day sample is an experiment, not an approved master. Do not infer approval from positive preliminary feedback. approved_style_version remains null.
+
+We are designing the workflow and agent instructions. No agents, Claude integration, scheduled workflow or cloud image-generation pipeline have been launched or configured. No production assets are stored here yet.
 
 ## Remote-only execution
 
-The owner requested that nothing be downloaded or cloned to their computer. Work directly through GitHub or an explicitly selected cloud environment. Do not create a local checkout, install software locally or download assets to the owner's device without a new instruction.
+The owner requested that nothing be downloaded or cloned to their computer. Work directly through GitHub or an explicitly selected cloud environment. No local checkout, installation or asset download to the owner's device.
 
-## Responsibilities
+## Roles
 
-- Owner: creative direction, feedback, final approval and publishing.
-- Claude / copywriter: topics, hooks, slide copy, captions and topic-relevant Lightweight CTA. Owns draft copy.
-- Codex / visual producer: layout, asset selection, image-generation prompts, rendering and visual review. Preserve approved copy verbatim.
-- Reviewer role: inspect training claims, copy completeness, anatomy, equipment mechanics, text accuracy, brand consistency and CTA relevance. This may be a separate pass, not necessarily another always-running agent.
+- Owner: creative direction, explicit style/result acceptance and publishing.
+- Coordinator: assigns stable carousel IDs and batches; integrates results and updates the global summary.
+- Claude / copywriter: owns brief.md and versioned copy.json, including a topic-relevant Lightweight ending.
+- Codex / visual producer: owns prompts and outputs for a whole assigned carousel; preserves approved copy verbatim.
+- Reviewer: one defined pass over content, anatomy, equipment mechanics, text accuracy, consistency and CTA relevance.
 
-These are workflow roles, not authorization to launch agents, contact other services or connect accounts.
+These are proposed workflow roles, not authorization to start agents, connect accounts or trigger mass production.
 
-## Handoffs
+## Handoffs and consistency
 
-Give every carousel a stable ID such as LW-CAR-0001. Keep its brief, slide copy, image prompts, results and review under its own directory in carousels/. Work on one carousel per branch. Avoid simultaneous edits to the same files.
+One directory and working branch per carousel. One visual producer per carousel. Each slide needs an ID, purpose, exact text and visual brief. Freeze a specific copy version/commit before visual production. A copy change creates a new version.
 
-Content contract: each slide needs an index, purpose, headline, body, visual brief and optional exercise data. Store source references and target audience with the carousel. Frozen copy must be approved before image generation; a copy change requires a new version.
+The assigned worker owns its carousel manifest; the coordinator owns data/carousel-progress.json. This ownership is procedural, not an installed lock service. Merge the copy handoff before visual work branches from it. Distinguish branch-only results from main.
 
-## Boundaries
+## Progress and recovery
 
-Do not invent product features, app screenshots, logos, study citations or performance results. Reference files must actually be accessible before claiming visual fidelity. Reuse verified assets where appropriate; label newly generated anatomy as requiring review. Do not auto-publish social posts.
+Keep actual attempts, prompts, references, style/content versions, output paths, hashes and errors. Update after every slide; checkpoint after a complete carousel. Preparation is not a generation attempt. Before resuming, reconcile manifests with actual outputs; do not blindly repeat in_progress calls.
 
-Never commit API keys, tokens, private user information or unlicensed third-party assets. Public reference links are acceptable; don't assume competitor screenshots can be redistributed.
+Separate technical_check, content_review, agent_visual_review, user_review and remote_backup. Do not invent a check or mark user approval yourself. A temporary cloud file is not durable backup. Mark remote verification only after checking the real saved file.
 
-User feedback belongs in docs/DECISIONS.md. Do not overwrite decisions silently.
+## Generation boundaries
+
+Use the built-in image generator only where actually available. No agreed paid API fallback exists. On quota or unavailable tools, stop the package and write a handoff instead of repeatedly calling or switching providers.
+
+Review and retry limits must be explicit in the task package. Otherwise report required corrections without automatic regeneration. Never replace accepted outputs silently.
+
+Do not invent features, app screens, logos, citations, unavailable reference fidelity or social performance. Seriozha is not an AI coach. Keep secrets and private data out of this public repository. Do not auto-publish social posts.
+
+The final slide must connect the carousel topic to a real Lightweight capability; merely adding the brand name to a generic save prompt is insufficient. No specific final-slide design or copy is approved yet.
+
+Record owner feedback in docs/DECISIONS.md without erasing earlier history.
