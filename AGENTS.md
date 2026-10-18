@@ -4,7 +4,7 @@ Read docs/BRAND.md, docs/DECISIONS.md, docs/WORKFLOW.md, docs/handoff.md and dat
 
 ## Binding current decisions
 
-The visual style is NOT approved. Only the base palette is recorded. Best Arm Day is an experiment; approved_style_version=null.
+The owner confirmed the direction: reproduce the assigned reference carousel as closely as possible, including topic, exact copy/voice, illustrations, composition and slide order. Change only Lightweight accent colors and its actual font, plus the previously required Lightweight-specific product ending. Read docs/BRAND.md and docs/CONTENT-BRIEF.md for the latest directive. An output master is not yet approved; approved_style_version=null. The earlier Best Arm Day experiment is not a master.
 
 The owner removed the reviewer role and automatic post-generation review. Do NOT run visual QA, OCR, anatomy audits, additional reviewer agents or paid evaluation calls after generation. Set agent_visual_review=not_performed. The owner reviews results. Prepare factually sound copy and exercise prompts before generation; do not add a separate downstream review stage.
 
@@ -54,3 +54,7 @@ Record owner feedback in docs/DECISIONS.md and preserve earlier decisions as his
 references/APP-SCREENS.md is the shared board for original Lightweight UI screenshots. APP-XXX identifies one screen/state. Empty placeholders are not assets or proof of a feature. Record exact APP-ID, source commit and actual image URL in the brief.
 
 Select an app screen that supports the carousel's actual message and product feature. Never invent UI or claim a generative recreation preserves the original exactly. For exact UI, the proposed workflow separates scene generation from insertion of the original screenshot with perspective/masking; this compositing stage is not configured yet. Report a capability blocker if exact insertion is unavailable. Phone/hand mockups are optional, and no final-slide style is approved.
+
+## Reference fidelity is the priority
+
+Claude must preserve the chosen reference's topic, hook, wording, text density and voice rather than invent a new gym-bro script. The visual producer preserves its composition, asset choices, anatomy/poses, hierarchy and sequencing. Do not introduce unsolicited creative variations. Record exact reference IDs/commit and the limited brand substitutions. The owner states the reference owner permitted this use. The actual Lightweight font remains unspecified; do not invent an approved font. Current task is documentation only, no generation.
