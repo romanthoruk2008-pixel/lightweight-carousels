@@ -1,4 +1,6 @@
-<img width="1425" height="791" alt="image" src="https://github.com/user-attachments/assets/26896496-ef7d-4dee-9505-ee82e772ff8d" /># Референси каруселей Lightweight
+<img width="1425" height="791" alt="image" src="https://github.com/user-attachments/assets/26896496-ef7d-4dee-9505-ee82e772ff8d" />
+
+# Референси каруселей Lightweight
 
 Одне місце для всіх прикладів. Відкрий цей файл на GitHub → олівець Edit → перетягни скриншоти в потрібний розділ → дочекайся завершення завантаження → Commit changes.
 
@@ -10,7 +12,7 @@
 
 Це приклади для аналізу; додавання референсу НЕ затверджує його як стиль Lightweight. Поточний стиль не затверджено.
 
-Нижче створено порожні місця для перших чотирьох прикладів. Раніше надіслані в чат скриншоти сюди ще не перенесено.
+У REF-001 додано скриншоти першої каруселі. Інші розділи поки порожні. Один додатковий скриншот розміщений на початку файла; його позицію в послідовності ще не визначено.
 
 ---
 
@@ -22,7 +24,7 @@
 
 ### Слайди
 
-<!-- <img width="1425" height="791" alt="image" src="https://github.com/user-attachments/assets/3ba07508-f8d9-438f-b626-4c09bf2e6c9e" />
+<img width="1425" height="791" alt="image" src="https://github.com/user-attachments/assets/3ba07508-f8d9-438f-b626-4c09bf2e6c9e" />
 <img width="1425" height="791" alt="image" src="https://github.com/user-attachments/assets/63f0c37e-a5e9-49bf-acc9-f506b28a1b0a" />
 <img width="1425" height="791" alt="image" src="https://github.com/user-attachments/assets/a2f0fa97-e17c-4351-8619-70e9d9fae13d" />
 <img width="1425" height="791" alt="image" src="https://github.com/user-attachments/assets/01a4f31f-2128-4589-aa82-47fc88de873c" />
@@ -31,12 +33,6 @@
 <img width="1425" height="791" alt="image" src="https://github.com/user-attachments/assets/41384ee6-04dd-4b26-b9dd-9296e03090eb" />
 <img width="1425" height="791" alt="image" src="https://github.com/user-attachments/assets/da262fa2-c075-48d1-aa58-8ac9675bf129" />
 <img width="1425" height="791" alt="image" src="https://github.com/user-attachments/assets/123f5040-c0c8-41a5-ab3b-3d143053eeb2" />
-
-
-
-
-
- -->
 
 ---
 
