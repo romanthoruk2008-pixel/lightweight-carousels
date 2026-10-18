@@ -19,7 +19,7 @@
       "https://github.com/user-attachments/assets/a6645f77-62e7-4284-9cf3-ef2d1e527897"
     ]
   },
-  "updated_at": "2026-10-18T21:00:48.228458+00:00",
+  "updated_at": "2026-10-18T21:02:07.889177+00:00",
   "status": "slides_1_7_v2_and_slide_8_revision_2_pending_owner_review",
   "format": {
     "width": 1080,
@@ -43,7 +43,7 @@
   "agent_visual_review": "not_performed",
   "user_review": "pending",
   "generation_call_count": 9,
-  "remote_save_status": "slide_08_revision_pending_push",
+  "remote_save_status": "saved_github",
   "next_slide_to_generate": null,
   "next_action": "Owner reviews the existing warm-sand version of slides 1–7 and the newly revised slide 8. No automatic generation or QA.",
   "slides": [
@@ -611,7 +611,7 @@
       },
       "prompt": "Edit ONLY the FIRST attached image (the Lightweight \"Trying to Build Muscle?\" carousel slide). The SECOND attached image is the owner's ORIGINAL full-height app screenshot and is the authoritative source for the phone screen. Return one corrected slide PNG, portrait 1080x1350.\n\nOWNER'S PRECISE CORRECTION: The previous slide compressed the phone screen vertically. Fix that single problem. The real screenshot is approximately 946 pixels wide by 2048 pixels high: its screen width/height ratio is 0.461914, or height 2.165 times width. The phone display MUST retain these ORIGINAL TALL proportions before the natural mild perspective/rotation is applied. Uniformly scale the screenshot as a whole, then map it onto a natural tall smartphone display. NEVER resize width and height independently. NEVER compress the screenshot vertically to fit more UI on this slide. Do not shorten gaps between UI cards or reshape the chart to squeeze the entire source onto the visible phone.\n\nKeep the phone's top near the existing position immediately below the body text, with the same mild clockwise tilt and natural handheld perspective. Keep a substantial phone width comparable to the current phone; LENGTHEN its real physical screen and housing DOWNWARD to the true tall aspect ratio. Its lower end and some lower screen content SHOULD naturally extend beyond the bottom canvas edge. Cropping the LOWER PHONE AND SCREEN at the slide edge is correct, as for a close-up real phone held in a hand. Do not force the entire phone or all of the screenshot into the lower 60% area. Do not make a squat handset, wide display, or tablet. The source screenshot should remain a normal uncompressed phone UI, with its chart and card proportions intact. Preserve the actual provided screen content; no new UI, no invented data, no rearranging the screen.\n\nAdjust the existing line-art hand only where needed to hold the corrected tall black phone naturally. Keep the existing hand/phone drawing style, black bezel and dynamic-island treatment. Do not add a second status bar or duplicate the source status icons.\nEVERYTHING ELSE in the first image stays exactly the same: the small Lightweight logo, its position, off-white #F0F1EB background, pale coral arch #FBE3DD, coral underline, typeface, text positions, spacing and the exact three text blocks:\nTrying to Build Muscle?\nThen you need to be consistently progress overloading.\nCheck your progress in Lightweight to make sure you’re still growing.\n\nThe owner likes the existing colors and overall slide. This is a targeted screen/phone aspect-ratio correction, not a redesign. Preserve all surrounding pixels wherever possible. No added text, caption, signature, watermark, other objects or layout changes.\n",
       "result_file": "carousels/LW-CAR-0001/outputs/slide-08.png",
-      "result_link": "https://github.com/romanthoruk2008-pixel/lightweight-carousels/blob/claude/charming-einstein-xgejky/carousels/LW-CAR-0001/outputs/slide-08.png",
+      "result_link": "https://github.com/romanthoruk2008-pixel/lightweight-carousels/blob/cd6634266498d9b23367182aa46c62278658bb41/carousels/LW-CAR-0001/outputs/slide-08.png",
       "attempt_count": 2,
       "attempt_history": [
         {
@@ -632,13 +632,14 @@
           "reason": "Explicit owner request: retain native screenshot aspect ratio; taller phone may crop at canvas bottom. Preserve all other slide styling.",
           "finished_at": "2026-10-18T21:00:48.228421+00:00",
           "result_original_path": "/workspace/generated_images/exec-b2d1c087-c0f7-4d6a-91cc-81b94d5fa43a.png",
-          "save_status": "saved_cloud_checkout"
+          "save_status": "saved_github",
+          "result_link": "https://github.com/romanthoruk2008-pixel/lightweight-carousels/blob/cd6634266498d9b23367182aa46c62278658bb41/carousels/LW-CAR-0001/outputs/slide-08.png"
         }
       ],
       "errors": [
         "Reference fetch failed: <urlopen error Tunnel connection failed: 403 Forbidden>. No image pixels received; generation not attempted."
       ],
-      "save_status": "saved_cloud_checkout",
+      "save_status": "saved_github",
       "agent_visual_review": "not_performed",
       "user_review": "pending",
       "generation_result_original_path": "/workspace/generated_images/exec-b2d1c087-c0f7-4d6a-91cc-81b94d5fa43a.png",
@@ -652,7 +653,7 @@
       },
       "export_method": "Uniform scaling with ImageMagick, centered extent to 1080x1350; no independent width/height stretching. Original image-tool output retained.",
       "result_bytes": 1478733,
-      "remote_save_status": "pending_push",
+      "remote_save_status": "saved_github",
       "screen_geometry_instruction": "Owner screenshot aspect ratio approximately 946:2048; uniform scale, natural phone tilt, allow lower phone to extend beyond slide rather than compressing screen vertically.",
       "previous_owner_feedback": {
         "at": "2026-10-18T20:53:25+00:00",
@@ -686,5 +687,6 @@
   ],
   "remote_outputs_commit": "f49490e1c9094c69545dd1c82bb094e63df601e8",
   "remote_saved_at": "2026-10-18T20:44:59.618330+00:00",
-  "delivery_archive_url": "https://github.com/romanthoruk2008-pixel/lightweight-carousels/blob/claude/charming-einstein-xgejky/carousels/LW-CAR-0001/LW-CAR-0001-1080x1350.zip"
+  "delivery_archive_url": "https://github.com/romanthoruk2008-pixel/lightweight-carousels/blob/claude/charming-einstein-xgejky/carousels/LW-CAR-0001/LW-CAR-0001-1080x1350.zip",
+  "latest_slide_8_revision_commit": "cd6634266498d9b23367182aa46c62278658bb41"
 }
