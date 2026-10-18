@@ -19,3 +19,7 @@ Once the original file is accessible: use the existing blank scene, uniformly sc
 ## Saving and review
 
 Incomplete ZIP includes seven numbered final PNGs, scene, wordmark strip, all prompts, frozen copy, task, brief, caption, manifest and this handoff. No final placeholder was created. `agent_visual_review=not_performed`; `user_review=pending` for this carousel and every slide. No post-generation visual QA, OCR, anatomy audit, font verification, checksum pass or reviewer calls. Mechanical dimensions and package membership are checked separately from visual fidelity. Frozen copy and other carousel outputs unchanged. Coordinator progress not edited. Remote delivery is established by the task's Git push result, not commit creation. No social publication occurred.
+
+## Owner update — Distribution selected for final phone
+
+After checkpoint 968c36c the owner supplied the Distribution screen inline in this chat. This replaces the default Muscle balance selection for LW-CAR-0005 slide 8. The image is visible, but the message contains no downloadable attachment ID or filesystem path. Rechecked /workspace shared/library/scratch locations, /mnt/data availability and task artifacts: no original file accessible. Do not ask the owner to reselect the screen. Need its original PNG/JPG as a downloadable file or direct URL. No UI editing, generation or redraw was attempted. Existing outputs 1–7 remain unchanged and pending owner review.

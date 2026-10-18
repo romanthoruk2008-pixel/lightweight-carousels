@@ -314,8 +314,17 @@
       "reference_url": "https://github.com/user-attachments/assets/895d94f1-6998-4662-a70d-7767855d48db",
       "scene_file": "carousels/LW-CAR-0005/production-assets/slide-08-scene.png",
       "blocked_on": [
-        "Downloadable original Muscle balance screenshot bitmap. Inline original image is visible in chat but has no local file path or download ID. Existing approved ending contains a perspective-transformed, partly clipped UI and its handoff does not establish raw screenshot pixel preservation. Do not redraw or invent UI to fill the new upright phone."
-      ]
+        "Original Distribution PNG/JPG file with a download ID, workspace path or direct image URL. Inline image is visible but no source file is accessible to the cloud commands. Exact insertion cannot be performed without the original bitmap."
+      ],
+      "selected_screen": {
+        "name": "Lightweight Distribution",
+        "selection": "Owner supplied Distribution inline in this chat after the incomplete checkpoint; overrides default Muscle balance.",
+        "image_visible_in_chat": true,
+        "original_file_available": false,
+        "image_url": null,
+        "local_file": null,
+        "insertion_status": "not_performed"
+      }
     }
   ],
   "owner_conditional_retry_authorization": "Owner explicitly authorized at most one retry with short opaque #D9CBBE shorts for each slide blocked by the same content filter; keep all other elements unchanged.",
@@ -350,7 +359,7 @@
   ],
   "caption_file": "carousels/LW-CAR-0005/caption.txt",
   "delivery_archive": "carousels/LW-CAR-0005/LW-CAR-0005-incomplete-1080x1350.zip",
-  "remote_save_status": "not_confirmed_at_commit_creation",
+  "remote_save_status": "saved_github",
   "wordmark_assembly": {
     "source_file": "carousels/LW-CAR-0001/outputs/slide-01.png",
     "source_commit": "ffb64372805255c58101e5f71f2fb17afe06b0a2",
@@ -359,9 +368,9 @@
   },
   "updated_at": "2026-10-18T21:48:34.321086+00:00",
   "next_actions": [
-    "Obtain a direct downloadable original Muscle balance PNG/JPG, as requested from the owner.",
-    "Uniformly scale the original screenshot into the existing blank phone display in production-assets/slide-08-scene.png with a rounded display mask; do not invent, redraw, squash or stretch UI. Save completed output as outputs/slide-08.png.",
-    "Rebuild complete archive after slide 8 is assembled. Do not regenerate existing slides without owner instruction."
+    "Obtain the original Distribution screenshot as a downloadable PNG/JPG or file attachment with accessible file ID/path. Owner has already selected and supplied this screen visually; do not ask them to choose it again.",
+    "Insert the original Distribution bitmap into existing slide-08-scene.png with uniform scaling and rounded screen masking; preserve proportions and existing text. No generated replacement UI.",
+    "Rebuild complete ZIP after slide 8 is assembled. Keep all seven existing outputs unchanged unless explicitly requested."
   ],
   "limitations": [
     "No visual QA, OCR, font verification, anatomy audit or reviewer calls performed. Rendered copy and font fidelity are not independently established.",
@@ -371,5 +380,6 @@
     "Generated originals remain outside the checkout in /workspace/generated_images; delivered final PNGs and the production scene are in the package."
   ],
   "latest_integrated_branch_commit": "073942eff988f363c4dc1831c959521531fb50fb",
-  "new_series_rules_observed": "Series rules at 073942e require no added punctuation and fully visible text; no automatic review or regeneration performed."
+  "new_series_rules_observed": "Series rules at 073942e require no added punctuation and fully visible text; no automatic review or regeneration performed.",
+  "remote_outputs_commit": "968c36c"
 }
