@@ -32,6 +32,20 @@
         6,
         7
       ]
+    },
+    {
+      "id": "LW-CAR-0002",
+      "title": "STRUCTURE THE PERFECT PUSH DAY",
+      "source_ref": "REF-001",
+      "content_version": "1.0",
+      "copy_status": "frozen",
+      "slides": 9,
+      "slides_blocked": [
+        9
+      ],
+      "generation": "not_started",
+      "user_review": "pending",
+      "path": "carousels/LW-CAR-0002/"
     }
   ],
   "experiments": [
@@ -47,7 +61,7 @@
       "accepted_assets": []
     }
   ],
-  "next_action": "Owner provides new slide 8 direction for LW-CAR-0001; Codex regenerates slide 8 only.",
+  "next_action": "Codex: finish LW-CAR-0001 slide 8; then LW-CAR-0002 slides 1-8 from carousels/LW-CAR-0002/prompts/codex-task.md. Slide 9 waits for a real Lightweight workout screen or an ending variant.",
   "review_policy": {
     "separate_reviewer": false,
     "automatic_post_generation_visual_review": false,

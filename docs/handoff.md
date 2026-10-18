@@ -35,3 +35,6 @@ Claude, хмарна генерація, канал точного вставл�
 
 ## Пілот LW-CAR-0001 «WEAK BACK?» (REF-007)
 Пакет: carousels/LW-CAR-0001/ (brief.md, copy.json v1.0, prompts/codex-task.md). Текст 1:1; заміни — акцент #F26445, Rubik, логотип з файла власника. Codex: слайди 1 і 3 → фідбек власника → 2, 4–7. Слайд 8 заблокований до реального скриншота Lightweight і підтвердження останнього рядка.
+
+## LW-CAR-0002 «STRUCTURE THE PERFECT PUSH DAY» (REF-001)
+Пакет: carousels/LW-CAR-0002/ (brief.md, copy.json v1.0, prompts/codex-task.md). 9 слайдів у відновленому порядку. Codex робить 1–8; слайд 9 чекає реального екрана тренування Lightweight або варіанта фіналу.

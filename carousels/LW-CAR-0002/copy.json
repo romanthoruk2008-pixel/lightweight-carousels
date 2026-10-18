@@ -1,0 +1,155 @@
+{
+  "carousel_id": "LW-CAR-0002",
+  "content_version": "1.0",
+  "status": "frozen",
+  "source": {
+    "ref_id": "REF-001",
+    "board": "references/CAROUSELS.md",
+    "board_commit": "061d7a12e93f3ebadc8fd58c9539df2e5a8bb5ff",
+    "original": "Arrow (@arrowfitnessapp), TikTok, posted 5-24, 139.5K likes, 302 comments, 93.8K saves",
+    "slide_image_urls_in_order": [
+      "https://github.com/user-attachments/assets/3ba07508-f8d9-438f-b626-4c09bf2e6c9e",
+      "https://github.com/user-attachments/assets/63f0c37e-a5e9-49bf-acc9-f506b28a1b0a",
+      "https://github.com/user-attachments/assets/a2f0fa97-e17c-4351-8619-70e9d9fae13d",
+      "https://github.com/user-attachments/assets/01a4f31f-2128-4589-aa82-47fc88de873c",
+      "https://github.com/user-attachments/assets/26896496-ef7d-4dee-9505-ee82e772ff8d",
+      "https://github.com/user-attachments/assets/a9d5ce22-d17a-471b-be16-3880c2b055c4",
+      "https://github.com/user-attachments/assets/41384ee6-04dd-4b26-b9dd-9296e03090eb",
+      "https://github.com/user-attachments/assets/da262fa2-c075-48d1-aa58-8ac9675bf129",
+      "https://github.com/user-attachments/assets/123f5040-c0c8-41a5-ab3b-3d143053eeb2"
+    ],
+    "order_note": "CAROUSELS.md lists REF-001 out of order: its 4th and 6th images are the same slide (#3) and its 5th image is #2. The list above is the real slide order; the duplicate bffa48cc is dropped."
+  },
+  "language": "en",
+  "font_family": "Rubik",
+  "colors": {
+    "accent": "#F26445",
+    "accent_tint_background_shape": "#FBE3DD",
+    "background": "#F0F1EB",
+    "text_dark": "#2A2A2A",
+    "text_body_grey": "#6B6B6B",
+    "white": "#FFFFFF",
+    "muscle_base_sand": "#D9CBBE",
+    "skin_ivory_approx": "#F5F0E5"
+  },
+  "caption": {
+    "title": "How To Structure The Pefect Push Day",
+    "body": "To build the perfect push day, you should include an exercise for: 1️⃣ Chest (Upper Fibers) 2️⃣ Chest (Mid/Low Fibers) 3️⃣ Triceps (Lateral Head) 4️⃣ Triceps (Long Head) 5️⃣ Shoulders (Front Delt) 6️⃣ Shoulders (Side Delt)",
+    "hashtags": "#pushday #pushdayworkout #gymtips",
+    "notes": "Title and items 1-5 are verbatim from the source (typo 'Pefect' kept). The source caption is cut off after item 5: item 6 is reconstructed from slide 8, and the hashtags are not from the source (Arrow-style placeholders). Owner may change both."
+  },
+  "slides": [
+    {
+      "n": 1,
+      "role": "hook",
+      "text": [
+        {"string": "STRUCTURE", "style": "cover headline line 1, uppercase, heaviest Rubik, text_dark"},
+        {"string": "THE PERFECT", "style": "cover headline line 2, uppercase, heaviest Rubik, text_dark"},
+        {"string": "PUSH DAY", "style": "cover headline line 3, uppercase, heaviest Rubik, accent"}
+      ]
+    },
+    {
+      "n": 2,
+      "role": "overview checklist",
+      "text": [
+        {"string": "Your Push Day\nShould Include:", "style": "title, bold, text_dark, left-aligned, two lines"},
+        {"string": "1x Chest (Mid/Low Head)", "style": "bullet; '1x' regular, 'Chest' bold, '(Mid/Low Head)' regular"},
+        {"string": "1x Chest (Upper Head)", "style": "bullet; 'Chest' bold"},
+        {"string": "1x Triceps (Lateral Head)", "style": "bullet; 'Triceps' bold"},
+        {"string": "1x Triceps (Long Head)", "style": "bullet; 'Triceps' bold"},
+        {"string": "1x Shoulders (Front Delt)", "style": "bullet; 'Shoulders' bold"},
+        {"string": "1x Shoulders (Side Delt)", "style": "bullet; 'Shoulders' bold"}
+      ]
+    },
+    {
+      "n": 3,
+      "role": "list item #1",
+      "text": [
+        {"string": "#1", "style": "big number, bold, accent"},
+        {"string": "Upper Chest", "style": "title, bold, text_dark"},
+        {"string": "2-3 sets x 6-10 reps", "style": "subtitle, regular, text_body_grey"},
+        {"string": "Choose one of these exercises to bias your clavicular (upper) chest:", "style": "body, regular, text_body_grey, two lines"},
+        {"string": "Incline DB Bench", "style": "exercise label, regular"},
+        {"string": "Incline Machine Press", "style": "exercise label, regular"}
+      ]
+    },
+    {
+      "n": 4,
+      "role": "list item #2",
+      "text": [
+        {"string": "#2", "style": "big number, accent"},
+        {"string": "Mid/Low Chest", "style": "title"},
+        {"string": "2-3 sets x 6-12 reps", "style": "subtitle"},
+        {"string": "Choose one of these exercises to bias your sternocostal (mid/low) chest:", "style": "body"},
+        {"string": "Flat Machine Press", "style": "exercise label"},
+        {"string": "Pec Dec", "style": "exercise label"}
+      ]
+    },
+    {
+      "n": 5,
+      "role": "list item #3",
+      "text": [
+        {"string": "#3", "style": "big number, accent"},
+        {"string": "Triceps Lateral Head", "style": "title"},
+        {"string": "2-3 sets x 6-12 reps", "style": "subtitle"},
+        {"string": "Choose one of these exercises to bias the lateral head of the triceps:", "style": "body"},
+        {"string": "Triceps Dips", "style": "exercise label"},
+        {"string": "JM Press", "style": "exercise label"}
+      ]
+    },
+    {
+      "n": 6,
+      "role": "list item #4",
+      "text": [
+        {"string": "#4", "style": "big number, accent"},
+        {"string": "Triceps Long Head", "style": "title"},
+        {"string": "2-3 sets x 8-12 reps", "style": "subtitle"},
+        {"string": "Choose one of these exercises to bias the long head of the triceps:", "style": "body"},
+        {"string": "Triceps Extensions", "style": "exercise label"},
+        {"string": "Overhead Extensions", "style": "exercise label"}
+      ]
+    },
+    {
+      "n": 7,
+      "role": "list item #5",
+      "text": [
+        {"string": "#5", "style": "big number, accent"},
+        {"string": "Front Delt", "style": "title"},
+        {"string": "2-3 sets x 6-10 reps", "style": "subtitle"},
+        {"string": "Choose one of these exercises to target your front delts", "style": "body (no colon in source)"},
+        {"string": "DB Shoulder Press", "style": "exercise label"},
+        {"string": "Machine Shoulder Press", "style": "exercise label"}
+      ]
+    },
+    {
+      "n": 8,
+      "role": "list item #6",
+      "text": [
+        {"string": "#6", "style": "big number, accent"},
+        {"string": "Side Delt", "style": "title"},
+        {"string": "2-3 sets x 8-12 reps", "style": "subtitle"},
+        {"string": "Choose one of these exercises to isolate your side delts", "style": "body (no colon in source)"},
+        {"string": "Cable Lateral Raise", "style": "exercise label"},
+        {"string": "DB Lateral Raise", "style": "exercise label"}
+      ]
+    },
+    {
+      "n": 9,
+      "role": "product ending",
+      "status": "pending_owner_screen",
+      "blocked_on": ["a real Lightweight screenshot that shows a logged or finished workout (workout log / summary), or the owner's choice of a ready ending variant"],
+      "text": [
+        {"string": "Track Your Workouts.", "style": "headline line 1, heaviest Rubik, text_dark, left-aligned"},
+        {"string": "Build Strength & Muscle Faster.", "style": "headline line 2, heaviest Rubik, accent, left-aligned"}
+      ],
+      "note": "Kept verbatim from the source. 'Build Strength & Muscle Faster.' is a claim about the product; flagged to the owner, not decided."
+    }
+  ],
+  "kept_verbatim_by_owner_decision": [
+    "caption title typo 'Pefect'",
+    "slide 2 list order (Mid/Low before Upper) and 'Head' for chest",
+    "'Pec Dec' spelling",
+    "missing colons on slides 7-8",
+    "all exercise-to-muscle mappings and set/rep ranges"
+  ]
+}
