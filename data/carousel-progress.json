@@ -23,7 +23,7 @@
       "accepted_assets": []
     }
   ],
-  "next_action": "Owner uploads screenshots grouped in references/CAROUSELS.md; continue style exploration, no bulk generation.",
+  "next_action": "Owner uploads grouped carousel references and authentic app screens; continue style exploration without automatic QA or bulk generation.",
   "review_policy": {
     "separate_reviewer": false,
     "automatic_post_generation_visual_review": false,
@@ -36,5 +36,11 @@
     "grouping": "one REF-XXX section per carousel",
     "slide_order": "top-to-bottom image links",
     "uploaded_carousels": 0
+  },
+  "product_assets": {
+    "source": "references/APP-SCREENS.md",
+    "grouping": "one APP-XXX section per screen/state",
+    "uploaded_screens": 0,
+    "exact_ui_compositing": "proposed_not_configured"
   }
 }
