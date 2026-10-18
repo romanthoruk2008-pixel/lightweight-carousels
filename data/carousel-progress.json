@@ -23,7 +23,7 @@
       "accepted_assets": []
     }
   ],
-  "next_action": "Select an assigned reference carousel and actual Lightweight font/product screen for the next requested adaptation. Current instruction is documentation only; do not generate.",
+  "next_action": "Owner adds real Lightweight app screens to references/APP-SCREENS.md; then pilot adaptation of REF-001 (copy first, then visuals). Topic backlog: docs/TOPICS.md.",
   "review_policy": {
     "separate_reviewer": false,
     "automatic_post_generation_visual_review": false,
@@ -39,7 +39,13 @@
     "unique_screenshots": 61,
     "rendered_image_occurrences": 62,
     "all_rendered_images_opened": true,
-    "access_checked_on": "2026-10-18"
+    "access_checked_on": "2026-10-18",
+    "unique_slide_images": 60,
+    "order_issues": [
+      "REF-001: files 4 and 6 are the same slide; file 5 precedes file 4",
+      "REF-005: file 8 (#4) precedes file 6 (#5)"
+    ],
+    "analysis": "references/PATTERN.md, references/analysis/"
   },
   "product_assets": {
     "source": "references/APP-SCREENS.md",
@@ -49,11 +55,12 @@
   },
   "style_direction": "reference_adaptation",
   "reference_direction_confirmed": true,
-  "font_family": null,
+  "font_family": "Rubik",
   "content_voice": "match_assigned_reference",
   "allowed_brand_changes": [
     "Lightweight accent colors",
     "actual Lightweight font",
     "Lightweight-specific product ending using real features/screens"
-  ]
+  ],
+  "source_claims_policy": "keep_reference_claims_verbatim"
 }

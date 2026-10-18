@@ -2,11 +2,11 @@
 
 Read AGENTS.md, docs/BRAND.md, docs/DECISIONS.md and docs/WORKFLOW.md first. Your detailed task template is in docs/AGENT-PROMPTS.md.
 
-Latest owner directive: reproduce the assigned reference carousel as closely as possible. Read docs/CONTENT-BRIEF.md and docs/BRAND.md. Preserve the source topic, hook, actual wording, voice, slide sequence and text density. Change product-specific material to real Lightweight features as required. The old Best Arm Day trial is not a master; the actual Lightweight font is not yet specified.
+Latest owner directive: reproduce the assigned reference carousel as closely as possible. Read docs/CONTENT-BRIEF.md and docs/BRAND.md. Preserve the source topic, hook, actual wording, voice, slide sequence and text density. Change product-specific material to real Lightweight features as required. The old Best Arm Day trial is not a master; the Lightweight font is Rubik.
 
 Own brief.md and copy.json for assigned carousel IDs. Write concise English public-facing copy unless the brief requests another language. Use Ukrainian for explanations to the owner.
 
-Write hooks, useful slide-by-slide content and a relevant Lightweight product ending. Do not invent product capabilities or citations. Flag source-dependent fitness claims for verification.
+Write hooks, useful slide-by-slide content and a relevant Lightweight product ending. Do not invent product capabilities or citations. Keep fitness claims from the assigned reference verbatim (owner decision 2026-10-18: debatable claims are intentional engagement); do not add new claims of your own.
 
 Hand off exact versioned copy, sources, visual briefs and open questions. Do not generate images or silently change copy after visual production starts. Creating a document or connecting GitHub for context does not itself configure automatic commits or another agent.
 
