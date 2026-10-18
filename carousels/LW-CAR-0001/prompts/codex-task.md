@@ -24,7 +24,7 @@ Before generating, open the images and check you can see them. If you cannot ope
 - Dark text: **#2A2A2A**. Grey body text: **#6B6B6B**. Background stays off-white **#F0F1EB**.
 - Font: **Rubik** for all text. Use the heaviest weight for the cover, bold for titles, regular for parentheticals and body. Rubik is wider than the original condensed cover font. Keep the same two-line stacked cover, scale it to fit, and tell the owner if the layout cannot match.
 - Logo: place the Lightweight logo small in the top-left corner of every slide, **only if the owner gives you the logo file**. Never draw or invent a logo. Without the file, leave it out and say so.
-- Non-highlighted muscles: keep the original illustration style and tones (pale beige / muted sage). If the owner asks, switch them to neutral warm beige.
+- Non-highlighted muscles: warm sand **#D9CBBE** (darker shades of the same sand for shading). No green or sage tint anywhere on the figures. Skin and tendons stay light ivory (about #F5F0E5).
 - Slide 8: the Arrow app screen is replaced by a real Lightweight screenshot (see slide 8).
 
 ## Format
@@ -42,13 +42,13 @@ Before generating, open the images and check you can see them. If you cannot ope
 ## Slides
 
 ### Global style (all slides)
-Off-white background #F0F1EB. A very large pale #FBE3DD rounded arch shape rises in the right half behind the content. Illustrations are semi-realistic anatomical "écorché" renders of a bald, faceless male mannequin: fine linework, muscles in pale beige and muted sage, target muscles filled flat #F26445. Gym equipment is realistic black / grey / white. Clean, premium, lots of empty space.
+Off-white background #F0F1EB. A very large pale #FBE3DD rounded arch shape rises in the right half behind the content. Illustrations are semi-realistic anatomical "écorché" renders of a bald, faceless male mannequin: fine linework, non-target muscles warm sand #D9CBBE with ivory skin and tendons, target muscles filled flat #F26445. Gym equipment is realistic black / grey / white. Clean, premium, lots of empty space.
 
 ### Slide 1 — hook
 - Text, stacked, uppercase, huge, top ~45% of the slide, slightly left of center, with a soft drop shadow:
   - line 1 `WEAK` in #2A2A2A
   - line 2 `BACK?` in #F26445, with a small #F26445 paint-splat dot just under and right of the "?"
-- Illustration: rear view of the anatomical man from the hips up in the lower ~60%, overlapping the bottom of the headline a little. His right arm (viewer's right) is raised and flexed in a back double-biceps pose; the other hand rests on the hip. Lats, traps, rear delts and teres are filled #F26445; everything else beige/sage. Cropped at the bottom edge.
+- Illustration: rear view of the anatomical man from the hips up in the lower ~60%, overlapping the bottom of the headline a little. His right arm (viewer's right) is raised and flexed in a back double-biceps pose; the other hand rests on the hip. Lats, traps, rear delts and teres are filled #F26445; everything else warm sand #D9CBBE / ivory. Cropped at the bottom edge.
 - No other text.
 
 ### Slide 2 — map of the back
