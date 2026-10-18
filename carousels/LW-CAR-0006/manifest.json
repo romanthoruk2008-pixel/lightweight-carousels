@@ -14,7 +14,7 @@
     }
   },
   "branch": "claude/charming-einstein-xgejky",
-  "status": "generated_all_8_pending_owner_review",
+  "status": "partially_approved_pending_slide_08_screen_asset",
   "format": {
     "width": 1080,
     "height": 1350,
@@ -38,7 +38,7 @@
   },
   "generation_call_count": 8,
   "agent_visual_review": "not_performed",
-  "user_review": "pending",
+  "user_review": "partially_approved",
   "next_slide_to_generate": null,
   "delivery_complete": true,
   "generated_slides": [
@@ -76,7 +76,10 @@
           ],
           "finished_at": "2026-10-18T21:33:12.173794+00:00",
           "result_original_path": "/workspace/generated_images/exec-fcf2919c-1883-48c7-b761-c4ba5426e1a4.png",
-          "result_file": "carousels/LW-CAR-0006/outputs/slide-01.png"
+          "result_file": "carousels/LW-CAR-0006/outputs/slide-01.png",
+          "user_review": "approved",
+          "reviewed_at": "2026-10-18T21:42:58+00:00",
+          "reviewed_output_commit": "f579f78b612fd250a6f9297bd9c27542a25640e5"
         }
       ],
       "result_file": "carousels/LW-CAR-0006/outputs/slide-01.png",
@@ -84,7 +87,7 @@
       "errors": [],
       "save_status": "saved_repository_file",
       "agent_visual_review": "not_performed",
-      "user_review": "pending",
+      "user_review": "approved",
       "generation_result_original_path": "/workspace/generated_images/exec-fcf2919c-1883-48c7-b761-c4ba5426e1a4.png",
       "generated_dimensions": {
         "width": 1122,
@@ -95,7 +98,8 @@
         "height": 1350
       },
       "export_method": "Uniform scaling to fit 1080x1350 and centered canvas extent; no independent-axis stretching.",
-      "result_bytes": 1304990
+      "result_bytes": 1304990,
+      "owner_reviewed_commit": "f579f78b612fd250a6f9297bd9c27542a25640e5"
     },
     {
       "slide_number": 2,
@@ -121,7 +125,10 @@
           ],
           "finished_at": "2026-10-18T21:34:06.977963+00:00",
           "result_original_path": "/workspace/generated_images/exec-65370d2c-0155-4160-a111-939912e89a22.png",
-          "result_file": "carousels/LW-CAR-0006/outputs/slide-02.png"
+          "result_file": "carousels/LW-CAR-0006/outputs/slide-02.png",
+          "user_review": "approved",
+          "reviewed_at": "2026-10-18T21:42:58+00:00",
+          "reviewed_output_commit": "f579f78b612fd250a6f9297bd9c27542a25640e5"
         }
       ],
       "result_file": "carousels/LW-CAR-0006/outputs/slide-02.png",
@@ -129,7 +136,7 @@
       "errors": [],
       "save_status": "saved_repository_file",
       "agent_visual_review": "not_performed",
-      "user_review": "pending",
+      "user_review": "approved",
       "generation_result_original_path": "/workspace/generated_images/exec-65370d2c-0155-4160-a111-939912e89a22.png",
       "generated_dimensions": {
         "width": 1122,
@@ -140,7 +147,8 @@
         "height": 1350
       },
       "export_method": "Uniform scaling to fit 1080x1350 and centered canvas extent; no independent-axis stretching.",
-      "result_bytes": 1586456
+      "result_bytes": 1586456,
+      "owner_reviewed_commit": "f579f78b612fd250a6f9297bd9c27542a25640e5"
     },
     {
       "slide_number": 3,
@@ -166,7 +174,10 @@
           ],
           "finished_at": "2026-10-18T21:34:48.978499+00:00",
           "result_original_path": "/workspace/generated_images/exec-46c0e59d-af37-42fb-8698-69f6f4fc6899.png",
-          "result_file": "carousels/LW-CAR-0006/outputs/slide-03.png"
+          "result_file": "carousels/LW-CAR-0006/outputs/slide-03.png",
+          "user_review": "approved",
+          "reviewed_at": "2026-10-18T21:42:58+00:00",
+          "reviewed_output_commit": "f579f78b612fd250a6f9297bd9c27542a25640e5"
         }
       ],
       "result_file": "carousels/LW-CAR-0006/outputs/slide-03.png",
@@ -174,7 +185,7 @@
       "errors": [],
       "save_status": "saved_repository_file",
       "agent_visual_review": "not_performed",
-      "user_review": "pending",
+      "user_review": "approved",
       "generation_result_original_path": "/workspace/generated_images/exec-46c0e59d-af37-42fb-8698-69f6f4fc6899.png",
       "generated_dimensions": {
         "width": 1122,
@@ -185,7 +196,8 @@
         "height": 1350
       },
       "export_method": "Uniform scaling to fit 1080x1350 and centered canvas extent; no independent-axis stretching.",
-      "result_bytes": 1533180
+      "result_bytes": 1533180,
+      "owner_reviewed_commit": "f579f78b612fd250a6f9297bd9c27542a25640e5"
     },
     {
       "slide_number": 4,
@@ -209,7 +221,10 @@
           ],
           "finished_at": "2026-10-18T21:35:25.277196+00:00",
           "result_original_path": "/workspace/generated_images/exec-c588c939-8b3d-4bb9-826c-545d0471725b.png",
-          "result_file": "carousels/LW-CAR-0006/outputs/slide-04.png"
+          "result_file": "carousels/LW-CAR-0006/outputs/slide-04.png",
+          "user_review": "approved",
+          "reviewed_at": "2026-10-18T21:42:58+00:00",
+          "reviewed_output_commit": "f579f78b612fd250a6f9297bd9c27542a25640e5"
         }
       ],
       "result_file": "carousels/LW-CAR-0006/outputs/slide-04.png",
@@ -217,7 +232,7 @@
       "errors": [],
       "save_status": "saved_repository_file",
       "agent_visual_review": "not_performed",
-      "user_review": "pending",
+      "user_review": "approved",
       "generation_result_original_path": "/workspace/generated_images/exec-c588c939-8b3d-4bb9-826c-545d0471725b.png",
       "generated_dimensions": {
         "width": 1122,
@@ -228,7 +243,8 @@
         "height": 1350
       },
       "export_method": "Uniform scaling to fit 1080x1350 and centered canvas extent; no independent-axis stretching.",
-      "result_bytes": 1432639
+      "result_bytes": 1432639,
+      "owner_reviewed_commit": "f579f78b612fd250a6f9297bd9c27542a25640e5"
     },
     {
       "slide_number": 5,
@@ -252,7 +268,10 @@
           ],
           "finished_at": "2026-10-18T21:36:15.364308+00:00",
           "result_original_path": "/workspace/generated_images/exec-f89b8d23-4ba8-4581-8f56-973ce7f68d60.png",
-          "result_file": "carousels/LW-CAR-0006/outputs/slide-05.png"
+          "result_file": "carousels/LW-CAR-0006/outputs/slide-05.png",
+          "user_review": "approved",
+          "reviewed_at": "2026-10-18T21:42:58+00:00",
+          "reviewed_output_commit": "f579f78b612fd250a6f9297bd9c27542a25640e5"
         }
       ],
       "result_file": "carousels/LW-CAR-0006/outputs/slide-05.png",
@@ -260,7 +279,7 @@
       "errors": [],
       "save_status": "saved_repository_file",
       "agent_visual_review": "not_performed",
-      "user_review": "pending",
+      "user_review": "approved",
       "generation_result_original_path": "/workspace/generated_images/exec-f89b8d23-4ba8-4581-8f56-973ce7f68d60.png",
       "generated_dimensions": {
         "width": 1122,
@@ -271,7 +290,8 @@
         "height": 1350
       },
       "export_method": "Uniform scaling to fit 1080x1350 and centered canvas extent; no independent-axis stretching.",
-      "result_bytes": 1520211
+      "result_bytes": 1520211,
+      "owner_reviewed_commit": "f579f78b612fd250a6f9297bd9c27542a25640e5"
     },
     {
       "slide_number": 6,
@@ -295,7 +315,10 @@
           ],
           "finished_at": "2026-10-18T21:36:55.453090+00:00",
           "result_original_path": "/workspace/generated_images/exec-4c8e7146-d061-4ca7-a88f-864d141c255b.png",
-          "result_file": "carousels/LW-CAR-0006/outputs/slide-06.png"
+          "result_file": "carousels/LW-CAR-0006/outputs/slide-06.png",
+          "user_review": "approved",
+          "reviewed_at": "2026-10-18T21:42:58+00:00",
+          "reviewed_output_commit": "f579f78b612fd250a6f9297bd9c27542a25640e5"
         }
       ],
       "result_file": "carousels/LW-CAR-0006/outputs/slide-06.png",
@@ -303,7 +326,7 @@
       "errors": [],
       "save_status": "saved_repository_file",
       "agent_visual_review": "not_performed",
-      "user_review": "pending",
+      "user_review": "approved",
       "generation_result_original_path": "/workspace/generated_images/exec-4c8e7146-d061-4ca7-a88f-864d141c255b.png",
       "generated_dimensions": {
         "width": 1122,
@@ -314,7 +337,8 @@
         "height": 1350
       },
       "export_method": "Uniform scaling to fit 1080x1350 and centered canvas extent; no independent-axis stretching.",
-      "result_bytes": 1530636
+      "result_bytes": 1530636,
+      "owner_reviewed_commit": "f579f78b612fd250a6f9297bd9c27542a25640e5"
     },
     {
       "slide_number": 7,
@@ -338,7 +362,10 @@
           ],
           "finished_at": "2026-10-18T21:37:30.474974+00:00",
           "result_original_path": "/workspace/generated_images/exec-124d6c91-98a0-4f58-98da-a1c3af9a3592.png",
-          "result_file": "carousels/LW-CAR-0006/outputs/slide-07.png"
+          "result_file": "carousels/LW-CAR-0006/outputs/slide-07.png",
+          "user_review": "approved",
+          "reviewed_at": "2026-10-18T21:42:58+00:00",
+          "reviewed_output_commit": "f579f78b612fd250a6f9297bd9c27542a25640e5"
         }
       ],
       "result_file": "carousels/LW-CAR-0006/outputs/slide-07.png",
@@ -346,7 +373,7 @@
       "errors": [],
       "save_status": "saved_repository_file",
       "agent_visual_review": "not_performed",
-      "user_review": "pending",
+      "user_review": "approved",
       "generation_result_original_path": "/workspace/generated_images/exec-124d6c91-98a0-4f58-98da-a1c3af9a3592.png",
       "generated_dimensions": {
         "width": 1122,
@@ -357,7 +384,8 @@
         "height": 1350
       },
       "export_method": "Uniform scaling to fit 1080x1350 and centered canvas extent; no independent-axis stretching.",
-      "result_bytes": 1451516
+      "result_bytes": 1451516,
+      "owner_reviewed_commit": "f579f78b612fd250a6f9297bd9c27542a25640e5"
     },
     {
       "slide_number": 8,
@@ -409,12 +437,20 @@
         "height": 1350
       },
       "export_method": "Uniform scaling to fit 1080x1350 and centered canvas extent; no independent-axis stretching.",
-      "result_bytes": 1501229
+      "result_bytes": 1501229,
+      "owner_revision_request": {
+        "requested_at": "2026-10-18T21:42:58+00:00",
+        "request": "Replace only the phone screen with the owner-supplied Lightweight Distribution screen showing This week, Working sets 7, Volume 0 kg, and the front muscle diagram. Keep the screenshot in its supplied proportions and preserve the rest of slide 8.",
+        "source_status": "visible_in_chat_but_no_accessible_original_image_file_in_workspace",
+        "replacement_status": "pending_accessible_source_asset",
+        "generation_attempted": false,
+        "next_action": "Use the original supplied screenshot file for exact screen insertion; do not generate or redraw app UI."
+      }
     }
   ],
-  "updated_at": "2026-10-18T21:39:29.248971+00:00",
+  "updated_at": "2026-10-18T21:42:58+00:00",
   "missing_slides": [],
-  "next_action": "Owner reviews the eight current outputs; no automatic changes or regenerations.",
+  "next_action": "Owner provides the Distribution screenshot as an accessible image file; then replace only the phone screen on slide 8, preserve its original proportions, update the archive, and push the revision. Slides 1-7 are approved and must remain unchanged.",
   "delivery_archive": "carousels/LW-CAR-0006/LW-CAR-0006-1080x1350.zip",
   "storage": {
     "method": "single_carousel_git_commit",
@@ -433,5 +469,21 @@
   "limitations": [
     "Exact rendered text, Rubik compliance, muscle highlighting, poses and layout were requested in generation prompts but not independently verified because the owner disabled post-generation QA.",
     "The phone screen source is the already accepted LW-CAR-0001 composite; no standalone raw app screenshot is available in this checkout. Its lower phone/hand region is directly reused without scaling."
-  ]
+  ],
+  "owner_approval": {
+    "reviewed_at": "2026-10-18T21:42:58+00:00",
+    "approved_slides": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "reviewed_output_commit": "f579f78b612fd250a6f9297bd9c27542a25640e5",
+    "excluded_slide": 8,
+    "excluded_slide_reason": "Owner requested replacing the phone screen with the supplied Distribution screenshot; its original image file is not accessible in the cloud workspace, so exact bitmap insertion is pending.",
+    "agent_visual_review": "not_performed"
+  }
 }
