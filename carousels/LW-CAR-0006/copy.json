@@ -26,7 +26,7 @@
     "skin_ivory_approx": "#F5F0E5"
   },
   "caption": {
-    "text": "5 muscles most people forget to train. Which one are you skipping? 👇 #gymtips #musclebuilding #workouttips #gymtok",
+    "text": "5 muscles most lifters forget to train. Which one are you skipping? 👇 #gymtips #musclebuilding #workouttips #gymtok",
     "notes": "The question invites comments."
   },
   "hook_alternatives_not_used": [
@@ -64,7 +64,7 @@
       "role": "map",
       "text": [
         {
-          "string": "Most People Skip These",
+          "string": "Most Lifters Skip These",
           "style": "title, bold, text_dark, centered"
         },
         {
@@ -294,9 +294,8 @@
       "version": "1.1",
       "date": "2026-10-19",
       "changes": [
-        "slide 2 title: 'Most Lifters Skip These' → 'Most People Skip These' (owner: no 'lifters', audience includes beginners and calisthenics)",
-        "caption: 'most lifters' → 'most people'",
-        "slide 8 second body line shortened to \"Lightweight shows which muscles you're forgetting.\" (v1.0 line was clipped; no feature name so it fits the new Distribution screen as well as Muscle balance)"
+        "slide 8 second body line shortened to \"Lightweight shows which muscles you're forgetting.\" (v1.0 line was clipped on the generated slide; no feature name so it fits the new Distribution screen)",
+        "owner decision: this carousel keeps 'Lifters' (slide 2, caption) as generated and approved; the 'no lifters' rule applies to new carousels"
       ]
     }
   ]

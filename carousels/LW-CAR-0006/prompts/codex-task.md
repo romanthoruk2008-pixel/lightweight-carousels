@@ -27,7 +27,7 @@ Semi-realistic anatomical "écorché" mannequin as on LW-CAR-0001: bald, faceles
 - Below: one full-body anatomical man in a **three-quarter rear view**, standing confidently, one arm slightly forward so the forearm is visible. The five "forgotten" muscles are filled #F26445: **rear delts, forearms, obliques / side of the core, hamstrings, calves**. Everything else sand / ivory. Whole figure visible, calves included. Pale #FBE3DD arch behind on the right as on the template.
 
 ### Slide 2 — map (template: LW-CAR-0001 slide 2)
-- Title centered at top: `Most People Skip These` (bold, #2A2A2A), short #F26445 underline bar.
+- Title centered at top: `Most Lifters Skip These` (bold, #2A2A2A), short #F26445 underline bar.
 - Center: a large full-body anatomical man in a three-quarter rear view (same as the cover figure), with the same five muscles filled #F26445.
 - **Five** rounded thumbnail cards with thin dark outlines, exactly like the template's cards. Each shows a mini figure with only that muscle in #F26445, and a dark label bar at the bottom with white caps:
   - left column, top to bottom: `REAR DELTS`, `FOREARMS`, `CORE` (the CORE card shows a mini **front** torso with abs and obliques in #F26445)

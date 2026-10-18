@@ -15,7 +15,7 @@
 | # | Слайд | Текст |
 |---|---|---|
 | 1 | Обкладинка | THE MUSCLES / YOU'RE / **FORGETTING** + фігура з 5 підсвіченими м'язами |
-| 2 | Мапа | Most People Skip These + 5 карток: REAR DELTS, FOREARMS, CORE, HAMSTRINGS, CALVES |
+| 2 | Мапа | Most Lifters Skip These + 5 карток: REAR DELTS, FOREARMS, CORE, HAMSTRINGS, CALVES |
 | 3 | 1 Rear Delts | Pressing trains the front of your shoulders. The back gets almost nothing. — Reverse Pec Dec / Face Pull |
 | 4 | 2 Forearms | Big arms look smaller on top of skinny forearms. — Wrist Curl / Reverse Curl |
 | 5 | 3 Core | Heavy lifts use your core, but your abs still need direct work. — Cable Crunch / Hanging Leg Raise |
