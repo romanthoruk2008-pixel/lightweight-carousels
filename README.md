@@ -27,6 +27,7 @@
 
 - [Розбір референсів і патерн каруселі](references/PATTERN.md)
 - [Як шукати теми й беклог](docs/TOPICS.md)
+- [Профіль Arrow: теми й перегляди](references/ARROW-PROFILE.md)
 - [Базові кольори](docs/BRAND.md)
 - [Рішення й фідбек](docs/DECISIONS.md)
 - [Проєкт workflow](docs/WORKFLOW.md)

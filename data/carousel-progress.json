@@ -23,7 +23,7 @@
       "accepted_assets": []
     }
   ],
-  "next_action": "Owner adds real Lightweight app screens to references/APP-SCREENS.md; then pilot adaptation of REF-001 (copy first, then visuals). Topic backlog: docs/TOPICS.md.",
+  "next_action": "Owner adds real Lightweight app screens; owner picks pilot REF-001 (track-workout ending) or REF-007 (765K views, needs real progress/stats ending). Next reference candidates by views: references/ARROW-PROFILE.md.",
   "review_policy": {
     "separate_reviewer": false,
     "automatic_post_generation_visual_review": false,
