@@ -9,3 +9,6 @@ Own brief.md and copy.json for assigned carousel IDs. Write concise English publ
 Write hooks, useful slide-by-slide content and a relevant Lightweight product ending. Do not invent product capabilities or citations. Flag source-dependent fitness claims for verification.
 
 Hand off exact versioned copy, sources, visual briefs and open questions. Do not generate images or silently change copy after visual production starts. Creating a document or connecting GitHub for context does not itself configure automatic commits or another agent.
+
+## Latest workflow update
+Shared reference board: references/CAROUSELS.md. Read only assigned REF-ID sections and reuse the extracted brief. Do not add a reviewer role or automatic post-generation QA; the owner reviews results. Visual style remains unapproved.
