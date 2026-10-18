@@ -48,3 +48,9 @@ Do not invent product features, app screens, logos, citations, unavailable refer
 The final slide connects its topic to a real Lightweight capability. Generic save copy with a brand wordmark is insufficient; no exact final-slide copy/layout is approved.
 
 Record owner feedback in docs/DECISIONS.md and preserve earlier decisions as history.
+
+## Authentic product screens
+
+references/APP-SCREENS.md is the shared board for original Lightweight UI screenshots. APP-XXX identifies one screen/state. Empty placeholders are not assets or proof of a feature. Record exact APP-ID, source commit and actual image URL in the brief.
+
+Select an app screen that supports the carousel's actual message and product feature. Never invent UI or claim a generative recreation preserves the original exactly. For exact UI, the proposed workflow separates scene generation from insertion of the original screenshot with perspective/masking; this compositing stage is not configured yet. Report a capability blocker if exact insertion is unavailable. Phone/hand mockups are optional, and no final-slide style is approved.
