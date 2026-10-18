@@ -25,6 +25,7 @@
 
 ## Документи
 
+- [Розбір референсів і патерн каруселі](references/PATTERN.md)
 - [Базові кольори](docs/BRAND.md)
 - [Рішення й фідбек](docs/DECISIONS.md)
 - [Проєкт workflow](docs/WORKFLOW.md)
