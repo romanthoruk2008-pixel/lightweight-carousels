@@ -20,7 +20,7 @@
     ]
   },
   "updated_at": "2026-10-18T21:02:07.889177+00:00",
-  "status": "slides_1_7_v2_and_slide_8_revision_2_pending_owner_review",
+  "status": "slide_8_approved_slides_1_7_v2_pending_owner_review",
   "format": {
     "width": 1080,
     "height": 1350,
@@ -41,11 +41,11 @@
     "source": "First image in owner chat message; Lightweight wordmark in Figma screenshot"
   },
   "agent_visual_review": "not_performed",
-  "user_review": "pending",
+  "user_review": "partial_approval",
   "generation_call_count": 9,
   "remote_save_status": "saved_github",
   "next_slide_to_generate": null,
-  "next_action": "Owner reviews the existing warm-sand version of slides 1–7 and the newly revised slide 8. No automatic generation or QA.",
+  "next_action": "Slide 8 attempt 2 is accepted by the owner; preserve it without regeneration. The warm-sand versions of slides 1–7 retain their existing review states.",
   "slides": [
     {
       "slide_number": 1,
@@ -633,7 +633,18 @@
           "finished_at": "2026-10-18T21:00:48.228421+00:00",
           "result_original_path": "/workspace/generated_images/exec-b2d1c087-c0f7-4d6a-91cc-81b94d5fa43a.png",
           "save_status": "saved_github",
-          "result_link": "https://github.com/romanthoruk2008-pixel/lightweight-carousels/blob/cd6634266498d9b23367182aa46c62278658bb41/carousels/LW-CAR-0001/outputs/slide-08.png"
+          "result_link": "https://github.com/romanthoruk2008-pixel/lightweight-carousels/blob/cd6634266498d9b23367182aa46c62278658bb41/carousels/LW-CAR-0001/outputs/slide-08.png",
+          "user_review": "approved",
+          "owner_approval": {
+            "date": "2026-10-19",
+            "timezone": "Europe/Kyiv",
+            "approved_by": "owner",
+            "source": "Explicit approval in this chat",
+            "attempt": 2,
+            "output_commit": "cd6634266498d9b23367182aa46c62278658bb41",
+            "file": "carousels/LW-CAR-0001/outputs/slide-08.png",
+            "result_link": "https://github.com/romanthoruk2008-pixel/lightweight-carousels/blob/cd6634266498d9b23367182aa46c62278658bb41/carousels/LW-CAR-0001/outputs/slide-08.png"
+          }
         }
       ],
       "errors": [
@@ -641,7 +652,7 @@
       ],
       "save_status": "saved_github",
       "agent_visual_review": "not_performed",
-      "user_review": "pending",
+      "user_review": "approved",
       "generation_result_original_path": "/workspace/generated_images/exec-b2d1c087-c0f7-4d6a-91cc-81b94d5fa43a.png",
       "generated_dimensions": {
         "width": 1122,
@@ -661,6 +672,16 @@
       },
       "owner_feedback": {
         "note": "Current owner request: preserve the original screenshot aspect ratio; taller phone may extend beyond bottom edge. Keep the existing slide colors, text and layout."
+      },
+      "owner_approval": {
+        "date": "2026-10-19",
+        "timezone": "Europe/Kyiv",
+        "approved_by": "owner",
+        "source": "Explicit approval in this chat",
+        "attempt": 2,
+        "output_commit": "cd6634266498d9b23367182aa46c62278658bb41",
+        "file": "carousels/LW-CAR-0001/outputs/slide-08.png",
+        "result_link": "https://github.com/romanthoruk2008-pixel/lightweight-carousels/blob/cd6634266498d9b23367182aa46c62278658bb41/carousels/LW-CAR-0001/outputs/slide-08.png"
       }
     }
   ],
@@ -688,5 +709,17 @@
   "remote_outputs_commit": "f49490e1c9094c69545dd1c82bb094e63df601e8",
   "remote_saved_at": "2026-10-18T20:44:59.618330+00:00",
   "delivery_archive_url": "https://github.com/romanthoruk2008-pixel/lightweight-carousels/blob/claude/charming-einstein-xgejky/carousels/LW-CAR-0001/LW-CAR-0001-1080x1350.zip",
-  "latest_slide_8_revision_commit": "cd6634266498d9b23367182aa46c62278658bb41"
+  "latest_slide_8_revision_commit": "cd6634266498d9b23367182aa46c62278658bb41",
+  "owner_approval_history": [
+    {
+      "date": "2026-10-19",
+      "timezone": "Europe/Kyiv",
+      "approved_by": "owner",
+      "source": "Explicit approval in this chat",
+      "attempt": 2,
+      "output_commit": "cd6634266498d9b23367182aa46c62278658bb41",
+      "file": "carousels/LW-CAR-0001/outputs/slide-08.png",
+      "result_link": "https://github.com/romanthoruk2008-pixel/lightweight-carousels/blob/cd6634266498d9b23367182aa46c62278658bb41/carousels/LW-CAR-0001/outputs/slide-08.png"
+    }
+  ]
 }
