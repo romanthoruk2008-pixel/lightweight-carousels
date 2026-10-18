@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "phase": "reference_adaptation_planning",
+  "phase": "pilot",
   "style_status": "reference_direction_confirmed",
   "approved_style_version": null,
   "integrations": {
@@ -9,7 +9,22 @@
     "remote_binary_storage": "not_configured",
     "scheduled_runs": "not_configured"
   },
-  "production_carousels": [],
+  "production_carousels": [
+    {
+      "id": "LW-CAR-0001",
+      "title": "WEAK BACK?",
+      "source_ref": "REF-007",
+      "content_version": "1.0",
+      "copy_status": "frozen_for_pilot",
+      "slides": 8,
+      "slides_blocked": [
+        8
+      ],
+      "generation": "not_started",
+      "user_review": "pending",
+      "path": "carousels/LW-CAR-0001/"
+    }
+  ],
   "experiments": [
     {
       "id": "EXP-0001",
@@ -23,7 +38,7 @@
       "accepted_assets": []
     }
   ],
-  "next_action": "Owner adds real Lightweight app screens; owner picks pilot REF-001 (track-workout ending) or REF-007 (765K views, needs real progress/stats ending). Next reference candidates by views: references/ARROW-PROFILE.md.",
+  "next_action": "Owner gives carousels/LW-CAR-0001/prompts/codex-task.md to Codex: slides 1 and 3 first, owner feedback, then 2,4-7. Slide 8 waits for a real Lightweight screenshot and owner-confirmed wording; logo only from owner-provided file.",
   "review_policy": {
     "separate_reviewer": false,
     "automatic_post_generation_visual_review": false,
