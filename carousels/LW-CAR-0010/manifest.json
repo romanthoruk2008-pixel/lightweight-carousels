@@ -1,0 +1,421 @@
+{
+  "carousel_id": "LW-CAR-0010",
+  "type": "original",
+  "content_version": "1.0",
+  "content_commit": "f257f76577a386ba44b5d34cf2c8977dba475ad9",
+  "source_ref": null,
+  "status": "complete_pending_owner_review",
+  "expected_slide_count": 10,
+  "agent_visual_review": "not_performed",
+  "user_review": "pending",
+  "slides": [
+    {
+      "slide_number": 1,
+      "content_version": "1.0",
+      "status": "generated",
+      "visual_template_files": [
+        "carousels/LW-CAR-0002/outputs/slide-01.png"
+      ],
+      "template_access": "opened",
+      "prompt": "Create ONE finished original Lightweight carousel slide, portrait 1080x1350 PNG, using the FIRST supplied approved slide as the exact layout template. This is our own new text and exercise content, not a new design. Preserve its composition, spacing, hierarchy, arch and illustration style; change only the requested text, exercises and highlights. No TikTok interface exists in these own-slide inputs.\nSeries: offwhite #F0F1EB background, pale-coral right arch #FBE3DD, accent #F26445, dark #2A2A2A, grey body #6B6B6B, white #FFFFFF. Fine grey anatomical linework, ivory skin/tendons #F5F0E5, nonhighlighted muscles warm sand #D9CBBE with darker sand shading, absolutely no green/sage. Adult bald faceless SMOOTH PLASTIC educational anatomy mannequin, featureless pelvis, friendly calm pose. Every full-body exercise/cover figure wears plain SHORT OPAQUE warm-sand #D9CBBE athletic shorts fully covering pelvis/groin/buttocks. No reproductive features or nudity details. Do not make intimidating or grotesquely exaggerated bodybuilding anatomy.\nFont Rubik: heaviest for cover, Bold titles, Regular body, as the supplied series. Exact text below only, preserving case and punctuation. Do not add a period to titles that lack one. No extra copy, explanations, watermarks, signatures or invented logos. Reuse supplied small black Lightweight wordmark at top-left with the same size/placement. Original accepted top strip will be copied in planned assembly, so reserve y0..110 for it. Every line must remain fully visible: keep text above/beside illustrations. Move or shrink the illustration when needed, never cover or shorten text. Bottom labels fully inside canvas.\n\nSLIDE 1 cover, twin of LW-CAR-0002 slide 1. Replace headline with exactly THREE stacked uppercase lines, heaviest Rubik, matching template size/position:\nYOUR FIRST\nWEEK IN\nTHE GYM\nFirst two dark #2A2A2A, last coral #F26445. Under them one front-view adult anatomical mannequin from knees up standing relaxed and confident, holding a pair of LIGHT black dumbbells at his sides, not on any machine. Chest, shoulders, arms, abs and exposed quads all coral #F26445 to show full body; other areas ivory/sand. Plain sand short shorts. Naturally cropped at bottom as template. No additional subtitle or equipment.",
+      "prompt_file": "carousels/LW-CAR-0010/prompts/slide-01.txt",
+      "result_file": "carousels/LW-CAR-0010/outputs/slide-01.png",
+      "attempt_count": 1,
+      "attempt_history": [
+        {
+          "attempt": 1,
+          "status": "generated",
+          "started_at": "2026-10-19T09:01:18.851882+00:00",
+          "prompt_file": "carousels/LW-CAR-0010/prompts/slide-01.txt",
+          "finished_at": "2026-10-19T09:01:53.673025+00:00",
+          "result_original_path": "/workspace/generated_images/exec-4c52f8ab-2703-4dd3-bf70-9a1d9a5627b2.png",
+          "user_review": "pending",
+          "agent_visual_review": "not_performed"
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_repository_file",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending",
+      "generation_result_original_path": "/workspace/generated_images/exec-4c52f8ab-2703-4dd3-bf70-9a1d9a5627b2.png",
+      "export_dimensions": {
+        "width": 1080,
+        "height": 1350
+      },
+      "export_method": "Uniform fit and centered canvas extent to 1080x1350; preplanned exact copy of approved wordmark strip at original position, no independent-axis stretch."
+    },
+    {
+      "slide_number": 2,
+      "content_version": "1.0",
+      "status": "generated",
+      "visual_template_files": [
+        "carousels/LW-CAR-0007/outputs/slide-05.png"
+      ],
+      "template_access": "opened",
+      "prompt": "Create ONE finished original Lightweight carousel slide, portrait 1080x1350 PNG, using the FIRST supplied approved slide as the exact layout template. This is our own new text and exercise content, not a new design. Preserve its composition, spacing, hierarchy, arch and illustration style; change only the requested text, exercises and highlights. No TikTok interface exists in these own-slide inputs.\nSeries: offwhite #F0F1EB background, pale-coral right arch #FBE3DD, accent #F26445, dark #2A2A2A, grey body #6B6B6B, white #FFFFFF. Fine grey anatomical linework, ivory skin/tendons #F5F0E5, nonhighlighted muscles warm sand #D9CBBE with darker sand shading, absolutely no green/sage. Adult bald faceless SMOOTH PLASTIC educational anatomy mannequin, featureless pelvis, friendly calm pose. Every full-body exercise/cover figure wears plain SHORT OPAQUE warm-sand #D9CBBE athletic shorts fully covering pelvis/groin/buttocks. No reproductive features or nudity details. Do not make intimidating or grotesquely exaggerated bodybuilding anatomy.\nFont Rubik: heaviest for cover, Bold titles, Regular body, as the supplied series. Exact text below only, preserving case and punctuation. Do not add a period to titles that lack one. No extra copy, explanations, watermarks, signatures or invented logos. Reuse supplied small black Lightweight wordmark at top-left with the same size/placement. Original accepted top strip will be copied in planned assembly, so reserve y0..110 for it. Every line must remain fully visible: keep text above/beside illustrations. Move or shrink the illustration when needed, never cover or shorten text. Bottom labels fully inside canvas.\n\nSLIDE 2 THE PLAN, copy the supplied approved LW-CAR-0007 slide 5 week-table composition. Top-left dark bold title \"The Plan\", short coral underline. Grey body exactly \"3 full-body workouts. A rest day between each.\"\nMiddle: one straight seven-column week table occupying almost full width, same dark #2A2A2A header row and white bold labels exactly left-to-right MON | TUE | WED | THU | FRI | SAT | SUN. White body cells, thin grey borders. MON, WED and FRI cells EACH have one small front-view standing anatomy figure with coral chest/shoulders/arms/abs/quads, ivory/sand tendons and plain sand shorts, then coral label \"FULL BODY\" beneath inside the same cell. TUE, THU, SAT, SUN cells have NO figure, each a small grey \"REST\" label only. Exactly three workout days with a rest day between, never Mon/Thu as in old template. No old 5 sets or =10 chest sets/week footer. No other numbers or words. A subtle cropped head/shoulders below table is optional, but omit if it competes with table. Keep table and all weekday/REST/FULL BODY labels completely visible.",
+      "prompt_file": "carousels/LW-CAR-0010/prompts/slide-02.txt",
+      "result_file": "carousels/LW-CAR-0010/outputs/slide-02.png",
+      "attempt_count": 1,
+      "attempt_history": [
+        {
+          "attempt": 1,
+          "status": "generated",
+          "started_at": "2026-10-19T09:02:07.586450+00:00",
+          "prompt_file": "carousels/LW-CAR-0010/prompts/slide-02.txt",
+          "finished_at": "2026-10-19T09:02:57.293157+00:00",
+          "result_original_path": "/workspace/generated_images/exec-480123a4-2987-42bf-b23a-4936ccac92df.png",
+          "user_review": "pending",
+          "agent_visual_review": "not_performed"
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_repository_file",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending",
+      "generation_result_original_path": "/workspace/generated_images/exec-480123a4-2987-42bf-b23a-4936ccac92df.png",
+      "export_dimensions": {
+        "width": 1080,
+        "height": 1350
+      },
+      "export_method": "Uniform fit and centered canvas extent to 1080x1350; preplanned exact copy of approved wordmark strip at original position, no independent-axis stretch."
+    },
+    {
+      "slide_number": 3,
+      "content_version": "1.0",
+      "status": "generated",
+      "visual_template_files": [
+        "carousels/LW-CAR-0002/outputs/slide-02.png"
+      ],
+      "template_access": "opened",
+      "prompt": "Create ONE finished original Lightweight carousel slide, portrait 1080x1350 PNG, using the FIRST supplied approved slide as the exact layout template. This is our own new text and exercise content, not a new design. Preserve its composition, spacing, hierarchy, arch and illustration style; change only the requested text, exercises and highlights. No TikTok interface exists in these own-slide inputs.\nSeries: offwhite #F0F1EB background, pale-coral right arch #FBE3DD, accent #F26445, dark #2A2A2A, grey body #6B6B6B, white #FFFFFF. Fine grey anatomical linework, ivory skin/tendons #F5F0E5, nonhighlighted muscles warm sand #D9CBBE with darker sand shading, absolutely no green/sage. Adult bald faceless SMOOTH PLASTIC educational anatomy mannequin, featureless pelvis, friendly calm pose. Every full-body exercise/cover figure wears plain SHORT OPAQUE warm-sand #D9CBBE athletic shorts fully covering pelvis/groin/buttocks. No reproductive features or nudity details. Do not make intimidating or grotesquely exaggerated bodybuilding anatomy.\nFont Rubik: heaviest for cover, Bold titles, Regular body, as the supplied series. Exact text below only, preserving case and punctuation. Do not add a period to titles that lack one. No extra copy, explanations, watermarks, signatures or invented logos. Reuse supplied small black Lightweight wordmark at top-left with the same size/placement. Original accepted top strip will be copied in planned assembly, so reserve y0..110 for it. Every line must remain fully visible: keep text above/beside illustrations. Move or shrink the illustration when needed, never cover or shorten text. Bottom labels fully inside canvas.\n\nSLIDE 3 CHECKLIST, copy supplied LW-CAR-0002 slide 2 composition. Top-left exact two-line bold dark title:\nEvery Workout\nIncludes:\nShort coral underline. Below, five left-aligned bullets spaced as template. Exact strings:\n1x Squat\n1x Push\n1x Pull\n1x Hinge\n1x Core\nFor each, \"1x\" Regular Rubik and movement word Bold. No extra qualifiers or numbers. Bottom-right front-view half-body anatomy mannequin cropped by right/bottom edges as template, with chest, shoulders, arms, abs and exposed quads coral. Plain short sand shorts. Figure must stay clear of all five bullet lines; shrink/reposition it if necessary, never overlap text.",
+      "prompt_file": "carousels/LW-CAR-0010/prompts/slide-03.txt",
+      "result_file": "carousels/LW-CAR-0010/outputs/slide-03.png",
+      "attempt_count": 1,
+      "attempt_history": [
+        {
+          "attempt": 1,
+          "status": "generated",
+          "started_at": "2026-10-19T09:03:09.787530+00:00",
+          "prompt_file": "carousels/LW-CAR-0010/prompts/slide-03.txt",
+          "finished_at": "2026-10-19T09:03:46.728873+00:00",
+          "result_original_path": "/workspace/generated_images/exec-b5079ce9-309b-44ad-ab76-dfdca5f88c7f.png",
+          "user_review": "pending",
+          "agent_visual_review": "not_performed"
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_repository_file",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending",
+      "generation_result_original_path": "/workspace/generated_images/exec-b5079ce9-309b-44ad-ab76-dfdca5f88c7f.png",
+      "export_dimensions": {
+        "width": 1080,
+        "height": 1350
+      },
+      "export_method": "Uniform fit and centered canvas extent to 1080x1350; preplanned exact copy of approved wordmark strip at original position, no independent-axis stretch."
+    },
+    {
+      "slide_number": 4,
+      "content_version": "1.0",
+      "status": "generated",
+      "visual_template_files": [
+        "carousels/LW-CAR-0002/outputs/slide-03.png"
+      ],
+      "template_access": "opened",
+      "prompt": "Create ONE finished original Lightweight carousel slide, portrait 1080x1350 PNG, using the FIRST supplied approved slide as the exact layout template. This is our own new text and exercise content, not a new design. Preserve its composition, spacing, hierarchy, arch and illustration style; change only the requested text, exercises and highlights. No TikTok interface exists in these own-slide inputs.\nSeries: offwhite #F0F1EB background, pale-coral right arch #FBE3DD, accent #F26445, dark #2A2A2A, grey body #6B6B6B, white #FFFFFF. Fine grey anatomical linework, ivory skin/tendons #F5F0E5, nonhighlighted muscles warm sand #D9CBBE with darker sand shading, absolutely no green/sage. Adult bald faceless SMOOTH PLASTIC educational anatomy mannequin, featureless pelvis, friendly calm pose. Every full-body exercise/cover figure wears plain SHORT OPAQUE warm-sand #D9CBBE athletic shorts fully covering pelvis/groin/buttocks. No reproductive features or nudity details. Do not make intimidating or grotesquely exaggerated bodybuilding anatomy.\nFont Rubik: heaviest for cover, Bold titles, Regular body, as the supplied series. Exact text below only, preserving case and punctuation. Do not add a period to titles that lack one. No extra copy, explanations, watermarks, signatures or invented logos. Reuse supplied small black Lightweight wordmark at top-left with the same size/placement. Original accepted top strip will be copied in planned assembly, so reserve y0..110 for it. Every line must remain fully visible: keep text above/beside illustrations. Move or shrink the illustration when needed, never cover or shorten text. Bottom labels fully inside canvas.\n\nUse the FIRST image's exercise layout exactly. Top-left large coral NUMBER, short coral underline beneath it. Dark bold TITLE to its right and exact grey sets line immediately under title. Below header across width the exact grey beginner cue over TWO lines. Lower ~55% two complete exercise figures in sand/ivory, no coral muscle highlights, left and right, with a thin vertical coral divider between them. No OR badge or arrows. Exact dark Regular Rubik labels under each figure. Fit equipment and figures inside their half; keep clear of all text and labels. Both figures wear plain opaque short sand gym shorts.\nSLIDE 4. NUMBER \"#1\"; TITLE \"Squat\"; sets line exactly \"2-3 sets x 8-12 reps\". Cue exactly, with these two lines:\nHold a dumbbell at your chest and\nsit down between your heels.\nLEFT: front three-quarter view deep goblet squat, ONE dumbbell held vertically against chest with both hands, feet planted, sitting down between heels; label \"Goblet Squat\". RIGHT: side view seated leg press machine, back supported, feet on sled plate, knees bent, common grey machine/black seat; label \"Leg Press\".",
+      "prompt_file": "carousels/LW-CAR-0010/prompts/slide-04.txt",
+      "result_file": "carousels/LW-CAR-0010/outputs/slide-04.png",
+      "attempt_count": 1,
+      "attempt_history": [
+        {
+          "attempt": 1,
+          "status": "generated",
+          "started_at": "2026-10-19T09:04:01.918341+00:00",
+          "prompt_file": "carousels/LW-CAR-0010/prompts/slide-04.txt",
+          "finished_at": "2026-10-19T09:05:06.811143+00:00",
+          "result_original_path": "/workspace/generated_images/exec-90a0a9f2-5eb6-44ed-aa5f-8794fa46959e.png",
+          "user_review": "pending",
+          "agent_visual_review": "not_performed"
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_repository_file",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending",
+      "generation_result_original_path": "/workspace/generated_images/exec-90a0a9f2-5eb6-44ed-aa5f-8794fa46959e.png",
+      "export_dimensions": {
+        "width": 1080,
+        "height": 1350
+      },
+      "export_method": "Uniform fit and centered canvas extent to 1080x1350; preplanned exact copy of approved wordmark strip at original position, no independent-axis stretch."
+    },
+    {
+      "slide_number": 5,
+      "content_version": "1.0",
+      "status": "generated",
+      "visual_template_files": [
+        "carousels/LW-CAR-0002/outputs/slide-04.png"
+      ],
+      "template_access": "opened",
+      "prompt": "Create ONE finished original Lightweight carousel slide, portrait 1080x1350 PNG, using the FIRST supplied approved slide as the exact layout template. This is our own new text and exercise content, not a new design. Preserve its composition, spacing, hierarchy, arch and illustration style; change only the requested text, exercises and highlights. No TikTok interface exists in these own-slide inputs.\nSeries: offwhite #F0F1EB background, pale-coral right arch #FBE3DD, accent #F26445, dark #2A2A2A, grey body #6B6B6B, white #FFFFFF. Fine grey anatomical linework, ivory skin/tendons #F5F0E5, nonhighlighted muscles warm sand #D9CBBE with darker sand shading, absolutely no green/sage. Adult bald faceless SMOOTH PLASTIC educational anatomy mannequin, featureless pelvis, friendly calm pose. Every full-body exercise/cover figure wears plain SHORT OPAQUE warm-sand #D9CBBE athletic shorts fully covering pelvis/groin/buttocks. No reproductive features or nudity details. Do not make intimidating or grotesquely exaggerated bodybuilding anatomy.\nFont Rubik: heaviest for cover, Bold titles, Regular body, as the supplied series. Exact text below only, preserving case and punctuation. Do not add a period to titles that lack one. No extra copy, explanations, watermarks, signatures or invented logos. Reuse supplied small black Lightweight wordmark at top-left with the same size/placement. Original accepted top strip will be copied in planned assembly, so reserve y0..110 for it. Every line must remain fully visible: keep text above/beside illustrations. Move or shrink the illustration when needed, never cover or shorten text. Bottom labels fully inside canvas.\n\nUse the FIRST image's exercise layout exactly. Top-left large coral NUMBER, short coral underline beneath it. Dark bold TITLE to its right and exact grey sets line immediately under title. Below header across width the exact grey beginner cue over TWO lines. Lower ~55% two complete exercise figures in sand/ivory, no coral muscle highlights, left and right, with a thin vertical coral divider between them. No OR badge or arrows. Exact dark Regular Rubik labels under each figure. Fit equipment and figures inside their half; keep clear of all text and labels. Both figures wear plain opaque short sand gym shorts.\nSLIDE 5. NUMBER \"#2\"; TITLE \"Push\"; sets \"2-3 sets x 8-12 reps\". Exact two-line cue:\nPush-ups too hard? Put your hands on a\nbench and build up from there.\nLEFT: seated machine chest press on common selectorized chest press, front three-quarter view, hands on chest-level handles, feet on floor; label \"Machine Chest Press\". RIGHT: standard push-up on FLOOR, straight body, side view, palms and toes planted, elbows bent; label \"Push-up\". The cue suggests a bench regression but the requested right illustration remains floor push-up. No extra bench exercise.",
+      "prompt_file": "carousels/LW-CAR-0010/prompts/slide-05.txt",
+      "result_file": "carousels/LW-CAR-0010/outputs/slide-05.png",
+      "attempt_count": 1,
+      "attempt_history": [
+        {
+          "attempt": 1,
+          "status": "generated",
+          "started_at": "2026-10-19T09:05:20.007587+00:00",
+          "prompt_file": "carousels/LW-CAR-0010/prompts/slide-05.txt",
+          "finished_at": "2026-10-19T09:06:08.319197+00:00",
+          "result_original_path": "/workspace/generated_images/exec-8b7e8852-7b44-4ada-b74a-275ba05bbee8.png",
+          "user_review": "pending",
+          "agent_visual_review": "not_performed"
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_repository_file",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending",
+      "generation_result_original_path": "/workspace/generated_images/exec-8b7e8852-7b44-4ada-b74a-275ba05bbee8.png",
+      "export_dimensions": {
+        "width": 1080,
+        "height": 1350
+      },
+      "export_method": "Uniform fit and centered canvas extent to 1080x1350; preplanned exact copy of approved wordmark strip at original position, no independent-axis stretch."
+    },
+    {
+      "slide_number": 6,
+      "content_version": "1.0",
+      "status": "generated",
+      "visual_template_files": [
+        "carousels/LW-CAR-0002/outputs/slide-05.png"
+      ],
+      "template_access": "opened",
+      "prompt": "Create ONE finished original Lightweight carousel slide, portrait 1080x1350 PNG, using the FIRST supplied approved slide as the exact layout template. This is our own new text and exercise content, not a new design. Preserve its composition, spacing, hierarchy, arch and illustration style; change only the requested text, exercises and highlights. No TikTok interface exists in these own-slide inputs.\nSeries: offwhite #F0F1EB background, pale-coral right arch #FBE3DD, accent #F26445, dark #2A2A2A, grey body #6B6B6B, white #FFFFFF. Fine grey anatomical linework, ivory skin/tendons #F5F0E5, nonhighlighted muscles warm sand #D9CBBE with darker sand shading, absolutely no green/sage. Adult bald faceless SMOOTH PLASTIC educational anatomy mannequin, featureless pelvis, friendly calm pose. Every full-body exercise/cover figure wears plain SHORT OPAQUE warm-sand #D9CBBE athletic shorts fully covering pelvis/groin/buttocks. No reproductive features or nudity details. Do not make intimidating or grotesquely exaggerated bodybuilding anatomy.\nFont Rubik: heaviest for cover, Bold titles, Regular body, as the supplied series. Exact text below only, preserving case and punctuation. Do not add a period to titles that lack one. No extra copy, explanations, watermarks, signatures or invented logos. Reuse supplied small black Lightweight wordmark at top-left with the same size/placement. Original accepted top strip will be copied in planned assembly, so reserve y0..110 for it. Every line must remain fully visible: keep text above/beside illustrations. Move or shrink the illustration when needed, never cover or shorten text. Bottom labels fully inside canvas.\n\nUse the FIRST image's exercise layout exactly. Top-left large coral NUMBER, short coral underline beneath it. Dark bold TITLE to its right and exact grey sets line immediately under title. Below header across width the exact grey beginner cue over TWO lines. Lower ~55% two complete exercise figures in sand/ivory, no coral muscle highlights, left and right, with a thin vertical coral divider between them. No OR badge or arrows. Exact dark Regular Rubik labels under each figure. Fit equipment and figures inside their half; keep clear of all text and labels. Both figures wear plain opaque short sand gym shorts.\nSLIDE 6. NUMBER \"#3\"; TITLE \"Pull\"; sets \"2-3 sets x 8-12 reps\". Exact cue in two lines:\nPull with your elbows,\nnot your hands.\nLEFT: rear-view seated lat pulldown, wide overhand grip, bar at upper chest, knees under pads, realistic white/grey frame and black stack; label \"Lat Pulldown\". RIGHT: side-view seated cable row with both hands on ONE V-handle close to abdomen, feet on footplates, cable toward front pulley; label \"Seated Cable Row\".",
+      "prompt_file": "carousels/LW-CAR-0010/prompts/slide-06.txt",
+      "result_file": "carousels/LW-CAR-0010/outputs/slide-06.png",
+      "attempt_count": 1,
+      "attempt_history": [
+        {
+          "attempt": 1,
+          "status": "generated",
+          "started_at": "2026-10-19T09:06:21.603757+00:00",
+          "prompt_file": "carousels/LW-CAR-0010/prompts/slide-06.txt",
+          "finished_at": "2026-10-19T09:06:56.239808+00:00",
+          "result_original_path": "/workspace/generated_images/exec-87a7ea14-8f31-4e58-8a67-f43c6a786bc7.png",
+          "user_review": "pending",
+          "agent_visual_review": "not_performed"
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_repository_file",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending",
+      "generation_result_original_path": "/workspace/generated_images/exec-87a7ea14-8f31-4e58-8a67-f43c6a786bc7.png",
+      "export_dimensions": {
+        "width": 1080,
+        "height": 1350
+      },
+      "export_method": "Uniform fit and centered canvas extent to 1080x1350; preplanned exact copy of approved wordmark strip at original position, no independent-axis stretch."
+    },
+    {
+      "slide_number": 7,
+      "content_version": "1.0",
+      "status": "generated",
+      "visual_template_files": [
+        "carousels/LW-CAR-0002/outputs/slide-06.png"
+      ],
+      "template_access": "opened",
+      "prompt": "Create ONE finished original Lightweight carousel slide, portrait 1080x1350 PNG, using the FIRST supplied approved slide as the exact layout template. This is our own new text and exercise content, not a new design. Preserve its composition, spacing, hierarchy, arch and illustration style; change only the requested text, exercises and highlights. No TikTok interface exists in these own-slide inputs.\nSeries: offwhite #F0F1EB background, pale-coral right arch #FBE3DD, accent #F26445, dark #2A2A2A, grey body #6B6B6B, white #FFFFFF. Fine grey anatomical linework, ivory skin/tendons #F5F0E5, nonhighlighted muscles warm sand #D9CBBE with darker sand shading, absolutely no green/sage. Adult bald faceless SMOOTH PLASTIC educational anatomy mannequin, featureless pelvis, friendly calm pose. Every full-body exercise/cover figure wears plain SHORT OPAQUE warm-sand #D9CBBE athletic shorts fully covering pelvis/groin/buttocks. No reproductive features or nudity details. Do not make intimidating or grotesquely exaggerated bodybuilding anatomy.\nFont Rubik: heaviest for cover, Bold titles, Regular body, as the supplied series. Exact text below only, preserving case and punctuation. Do not add a period to titles that lack one. No extra copy, explanations, watermarks, signatures or invented logos. Reuse supplied small black Lightweight wordmark at top-left with the same size/placement. Original accepted top strip will be copied in planned assembly, so reserve y0..110 for it. Every line must remain fully visible: keep text above/beside illustrations. Move or shrink the illustration when needed, never cover or shorten text. Bottom labels fully inside canvas.\n\nUse the FIRST image's exercise layout exactly. Top-left large coral NUMBER, short coral underline beneath it. Dark bold TITLE to its right and exact grey sets line immediately under title. Below header across width the exact grey beginner cue over TWO lines. Lower ~55% two complete exercise figures in sand/ivory, no coral muscle highlights, left and right, with a thin vertical coral divider between them. No OR badge or arrows. Exact dark Regular Rubik labels under each figure. Fit equipment and figures inside their half; keep clear of all text and labels. Both figures wear plain opaque short sand gym shorts.\nSLIDE 7. NUMBER \"#4\"; TITLE \"Hinge\"; sets \"2-3 sets x 8-12 reps\". Exact cue in two lines:\nPush your hips back\nand keep your back flat.\nLEFT: side-view dumbbell Romanian deadlift, TWO dumbbells held in straight arms near shins, hips back, flat torso hinged forward, slight knee bend; label \"Dumbbell Romanian Deadlift\" (wrap label over two lines if necessary, no omitted words). RIGHT: glute bridge on FLOOR, side view, lying on back with knees bent, feet planted, hips lifted; label \"Glute Bridge\". Keep movements technical and neutral, shorts fully opaque.",
+      "prompt_file": "carousels/LW-CAR-0010/prompts/slide-07.txt",
+      "result_file": "carousels/LW-CAR-0010/outputs/slide-07.png",
+      "attempt_count": 1,
+      "attempt_history": [
+        {
+          "attempt": 1,
+          "status": "generated",
+          "started_at": "2026-10-19T09:07:09.107663+00:00",
+          "prompt_file": "carousels/LW-CAR-0010/prompts/slide-07.txt",
+          "finished_at": "2026-10-19T09:07:47.844054+00:00",
+          "result_original_path": "/workspace/generated_images/exec-5d76a7b0-dd55-4f40-a92f-d55c9c115146.png",
+          "user_review": "pending",
+          "agent_visual_review": "not_performed"
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_repository_file",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending",
+      "generation_result_original_path": "/workspace/generated_images/exec-5d76a7b0-dd55-4f40-a92f-d55c9c115146.png",
+      "export_dimensions": {
+        "width": 1080,
+        "height": 1350
+      },
+      "export_method": "Uniform fit and centered canvas extent to 1080x1350; preplanned exact copy of approved wordmark strip at original position, no independent-axis stretch."
+    },
+    {
+      "slide_number": 8,
+      "content_version": "1.0",
+      "status": "generated",
+      "visual_template_files": [
+        "carousels/LW-CAR-0002/outputs/slide-08.png"
+      ],
+      "template_access": "opened",
+      "prompt": "Create ONE finished original Lightweight carousel slide, portrait 1080x1350 PNG, using the FIRST supplied approved slide as the exact layout template. This is our own new text and exercise content, not a new design. Preserve its composition, spacing, hierarchy, arch and illustration style; change only the requested text, exercises and highlights. No TikTok interface exists in these own-slide inputs.\nSeries: offwhite #F0F1EB background, pale-coral right arch #FBE3DD, accent #F26445, dark #2A2A2A, grey body #6B6B6B, white #FFFFFF. Fine grey anatomical linework, ivory skin/tendons #F5F0E5, nonhighlighted muscles warm sand #D9CBBE with darker sand shading, absolutely no green/sage. Adult bald faceless SMOOTH PLASTIC educational anatomy mannequin, featureless pelvis, friendly calm pose. Every full-body exercise/cover figure wears plain SHORT OPAQUE warm-sand #D9CBBE athletic shorts fully covering pelvis/groin/buttocks. No reproductive features or nudity details. Do not make intimidating or grotesquely exaggerated bodybuilding anatomy.\nFont Rubik: heaviest for cover, Bold titles, Regular body, as the supplied series. Exact text below only, preserving case and punctuation. Do not add a period to titles that lack one. No extra copy, explanations, watermarks, signatures or invented logos. Reuse supplied small black Lightweight wordmark at top-left with the same size/placement. Original accepted top strip will be copied in planned assembly, so reserve y0..110 for it. Every line must remain fully visible: keep text above/beside illustrations. Move or shrink the illustration when needed, never cover or shorten text. Bottom labels fully inside canvas.\n\nUse the FIRST image's exercise layout exactly. Top-left large coral NUMBER, short coral underline beneath it. Dark bold TITLE to its right and exact grey sets line immediately under title. Below header across width the exact grey beginner cue over TWO lines. Lower ~55% two complete exercise figures in sand/ivory, no coral muscle highlights, left and right, with a thin vertical coral divider between them. No OR badge or arrows. Exact dark Regular Rubik labels under each figure. Fit equipment and figures inside their half; keep clear of all text and labels. Both figures wear plain opaque short sand gym shorts.\nSLIDE 8. NUMBER \"#5\"; TITLE \"Core\"; sets \"2-3 sets x 10-12 reps\". Exact cue in two lines:\nMove slowly. Feel it in your abs,\nnot your lower back.\nLEFT: side-view dead bug on FLOOR, adult mannequin on back with opposite arm and leg extended, the other arm reaching upward and other leg bent upward, back supported by floor; label \"Dead Bug\". RIGHT: side-view kneeling cable crunch with rope attachment from high pulley, kneeling on mat, hands holding rope near sides of head, torso curled forward in crunch; label \"Cable Crunch\". Plain short sand shorts on both. No target highlights.",
+      "prompt_file": "carousels/LW-CAR-0010/prompts/slide-08.txt",
+      "result_file": "carousels/LW-CAR-0010/outputs/slide-08.png",
+      "attempt_count": 1,
+      "attempt_history": [
+        {
+          "attempt": 1,
+          "status": "generated",
+          "started_at": "2026-10-19T09:07:59.666741+00:00",
+          "prompt_file": "carousels/LW-CAR-0010/prompts/slide-08.txt",
+          "finished_at": "2026-10-19T09:08:37.992743+00:00",
+          "result_original_path": "/workspace/generated_images/exec-3445e83c-4631-423b-bcbd-3dadccb967cc.png",
+          "user_review": "pending",
+          "agent_visual_review": "not_performed"
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_repository_file",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending",
+      "generation_result_original_path": "/workspace/generated_images/exec-3445e83c-4631-423b-bcbd-3dadccb967cc.png",
+      "export_dimensions": {
+        "width": 1080,
+        "height": 1350
+      },
+      "export_method": "Uniform fit and centered canvas extent to 1080x1350; preplanned exact copy of approved wordmark strip at original position, no independent-axis stretch."
+    },
+    {
+      "slide_number": 9,
+      "content_version": "1.0",
+      "status": "generated",
+      "visual_template_files": [
+        "carousels/LW-CAR-0007/outputs/slide-07.png"
+      ],
+      "template_access": "opened",
+      "prompt": "Create ONE finished original Lightweight carousel slide, portrait 1080x1350 PNG, using the FIRST supplied approved slide as the exact layout template. This is our own new text and exercise content, not a new design. Preserve its composition, spacing, hierarchy, arch and illustration style; change only the requested text, exercises and highlights. No TikTok interface exists in these own-slide inputs.\nSeries: offwhite #F0F1EB background, pale-coral right arch #FBE3DD, accent #F26445, dark #2A2A2A, grey body #6B6B6B, white #FFFFFF. Fine grey anatomical linework, ivory skin/tendons #F5F0E5, nonhighlighted muscles warm sand #D9CBBE with darker sand shading, absolutely no green/sage. Adult bald faceless SMOOTH PLASTIC educational anatomy mannequin, featureless pelvis, friendly calm pose. Every full-body exercise/cover figure wears plain SHORT OPAQUE warm-sand #D9CBBE athletic shorts fully covering pelvis/groin/buttocks. No reproductive features or nudity details. Do not make intimidating or grotesquely exaggerated bodybuilding anatomy.\nFont Rubik: heaviest for cover, Bold titles, Regular body, as the supplied series. Exact text below only, preserving case and punctuation. Do not add a period to titles that lack one. No extra copy, explanations, watermarks, signatures or invented logos. Reuse supplied small black Lightweight wordmark at top-left with the same size/placement. Original accepted top strip will be copied in planned assembly, so reserve y0..110 for it. Every line must remain fully visible: keep text above/beside illustrations. Move or shrink the illustration when needed, never cover or shorten text. Bottom labels fully inside canvas.\n\nSLIDE 9 BEGINNER RULES, copy supplied approved LW-CAR-0007 slide 7 checklist-row layout. Top-left dark bold \"Beginner Rules\", short coral underline. FOUR rows, each with a rounded coral-outlined square containing a coral CHECK mark (ticked, unlike empty squares in old template) and dark Regular Rubik text to its right, exactly:\nStop 2-3 reps before you can't do another\nAdd a little weight or 1 rep each week\nRest 1-2 minutes between sets\nRepeat this plan for 6-8 weeks\nBelow list, exact bold coral line \"Showing up beats doing it perfectly.\"\nKeep all sentences fully visible, no extra punctuation. Bottom-right same calm anatomical adult sitting relaxed on black gym bench between sets, plain opaque short sand shorts, no target highlights, cropped at right/bottom as template. Shrink or move figure lower/right if it might touch ANY letters, keeping the motivational line clear. Do not change text to make it fit.",
+      "prompt_file": "carousels/LW-CAR-0010/prompts/slide-09.txt",
+      "result_file": "carousels/LW-CAR-0010/outputs/slide-09.png",
+      "attempt_count": 1,
+      "attempt_history": [
+        {
+          "attempt": 1,
+          "status": "generated",
+          "started_at": "2026-10-19T09:08:55.138235+00:00",
+          "prompt_file": "carousels/LW-CAR-0010/prompts/slide-09.txt",
+          "finished_at": "2026-10-19T09:09:49.083696+00:00",
+          "result_original_path": "/workspace/generated_images/exec-f694d731-9606-4e30-88d4-f55be2d3ec47.png",
+          "user_review": "pending",
+          "agent_visual_review": "not_performed"
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_repository_file",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending",
+      "generation_result_original_path": "/workspace/generated_images/exec-f694d731-9606-4e30-88d4-f55be2d3ec47.png",
+      "export_dimensions": {
+        "width": 1080,
+        "height": 1350
+      },
+      "export_method": "Uniform fit and centered canvas extent to 1080x1350; preplanned exact copy of approved wordmark strip at original position, no independent-axis stretch."
+    },
+    {
+      "slide_number": 10,
+      "content_version": "1.0",
+      "status": "generated_and_assembled",
+      "visual_template_files": [
+        "carousels/LW-CAR-0001/outputs/slide-08.png"
+      ],
+      "template_access": "opened",
+      "prompt": "Create ONE finished original Lightweight carousel slide, portrait 1080x1350 PNG, using the FIRST supplied approved slide as the exact layout template. This is our own new text and exercise content, not a new design. Preserve its composition, spacing, hierarchy, arch and illustration style; change only the requested text, exercises and highlights. No TikTok interface exists in these own-slide inputs.\nSeries: offwhite #F0F1EB background, pale-coral right arch #FBE3DD, accent #F26445, dark #2A2A2A, grey body #6B6B6B, white #FFFFFF. Fine grey anatomical linework, ivory skin/tendons #F5F0E5, nonhighlighted muscles warm sand #D9CBBE with darker sand shading, absolutely no green/sage. Adult bald faceless SMOOTH PLASTIC educational anatomy mannequin, featureless pelvis, friendly calm pose. Every full-body exercise/cover figure wears plain SHORT OPAQUE warm-sand #D9CBBE athletic shorts fully covering pelvis/groin/buttocks. No reproductive features or nudity details. Do not make intimidating or grotesquely exaggerated bodybuilding anatomy.\nFont Rubik: heaviest for cover, Bold titles, Regular body, as the supplied series. Exact text below only, preserving case and punctuation. Do not add a period to titles that lack one. No extra copy, explanations, watermarks, signatures or invented logos. Reuse supplied small black Lightweight wordmark at top-left with the same size/placement. Original accepted top strip will be copied in planned assembly, so reserve y0..110 for it. Every line must remain fully visible: keep text above/beside illustrations. Move or shrink the illustration when needed, never cover or shorten text. Bottom labels fully inside canvas.\n\nSLIDE 10 ending. FIRST supplied approved LW-CAR-0001 slide 8 is exact composition template. This generation stage changes ONLY top text/background; the original phone/hand with its existing accepted Muscle balance screen will be copied as ONE EXISTING BITMAP into the final image afterwards. Do not generate, redraw, imitate or retype any app UI. Keep lower area ready for direct original source rectangle x0,y520,width1080,height830 placed at exactly x0,y520, unscaled. In this stage leave lower y520..1350 just matching offwhite/pale coral background, NO newly drawn phone/hand/UI, because final source bitmap supplies them unchanged.\nTop small wordmark as template. Left-aligned bold headline exactly TWO lines, fully above phone:\nWeek One Done?\nNow Beat It.\nFirst line dark #2A2A2A, second coral #F26445. Short coral underline beneath headline. Then grey Regular Rubik body exactly:\nLog every workout in Lightweight and try\nto beat last week's numbers.\nKeep entire headline, underline and two body lines inside y120..495 so original phone beginning y520 cannot cover any text. Keep letter size readable; use available upper space, no extra paragraphs or punctuation. Match source arch/background. This is the top plate for required original-bitmap assembly, not a request to draw a new UI.",
+      "prompt_file": "carousels/LW-CAR-0010/prompts/slide-10.txt",
+      "result_file": "carousels/LW-CAR-0010/outputs/slide-10.png",
+      "attempt_count": 1,
+      "attempt_history": [
+        {
+          "attempt": 1,
+          "status": "top_plate_generated",
+          "started_at": "2026-10-19T09:10:03.982557+00:00",
+          "prompt_file": "carousels/LW-CAR-0010/prompts/slide-10.txt",
+          "finished_at": "2026-10-19T09:10:41.733886+00:00",
+          "result_original_path": "/workspace/generated_images/exec-5e150809-b928-4c76-9057-9e5692d7e166.png",
+          "assembly_completed_at": "2026-10-19T09:11:46.817835+00:00",
+          "user_review": "pending",
+          "agent_visual_review": "not_performed"
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_repository_file",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending",
+      "generation_result_original_path": "/workspace/generated_images/exec-5e150809-b928-4c76-9057-9e5692d7e166.png",
+      "export_dimensions": {
+        "width": 1080,
+        "height": 1350
+      },
+      "export_method": "Uniform fit and centered canvas extent to 1080x1350; preplanned exact copy of approved wordmark strip at original position, no independent-axis stretch.",
+      "top_plate_file": "carousels/LW-CAR-0010/production-assets/slide-10-top-plate.png",
+      "screen_source": {
+        "kind": "exact_reuse_of_task_specified_approved_phone_hand_composite",
+        "file": "carousels/LW-CAR-0001/outputs/slide-08.png",
+        "source_commit": "f257f76577a386ba44b5d34cf2c8977dba475ad9",
+        "source_rectangle": "1080x830+0+520",
+        "asset_file": "carousels/LW-CAR-0010/production-assets/approved-phone-hand-layer.png",
+        "destination": "0,520",
+        "transform": "Direct bitmap copy, original dimensions; no rescaling, perspective change, independent-axis stretching, UI generation or redrawing.",
+        "screen": "Existing accepted Muscle balance composite with Workout and Sets counts; no separate original raw screenshot present.",
+        "assembly_status": "completed"
+      }
+    }
+  ],
+  "generation_execution_order": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "available_final_slides": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "missing_final_slides": [],
+  "image_tool_call_count": 10,
+  "successful_image_tool_calls": 10,
+  "failed_image_tool_calls": 0,
+  "caption_file": "carousels/LW-CAR-0010/caption.txt",
+  "delivery_archive": "carousels/LW-CAR-0010/LW-CAR-0010-1080x1350.zip",
+  "remote_save_status": "not_confirmed_at_commit_creation",
+  "updated_at": "2026-10-19T09:11:46.818377+00:00",
+  "wordmark_assembly": {
+    "source_file": "carousels/LW-CAR-0001/outputs/slide-08.png",
+    "source_rectangle": "1080x110+0+0",
+    "destination": "0,0",
+    "transform": "Exact original-size bitmap copy to same coordinates on every slide."
+  },
+  "limitations": [
+    "No post-generation visual QA, OCR, anatomy audit, font verification, reviewer calls or automatic regeneration was performed. Exact rendered copy, poses and font compliance are requested in prompts but not independently verified.",
+    "Product ending directly reuses the accepted phone/hand composite specified by the task. Its original raw screenshot file is absent; no new UI was generated and no claim of separately verified raw screenshot fidelity is made."
+  ],
+  "next_actions": [
+    "Owner reviews all ten current PNGs. Make corrections only to explicitly requested slides; user_review remains pending until owner acceptance."
+  ]
+}
