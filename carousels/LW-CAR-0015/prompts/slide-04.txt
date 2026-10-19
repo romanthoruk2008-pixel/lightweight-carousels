@@ -1,0 +1,16 @@
+Produce ONE finished 4:5 portrait Lightweight fitness carousel slide, 1080 x 1350. Use attached reference 1 as the authoritative background: GRID, off-white #F0F1EB with thin #E1E2DA grid lines, 2 px at 54 px intervals across the entire canvas behind all content, like a training-log notebook. Reference 2 supplies ONLY the composition, type hierarchy and fine anatomical illustration style. IMPORTANT: completely remove its old pale coral arch. NO ARCH, no curved background shape, no blob, no ring, no gradient, no slide counter or progress bar. The sole background is the supplied GRID.
+
+Brand style: all text Rubik; cover heaviest, titles bold, sets/labels semibold, body regular. Dark #2A2A2A, grey body #6B6B6B, accent #F26445, white #FFFFFF. Anatomy illustration: bald, faceless smooth-plastic adult male anatomy mannequin, fine grey linework, warm sand #D9CBBE muscles and darker sand shading, light ivory skin/tendons about #F5F0E5. No green/sage anywhere. Smooth featureless pelvis, no genital detail. Full-body exercise figures wear plain opaque sand short shorts. Realistic black/grey/white gym equipment. Same premium rendering and body proportions across the series.
+
+Reserve top-left x30-330,y20-100 clear for the exact supplied Lightweight wordmark added during final assembly; do not draw or invent a logo, and put no content in that reserved area. No border, extra copy, watermark, signature, caption or branding beyond the supplied exact logo. Keep every text line fully visible; labels need bottom margin. Preserve the exact spelling, capitalization, punctuation and apostrophes in the copy below.
+
+LIST SLIDE: Identical composition to reference 2: centered coral circle with white 2; bold title Brachialis; semibold subtitle 2-3 Sets x 8-12 Reps; short coral underline; centered grey why line, at most two lines, exactly: It sits under your biceps and pushes it up. Train it with a neutral grip. Middle anatomical close-up is lateral/outer upper arm, highlighting ONLY the brachialis strip under the biceps and between biceps and triceps in coral; biceps and triceps remain sand. Bottom left: full-body standing dumbbell hammer curl, neutral grip palms facing inward; label Hammer Curl. Bottom right: full-body standing cable rope hammer curl from a low pulley, both hands holding rope ends in neutral grip; label Rope Hammer Curl. Coral circular OR badge between figures. Keep both bodies, equipment and labels within margins. Do not add text.
+
+Exact allowed copy for this slide (no extra text):
+2
+Brachialis
+2-3 Sets x 8-12 Reps
+It sits under your biceps and pushes it up. Train it with a neutral grip.
+Hammer Curl
+OR
+Rope Hammer Curl

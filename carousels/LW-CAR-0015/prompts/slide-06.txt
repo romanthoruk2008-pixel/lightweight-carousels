@@ -1,0 +1,16 @@
+Produce ONE finished 4:5 portrait Lightweight fitness carousel slide, 1080 x 1350. Use attached reference 1 as the authoritative background: GRID, off-white #F0F1EB with thin #E1E2DA grid lines, 2 px at 54 px intervals across the entire canvas behind all content, like a training-log notebook. Reference 2 supplies ONLY the composition, type hierarchy and fine anatomical illustration style. IMPORTANT: completely remove its old pale coral arch. NO ARCH, no curved background shape, no blob, no ring, no gradient, no slide counter or progress bar. The sole background is the supplied GRID.
+
+Brand style: all text Rubik; cover heaviest, titles bold, sets/labels semibold, body regular. Dark #2A2A2A, grey body #6B6B6B, accent #F26445, white #FFFFFF. Anatomy illustration: bald, faceless smooth-plastic adult male anatomy mannequin, fine grey linework, warm sand #D9CBBE muscles and darker sand shading, light ivory skin/tendons about #F5F0E5. No green/sage anywhere. Smooth featureless pelvis, no genital detail. Full-body exercise figures wear plain opaque sand short shorts. Realistic black/grey/white gym equipment. Same premium rendering and body proportions across the series.
+
+Reserve top-left x30-330,y20-100 clear for the exact supplied Lightweight wordmark added during final assembly; do not draw or invent a logo, and put no content in that reserved area. No border, extra copy, watermark, signature, caption or branding beyond the supplied exact logo. Keep every text line fully visible; labels need bottom margin. Preserve the exact spelling, capitalization, punctuation and apostrophes in the copy below.
+
+LIST SLIDE: Identical centered list-template layout. Coral circular badge white 4; title Forearms; subtitle 2-3 Sets x 10-15 Reps; short coral underline. Grey centered why sentence exactly: They're on show every time you wear a T-shirt. Middle close-up: both anatomical forearms and hands from the front, forearm muscle structures coral, hands and upper arms sand/ivory. Bottom left full-body seated mannequin, forearms supported on thighs, wrists just past knees, dumbbells held palms up, performing wrist curls; label Wrist Curl. Bottom right full-body standing mannequin doing a straight-bar reverse curl with an OVERHAND pronated grip, palms facing downward, elbows near sides; label Reverse Curl. Coral circular OR badge between the exercises. Feet, equipment and labels above the bottom margin. No other text.
+
+Exact allowed copy for this slide (no extra text):
+4
+Forearms
+2-3 Sets x 10-15 Reps
+They're on show every time you wear a T-shirt.
+Wrist Curl
+OR
+Reverse Curl

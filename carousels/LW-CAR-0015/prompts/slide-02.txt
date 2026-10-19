@@ -1,0 +1,14 @@
+Produce ONE finished 4:5 portrait Lightweight fitness carousel slide, 1080 x 1350. Use attached reference 1 as the authoritative background: GRID, off-white #F0F1EB with thin #E1E2DA grid lines, 2 px at 54 px intervals across the entire canvas behind all content, like a training-log notebook. Reference 2 supplies ONLY the composition, type hierarchy and fine anatomical illustration style. IMPORTANT: completely remove its old pale coral arch. NO ARCH, no curved background shape, no blob, no ring, no gradient, no slide counter or progress bar. The sole background is the supplied GRID.
+
+Brand style: all text Rubik; cover heaviest, titles bold, sets/labels semibold, body regular. Dark #2A2A2A, grey body #6B6B6B, accent #F26445, white #FFFFFF. Anatomy illustration: bald, faceless smooth-plastic adult male anatomy mannequin, fine grey linework, warm sand #D9CBBE muscles and darker sand shading, light ivory skin/tendons about #F5F0E5. No green/sage anywhere. Smooth featureless pelvis, no genital detail. Full-body exercise figures wear plain opaque sand short shorts. Realistic black/grey/white gym equipment. Same premium rendering and body proportions across the series.
+
+Reserve top-left x30-330,y20-100 clear for the exact supplied Lightweight wordmark added during final assembly; do not draw or invent a logo, and put no content in that reserved area. No border, extra copy, watermark, signature, caption or branding beyond the supplied exact logo. Keep every text line fully visible; labels need bottom margin. Preserve the exact spelling, capitalization, punctuation and apostrophes in the copy below.
+
+ANATOMICAL MAP: Center the bold title Here's The Fix near the top, with short coral underline. Large central head-to-hips anatomical man in front three-quarter view, one arm flexed, showing biceps, outer brachialis, triceps at the back of upper arm and forearm. All arm muscles coral; chest, shoulders and trunk sand/ivory. Four small rounded thumbnail cards, thin dark outline, two on each side, matching the map template. Each card shows a mini anatomical arm with ONLY its named muscle coral; dark bottom label bars with white uppercase words: top-left BICEPS, top-right BRACHIALIS, bottom-left TRICEPS, bottom-right FOREARMS. Brachialis is the small lateral/deep upper-arm muscle under the biceps, between biceps and triceps; do not highlight the entire biceps for it. Thin dark leader lines with dot endpoints connect each card to the correct region on the central arm. Do not add any other words.
+
+Exact allowed copy for this slide (no extra text):
+Here's The Fix
+BICEPS
+BRACHIALIS
+TRICEPS
+FOREARMS

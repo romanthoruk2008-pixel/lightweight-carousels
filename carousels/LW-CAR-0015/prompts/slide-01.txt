@@ -1,0 +1,11 @@
+Produce ONE finished 4:5 portrait Lightweight fitness carousel slide, 1080 x 1350. Use attached reference 1 as the authoritative background: GRID, off-white #F0F1EB with thin #E1E2DA grid lines, 2 px at 54 px intervals across the entire canvas behind all content, like a training-log notebook. Reference 2 supplies ONLY the composition, type hierarchy and fine anatomical illustration style. IMPORTANT: completely remove its old pale coral arch. NO ARCH, no curved background shape, no blob, no ring, no gradient, no slide counter or progress bar. The sole background is the supplied GRID.
+
+Brand style: all text Rubik; cover heaviest, titles bold, sets/labels semibold, body regular. Dark #2A2A2A, grey body #6B6B6B, accent #F26445, white #FFFFFF. Anatomy illustration: bald, faceless smooth-plastic adult male anatomy mannequin, fine grey linework, warm sand #D9CBBE muscles and darker sand shading, light ivory skin/tendons about #F5F0E5. No green/sage anywhere. Smooth featureless pelvis, no genital detail. Full-body exercise figures wear plain opaque sand short shorts. Realistic black/grey/white gym equipment. Same premium rendering and body proportions across the series.
+
+Reserve top-left x30-330,y20-100 clear for the exact supplied Lightweight wordmark added during final assembly; do not draw or invent a logo, and put no content in that reserved area. No border, extra copy, watermark, signature, caption or branding beyond the supplied exact logo. Keep every text line fully visible; labels need bottom margin. Preserve the exact spelling, capitalization, punctuation and apostrophes in the copy below.
+
+COVER: Match reference 2's two-line stacked headline at top and front double-biceps anatomical man from hips up filling the lower part. Headline exactly line 1 SKINNY in dark #2A2A2A, line 2 ARMS? in #F26445. Huge heaviest Rubik, soft grey offset shadow, same stacked placement as WEAK / CHEST?; scale to fit without clipping. Put a small coral paint-splat dot just under and right of the question mark. Front view, both arms raised and flexed in front double-biceps pose. Highlight the biceps, triceps and forearms #F26445; chest, shoulders, abdomen and every other muscle stay sand/ivory. Figure overlaps the bottom of headline slightly and is cropped at the bottom. No other text.
+
+Exact allowed copy for this slide (no extra text):
+SKINNY
+ARMS?
