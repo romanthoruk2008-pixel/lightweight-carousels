@@ -183,7 +183,7 @@
 Посилання на оригінал: Arrow @arrowfitnessapp, TikTok, ~2026-10-16. 19.3K лайків, 86 коментарів, 7045 збережень. Звук: Into You (Slowed) - Altare.alt & Eclipse.
 Підпис: «Chest exercise tier list. Do you agree?? #gymtips #tierlist #chestexercise #chestday #hypertrophy»
 Що подобається: власник хоче спробувати цей стиль з нашими кольорами (2026-10-19).
-Статус: **частина 1 з кількох** (власник надсилає по 5 скриншотів). Файли лежать у репозиторії: `references/images/REF-008/`.
+Статус: **частини 1–2 з кількох** (власник надсилає по 5 скриншотів). Файли лежать у репозиторії: `references/images/REF-008/`.
 
 ### Слайди (частина 1, порядок від власника)
 1. ![](images/REF-008/slide-01.jpg) Обкладинка: `chest` / `tier list` (зелена смуга-маркер під `tier list`) / `(from worst to best)` курсивом. Фігура спереду, руки на поясі, груди зелені, чорні шорти.
@@ -191,6 +191,14 @@
 3. ![](images/REF-008/slide-03.jpg) `#12 hex press` (маркер під `hex press`), 1 зірка з 5. Текст: `a lot of people think these target the ‘inner chest’, but you can’t bias it.` Фігура: жим гантелей разом лежачи на рівній лаві.
 4. ![](images/REF-008/slide-04.jpg) `#11 decline press` (маркер), 1,5 зірки з 5. Текст: `decline presses are unnecessary. flat presses already target your lower fibres well.` Фігура: жим штанги на лаві з від'ємним нахилом.
 5. ![](images/REF-008/slide-05.jpg) Роздільник: зелений квадрат `C` + `tier`; курсив `there are better options`.
+
+### Слайди (частина 2, порядок від власника)
+Картинки цієї частини прийшли в чат, але файли не збереглися в середовищі Claude. Текст і опис записані з перегляду; файли `slide-06.jpg` … `slide-10.jpg` додати, коли власник надішле їх ще раз.
+6. `#10 db flys` (маркер), 2,5 зірки з 5. Текст: `zero tension at the top. using a cable or machine is going to be far better.` Фігура: розведення гантелей лежачи на лаві, руки розведені.
+7. `#9 push-ups` (маркер), 3 зірки з 5. Текст: `great for beginners, but they get too easy the stronger you get.` Фігура: віджимання, вид збоку, внизу слайда.
+8. Роздільник: жовтий квадрат `B` + `tier`; курсив `solid, but not the best`.
+9. `#8 standing cable flys` (маркер), 3,5 зірки з 5. Текст: `feel very awkward. easy to lose balance and hard to perform when the weight gets heavier.` Фігура: зведення рук у кросовері стоячи, вид спереду, рама кросовера.
+10. `#7 barbell flat/incline bench` (маркер), 3,5 зірки з 5. Текст: `may be a classic, but it’s more of an ego exercise than one for building muscle.` Фігура: жим штанги лежачи в стійці, вид спереду під кутом.
 
 ---
 
