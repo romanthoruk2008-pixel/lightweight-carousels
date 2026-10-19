@@ -1,0 +1,14 @@
+LW-CAR-0022, content_version 1.1, first review batch. Create one complete finished 1080 × 1350 px portrait slide. Use the owner-approved S2 look from the supplied LW-CAR-0020 / LW-CAR-0021 outputs. Reference images are visual guides for composition and figure style only; the copy below is authoritative.
+
+STYLE: clean opaque #F0F1EB background, no arch, no texture, grid, dots, rings, card or panel. Match the approved S2 cover's very heavy, tight lowercase grotesk headlines in #2A2A2A; centered regular italic subtitle in #6B6B6B; accent #F26445. Keep the same visual scale, spacing, and hierarchy as LW-CAR-0020 slide 1. No added words, punctuation, watermark, signature, or slide number.
+
+LOGO: leave the top-left area empty on the clean background. Do not render any logo or brand text; the official Harda logo will be composited afterward from the supplied transparent asset. Keep the entire top 110 px free of content.
+
+EXACT TEXT, with these line breaks:
+legs
+tier list
+(ranked worst to best)
+
+COVER LAYOUT: center the large two-line headline in the upper half, below y=110. Put a flat coral #F26445 marker bar behind the lower part of “tier list” only, as in the approved reference. Center the exact italic subtitle below it. In the lower half show one full-body, front-view, bald and faceless realistic anatomical mannequin standing with hands on hips. Entire figure from head to feet, with no crop. Mannequin is white / light-grey with fine grey anatomical shading and subtle muscle fibres, smooth featureless pelvis, and dark #2A2A2A shorts. Fill only the quadriceps, adductors, and calves coral #F26445; all other muscles remain white / light-grey. No other colored muscles, props or equipment. Keep figure style and linework consistent with the realistic S2 mannequin in the references.
+
+Ensure the full figure and all three exact strings are visible and separate. Return exactly one finished slide, not a collage or mockup.

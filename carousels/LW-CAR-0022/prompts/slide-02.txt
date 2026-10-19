@@ -1,0 +1,14 @@
+LW-CAR-0022, content_version 1.1, first review batch. Create one complete finished 1080 × 1350 px portrait tier divider. Match the approved S2 layout of LW-CAR-0020 slide 2 exactly in visual hierarchy, scale, spacing, and typography, while regenerating it with the current branding area clear. Reference images guide appearance only; exact text and colors below are authoritative.
+
+BACKGROUND: clean opaque #F0F1EB, no arch, texture, grid, dots, rings, card or panel. No progress bar, slide number, watermark or signature.
+
+LOGO: leave the top-left area empty on the clean background. Do not render any logo or brand text; the official Harda logo will be composited afterward from the supplied transparent asset. Keep the entire top 110 px free of content.
+
+COMPOSITION: preserve the approved divider's centered group around the vertical middle. A large rounded cyan tile #5BDCE3 with a soft shadow sits to the left; place a very large bold white capital F inside it. To its right, set “tier” in the same oversized, heavy, tight grotesk lowercase style as the reference, #2A2A2A. Beneath the tile and title, center “skip these” in regular italic #6B6B6B. Keep generous blank space around the group.
+
+EXACT TEXT only:
+F
+tier
+skip these
+
+Return exactly one finished slide, not a collage or mockup.

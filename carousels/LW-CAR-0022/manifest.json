@@ -1,0 +1,218 @@
+{
+  "carousel_id": "LW-CAR-0022",
+  "content_version": "1.1",
+  "generation_round": "initial three-slide review batch",
+  "source_commit": "50ae02678371b08ec9da908f2fb2ccc449918406",
+  "branch": "claude/charming-einstein-xgejky",
+  "reference_id": null,
+  "reference_use": "Owner-approved S2 outputs from LW-CAR-0020 and LW-CAR-0021 used as visual references.",
+  "instructions": "Generate slides 1–3 first and wait for owner review before generating slide 4 onward.",
+  "status": "incomplete",
+  "carousel_complete": false,
+  "scope": {
+    "initial_batch": [
+      1,
+      2,
+      3
+    ],
+    "total_slides": 19
+  },
+  "background": "CLEAN #F0F1EB",
+  "font_family": "REF-008 look: heavy tight grotesk for headlines, clean sans for body, italic for tier lines",
+  "generated_images": [
+    "outputs/slide-01.png",
+    "outputs/slide-02.png",
+    "outputs/slide-03.png",
+    "outputs/slide-04.png"
+  ],
+  "blocked_slides": [],
+  "next_slide_to_generate": 5,
+  "slides": [
+    {
+      "slide": 1,
+      "content_version": "1.1",
+      "role": "hook",
+      "exact_text": [
+        "legs",
+        "tier list",
+        "(ranked worst to best)"
+      ],
+      "file": "outputs/slide-01.png",
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "carousels/LW-CAR-0020/outputs/slide-01.png",
+            "carousels/LW-CAR-0020/outputs/slide-03.png"
+          ],
+          "raw_result_file": "/workspace/generated_images/exec-816384dc-d679-4c2e-8ddb-b714123cc3d4.png",
+          "result_file": "outputs/slide-01.png",
+          "export": {
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "has_alpha": false,
+            "logo": "assets/logo/harda-logo-full.png composited at x=48,y=19,size=218x71 with its own alpha"
+          }
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_to_repository_checkout",
+      "agent_visual_review": "not_performed",
+      "user_review": "approved",
+      "prompt": "LW-CAR-0022, content_version 1.1, first review batch. Create one complete finished 1080 × 1350 px portrait slide. Use the owner-approved S2 look from the supplied LW-CAR-0020 / LW-CAR-0021 outputs. Reference images are visual guides for composition and figure style only; the copy below is authoritative.\n\nSTYLE: clean opaque #F0F1EB background, no arch, no texture, grid, dots, rings, card or panel. Match the approved S2 cover's very heavy, tight lowercase grotesk headlines in #2A2A2A; centered regular italic subtitle in #6B6B6B; accent #F26445. Keep the same visual scale, spacing, and hierarchy as LW-CAR-0020 slide 1. No added words, punctuation, watermark, signature, or slide number.\n\nLOGO: leave the top-left area empty on the clean background. Do not render any logo or brand text; the official Harda logo will be composited afterward from the supplied transparent asset. Keep the entire top 110 px free of content.\n\nEXACT TEXT, with these line breaks:\nlegs\ntier list\n(ranked worst to best)\n\nCOVER LAYOUT: center the large two-line headline in the upper half, below y=110. Put a flat coral #F26445 marker bar behind the lower part of “tier list” only, as in the approved reference. Center the exact italic subtitle below it. In the lower half show one full-body, front-view, bald and faceless realistic anatomical mannequin standing with hands on hips. Entire figure from head to feet, with no crop. Mannequin is white / light-grey with fine grey anatomical shading and subtle muscle fibres, smooth featureless pelvis, and dark #2A2A2A shorts. Fill only the quadriceps, adductors, and calves coral #F26445; all other muscles remain white / light-grey. No other colored muscles, props or equipment. Keep figure style and linework consistent with the realistic S2 mannequin in the references.\n\nEnsure the full figure and all three exact strings are visible and separate. Return exactly one finished slide, not a collage or mockup.\n",
+      "prompt_file": "prompts/slide-01.txt",
+      "reference": "carousels/LW-CAR-0020/outputs/slide-01.png"
+    },
+    {
+      "slide": 2,
+      "content_version": "1.1",
+      "role": "tier divider F",
+      "exact_text": [
+        "F",
+        "tier",
+        "skip these"
+      ],
+      "file": "outputs/slide-02.png",
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "carousels/LW-CAR-0020/outputs/slide-02.png",
+            "carousels/LW-CAR-0021/outputs/slide-02.png"
+          ],
+          "raw_result_file": "/workspace/generated_images/exec-f8666817-b557-4b15-892d-58db9fea34d8.png",
+          "result_file": "outputs/slide-02.png",
+          "export": {
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "has_alpha": false,
+            "logo": "assets/logo/harda-logo-full.png composited at x=48,y=19,size=218x71 with its own alpha"
+          }
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_to_repository_checkout",
+      "agent_visual_review": "not_performed",
+      "user_review": "approved",
+      "prompt": "LW-CAR-0022, content_version 1.1, first review batch. Create one complete finished 1080 × 1350 px portrait tier divider. Match the approved S2 layout of LW-CAR-0020 slide 2 exactly in visual hierarchy, scale, spacing, and typography, while regenerating it with the current branding area clear. Reference images guide appearance only; exact text and colors below are authoritative.\n\nBACKGROUND: clean opaque #F0F1EB, no arch, texture, grid, dots, rings, card or panel. No progress bar, slide number, watermark or signature.\n\nLOGO: leave the top-left area empty on the clean background. Do not render any logo or brand text; the official Harda logo will be composited afterward from the supplied transparent asset. Keep the entire top 110 px free of content.\n\nCOMPOSITION: preserve the approved divider's centered group around the vertical middle. A large rounded cyan tile #5BDCE3 with a soft shadow sits to the left; place a very large bold white capital F inside it. To its right, set “tier” in the same oversized, heavy, tight grotesk lowercase style as the reference, #2A2A2A. Beneath the tile and title, center “skip these” in regular italic #6B6B6B. Keep generous blank space around the group.\n\nEXACT TEXT only:\nF\ntier\nskip these\n\nReturn exactly one finished slide, not a collage or mockup.\n",
+      "prompt_file": "prompts/slide-02.txt",
+      "reference": "carousels/LW-CAR-0020/outputs/slide-02.png"
+    },
+    {
+      "slide": 3,
+      "content_version": "1.1",
+      "role": "exercise #12",
+      "exact_text": [
+        "#12",
+        "bosu ball squat",
+        "you’re training balance, not legs. the load is way too light."
+      ],
+      "file": "outputs/slide-03.png",
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "carousels/LW-CAR-0020/outputs/slide-03.png",
+            "carousels/LW-CAR-0021/outputs/slide-03.png"
+          ],
+          "raw_result_file": "/workspace/generated_images/exec-2965df3c-07ab-4afd-9572-95f8473afd24.png",
+          "result_file": "outputs/slide-03.png",
+          "export": {
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "has_alpha": false,
+            "logo": "assets/logo/harda-logo-full.png composited at x=48,y=19,size=218x71 with its own alpha"
+          }
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_to_repository_checkout",
+      "agent_visual_review": "not_performed",
+      "user_review": "approved",
+      "prompt": "LW-CAR-0022, content_version 1.1, first review batch. Create one complete finished 1080 × 1350 px portrait exercise slide. Use the owner-approved S2 exercise layout, typography and realistic mannequin style from LW-CAR-0020 slide 3 and LW-CAR-0021 slide 3. References are appearance guides only; the exact copy and pose below are authoritative.\n\nSTYLE: clean opaque #F0F1EB background, no arch, texture, grid, dots, rings, card or panel. Match the approved exercise slides: very heavy, tight grotesk lowercase headline in #2A2A2A; clean regular sans-serif body in #2A2A2A; coral #F26445 marker bar under the exercise name; five large stars beneath the heading with filled stars coral #F26445 and empty stars #D6D6D2. No extra words, punctuation, watermark, signature or slide number.\n\nLOGO: leave the top-left area empty on the clean background. Do not render any logo or brand text; the official Harda logo will be composited afterward from the supplied transparent asset. Keep the entire top 110 px free of content.\n\nEXACT TEXT, preserving punctuation and curly apostrophe:\n#12\nbosu ball squat\nyou’re training balance, not legs. the load is way too light.\n\nLAYOUT: follow the approved exercise template: the large “#12” and “bosu ball squat” headline near the top, with the coral marker behind the exercise name only; place exactly one filled coral star followed by four empty grey stars below the title. Set the body copy left-aligned beneath the stars on up to two lines, fully visible. Keep the lower-right / lower half for the illustration with clear separation from all text.\n\nILLUSTRATION: a realistic white / light-grey bald, faceless anatomical mannequin with fine grey shading and subtle muscle fibres, smooth featureless pelvis, wearing dark #2A2A2A shorts. Show the figure squatting on an upturned BOSU balance trainer, arms extended forward for balance, front three-quarter view. Include the BOSU ball clearly. No colored muscles, no barbell or extra equipment. Use the same anatomical rendering, proportions, linework and figure finish as the approved S2 exercise slides. Keep the figure and equipment below and clear of the copy; no text may overlap the illustration.\n\nReturn exactly one finished slide, not a collage or mockup.\n",
+      "prompt_file": "prompts/slide-03.txt",
+      "reference": "carousels/LW-CAR-0020/outputs/slide-03.png"
+    },
+    {
+      "slide": 4,
+      "content_version": "1.1",
+      "role": "exercise #11",
+      "exact_text": [
+        "#11",
+        "wall sit",
+        "burns like crazy, but builds very little muscle."
+      ],
+      "file": "outputs/slide-04.png",
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "carousels/LW-CAR-0020/outputs/slide-03.png",
+            "carousels/LW-CAR-0021/outputs/slide-03.png"
+          ],
+          "raw_result_file": "/workspace/generated_images/exec-d79fca37-3c00-4c4b-ae8f-6c0f47a19afd.png",
+          "result_file": "outputs/slide-04.png",
+          "export": {
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "has_alpha": false,
+            "logo": "assets/logo/harda-logo-full.png composited at x=48,y=19,size=218x71 with its own alpha"
+          }
+        }
+      ],
+      "errors": [
+        "Initial post-processing wrapper failed to parse the returned raw image path; output was saved manually from the successful generation."
+      ],
+      "save_status": "saved_to_repository_checkout",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending",
+      "prompt": "LW-CAR-0022, content_version 1.1. Create one complete finished 1080 × 1350 px portrait exercise slide in the owner-approved S2 style. Match the exact hierarchy, type scale, spacing, colors, and realistic white/light-grey mannequin finish of LW-CAR-0020 slide 3 and LW-CAR-0021 slide 3. References are visual guides only; the exact copy and pose below are authoritative.\n\nBACKGROUND: clean opaque #F0F1EB; no arch, texture, grid, dots, rings, panels, progress bars, slide counters, watermark or signature.\nLOGO: leave the top-left clear; do not draw a logo or brand text. The official transparent Harda logo will be composited at x=48,y=19,size=218×71 after generation. Keep top 110 px clear.\n\nEXACT TEXT:\n#11\nwall sit\nburns like crazy, but builds very little muscle.\n\nPlace #11 and the very heavy tight-grotesk lowercase title near the top, with a coral #F26445 marker bar behind “wall sit” only. Under the headline place 1.5 stars: one full #F26445 star, one half-filled #F26445/#D6D6D2 star, then three empty #D6D6D2 stars. Set the exact body line left-aligned below, in clean regular sans-serif #2A2A2A, wrapped to at most two lines. Keep a clear gap before the illustration.\n\nILLUSTRATION: lower half, realistic bald faceless white/light-grey anatomical mannequin, fine grey shading and subtle muscle fibres, smooth featureless pelvis, black #2A2A2A shorts, no colored muscles. Side view, back flat against a simple wall, knees bent at 90 degrees, static wall sit pose. Use only the wall needed for the pose. Keep all text unobstructed and all important figure parts visible.\n\nReturn exactly one finished slide, no collage or mockup.\n",
+      "prompt_file": "prompts/slide-04.txt",
+      "reference": "carousels/LW-CAR-0020/outputs/slide-03.png"
+    }
+  ],
+  "logo": {
+    "file": "assets/logo/harda-logo-full.png",
+    "position": [
+      48,
+      19
+    ],
+    "size": [
+      218,
+      71
+    ],
+    "old_lightweight_logo_used": false
+  },
+  "user_review": "in_progress",
+  "agent_visual_review": "not_performed",
+  "owner_approval": {
+    "source": "Owner explicitly approved the initial slides 1–3 and authorized continuing the carousel",
+    "content_version": "1.1"
+  },
+  "next_action": "Push slides 1–4 as incomplete, then resume generation at slide 5.",
+  "partial_push_reason": "Generation wrapper error interrupted the first checkpoint after slide 4; saved slides 1–4 before continuing."
+}

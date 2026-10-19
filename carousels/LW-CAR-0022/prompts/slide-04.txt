@@ -1,0 +1,15 @@
+LW-CAR-0022, content_version 1.1. Create one complete finished 1080 × 1350 px portrait exercise slide in the owner-approved S2 style. Match the exact hierarchy, type scale, spacing, colors, and realistic white/light-grey mannequin finish of LW-CAR-0020 slide 3 and LW-CAR-0021 slide 3. References are visual guides only; the exact copy and pose below are authoritative.
+
+BACKGROUND: clean opaque #F0F1EB; no arch, texture, grid, dots, rings, panels, progress bars, slide counters, watermark or signature.
+LOGO: leave the top-left clear; do not draw a logo or brand text. The official transparent Harda logo will be composited at x=48,y=19,size=218×71 after generation. Keep top 110 px clear.
+
+EXACT TEXT:
+#11
+wall sit
+burns like crazy, but builds very little muscle.
+
+Place #11 and the very heavy tight-grotesk lowercase title near the top, with a coral #F26445 marker bar behind “wall sit” only. Under the headline place 1.5 stars: one full #F26445 star, one half-filled #F26445/#D6D6D2 star, then three empty #D6D6D2 stars. Set the exact body line left-aligned below, in clean regular sans-serif #2A2A2A, wrapped to at most two lines. Keep a clear gap before the illustration.
+
+ILLUSTRATION: lower half, realistic bald faceless white/light-grey anatomical mannequin, fine grey shading and subtle muscle fibres, smooth featureless pelvis, black #2A2A2A shorts, no colored muscles. Side view, back flat against a simple wall, knees bent at 90 degrees, static wall sit pose. Use only the wall needed for the pose. Keep all text unobstructed and all important figure parts visible.
+
+Return exactly one finished slide, no collage or mockup.

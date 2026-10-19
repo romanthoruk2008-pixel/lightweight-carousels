@@ -1,0 +1,16 @@
+LW-CAR-0022, content_version 1.1, first review batch. Create one complete finished 1080 × 1350 px portrait exercise slide. Use the owner-approved S2 exercise layout, typography and realistic mannequin style from LW-CAR-0020 slide 3 and LW-CAR-0021 slide 3. References are appearance guides only; the exact copy and pose below are authoritative.
+
+STYLE: clean opaque #F0F1EB background, no arch, texture, grid, dots, rings, card or panel. Match the approved exercise slides: very heavy, tight grotesk lowercase headline in #2A2A2A; clean regular sans-serif body in #2A2A2A; coral #F26445 marker bar under the exercise name; five large stars beneath the heading with filled stars coral #F26445 and empty stars #D6D6D2. No extra words, punctuation, watermark, signature or slide number.
+
+LOGO: leave the top-left area empty on the clean background. Do not render any logo or brand text; the official Harda logo will be composited afterward from the supplied transparent asset. Keep the entire top 110 px free of content.
+
+EXACT TEXT, preserving punctuation and curly apostrophe:
+#12
+bosu ball squat
+you’re training balance, not legs. the load is way too light.
+
+LAYOUT: follow the approved exercise template: the large “#12” and “bosu ball squat” headline near the top, with the coral marker behind the exercise name only; place exactly one filled coral star followed by four empty grey stars below the title. Set the body copy left-aligned beneath the stars on up to two lines, fully visible. Keep the lower-right / lower half for the illustration with clear separation from all text.
+
+ILLUSTRATION: a realistic white / light-grey bald, faceless anatomical mannequin with fine grey shading and subtle muscle fibres, smooth featureless pelvis, wearing dark #2A2A2A shorts. Show the figure squatting on an upturned BOSU balance trainer, arms extended forward for balance, front three-quarter view. Include the BOSU ball clearly. No colored muscles, no barbell or extra equipment. Use the same anatomical rendering, proportions, linework and figure finish as the approved S2 exercise slides. Keep the figure and equipment below and clear of the copy; no text may overlap the illustration.
+
+Return exactly one finished slide, not a collage or mockup.
