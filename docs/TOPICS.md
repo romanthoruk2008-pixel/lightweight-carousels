@@ -43,3 +43,49 @@
 ## 5. Заплановані повтори (рішення власника)
 
 - **«THE MUSCLES YOU'RE FORGETTING» — нова версія** (на основі LW-CAR-0006). Та сама ідея й формат, але новий текст (без «lifters»), інші ілюстрації та інша подача, щоб це була окрема карусель, а не копія. Зробити пізніше як новий LW-CAR-ID.
+
+## 6. Беклог тем v2 (2026-10-19)
+
+Вже в роботі: WEAK BACK? (0001), PUSH / PULL / LEGS (0002, 0004, 0009), THE ULTIMATE PULL DAY (0003), BEST EXERCISES PUSH (0005), THE MUSCLES YOU'RE FORGETTING (0006), HOW MANY SETS (0007), WEAK CHEST? (0008), YOUR FIRST WEEK IN THE GYM (0010).
+
+Правила для всіх: без «lifters»; у вправах, де можна, варіант з власною вагою; фінал — реальна функція з реального екрана (журнал тренувань, кількість тренувань / підходів, Muscle balance, Distribution).
+
+### Пріоритет 1 — найбільший очікуваний ефект
+| # | Хук | Формат | Ідея слайдів | Фінал |
+|---|---|---|---|---|
+| 1 | WHAT 1 YEAR OF TRAINING ACTUALLY LOOKS LIKE | трансформація (CONSISTENCY 1.2M, DISCIPLINE 517K у Arrow) | 1 / 3 / 6 / 12 місяців — реалістично, що змінюється (сила, форма, звички); чесна відповідь на коментарі «це нереально» | «Log every workout. Watch your year add up.» + кількість тренувань |
+| 2 | STRUCTURE THE PERFECT FULL BODY DAY | Structure (FULL BODY WORKOUT 740K у Arrow) | чекліст → 6 слотів (squat, hinge, push, pull, shoulders, core) | Track Your Workouts + екран |
+| 3 | PROGRESSIVE OVERLOAD, EXPLAINED | пояснення + шпаргалка | 4 способи прогресувати: вага, повтори, підходи, техніка; приклад тижнів 1→4 | найсильніший зв'язок з продуктом: «You can't beat numbers you don't track.» |
+| 4 | SKINNY ARMS? | WEAK ___? (SKINNY ARMS 98K у Arrow) | мапа: біцепс, довга голова трицепса, брахіаліс, передпліччя → 4 слоти | Muscle balance (вісь Arms) |
+| 5 | WEAK SHOULDERS? | WEAK ___? | передня, середня, задня дельта + верх трапецій | Muscle balance (вісь Shoulders) |
+| 6 | PULL-UP PROGRESSION | рівні 1→5 (калістеніка) | dead hang → scapular pull → negatives → band → full pull-up | «Log every set. See the day you hit your first pull-up.» |
+| 7 | 5 MISTAKES KILLING YOUR GAINS | помилки (суперечки = коментарі) | его-ваги, без прогресії, випадкові тренування, пропуск ніг, недосип | журнал тренувань |
+| 8 | STRUCTURE THE PERFECT UPPER DAY | Structure | серія з 0002/0004/0009 | Track Your Workouts |
+| 9 | STRUCTURE THE PERFECT LOWER DAY | Structure | серія | Track Your Workouts |
+| 10 | NO GYM? NO PROBLEM | Structure / калістеніка | full body без обладнання: squat, push-up, pike push-up, row під столом/на брусі, lunge, plank | журнал тренувань |
+
+### Пріоритет 2
+| # | Хук | Формат | Ідея |
+|---|---|---|---|
+| 11 | PUSH-UP PROGRESSION | рівні | від стіни до push-up на одній руці; збережуть калістеніка й новачки |
+| 12 | HOW MANY REPS SHOULD YOU DO? | цифри (як 0007) | і малі, і великі повторення будують м'язи, якщо підходи важкі; потребує перевірки джерел |
+| 13 | HOW LONG SHOULD YOU REST BETWEEN SETS? | цифри | довший відпочинок на базових вправах; потребує перевірки джерел |
+| 14 | HOW OFTEN SHOULD YOU TRAIN EACH MUSCLE? | цифри | ~2 рази на тиждень як практична порада; без «так більше росте» |
+| 15 | WEAK CORE? | WEAK ___? | прес, косі, поперек; майже все з власною вагою |
+| 16 | NARROW SHOULDERS? | WEAK ___? | V-силует: середні дельти + широчайші |
+| 17 | STRUCTURE THE PERFECT ARM DAY | Structure | біцепс / трицепс / передпліччя, 6 слотів |
+| 18 | STRUCTURE THE PERFECT HOME WORKOUT | Structure | лише гантелі |
+| 19 | CHEST EXERCISE TIER LIST | рейтинг S→D (тир-лист спини 164K у Arrow) | рейтинги провокують коментарі |
+| 20 | BICEPS EXERCISE TIER LIST | рейтинг | те саме для біцепса |
+
+### Пріоритет 3 — новачки та звички
+| # | Хук | Ідея |
+|---|---|---|
+| 21 | THINGS NOBODY TELLS YOU BEFORE YOUR FIRST GYM DAY | етикет, що брати, як не соромитися; для новачків, часто пересилають |
+| 22 | HOW TO PICK YOUR STARTING WEIGHT | метод «12 повторів з запасом 2–3» |
+| 23 | YOUR FIRST MONTH IN THE GYM | продовження 0010: тижні 1→4 |
+| 24 | DISCIPLINE BEATS MOTIVATION | звички замість мотивації; фінал — кількість тренувань |
+| 25 | GYM MYTHS THAT NEED TO DIE | «спалити жир у точці», «muscle confusion», «треба до відмови» (Refalo 2023) |
+| 26 | WHY YOU'RE NOT GROWING | чекліст причин (як «The reason your legs aren't growing» у Arrow, 51K) |
+| 27 | RANKING EVERY GYM SPLIT | наш власний рейтинг сплітів, власний текст |
+| 28 | THE MUSCLES YOU'RE FORGETTING — нова версія | див. розділ 5 |
