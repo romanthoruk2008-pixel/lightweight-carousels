@@ -10,15 +10,15 @@
     "date": "2026-10-19",
     "scope": "All nine slides regenerated anew with fully opaque #F0F1EB DOTS background, no arch; sand shorts authorized.",
     "previous_outputs_commit": "2627019bdbab08d645c14d00cacc2bc7b9573467",
-    "previous_outputs_approval_scope": "Prior seven available images accepted before request for new full revision; new outputs remain pending."
+    "previous_outputs_approval_scope": "Prior seven available images accepted before request for new full revision. Current round2 acceptance is recorded separately in owner_approval_history."
   },
-  "status": "complete_pending_owner_review",
+  "status": "complete_owner_approved",
   "expected_slide_count": 9,
   "background": "DOTS",
   "background_opaque": true,
   "arch": false,
   "agent_visual_review": "not_performed",
-  "user_review": "pending",
+  "user_review": "approved",
   "superseded_manifest_file": "carousels/LW-CAR-0014/history/initial-transparent-run.json",
   "slides": [
     {
@@ -55,15 +55,26 @@
           "prompt_file": "carousels/LW-CAR-0014/prompts/slide-01-opaque-v2.txt",
           "transparent_background": false,
           "agent_visual_review": "not_performed",
-          "user_review": "pending",
+          "user_review": "approved",
           "result_original_path": "/workspace/generated_images/exec-596e4e9f-5392-4fe8-8fa0-e5faf38dfd69.png",
-          "finished_at": "2026-10-19T11:53:17.346Z"
+          "finished_at": "2026-10-19T11:53:17.346Z",
+          "owner_approval": {
+            "date": "2026-10-19",
+            "timezone": "Europe/Kyiv",
+            "approved_by": "owner",
+            "source": "Explicit acceptance of all current opaque carousel images in this chat, with instruction to push accepted-by-user status.",
+            "output_commit": "6d03dca73a943f686412cb8fa1e3b997c169d429",
+            "generation_round": 2,
+            "scope": "all nine current opaque final slides, including the assembled phone ending",
+            "file": "carousels/LW-CAR-0014/outputs/slide-01.png",
+            "applies_to": "Current final delivered output after production assembly."
+          }
         }
       ],
       "errors": [],
       "save_status": "saved_repository_file",
       "agent_visual_review": "not_performed",
-      "user_review": "pending",
+      "user_review": "approved",
       "generation_result_original_path": "/workspace/generated_images/exec-596e4e9f-5392-4fe8-8fa0-e5faf38dfd69.png",
       "generated_plate_file": "carousels/LW-CAR-0014/production-assets/slide-01-generated-opaque.png",
       "export_dimensions": {
@@ -77,6 +88,16 @@
         "rgb_no_alpha": "passed",
         "agent_visual_review": "not_performed",
         "ocr": "not_performed"
+      },
+      "owner_approval": {
+        "date": "2026-10-19",
+        "timezone": "Europe/Kyiv",
+        "approved_by": "owner",
+        "source": "Explicit acceptance of all current opaque carousel images in this chat, with instruction to push accepted-by-user status.",
+        "output_commit": "6d03dca73a943f686412cb8fa1e3b997c169d429",
+        "generation_round": 2,
+        "scope": "all nine current opaque final slides, including the assembled phone ending",
+        "file": "carousels/LW-CAR-0014/outputs/slide-01.png"
       }
     },
     {
@@ -113,15 +134,26 @@
           "prompt_file": "carousels/LW-CAR-0014/prompts/slide-02-opaque-v2.txt",
           "transparent_background": false,
           "agent_visual_review": "not_performed",
-          "user_review": "pending",
+          "user_review": "approved",
           "result_original_path": "/workspace/generated_images/exec-c6d87049-7842-419b-9025-cfd083501a48.png",
-          "finished_at": "2026-10-19T11:54:17.286Z"
+          "finished_at": "2026-10-19T11:54:17.286Z",
+          "owner_approval": {
+            "date": "2026-10-19",
+            "timezone": "Europe/Kyiv",
+            "approved_by": "owner",
+            "source": "Explicit acceptance of all current opaque carousel images in this chat, with instruction to push accepted-by-user status.",
+            "output_commit": "6d03dca73a943f686412cb8fa1e3b997c169d429",
+            "generation_round": 2,
+            "scope": "all nine current opaque final slides, including the assembled phone ending",
+            "file": "carousels/LW-CAR-0014/outputs/slide-02.png",
+            "applies_to": "Current final delivered output after production assembly."
+          }
         }
       ],
       "errors": [],
       "save_status": "saved_repository_file",
       "agent_visual_review": "not_performed",
-      "user_review": "pending",
+      "user_review": "approved",
       "generation_result_original_path": "/workspace/generated_images/exec-c6d87049-7842-419b-9025-cfd083501a48.png",
       "generated_plate_file": "carousels/LW-CAR-0014/production-assets/slide-02-generated-opaque.png",
       "export_dimensions": {
@@ -135,6 +167,16 @@
         "rgb_no_alpha": "passed",
         "agent_visual_review": "not_performed",
         "ocr": "not_performed"
+      },
+      "owner_approval": {
+        "date": "2026-10-19",
+        "timezone": "Europe/Kyiv",
+        "approved_by": "owner",
+        "source": "Explicit acceptance of all current opaque carousel images in this chat, with instruction to push accepted-by-user status.",
+        "output_commit": "6d03dca73a943f686412cb8fa1e3b997c169d429",
+        "generation_round": 2,
+        "scope": "all nine current opaque final slides, including the assembled phone ending",
+        "file": "carousels/LW-CAR-0014/outputs/slide-02.png"
       }
     },
     {
@@ -171,15 +213,26 @@
           "prompt_file": "carousels/LW-CAR-0014/prompts/slide-03-opaque-v2.txt",
           "transparent_background": false,
           "agent_visual_review": "not_performed",
-          "user_review": "pending",
+          "user_review": "approved",
           "result_original_path": "/workspace/generated_images/exec-4bae2c3f-e3f5-44a3-8b46-a556cb14efe7.png",
-          "finished_at": "2026-10-19T11:55:15.960Z"
+          "finished_at": "2026-10-19T11:55:15.960Z",
+          "owner_approval": {
+            "date": "2026-10-19",
+            "timezone": "Europe/Kyiv",
+            "approved_by": "owner",
+            "source": "Explicit acceptance of all current opaque carousel images in this chat, with instruction to push accepted-by-user status.",
+            "output_commit": "6d03dca73a943f686412cb8fa1e3b997c169d429",
+            "generation_round": 2,
+            "scope": "all nine current opaque final slides, including the assembled phone ending",
+            "file": "carousels/LW-CAR-0014/outputs/slide-03.png",
+            "applies_to": "Current final delivered output after production assembly."
+          }
         }
       ],
       "errors": [],
       "save_status": "saved_repository_file",
       "agent_visual_review": "not_performed",
-      "user_review": "pending",
+      "user_review": "approved",
       "generation_result_original_path": "/workspace/generated_images/exec-4bae2c3f-e3f5-44a3-8b46-a556cb14efe7.png",
       "generated_plate_file": "carousels/LW-CAR-0014/production-assets/slide-03-generated-opaque.png",
       "export_dimensions": {
@@ -193,6 +246,16 @@
         "rgb_no_alpha": "passed",
         "agent_visual_review": "not_performed",
         "ocr": "not_performed"
+      },
+      "owner_approval": {
+        "date": "2026-10-19",
+        "timezone": "Europe/Kyiv",
+        "approved_by": "owner",
+        "source": "Explicit acceptance of all current opaque carousel images in this chat, with instruction to push accepted-by-user status.",
+        "output_commit": "6d03dca73a943f686412cb8fa1e3b997c169d429",
+        "generation_round": 2,
+        "scope": "all nine current opaque final slides, including the assembled phone ending",
+        "file": "carousels/LW-CAR-0014/outputs/slide-03.png"
       }
     },
     {
@@ -229,15 +292,26 @@
           "prompt_file": "carousels/LW-CAR-0014/prompts/slide-04-opaque-v2.txt",
           "transparent_background": false,
           "agent_visual_review": "not_performed",
-          "user_review": "pending",
+          "user_review": "approved",
           "result_original_path": "/workspace/generated_images/exec-fbcb71cc-8f87-4ba5-bd92-241d28c66661.png",
-          "finished_at": "2026-10-19T11:56:12.499Z"
+          "finished_at": "2026-10-19T11:56:12.499Z",
+          "owner_approval": {
+            "date": "2026-10-19",
+            "timezone": "Europe/Kyiv",
+            "approved_by": "owner",
+            "source": "Explicit acceptance of all current opaque carousel images in this chat, with instruction to push accepted-by-user status.",
+            "output_commit": "6d03dca73a943f686412cb8fa1e3b997c169d429",
+            "generation_round": 2,
+            "scope": "all nine current opaque final slides, including the assembled phone ending",
+            "file": "carousels/LW-CAR-0014/outputs/slide-04.png",
+            "applies_to": "Current final delivered output after production assembly."
+          }
         }
       ],
       "errors": [],
       "save_status": "saved_repository_file",
       "agent_visual_review": "not_performed",
-      "user_review": "pending",
+      "user_review": "approved",
       "generation_result_original_path": "/workspace/generated_images/exec-fbcb71cc-8f87-4ba5-bd92-241d28c66661.png",
       "generated_plate_file": "carousels/LW-CAR-0014/production-assets/slide-04-generated-opaque.png",
       "export_dimensions": {
@@ -251,6 +325,16 @@
         "rgb_no_alpha": "passed",
         "agent_visual_review": "not_performed",
         "ocr": "not_performed"
+      },
+      "owner_approval": {
+        "date": "2026-10-19",
+        "timezone": "Europe/Kyiv",
+        "approved_by": "owner",
+        "source": "Explicit acceptance of all current opaque carousel images in this chat, with instruction to push accepted-by-user status.",
+        "output_commit": "6d03dca73a943f686412cb8fa1e3b997c169d429",
+        "generation_round": 2,
+        "scope": "all nine current opaque final slides, including the assembled phone ending",
+        "file": "carousels/LW-CAR-0014/outputs/slide-04.png"
       }
     },
     {
@@ -287,15 +371,26 @@
           "prompt_file": "carousels/LW-CAR-0014/prompts/slide-05-opaque-v2.txt",
           "transparent_background": false,
           "agent_visual_review": "not_performed",
-          "user_review": "pending",
+          "user_review": "approved",
           "result_original_path": "/workspace/generated_images/exec-bd117fd9-ad8e-45a3-b2ce-2526ce419512.png",
-          "finished_at": "2026-10-19T11:56:57.305Z"
+          "finished_at": "2026-10-19T11:56:57.305Z",
+          "owner_approval": {
+            "date": "2026-10-19",
+            "timezone": "Europe/Kyiv",
+            "approved_by": "owner",
+            "source": "Explicit acceptance of all current opaque carousel images in this chat, with instruction to push accepted-by-user status.",
+            "output_commit": "6d03dca73a943f686412cb8fa1e3b997c169d429",
+            "generation_round": 2,
+            "scope": "all nine current opaque final slides, including the assembled phone ending",
+            "file": "carousels/LW-CAR-0014/outputs/slide-05.png",
+            "applies_to": "Current final delivered output after production assembly."
+          }
         }
       ],
       "errors": [],
       "save_status": "saved_repository_file",
       "agent_visual_review": "not_performed",
-      "user_review": "pending",
+      "user_review": "approved",
       "generation_result_original_path": "/workspace/generated_images/exec-bd117fd9-ad8e-45a3-b2ce-2526ce419512.png",
       "generated_plate_file": "carousels/LW-CAR-0014/production-assets/slide-05-generated-opaque.png",
       "export_dimensions": {
@@ -309,6 +404,16 @@
         "rgb_no_alpha": "passed",
         "agent_visual_review": "not_performed",
         "ocr": "not_performed"
+      },
+      "owner_approval": {
+        "date": "2026-10-19",
+        "timezone": "Europe/Kyiv",
+        "approved_by": "owner",
+        "source": "Explicit acceptance of all current opaque carousel images in this chat, with instruction to push accepted-by-user status.",
+        "output_commit": "6d03dca73a943f686412cb8fa1e3b997c169d429",
+        "generation_round": 2,
+        "scope": "all nine current opaque final slides, including the assembled phone ending",
+        "file": "carousels/LW-CAR-0014/outputs/slide-05.png"
       }
     },
     {
@@ -344,15 +449,26 @@
           "prompt_file": "carousels/LW-CAR-0014/prompts/slide-06-opaque-v2.txt",
           "transparent_background": false,
           "agent_visual_review": "not_performed",
-          "user_review": "pending",
+          "user_review": "approved",
           "result_original_path": "/workspace/generated_images/exec-d8687dae-0b26-4eb2-997d-79fa8614d742.png",
-          "finished_at": "2026-10-19T11:57:59.148Z"
+          "finished_at": "2026-10-19T11:57:59.148Z",
+          "owner_approval": {
+            "date": "2026-10-19",
+            "timezone": "Europe/Kyiv",
+            "approved_by": "owner",
+            "source": "Explicit acceptance of all current opaque carousel images in this chat, with instruction to push accepted-by-user status.",
+            "output_commit": "6d03dca73a943f686412cb8fa1e3b997c169d429",
+            "generation_round": 2,
+            "scope": "all nine current opaque final slides, including the assembled phone ending",
+            "file": "carousels/LW-CAR-0014/outputs/slide-06.png",
+            "applies_to": "Current final delivered output after production assembly."
+          }
         }
       ],
       "errors": [],
       "save_status": "saved_repository_file",
       "agent_visual_review": "not_performed",
-      "user_review": "pending",
+      "user_review": "approved",
       "generation_result_original_path": "/workspace/generated_images/exec-d8687dae-0b26-4eb2-997d-79fa8614d742.png",
       "generated_plate_file": "carousels/LW-CAR-0014/production-assets/slide-06-generated-opaque.png",
       "export_dimensions": {
@@ -368,6 +484,16 @@
         "rgb_no_alpha": "passed",
         "agent_visual_review": "not_performed",
         "ocr": "not_performed"
+      },
+      "owner_approval": {
+        "date": "2026-10-19",
+        "timezone": "Europe/Kyiv",
+        "approved_by": "owner",
+        "source": "Explicit acceptance of all current opaque carousel images in this chat, with instruction to push accepted-by-user status.",
+        "output_commit": "6d03dca73a943f686412cb8fa1e3b997c169d429",
+        "generation_round": 2,
+        "scope": "all nine current opaque final slides, including the assembled phone ending",
+        "file": "carousels/LW-CAR-0014/outputs/slide-06.png"
       }
     },
     {
@@ -405,15 +531,26 @@
           "prompt_file": "carousels/LW-CAR-0014/prompts/slide-07-opaque-v2.txt",
           "transparent_background": false,
           "agent_visual_review": "not_performed",
-          "user_review": "pending",
+          "user_review": "approved",
           "result_original_path": "/workspace/generated_images/exec-ca4525f4-9b4d-42ac-8d4e-49065398643b.png",
-          "finished_at": "2026-10-19T11:58:46.439Z"
+          "finished_at": "2026-10-19T11:58:46.439Z",
+          "owner_approval": {
+            "date": "2026-10-19",
+            "timezone": "Europe/Kyiv",
+            "approved_by": "owner",
+            "source": "Explicit acceptance of all current opaque carousel images in this chat, with instruction to push accepted-by-user status.",
+            "output_commit": "6d03dca73a943f686412cb8fa1e3b997c169d429",
+            "generation_round": 2,
+            "scope": "all nine current opaque final slides, including the assembled phone ending",
+            "file": "carousels/LW-CAR-0014/outputs/slide-07.png",
+            "applies_to": "Current final delivered output after production assembly."
+          }
         }
       ],
       "errors": [],
       "save_status": "saved_repository_file",
       "agent_visual_review": "not_performed",
-      "user_review": "pending",
+      "user_review": "approved",
       "generation_result_original_path": "/workspace/generated_images/exec-ca4525f4-9b4d-42ac-8d4e-49065398643b.png",
       "generated_plate_file": "carousels/LW-CAR-0014/production-assets/slide-07-generated-opaque.png",
       "export_dimensions": {
@@ -427,6 +564,16 @@
         "rgb_no_alpha": "passed",
         "agent_visual_review": "not_performed",
         "ocr": "not_performed"
+      },
+      "owner_approval": {
+        "date": "2026-10-19",
+        "timezone": "Europe/Kyiv",
+        "approved_by": "owner",
+        "source": "Explicit acceptance of all current opaque carousel images in this chat, with instruction to push accepted-by-user status.",
+        "output_commit": "6d03dca73a943f686412cb8fa1e3b997c169d429",
+        "generation_round": 2,
+        "scope": "all nine current opaque final slides, including the assembled phone ending",
+        "file": "carousels/LW-CAR-0014/outputs/slide-07.png"
       }
     },
     {
@@ -462,15 +609,26 @@
           "prompt_file": "carousels/LW-CAR-0014/prompts/slide-08-opaque-v2.txt",
           "transparent_background": false,
           "agent_visual_review": "not_performed",
-          "user_review": "pending",
+          "user_review": "approved",
           "result_original_path": "/workspace/generated_images/exec-85743208-c39a-4629-ad06-cb6c97f3fc92.png",
-          "finished_at": "2026-10-19T11:59:52.656Z"
+          "finished_at": "2026-10-19T11:59:52.656Z",
+          "owner_approval": {
+            "date": "2026-10-19",
+            "timezone": "Europe/Kyiv",
+            "approved_by": "owner",
+            "source": "Explicit acceptance of all current opaque carousel images in this chat, with instruction to push accepted-by-user status.",
+            "output_commit": "6d03dca73a943f686412cb8fa1e3b997c169d429",
+            "generation_round": 2,
+            "scope": "all nine current opaque final slides, including the assembled phone ending",
+            "file": "carousels/LW-CAR-0014/outputs/slide-08.png",
+            "applies_to": "Current final delivered output after production assembly."
+          }
         }
       ],
       "errors": [],
       "save_status": "saved_repository_file",
       "agent_visual_review": "not_performed",
-      "user_review": "pending",
+      "user_review": "approved",
       "generation_result_original_path": "/workspace/generated_images/exec-85743208-c39a-4629-ad06-cb6c97f3fc92.png",
       "generated_plate_file": "carousels/LW-CAR-0014/production-assets/slide-08-generated-opaque.png",
       "export_dimensions": {
@@ -486,6 +644,16 @@
         "rgb_no_alpha": "passed",
         "agent_visual_review": "not_performed",
         "ocr": "not_performed"
+      },
+      "owner_approval": {
+        "date": "2026-10-19",
+        "timezone": "Europe/Kyiv",
+        "approved_by": "owner",
+        "source": "Explicit acceptance of all current opaque carousel images in this chat, with instruction to push accepted-by-user status.",
+        "output_commit": "6d03dca73a943f686412cb8fa1e3b997c169d429",
+        "generation_round": 2,
+        "scope": "all nine current opaque final slides, including the assembled phone ending",
+        "file": "carousels/LW-CAR-0014/outputs/slide-08.png"
       }
     },
     {
@@ -522,15 +690,26 @@
           "prompt_file": "carousels/LW-CAR-0014/prompts/slide-09-opaque-v2.txt",
           "transparent_background": false,
           "agent_visual_review": "not_performed",
-          "user_review": "pending",
+          "user_review": "approved",
           "result_original_path": "/workspace/generated_images/exec-ff7a6750-812d-4f09-9f28-5022c48f3049.png",
-          "finished_at": "2026-10-19T12:00:54.098Z"
+          "finished_at": "2026-10-19T12:00:54.098Z",
+          "owner_approval": {
+            "date": "2026-10-19",
+            "timezone": "Europe/Kyiv",
+            "approved_by": "owner",
+            "source": "Explicit acceptance of all current opaque carousel images in this chat, with instruction to push accepted-by-user status.",
+            "output_commit": "6d03dca73a943f686412cb8fa1e3b997c169d429",
+            "generation_round": 2,
+            "scope": "all nine current opaque final slides, including the assembled phone ending",
+            "file": "carousels/LW-CAR-0014/outputs/slide-09.png",
+            "applies_to": "Current final delivered output after production assembly."
+          }
         }
       ],
       "errors": [],
       "save_status": "saved_repository_file",
       "agent_visual_review": "not_performed",
-      "user_review": "pending",
+      "user_review": "approved",
       "generation_result_original_path": "/workspace/generated_images/exec-ff7a6750-812d-4f09-9f28-5022c48f3049.png",
       "generated_plate_file": "carousels/LW-CAR-0014/production-assets/slide-09-generated-opaque.png",
       "export_dimensions": {
@@ -545,7 +724,17 @@
         "agent_visual_review": "not_performed",
         "ocr": "not_performed"
       },
-      "production_assembly": "Generation prompt planned phone at y650. Final composition keeps top through y750 and places unchanged original source phone/hand at y750, preserving text scale and natural phone proportions. No additional image-tool call."
+      "production_assembly": "Generation prompt planned phone at y650. Final composition keeps top through y750 and places unchanged original source phone/hand at y750, preserving text scale and natural phone proportions. No additional image-tool call.",
+      "owner_approval": {
+        "date": "2026-10-19",
+        "timezone": "Europe/Kyiv",
+        "approved_by": "owner",
+        "source": "Explicit acceptance of all current opaque carousel images in this chat, with instruction to push accepted-by-user status.",
+        "output_commit": "6d03dca73a943f686412cb8fa1e3b997c169d429",
+        "generation_round": 2,
+        "scope": "all nine current opaque final slides, including the assembled phone ending",
+        "file": "carousels/LW-CAR-0014/outputs/slide-09.png"
+      }
     }
   ],
   "generation_execution_order": [
@@ -579,7 +768,7 @@
   "total_failed_image_calls": 2,
   "owner_requested_regenerations": 9,
   "automatic_regenerations": 0,
-  "updated_at": "2026-10-19T12:04:27.393Z",
+  "updated_at": "2026-10-19T15:10:28.746537+03:00",
   "timezone": "Europe/Kyiv",
   "rules_file": "carousels/CODEX-SERIES-RULES.md",
   "task_file": "carousels/LW-CAR-0014/prompts/codex-task.md",
@@ -587,7 +776,7 @@
   "additional_rules_read_commit": "30bd968672488e70a93cc07e00a354777aa33b78",
   "caption_file": "carousels/LW-CAR-0014/caption.txt",
   "delivery_archive": "carousels/LW-CAR-0014/LW-CAR-0014-1080x1350.zip",
-  "remote_save_status": "not_confirmed_at_commit_creation",
+  "remote_save_status": "saved_github",
   "background_specification": {
     "name": "DOTS",
     "base_color": "#F0F1EB",
@@ -658,7 +847,41 @@
     "Frozen product ending retained as instructed; brief's bodyweight/home logging confirmation note not independently verified."
   ],
   "next_actions": [
-    "Owner reviews all nine new opaque final PNGs; all current user_review statuses remain pending.",
-    "Preserve current outputs; change or regenerate only slides explicitly requested by owner."
+    "Preserve all nine approved opaque final outputs. Change or regenerate only after an explicit owner request."
+  ],
+  "remote_outputs_commit": "6d03dca73a943f686412cb8fa1e3b997c169d429",
+  "slides_approved": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "slides_pending_review": [],
+  "owner_approval_history": [
+    {
+      "date": "2026-10-19",
+      "timezone": "Europe/Kyiv",
+      "approved_by": "owner",
+      "source": "Explicit acceptance of all current opaque carousel images in this chat, with instruction to push accepted-by-user status.",
+      "output_commit": "6d03dca73a943f686412cb8fa1e3b997c169d429",
+      "generation_round": 2,
+      "scope": "all nine current opaque final slides, including the assembled phone ending",
+      "slides": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    }
   ]
 }
