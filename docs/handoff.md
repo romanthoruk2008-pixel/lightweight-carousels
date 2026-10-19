@@ -57,3 +57,6 @@ Claude, хмарна генерація, канал точного вставл�
 
 ## LW-CAR-0009 «STRUCTURE THE PERFECT LEG DAY» — власна тема
 Пакет: carousels/LW-CAR-0009/. 8 слайдів, усі готові до генерації. Двійник прийнятої LW-CAR-0002 (push day); серія push / pull / legs. Фінал зі справжнім екраном Muscle balance (вісь Legs).
+
+## LW-CAR-0010 «YOUR FIRST WEEK IN THE GYM» — власна тема для новачків
+Пакет: carousels/LW-CAR-0010/. 10 слайдів, усі готові до генерації. Full body 3×/тиждень, 5 рухів, правила для новачка, фінал «Week One Done? / Now Beat It.». Усі макети — з наших прийнятих слайдів (0001, 0002, 0007).

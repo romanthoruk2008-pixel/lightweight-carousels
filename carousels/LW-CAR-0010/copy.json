@@ -1,0 +1,346 @@
+{
+  "carousel_id": "LW-CAR-0010",
+  "content_version": "1.0",
+  "status": "frozen",
+  "type": "original",
+  "source": {
+    "ref_id": null,
+    "note": "Original Lightweight copy for beginners (owner request 2026-10-19): full body 3x per week.",
+    "visual_templates": {
+      "cover": "carousels/LW-CAR-0002/outputs/slide-01.png",
+      "week_table": "carousels/LW-CAR-0007/outputs/slide-05.png",
+      "checklist": "carousels/LW-CAR-0002/outputs/slide-02.png",
+      "moves": "carousels/LW-CAR-0002/outputs/slide-03.png … slide-08.png",
+      "rules": "carousels/LW-CAR-0007/outputs/slide-07.png",
+      "ending": "carousels/LW-CAR-0001/outputs/slide-08.png"
+    }
+  },
+  "language": "en",
+  "font_family": "Rubik",
+  "colors": {
+    "accent": "#F26445",
+    "accent_tint_background_shape": "#FBE3DD",
+    "background": "#F0F1EB",
+    "text_dark": "#2A2A2A",
+    "text_body_grey": "#6B6B6B",
+    "white": "#FFFFFF",
+    "muscle_base_sand": "#D9CBBE",
+    "skin_ivory_approx": "#F5F0E5"
+  },
+  "caption": {
+    "text": "Never trained before? Start here: 3 days a week, 5 moves, under an hour. Save this for your first week 📌 and send it to a friend who just joined a gym 🤝 #gymbeginner #beginnerworkout #fullbodyworkout #gymtips",
+    "notes": "Save + share prompt: beginner content gets sent to friends. No 'lifters'."
+  },
+  "hook_alternatives_not_used": [
+    "NEW TO THE GYM? START HERE",
+    "THE ONLY BEGINNER PLAN YOU NEED"
+  ],
+  "slides": [
+    {
+      "n": 1,
+      "role": "hook",
+      "text": [
+        {
+          "string": "YOUR FIRST",
+          "style": "cover line 1, uppercase, heaviest Rubik, text_dark"
+        },
+        {
+          "string": "WEEK IN",
+          "style": "cover line 2, uppercase, heaviest Rubik, text_dark"
+        },
+        {
+          "string": "THE GYM",
+          "style": "cover line 3, uppercase, heaviest Rubik, accent"
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "role": "the plan",
+      "text": [
+        {
+          "string": "The Plan",
+          "style": "title, bold, text_dark, left-aligned"
+        },
+        {
+          "string": "3 full-body workouts. A rest day between each.",
+          "style": "body, regular, text_body_grey"
+        },
+        {
+          "string": "MON",
+          "style": "table header"
+        },
+        {
+          "string": "TUE",
+          "style": "table header"
+        },
+        {
+          "string": "WED",
+          "style": "table header"
+        },
+        {
+          "string": "THU",
+          "style": "table header"
+        },
+        {
+          "string": "FRI",
+          "style": "table header"
+        },
+        {
+          "string": "SAT",
+          "style": "table header"
+        },
+        {
+          "string": "SUN",
+          "style": "table header"
+        },
+        {
+          "string": "FULL BODY",
+          "style": "accent label under MON, WED and FRI"
+        },
+        {
+          "string": "REST",
+          "style": "small grey label in the other cells"
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "role": "each workout checklist",
+      "text": [
+        {
+          "string": "Every Workout\nIncludes:",
+          "style": "title, bold, text_dark, left-aligned, two lines"
+        },
+        {
+          "string": "1x Squat",
+          "style": "bullet; 'Squat' bold"
+        },
+        {
+          "string": "1x Push",
+          "style": "bullet; 'Push' bold"
+        },
+        {
+          "string": "1x Pull",
+          "style": "bullet; 'Pull' bold"
+        },
+        {
+          "string": "1x Hinge",
+          "style": "bullet; 'Hinge' bold"
+        },
+        {
+          "string": "1x Core",
+          "style": "bullet; 'Core' bold"
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "role": "move #1",
+      "text": [
+        {
+          "string": "#1",
+          "style": "big number, bold, accent"
+        },
+        {
+          "string": "Squat",
+          "style": "title, bold, text_dark"
+        },
+        {
+          "string": "2-3 sets x 8-12 reps",
+          "style": "sets line, regular, text_body_grey"
+        },
+        {
+          "string": "Hold a dumbbell at your chest and sit down between your heels.",
+          "style": "beginner cue, regular, text_body_grey, two lines"
+        },
+        {
+          "string": "Goblet Squat",
+          "style": "left exercise label"
+        },
+        {
+          "string": "Leg Press",
+          "style": "right exercise label"
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "role": "move #2",
+      "text": [
+        {
+          "string": "#2",
+          "style": "big number, bold, accent"
+        },
+        {
+          "string": "Push",
+          "style": "title, bold, text_dark"
+        },
+        {
+          "string": "2-3 sets x 8-12 reps",
+          "style": "sets line, regular, text_body_grey"
+        },
+        {
+          "string": "Push-ups too hard? Put your hands on a bench and build up from there.",
+          "style": "beginner cue, regular, text_body_grey, two lines"
+        },
+        {
+          "string": "Machine Chest Press",
+          "style": "left exercise label"
+        },
+        {
+          "string": "Push-up",
+          "style": "right exercise label"
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "role": "move #3",
+      "text": [
+        {
+          "string": "#3",
+          "style": "big number, bold, accent"
+        },
+        {
+          "string": "Pull",
+          "style": "title, bold, text_dark"
+        },
+        {
+          "string": "2-3 sets x 8-12 reps",
+          "style": "sets line, regular, text_body_grey"
+        },
+        {
+          "string": "Pull with your elbows, not your hands.",
+          "style": "beginner cue, regular, text_body_grey, two lines"
+        },
+        {
+          "string": "Lat Pulldown",
+          "style": "left exercise label"
+        },
+        {
+          "string": "Seated Cable Row",
+          "style": "right exercise label"
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "role": "move #4",
+      "text": [
+        {
+          "string": "#4",
+          "style": "big number, bold, accent"
+        },
+        {
+          "string": "Hinge",
+          "style": "title, bold, text_dark"
+        },
+        {
+          "string": "2-3 sets x 8-12 reps",
+          "style": "sets line, regular, text_body_grey"
+        },
+        {
+          "string": "Push your hips back and keep your back flat.",
+          "style": "beginner cue, regular, text_body_grey, two lines"
+        },
+        {
+          "string": "Dumbbell Romanian Deadlift",
+          "style": "left exercise label"
+        },
+        {
+          "string": "Glute Bridge",
+          "style": "right exercise label"
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "role": "move #5",
+      "text": [
+        {
+          "string": "#5",
+          "style": "big number, bold, accent"
+        },
+        {
+          "string": "Core",
+          "style": "title, bold, text_dark"
+        },
+        {
+          "string": "2-3 sets x 10-12 reps",
+          "style": "sets line, regular, text_body_grey"
+        },
+        {
+          "string": "Move slowly. Feel it in your abs, not your lower back.",
+          "style": "beginner cue, regular, text_body_grey, two lines"
+        },
+        {
+          "string": "Dead Bug",
+          "style": "left exercise label"
+        },
+        {
+          "string": "Cable Crunch",
+          "style": "right exercise label"
+        }
+      ]
+    },
+    {
+      "n": 9,
+      "role": "beginner rules",
+      "text": [
+        {
+          "string": "Beginner Rules",
+          "style": "title, bold, text_dark, left-aligned"
+        },
+        {
+          "string": "Stop 2-3 reps before you can't do another",
+          "style": "checklist row"
+        },
+        {
+          "string": "Add a little weight or 1 rep each week",
+          "style": "checklist row"
+        },
+        {
+          "string": "Rest 1-2 minutes between sets",
+          "style": "checklist row"
+        },
+        {
+          "string": "Repeat this plan for 6-8 weeks",
+          "style": "checklist row"
+        },
+        {
+          "string": "Showing up beats doing it perfectly.",
+          "style": "bold, accent"
+        }
+      ]
+    },
+    {
+      "n": 10,
+      "role": "product ending",
+      "text": [
+        {
+          "string": "Week One Done?",
+          "style": "headline line 1, bold, text_dark, left-aligned"
+        },
+        {
+          "string": "Now Beat It.",
+          "style": "headline line 2, bold, accent, left-aligned"
+        },
+        {
+          "string": "Log every workout in Lightweight and try to beat last week's numbers.",
+          "style": "body, regular, text_body_grey"
+        }
+      ],
+      "screen": "real Lightweight Progress / Muscle balance screenshot (as in approved LW-CAR-0001 slide 8): shows Workout and Sets counts; a workout-log screenshot from the owner would fit even better",
+      "product_claims_checked_against_real_screen": [
+        "workouts are logged (Workout tab, 'Workout 9')",
+        "sets are counted ('Sets 35')"
+      ]
+    }
+  ],
+  "claims_to_verify": [
+    "Full body 3x per week is a standard beginner structure.",
+    "'Stop 2-3 reps before you can't do another', 'add a little weight or 1 rep each week', 'rest 1-2 minutes', 'repeat for 6-8 weeks': common beginner coaching guidance, not from a single study.",
+    "'under an hour' in the caption: 5 exercises x 2-3 sets with 1-2 min rest is roughly 30-50 minutes plus warm-up."
+  ]
+}

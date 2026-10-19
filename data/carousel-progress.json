@@ -134,6 +134,19 @@
       "generation": "not_started",
       "user_review": "pending",
       "path": "carousels/LW-CAR-0009/"
+    },
+    {
+      "id": "LW-CAR-0010",
+      "title": "YOUR FIRST WEEK IN THE GYM",
+      "source_ref": null,
+      "type": "original",
+      "content_version": "1.0",
+      "copy_status": "frozen",
+      "slides": 10,
+      "slides_blocked": [],
+      "generation": "not_started",
+      "user_review": "pending",
+      "path": "carousels/LW-CAR-0010/"
     }
   ],
   "experiments": [
