@@ -26,6 +26,7 @@ Each task file lists the reference slide URLs in the **real** order. Use that or
 - Text: dark **#2A2A2A**, grey body **#6B6B6B**, white **#FFFFFF** on badges.
 - Font: **Rubik** for all text. Covers use the heaviest weight, titles bold, body regular. Rubik is wider than the sources' condensed cover font. Keep the same line breaks, scale to fit, and tell the owner if a layout cannot match. Never shorten text.
 - The Lightweight wordmark goes small in the top-left of every slide, exactly as on LW-CAR-0001, from the owner's wordmark file. Never draw or invent a logo.
+- **Logo file (2026-10-19):** the full logo (wordmark + app icon) is `assets/logo/lightweight-logo-full.png` (transparent PNG). Place it top-left at x 48, y 19, 341 x 71 px on a 1080 x 1350 slide, as on LW-CAR-0014. Insert the file as a layer; never redraw it.
 - The brand name "Arrow" in slide text → "Lightweight", only where the task file says so.
 
 ## Product ending (phone slides)
