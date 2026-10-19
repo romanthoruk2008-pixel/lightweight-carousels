@@ -1,0 +1,13 @@
+Planned foreground/background and original-bitmap assembly, no image-tool retry.
+
+Source: accepted carousels/LW-CAR-0001/outputs/slide-08.png at commit efeb94a18026cfe04f4ad8a520bf7ee96bbed167.
+prepare_layers.py creates exact DOTS background (#F0F1EB, #D4D4CC, diameter6px/spacing45px), glyph-only transparent original wordmark from 1080x110+0+0, and original phone/hand cutout from 1080x830+0+520 using contour alpha. Source phone/UI RGB is retained, old background/arch removed. Reference asset preparation occurred before new image generation.
+
+assemble_slide.py uniformly fits each returned transparent foreground to 1080x1350, composites it above DOTS, and adds original wordmark at +0+0. No independent-axis stretching.
+
+Slide9 production composition reserves y0..650 for the top foreground and discards lower generated pixels. Source phone/hand cutout is copied at +0+650, scale1, to reserve a larger body-copy area without text scaling. This is a 130px downward move from the generation prompt's initial planned phone position; the phone naturally crops at the bottom. No generated UI enters the final slide.
+
+Actual final assembly command from repository root:
+python3 carousels/LW-CAR-0014/production-assets/assemble_slide.py 9 /workspace/generated_images/exec-590a705b-0a16-446d-949c-20c386667c8f.png
+
+No standalone raw screenshot is available; this preserves the task's accepted existing composite, without asserting independently verified fidelity to that unavailable raw source.

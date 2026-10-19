@@ -1,0 +1,416 @@
+{
+  "carousel_id": "LW-CAR-0014",
+  "type": "original",
+  "content_version": "1.0",
+  "content_commit": "efeb94a18026cfe04f4ad8a520bf7ee96bbed167",
+  "source_ref": null,
+  "status": "incomplete_pending_owner_retry",
+  "expected_slide_count": 9,
+  "background": "DOTS",
+  "arch": false,
+  "agent_visual_review": "not_performed",
+  "user_review": "pending",
+  "slides": [
+    {
+      "slide_number": 1,
+      "content_version": "1.0",
+      "status": "generated",
+      "visual_template_files": [
+        "carousels/LW-CAR-0002/outputs/slide-01.png"
+      ],
+      "template_access": "opened",
+      "prompt": "Create ONE original Lightweight carousel foreground, portrait 1080x1350 (4:5), on a fully TRANSPARENT alpha background. This is our own design using our supplied approved slide ONLY as a layout/typography/illustration reference.\nBACKGROUND OVERRIDE: REMOVE and IGNORE the old pale coral ARCH in every reference. NO arch, ring, halo, big curved shape, gradient, solid background, floor slab, progress bar or slide counter. The task's exact DOTS layer (#F0F1EB, dots #D4D4CC diameter6px every45px) is already prepared and will be placed UNDER this transparent foreground during planned production assembly. Do not generate dots in the foreground. Everything outside text/figures/props is transparent.\nRubik font: heaviest cover, Bold titles, Regular body/labels. Dark #2A2A2A, grey #6B6B6B, coral #F26445, white #FFFFFF in check marks. Adult bald FACELESS smooth plastic anatomical mannequin, featureless pelvis fully covered by plain short OPAQUE sand #D9CBBE gym shorts, warm-sand muscles #D9CBBE with darker sand shading, ivory skin/tendons #F5F0E5, fine grey linework. No green or sage. Home props ONLY: floor contact, solid wooden table, chair, backpack. NO gym machines, dumbbells, barbells, cables or benches, even when shown in reference. Only named highlights on cover; NO highlighted muscles on exercise slides3-7.\nExact requested text ONLY, preserve case, hyphens, apostrophes, lowercase x, digits and punctuation; never replace x by a multiplication symbol. No added words/labels/periods. All text fully visible, never underneath a figure, prop or edge. Move/shrink artwork if needed, never shorten text. Reserve top y0..110 fully EMPTY/TRANSPARENT: original Lightweight wordmark will be composited there at original coordinates. Do not draw a logo or watermark.\nSLIDE1 COVER. Reference LW-CAR-0002 slide1 gives cover composition only. Exactly TWO stacked uppercase lines occupying top ~45%, heaviest RUBIK:\nNO GYM?\nNO PROBLEM.\nFirst dark, second coral. Preserve question mark and final period. Entire headline fully visible, clear y140..520, no figure overlap. Lower area one adult mannequin in mid push-up on floor, side/three-quarter view, head to heels aligned in a straight body, elbows bent. Chest, front delts, triceps and abs coral #F26445, all other muscles sand. Figure under headline, stretched horizontally across lower region with both hands and toes contacting a minimal floor contact line/shadow, no opaque floor scene. Short opaque sand shorts. NO gym machine. NO ARCH.",
+      "prompt_file": "carousels/LW-CAR-0014/prompts/slide-01.txt",
+      "result_file": "carousels/LW-CAR-0014/outputs/slide-01.png",
+      "attempt_count": 1,
+      "attempt_history": [
+        {
+          "attempt": 1,
+          "status": "generated",
+          "started_at": "2026-10-19T10:41:06.305Z",
+          "prompt_file": "carousels/LW-CAR-0014/prompts/slide-01.txt",
+          "agent_visual_review": "not_performed",
+          "user_review": "pending",
+          "result_original_path": "/workspace/generated_images/exec-26434407-791d-4e03-8e51-a23782ec52f2.png",
+          "finished_at": "2026-10-19T10:42:04.160Z"
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_repository_file",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending",
+      "generation_result_original_path": "/workspace/generated_images/exec-26434407-791d-4e03-8e51-a23782ec52f2.png",
+      "export_dimensions": {
+        "width": 1080,
+        "height": 1350
+      },
+      "export_method": "Uniform alpha-preserving fit, centered on exact DOTS background. Original transparent wordmark at +0+0. No independent-axis stretch."
+    },
+    {
+      "slide_number": 2,
+      "content_version": "1.0",
+      "status": "generated",
+      "visual_template_files": [
+        "carousels/LW-CAR-0007/outputs/slide-07.png"
+      ],
+      "template_access": "opened",
+      "prompt": "Create ONE original Lightweight carousel foreground, portrait 1080x1350 (4:5), on a fully TRANSPARENT alpha background. This is our own design using our supplied approved slide ONLY as a layout/typography/illustration reference.\nBACKGROUND OVERRIDE: REMOVE and IGNORE the old pale coral ARCH in every reference. NO arch, ring, halo, big curved shape, gradient, solid background, floor slab, progress bar or slide counter. The task's exact DOTS layer (#F0F1EB, dots #D4D4CC diameter6px every45px) is already prepared and will be placed UNDER this transparent foreground during planned production assembly. Do not generate dots in the foreground. Everything outside text/figures/props is transparent.\nRubik font: heaviest cover, Bold titles, Regular body/labels. Dark #2A2A2A, grey #6B6B6B, coral #F26445, white #FFFFFF in check marks. Adult bald FACELESS smooth plastic anatomical mannequin, featureless pelvis fully covered by plain short OPAQUE sand #D9CBBE gym shorts, warm-sand muscles #D9CBBE with darker sand shading, ivory skin/tendons #F5F0E5, fine grey linework. No green or sage. Home props ONLY: floor contact, solid wooden table, chair, backpack. NO gym machines, dumbbells, barbells, cables or benches, even when shown in reference. Only named highlights on cover; NO highlighted muscles on exercise slides3-7.\nExact requested text ONLY, preserve case, hyphens, apostrophes, lowercase x, digits and punctuation; never replace x by a multiplication symbol. No added words/labels/periods. All text fully visible, never underneath a figure, prop or edge. Move/shrink artwork if needed, never shorten text. Reserve top y0..110 fully EMPTY/TRANSPARENT: original Lightweight wordmark will be composited there at original coordinates. Do not draw a logo or watermark.\nSLIDE2 CHECKED LIST. Reference LW-CAR-0007 slide7 for list/figure layout ONLY. Dark Bold top-left \"All You Need\", short coral underline. Exactly FOUR rows, each a FILLED CORAL rounded square with WHITE check mark and Regular dark text:\nYour body\nA floor\nA sturdy table\nA backpack\nUnder list exact Bold coral sentence:\nThat's a full-body workout.\nLower-right illustration: adult anatomy man standing relaxed beside a SOLID sturdy wooden table (thick tabletop and stable legs), a backpack on floor, naturally cropped at edge. Keep props/man below or right of complete sentence; no old bench or list words. Sand shorts, no highlights. Transparent background, NO ARCH.",
+      "prompt_file": "carousels/LW-CAR-0014/prompts/slide-02.txt",
+      "result_file": "carousels/LW-CAR-0014/outputs/slide-02.png",
+      "attempt_count": 1,
+      "attempt_history": [
+        {
+          "attempt": 1,
+          "status": "generated",
+          "started_at": "2026-10-19T10:42:14.451Z",
+          "prompt_file": "carousels/LW-CAR-0014/prompts/slide-02.txt",
+          "agent_visual_review": "not_performed",
+          "user_review": "pending",
+          "result_original_path": "/workspace/generated_images/exec-b5e34a58-f62c-421c-aa8b-6c17511e2f03.png",
+          "finished_at": "2026-10-19T10:43:02.859Z"
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_repository_file",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending",
+      "generation_result_original_path": "/workspace/generated_images/exec-b5e34a58-f62c-421c-aa8b-6c17511e2f03.png",
+      "export_dimensions": {
+        "width": 1080,
+        "height": 1350
+      },
+      "export_method": "Uniform alpha-preserving fit, centered on exact DOTS background. Original transparent wordmark at +0+0. No independent-axis stretch."
+    },
+    {
+      "slide_number": 3,
+      "content_version": "1.0",
+      "status": "generated",
+      "visual_template_files": [
+        "carousels/LW-CAR-0002/outputs/slide-03.png"
+      ],
+      "template_access": "opened",
+      "prompt": "Create ONE original Lightweight carousel foreground, portrait 1080x1350 (4:5), on a fully TRANSPARENT alpha background. This is our own design using our supplied approved slide ONLY as a layout/typography/illustration reference.\nBACKGROUND OVERRIDE: REMOVE and IGNORE the old pale coral ARCH in every reference. NO arch, ring, halo, big curved shape, gradient, solid background, floor slab, progress bar or slide counter. The task's exact DOTS layer (#F0F1EB, dots #D4D4CC diameter6px every45px) is already prepared and will be placed UNDER this transparent foreground during planned production assembly. Do not generate dots in the foreground. Everything outside text/figures/props is transparent.\nRubik font: heaviest cover, Bold titles, Regular body/labels. Dark #2A2A2A, grey #6B6B6B, coral #F26445, white #FFFFFF in check marks. Adult bald FACELESS smooth plastic anatomical mannequin, featureless pelvis fully covered by plain short OPAQUE sand #D9CBBE gym shorts, warm-sand muscles #D9CBBE with darker sand shading, ivory skin/tendons #F5F0E5, fine grey linework. No green or sage. Home props ONLY: floor contact, solid wooden table, chair, backpack. NO gym machines, dumbbells, barbells, cables or benches, even when shown in reference. Only named highlights on cover; NO highlighted muscles on exercise slides3-7.\nExact requested text ONLY, preserve case, hyphens, apostrophes, lowercase x, digits and punctuation; never replace x by a multiplication symbol. No added words/labels/periods. All text fully visible, never underneath a figure, prop or edge. Move/shrink artwork if needed, never shorten text. Reserve top y0..110 fully EMPTY/TRANSPARENT: original Lightweight wordmark will be composited there at original coordinates. Do not draw a logo or watermark.\nSHARED MOVE LAYOUT from supplied approved own slide: big Bold coral #N at x60,y180 with short coral underline; dark Bold title to its right x285,y190; grey Regular sets line beneath title. Left-aligned grey Regular exact cue below header, exactly two lines without changing words/punctuation. Lower ~55% two full-body anatomical exercise figures, left and right halves separated by thin vertical coral line, each has its exact Regular dark label underneath. Keep complete bodies/feet/hands/props within respective half, shrink only illustration to fit. Labels near y1220 may wrap to two lines to remain fully visible above y1310. Figures occupy y600..1170. Same series anatomy styling, sand shorts, NO coral muscle fill. Never retain old exercise text or old gym equipment from reference.\nSLIDE3. NUMBER \"#1\"; TITLE \"Legs\"; SETS \"2-3 sets x 10-20 reps\".\nExact cue in TWO lines:\nToo easy? Switch to split squats\nand let one leg do all the work.\nLeft: deep bodyweight squat, arms straight forward, side view, heels grounded, hips low, knees bent, neutral torso. Label \"Bodyweight Squat\".\nRight: Bulgarian split squat, rear foot resting on seat of stable household chair, front knee bent and front foot flat, side view. Label \"Bulgarian Split Squat\".\nTwo complete figures with opaque sand shorts. No highlighted muscles. NO ARCH.",
+      "prompt_file": "carousels/LW-CAR-0014/prompts/slide-03.txt",
+      "result_file": "carousels/LW-CAR-0014/outputs/slide-03.png",
+      "attempt_count": 1,
+      "attempt_history": [
+        {
+          "attempt": 1,
+          "status": "generated",
+          "started_at": "2026-10-19T10:43:11.284Z",
+          "prompt_file": "carousels/LW-CAR-0014/prompts/slide-03.txt",
+          "agent_visual_review": "not_performed",
+          "user_review": "pending",
+          "result_original_path": "/workspace/generated_images/exec-aa4876b2-9884-44b1-a256-0ffebda1ca4c.png",
+          "finished_at": "2026-10-19T10:43:45.478Z"
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_repository_file",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending",
+      "generation_result_original_path": "/workspace/generated_images/exec-aa4876b2-9884-44b1-a256-0ffebda1ca4c.png",
+      "export_dimensions": {
+        "width": 1080,
+        "height": 1350
+      },
+      "export_method": "Uniform alpha-preserving fit, centered on exact DOTS background. Original transparent wordmark at +0+0. No independent-axis stretch."
+    },
+    {
+      "slide_number": 4,
+      "content_version": "1.0",
+      "status": "generated",
+      "visual_template_files": [
+        "carousels/LW-CAR-0002/outputs/slide-04.png"
+      ],
+      "template_access": "opened",
+      "prompt": "Create ONE original Lightweight carousel foreground, portrait 1080x1350 (4:5), on a fully TRANSPARENT alpha background. This is our own design using our supplied approved slide ONLY as a layout/typography/illustration reference.\nBACKGROUND OVERRIDE: REMOVE and IGNORE the old pale coral ARCH in every reference. NO arch, ring, halo, big curved shape, gradient, solid background, floor slab, progress bar or slide counter. The task's exact DOTS layer (#F0F1EB, dots #D4D4CC diameter6px every45px) is already prepared and will be placed UNDER this transparent foreground during planned production assembly. Do not generate dots in the foreground. Everything outside text/figures/props is transparent.\nRubik font: heaviest cover, Bold titles, Regular body/labels. Dark #2A2A2A, grey #6B6B6B, coral #F26445, white #FFFFFF in check marks. Adult bald FACELESS smooth plastic anatomical mannequin, featureless pelvis fully covered by plain short OPAQUE sand #D9CBBE gym shorts, warm-sand muscles #D9CBBE with darker sand shading, ivory skin/tendons #F5F0E5, fine grey linework. No green or sage. Home props ONLY: floor contact, solid wooden table, chair, backpack. NO gym machines, dumbbells, barbells, cables or benches, even when shown in reference. Only named highlights on cover; NO highlighted muscles on exercise slides3-7.\nExact requested text ONLY, preserve case, hyphens, apostrophes, lowercase x, digits and punctuation; never replace x by a multiplication symbol. No added words/labels/periods. All text fully visible, never underneath a figure, prop or edge. Move/shrink artwork if needed, never shorten text. Reserve top y0..110 fully EMPTY/TRANSPARENT: original Lightweight wordmark will be composited there at original coordinates. Do not draw a logo or watermark.\nSHARED MOVE LAYOUT from supplied approved own slide: big Bold coral #N at x60,y180 with short coral underline; dark Bold title to its right x285,y190; grey Regular sets line beneath title. Left-aligned grey Regular exact cue below header, exactly two lines without changing words/punctuation. Lower ~55% two full-body anatomical exercise figures, left and right halves separated by thin vertical coral line, each has its exact Regular dark label underneath. Keep complete bodies/feet/hands/props within respective half, shrink only illustration to fit. Labels near y1220 may wrap to two lines to remain fully visible above y1310. Figures occupy y600..1170. Same series anatomy styling, sand shorts, NO coral muscle fill. Never retain old exercise text or old gym equipment from reference.\nSLIDE4. NUMBER \"#2\"; TITLE \"Push\"; SETS \"2-3 sets x 8-15 reps\".\nExact cue in TWO lines:\nFloor push-ups too hard? Put your hands\non a chair or a bed.\nLeft: standard push-up on floor, elbows bent, side view, straight head-to-heel body, hands and toes grounded. Label \"Push-up\".\nRight: incline push-up, both hands clearly placed on the SEAT of a stable household chair, feet on floor, body straight diagonally upward toward chair, elbows bent, side view. Label \"Incline Push-up\".\nTwo complete figures, short opaque sand shorts, no highlighted muscles. NO ARCH.",
+      "prompt_file": "carousels/LW-CAR-0014/prompts/slide-04.txt",
+      "result_file": "carousels/LW-CAR-0014/outputs/slide-04.png",
+      "attempt_count": 1,
+      "attempt_history": [
+        {
+          "attempt": 1,
+          "status": "generated",
+          "started_at": "2026-10-19T10:43:55.130Z",
+          "prompt_file": "carousels/LW-CAR-0014/prompts/slide-04.txt",
+          "agent_visual_review": "not_performed",
+          "user_review": "pending",
+          "result_original_path": "/workspace/generated_images/exec-5e981f64-b409-4e38-ac75-11705783e1df.png",
+          "finished_at": "2026-10-19T10:44:40.213Z"
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_repository_file",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending",
+      "generation_result_original_path": "/workspace/generated_images/exec-5e981f64-b409-4e38-ac75-11705783e1df.png",
+      "export_dimensions": {
+        "width": 1080,
+        "height": 1350
+      },
+      "export_method": "Uniform alpha-preserving fit, centered on exact DOTS background. Original transparent wordmark at +0+0. No independent-axis stretch."
+    },
+    {
+      "slide_number": 5,
+      "content_version": "1.0",
+      "status": "generated",
+      "visual_template_files": [
+        "carousels/LW-CAR-0002/outputs/slide-05.png"
+      ],
+      "template_access": "opened",
+      "prompt": "Create ONE original Lightweight carousel foreground, portrait 1080x1350 (4:5), on a fully TRANSPARENT alpha background. This is our own design using our supplied approved slide ONLY as a layout/typography/illustration reference.\nBACKGROUND OVERRIDE: REMOVE and IGNORE the old pale coral ARCH in every reference. NO arch, ring, halo, big curved shape, gradient, solid background, floor slab, progress bar or slide counter. The task's exact DOTS layer (#F0F1EB, dots #D4D4CC diameter6px every45px) is already prepared and will be placed UNDER this transparent foreground during planned production assembly. Do not generate dots in the foreground. Everything outside text/figures/props is transparent.\nRubik font: heaviest cover, Bold titles, Regular body/labels. Dark #2A2A2A, grey #6B6B6B, coral #F26445, white #FFFFFF in check marks. Adult bald FACELESS smooth plastic anatomical mannequin, featureless pelvis fully covered by plain short OPAQUE sand #D9CBBE gym shorts, warm-sand muscles #D9CBBE with darker sand shading, ivory skin/tendons #F5F0E5, fine grey linework. No green or sage. Home props ONLY: floor contact, solid wooden table, chair, backpack. NO gym machines, dumbbells, barbells, cables or benches, even when shown in reference. Only named highlights on cover; NO highlighted muscles on exercise slides3-7.\nExact requested text ONLY, preserve case, hyphens, apostrophes, lowercase x, digits and punctuation; never replace x by a multiplication symbol. No added words/labels/periods. All text fully visible, never underneath a figure, prop or edge. Move/shrink artwork if needed, never shorten text. Reserve top y0..110 fully EMPTY/TRANSPARENT: original Lightweight wordmark will be composited there at original coordinates. Do not draw a logo or watermark.\nSHARED MOVE LAYOUT from supplied approved own slide: big Bold coral #N at x60,y180 with short coral underline; dark Bold title to its right x285,y190; grey Regular sets line beneath title. Left-aligned grey Regular exact cue below header, exactly two lines without changing words/punctuation. Lower ~55% two full-body anatomical exercise figures, left and right halves separated by thin vertical coral line, each has its exact Regular dark label underneath. Keep complete bodies/feet/hands/props within respective half, shrink only illustration to fit. Labels near y1220 may wrap to two lines to remain fully visible above y1310. Figures occupy y600..1170. Same series anatomy styling, sand shorts, NO coral muscle fill. Never retain old exercise text or old gym equipment from reference.\nSLIDE5. NUMBER \"#3\"; TITLE \"Pull\"; SETS \"2-3 sets x 8-15 reps\".\nExact cue in TWO lines:\nNo bar? Fill a backpack with books\nand row it.\nLeft: adult anatomy man lying facing UP UNDER A SOLID STURDY WOODEN TABLE, gripping the table's near edge with both hands, pulling chest upward toward underside, heels grounded, straight body. Side view shows entire solid tabletop and stable thick legs, table cannot tip, no glass or folding furniture. Label \"Table Row\".\nRight: standing bent over with FLAT BACK and slightly bent knees, side view, rowing a loaded backpack filled with books by its handle up toward ribs. Label \"Backpack Row\".\nHome furniture only; no pull-up bar or gym cable. Complete figures, short opaque sand shorts, no highlighted muscles. NO ARCH.",
+      "prompt_file": "carousels/LW-CAR-0014/prompts/slide-05.txt",
+      "result_file": "carousels/LW-CAR-0014/outputs/slide-05.png",
+      "attempt_count": 1,
+      "attempt_history": [
+        {
+          "attempt": 1,
+          "status": "generated",
+          "started_at": "2026-10-19T10:44:50.505Z",
+          "prompt_file": "carousels/LW-CAR-0014/prompts/slide-05.txt",
+          "agent_visual_review": "not_performed",
+          "user_review": "pending",
+          "result_original_path": "/workspace/generated_images/exec-1f2ca346-1127-4ed1-a887-a8291e8def94.png",
+          "finished_at": "2026-10-19T10:45:24.687Z"
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_repository_file",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending",
+      "generation_result_original_path": "/workspace/generated_images/exec-1f2ca346-1127-4ed1-a887-a8291e8def94.png",
+      "export_dimensions": {
+        "width": 1080,
+        "height": 1350
+      },
+      "export_method": "Uniform alpha-preserving fit, centered on exact DOTS background. Original transparent wordmark at +0+0. No independent-axis stretch."
+    },
+    {
+      "slide_number": 6,
+      "content_version": "1.0",
+      "status": "blocked_waiting_owner_retry",
+      "visual_template_files": [
+        "carousels/LW-CAR-0002/outputs/slide-06.png"
+      ],
+      "template_access": "opened",
+      "prompt": "Create ONE original Lightweight carousel foreground, portrait 1080x1350 (4:5), on a fully TRANSPARENT alpha background. This is our own design using our supplied approved slide ONLY as a layout/typography/illustration reference.\nBACKGROUND OVERRIDE: REMOVE and IGNORE the old pale coral ARCH in every reference. NO arch, ring, halo, big curved shape, gradient, solid background, floor slab, progress bar or slide counter. The task's exact DOTS layer (#F0F1EB, dots #D4D4CC diameter6px every45px) is already prepared and will be placed UNDER this transparent foreground during planned production assembly. Do not generate dots in the foreground. Everything outside text/figures/props is transparent.\nRubik font: heaviest cover, Bold titles, Regular body/labels. Dark #2A2A2A, grey #6B6B6B, coral #F26445, white #FFFFFF in check marks. Adult bald FACELESS smooth plastic anatomical mannequin, featureless pelvis fully covered by plain short OPAQUE sand #D9CBBE gym shorts, warm-sand muscles #D9CBBE with darker sand shading, ivory skin/tendons #F5F0E5, fine grey linework. No green or sage. Home props ONLY: floor contact, solid wooden table, chair, backpack. NO gym machines, dumbbells, barbells, cables or benches, even when shown in reference. Only named highlights on cover; NO highlighted muscles on exercise slides3-7.\nExact requested text ONLY, preserve case, hyphens, apostrophes, lowercase x, digits and punctuation; never replace x by a multiplication symbol. No added words/labels/periods. All text fully visible, never underneath a figure, prop or edge. Move/shrink artwork if needed, never shorten text. Reserve top y0..110 fully EMPTY/TRANSPARENT: original Lightweight wordmark will be composited there at original coordinates. Do not draw a logo or watermark.\nSHARED MOVE LAYOUT from supplied approved own slide: big Bold coral #N at x60,y180 with short coral underline; dark Bold title to its right x285,y190; grey Regular sets line beneath title. Left-aligned grey Regular exact cue below header, exactly two lines without changing words/punctuation. Lower ~55% two full-body anatomical exercise figures, left and right halves separated by thin vertical coral line, each has its exact Regular dark label underneath. Keep complete bodies/feet/hands/props within respective half, shrink only illustration to fit. Labels near y1220 may wrap to two lines to remain fully visible above y1310. Figures occupy y600..1170. Same series anatomy styling, sand shorts, NO coral muscle fill. Never retain old exercise text or old gym equipment from reference.\nSLIDE6. NUMBER \"#4\"; TITLE \"Glutes\"; SETS \"2-3 sets x 10-20 reps\".\nExact cue in TWO lines:\nSqueeze your glutes at the top\nfor a full second.\nLeft: glute bridge lying on floor, knees bent, both feet grounded, hips raised, shoulders/head grounded, side view. Label \"Glute Bridge\".\nRight: same bridge with hips up, one foot grounded, the other leg STRAIGHT extended upward in the air, side view. Label \"Single-Leg Glute Bridge\".\nBoth complete bodies, short opaque sand shorts, no highlighted muscles. No exercise equipment. NO ARCH.",
+      "prompt_file": "carousels/LW-CAR-0014/prompts/slide-06.txt",
+      "result_file": null,
+      "attempt_count": 1,
+      "attempt_history": [
+        {
+          "attempt": 1,
+          "status": "failed",
+          "started_at": "2026-10-19T10:45:33.788Z",
+          "prompt_file": "carousels/LW-CAR-0014/prompts/slide-06.txt",
+          "agent_visual_review": "not_performed",
+          "user_review": "pending",
+          "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 83f9c672-a4e5-4309-a830-d80c36bfda62. safety_violations=[sexual].\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"sexual\\\"\\n      ]\\n    }\\n  }\\n}\")"
+        }
+      ],
+      "errors": [
+        "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 83f9c672-a4e5-4309-a830-d80c36bfda62. safety_violations=[sexual].\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"sexual\\\"\\n      ]\\n    }\\n  }\\n}\")"
+      ],
+      "save_status": "not_saved",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending",
+      "blocker": "Image-tool moderation returned no image. Repository forbids automatic retries; one retry with plain sand T-shirts and opaque shorts requested from owner, not yet authorized."
+    },
+    {
+      "slide_number": 7,
+      "content_version": "1.0",
+      "status": "generated",
+      "visual_template_files": [
+        "carousels/LW-CAR-0002/outputs/slide-07.png",
+        "carousels/LW-CAR-0002/outputs/slide-08.png"
+      ],
+      "template_access": "opened",
+      "prompt": "Create ONE original Lightweight carousel foreground, portrait 1080x1350 (4:5), on a fully TRANSPARENT alpha background. This is our own design using our supplied approved slide ONLY as a layout/typography/illustration reference.\nBACKGROUND OVERRIDE: REMOVE and IGNORE the old pale coral ARCH in every reference. NO arch, ring, halo, big curved shape, gradient, solid background, floor slab, progress bar or slide counter. The task's exact DOTS layer (#F0F1EB, dots #D4D4CC diameter6px every45px) is already prepared and will be placed UNDER this transparent foreground during planned production assembly. Do not generate dots in the foreground. Everything outside text/figures/props is transparent.\nRubik font: heaviest cover, Bold titles, Regular body/labels. Dark #2A2A2A, grey #6B6B6B, coral #F26445, white #FFFFFF in check marks. Adult bald FACELESS smooth plastic anatomical mannequin, featureless pelvis fully covered by plain short OPAQUE sand #D9CBBE gym shorts, warm-sand muscles #D9CBBE with darker sand shading, ivory skin/tendons #F5F0E5, fine grey linework. No green or sage. Home props ONLY: floor contact, solid wooden table, chair, backpack. NO gym machines, dumbbells, barbells, cables or benches, even when shown in reference. Only named highlights on cover; NO highlighted muscles on exercise slides3-7.\nExact requested text ONLY, preserve case, hyphens, apostrophes, lowercase x, digits and punctuation; never replace x by a multiplication symbol. No added words/labels/periods. All text fully visible, never underneath a figure, prop or edge. Move/shrink artwork if needed, never shorten text. Reserve top y0..110 fully EMPTY/TRANSPARENT: original Lightweight wordmark will be composited there at original coordinates. Do not draw a logo or watermark.\nSHARED MOVE LAYOUT from supplied approved own slide: big Bold coral #N at x60,y180 with short coral underline; dark Bold title to its right x285,y190; grey Regular sets line beneath title. Left-aligned grey Regular exact cue below header, exactly two lines without changing words/punctuation. Lower ~55% two full-body anatomical exercise figures, left and right halves separated by thin vertical coral line, each has its exact Regular dark label underneath. Keep complete bodies/feet/hands/props within respective half, shrink only illustration to fit. Labels near y1220 may wrap to two lines to remain fully visible above y1310. Figures occupy y600..1170. Same series anatomy styling, sand shorts, NO coral muscle fill. Never retain old exercise text or old gym equipment from reference.\nSLIDE7. NUMBER \"#5\"; TITLE \"Core\"; SETS \"2-3 sets x 20-40 sec\".\nExact cue in TWO lines:\nSqueeze your glutes and don't\nlet your hips sag.\nLeft: forearm plank in side view, both forearms and toes on floor, elbows under shoulders, straight aligned torso/hips/legs. Label \"Plank\".\nRight: side plank FRONT VIEW, body supported on ONE forearm and stacked feet, hips elevated, torso facing viewer, other arm along side, complete body. Label \"Side Plank\".\nNo muscle highlights, short opaque sand shorts. No weights or gym props. NO ARCH.",
+      "prompt_file": "carousels/LW-CAR-0014/prompts/slide-07.txt",
+      "result_file": "carousels/LW-CAR-0014/outputs/slide-07.png",
+      "attempt_count": 1,
+      "attempt_history": [
+        {
+          "attempt": 1,
+          "status": "generated",
+          "started_at": "2026-10-19T10:46:41.011Z",
+          "prompt_file": "carousels/LW-CAR-0014/prompts/slide-07.txt",
+          "agent_visual_review": "not_performed",
+          "user_review": "pending",
+          "result_original_path": "/workspace/generated_images/exec-51ee2c3b-9efa-4b44-9f8f-2f81f292e62a.png",
+          "finished_at": "2026-10-19T10:47:43.291Z"
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_repository_file",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending",
+      "generation_result_original_path": "/workspace/generated_images/exec-51ee2c3b-9efa-4b44-9f8f-2f81f292e62a.png",
+      "export_dimensions": {
+        "width": 1080,
+        "height": 1350
+      },
+      "export_method": "Uniform alpha-preserving fit, centered on exact DOTS background. Original transparent wordmark at +0+0. No independent-axis stretch."
+    },
+    {
+      "slide_number": 8,
+      "content_version": "1.0",
+      "status": "blocked_waiting_owner_retry",
+      "visual_template_files": [
+        "carousels/LW-CAR-0007/outputs/slide-07.png"
+      ],
+      "template_access": "opened",
+      "prompt": "Create ONE original Lightweight carousel foreground, portrait 1080x1350 (4:5), on a fully TRANSPARENT alpha background. This is our own design using our supplied approved slide ONLY as a layout/typography/illustration reference.\nBACKGROUND OVERRIDE: REMOVE and IGNORE the old pale coral ARCH in every reference. NO arch, ring, halo, big curved shape, gradient, solid background, floor slab, progress bar or slide counter. The task's exact DOTS layer (#F0F1EB, dots #D4D4CC diameter6px every45px) is already prepared and will be placed UNDER this transparent foreground during planned production assembly. Do not generate dots in the foreground. Everything outside text/figures/props is transparent.\nRubik font: heaviest cover, Bold titles, Regular body/labels. Dark #2A2A2A, grey #6B6B6B, coral #F26445, white #FFFFFF in check marks. Adult bald FACELESS smooth plastic anatomical mannequin, featureless pelvis fully covered by plain short OPAQUE sand #D9CBBE gym shorts, warm-sand muscles #D9CBBE with darker sand shading, ivory skin/tendons #F5F0E5, fine grey linework. No green or sage. Home props ONLY: floor contact, solid wooden table, chair, backpack. NO gym machines, dumbbells, barbells, cables or benches, even when shown in reference. Only named highlights on cover; NO highlighted muscles on exercise slides3-7.\nExact requested text ONLY, preserve case, hyphens, apostrophes, lowercase x, digits and punctuation; never replace x by a multiplication symbol. No added words/labels/periods. All text fully visible, never underneath a figure, prop or edge. Move/shrink artwork if needed, never shorten text. Reserve top y0..110 fully EMPTY/TRANSPARENT: original Lightweight wordmark will be composited there at original coordinates. Do not draw a logo or watermark.\nSLIDE8 CHECKED LIST. Reference LW-CAR-0007 slide7 for title/list/lower-right figure layout ONLY. Dark Bold top-left \"Getting Too Easy?\", short coral underline. Exactly FOUR rows with FILLED coral rounded square and WHITE check mark, Regular dark exact text:\nSlow down: 3 seconds on the way down\nPause for a second at the bottom\nAdd more reps\nMove to the harder version\nLong rows may wrap but must retain exact words. Under list exact Bold coral sentence, can wrap to two lines:\nBodyweight still counts. Just keep making it harder.\nBottom-right one adult anatomy man in slow controlled floor push-up, body straight and elbows bent, cropped at edge; move/shrink below sentence so no text overlaps. Sand shorts, no highlights, no bench. Transparent background. NO ARCH.",
+      "prompt_file": "carousels/LW-CAR-0014/prompts/slide-08.txt",
+      "result_file": null,
+      "attempt_count": 1,
+      "attempt_history": [
+        {
+          "attempt": 1,
+          "status": "failed",
+          "started_at": "2026-10-19T10:47:52.425Z",
+          "prompt_file": "carousels/LW-CAR-0014/prompts/slide-08.txt",
+          "agent_visual_review": "not_performed",
+          "user_review": "pending",
+          "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID a0067312-e9f4-46f4-a608-14cf5cc421e7. safety_violations=[sexual].\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"sexual\\\"\\n      ]\\n    }\\n  }\\n}\")"
+        }
+      ],
+      "errors": [
+        "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID a0067312-e9f4-46f4-a608-14cf5cc421e7. safety_violations=[sexual].\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"sexual\\\"\\n      ]\\n    }\\n  }\\n}\")"
+      ],
+      "save_status": "not_saved",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending",
+      "blocker": "Image-tool moderation returned no image. Repository forbids automatic retries; one retry with plain sand T-shirts and opaque shorts requested from owner, not yet authorized."
+    },
+    {
+      "slide_number": 9,
+      "content_version": "1.0",
+      "status": "generated_and_assembled",
+      "visual_template_files": [
+        "carousels/LW-CAR-0001/outputs/slide-08.png"
+      ],
+      "template_access": "opened",
+      "prompt": "Create ONE original Lightweight carousel foreground, portrait 1080x1350 (4:5), on a fully TRANSPARENT alpha background. This is our own design using our supplied approved slide ONLY as a layout/typography/illustration reference.\nBACKGROUND OVERRIDE: REMOVE and IGNORE the old pale coral ARCH in every reference. NO arch, ring, halo, big curved shape, gradient, solid background, floor slab, progress bar or slide counter. The task's exact DOTS layer (#F0F1EB, dots #D4D4CC diameter6px every45px) is already prepared and will be placed UNDER this transparent foreground during planned production assembly. Do not generate dots in the foreground. Everything outside text/figures/props is transparent.\nRubik font: heaviest cover, Bold titles, Regular body/labels. Dark #2A2A2A, grey #6B6B6B, coral #F26445, white #FFFFFF in check marks. Adult bald FACELESS smooth plastic anatomical mannequin, featureless pelvis fully covered by plain short OPAQUE sand #D9CBBE gym shorts, warm-sand muscles #D9CBBE with darker sand shading, ivory skin/tendons #F5F0E5, fine grey linework. No green or sage. Home props ONLY: floor contact, solid wooden table, chair, backpack. NO gym machines, dumbbells, barbells, cables or benches, even when shown in reference. Only named highlights on cover; NO highlighted muscles on exercise slides3-7.\nExact requested text ONLY, preserve case, hyphens, apostrophes, lowercase x, digits and punctuation; never replace x by a multiplication symbol. No added words/labels/periods. All text fully visible, never underneath a figure, prop or edge. Move/shrink artwork if needed, never shorten text. Reserve top y0..110 fully EMPTY/TRANSPARENT: original Lightweight wordmark will be composited there at original coordinates. Do not draw a logo or watermark.\nSLIDE9 PRODUCT ENDING TOP FOREGROUND ONLY. Supplied approved LW-CAR-0001 slide8 contributes headline/underline/body alignment. Original phone/hand with accepted Muscle balance screenshot has ALREADY been extracted from source as transparent layer and will be copied unchanged to original x0,y520 at 1:1 scale over DOTS. Do not draw, generate, imitate, retype or redraw any phone, screen, chart, hand or UI. All y510..1350 must be EMPTY TRANSPARENT and will in any case be discarded during planned assembly. No arch or background.\nLeft-aligned Bold headline EXACTLY TWO lines:\nTrain Anywhere.\nTrack Everything.\nLine1 dark, line2 coral, preserve both periods. Short coral underline.\nGrey Regular exact body over TWO lines:\nLog every workout in Lightweight,\nat home or in the gym.\nAll complete headline, underline and body in y130..495 above phone. Top y0..110 empty for original wordmark. NO ARCH, no additional text.",
+      "prompt_file": "carousels/LW-CAR-0014/prompts/slide-09.txt",
+      "result_file": "carousels/LW-CAR-0014/outputs/slide-09.png",
+      "attempt_count": 1,
+      "attempt_history": [
+        {
+          "attempt": 1,
+          "status": "top_foreground_generated",
+          "started_at": "2026-10-19T10:48:58.070Z",
+          "prompt_file": "carousels/LW-CAR-0014/prompts/slide-09.txt",
+          "agent_visual_review": "not_performed",
+          "user_review": "pending",
+          "result_original_path": "/workspace/generated_images/exec-590a705b-0a16-446d-949c-20c386667c8f.png",
+          "finished_at": "2026-10-19T10:49:39.863Z"
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_repository_file",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending",
+      "generation_result_original_path": "/workspace/generated_images/exec-590a705b-0a16-446d-949c-20c386667c8f.png",
+      "export_dimensions": {
+        "width": 1080,
+        "height": 1350
+      },
+      "export_method": "Uniform alpha-preserving fit, centered on exact DOTS background. Original transparent wordmark at +0+0. No independent-axis stretch.",
+      "production_assembly": "Keep returned top foreground through y650 and position original unscaled phone/hand cutout at x0,y650, 130px below source position. This reserves additional body-copy space, preserves text scale and lets phone run off bottom. Lower generated pixels discarded; no generated UI used."
+    }
+  ],
+  "generation_execution_order": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "available_final_slides": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    7,
+    9
+  ],
+  "missing_final_slides": [
+    6,
+    8
+  ],
+  "image_tool_call_count": 9,
+  "successful_image_calls": 7,
+  "failed_image_calls": 2,
+  "updated_at": "2026-10-19T10:51:25.794Z",
+  "timezone": "Europe/Kyiv",
+  "rules_file": "carousels/CODEX-SERIES-RULES.md",
+  "task_file": "carousels/LW-CAR-0014/prompts/codex-task.md",
+  "rules_task_source_commit": "efeb94a18026cfe04f4ad8a520bf7ee96bbed167",
+  "caption_file": "carousels/LW-CAR-0014/caption.txt",
+  "delivery_archive": "carousels/LW-CAR-0014/LW-CAR-0014-1080x1350.zip",
+  "remote_save_status": "not_confirmed_at_commit_creation",
+  "background_assembly": {
+    "name": "DOTS",
+    "file": "carousels/LW-CAR-0014/production-assets/background-dots.png",
+    "base_color": "#F0F1EB",
+    "dot_color": "#D4D4CC",
+    "dot_diameter_px": 6,
+    "spacing_px": 45,
+    "arch": false,
+    "progress_bar": false,
+    "method": "Exact fixed DOTS layer under alpha-preserving uniformly fitted generated foreground. Original glyph-only wordmark transparency retains DOTS around it."
+  },
+  "phone_hand_assembly": {
+    "source_file": "carousels/LW-CAR-0001/outputs/slide-08.png",
+    "source_commit": "efeb94a18026cfe04f4ad8a520bf7ee96bbed167",
+    "source_rectangle": {
+      "x": 0,
+      "y": 520,
+      "width": 1080,
+      "height": 830
+    },
+    "retained_layer": "carousels/LW-CAR-0014/production-assets/original-phone-hand-transparent.png",
+    "preparation_script": "carousels/LW-CAR-0014/production-assets/prepare_layers.py",
+    "destination": {
+      "x": 0,
+      "y": 650
+    },
+    "scale": 1,
+    "description": "Source RGB retained under contour-derived alpha matte, old offwhite/pale arch background removed before generation. Original phone/hand/UI copied without scale, redraw or perspective changes. Phone moved downward130px to reserve larger body-copy region; natural bottom crop retained.",
+    "source_limitation": "Task expressly requests accepted existing composite. Standalone raw original screenshot unavailable; no independent raw-source comparison asserted."
+  },
+  "wordmark_assembly": {
+    "source_file": "carousels/LW-CAR-0001/outputs/slide-08.png",
+    "source_rectangle": {
+      "x": 0,
+      "y": 0,
+      "width": 1080,
+      "height": 110
+    },
+    "retained_layer": "carousels/LW-CAR-0014/production-assets/original-wordmark-transparent.png",
+    "destination": {
+      "x": 0,
+      "y": 0
+    },
+    "scale": 1,
+    "method": "Original dark glyph RGB pixels with light background transparent; no newly generated wordmark."
+  },
+  "limitations": [
+    "No post-generation visual QA, OCR, anatomy audit, font verification, reviewer agents, automatic correction or regeneration; exact rendered copy/font/layout compliance requested but not independently verified.",
+    "Seven final PNGs available; slides6 and8 returned moderation errors, no images. Failed calls and exact errors retained; no automatic retries.",
+    "Frozen product ending retained as instructed by task (all slides authorized for generation). Brief/copy's bodyweight-logging confirmation note remains unverified; no new product claim or proof added.",
+    "Image-tool previews show transparent generation foregrounds; final repository PNGs contain DOTS/brand/phone layer assembly."
+  ],
+  "next_actions": [
+    "Owner authorization required for one retry each of blocked slides6 and8 with plain sand T-shirts and opaque shorts, without changing frozen text or exercises.",
+    "Generate only the specifically authorized retry slides, then update manifest/handoff/archive. Do not repeat successful slides.",
+    "Owner reviews current final outputs; all user_review statuses remain pending."
+  ]
+}

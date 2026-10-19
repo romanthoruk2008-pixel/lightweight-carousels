@@ -1,0 +1,12 @@
+Create ONE original Lightweight carousel foreground, portrait 1080x1350 (4:5), on a fully TRANSPARENT alpha background. This is our own design using our supplied approved slide ONLY as a layout/typography/illustration reference.
+BACKGROUND OVERRIDE: REMOVE and IGNORE the old pale coral ARCH in every reference. NO arch, ring, halo, big curved shape, gradient, solid background, floor slab, progress bar or slide counter. The task's exact DOTS layer (#F0F1EB, dots #D4D4CC diameter6px every45px) is already prepared and will be placed UNDER this transparent foreground during planned production assembly. Do not generate dots in the foreground. Everything outside text/figures/props is transparent.
+Rubik font: heaviest cover, Bold titles, Regular body/labels. Dark #2A2A2A, grey #6B6B6B, coral #F26445, white #FFFFFF in check marks. Adult bald FACELESS smooth plastic anatomical mannequin, featureless pelvis fully covered by plain short OPAQUE sand #D9CBBE gym shorts, warm-sand muscles #D9CBBE with darker sand shading, ivory skin/tendons #F5F0E5, fine grey linework. No green or sage. Home props ONLY: floor contact, solid wooden table, chair, backpack. NO gym machines, dumbbells, barbells, cables or benches, even when shown in reference. Only named highlights on cover; NO highlighted muscles on exercise slides3-7.
+Exact requested text ONLY, preserve case, hyphens, apostrophes, lowercase x, digits and punctuation; never replace x by a multiplication symbol. No added words/labels/periods. All text fully visible, never underneath a figure, prop or edge. Move/shrink artwork if needed, never shorten text. Reserve top y0..110 fully EMPTY/TRANSPARENT: original Lightweight wordmark will be composited there at original coordinates. Do not draw a logo or watermark.
+SLIDE2 CHECKED LIST. Reference LW-CAR-0007 slide7 for list/figure layout ONLY. Dark Bold top-left "All You Need", short coral underline. Exactly FOUR rows, each a FILLED CORAL rounded square with WHITE check mark and Regular dark text:
+Your body
+A floor
+A sturdy table
+A backpack
+Under list exact Bold coral sentence:
+That's a full-body workout.
+Lower-right illustration: adult anatomy man standing relaxed beside a SOLID sturdy wooden table (thick tabletop and stable legs), a backpack on floor, naturally cropped at edge. Keep props/man below or right of complete sentence; no old bench or list words. Sand shorts, no highlights. Transparent background, NO ARCH.
