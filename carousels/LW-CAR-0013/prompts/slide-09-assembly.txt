@@ -1,0 +1,10 @@
+Planned bitmap assembly after the single slide-09 image-tool call.
+
+Accepted source: carousels/LW-CAR-0001/outputs/slide-08.png at content commit 7a38c06e4101bb7f81353a78e54bc686d6337453.
+Retained production layers reused from LW-CAR-0010: wordmark strip 1080x110+0+0 and phone/hand rectangle 1080x830+0+520 from that accepted source.
+All image-tool originals uniformly fitted and centered on a 1080x1350 canvas. Original wordmark strip copied at +0+0 on each export. No independent-axis stretching.
+
+Final ending assembly (from repository root):
+convert carousels/LW-CAR-0013/production-assets/slide-09-top-plate.png carousels/LW-CAR-0013/production-assets/approved-phone-hand-layer.png -geometry +0+520 -composite carousels/LW-CAR-0013/outputs/slide-09.png
+
+No scaling, redrawing, retyping or perspective transformation of the accepted phone, hand or UI. The generated image's lower region is discarded and replaced by the accepted bitmap. Standalone original raw screenshot unavailable; no independent raw-source fidelity comparison asserted.

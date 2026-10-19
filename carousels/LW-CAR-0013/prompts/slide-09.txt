@@ -1,0 +1,12 @@
+Produce ONE original Lightweight carousel slide as portrait 1080x1350 PNG (4:5), following supplied series template composition. This is our own explainer. Only the exact requested text/numbers, staircase/cards and figure changes are allowed; no new claims, labels or added punctuation.
+Colors: offwhite background #F0F1EB, pale coral right arch #FBE3DD, coral accent #F26445, dark text #2A2A2A, grey secondary text #6B6B6B, white #FFFFFF. Anatomical illustration: adult bald FACELESS SMOOTH PLASTIC mannequin, featureless pelvis, ivory skin/tendons #F5F0E5, warm-sand muscles #D9CBBE with darker sand shading, fine grey linework. Every figure wears short OPAQUE plain sand #D9CBBE gym shorts completely covering pelvis/groin/buttocks. No green/sage, no reproductive features. Highlight only named working muscles in coral.
+Font Rubik as series, heaviest for covers, Bold for titles/values, Regular for body. All numbers and cards large and legible on a phone. Exact text below only: preserve case, apostrophes, commas, periods, decimals and lowercase kg/x/sets. No title period unless supplied. Small original Lightweight wordmark top-left: exact approved top strip will be copied at original size/coordinates during planned assembly, reserve y0..110 for it. All words fully visible. If objects compete with copy, move/shrink illustration, never clip or shorten text. No signatures, extra watermarks, invented logos or UI.
+
+SLIDE 9 PRODUCT ENDING. Supplied approved LW-CAR-0001 slide 8 is exact composition template. Generate ONLY new TOP TEXT and matching background. Original accepted phone/hand/Muscle balance UI will be copied afterwards as source rectangle x0,y520,width1080,height830 to SAME x0,y520, original size. Leave y520..1350 matching offwhite/pale arch background in this generation, NO newly drawn phone, hand, graph, status bar or app UI. Never generate/redraw/retype/improvise UI. Final planned bitmap assembly supplies existing accepted phone and hand unchanged.
+Top wordmark as template. Left-aligned Bold headline exactly TWO lines:
+You Can't Beat Numbers
+You Don't Track.
+First dark #2A2A2A, second coral #F26445. Short coral underline. Grey Regular body exact sentence, wrapped over two lines:
+Log every set in Lightweight. Next time,
+you'll know exactly what to beat.
+Keep ALL complete headline/body/underline within y120..495, fully above original phone at y520. Retain natural typography and no extra text/punctuation. Phone proportions are preserved by direct original-bitmap copy after this top/background stage.
