@@ -42,7 +42,7 @@ First read `carousels/CODEX-SERIES-RULES.md` and `docs/DESIGN-STYLES.md` (style 
 Keep lowercase, hyphens and apostrophes (`it’s`) exactly. Do not add capitals or punctuation. Long exercise names (`behind-the-neck pulldown`, `chest-supported machine row`) may wrap onto two lines, with the marker bar under each line; never shrink them so far that they look different from the other slides.
 
 ### Slide 19 — product ending (same composition as LW-CAR-0020 slide 19)
-- Text on top, the sketch-style hand in the white style holding the tall phone from the bottom right; the phone may run off the bottom edge.
+- Text on top, the sketch-style hand in the white style holding the tall phone from the bottom right; the phone may run off the bottom edge. Leave a clear gap between the last line of body text and the top of the phone, so the phone never touches the text.
 - Headline, large, lowercase, heaviest grotesk, #2A2A2A, left-aligned, with **#F26445 marker bars** under `every set you lift` and under `your back gets enough work`:
   `lightweight tracks every set you lift and shows if your back gets enough work.`
 - Body, regular #2A2A2A: `log your workouts and check your muscle balance, so your back never falls behind.`
