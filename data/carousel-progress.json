@@ -239,9 +239,10 @@
       "slides": 8,
       "background": "PLATES",
       "slides_blocked": [],
-      "generation": "not_started",
+      "generation": "incomplete (slides 1-6 of 8)",
       "user_review": "pending",
-      "path": "carousels/LW-CAR-0017/"
+      "path": "carousels/LW-CAR-0017/",
+      "next_action": "Codex: generate slides 7 and 8 only, then caption.txt and ZIP"
     },
     {
       "id": "LW-CAR-0018",
