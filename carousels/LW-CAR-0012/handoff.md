@@ -1,4 +1,4 @@
-# LW-CAR-0012 — original eight-slide countdown, owner review pending
+# LW-CAR-0012 — all eight final slides accepted by the owner
 
 Frozen copy v1.0; exact task/rules snapshot in manifest.json. Original Lightweight topic: 5 MISTAKES KILLING YOUR GAINS. All five supplied own-series references opened before generation: LW-CAR-0001 cover and ending; LW-CAR-0002 slide 3 number/title header; LW-CAR-0007 slide 3 cross/check circles and slide 7 list/bench composition. Per-slide actual inputs listed in manifest. No competitor assets added.
 
@@ -16,4 +16,8 @@ Final slide 8 copies original accepted LW-CAR-0001 phone/hand rectangle x0,y520,
 
 Caption copied verbatim from copy.json. ZIP contains all eight final PNGs in numerical order, all actual prompts plus assembly instructions and task, brief, frozen copy, caption, manifest, handoff and production layers. One complete-carousel delivery commit requested. Actual successful push separately confirms remote delivery. Frozen copy, other carousel outputs and coordinator global progress not changed. No social publication.
 
-`agent_visual_review=not_performed`; `user_review=pending` for carousel, slides and attempts. No post-generation visual QA, OCR, anatomy audit, font verification, checksum pass, reviewer agents, automatic correction or regeneration. Exact rendered copy/font/layout compliance requested but not independently verified. Mechanical dimensions, package membership and verbatim caption checked separately. Await owner acceptance or specific corrections.
+`agent_visual_review=not_performed`; `user_review=approved` for the carousel, all eight current final slides and their successful attempts (approval applies to the final delivered output after any assembly). No post-generation visual QA, OCR, anatomy audit, font verification, checksum pass, reviewer agents, automatic correction or regeneration. Exact rendered copy/font/layout compliance requested but not independently verified. Mechanical dimensions, package membership and verbatim caption checked separately. All current final outputs are owner-approved; await only explicitly requested corrections.
+
+## 2026-10-19 — entire carousel accepted
+
+The owner explicitly accepted all eight current final images from output commit effb3b6628c1a0be1079b8d4381c5c7cd10bc6c1 and requested accepted-by-user statuses be pushed to GitHub. This includes the assembled phone ending on slide 8. Acceptance is recorded for the carousel, every final slide and each successful attempt; agent_visual_review remains not_performed. No image bytes changed, no generation calls occurred and no agent visual review was performed. Delivery ZIP includes the updated manifest and handoff.
