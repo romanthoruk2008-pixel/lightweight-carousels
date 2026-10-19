@@ -272,6 +272,26 @@
       "user_review": "pending",
       "next_action": "Codex: Step 1c, cover in 6 headline styles H1-H6; owner picks one",
       "path": "carousels/LW-CAR-0019/"
+    },
+    {
+      "id": "LW-CAR-0020",
+      "title": "chest tier list (from worst to best)",
+      "source_ref": "REF-008",
+      "type": "reference_adaptation",
+      "content_version": "1.0",
+      "copy_status": "frozen",
+      "slides": 19,
+      "background": "CLEAN",
+      "slides_blocked": [
+        6,
+        7,
+        9,
+        10
+      ],
+      "generation": "not_started",
+      "user_review": "pending",
+      "next_action": "Owner resends REF-008 slides 6-10; Codex generates all other slides now",
+      "path": "carousels/LW-CAR-0020/"
     }
   ],
   "experiments": [

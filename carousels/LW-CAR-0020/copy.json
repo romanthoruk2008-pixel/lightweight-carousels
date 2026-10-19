@@ -1,0 +1,416 @@
+{
+  "carousel_id": "LW-CAR-0020",
+  "content_version": "1.0",
+  "status": "frozen",
+  "type": "reference_adaptation",
+  "language": "en",
+  "background": "CLEAN",
+  "font_family": "as in REF-008: heavy tight grotesk for headlines, clean sans for body, italic for tier lines (style test, owner request 2026-10-19)",
+  "colors": {
+    "accent": "#F26445",
+    "background": "#F0F1EB",
+    "text_dark": "#2A2A2A",
+    "text_body_grey": "#6B6B6B",
+    "white": "#FFFFFF",
+    "star_empty": "#D6D6D2",
+    "tier_S": "#F26445",
+    "tier_A": "#FF9A52",
+    "tier_B": "#FFD95A",
+    "tier_C": "#3FCF5E",
+    "tier_F": "#5BDCE3"
+  },
+  "source": {
+    "ref_id": "REF-008",
+    "board": "references/CAROUSELS.md",
+    "images": "references/images/REF-008/slide-NN.jpg (slides 6, 7, 9, 10 pending)",
+    "original": "Arrow (@arrowfitnessapp), TikTok, ~2026-10-16, 19.3K likes, 86 comments, 7045 saves"
+  },
+  "substitutions": [
+    "green → accent #F26445 (marker bars, filled stars, cover chest)",
+    "white background → #F0F1EB CLEAN",
+    "black shorts → #2A2A2A",
+    "Lightweight logo top-left",
+    "Arrow ending → Lightweight ending with hand + phone and real screenshot (owner 2026-10-19)",
+    "tier S tile → accent coral"
+  ],
+  "caption": {
+    "text": "Chest exercise tier list. Do you agree?? #gymtips #tierlist #chestexercise #chestday #hypertrophy",
+    "notes": "verbatim from REF-008"
+  },
+  "slides": [
+    {
+      "n": 1,
+      "role": "hook",
+      "text": [
+        {
+          "string": "chest",
+          "style": "cover line 1, lowercase, heaviest weight, text_dark"
+        },
+        {
+          "string": "tier list",
+          "style": "cover line 2, lowercase, heaviest weight, text_dark on an accent marker bar"
+        },
+        {
+          "string": "(from worst to best)",
+          "style": "italic, regular, text_body_grey"
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "role": "tier divider F",
+      "text": [
+        {
+          "string": "F",
+          "style": "white bold letter on a rounded colour tile"
+        },
+        {
+          "string": "tier",
+          "style": "lowercase, heaviest weight, text_dark"
+        },
+        {
+          "string": "avoid these",
+          "style": "italic, regular, text_body_grey"
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "role": "exercise #12",
+      "rating_stars": 1,
+      "text": [
+        {
+          "string": "#12",
+          "style": "heaviest weight, text_dark"
+        },
+        {
+          "string": "hex press",
+          "style": "heaviest weight, lowercase, text_dark on an accent marker bar"
+        },
+        {
+          "string": "a lot of people think these target the ‘inner chest’, but you can’t bias it.",
+          "style": "regular, text_dark, two lines"
+        }
+      ],
+      "illustration": "flat bench dumbbell hex press, dumbbells pressed together"
+    },
+    {
+      "n": 4,
+      "role": "exercise #11",
+      "rating_stars": 1.5,
+      "text": [
+        {
+          "string": "#11",
+          "style": "heaviest weight, text_dark"
+        },
+        {
+          "string": "decline press",
+          "style": "heaviest weight, lowercase, text_dark on an accent marker bar"
+        },
+        {
+          "string": "decline presses are unnecessary. flat presses already target your lower fibres well.",
+          "style": "regular, text_dark, two lines"
+        }
+      ],
+      "illustration": "barbell press on a decline bench"
+    },
+    {
+      "n": 5,
+      "role": "tier divider C",
+      "text": [
+        {
+          "string": "C",
+          "style": "white bold letter on a rounded colour tile"
+        },
+        {
+          "string": "tier",
+          "style": "lowercase, heaviest weight, text_dark"
+        },
+        {
+          "string": "there are better options",
+          "style": "italic, regular, text_body_grey"
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "role": "exercise #10",
+      "rating_stars": 2.5,
+      "text": [
+        {
+          "string": "#10",
+          "style": "heaviest weight, text_dark"
+        },
+        {
+          "string": "db flys",
+          "style": "heaviest weight, lowercase, text_dark on an accent marker bar"
+        },
+        {
+          "string": "zero tension at the top. using a cable or machine is going to be far better.",
+          "style": "regular, text_dark, two lines"
+        }
+      ],
+      "illustration": "dumbbell fly on a bench, arms open"
+    },
+    {
+      "n": 7,
+      "role": "exercise #9",
+      "rating_stars": 3,
+      "text": [
+        {
+          "string": "#9",
+          "style": "heaviest weight, text_dark"
+        },
+        {
+          "string": "push-ups",
+          "style": "heaviest weight, lowercase, text_dark on an accent marker bar"
+        },
+        {
+          "string": "great for beginners, but they get too easy the stronger you get.",
+          "style": "regular, text_dark, two lines"
+        }
+      ],
+      "illustration": "push-up, side view, low in the frame"
+    },
+    {
+      "n": 8,
+      "role": "tier divider B",
+      "text": [
+        {
+          "string": "B",
+          "style": "white bold letter on a rounded colour tile"
+        },
+        {
+          "string": "tier",
+          "style": "lowercase, heaviest weight, text_dark"
+        },
+        {
+          "string": "solid, but not the best",
+          "style": "italic, regular, text_body_grey"
+        }
+      ]
+    },
+    {
+      "n": 9,
+      "role": "exercise #8",
+      "rating_stars": 3.5,
+      "text": [
+        {
+          "string": "#8",
+          "style": "heaviest weight, text_dark"
+        },
+        {
+          "string": "standing cable flys",
+          "style": "heaviest weight, lowercase, text_dark on an accent marker bar"
+        },
+        {
+          "string": "feel very awkward. easy to lose balance and hard to perform when the weight gets heavier.",
+          "style": "regular, text_dark, two lines"
+        }
+      ],
+      "illustration": "standing cable fly in a cable crossover frame, front view"
+    },
+    {
+      "n": 10,
+      "role": "exercise #7",
+      "rating_stars": 3.5,
+      "text": [
+        {
+          "string": "#7",
+          "style": "heaviest weight, text_dark"
+        },
+        {
+          "string": "barbell flat/incline bench",
+          "style": "heaviest weight, lowercase, text_dark on an accent marker bar"
+        },
+        {
+          "string": "may be a classic, but it’s more of an ego exercise than one for building muscle.",
+          "style": "regular, text_dark, two lines"
+        }
+      ],
+      "illustration": "barbell bench press in a rack, front three-quarter view"
+    },
+    {
+      "n": 11,
+      "role": "tier divider A",
+      "text": [
+        {
+          "string": "A",
+          "style": "white bold letter on a rounded colour tile"
+        },
+        {
+          "string": "tier",
+          "style": "lowercase, heaviest weight, text_dark"
+        },
+        {
+          "string": "great choices",
+          "style": "italic, regular, text_body_grey"
+        }
+      ]
+    },
+    {
+      "n": 12,
+      "role": "exercise #6",
+      "rating_stars": 4,
+      "text": [
+        {
+          "string": "#6",
+          "style": "heaviest weight, text_dark"
+        },
+        {
+          "string": "db flat/incline bench",
+          "style": "heaviest weight, lowercase, text_dark on an accent marker bar"
+        },
+        {
+          "string": "very solid exercise. feels a lot more natural than barbell, and you get a better range of motion.",
+          "style": "regular, text_dark, two lines"
+        }
+      ],
+      "illustration": "dumbbell bench press, front view"
+    },
+    {
+      "n": 13,
+      "role": "exercise #5",
+      "rating_stars": 4,
+      "text": [
+        {
+          "string": "#5",
+          "style": "heaviest weight, text_dark"
+        },
+        {
+          "string": "flat machine press",
+          "style": "heaviest weight, lowercase, text_dark on an accent marker bar"
+        },
+        {
+          "string": "a very solid exercise. great stability & tension. amazing for the mid/lower chest.",
+          "style": "regular, text_dark, two lines"
+        }
+      ],
+      "illustration": "seated chest press machine"
+    },
+    {
+      "n": 14,
+      "role": "exercise #4",
+      "rating_stars": 4.5,
+      "text": [
+        {
+          "string": "#4",
+          "style": "heaviest weight, text_dark"
+        },
+        {
+          "string": "seated cable fly",
+          "style": "heaviest weight, lowercase, text_dark on an accent marker bar"
+        },
+        {
+          "string": "far superior to standing. a lot more stable, and you can load a lot more weight.",
+          "style": "regular, text_dark, two lines"
+        }
+      ],
+      "illustration": "seated cable fly on a bench inside a cable crossover frame, front view"
+    },
+    {
+      "n": 15,
+      "role": "tier divider S",
+      "text": [
+        {
+          "string": "S",
+          "style": "white bold letter on a rounded colour tile"
+        },
+        {
+          "string": "tier",
+          "style": "lowercase, heaviest weight, text_dark"
+        },
+        {
+          "string": "the best of the best",
+          "style": "italic, regular, text_body_grey"
+        }
+      ]
+    },
+    {
+      "n": 16,
+      "role": "exercise #3",
+      "rating_stars": 4.5,
+      "text": [
+        {
+          "string": "#3",
+          "style": "heaviest weight, text_dark"
+        },
+        {
+          "string": "incline smith machine",
+          "style": "heaviest weight, lowercase, text_dark on an accent marker bar"
+        },
+        {
+          "string": "incredible exercise. fixed path, great stability and easy to overload.",
+          "style": "regular, text_dark, two lines"
+        }
+      ],
+      "illustration": "incline bench press in a Smith machine"
+    },
+    {
+      "n": 17,
+      "role": "exercise #2",
+      "rating_stars": 5,
+      "text": [
+        {
+          "string": "#2",
+          "style": "heaviest weight, text_dark"
+        },
+        {
+          "string": "pec deck",
+          "style": "heaviest weight, lowercase, text_dark on an accent marker bar"
+        },
+        {
+          "string": "the best isolation exercise for the chest. incredible tension & feels amazing.",
+          "style": "regular, text_dark, two lines"
+        }
+      ],
+      "illustration": "seated pec deck machine"
+    },
+    {
+      "n": 18,
+      "role": "exercise #1",
+      "rating_stars": 5,
+      "text": [
+        {
+          "string": "#1",
+          "style": "heaviest weight, text_dark"
+        },
+        {
+          "string": "incline machine press",
+          "style": "heaviest weight, lowercase, text_dark on an accent marker bar"
+        },
+        {
+          "string": "the best exercise for chest growth. targets your whole chest well & feels amazing.",
+          "style": "regular, text_dark, two lines"
+        }
+      ],
+      "illustration": "plate-loaded incline chest press machine"
+    },
+    {
+      "n": 19,
+      "role": "product ending",
+      "text": [
+        {
+          "string": "lightweight tracks every set you lift and shows which muscles you’re forgetting.",
+          "style": "large, lowercase, heaviest weight, text_dark; accent marker bars under 'every set you lift' and 'which muscles you’re forgetting'"
+        },
+        {
+          "string": "log your workouts and check your muscle balance, so you keep making progress.",
+          "style": "regular, text_dark, two lines"
+        }
+      ],
+      "screen": "real Lightweight Progress / Muscle balance screenshot, the same one as in approved LW-CAR-0001 slide 8",
+      "product_claims_checked_against_real_screen": [
+        "workouts are logged",
+        "muscle balance screen exists (LW-CAR-0001 slide 8)"
+      ]
+    }
+  ],
+  "claims_to_verify": [
+    "All exercise ratings and lines are verbatim from REF-008 (owner decision 2026-10-18: debatable claims stay for engagement).",
+    "Ending: only workout logging and the Muscle balance screen, both on real screens."
+  ],
+  "open_questions": [
+    "Owner did not answer figure style, tier colours and background; defaults: white realistic figures with #2A2A2A shorts, classic tier colours with coral S, CLEAN background."
+  ]
+}
