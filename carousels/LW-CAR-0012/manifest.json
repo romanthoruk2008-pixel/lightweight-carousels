@@ -1,0 +1,353 @@
+{
+  "carousel_id": "LW-CAR-0012",
+  "type": "original",
+  "content_version": "1.0",
+  "content_commit": "09f3923a30fe87288a1bdd6998a301197306b6b5",
+  "source_ref": null,
+  "status": "complete_pending_owner_review",
+  "expected_slide_count": 8,
+  "agent_visual_review": "not_performed",
+  "user_review": "pending",
+  "slides": [
+    {
+      "slide_number": 1,
+      "content_version": "1.0",
+      "status": "generated",
+      "visual_template_files": [
+        "carousels/LW-CAR-0001/outputs/slide-01.png"
+      ],
+      "template_access": "opened",
+      "prompt": "Create ONE finished original Lightweight carousel slide, portrait 1080x1350 PNG (4:5). Use the supplied approved own-series images as exact visual/layout templates, changing only the specified copy and illustration. No redesign, extra paragraphs or new claims.\nPalette: background #F0F1EB, pale coral right arch #FBE3DD, accent #F26445, dark #2A2A2A, grey body #6B6B6B, white #FFFFFF. Fine grey linework. Adult bald FACELESS SMOOTH PLASTIC ANATOMY MANNEQUIN, featureless pelvis, ivory skin/tendons #F5F0E5, warm sand #D9CBBE muscles and darker sand shading; no green/sage. Every figure wears plain short OPAQUE sand #D9CBBE athletic shorts fully covering pelvis/groin/buttocks. Friendly recognisable humour through body language, never mean, grotesque or sexual. Only explicitly specified target highlights are coral.\nFont Rubik, heaviest cover and Bold titles, Regular body. Exact text below, preserving case and punctuation; NO added periods after titles. Small original black Lightweight wordmark at top-left, same size/position as template; an exact accepted wordmark strip will be copied over top y0..110 in planned final assembly, so put no other content there. Keep every line entirely visible. If needed move/shrink illustration rather than clip or shorten text. No watermarks, signature, invented logo, unrelated UI or extra labels.\n\nSLIDE 1 COVER, use LW-CAR-0001 slide 1 layout and its soft grey offset headline shadow. Exactly THREE stacked uppercase lines occupying upper ~45%:\n5 MISTAKES\nKILLING YOUR\nGAINS\nFirst two dark #2A2A2A, last coral #F26445. Heaviest Rubik, preserve each phrase on its own line. Below, hips-up FRONT view anatomy mannequin, one hand on forehead in a FACEPALM, other hand on hip. All muscles sand/ivory, NO highlighted muscles. Same illustration scale, crop at bottom and large right pale arch as template. Shorts waistband visible at bottom if needed. Move hand/head below headline so it covers no letters.",
+      "prompt_file": "carousels/LW-CAR-0012/prompts/slide-01.txt",
+      "result_file": "carousels/LW-CAR-0012/outputs/slide-01.png",
+      "attempt_count": 1,
+      "attempt_history": [
+        {
+          "attempt": 1,
+          "status": "generated",
+          "started_at": "2026-10-19T09:25:57.073704+00:00",
+          "prompt_file": "carousels/LW-CAR-0012/prompts/slide-01.txt",
+          "finished_at": "2026-10-19T09:26:44.396682+00:00",
+          "result_original_path": "/workspace/generated_images/exec-b34d122d-7a2e-4812-8a97-45ca86bcf8a3.png",
+          "user_review": "pending",
+          "agent_visual_review": "not_performed"
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_repository_file",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending",
+      "generation_result_original_path": "/workspace/generated_images/exec-b34d122d-7a2e-4812-8a97-45ca86bcf8a3.png",
+      "export_dimensions": {
+        "width": 1080,
+        "height": 1350
+      },
+      "export_method": "Uniform fit and centered canvas extent to 1080x1350; preplanned exact copy of approved wordmark strip at original position, no independent-axis stretch."
+    },
+    {
+      "slide_number": 2,
+      "content_version": "1.0",
+      "status": "generated",
+      "visual_template_files": [
+        "carousels/LW-CAR-0002/outputs/slide-03.png",
+        "carousels/LW-CAR-0007/outputs/slide-03.png"
+      ],
+      "template_access": "opened",
+      "prompt": "Create ONE finished original Lightweight carousel slide, portrait 1080x1350 PNG (4:5). Use the supplied approved own-series images as exact visual/layout templates, changing only the specified copy and illustration. No redesign, extra paragraphs or new claims.\nPalette: background #F0F1EB, pale coral right arch #FBE3DD, accent #F26445, dark #2A2A2A, grey body #6B6B6B, white #FFFFFF. Fine grey linework. Adult bald FACELESS SMOOTH PLASTIC ANATOMY MANNEQUIN, featureless pelvis, ivory skin/tendons #F5F0E5, warm sand #D9CBBE muscles and darker sand shading; no green/sage. Every figure wears plain short OPAQUE sand #D9CBBE athletic shorts fully covering pelvis/groin/buttocks. Friendly recognisable humour through body language, never mean, grotesque or sexual. Only explicitly specified target highlights are coral.\nFont Rubik, heaviest cover and Bold titles, Regular body. Exact text below, preserving case and punctuation; NO added periods after titles. Small original black Lightweight wordmark at top-left, same size/position as template; an exact accepted wordmark strip will be copied over top y0..110 in planned final assembly, so put no other content there. Keep every line entirely visible. If needed move/shrink illustration rather than clip or shorten text. No watermarks, signature, invented logo, unrelated UI or extra labels.\n\nMISTAKE TEMPLATE: FIRST supplied slide gives number/title header geometry, SECOND supplies the round cross/check icon style. Top-left big bold coral NUMBER with short coral underline, dark bold TITLE immediately to its right on same line, no sets/reps line. Under header TWO left-aligned icon/text rows: dark #2A2A2A circle with white ✗ followed by Regular dark mistake text; coral #F26445 circle with white ✓ followed by BOLD dark fix text. Use sensible wrapping and leave all letters visible. Lower roughly 50% contains the single requested large mistake illustration, with pale arch behind. No labels unless explicitly permitted below. No bench-press/exercise figures or old text from templates.\nSLIDE 2. NUMBER \"#5\"; TITLE \"Skipping Legs\". Cross-row exact text: \"Training only what you see in the mirror.\" Check-row exact BOLD text: \"Train legs every week. They're some of your biggest muscles.\" Lower illustration: front view full-body adult mannequin with big muscular upper body, chest/shoulders/arms coral #F26445, on comically THIN SAND-COLORED LEGS. Friendly lighthearted proportions, not grotesque. Plain short opaque sand shorts. Arms naturally at sides, figure large/clear, feet visible, no extra symbols or words.",
+      "prompt_file": "carousels/LW-CAR-0012/prompts/slide-02.txt",
+      "result_file": "carousels/LW-CAR-0012/outputs/slide-02.png",
+      "attempt_count": 1,
+      "attempt_history": [
+        {
+          "attempt": 1,
+          "status": "generated",
+          "started_at": "2026-10-19T09:27:01.996612+00:00",
+          "prompt_file": "carousels/LW-CAR-0012/prompts/slide-02.txt",
+          "finished_at": "2026-10-19T09:27:30.465998+00:00",
+          "result_original_path": "/workspace/generated_images/exec-aa375f1f-18fb-4720-9a6b-2f1970dbd86d.png",
+          "user_review": "pending",
+          "agent_visual_review": "not_performed"
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_repository_file",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending",
+      "generation_result_original_path": "/workspace/generated_images/exec-aa375f1f-18fb-4720-9a6b-2f1970dbd86d.png",
+      "export_dimensions": {
+        "width": 1080,
+        "height": 1350
+      },
+      "export_method": "Uniform fit and centered canvas extent to 1080x1350; preplanned exact copy of approved wordmark strip at original position, no independent-axis stretch."
+    },
+    {
+      "slide_number": 3,
+      "content_version": "1.0",
+      "status": "generated",
+      "visual_template_files": [
+        "carousels/LW-CAR-0002/outputs/slide-03.png",
+        "carousels/LW-CAR-0007/outputs/slide-03.png"
+      ],
+      "template_access": "opened",
+      "prompt": "Create ONE finished original Lightweight carousel slide, portrait 1080x1350 PNG (4:5). Use the supplied approved own-series images as exact visual/layout templates, changing only the specified copy and illustration. No redesign, extra paragraphs or new claims.\nPalette: background #F0F1EB, pale coral right arch #FBE3DD, accent #F26445, dark #2A2A2A, grey body #6B6B6B, white #FFFFFF. Fine grey linework. Adult bald FACELESS SMOOTH PLASTIC ANATOMY MANNEQUIN, featureless pelvis, ivory skin/tendons #F5F0E5, warm sand #D9CBBE muscles and darker sand shading; no green/sage. Every figure wears plain short OPAQUE sand #D9CBBE athletic shorts fully covering pelvis/groin/buttocks. Friendly recognisable humour through body language, never mean, grotesque or sexual. Only explicitly specified target highlights are coral.\nFont Rubik, heaviest cover and Bold titles, Regular body. Exact text below, preserving case and punctuation; NO added periods after titles. Small original black Lightweight wordmark at top-left, same size/position as template; an exact accepted wordmark strip will be copied over top y0..110 in planned final assembly, so put no other content there. Keep every line entirely visible. If needed move/shrink illustration rather than clip or shorten text. No watermarks, signature, invented logo, unrelated UI or extra labels.\n\nMISTAKE TEMPLATE: FIRST supplied slide gives number/title header geometry, SECOND supplies the round cross/check icon style. Top-left big bold coral NUMBER with short coral underline, dark bold TITLE immediately to its right on same line, no sets/reps line. Under header TWO left-aligned icon/text rows: dark #2A2A2A circle with white ✗ followed by Regular dark mistake text; coral #F26445 circle with white ✓ followed by BOLD dark fix text. Use sensible wrapping and leave all letters visible. Lower roughly 50% contains the single requested large mistake illustration, with pale arch behind. No labels unless explicitly permitted below. No bench-press/exercise figures or old text from templates.\nSLIDE 3. NUMBER \"#4\"; TITLE \"Program Hopping\". Cross-row: \"A new workout every week from a different video.\" Check-row BOLD: \"Pick one plan and stick with it for 6-8 weeks.\" Lower: standing adult sand anatomy mannequin looking down at a plain unbranded phone in one hand, other hand uncertain/hesitant. Phone has a blank/dark screen, no invented app UI. Exactly FOUR small floating workout cards fanned messily around him, each containing ONLY one simple equipment icon: dumbbell, barbell, kettlebell, cable. Cards contain NO words, numbers, fake app UI or labels. Shorts, no muscle highlights.",
+      "prompt_file": "carousels/LW-CAR-0012/prompts/slide-03.txt",
+      "result_file": "carousels/LW-CAR-0012/outputs/slide-03.png",
+      "attempt_count": 1,
+      "attempt_history": [
+        {
+          "attempt": 1,
+          "status": "generated",
+          "started_at": "2026-10-19T09:27:45.559745+00:00",
+          "prompt_file": "carousels/LW-CAR-0012/prompts/slide-03.txt",
+          "finished_at": "2026-10-19T09:28:21.174733+00:00",
+          "result_original_path": "/workspace/generated_images/exec-b2b7cea9-a529-4ed8-8849-bf2800254554.png",
+          "user_review": "pending",
+          "agent_visual_review": "not_performed"
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_repository_file",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending",
+      "generation_result_original_path": "/workspace/generated_images/exec-b2b7cea9-a529-4ed8-8849-bf2800254554.png",
+      "export_dimensions": {
+        "width": 1080,
+        "height": 1350
+      },
+      "export_method": "Uniform fit and centered canvas extent to 1080x1350; preplanned exact copy of approved wordmark strip at original position, no independent-axis stretch."
+    },
+    {
+      "slide_number": 4,
+      "content_version": "1.0",
+      "status": "generated",
+      "visual_template_files": [
+        "carousels/LW-CAR-0002/outputs/slide-03.png",
+        "carousels/LW-CAR-0007/outputs/slide-03.png"
+      ],
+      "template_access": "opened",
+      "prompt": "Create ONE finished original Lightweight carousel slide, portrait 1080x1350 PNG (4:5). Use the supplied approved own-series images as exact visual/layout templates, changing only the specified copy and illustration. No redesign, extra paragraphs or new claims.\nPalette: background #F0F1EB, pale coral right arch #FBE3DD, accent #F26445, dark #2A2A2A, grey body #6B6B6B, white #FFFFFF. Fine grey linework. Adult bald FACELESS SMOOTH PLASTIC ANATOMY MANNEQUIN, featureless pelvis, ivory skin/tendons #F5F0E5, warm sand #D9CBBE muscles and darker sand shading; no green/sage. Every figure wears plain short OPAQUE sand #D9CBBE athletic shorts fully covering pelvis/groin/buttocks. Friendly recognisable humour through body language, never mean, grotesque or sexual. Only explicitly specified target highlights are coral.\nFont Rubik, heaviest cover and Bold titles, Regular body. Exact text below, preserving case and punctuation; NO added periods after titles. Small original black Lightweight wordmark at top-left, same size/position as template; an exact accepted wordmark strip will be copied over top y0..110 in planned final assembly, so put no other content there. Keep every line entirely visible. If needed move/shrink illustration rather than clip or shorten text. No watermarks, signature, invented logo, unrelated UI or extra labels.\n\nMISTAKE TEMPLATE: FIRST supplied slide gives number/title header geometry, SECOND supplies the round cross/check icon style. Top-left big bold coral NUMBER with short coral underline, dark bold TITLE immediately to its right on same line, no sets/reps line. Under header TWO left-aligned icon/text rows: dark #2A2A2A circle with white ✗ followed by Regular dark mistake text; coral #F26445 circle with white ✓ followed by BOLD dark fix text. Use sensible wrapping and leave all letters visible. Lower roughly 50% contains the single requested large mistake illustration, with pale arch behind. No labels unless explicitly permitted below. No bench-press/exercise figures or old text from templates.\nSLIDE 4. NUMBER \"#3\"; TITLE \"Ego Lifting\". Cross-row: \"Weight too heavy, half reps, swinging your whole body.\" Check-row BOLD: \"Lower the weight. Full range, control the way down.\" Lower: SIDE view standing adult sand anatomical mannequin attempting a barbell curl with far too many black plates, leaning back hard with whole body and bar visibly swinging; friendly humorous depiction of the named mistake, not a correct-technique demonstration. A few clear motion lines optional. Plain opaque shorts, no muscle highlights. Keep loaded bar within canvas and all copy clear.",
+      "prompt_file": "carousels/LW-CAR-0012/prompts/slide-04.txt",
+      "result_file": "carousels/LW-CAR-0012/outputs/slide-04.png",
+      "attempt_count": 1,
+      "attempt_history": [
+        {
+          "attempt": 1,
+          "status": "generated",
+          "started_at": "2026-10-19T09:28:36.955849+00:00",
+          "prompt_file": "carousels/LW-CAR-0012/prompts/slide-04.txt",
+          "finished_at": "2026-10-19T09:29:10.698975+00:00",
+          "result_original_path": "/workspace/generated_images/exec-c042e9f5-de6e-474a-8d82-8ed6918b99e9.png",
+          "user_review": "pending",
+          "agent_visual_review": "not_performed"
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_repository_file",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending",
+      "generation_result_original_path": "/workspace/generated_images/exec-c042e9f5-de6e-474a-8d82-8ed6918b99e9.png",
+      "export_dimensions": {
+        "width": 1080,
+        "height": 1350
+      },
+      "export_method": "Uniform fit and centered canvas extent to 1080x1350; preplanned exact copy of approved wordmark strip at original position, no independent-axis stretch."
+    },
+    {
+      "slide_number": 5,
+      "content_version": "1.0",
+      "status": "generated",
+      "visual_template_files": [
+        "carousels/LW-CAR-0002/outputs/slide-03.png",
+        "carousels/LW-CAR-0007/outputs/slide-03.png"
+      ],
+      "template_access": "opened",
+      "prompt": "Create ONE finished original Lightweight carousel slide, portrait 1080x1350 PNG (4:5). Use the supplied approved own-series images as exact visual/layout templates, changing only the specified copy and illustration. No redesign, extra paragraphs or new claims.\nPalette: background #F0F1EB, pale coral right arch #FBE3DD, accent #F26445, dark #2A2A2A, grey body #6B6B6B, white #FFFFFF. Fine grey linework. Adult bald FACELESS SMOOTH PLASTIC ANATOMY MANNEQUIN, featureless pelvis, ivory skin/tendons #F5F0E5, warm sand #D9CBBE muscles and darker sand shading; no green/sage. Every figure wears plain short OPAQUE sand #D9CBBE athletic shorts fully covering pelvis/groin/buttocks. Friendly recognisable humour through body language, never mean, grotesque or sexual. Only explicitly specified target highlights are coral.\nFont Rubik, heaviest cover and Bold titles, Regular body. Exact text below, preserving case and punctuation; NO added periods after titles. Small original black Lightweight wordmark at top-left, same size/position as template; an exact accepted wordmark strip will be copied over top y0..110 in planned final assembly, so put no other content there. Keep every line entirely visible. If needed move/shrink illustration rather than clip or shorten text. No watermarks, signature, invented logo, unrelated UI or extra labels.\n\nMISTAKE TEMPLATE: FIRST supplied slide gives number/title header geometry, SECOND supplies the round cross/check icon style. Top-left big bold coral NUMBER with short coral underline, dark bold TITLE immediately to its right on same line, no sets/reps line. Under header TWO left-aligned icon/text rows: dark #2A2A2A circle with white ✗ followed by Regular dark mistake text; coral #F26445 circle with white ✓ followed by BOLD dark fix text. Use sensible wrapping and leave all letters visible. Lower roughly 50% contains the single requested large mistake illustration, with pale arch behind. No labels unless explicitly permitted below. No bench-press/exercise figures or old text from templates.\nSLIDE 5. NUMBER \"#2\"; TITLE \"Not Tracking\". Cross-row: \"Guessing what you lifted last week.\" Check-row BOLD: \"Write down every set. You can't beat numbers you don't remember.\" Lower: adult sand anatomical mannequin scratching his head in front of a simple grey/black dumbbell rack, confused through body language. One simple thought bubble contains ONLY one large coral \"?\" and nothing else. No dumbbell weight numerals or other words. Plain opaque shorts, no muscle highlights.",
+      "prompt_file": "carousels/LW-CAR-0012/prompts/slide-05.txt",
+      "result_file": "carousels/LW-CAR-0012/outputs/slide-05.png",
+      "attempt_count": 1,
+      "attempt_history": [
+        {
+          "attempt": 1,
+          "status": "generated",
+          "started_at": "2026-10-19T09:29:25.480591+00:00",
+          "prompt_file": "carousels/LW-CAR-0012/prompts/slide-05.txt",
+          "finished_at": "2026-10-19T09:29:58.549859+00:00",
+          "result_original_path": "/workspace/generated_images/exec-a6f3bd08-c72f-4cc7-a346-40650ffee7ac.png",
+          "user_review": "pending",
+          "agent_visual_review": "not_performed"
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_repository_file",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending",
+      "generation_result_original_path": "/workspace/generated_images/exec-a6f3bd08-c72f-4cc7-a346-40650ffee7ac.png",
+      "export_dimensions": {
+        "width": 1080,
+        "height": 1350
+      },
+      "export_method": "Uniform fit and centered canvas extent to 1080x1350; preplanned exact copy of approved wordmark strip at original position, no independent-axis stretch."
+    },
+    {
+      "slide_number": 6,
+      "content_version": "1.0",
+      "status": "generated",
+      "visual_template_files": [
+        "carousels/LW-CAR-0002/outputs/slide-03.png",
+        "carousels/LW-CAR-0007/outputs/slide-03.png"
+      ],
+      "template_access": "opened",
+      "prompt": "Create ONE finished original Lightweight carousel slide, portrait 1080x1350 PNG (4:5). Use the supplied approved own-series images as exact visual/layout templates, changing only the specified copy and illustration. No redesign, extra paragraphs or new claims.\nPalette: background #F0F1EB, pale coral right arch #FBE3DD, accent #F26445, dark #2A2A2A, grey body #6B6B6B, white #FFFFFF. Fine grey linework. Adult bald FACELESS SMOOTH PLASTIC ANATOMY MANNEQUIN, featureless pelvis, ivory skin/tendons #F5F0E5, warm sand #D9CBBE muscles and darker sand shading; no green/sage. Every figure wears plain short OPAQUE sand #D9CBBE athletic shorts fully covering pelvis/groin/buttocks. Friendly recognisable humour through body language, never mean, grotesque or sexual. Only explicitly specified target highlights are coral.\nFont Rubik, heaviest cover and Bold titles, Regular body. Exact text below, preserving case and punctuation; NO added periods after titles. Small original black Lightweight wordmark at top-left, same size/position as template; an exact accepted wordmark strip will be copied over top y0..110 in planned final assembly, so put no other content there. Keep every line entirely visible. If needed move/shrink illustration rather than clip or shorten text. No watermarks, signature, invented logo, unrelated UI or extra labels.\n\nMISTAKE TEMPLATE: FIRST supplied slide gives number/title header geometry, SECOND supplies the round cross/check icon style. Top-left big bold coral NUMBER with short coral underline, dark bold TITLE immediately to its right on same line, no sets/reps line. Under header TWO left-aligned icon/text rows: dark #2A2A2A circle with white ✗ followed by Regular dark mistake text; coral #F26445 circle with white ✓ followed by BOLD dark fix text. Use sensible wrapping and leave all letters visible. Lower roughly 50% contains the single requested large mistake illustration, with pale arch behind. No labels unless explicitly permitted below. No bench-press/exercise figures or old text from templates.\nSLIDE 6. NUMBER \"#1\"; TITLE \"No Progression\". Cross-row: \"Same weights, same reps, every single week.\" Check-row BOLD: \"Add a rep or a little weight when it starts feeling easy.\" In lower illustration area: THREE small identical cards in one straight row, dark Bold uppercase labels exactly \"WEEK 1\", \"WEEK 2\", \"WEEK 3\"; each has the SAME dumbbell icon, exactly two \"=\" signs between cards. Under all three cards one sand adult mannequin performing the same neutral dumbbell curl, unchanged, illustrating repeating the same load. Plain opaque shorts. No other numbers, labels, muscle highlights or growth arrows. Fit card row and figure without covering either icon/text row.",
+      "prompt_file": "carousels/LW-CAR-0012/prompts/slide-06.txt",
+      "result_file": "carousels/LW-CAR-0012/outputs/slide-06.png",
+      "attempt_count": 1,
+      "attempt_history": [
+        {
+          "attempt": 1,
+          "status": "generated",
+          "started_at": "2026-10-19T09:30:15.161920+00:00",
+          "prompt_file": "carousels/LW-CAR-0012/prompts/slide-06.txt",
+          "finished_at": "2026-10-19T09:30:44.934801+00:00",
+          "result_original_path": "/workspace/generated_images/exec-0dc62618-f00f-4c7c-b74e-f24c31ce6ad7.png",
+          "user_review": "pending",
+          "agent_visual_review": "not_performed"
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_repository_file",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending",
+      "generation_result_original_path": "/workspace/generated_images/exec-0dc62618-f00f-4c7c-b74e-f24c31ce6ad7.png",
+      "export_dimensions": {
+        "width": 1080,
+        "height": 1350
+      },
+      "export_method": "Uniform fit and centered canvas extent to 1080x1350; preplanned exact copy of approved wordmark strip at original position, no independent-axis stretch."
+    },
+    {
+      "slide_number": 7,
+      "content_version": "1.0",
+      "status": "generated",
+      "visual_template_files": [
+        "carousels/LW-CAR-0007/outputs/slide-07.png",
+        "carousels/LW-CAR-0007/outputs/slide-03.png"
+      ],
+      "template_access": "opened",
+      "prompt": "Create ONE finished original Lightweight carousel slide, portrait 1080x1350 PNG (4:5). Use the supplied approved own-series images as exact visual/layout templates, changing only the specified copy and illustration. No redesign, extra paragraphs or new claims.\nPalette: background #F0F1EB, pale coral right arch #FBE3DD, accent #F26445, dark #2A2A2A, grey body #6B6B6B, white #FFFFFF. Fine grey linework. Adult bald FACELESS SMOOTH PLASTIC ANATOMY MANNEQUIN, featureless pelvis, ivory skin/tendons #F5F0E5, warm sand #D9CBBE muscles and darker sand shading; no green/sage. Every figure wears plain short OPAQUE sand #D9CBBE athletic shorts fully covering pelvis/groin/buttocks. Friendly recognisable humour through body language, never mean, grotesque or sexual. Only explicitly specified target highlights are coral.\nFont Rubik, heaviest cover and Bold titles, Regular body. Exact text below, preserving case and punctuation; NO added periods after titles. Small original black Lightweight wordmark at top-left, same size/position as template; an exact accepted wordmark strip will be copied over top y0..110 in planned final assembly, so put no other content there. Keep every line entirely visible. If needed move/shrink illustration rather than clip or shorten text. No watermarks, signature, invented logo, unrelated UI or extra labels.\n\nSLIDE 7 HONORABLE MENTIONS. Supplied LW-CAR-0007 slide 7 is layout template; second supplied image gives dark round ✗ icon style. Top-left dark Bold title \"Honorable Mentions\", short coral underline. THREE left-aligned rows, each dark circle with white ✗ and Regular dark text exactly:\nNot enough sleep\nNot enough protein\nComparing yourself to edited photos\nBelow list a BOLD coral line exactly \"Which one did we miss?\"\nBottom-right same relaxed adult sand anatomy man sitting on a black gym bench as template, cropped at right/bottom, plain short opaque sand shorts, no muscle highlights. Keep complete rows and coral question clear, move/shrink figure if it could overlap text. No empty rounded checkboxes and no fourth row. No added punctuation.",
+      "prompt_file": "carousels/LW-CAR-0012/prompts/slide-07.txt",
+      "result_file": "carousels/LW-CAR-0012/outputs/slide-07.png",
+      "attempt_count": 1,
+      "attempt_history": [
+        {
+          "attempt": 1,
+          "status": "generated",
+          "started_at": "2026-10-19T09:31:03.899394+00:00",
+          "prompt_file": "carousels/LW-CAR-0012/prompts/slide-07.txt",
+          "finished_at": "2026-10-19T09:31:47.685227+00:00",
+          "result_original_path": "/workspace/generated_images/exec-8dd98fd4-709f-4dc4-9edd-5a67cb0503dd.png",
+          "user_review": "pending",
+          "agent_visual_review": "not_performed"
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_repository_file",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending",
+      "generation_result_original_path": "/workspace/generated_images/exec-8dd98fd4-709f-4dc4-9edd-5a67cb0503dd.png",
+      "export_dimensions": {
+        "width": 1080,
+        "height": 1350
+      },
+      "export_method": "Uniform fit and centered canvas extent to 1080x1350; preplanned exact copy of approved wordmark strip at original position, no independent-axis stretch."
+    },
+    {
+      "slide_number": 8,
+      "content_version": "1.0",
+      "status": "generated_and_assembled",
+      "visual_template_files": [
+        "carousels/LW-CAR-0001/outputs/slide-08.png"
+      ],
+      "template_access": "opened",
+      "prompt": "Create ONE finished original Lightweight carousel slide, portrait 1080x1350 PNG (4:5). Use the supplied approved own-series images as exact visual/layout templates, changing only the specified copy and illustration. No redesign, extra paragraphs or new claims.\nPalette: background #F0F1EB, pale coral right arch #FBE3DD, accent #F26445, dark #2A2A2A, grey body #6B6B6B, white #FFFFFF. Fine grey linework. Adult bald FACELESS SMOOTH PLASTIC ANATOMY MANNEQUIN, featureless pelvis, ivory skin/tendons #F5F0E5, warm sand #D9CBBE muscles and darker sand shading; no green/sage. Every figure wears plain short OPAQUE sand #D9CBBE athletic shorts fully covering pelvis/groin/buttocks. Friendly recognisable humour through body language, never mean, grotesque or sexual. Only explicitly specified target highlights are coral.\nFont Rubik, heaviest cover and Bold titles, Regular body. Exact text below, preserving case and punctuation; NO added periods after titles. Small original black Lightweight wordmark at top-left, same size/position as template; an exact accepted wordmark strip will be copied over top y0..110 in planned final assembly, so put no other content there. Keep every line entirely visible. If needed move/shrink illustration rather than clip or shorten text. No watermarks, signature, invented logo, unrelated UI or extra labels.\n\nSLIDE 8 PRODUCT ENDING. FIRST supplied LW-CAR-0001 slide 8 is the exact approved composition template. Generate only the new top text and matching background. The ORIGINAL lower phone/hand with accepted Muscle balance screen will be copied afterwards as one existing bitmap: source rectangle x0,y520,width1080,height830, copied to x0,y520 at SAME SIZE, no screen drawing, no rescaling. In this stage lower y520..1350 should be matching offwhite/pale arch background only, no newly generated phone, hand, screen, UI text or graph. Final original-bitmap assembly supplies them unchanged.\nTop wordmark as template. Left-aligned Bold headline exactly TWO lines:\nFix #1 And #2\nStarting Today.\nFirst line dark #2A2A2A, second coral #F26445. Short coral underline. Then grey Regular Rubik body exactly, wrapping as needed:\nLog every set in Lightweight and beat\nyour last session.\nKeep headline, underline and complete body inside y120..495, fully above original phone starting y520. No other text or added punctuation. Preserve template arch/background. This is a production top/background plate, not permission to redraw or imitate UI.",
+      "prompt_file": "carousels/LW-CAR-0012/prompts/slide-08.txt",
+      "result_file": "carousels/LW-CAR-0012/outputs/slide-08.png",
+      "attempt_count": 1,
+      "attempt_history": [
+        {
+          "attempt": 1,
+          "status": "top_plate_generated",
+          "started_at": "2026-10-19T09:32:06.445643+00:00",
+          "prompt_file": "carousels/LW-CAR-0012/prompts/slide-08.txt",
+          "finished_at": "2026-10-19T09:33:01.680419+00:00",
+          "result_original_path": "/workspace/generated_images/exec-568574c5-aad3-4b86-b7c5-c12e9ae7d439.png",
+          "assembly_completed_at": "2026-10-19T09:34:02.117663+00:00",
+          "user_review": "pending",
+          "agent_visual_review": "not_performed"
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_repository_file",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending",
+      "generation_result_original_path": "/workspace/generated_images/exec-568574c5-aad3-4b86-b7c5-c12e9ae7d439.png",
+      "export_dimensions": {
+        "width": 1080,
+        "height": 1350
+      },
+      "export_method": "Uniform fit and centered canvas extent to 1080x1350; preplanned exact copy of approved wordmark strip at original position, no independent-axis stretch.",
+      "top_plate_file": "carousels/LW-CAR-0012/production-assets/slide-08-top-plate.png",
+      "screen_source": {
+        "kind": "exact_reuse_of_task_specified_approved_phone_hand_composite",
+        "file": "carousels/LW-CAR-0001/outputs/slide-08.png",
+        "source_commit": "09f3923a30fe87288a1bdd6998a301197306b6b5",
+        "source_rectangle": "1080x830+0+520",
+        "asset_file": "carousels/LW-CAR-0012/production-assets/approved-phone-hand-layer.png",
+        "destination": "0,520",
+        "transform": "Direct existing-bitmap copy at original size and coordinates; no scaling, perspective change, screen generation or UI redrawing.",
+        "screen": "Accepted Muscle balance composite with Workout and Sets counts; original standalone raw screenshot not present.",
+        "assembly_status": "completed"
+      }
+    }
+  ],
+  "generation_execution_order": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "available_final_slides": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "missing_final_slides": [],
+  "image_tool_call_count": 8,
+  "successful_image_tool_calls": 8,
+  "failed_image_tool_calls": 0,
+  "caption_file": "carousels/LW-CAR-0012/caption.txt",
+  "delivery_archive": "carousels/LW-CAR-0012/LW-CAR-0012-1080x1350.zip",
+  "remote_save_status": "not_confirmed_at_commit_creation",
+  "updated_at": "2026-10-19T09:34:02.118060+00:00",
+  "wordmark_assembly": {
+    "source_file": "carousels/LW-CAR-0001/outputs/slide-08.png",
+    "source_rectangle": "1080x110+0+0",
+    "destination": "0,0",
+    "transform": "Exact original-size bitmap strip, copied at original top coordinates on every slide."
+  },
+  "limitations": [
+    "No post-generation visual QA, OCR, font verification, anatomy audit, reviewer call or automatic regeneration was performed. Rendered copy/font/layout/pose compliance requested in prompts but not independently verified.",
+    "Phone ending uses the existing approved composite expressly named in the task. The standalone raw screenshot is absent; no new app UI was generated and no independent comparison against an original raw screenshot is claimed."
+  ],
+  "next_actions": [
+    "Owner reviews all eight delivered slides. Do not regenerate or change existing images without an explicit request."
+  ]
+}

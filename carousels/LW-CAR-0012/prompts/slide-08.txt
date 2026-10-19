@@ -1,0 +1,12 @@
+Create ONE finished original Lightweight carousel slide, portrait 1080x1350 PNG (4:5). Use the supplied approved own-series images as exact visual/layout templates, changing only the specified copy and illustration. No redesign, extra paragraphs or new claims.
+Palette: background #F0F1EB, pale coral right arch #FBE3DD, accent #F26445, dark #2A2A2A, grey body #6B6B6B, white #FFFFFF. Fine grey linework. Adult bald FACELESS SMOOTH PLASTIC ANATOMY MANNEQUIN, featureless pelvis, ivory skin/tendons #F5F0E5, warm sand #D9CBBE muscles and darker sand shading; no green/sage. Every figure wears plain short OPAQUE sand #D9CBBE athletic shorts fully covering pelvis/groin/buttocks. Friendly recognisable humour through body language, never mean, grotesque or sexual. Only explicitly specified target highlights are coral.
+Font Rubik, heaviest cover and Bold titles, Regular body. Exact text below, preserving case and punctuation; NO added periods after titles. Small original black Lightweight wordmark at top-left, same size/position as template; an exact accepted wordmark strip will be copied over top y0..110 in planned final assembly, so put no other content there. Keep every line entirely visible. If needed move/shrink illustration rather than clip or shorten text. No watermarks, signature, invented logo, unrelated UI or extra labels.
+
+SLIDE 8 PRODUCT ENDING. FIRST supplied LW-CAR-0001 slide 8 is the exact approved composition template. Generate only the new top text and matching background. The ORIGINAL lower phone/hand with accepted Muscle balance screen will be copied afterwards as one existing bitmap: source rectangle x0,y520,width1080,height830, copied to x0,y520 at SAME SIZE, no screen drawing, no rescaling. In this stage lower y520..1350 should be matching offwhite/pale arch background only, no newly generated phone, hand, screen, UI text or graph. Final original-bitmap assembly supplies them unchanged.
+Top wordmark as template. Left-aligned Bold headline exactly TWO lines:
+Fix #1 And #2
+Starting Today.
+First line dark #2A2A2A, second coral #F26445. Short coral underline. Then grey Regular Rubik body exactly, wrapping as needed:
+Log every set in Lightweight and beat
+your last session.
+Keep headline, underline and complete body inside y120..495, fully above original phone starting y520. No other text or added punctuation. Preserve template arch/background. This is a production top/background plate, not permission to redraw or imitate UI.
