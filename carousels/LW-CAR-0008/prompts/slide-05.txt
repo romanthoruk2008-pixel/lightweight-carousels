@@ -1,0 +1,15 @@
+Create ONE new ORIGINAL Lightweight carousel slide, slide 5 of LW-CAR-0008. Follow the attached owner-approved LW-CAR-0006 slide 3 as the primary exact list-layout template: same badge/title/subtitle/underline/why-line hierarchy, central anatomical close-up, two lower exercise illustrations with centered coral OR badge, label positions, pale arch, background, whitespace, linework and overall scale. Use attached LW-CAR-0006 slide 7 as additional exercise equipment/mannequin rendering guidance. Output one clean portrait 4:5 image without a border, watermark, signature or extra text.
+
+Palette and type: off-white #F0F1EB; large pale coral arch #FBE3DD on right; coral #F26445 for highlight and accents; dark #2A2A2A; body grey #6B6B6B; badge white; warm sand #D9CBBE with darker sand anatomy shading; ivory #F5F0E5; fine grey outlines. All lettering Rubik: bold title, semibold sets line and labels, regular why line. Leave top-left header space blank for the exact supplied Lightweight wordmark; do not draw or invent a logo.
+
+Every figure is a smooth-plastic educational anatomy mannequin, bald, featureless, with smooth featureless pelvis/no genital detail. Full-body figures wear plain opaque short athletic shorts in sand #D9CBBE. Use realistic dark gym equipment.
+
+Top center: coral circular number badge with white “3”. Below exact bold centered title “Lower Chest”. Then exact centered semibold line “2-3 Sets x 8-12 Reps” with a short coral underline. Directly below, render this exact regular grey sentence, centered, at most two lines:
+“Dips and high-to-low flies hit the lower fibers.”
+
+Middle: close cropped FRONT-view upper torso, shoulders to mid chest, no head. Highlight only the lower edge of both pectorals in coral #F26445; upper/mid chest and other muscles remain sand/ivory.
+
+Bottom left: full-body mannequin doing bodyweight dips on parallel bars, torso leaning slightly forward to emphasize a chest dip, bars clearly visible. Label exactly “Chest Dips”.
+Center: coral circle with white “OR”.
+Bottom right: full-body standing mannequin between two high cable pulleys, hands sweeping down and inward together in front of the hips, clearly showing a high-to-low cable fly. Label exactly “High-To-Low Cable Fly”.
+Keep illustrations anatomically plausible and visually distinct, all labels fully visible above the lower edge. Add no text beyond badge number, title, sets line, why line, OR and the two exact labels.

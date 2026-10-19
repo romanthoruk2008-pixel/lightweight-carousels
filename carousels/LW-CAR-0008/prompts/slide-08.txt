@@ -1,0 +1,15 @@
+Create ONE new ORIGINAL Lightweight product-ending carousel slide, slide 8 of LW-CAR-0008. Edit the attached owner-approved LW-CAR-0001 slide 8 as the exact composition template. Preserve its 4:5 portrait canvas, off-white background and pale right-side arch, same typography hierarchy/alignment, same top-left wordmark position, left-aligned headline and underline, two body paragraphs, and lower hand holding tall black phone. This is our own approved phone/hand composition and contains the real Muscle balance screen with a Chest axis and “Based on Working sets”. Do not create, redraw, imitate, replace, or embellish app UI. Use no border, watermark, signature or extra copy.
+
+Match series colors exactly: off-white #F0F1EB, pale arch #FBE3DD, coral #F26445, dark #2A2A2A, body grey #6B6B6B. Typography Rubik, bold headline and regular grey body. Keep upper-left wordmark region clean; exact supplied master wordmark will be composited, so do not draw a logo.
+
+Change ONLY the headline and two body paragraphs from the reference:
+Headline exact text: “Is Your Chest Getting Enough Work?”
+At the reference headline size, break naturally into two left-aligned lines:
+“Is Your Chest”
+“Getting Enough Work?”
+Use dark #2A2A2A. Add the short coral underline beneath the complete two-line headline.
+Body paragraph 1, exact: “Log your workouts in Lightweight.”
+Body paragraph 2, exact: “See how many sets your chest gets compared to every other muscle.”
+Use regular grey #6B6B6B, left aligned, separated as two paragraphs. Preserve every word and punctuation. Adjust only the vertical placement needed to fit all text above y=510; nothing may be clipped or covered by the phone.
+
+Leave the approved lower hand-and-phone illustration in its existing location and true proportions: a naturally tall black smartphone held by a sketch-style line-art hand, extending off the bottom edge if needed. The real screen stays unchanged. The final assembly uses the exact pixels from the approved reference's lower rectangle x=0,y=520,width=1080,height=830 directly at the same coordinates without scaling, so do not place any body text below y=510. All app UI pixels must come from that approved source crop.

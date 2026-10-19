@@ -1,0 +1,511 @@
+{
+  "carousel_id": "LW-CAR-0008",
+  "content_version": "1.0",
+  "content_commit": "ce685234e0f02feae369c0232fbf87eaa93ff01c",
+  "type": "original",
+  "branch": "claude/charming-einstein-xgejky",
+  "status": "owner_approved",
+  "source": {
+    "ref_id": null,
+    "note": "Original Lightweight chest carousel, using approved internal LW-CAR-0001 and LW-CAR-0006 visual templates.",
+    "visual_templates": {
+      "cover": "carousels/LW-CAR-0001/outputs/slide-01.png",
+      "map": "carousels/LW-CAR-0001/outputs/slide-02.png",
+      "list": "carousels/LW-CAR-0006/outputs/slide-03.png … slide-07.png",
+      "bonus_tip": "carousels/LW-CAR-0001/outputs/slide-08.png top text area",
+      "ending": "carousels/LW-CAR-0001/outputs/slide-08.png"
+    }
+  },
+  "format": {
+    "width": 1080,
+    "height": 1350,
+    "file_type": "PNG"
+  },
+  "font_family": "Rubik",
+  "colors": {
+    "accent": "#F26445",
+    "accent_tint_background_shape": "#FBE3DD",
+    "background": "#F0F1EB",
+    "text_dark": "#2A2A2A",
+    "text_body_grey": "#6B6B6B",
+    "white": "#FFFFFF",
+    "muscle_base_sand": "#D9CBBE",
+    "skin_ivory_approx": "#F5F0E5"
+  },
+  "series_master": {
+    "carousel_id": "LW-CAR-0001",
+    "templates_opened": true
+  },
+  "generation_call_count": 8,
+  "agent_visual_review": "not_performed",
+  "user_review": "approved",
+  "next_slide_to_generate": null,
+  "delivery_complete": true,
+  "caption_file": "carousels/LW-CAR-0008/caption.txt",
+  "slides": [
+    {
+      "slide_number": 1,
+      "content_version": "1.0",
+      "status": "generated",
+      "visual_template_files": [
+        "carousels/LW-CAR-0001/outputs/slide-01.png"
+      ],
+      "template_access": "opened",
+      "prompt_file": "carousels/LW-CAR-0008/prompts/slide-01.txt",
+      "prompt": "Create ONE new ORIGINAL Lightweight carousel slide, slide 1 of LW-CAR-0008, using the attached owner-approved LW-CAR-0001 slide 1 as the exact visual template. The image is our own series, not a competitor recreation. Output one clean portrait 4:5 image. Match the template's off-white background, huge pale coral arch rising on the right, composition, spacing, typography scale, soft offset headline shadow, detailed warm anatomical illustration style and line weights. Keep all artwork in the same positions and scale as the template where possible, adapting the figure to face forward. Do not add a border, caption, signature, watermark, or any words beyond the specified copy.\n\nUse the series palette: background #F0F1EB; pale arch #FBE3DD; accent #F26445; dark text #2A2A2A; non-target muscles warm sand #D9CBBE with darker sand shading; skin/tendons ivory #F5F0E5; fine grey linework. Every text uses Rubik: cover in the heaviest available weight. Preserve the wordmark header area at top left; leave it clean and blank for exact logo placement from our supplied master, and do not invent or redraw a logo.\n\nHeadline must be two huge stacked uppercase lines, centered like the template, filling the top roughly 45%, with the same subtle grey offset shadow:\nWEAK — dark #2A2A2A\nCHEST? — coral #F26445\nPlace the small coral paint-splat dot below and just right of the question mark, as on the reference. Keep line breaks exactly, scale to fit without cropping or changing the copy.\n\nBelow the headline, depict one smooth plastic anatomical mannequin from hips up in a front view, in a confident front double-biceps pose with both arms raised and flexed. The bald featureless head may overlap the lower edge of the headline slightly as in the reference. Highlight the entire chest (upper, middle, lower pectorals) flat coral #F26445. Every other muscle is warm sand / ivory only. Fine realistic anatomical muscle relief and linework, premium educational anatomy illustration, not photo skin. Crop the lower body naturally at the bottom edge. Preserve ample clean space, arch and same visual hierarchy as the reference.\n\nNo other text.",
+      "attempt_count": 1,
+      "attempt_history": [
+        {
+          "attempt": 1,
+          "status": "generated",
+          "input_images": [
+            "carousels/LW-CAR-0001/outputs/slide-01.png"
+          ],
+          "finished_at": "2026-10-19T08:35:24.783174+00:00",
+          "result_original_path": "/workspace/generated_images/exec-1b6f6810-2987-406d-bfa5-e4591c58071e.png",
+          "result_file": "carousels/LW-CAR-0008/outputs/slide-01.png",
+          "save_status": "saved_repository_file"
+        }
+      ],
+      "result_file": "carousels/LW-CAR-0008/outputs/slide-01.png",
+      "errors": [],
+      "save_status": "saved_repository_file",
+      "agent_visual_review": "not_performed",
+      "user_review": "approved",
+      "generated_dimensions": {
+        "width": 1122,
+        "height": 1402
+      },
+      "export_dimensions": {
+        "width": 1080,
+        "height": 1350
+      },
+      "result_bytes": 1316738,
+      "generation_result_original_path": "/workspace/generated_images/exec-1b6f6810-2987-406d-bfa5-e4591c58071e.png",
+      "export_method": "Uniform fit to 1080x1350 canvas without independent-axis stretch; exact supplied wordmark pixels composited from approved LW-CAR-0001 slide 1.",
+      "result_link": "https://github.com/romanthoruk2008-pixel/lightweight-carousels/blob/claude/charming-einstein-xgejky/carousels/LW-CAR-0008/outputs/slide-01.png",
+      "reviewed_at": "2026-10-19T08:51:00.606666+00:00",
+      "owner_approval": {
+        "date": "2026-10-19",
+        "timezone": "Etc/UTC",
+        "approved_by": "owner",
+        "source": "Explicit user acceptance in this conversation, including request to push with accepted-by-user status.",
+        "scope": "all eight slides, content_version 1.0",
+        "file": "carousels/LW-CAR-0008/outputs/slide-01.png"
+      }
+    },
+    {
+      "slide_number": 2,
+      "content_version": "1.0",
+      "status": "generated",
+      "visual_template_files": [
+        "carousels/LW-CAR-0001/outputs/slide-02.png",
+        "carousels/LW-CAR-0001/outputs/slide-01.png"
+      ],
+      "template_access": "opened",
+      "prompt_file": "carousels/LW-CAR-0008/prompts/slide-02.txt",
+      "prompt": "Create ONE new ORIGINAL Lightweight carousel slide, slide 2 of LW-CAR-0008, using the attached owner-approved LW-CAR-0001 slide 2 as the exact layout and illustration-style template. Also use the attached approved cover only as the series-style reference. Output one clean portrait 4:5 image, matching the template's off-white background, pale coral arch on the right, fine anatomical linework, illustration scale, whitespace, card outlines, dark label bars, leader-line weight, title placement and overall composition. No border, caption, watermark or signature.\n\nSeries palette: background #F0F1EB; large pale rounded arch #FBE3DD; coral target areas and underline #F26445; dark text/leader lines #2A2A2A; warm sand muscles #D9CBBE and darker sand shading; ivory skin/tendons #F5F0E5; card label bars dark with white text. Use Rubik typography. Preserve a clear blank wordmark area at top left for exact master logo insertion; do not render a logo.\n\nAt the top center, render exactly: “Let's Fix That” in bold dark Rubik, with a short coral underline centered below it.\n\nMain center illustration: large bald featureless smooth-plastic anatomical mannequin from head to hips, front view, arms relaxed slightly away from the torso. Show anatomically clear pectorals and upper arms. Highlight the full chest and triceps flat coral #F26445; all other muscles in warm sand and ivory, fine grey linework.\n\nFour small rounded-rectangle thumbnail cards, placed in the same template positions: upper-left, upper-right, lower-left, lower-right. Thin dark outlines. Each card shows a small front-view anatomical torso/mannequin with only the labeled target area coral; add a solid dark label bar along the card bottom with exact white uppercase text:\nupper-left: UPPER CHEST — highlight the upper pectoral band only\nupper-right: MID CHEST — highlight the center/main pectoral area only\nlower-left: LOWER CHEST — highlight the lower edge of the pectorals only\nlower-right: TRICEPS — show a three-quarter/back-of-upper-arm view, highlight triceps only\nConnect each card to the corresponding target on the large central figure with thin dark leader lines and small round dark endpoints, matching the reference. Keep lines from crossing text. All labels fully visible and correctly spelled. No additional text.",
+      "attempt_count": 1,
+      "attempt_history": [
+        {
+          "attempt": 1,
+          "status": "generated",
+          "input_images": [
+            "carousels/LW-CAR-0001/outputs/slide-02.png",
+            "carousels/LW-CAR-0001/outputs/slide-01.png"
+          ],
+          "finished_at": "2026-10-19T08:36:50.835890+00:00",
+          "result_original_path": "/workspace/generated_images/exec-5ac138a9-9acf-4f68-873d-22fb2b09766f.png",
+          "result_file": "carousels/LW-CAR-0008/outputs/slide-02.png",
+          "save_status": "saved_repository_file"
+        }
+      ],
+      "result_file": "carousels/LW-CAR-0008/outputs/slide-02.png",
+      "errors": [],
+      "save_status": "saved_repository_file",
+      "agent_visual_review": "not_performed",
+      "user_review": "approved",
+      "generated_dimensions": {
+        "width": 1122,
+        "height": 1402
+      },
+      "export_dimensions": {
+        "width": 1080,
+        "height": 1350
+      },
+      "result_bytes": 1517607,
+      "generation_result_original_path": "/workspace/generated_images/exec-5ac138a9-9acf-4f68-873d-22fb2b09766f.png",
+      "export_method": "Uniform fit to 1080x1350 canvas without independent-axis stretch; exact supplied wordmark pixels composited from approved LW-CAR-0001 slide 2.",
+      "result_link": "https://github.com/romanthoruk2008-pixel/lightweight-carousels/blob/claude/charming-einstein-xgejky/carousels/LW-CAR-0008/outputs/slide-02.png",
+      "reviewed_at": "2026-10-19T08:51:00.606666+00:00",
+      "owner_approval": {
+        "date": "2026-10-19",
+        "timezone": "Etc/UTC",
+        "approved_by": "owner",
+        "source": "Explicit user acceptance in this conversation, including request to push with accepted-by-user status.",
+        "scope": "all eight slides, content_version 1.0",
+        "file": "carousels/LW-CAR-0008/outputs/slide-02.png"
+      }
+    },
+    {
+      "slide_number": 3,
+      "content_version": "1.0",
+      "status": "generated",
+      "visual_template_files": [
+        "carousels/LW-CAR-0006/outputs/slide-03.png",
+        "carousels/LW-CAR-0006/outputs/slide-04.png"
+      ],
+      "template_access": "opened",
+      "prompt_file": "carousels/LW-CAR-0008/prompts/slide-03.txt",
+      "prompt": "Create ONE new ORIGINAL Lightweight carousel slide, slide 3 of LW-CAR-0008. Use the attached owner-approved LW-CAR-0006 slide 3 as the primary exact layout template: copy its badge, centered title/subtitle/underline/why line, cropped anatomical close-up in the middle, two exercise figures across the bottom with coral OR badge between them, labels, whitespace, pale arch, proportions, linework and overall hierarchy. Use attached LW-CAR-0006 slide 4 only as additional exercise-figure/style guidance. Output one clean portrait 4:5 image; no border, watermark, signature or extra copy.\n\nBrand style: off-white #F0F1EB background; large pale coral #FBE3DD arch on the right; accent #F26445 for target muscle, number badge, underline, OR; dark text #2A2A2A; grey why text #6B6B6B; white badge numbers; warm sand muscles #D9CBBE with darker sand shading; ivory skin #F5F0E5 and fine grey anatomy outlines. Rubik typography, bold title, semibold subtitle/exercise labels, regular why line. Leave the top-left wordmark area blank for exact supplied master-logo placement; do not invent a logo.\n\nAll mannequins are smooth plastic educational anatomy models, bald and featureless, with featureless pelvises and no genital detail. Full-body figures wear plain opaque short athletic shorts in sand #D9CBBE. Keep realistic black/grey/white gym equipment. Keep labels well above the bottom edge and fully visible.\n\nAt the top center: coral circular badge with white “1”. Under it exact title “Upper Chest” in bold dark Rubik. Then exact centered subtitle “2-3 Sets x 6-10 Reps” in semibold dark Rubik, with short coral underline below. Under the underline, centered regular grey why line, exact wording and punctuation, maximum two lines:\n“Most chest training misses the top. Incline work fills it in.”\n\nMiddle illustration: cropped FRONT-view upper torso from shoulders to mid chest, no head. Fine detailed anatomy, target area is the upper pectoral band only in coral #F26445; all other muscles sand/ivory.\n\nBottom illustrations: two full-body smooth-plastic mannequins performing the exact exercises. Left: incline bench press with two dumbbells, lying on an inclined bench, arms pressing upward, recognizable dumbbells and bench. Label exactly “Incline DB Press”. Center between figures: coral circle with white “OR”. Right: standing at low cable pulleys and sweeping both hands upward and inward in front of the chest, clear low-to-high cable fly motion, realistic cable station. Label exactly “Low-To-High Cable Fly”. Keep the mannequins and equipment distinct, figures balanced left/right, no anatomy overlap with the close-up. Do not add any text beyond the badge number, title, subtitle, why line, OR and two labels.",
+      "attempt_count": 1,
+      "attempt_history": [
+        {
+          "attempt": 1,
+          "status": "generated",
+          "input_images": [
+            "carousels/LW-CAR-0006/outputs/slide-03.png",
+            "carousels/LW-CAR-0006/outputs/slide-04.png"
+          ],
+          "finished_at": "2026-10-19T08:38:25.519141+00:00",
+          "result_original_path": "/workspace/generated_images/exec-7c33140d-c7bd-4491-bfcc-b3d8d1d77294.png",
+          "result_file": "carousels/LW-CAR-0008/outputs/slide-03.png",
+          "save_status": "saved_repository_file"
+        }
+      ],
+      "result_file": "carousels/LW-CAR-0008/outputs/slide-03.png",
+      "errors": [],
+      "save_status": "saved_repository_file",
+      "agent_visual_review": "not_performed",
+      "user_review": "approved",
+      "generated_dimensions": {
+        "width": 1122,
+        "height": 1402
+      },
+      "export_dimensions": {
+        "width": 1080,
+        "height": 1350
+      },
+      "result_bytes": 1392704,
+      "generation_result_original_path": "/workspace/generated_images/exec-7c33140d-c7bd-4491-bfcc-b3d8d1d77294.png",
+      "result_link": "https://github.com/romanthoruk2008-pixel/lightweight-carousels/blob/claude/charming-einstein-xgejky/carousels/LW-CAR-0008/outputs/slide-03.png",
+      "export_method": "Uniform fit to 1080x1350 canvas without independent-axis stretch; exact supplied wordmark pixels composited from approved LW-CAR-0001 slide 1.",
+      "reviewed_at": "2026-10-19T08:51:00.606666+00:00",
+      "owner_approval": {
+        "date": "2026-10-19",
+        "timezone": "Etc/UTC",
+        "approved_by": "owner",
+        "source": "Explicit user acceptance in this conversation, including request to push with accepted-by-user status.",
+        "scope": "all eight slides, content_version 1.0",
+        "file": "carousels/LW-CAR-0008/outputs/slide-03.png"
+      }
+    },
+    {
+      "slide_number": 4,
+      "content_version": "1.0",
+      "status": "generated",
+      "visual_template_files": [
+        "carousels/LW-CAR-0006/outputs/slide-03.png",
+        "carousels/LW-CAR-0006/outputs/slide-04.png"
+      ],
+      "template_access": "opened",
+      "prompt_file": "carousels/LW-CAR-0008/prompts/slide-04.txt",
+      "prompt": "Create ONE new ORIGINAL Lightweight carousel slide, slide 4 of LW-CAR-0008. Use the attached owner-approved LW-CAR-0006 slide 3 as the primary exact layout template, matching its badge/title/sets/underline/why line, central anatomical crop, two balanced lower exercise illustrations with coral OR badge and labels, spacing, arch, background, linework and type hierarchy. Use attached LW-CAR-0006 slide 4 only as additional equipment/mannequin rendering guidance. Output one clean portrait 4:5 image. No border, extra copy, watermark or signature.\n\nSeries style: #F0F1EB off-white background, giant pale #FBE3DD rounded arch on right, accent #F26445, dark type #2A2A2A, grey why line #6B6B6B, white number text, warm sand #D9CBBE muscles with darker sand shades, ivory #F5F0E5 skin, fine grey anatomical outlines. Rubik type, bold title, semibold subtitle and exercise labels, regular why line. Leave top-left wordmark position blank for exact owner-supplied wordmark insertion; do not draw a logo.\n\nSmooth plastic educational anatomy mannequins only: bald, faceless, featureless pelvis with no genital detail. Full-body exercise figures wear plain opaque short athletic shorts in sand #D9CBBE. Gym equipment black/grey/white, anatomically plausible.\n\nAt top center badge: coral circle with white “2”. Exact centered bold title “Mid Chest”. Exact semibold subtitle “2-3 Sets x 6-10 Reps”, dark, and a short coral underline below. Beneath it, center this exact regular grey sentence (may wrap to two lines, keep fully legible):\n“Your main pressing muscle. Get strong here first.”\n\nMiddle close-up: front-view upper torso from shoulders to mid chest, no head. Highlight only the middle/main pectoral muscle area coral #F26445, with upper and lower chest and all other muscles in sand/ivory.\n\nBottom left: full-body smooth-plastic mannequin lying on a flat bench pressing a barbell over the chest, side or three-quarter view, clear flat bench press action; label exactly “Flat Bench Press”.\nBetween exercises: coral circular badge with white “OR”.\nBottom right: full-body mannequin doing a floor push-up, side view, body straight from head through heels, hands below chest; label exactly “Push-up”.\nKeep both figures, equipment and labels distinct and fully visible; reserve bottom margin. Do not add any text beyond badge number, title, subtitle, why sentence, OR and the two labels.",
+      "attempt_count": 1,
+      "attempt_history": [
+        {
+          "attempt": 1,
+          "status": "generated",
+          "input_images": [
+            "carousels/LW-CAR-0006/outputs/slide-03.png",
+            "carousels/LW-CAR-0006/outputs/slide-04.png"
+          ],
+          "finished_at": "2026-10-19T08:39:53.767738+00:00",
+          "result_original_path": "/workspace/generated_images/exec-dc6fc2b3-35c8-49ed-b1fa-f5fc467f6e72.png",
+          "result_file": "carousels/LW-CAR-0008/outputs/slide-04.png",
+          "save_status": "saved_repository_file"
+        }
+      ],
+      "result_file": "carousels/LW-CAR-0008/outputs/slide-04.png",
+      "errors": [],
+      "save_status": "saved_repository_file",
+      "agent_visual_review": "not_performed",
+      "user_review": "approved",
+      "generated_dimensions": {
+        "width": 1122,
+        "height": 1402
+      },
+      "export_dimensions": {
+        "width": 1080,
+        "height": 1350
+      },
+      "result_bytes": 1333030,
+      "generation_result_original_path": "/workspace/generated_images/exec-dc6fc2b3-35c8-49ed-b1fa-f5fc467f6e72.png",
+      "result_link": "https://github.com/romanthoruk2008-pixel/lightweight-carousels/blob/claude/charming-einstein-xgejky/carousels/LW-CAR-0008/outputs/slide-04.png",
+      "export_method": "Uniform fit to 1080x1350 canvas without independent-axis stretch; exact supplied wordmark pixels composited from approved LW-CAR-0001 slide 1.",
+      "reviewed_at": "2026-10-19T08:51:00.606666+00:00",
+      "owner_approval": {
+        "date": "2026-10-19",
+        "timezone": "Etc/UTC",
+        "approved_by": "owner",
+        "source": "Explicit user acceptance in this conversation, including request to push with accepted-by-user status.",
+        "scope": "all eight slides, content_version 1.0",
+        "file": "carousels/LW-CAR-0008/outputs/slide-04.png"
+      }
+    },
+    {
+      "slide_number": 5,
+      "content_version": "1.0",
+      "status": "generated",
+      "visual_template_files": [
+        "carousels/LW-CAR-0006/outputs/slide-03.png",
+        "carousels/LW-CAR-0006/outputs/slide-07.png"
+      ],
+      "template_access": "opened",
+      "prompt_file": "carousels/LW-CAR-0008/prompts/slide-05.txt",
+      "prompt": "Create ONE new ORIGINAL Lightweight carousel slide, slide 5 of LW-CAR-0008. Follow the attached owner-approved LW-CAR-0006 slide 3 as the primary exact list-layout template: same badge/title/subtitle/underline/why-line hierarchy, central anatomical close-up, two lower exercise illustrations with centered coral OR badge, label positions, pale arch, background, whitespace, linework and overall scale. Use attached LW-CAR-0006 slide 7 as additional exercise equipment/mannequin rendering guidance. Output one clean portrait 4:5 image without a border, watermark, signature or extra text.\n\nPalette and type: off-white #F0F1EB; large pale coral arch #FBE3DD on right; coral #F26445 for highlight and accents; dark #2A2A2A; body grey #6B6B6B; badge white; warm sand #D9CBBE with darker sand anatomy shading; ivory #F5F0E5; fine grey outlines. All lettering Rubik: bold title, semibold sets line and labels, regular why line. Leave top-left header space blank for the exact supplied Lightweight wordmark; do not draw or invent a logo.\n\nEvery figure is a smooth-plastic educational anatomy mannequin, bald, featureless, with smooth featureless pelvis/no genital detail. Full-body figures wear plain opaque short athletic shorts in sand #D9CBBE. Use realistic dark gym equipment.\n\nTop center: coral circular number badge with white “3”. Below exact bold centered title “Lower Chest”. Then exact centered semibold line “2-3 Sets x 8-12 Reps” with a short coral underline. Directly below, render this exact regular grey sentence, centered, at most two lines:\n“Dips and high-to-low flies hit the lower fibers.”\n\nMiddle: close cropped FRONT-view upper torso, shoulders to mid chest, no head. Highlight only the lower edge of both pectorals in coral #F26445; upper/mid chest and other muscles remain sand/ivory.\n\nBottom left: full-body mannequin doing bodyweight dips on parallel bars, torso leaning slightly forward to emphasize a chest dip, bars clearly visible. Label exactly “Chest Dips”.\nCenter: coral circle with white “OR”.\nBottom right: full-body standing mannequin between two high cable pulleys, hands sweeping down and inward together in front of the hips, clearly showing a high-to-low cable fly. Label exactly “High-To-Low Cable Fly”.\nKeep illustrations anatomically plausible and visually distinct, all labels fully visible above the lower edge. Add no text beyond badge number, title, sets line, why line, OR and the two exact labels.",
+      "attempt_count": 1,
+      "attempt_history": [
+        {
+          "attempt": 1,
+          "status": "generated",
+          "input_images": [
+            "carousels/LW-CAR-0006/outputs/slide-03.png",
+            "carousels/LW-CAR-0006/outputs/slide-07.png"
+          ],
+          "finished_at": "2026-10-19T08:41:07.310863+00:00",
+          "result_original_path": "/workspace/generated_images/exec-3a672a84-b571-410a-b0ed-974b0a339918.png",
+          "result_file": "carousels/LW-CAR-0008/outputs/slide-05.png",
+          "save_status": "saved_repository_file"
+        }
+      ],
+      "result_file": "carousels/LW-CAR-0008/outputs/slide-05.png",
+      "errors": [],
+      "save_status": "saved_repository_file",
+      "agent_visual_review": "not_performed",
+      "user_review": "approved",
+      "generated_dimensions": {
+        "width": 1122,
+        "height": 1402
+      },
+      "export_dimensions": {
+        "width": 1080,
+        "height": 1350
+      },
+      "result_bytes": 1338689,
+      "generation_result_original_path": "/workspace/generated_images/exec-3a672a84-b571-410a-b0ed-974b0a339918.png",
+      "result_link": "https://github.com/romanthoruk2008-pixel/lightweight-carousels/blob/claude/charming-einstein-xgejky/carousels/LW-CAR-0008/outputs/slide-05.png",
+      "export_method": "Uniform fit to 1080x1350 canvas without independent-axis stretch; exact supplied wordmark pixels composited from approved LW-CAR-0001 slide 1.",
+      "reviewed_at": "2026-10-19T08:51:00.606666+00:00",
+      "owner_approval": {
+        "date": "2026-10-19",
+        "timezone": "Etc/UTC",
+        "approved_by": "owner",
+        "source": "Explicit user acceptance in this conversation, including request to push with accepted-by-user status.",
+        "scope": "all eight slides, content_version 1.0",
+        "file": "carousels/LW-CAR-0008/outputs/slide-05.png"
+      }
+    },
+    {
+      "slide_number": 6,
+      "content_version": "1.0",
+      "status": "generated",
+      "visual_template_files": [
+        "carousels/LW-CAR-0006/outputs/slide-03.png",
+        "carousels/LW-CAR-0006/outputs/slide-05.png"
+      ],
+      "template_access": "opened",
+      "prompt_file": "carousels/LW-CAR-0008/prompts/slide-06.txt",
+      "prompt": "Create ONE new ORIGINAL Lightweight carousel slide, slide 6 of LW-CAR-0008. Use the attached owner-approved LW-CAR-0006 slide 3 as the primary exact list-slide layout reference: centered coral number badge, bold title, sets line, short coral underline, short grey why line, middle cropped anatomy illustration, two full-body exercise figures along the lower area, center OR badge, labels under each, same arch/background, negative space, proportions and fine illustration linework. Use attached LW-CAR-0006 slide 5 as secondary mannequin/equipment style guidance. Output one portrait 4:5 image; no border, watermark, signature or extra words.\n\nSeries colors: background #F0F1EB, right-side pale coral arch #FBE3DD, accent #F26445, dark text #2A2A2A, body grey #6B6B6B, white badge text, warm sand #D9CBBE with darker sand shading, ivory #F5F0E5, fine grey anatomy outlines. Typography Rubik: bold title, semibold sets and labels, regular why line. Keep the upper-left logo area blank; do not draw or invent the supplied wordmark.\n\nAll people are smooth-plastic anatomy mannequins, bald and faceless, with a featureless smooth pelvis and no genital detail. Every full-body exercise mannequin wears plain opaque short athletic shorts in sand #D9CBBE. No exposed genital anatomy. Realistic black/grey/white gym equipment.\n\nTop center: coral circular badge with white “4”. Below exact centered bold title “Triceps”. Exact centered semibold subtitle “2-3 Sets x 8-12 Reps”, then a short coral underline. Below it, centered regular grey why line exactly:\n“Weak triceps cut your presses short.”\n\nMiddle anatomy close-up: back view of both upper arms/triceps, cropped around shoulders to elbows; highlight the triceps on both arms coral #F26445 and all other muscles warm sand/ivory.\n\nBottom left: full-body smooth-plastic mannequin standing at a cable machine and doing a cable pushdown with a straight bar or rope, elbows near sides, forearms pressing down. Label exactly “Cable Pushdown”.\nAt center: coral circle with white “OR”.\nBottom right: full-body mannequin performing a diamond push-up on the floor, strict straight body in side view; hands close together below chest in a diamond shape. Label exactly “Diamond Push-up”.\nKeep OR badge and labels fully legible, exercise figures balanced and distinct, with no extra equipment or text. Exact permitted text only: 4, Triceps, 2-3 Sets x 8-12 Reps, the why line, OR, Cable Pushdown, Diamond Push-up.",
+      "attempt_count": 1,
+      "attempt_history": [
+        {
+          "attempt": 1,
+          "status": "generated",
+          "input_images": [
+            "carousels/LW-CAR-0006/outputs/slide-03.png",
+            "carousels/LW-CAR-0006/outputs/slide-05.png"
+          ],
+          "finished_at": "2026-10-19T08:42:19.234524+00:00",
+          "result_original_path": "/workspace/generated_images/exec-01071f47-b8bc-42d0-a1a4-da471cf04525.png",
+          "result_file": "carousels/LW-CAR-0008/outputs/slide-06.png",
+          "save_status": "saved_repository_file"
+        }
+      ],
+      "result_file": "carousels/LW-CAR-0008/outputs/slide-06.png",
+      "errors": [],
+      "save_status": "saved_repository_file",
+      "agent_visual_review": "not_performed",
+      "user_review": "approved",
+      "generated_dimensions": {
+        "width": 1122,
+        "height": 1402
+      },
+      "export_dimensions": {
+        "width": 1080,
+        "height": 1350
+      },
+      "result_bytes": 1241872,
+      "generation_result_original_path": "/workspace/generated_images/exec-01071f47-b8bc-42d0-a1a4-da471cf04525.png",
+      "result_link": "https://github.com/romanthoruk2008-pixel/lightweight-carousels/blob/claude/charming-einstein-xgejky/carousels/LW-CAR-0008/outputs/slide-06.png",
+      "export_method": "Uniform fit to 1080x1350 canvas without independent-axis stretch; exact supplied wordmark pixels composited from approved LW-CAR-0001 slide 1.",
+      "reviewed_at": "2026-10-19T08:51:00.606666+00:00",
+      "owner_approval": {
+        "date": "2026-10-19",
+        "timezone": "Etc/UTC",
+        "approved_by": "owner",
+        "source": "Explicit user acceptance in this conversation, including request to push with accepted-by-user status.",
+        "scope": "all eight slides, content_version 1.0",
+        "file": "carousels/LW-CAR-0008/outputs/slide-06.png"
+      }
+    },
+    {
+      "slide_number": 7,
+      "content_version": "1.0",
+      "status": "generated",
+      "visual_template_files": [
+        "carousels/LW-CAR-0001/outputs/slide-08.png",
+        "carousels/LW-CAR-0006/outputs/slide-03.png"
+      ],
+      "template_access": "opened",
+      "prompt_file": "carousels/LW-CAR-0008/prompts/slide-07.txt",
+      "prompt": "Create ONE new ORIGINAL Lightweight carousel slide, slide 7 of LW-CAR-0008. For the top text block, use the attached owner-approved LW-CAR-0001 slide 8 as the precise brand typography/spacing reference: small left-aligned coral title, short coral underline, grey body copy with the same left alignment and generous line spacing. Use the attached LW-CAR-0006 slide 3 as illustration/style reference. Output one clean portrait 4:5 image.\n\nBrand style: off-white #F0F1EB background, a very large pale coral #FBE3DD rounded arch behind the right half, coral #F26445 title and underline, body #6B6B6B, dark #2A2A2A, warm sand #D9CBBE anatomical muscles with darker sand shading, ivory #F5F0E5 skin/tendons, delicate grey linework. All lettering Rubik. Leave the top-left wordmark area blank for exact placement of the supplied logo; do not draw or invent a logo. No watermark, signature, border or extra words.\n\nAt the top left below the logo safe area, set exact title “Bonus Tip” in bold coral Rubik. Add a short coral underline below. Under it, left-aligned regular grey body text, exact punctuation and wording:\n“Slow down the lowering and get a deep stretch at the bottom of every rep.”\nWrap naturally over two or three lines, fully visible.\n\nLower approximately 60% of the image: large smooth-plastic anatomical mannequin lying on a flat gym bench at the bottom/stretch position of a dumbbell fly, arms open wide to the sides, elbows slightly bent, holding a dumbbell in each hand; side/three-quarter view so the chest stretch is clear. Chest target muscles filled coral #F26445; other muscles warm sand/ivory. Mannequin bald, faceless, with smooth featureless pelvis and no genital detail; wear plain opaque sand #D9CBBE short athletic shorts. Bench and dumbbells realistic black/grey/white. Keep all visible figure regions appropriately covered. The body must remain below the text, not obscure any words. Same fine educational anatomy rendering and premium composition as the series. No other text.",
+      "attempt_count": 1,
+      "attempt_history": [
+        {
+          "attempt": 1,
+          "status": "generated",
+          "input_images": [
+            "carousels/LW-CAR-0001/outputs/slide-08.png",
+            "carousels/LW-CAR-0006/outputs/slide-03.png"
+          ],
+          "finished_at": "2026-10-19T08:43:55.415137+00:00",
+          "result_original_path": "/workspace/generated_images/exec-2cbbf015-12d0-454e-8a88-b4362c36bf4c.png",
+          "result_file": "carousels/LW-CAR-0008/outputs/slide-07.png",
+          "save_status": "saved_repository_file"
+        }
+      ],
+      "result_file": "carousels/LW-CAR-0008/outputs/slide-07.png",
+      "errors": [],
+      "save_status": "saved_repository_file",
+      "agent_visual_review": "not_performed",
+      "user_review": "approved",
+      "generated_dimensions": {
+        "width": 1122,
+        "height": 1402
+      },
+      "export_dimensions": {
+        "width": 1080,
+        "height": 1350
+      },
+      "result_bytes": 1294233,
+      "generation_result_original_path": "/workspace/generated_images/exec-2cbbf015-12d0-454e-8a88-b4362c36bf4c.png",
+      "result_link": "https://github.com/romanthoruk2008-pixel/lightweight-carousels/blob/claude/charming-einstein-xgejky/carousels/LW-CAR-0008/outputs/slide-07.png",
+      "export_method": "Uniform fit to 1080x1350 canvas without independent-axis stretch; exact supplied wordmark pixels composited from approved LW-CAR-0001 slide 1.",
+      "reviewed_at": "2026-10-19T08:51:00.606666+00:00",
+      "owner_approval": {
+        "date": "2026-10-19",
+        "timezone": "Etc/UTC",
+        "approved_by": "owner",
+        "source": "Explicit user acceptance in this conversation, including request to push with accepted-by-user status.",
+        "scope": "all eight slides, content_version 1.0",
+        "file": "carousels/LW-CAR-0008/outputs/slide-07.png"
+      }
+    },
+    {
+      "slide_number": 8,
+      "content_version": "1.0",
+      "status": "generated",
+      "visual_template_files": [
+        "carousels/LW-CAR-0001/outputs/slide-08.png"
+      ],
+      "template_access": "opened",
+      "prompt_file": "carousels/LW-CAR-0008/prompts/slide-08.txt",
+      "prompt": "Create ONE new ORIGINAL Lightweight product-ending carousel slide, slide 8 of LW-CAR-0008. Edit the attached owner-approved LW-CAR-0001 slide 8 as the exact composition template. Preserve its 4:5 portrait canvas, off-white background and pale right-side arch, same typography hierarchy/alignment, same top-left wordmark position, left-aligned headline and underline, two body paragraphs, and lower hand holding tall black phone. This is our own approved phone/hand composition and contains the real Muscle balance screen with a Chest axis and “Based on Working sets”. Do not create, redraw, imitate, replace, or embellish app UI. Use no border, watermark, signature or extra copy.\n\nMatch series colors exactly: off-white #F0F1EB, pale arch #FBE3DD, coral #F26445, dark #2A2A2A, body grey #6B6B6B. Typography Rubik, bold headline and regular grey body. Keep upper-left wordmark region clean; exact supplied master wordmark will be composited, so do not draw a logo.\n\nChange ONLY the headline and two body paragraphs from the reference:\nHeadline exact text: “Is Your Chest Getting Enough Work?”\nAt the reference headline size, break naturally into two left-aligned lines:\n“Is Your Chest”\n“Getting Enough Work?”\nUse dark #2A2A2A. Add the short coral underline beneath the complete two-line headline.\nBody paragraph 1, exact: “Log your workouts in Lightweight.”\nBody paragraph 2, exact: “See how many sets your chest gets compared to every other muscle.”\nUse regular grey #6B6B6B, left aligned, separated as two paragraphs. Preserve every word and punctuation. Adjust only the vertical placement needed to fit all text above y=510; nothing may be clipped or covered by the phone.\n\nLeave the approved lower hand-and-phone illustration in its existing location and true proportions: a naturally tall black smartphone held by a sketch-style line-art hand, extending off the bottom edge if needed. The real screen stays unchanged. The final assembly uses the exact pixels from the approved reference's lower rectangle x=0,y=520,width=1080,height=830 directly at the same coordinates without scaling, so do not place any body text below y=510. All app UI pixels must come from that approved source crop.",
+      "attempt_count": 1,
+      "attempt_history": [
+        {
+          "attempt": 1,
+          "status": "generated",
+          "input_images": [
+            "carousels/LW-CAR-0001/outputs/slide-08.png"
+          ],
+          "finished_at": "2026-10-19T08:45:34.269559+00:00",
+          "result_original_path": "/workspace/generated_images/exec-4269f220-e873-481b-bbb6-64a1427c9cf7.png",
+          "result_file": "carousels/LW-CAR-0008/outputs/slide-08.png",
+          "save_status": "saved_repository_file"
+        }
+      ],
+      "result_file": "carousels/LW-CAR-0008/outputs/slide-08.png",
+      "errors": [],
+      "save_status": "saved_repository_file",
+      "agent_visual_review": "not_performed",
+      "user_review": "approved",
+      "generated_dimensions": {
+        "width": 1122,
+        "height": 1402
+      },
+      "export_dimensions": {
+        "width": 1080,
+        "height": 1350
+      },
+      "result_bytes": 1375599,
+      "generation_result_original_path": "/workspace/generated_images/exec-4269f220-e873-481b-bbb6-64a1427c9cf7.png",
+      "result_link": "https://github.com/romanthoruk2008-pixel/lightweight-carousels/blob/claude/charming-einstein-xgejky/carousels/LW-CAR-0008/outputs/slide-08.png",
+      "export_method": "Uniform fit of generated top region to 1080x1350 without independent-axis stretch; exact supplied wordmark pixels composited from approved LW-CAR-0001 slide 1; approved ending source rectangle x=0,y=520,w=1080,h=830 copied directly at the same coordinates without scaling.",
+      "screen_source": {
+        "kind": "owner_approved_phone_hand_composite",
+        "file": "carousels/LW-CAR-0001/outputs/slide-08.png",
+        "screen": "Progress / Muscle balance; radar includes Chest and “Based on Working sets”",
+        "assembly_plan": "Copy approved source rectangle x=0,y=520,width=1080,height=830 to same destination coordinates; no scaling or UI generation.",
+        "assembly_status": "completed",
+        "pixel_transform": "Direct copy of approved lower phone/hand composite, no rescaling."
+      },
+      "reviewed_at": "2026-10-19T08:51:00.606666+00:00",
+      "owner_approval": {
+        "date": "2026-10-19",
+        "timezone": "Etc/UTC",
+        "approved_by": "owner",
+        "source": "Explicit user acceptance in this conversation, including request to push with accepted-by-user status.",
+        "scope": "all eight slides, content_version 1.0",
+        "file": "carousels/LW-CAR-0008/outputs/slide-08.png"
+      }
+    }
+  ],
+  "checks": {
+    "agent_visual_review": "not_performed",
+    "ocr": "not_performed",
+    "anatomy_audit": "not_performed",
+    "automatic_regenerations": 0,
+    "export": "1080x1350 PNG outputs saved; no post-generation review performed."
+  },
+  "storage": {
+    "method": "single_carousel_git_commit",
+    "repository": "romanthoruk2008-pixel/lightweight-carousels",
+    "branch": "claude/charming-einstein-xgejky",
+    "scope": "All eight outputs, exact prompts, frozen copy, caption, manifest and ZIP in one commit."
+  },
+  "generated_slides": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "updated_at": "2026-10-19T08:51:00.606666+00:00",
+  "limitations": [
+    "No post-generation visual review, OCR, anatomy audit or automatic regeneration was performed, per owner direction.",
+    "The product ending uses the exact lower phone/hand composite already approved in LW-CAR-0001 slide 8; the original standalone screenshot is not present in this checkout."
+  ],
+  "delivery_archive": "carousels/LW-CAR-0008/LW-CAR-0008-1080x1350.zip",
+  "owner_approval": {
+    "date": "2026-10-19",
+    "timezone": "Etc/UTC",
+    "approved_by": "owner",
+    "source": "Explicit user acceptance in this conversation, including request to push with accepted-by-user status.",
+    "scope": "all eight slides, content_version 1.0"
+  }
+}

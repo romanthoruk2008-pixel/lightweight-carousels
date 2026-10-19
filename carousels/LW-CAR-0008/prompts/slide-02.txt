@@ -1,0 +1,14 @@
+Create ONE new ORIGINAL Lightweight carousel slide, slide 2 of LW-CAR-0008, using the attached owner-approved LW-CAR-0001 slide 2 as the exact layout and illustration-style template. Also use the attached approved cover only as the series-style reference. Output one clean portrait 4:5 image, matching the template's off-white background, pale coral arch on the right, fine anatomical linework, illustration scale, whitespace, card outlines, dark label bars, leader-line weight, title placement and overall composition. No border, caption, watermark or signature.
+
+Series palette: background #F0F1EB; large pale rounded arch #FBE3DD; coral target areas and underline #F26445; dark text/leader lines #2A2A2A; warm sand muscles #D9CBBE and darker sand shading; ivory skin/tendons #F5F0E5; card label bars dark with white text. Use Rubik typography. Preserve a clear blank wordmark area at top left for exact master logo insertion; do not render a logo.
+
+At the top center, render exactly: “Let's Fix That” in bold dark Rubik, with a short coral underline centered below it.
+
+Main center illustration: large bald featureless smooth-plastic anatomical mannequin from head to hips, front view, arms relaxed slightly away from the torso. Show anatomically clear pectorals and upper arms. Highlight the full chest and triceps flat coral #F26445; all other muscles in warm sand and ivory, fine grey linework.
+
+Four small rounded-rectangle thumbnail cards, placed in the same template positions: upper-left, upper-right, lower-left, lower-right. Thin dark outlines. Each card shows a small front-view anatomical torso/mannequin with only the labeled target area coral; add a solid dark label bar along the card bottom with exact white uppercase text:
+upper-left: UPPER CHEST — highlight the upper pectoral band only
+upper-right: MID CHEST — highlight the center/main pectoral area only
+lower-left: LOWER CHEST — highlight the lower edge of the pectorals only
+lower-right: TRICEPS — show a three-quarter/back-of-upper-arm view, highlight triceps only
+Connect each card to the corresponding target on the large central figure with thin dark leader lines and small round dark endpoints, matching the reference. Keep lines from crossing text. All labels fully visible and correctly spelled. No additional text.
