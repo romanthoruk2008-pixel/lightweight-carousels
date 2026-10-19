@@ -5,8 +5,8 @@ First read `carousels/CODEX-SERIES-RULES.md` and `docs/DESIGN-STYLES.md` (style 
 **What this is.** The sister carousel of LW-CAR-0020 (chest tier list), now for the back. **Same look, same layouts, same type, colours and figure as LW-CAR-0020.** Every word and every exercise comes from this file and copy.json.
 
 ## Templates
-- If `carousels/LW-CAR-0020/outputs/` exists, match it exactly: cover → its slide 1, tier dividers → its slide 2, exercise slides → its slide 3, ending → its slide 19. The two carousels must look like one series.
-- If it does not exist yet, use the layouts of `references/images/REF-008/slide-01.jpg` (cover), `slide-02.jpg` (tier divider) and `slide-03.jpg` (exercise), and the look rules below. Use them for design only, never for words. They are TikTok web-viewer screenshots: the slide is the tall area on the left (about x 139–1073). Ignore all TikTok UI.
+- LW-CAR-0020 is **owner-approved** and is the S2 master. Match `carousels/LW-CAR-0020/outputs/` exactly: cover → its slide 1, tier dividers → its slide 2, exercise slides → its slide 3, ending → its slide 19. The two carousels must look like one series.
+- Do not use the REF-008 screenshots; the approved LW-CAR-0020 slides are the template.
 
 ## Look (S2)
 - **Background:** solid **#F0F1EB** (`CLEAN`), opaque, no texture.
@@ -52,4 +52,4 @@ Keep lowercase, hyphens and apostrophes (`it’s`) exactly. Do not add capitals 
 Write `caption.txt` from `copy.json` → `caption.text`, verbatim.
 
 ## Order of work
-Best after the owner has approved LW-CAR-0020, so both match. Generate slides 1, 2 and 3 first, show them to the owner and wait for OK, then the rest. Commit the whole carousel in one commit. If a limit or error interrupts you, push what exists immediately, marked incomplete, with the next slide to generate.
+Generate slides 1, 2 and 3 first, show them to the owner and wait for OK, then the rest. Commit the whole carousel in one commit. If a limit or error interrupts you, push what exists immediately, marked incomplete, with the next slide to generate.
