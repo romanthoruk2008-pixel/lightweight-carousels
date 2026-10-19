@@ -3,7 +3,7 @@
   "content_version": "1.0",
   "content_commit": "efeb94a18026cfe04f4ad8a520bf7ee96bbed167",
   "branch": "claude/charming-einstein-xgejky",
-  "status": "generated_waiting_user_review",
+  "status": "owner_approved",
   "type": "original",
   "background": {
     "name": "CLEAN",
@@ -76,7 +76,7 @@
   "next_slide_to_generate": null,
   "delivery_complete": true,
   "agent_visual_review": "not_performed",
-  "user_review": "pending",
+  "user_review": "approved",
   "slides": [
     {
       "slide_number": 1,
@@ -104,7 +104,7 @@
             "carousels/LW-CAR-0001/outputs/slide-01.png"
           ],
           "agent_visual_review": "not_performed",
-          "user_review": "pending",
+          "user_review": "approved",
           "finished_at": "2026-10-19T15:00:16.113117+03:00",
           "result_file": "carousels/LW-CAR-0016/outputs/slide-01.png",
           "raw_generation_file": "carousels/LW-CAR-0016/production-assets/slide-01-generated.png",
@@ -115,7 +115,7 @@
       "save_status": "saved_repository_file",
       "result_file": "carousels/LW-CAR-0016/outputs/slide-01.png",
       "agent_visual_review": "not_performed",
-      "user_review": "pending",
+      "user_review": "approved",
       "result_link": "https://github.com/romanthoruk2008-pixel/lightweight-carousels/blob/claude/charming-einstein-xgejky/carousels/LW-CAR-0016/outputs/slide-01.png",
       "raw_generation_file": "carousels/LW-CAR-0016/production-assets/slide-01-generated.png",
       "generation_result_original_path": "/workspace/generated_images/exec-aac62e06-10a0-45a5-b1b4-8bc89431d2e3.png",
@@ -158,7 +158,7 @@
             "carousels/LW-CAR-0002/outputs/slide-02.png"
           ],
           "agent_visual_review": "not_performed",
-          "user_review": "pending",
+          "user_review": "approved",
           "finished_at": "2026-10-19T15:01:14.885059+03:00",
           "result_file": "carousels/LW-CAR-0016/outputs/slide-02.png",
           "raw_generation_file": "carousels/LW-CAR-0016/production-assets/slide-02-generated.png",
@@ -169,7 +169,7 @@
       "save_status": "saved_repository_file",
       "result_file": "carousels/LW-CAR-0016/outputs/slide-02.png",
       "agent_visual_review": "not_performed",
-      "user_review": "pending",
+      "user_review": "approved",
       "result_link": "https://github.com/romanthoruk2008-pixel/lightweight-carousels/blob/claude/charming-einstein-xgejky/carousels/LW-CAR-0016/outputs/slide-02.png",
       "raw_generation_file": "carousels/LW-CAR-0016/production-assets/slide-02-generated.png",
       "generation_result_original_path": "/workspace/generated_images/exec-79f5cd3d-985a-4a2a-8b39-3207394c4060.png",
@@ -215,7 +215,7 @@
             "carousels/LW-CAR-0013/outputs/slide-03.png"
           ],
           "agent_visual_review": "not_performed",
-          "user_review": "pending",
+          "user_review": "approved",
           "finished_at": "2026-10-19T15:02:16.177702+03:00",
           "result_file": "carousels/LW-CAR-0016/outputs/slide-03.png",
           "raw_generation_file": "carousels/LW-CAR-0016/production-assets/slide-03-generated.png",
@@ -226,7 +226,7 @@
       "save_status": "saved_repository_file",
       "result_file": "carousels/LW-CAR-0016/outputs/slide-03.png",
       "agent_visual_review": "not_performed",
-      "user_review": "pending",
+      "user_review": "approved",
       "result_link": "https://github.com/romanthoruk2008-pixel/lightweight-carousels/blob/claude/charming-einstein-xgejky/carousels/LW-CAR-0016/outputs/slide-03.png",
       "raw_generation_file": "carousels/LW-CAR-0016/production-assets/slide-03-generated.png",
       "generation_result_original_path": "/workspace/generated_images/exec-223929b8-8f51-427c-93e2-6b9050899708.png",
@@ -272,7 +272,7 @@
             "carousels/LW-CAR-0013/outputs/slide-03.png"
           ],
           "agent_visual_review": "not_performed",
-          "user_review": "pending",
+          "user_review": "approved",
           "finished_at": "2026-10-19T15:03:09.619166+03:00",
           "result_file": "carousels/LW-CAR-0016/outputs/slide-04.png",
           "raw_generation_file": "carousels/LW-CAR-0016/production-assets/slide-04-generated.png",
@@ -283,7 +283,7 @@
       "save_status": "saved_repository_file",
       "result_file": "carousels/LW-CAR-0016/outputs/slide-04.png",
       "agent_visual_review": "not_performed",
-      "user_review": "pending",
+      "user_review": "approved",
       "result_link": "https://github.com/romanthoruk2008-pixel/lightweight-carousels/blob/claude/charming-einstein-xgejky/carousels/LW-CAR-0016/outputs/slide-04.png",
       "raw_generation_file": "carousels/LW-CAR-0016/production-assets/slide-04-generated.png",
       "generation_result_original_path": "/workspace/generated_images/exec-aa85d88b-f735-4445-a1fa-2753b36d6a33.png",
@@ -329,7 +329,7 @@
             "carousels/LW-CAR-0013/outputs/slide-03.png"
           ],
           "agent_visual_review": "not_performed",
-          "user_review": "pending",
+          "user_review": "approved",
           "finished_at": "2026-10-19T15:04:04.277614+03:00",
           "result_file": "carousels/LW-CAR-0016/outputs/slide-05.png",
           "raw_generation_file": "carousels/LW-CAR-0016/production-assets/slide-05-generated.png",
@@ -340,7 +340,7 @@
       "save_status": "saved_repository_file",
       "result_file": "carousels/LW-CAR-0016/outputs/slide-05.png",
       "agent_visual_review": "not_performed",
-      "user_review": "pending",
+      "user_review": "approved",
       "result_link": "https://github.com/romanthoruk2008-pixel/lightweight-carousels/blob/claude/charming-einstein-xgejky/carousels/LW-CAR-0016/outputs/slide-05.png",
       "raw_generation_file": "carousels/LW-CAR-0016/production-assets/slide-05-generated.png",
       "generation_result_original_path": "/workspace/generated_images/exec-cf6213cc-00df-43d4-a3a5-2747460c75f2.png",
@@ -386,7 +386,7 @@
             "carousels/LW-CAR-0013/outputs/slide-03.png"
           ],
           "agent_visual_review": "not_performed",
-          "user_review": "pending",
+          "user_review": "approved",
           "finished_at": "2026-10-19T15:04:57.045272+03:00",
           "result_file": "carousels/LW-CAR-0016/outputs/slide-06.png",
           "raw_generation_file": "carousels/LW-CAR-0016/production-assets/slide-06-generated.png",
@@ -397,7 +397,7 @@
       "save_status": "saved_repository_file",
       "result_file": "carousels/LW-CAR-0016/outputs/slide-06.png",
       "agent_visual_review": "not_performed",
-      "user_review": "pending",
+      "user_review": "approved",
       "result_link": "https://github.com/romanthoruk2008-pixel/lightweight-carousels/blob/claude/charming-einstein-xgejky/carousels/LW-CAR-0016/outputs/slide-06.png",
       "raw_generation_file": "carousels/LW-CAR-0016/production-assets/slide-06-generated.png",
       "generation_result_original_path": "/workspace/generated_images/exec-d904459f-939d-4a5b-9327-ac5f710ca5a7.png",
@@ -443,7 +443,7 @@
             "carousels/LW-CAR-0013/outputs/slide-03.png"
           ],
           "agent_visual_review": "not_performed",
-          "user_review": "pending",
+          "user_review": "approved",
           "finished_at": "2026-10-19T15:05:56.921857+03:00",
           "result_file": "carousels/LW-CAR-0016/outputs/slide-07.png",
           "raw_generation_file": "carousels/LW-CAR-0016/production-assets/slide-07-generated.png",
@@ -454,7 +454,7 @@
       "save_status": "saved_repository_file",
       "result_file": "carousels/LW-CAR-0016/outputs/slide-07.png",
       "agent_visual_review": "not_performed",
-      "user_review": "pending",
+      "user_review": "approved",
       "result_link": "https://github.com/romanthoruk2008-pixel/lightweight-carousels/blob/claude/charming-einstein-xgejky/carousels/LW-CAR-0016/outputs/slide-07.png",
       "raw_generation_file": "carousels/LW-CAR-0016/production-assets/slide-07-generated.png",
       "generation_result_original_path": "/workspace/generated_images/exec-0498b95a-86a6-4e35-8187-8769fa6a4b78.png",
@@ -500,7 +500,7 @@
             "carousels/LW-CAR-0013/outputs/slide-03.png"
           ],
           "agent_visual_review": "not_performed",
-          "user_review": "pending",
+          "user_review": "approved",
           "finished_at": "2026-10-19T15:07:01.756643+03:00",
           "result_file": "carousels/LW-CAR-0016/outputs/slide-08.png",
           "raw_generation_file": "carousels/LW-CAR-0016/production-assets/slide-08-generated.png",
@@ -511,7 +511,7 @@
       "save_status": "saved_repository_file",
       "result_file": "carousels/LW-CAR-0016/outputs/slide-08.png",
       "agent_visual_review": "not_performed",
-      "user_review": "pending",
+      "user_review": "approved",
       "result_link": "https://github.com/romanthoruk2008-pixel/lightweight-carousels/blob/claude/charming-einstein-xgejky/carousels/LW-CAR-0016/outputs/slide-08.png",
       "raw_generation_file": "carousels/LW-CAR-0016/production-assets/slide-08-generated.png",
       "generation_result_original_path": "/workspace/generated_images/exec-d1590246-635f-4489-bd38-9370f0f876a7.png",
@@ -554,7 +554,7 @@
             "carousels/LW-CAR-0001/outputs/slide-08.png"
           ],
           "agent_visual_review": "not_performed",
-          "user_review": "pending",
+          "user_review": "approved",
           "finished_at": "2026-10-19T15:08:08.594537+03:00",
           "result_file": "carousels/LW-CAR-0016/outputs/slide-09.png",
           "raw_generation_file": "carousels/LW-CAR-0016/production-assets/slide-09-generated.png",
@@ -565,7 +565,7 @@
       "save_status": "saved_repository_file",
       "result_file": "carousels/LW-CAR-0016/outputs/slide-09.png",
       "agent_visual_review": "not_performed",
-      "user_review": "pending",
+      "user_review": "approved",
       "result_link": "https://github.com/romanthoruk2008-pixel/lightweight-carousels/blob/claude/charming-einstein-xgejky/carousels/LW-CAR-0016/outputs/slide-09.png",
       "raw_generation_file": "carousels/LW-CAR-0016/production-assets/slide-09-generated.png",
       "generation_result_original_path": "/workspace/generated_images/exec-d46ec356-def8-4816-b709-e31354fdf4f7.png",
@@ -673,6 +673,16 @@
     "repository": "romanthoruk2008-pixel/lightweight-carousels",
     "branch": "claude/charming-einstein-xgejky"
   },
-  "updated_at": "2026-10-19T15:08:50.814579+03:00",
-  "delivery_archive": "carousels/LW-CAR-0016/LW-CAR-0016-1080x1350.zip"
+  "updated_at": "2026-10-19T15:20:47.674627+03:00",
+  "delivery_archive": "carousels/LW-CAR-0016/LW-CAR-0016-1080x1350.zip",
+  "owner_approval": {
+    "date": "2026-10-19",
+    "timezone": "Europe/Kiev",
+    "approved_by": "owner",
+    "source": "Explicit acceptance of the whole carousel in this conversation and instruction to push it to GitHub with accepted-by-user status.",
+    "scope": "all nine final assembled slides, content_version 1.0",
+    "output_commit": "a2e0b96",
+    "published_output_commit": "4937789",
+    "recorded_at": "2026-10-19T15:20:47.674627+03:00"
+  }
 }
