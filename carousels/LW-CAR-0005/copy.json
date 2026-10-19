@@ -1,6 +1,6 @@
 {
   "carousel_id": "LW-CAR-0005",
-  "content_version": "1.0",
+  "content_version": "1.1",
   "status": "frozen",
   "language": "en",
   "font_family": "Rubik",
@@ -233,7 +233,7 @@
           "style": "body, regular, text_body_grey"
         },
         {
-          "string": "I use Lightweight for that.",
+          "string": "I use Harda for that.",
           "style": "body, regular, text_body_grey"
         }
       ],
@@ -245,5 +245,6 @@
     "'Pec Dec' spelling",
     "'every muscle group' on a push-only post",
     "all exercise-to-muscle mappings"
-  ]
+  ],
+  "brand_note": "v1.1: app renamed Lightweight → Harda (owner 2026-10-19); only the brand name changed, on slide(s) [8]."
 }

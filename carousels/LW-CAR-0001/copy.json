@@ -1,6 +1,6 @@
 {
   "carousel_id": "LW-CAR-0001",
-  "content_version": "1.0",
+  "content_version": "1.1",
   "status": "frozen_for_pilot",
   "source": {
     "ref_id": "REF-007",
@@ -244,7 +244,7 @@
           "style": "body, light/regular, text_body_grey"
         },
         {
-          "string": "Check your progress in Lightweight to make sure you’re still growing.",
+          "string": "Check your progress in Harda to make sure you’re still growing.",
           "style": "body, light/regular, text_body_grey",
           "draft": true,
           "original": "Check your progress overload score to make sure you’re still growing.",
@@ -258,5 +258,6 @@
     "'Reverse Pec Dec' spelling",
     "'be consistently progress overloading' grammar",
     "all exercise-to-muscle mappings and set/rep ranges"
-  ]
+  ],
+  "brand_note": "v1.1: app renamed Lightweight → Harda (owner 2026-10-19); only the brand name changed, on slide(s) [8]."
 }

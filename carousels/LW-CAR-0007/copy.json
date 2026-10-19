@@ -1,6 +1,6 @@
 {
   "carousel_id": "LW-CAR-0007",
-  "content_version": "1.1",
+  "content_version": "1.2",
   "status": "frozen",
   "type": "original",
   "source": {
@@ -269,7 +269,7 @@
           "style": "body, regular, text_body_grey"
         },
         {
-          "string": "Lightweight counts your working sets and shows how they're split across every muscle group.",
+          "string": "Harda counts your working sets and shows how they're split across every muscle group.",
           "style": "body, regular, text_body_grey"
         }
       ],
@@ -295,5 +295,6 @@
         "'Most lifters' → 'Most people' on slides 2 and 8 (owner: no 'lifters')"
       ]
     }
-  ]
+  ],
+  "brand_note": "v1.2: app renamed Lightweight → Harda (owner 2026-10-19); only the brand name changed, on slide(s) [8]."
 }

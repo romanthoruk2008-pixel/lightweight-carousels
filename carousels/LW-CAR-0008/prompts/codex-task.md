@@ -1,6 +1,6 @@
-# Codex task — LW-CAR-0008 "WEAK CHEST?" (original Lightweight carousel)
+# Codex task — LW-CAR-0008 "WEAK CHEST?" (original Harda carousel)
 
-First read `carousels/CODEX-SERIES-RULES.md`. It covers palette, Rubik, logo, phone ending, format, saving, manifest, no added punctuation, no clipped text. Exact copy: `carousels/LW-CAR-0008/copy.json` (content_version 1.0). Repository: romanthoruk2008-pixel/lightweight-carousels, branch `claude/charming-einstein-xgejky`.
+First read `carousels/CODEX-SERIES-RULES.md`. It covers palette, Rubik, logo, phone ending, format, saving, manifest, no added punctuation, no clipped text. Exact copy: `carousels/LW-CAR-0008/copy.json` (content_version 1.1). Repository: romanthoruk2008-pixel/lightweight-carousels, branch `claude/charming-einstein-xgejky`.
 
 This is our own carousel: the chest version of our approved **WEAK BACK?** (LW-CAR-0001). It must look like its twin: same layouts, sizes, badges, underline bars, arch, wordmark, illustration style. The main difference is that the figures are seen **from the front**.
 
@@ -59,9 +59,9 @@ Copy the approved slide's composition exactly: wordmark, left-aligned headline, 
 - Headline: `Is Your Chest Getting Enough Work?` (bold, #2A2A2A). Break it into two lines if it does not fit on one at the template size.
 - Short #F26445 underline bar.
 - Body, two paragraphs, regular #6B6B6B:
-  - `Log your workouts in Lightweight.`
+  - `Log your workouts in Harda.`
   - `See how many sets your chest gets compared to every other muscle.`
-- Phone: the **real Lightweight Muscle balance screenshot** (radar with a Chest axis, "Based on Working sets"), same as the approved slide, true proportions, never squashed, may run off the bottom edge. All body text fully visible above the phone. Do not generate, redraw or imitate UI.
+- Phone: the **real Harda Muscle balance screenshot** (radar with a Chest axis, "Based on Working sets"), same as the approved slide, true proportions, never squashed, may run off the bottom edge. All body text fully visible above the phone. Do not generate, redraw or imitate UI.
 
 ## Caption
 Write `caption.txt` from `copy.json` → `caption.text`, verbatim.

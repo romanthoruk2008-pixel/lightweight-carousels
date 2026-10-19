@@ -1,6 +1,6 @@
-# Codex task — LW-CAR-0012 "5 MISTAKES KILLING YOUR GAINS" (original Lightweight carousel)
+# Codex task — LW-CAR-0012 "5 MISTAKES KILLING YOUR GAINS" (original Harda carousel)
 
-First read `carousels/CODEX-SERIES-RULES.md`. It covers palette, Rubik, logo, phone ending, format, saving, manifest, no added punctuation, no clipped text. Exact copy: `carousels/LW-CAR-0012/copy.json` (content_version 1.0). Repository: romanthoruk2008-pixel/lightweight-carousels, branch `claude/charming-einstein-xgejky`.
+First read `carousels/CODEX-SERIES-RULES.md`. It covers palette, Rubik, logo, phone ending, format, saving, manifest, no added punctuation, no clipped text. Exact copy: `carousels/LW-CAR-0012/copy.json` (content_version 1.1). Repository: romanthoruk2008-pixel/lightweight-carousels, branch `claude/charming-einstein-xgejky`.
 
 Our own carousel in the series style: a **countdown from #5 to #1**. Each mistake slide shows the mistake as a small, slightly funny illustration, so people recognise themselves and comment. The humour is friendly, never mean.
 
@@ -52,8 +52,8 @@ Same anatomical mannequin as the series: bald, faceless, **smooth plastic anatom
 Copy the approved slide's composition exactly: wordmark, left-aligned headline, underline bar, body, the hand holding the tall phone, the arch. Change only the text:
 - Headline, two lines, bold: `Fix #1 And #2` in #2A2A2A, then `Starting Today.` in #F26445.
 - Short #F26445 underline bar.
-- Body, regular #6B6B6B: `Log every set in Lightweight and beat your last session.`
-- Phone: the same **real Lightweight screenshot** as the approved slide (Workout and Sets counts), true proportions, never squashed, may run off the bottom edge. If the owner gives you a workout-log screenshot, use that instead. Do not generate, redraw or imitate UI. All text fully visible above the phone.
+- Body, regular #6B6B6B: `Log every set in Harda and beat your last session.`
+- Phone: the same **real Harda screenshot** as the approved slide (Workout and Sets counts), true proportions, never squashed, may run off the bottom edge. If the owner gives you a workout-log screenshot, use that instead. Do not generate, redraw or imitate UI. All text fully visible above the phone.
 
 ## Caption
 Write `caption.txt` from `copy.json` → `caption.text`, verbatim.

@@ -437,5 +437,6 @@
     "scope": "All eight outputs, prompts, frozen copy, caption, manifest and ZIP in one commit."
   },
   "updated_at": "2026-10-19T09:14:28.325409+00:00",
-  "delivery_archive": "carousels/LW-CAR-0009/LW-CAR-0009-1080x1350.zip"
+  "delivery_archive": "carousels/LW-CAR-0009/LW-CAR-0009-1080x1350.zip",
+  "rebrand_2026_10_19": "Logo on every slide replaced with the Harda logo (assets/logo/harda-logo-full.png, x48 y19 218x71) by Claude as a deterministic overlay: old logo area restored from surrounding background, nothing else changed. Owner approval of the slides still stands."
 }

@@ -515,5 +515,6 @@
     "output_commit": "d7da049",
     "published_output_commit": "4dc9e36",
     "recorded_at": "2026-10-19T14:47:13.239896+03:00"
-  }
+  },
+  "rebrand_2026_10_19": "Logo on every slide replaced with the Harda logo (assets/logo/harda-logo-full.png, x48 y19 218x71) by Claude as a deterministic overlay: old logo area restored from surrounding background, nothing else changed. Owner approval of the slides still stands."
 }

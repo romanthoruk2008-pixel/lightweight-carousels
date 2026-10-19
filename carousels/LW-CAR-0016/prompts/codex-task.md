@@ -1,6 +1,6 @@
-# Codex task — LW-CAR-0016 "CAN'T DO A PULL-UP?" (original Lightweight carousel)
+# Codex task — LW-CAR-0016 "CAN'T DO A PULL-UP?" (original Harda carousel)
 
-First read `carousels/CODEX-SERIES-RULES.md`. It covers palette, Rubik, logo, phone ending, format, saving, manifest, no added punctuation, no clipped text, and the **backgrounds**. Exact copy: `carousels/LW-CAR-0016/copy.json` (content_version 1.0). Repository: romanthoruk2008-pixel/lightweight-carousels, branch `claude/charming-einstein-xgejky`.
+First read `carousels/CODEX-SERIES-RULES.md`. It covers palette, Rubik, logo, phone ending, format, saving, manifest, no added punctuation, no clipped text, and the **backgrounds**. Exact copy: `carousels/LW-CAR-0016/copy.json` (content_version 1.1). Repository: romanthoruk2008-pixel/lightweight-carousels, branch `claude/charming-einstein-xgejky`.
 
 **Background: `CLEAN`** on every slide. No arch: the template slides below still show the old arch, so ignore it.
 
@@ -47,8 +47,8 @@ Series mannequin: bald, faceless, **smooth plastic anatomy mannequin with a feat
 ### Slide 9 — product ending (template: LW-CAR-0001 slide 8, approved)
 Same composition as the approved slide. Text:
 - Headline, two lines, bold: `Track Every Level.` in #2A2A2A, then `Celebrate Rep #1.` in #F26445. Short #F26445 underline bar.
-- Body, regular #6B6B6B: `Log your sets in Lightweight and watch the reps add up.`
-- Phone: the same **real Lightweight screenshot** as the approved slide, true proportions, never squashed. Do not generate, redraw or imitate UI. All text fully visible.
+- Body, regular #6B6B6B: `Log your sets in Harda and watch the reps add up.`
+- Phone: the same **real Harda screenshot** as the approved slide, true proportions, never squashed. Do not generate, redraw or imitate UI. All text fully visible.
 
 ## Caption
 Write `caption.txt` from `copy.json` → `caption.text`, verbatim.

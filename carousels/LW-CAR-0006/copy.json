@@ -1,6 +1,6 @@
 {
   "carousel_id": "LW-CAR-0006",
-  "content_version": "1.1",
+  "content_version": "1.2",
   "status": "frozen",
   "type": "original",
   "source": {
@@ -268,11 +268,11 @@
           "style": "headline, bold, text_dark, left-aligned"
         },
         {
-          "string": "Log your workouts in Lightweight.",
+          "string": "Log your workouts in Harda.",
           "style": "body, regular, text_body_grey"
         },
         {
-          "string": "Lightweight shows which muscles you're forgetting.",
+          "string": "Harda shows which muscles you're forgetting.",
           "style": "body, regular, text_body_grey"
         }
       ],
@@ -298,5 +298,6 @@
         "owner decision: this carousel keeps 'Lifters' (slide 2, caption) as generated and approved; the 'no lifters' rule applies to new carousels"
       ]
     }
-  ]
+  ],
+  "brand_note": "v1.2: app renamed Lightweight → Harda (owner 2026-10-19); only the brand name changed, on slide(s) [8]."
 }

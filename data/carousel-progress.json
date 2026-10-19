@@ -32,7 +32,8 @@
         6,
         7
       ],
-      "design_style": "S1"
+      "design_style": "S1",
+      "rebrand": "logo swapped to Harda; slide 8 text waits for carousels/HARDA-REBRAND-ENDINGS.md"
     },
     {
       "id": "LW-CAR-0002",
@@ -45,7 +46,8 @@
       "generation": "not_started",
       "user_review": "pending",
       "path": "carousels/LW-CAR-0002/",
-      "design_style": "S1"
+      "design_style": "S1",
+      "rebrand": "logo swapped to Harda; no brand name in text"
     },
     {
       "id": "LW-CAR-0003",
@@ -58,7 +60,8 @@
       "generation": "not_started",
       "user_review": "approved",
       "path": "carousels/LW-CAR-0003/",
-      "design_style": "S1"
+      "design_style": "S1",
+      "rebrand": "logo swapped to Harda; no brand name in text"
     },
     {
       "id": "LW-CAR-0004",
@@ -86,7 +89,8 @@
       "generation": "not_started",
       "user_review": "slides 1-7 approved; slide 8 waits for the Distribution screenshot file",
       "path": "carousels/LW-CAR-0005/",
-      "design_style": "S1"
+      "design_style": "S1",
+      "rebrand": "logo swapped to Harda; slide 8 (Harda text) waits for the Distribution screenshot"
     },
     {
       "id": "LW-CAR-0006",
@@ -100,7 +104,8 @@
       "generation": "generated_8_of_8_v1.0",
       "user_review": "slides 1-7 approved; slide 8 waits for the Distribution screenshot file (+ v1.1 text)",
       "path": "carousels/LW-CAR-0006/",
-      "design_style": "S1"
+      "design_style": "S1",
+      "rebrand": "logo swapped to Harda; slide 8 (Harda text) waits for the Distribution screenshot"
     },
     {
       "id": "LW-CAR-0007",
@@ -114,7 +119,8 @@
       "generation": "not_started",
       "user_review": "approved",
       "path": "carousels/LW-CAR-0007/",
-      "design_style": "S1"
+      "design_style": "S1",
+      "rebrand": "logo swapped to Harda; slide 8 text waits for carousels/HARDA-REBRAND-ENDINGS.md"
     },
     {
       "id": "LW-CAR-0008",
@@ -128,7 +134,8 @@
       "generation": "not_started",
       "user_review": "pending",
       "path": "carousels/LW-CAR-0008/",
-      "design_style": "S1"
+      "design_style": "S1",
+      "rebrand": "logo swapped to Harda; slide 8 text waits for carousels/HARDA-REBRAND-ENDINGS.md"
     },
     {
       "id": "LW-CAR-0009",
@@ -142,7 +149,8 @@
       "generation": "not_started",
       "user_review": "pending",
       "path": "carousels/LW-CAR-0009/",
-      "design_style": "S1"
+      "design_style": "S1",
+      "rebrand": "logo swapped to Harda; no brand name in text"
     },
     {
       "id": "LW-CAR-0010",
@@ -156,7 +164,8 @@
       "generation": "not_started",
       "user_review": "pending",
       "path": "carousels/LW-CAR-0010/",
-      "design_style": "S1"
+      "design_style": "S1",
+      "rebrand": "logo swapped to Harda; slide 10 text waits for carousels/HARDA-REBRAND-ENDINGS.md"
     },
     {
       "id": "LW-CAR-0011",
@@ -184,7 +193,8 @@
       "generation": "not_started",
       "user_review": "pending",
       "path": "carousels/LW-CAR-0012/",
-      "design_style": "S1"
+      "design_style": "S1",
+      "rebrand": "logo swapped to Harda; slide 8 text waits for carousels/HARDA-REBRAND-ENDINGS.md"
     },
     {
       "id": "LW-CAR-0013",
@@ -198,7 +208,8 @@
       "generation": "not_started",
       "user_review": "pending",
       "path": "carousels/LW-CAR-0013/",
-      "design_style": "S1"
+      "design_style": "S1",
+      "rebrand": "logo swapped to Harda; slide 9 text waits for carousels/HARDA-REBRAND-ENDINGS.md"
     },
     {
       "id": "LW-CAR-0014",
@@ -213,7 +224,8 @@
       "generation": "not_started",
       "user_review": "approved",
       "path": "carousels/LW-CAR-0014/",
-      "design_style": "S1"
+      "design_style": "S1",
+      "rebrand": "logo swapped to Harda; slide 9 text waits for carousels/HARDA-REBRAND-ENDINGS.md"
     },
     {
       "id": "LW-CAR-0015",
@@ -228,7 +240,8 @@
       "generation": "not_started",
       "user_review": "pending",
       "path": "carousels/LW-CAR-0015/",
-      "design_style": "S1"
+      "design_style": "S1",
+      "rebrand": "logo swapped to Harda; slide 8 text waits for carousels/HARDA-REBRAND-ENDINGS.md"
     },
     {
       "id": "LW-CAR-0016",
@@ -243,7 +256,8 @@
       "generation": "not_started",
       "user_review": "approved",
       "path": "carousels/LW-CAR-0016/",
-      "design_style": "S1"
+      "design_style": "S1",
+      "rebrand": "logo swapped to Harda; slide 9 text waits for carousels/HARDA-REBRAND-ENDINGS.md"
     },
     {
       "id": "LW-CAR-0017",
@@ -306,7 +320,8 @@
       "user_review": "approved",
       "next_action": "ready to post",
       "path": "carousels/LW-CAR-0020/",
-      "design_style": "S2 master"
+      "design_style": "S2 master",
+      "rebrand": "logo swapped to Harda; slide 19 text waits for carousels/HARDA-REBRAND-ENDINGS.md"
     },
     {
       "id": "LW-CAR-0021",
@@ -322,7 +337,8 @@
       "generation": "complete (19/19)",
       "user_review": "approved",
       "next_action": "ready to post",
-      "path": "carousels/LW-CAR-0021/"
+      "path": "carousels/LW-CAR-0021/",
+      "rebrand": "logo swapped to Harda; slide 19 text waits for carousels/HARDA-REBRAND-ENDINGS.md"
     },
     {
       "id": "LW-CAR-0022",

@@ -568,5 +568,6 @@
     "reviewed_output_commit": "24632e0c3147821dce2ea69637be45937526257f",
     "scope_note": "Owner said all the others may be pushed; interpreted as slides 1-7, keeping the final slide pending.",
     "agent_visual_review": "not_performed"
-  }
+  },
+  "rebrand_2026_10_19": "Logo on every slide replaced with the Harda logo (assets/logo/harda-logo-full.png, x48 y19 218x71) by Claude as a deterministic overlay: old logo area restored from surrounding background, nothing else changed. Owner approval of the slides still stands."
 }

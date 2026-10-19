@@ -1,6 +1,6 @@
-# Codex task — LW-CAR-0006 "THE MUSCLES YOU'RE FORGETTING" (original Lightweight carousel)
+# Codex task — LW-CAR-0006 "THE MUSCLES YOU'RE FORGETTING" (original Harda carousel)
 
-First read `carousels/CODEX-SERIES-RULES.md`. It covers palette, Rubik, logo, phone ending, format, saving and manifest. Exact copy: `carousels/LW-CAR-0006/copy.json` (content_version 1.1). Repository: romanthoruk2008-pixel/lightweight-carousels, branch `claude/charming-einstein-xgejky`.
+First read `carousels/CODEX-SERIES-RULES.md`. It covers palette, Rubik, logo, phone ending, format, saving and manifest. Exact copy: `carousels/LW-CAR-0006/copy.json` (content_version 1.2). Repository: romanthoruk2008-pixel/lightweight-carousels, branch `claude/charming-einstein-xgejky`.
 
 **This one is different:** it is our own topic and text, and there is no competitor reference. The visual references are **our own approved slides of LW-CAR-0001** ("WEAK BACK?"). Open them and copy their look exactly: composition, spacing, type sizes, badge and underline shapes, illustration style, line weights, colors, wordmark. Only the text, the highlighted muscles and the exercises change.
 
@@ -56,9 +56,9 @@ Copy the approved slide's composition exactly: wordmark, left-aligned headline, 
 - Headline: `Not Sure What You're Skipping?` (bold, #2A2A2A). If it does not fit on one line at the template size, break it after "What".
 - Short #F26445 underline bar.
 - Body, two paragraphs, regular #6B6B6B:
-  - `Log your workouts in Lightweight.`
-  - `Lightweight shows which muscles you're forgetting.`
-- Phone: the **same real Lightweight Muscle balance screenshot** as the approved slide (it shows "No core work in this period"), true proportions, never squashed, phone may run off the bottom edge. Do not generate, redraw or imitate UI.
+  - `Log your workouts in Harda.`
+  - `Harda shows which muscles you're forgetting.`
+- Phone: the **same real Harda Muscle balance screenshot** as the approved slide (it shows "No core work in this period"), true proportions, never squashed, phone may run off the bottom edge. Do not generate, redraw or imitate UI.
 
 ## Caption
 Write `caption.txt` from `copy.json` → `caption.text`, verbatim.

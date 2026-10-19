@@ -1,6 +1,6 @@
 {
   "carousel_id": "LW-CAR-0015",
-  "content_version": "1.0",
+  "content_version": "1.1",
   "status": "frozen",
   "type": "original",
   "language": "en",
@@ -233,7 +233,7 @@
           "style": "headline, bold, text_dark, left-aligned"
         },
         {
-          "string": "Log your workouts in Lightweight.",
+          "string": "Log your workouts in Harda.",
           "style": "body, regular, text_body_grey"
         },
         {
@@ -248,5 +248,6 @@
     "'The biggest muscle in your upper arm': the triceps has the largest volume of the upper-arm muscles (e.g. Holzbaur et al., 2007, upper limb muscle volumes). Verify before citing.",
     "'Brachialis pushes the biceps up': common coaching description (brachialis lies under the biceps).",
     "Pump tip is playful and temporary by design."
-  ]
+  ],
+  "brand_note": "v1.1: app renamed Lightweight → Harda (owner 2026-10-19); only the brand name changed, on slide(s) [8]."
 }

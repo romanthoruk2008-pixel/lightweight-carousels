@@ -1117,5 +1117,6 @@
   },
   "design_style": "S2 master (owner-approved 2026-10-19)",
   "repository_sync_commit": "5f482816eec2a48836156e3d92ed186ca2128659",
-  "owner_approval": "2026-10-19: owner approved all 19 slides as they are, including slide 19 (no fixes wanted). LW-CAR-0020 is the S2 master."
+  "owner_approval": "2026-10-19: owner approved all 19 slides as they are, including slide 19 (no fixes wanted). LW-CAR-0020 is the S2 master.",
+  "rebrand_2026_10_19": "Logo on every slide replaced with the Harda logo (assets/logo/harda-logo-full.png, x48 y19 218x71) by Claude as a deterministic overlay: old logo area restored from surrounding background, nothing else changed. Owner approval of the slides still stands."
 }

@@ -1,6 +1,6 @@
 # Codex task — LW-CAR-0021 "back tier list" (style S2, our own ranking)
 
-First read `carousels/CODEX-SERIES-RULES.md` and `docs/DESIGN-STYLES.md` (style **S2**). Exact copy: `carousels/LW-CAR-0021/copy.json` (content_version 1.0). Repository: romanthoruk2008-pixel/lightweight-carousels, branch `claude/charming-einstein-xgejky`.
+First read `carousels/CODEX-SERIES-RULES.md` and `docs/DESIGN-STYLES.md` (style **S2**). Exact copy: `carousels/LW-CAR-0021/copy.json` (content_version 1.1). Repository: romanthoruk2008-pixel/lightweight-carousels, branch `claude/charming-einstein-xgejky`.
 
 **What this is.** The sister carousel of LW-CAR-0020 (chest tier list), now for the back. **Same look, same layouts, same type, colours and figure as LW-CAR-0020.** Every word and every exercise comes from this file and copy.json.
 
@@ -10,7 +10,7 @@ First read `carousels/CODEX-SERIES-RULES.md` and `docs/DESIGN-STYLES.md` (style 
 
 ## Look (S2)
 - **Background:** solid **#F0F1EB** (`CLEAN`), opaque, no texture.
-- **Logo:** `assets/logo/lightweight-logo-full.png` at x 48, y 19, 341 x 71, with its own transparency. Top 110 px free of everything else.
+- **Logo:** `assets/logo/harda-logo-full.png` at x 48, y 19, 218 x 71, with its own transparency. Top 110 px free of everything else.
 - **Figure:** realistic **white / light-grey** anatomical mannequin, bald and faceless, fine grey shading, **featureless smooth pelvis**, shorts **#2A2A2A**. No coloured muscles on the exercise slides. On the cover the back is filled **#F26445**. Equipment black / grey.
 - **Accent #F26445:** marker bars behind words, filled stars. Empty stars #D6D6D2; a half star is half filled.
 - **Tier tiles:** rounded square, big white bold letter with a soft shadow: `S` **#F26445**, `A` #FF9A52, `B` #FFD95A, `C` #3FCF5E, `F` #5BDCE3.
@@ -44,9 +44,9 @@ Keep lowercase, hyphens and apostrophes (`it’s`) exactly. Do not add capitals 
 ### Slide 19 — product ending (same composition as LW-CAR-0020 slide 19)
 - Text on top, the sketch-style hand in the white style holding the tall phone from the bottom right; the phone may run off the bottom edge. Leave a clear gap between the last line of body text and the top of the phone, so the phone never touches the text.
 - Headline, large, lowercase, heaviest grotesk, #2A2A2A, left-aligned, with **#F26445 marker bars** under `every set you lift` and under `your back gets enough work`:
-  `lightweight tracks every set you lift and shows if your back gets enough work.`
+  `harda tracks every set you lift and shows if your back gets enough work.`
 - Body, regular #2A2A2A: `log your workouts and check your muscle balance, so your back never falls behind.`
-- Phone: the **real Lightweight Progress / Muscle balance screenshot** (radar with a Back axis), the same one as on the approved LW-CAR-0001 slide 8, true proportions, never squashed. Never generate, redraw or imitate app UI.
+- Phone: the **real Harda Progress / Muscle balance screenshot** (radar with a Back axis), the same one as on the approved LW-CAR-0001 slide 8, true proportions, never squashed. Never generate, redraw or imitate app UI.
 
 ## Caption
 Write `caption.txt` from `copy.json` → `caption.text`, verbatim.

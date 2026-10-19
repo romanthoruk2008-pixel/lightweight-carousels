@@ -1,6 +1,6 @@
 {
   "carousel_id": "LW-CAR-0016",
-  "content_version": "1.0",
+  "content_version": "1.1",
   "status": "frozen",
   "type": "original",
   "language": "en",
@@ -254,7 +254,7 @@
           "style": "headline line 2, bold, accent, left-aligned"
         },
         {
-          "string": "Log your sets in Lightweight and watch the reps add up.",
+          "string": "Log your sets in Harda and watch the reps add up.",
           "style": "body, regular, text_body_grey"
         }
       ],
@@ -265,5 +265,6 @@
     "The 6-step order (hang → scapular pulls → rows → negatives → assisted → full) is a standard calisthenics progression.",
     "Targets per level are coaching heuristics, not study results.",
     "No timeline promised on purpose: it differs a lot between people."
-  ]
+  ],
+  "brand_note": "v1.1: app renamed Lightweight → Harda (owner 2026-10-19); only the brand name changed, on slide(s) [9]."
 }

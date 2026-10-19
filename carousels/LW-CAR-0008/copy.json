@@ -1,6 +1,6 @@
 {
   "carousel_id": "LW-CAR-0008",
-  "content_version": "1.0",
+  "content_version": "1.1",
   "status": "frozen",
   "type": "original",
   "source": {
@@ -234,7 +234,7 @@
           "style": "headline, bold, text_dark, left-aligned"
         },
         {
-          "string": "Log your workouts in Lightweight.",
+          "string": "Log your workouts in Harda.",
           "style": "body, regular, text_body_grey"
         },
         {
@@ -255,5 +255,6 @@
     "'Weak triceps cut your presses short': triceps drive the lockout of presses; coaching statement.",
     "'deep stretch at the bottom': consistent with recent research favouring training at long muscle lengths; no study cited on the slide.",
     "Rep ranges are generic hypertrophy guidance."
-  ]
+  ],
+  "brand_note": "v1.1: app renamed Lightweight → Harda (owner 2026-10-19); only the brand name changed, on slide(s) [8]."
 }

@@ -1,8 +1,8 @@
 # Codex task — LW-CAR-0001 "WEAK BACK?" (pilot)
 
-You are the visual producer for Lightweight, a fitness app. Generate one TikTok photo carousel that reproduces the reference carousel REF-007 as closely as possible: the same slides, same order, same text, same composition, same illustrations and poses. Change only what is listed under "Substitutions". Do not add, remove, rewrite or "improve" anything else, including copy that looks wrong. The owner wants it 1:1.
+You are the visual producer for Harda, a fitness app. Generate one TikTok photo carousel that reproduces the reference carousel REF-007 as closely as possible: the same slides, same order, same text, same composition, same illustrations and poses. Change only what is listed under "Substitutions". Do not add, remove, rewrite or "improve" anything else, including copy that looks wrong. The owner wants it 1:1.
 
-Repository: romanthoruk2008-pixel/lightweight-carousels, branch `claude/charming-einstein-xgejky`. The exact copy is in `carousels/LW-CAR-0001/copy.json` (content_version 1.0). It matches this prompt; if they ever differ, copy.json wins.
+Repository: romanthoruk2008-pixel/lightweight-carousels, branch `claude/charming-einstein-xgejky`. The exact copy is in `carousels/LW-CAR-0001/copy.json` (content_version 1.1). It matches this prompt; if they ever differ, copy.json wins.
 
 ## Reference images (slide order)
 1. https://github.com/user-attachments/assets/665b9bc5-d7f3-44ef-ba52-e8ea4be6106a
@@ -23,9 +23,9 @@ Before generating, open the images and check you can see them. If you cannot ope
 - The large pale-green arch shape in the background becomes a pale tint of the accent: **#FBE3DD**.
 - Dark text: **#2A2A2A**. Grey body text: **#6B6B6B**. Background stays off-white **#F0F1EB**.
 - Font: **Rubik** for all text. Use the heaviest weight for the cover, bold for titles, regular for parentheticals and body. Rubik is wider than the original condensed cover font. Keep the same two-line stacked cover, scale it to fit, and tell the owner if the layout cannot match.
-- Logo: place the Lightweight logo small in the top-left corner of every slide, **only if the owner gives you the logo file**. Never draw or invent a logo. Without the file, leave it out and say so.
+- Logo: place the Harda logo small in the top-left corner of every slide, **only if the owner gives you the logo file**. Never draw or invent a logo. Without the file, leave it out and say so.
 - Non-highlighted muscles: warm sand **#D9CBBE** (darker shades of the same sand for shading). No green or sage tint anywhere on the figures. Skin and tendons stay light ivory (about #F5F0E5).
-- Slide 8: the Arrow app screen is replaced by a real Lightweight screenshot (see slide 8).
+- Slide 8: the Arrow app screen is replaced by a real Harda screenshot (see slide 8).
 
 ## Format
 - Size: 1080 x 1350 px (4:5), one PNG per slide. The original ratio measured from the screenshots is about 0.79. If the owner says another size, use that.
@@ -35,8 +35,8 @@ Before generating, open the images and check you can see them. If you cannot ope
 ## Order of work
 1. Generate **slide 1**, then **slide 3**: the cover and the list template. Show both to the owner and wait for OK or corrections.
 2. After OK, generate slides 2, 4, 5, 6, 7 using slide 3 as the visual master.
-3. Slide 8 only after the owner gives the Lightweight app screenshot and confirms the last line of text.
-4. After each slide, record in `carousels/LW-CAR-0001/manifest.json` (create it if it does not exist): slide number, content_version 1.0, the prompt you used, the result file or link, attempt count, errors, save status. Set `agent_visual_review` to `not_performed` and `user_review` to `pending`. No automatic QA, no extra review passes, no automatic regenerations. Only redo a slide when the owner asks.
+3. Slide 8 only after the owner gives the Harda app screenshot and confirms the last line of text.
+4. After each slide, record in `carousels/LW-CAR-0001/manifest.json` (create it if it does not exist): slide number, content_version 1.1, the prompt you used, the result file or link, attempt count, errors, save status. Set `agent_visual_review` to `not_performed` and `user_review` to `pending`. No automatic QA, no extra review passes, no automatic regenerations. Only redo a slide when the owner asks.
 5. If you hit the image limit, stop, record where you stopped, and tell the owner the next slide to generate.
 
 ## Slides
@@ -80,8 +80,8 @@ Off-white background #F0F1EB. A very large pale #FBE3DD rounded arch shape rises
 - Left-aligned headline at top: `Trying to Build Muscle?` (bold, #2A2A2A), short #F26445 underline bar under it.
 - Body, two paragraphs, regular, #6B6B6B:
   - `Then you need to be consistently progress overloading.`
-  - `Check your progress in Lightweight to make sure you’re still growing.` (draft; the owner confirms the final wording)
-- Lower ~60%: a sketch-style line-art hand (same drawing style as the figures) holds a black smartphone, slightly tilted, from the bottom right. The phone screen shows the **real Lightweight screenshot** the owner provides, placed into the screen. Do not generate, redraw or imitate app UI, scores or coach cards. If you cannot insert the real screenshot cleanly, say so instead of faking it.
+  - `Check your progress in Harda to make sure you’re still growing.` (draft; the owner confirms the final wording)
+- Lower ~60%: a sketch-style line-art hand (same drawing style as the figures) holds a black smartphone, slightly tilted, from the bottom right. The phone screen shows the **real Harda screenshot** the owner provides, placed into the screen. Do not generate, redraw or imitate app UI, scores or coach cards. If you cannot insert the real screenshot cleanly, say so instead of faking it.
 
 ## Caption (for the owner to post, not on any slide)
 `The simpliest guide for you to build your entire back! #backday #backworkout #gymtips`

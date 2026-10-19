@@ -1,6 +1,6 @@
 {
   "carousel_id": "LW-CAR-0020",
-  "content_version": "1.1",
+  "content_version": "1.2",
   "status": "frozen",
   "type": "format_from_reference",
   "language": "en",
@@ -393,7 +393,7 @@
       "role": "product ending",
       "text": [
         {
-          "string": "lightweight tracks every set you lift and shows which muscles you’re forgetting.",
+          "string": "harda tracks every set you lift and shows which muscles you’re forgetting.",
           "style": "large, lowercase, heaviest weight, text_dark; accent marker bars under 'every set you lift' and 'which muscles you’re forgetting'"
         },
         {
@@ -413,5 +413,6 @@
     "Ending: only workout logging and the Muscle balance screen, both on real screens."
   ],
   "open_questions": [],
-  "design_style": "S2 (this carousel becomes the S2 master once the owner approves it)"
+  "design_style": "S2 (this carousel becomes the S2 master once the owner approves it)",
+  "brand_note": "v1.2: app renamed Lightweight → Harda (owner 2026-10-19); only the brand name changed, on slide(s) [19]."
 }

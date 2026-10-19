@@ -1,6 +1,6 @@
 {
   "carousel_id": "LW-CAR-0010",
-  "content_version": "1.0",
+  "content_version": "1.1",
   "status": "frozen",
   "type": "original",
   "source": {
@@ -327,7 +327,7 @@
           "style": "headline line 2, bold, accent, left-aligned"
         },
         {
-          "string": "Log every workout in Lightweight and try to beat last week's numbers.",
+          "string": "Log every workout in Harda and try to beat last week's numbers.",
           "style": "body, regular, text_body_grey"
         }
       ],
@@ -342,5 +342,6 @@
     "Full body 3x per week is a standard beginner structure.",
     "'Stop 2-3 reps before you can't do another', 'add a little weight or 1 rep each week', 'rest 1-2 minutes', 'repeat for 6-8 weeks': common beginner coaching guidance, not from a single study.",
     "'under an hour' in the caption: 5 exercises x 2-3 sets with 1-2 min rest is roughly 30-50 minutes plus warm-up."
-  ]
+  ],
+  "brand_note": "v1.1: app renamed Lightweight → Harda (owner 2026-10-19); only the brand name changed, on slide(s) [10]."
 }

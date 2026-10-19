@@ -1,6 +1,6 @@
 # Codex task — LW-CAR-0005 "BEST EXERCISES FOR EVERY MUSCLE GROUP (Push Day Edition)" (from REF-004)
 
-First read `carousels/CODEX-SERIES-RULES.md`. It covers palette, Rubik, logo, phone ending, format, saving and manifest. Exact copy: `carousels/LW-CAR-0005/copy.json` (content_version 1.0). Repository: romanthoruk2008-pixel/lightweight-carousels, branch `claude/charming-einstein-xgejky`.
+First read `carousels/CODEX-SERIES-RULES.md`. It covers palette, Rubik, logo, phone ending, format, saving and manifest. Exact copy: `carousels/LW-CAR-0005/copy.json` (content_version 1.1). Repository: romanthoruk2008-pixel/lightweight-carousels, branch `claude/charming-einstein-xgejky`.
 
 8 slides, all can be generated now.
 
@@ -36,8 +36,8 @@ First read `carousels/CODEX-SERIES-RULES.md`. It covers palette, Rubik, logo, ph
 | 7 | `#6` | `Triceps (Long Head)` | the same rear view, long head of the triceps on both arms | standing, holding a cable handle near the chest, cable running up — `Triceps Extension` | rear view, cable overhead triceps extension with a rope — `Overhead Extension` |
 
 ### Slide 8 — bonus tip / product ending
-- Top-left: `Bonus Tip`, bold, #F26445, short #F26445 underline bar under it. Then two left-aligned lines, regular #6B6B6B: `Track your workouts in every session` and `I use Lightweight for that.`
-- Right side: a large anatomical figure (head and torso, faceless, series style) whose hand holds up a phone on the left, as in the source. The phone shows the **default real Lightweight screenshot** (see series rules: true proportions, never squashed; the phone may run off the bottom edge).
+- Top-left: `Bonus Tip`, bold, #F26445, short #F26445 underline bar under it. Then two left-aligned lines, regular #6B6B6B: `Track your workouts in every session` and `I use Harda for that.`
+- Right side: a large anatomical figure (head and torso, faceless, series style) whose hand holds up a phone on the left, as in the source. The phone shows the **default real Harda screenshot** (see series rules: true proportions, never squashed; the phone may run off the bottom edge).
 
 ## Caption
 Write `caption.txt` from `copy.json` → `caption.text`, verbatim.

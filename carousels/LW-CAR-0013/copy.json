@@ -1,6 +1,6 @@
 {
   "carousel_id": "LW-CAR-0013",
-  "content_version": "1.0",
+  "content_version": "1.1",
   "status": "frozen",
   "type": "original",
   "source": {
@@ -297,7 +297,7 @@
           "style": "headline line 2, bold, accent, left-aligned"
         },
         {
-          "string": "Log every set in Lightweight. Next time, you'll know exactly what to beat.",
+          "string": "Log every set in Harda. Next time, you'll know exactly what to beat.",
           "style": "body, regular, text_body_grey"
         }
       ],
@@ -312,5 +312,6 @@
     "Double progression (8 → 12 reps, then add weight) is a common coaching method, not a study result.",
     "Example numbers (20 kg, 22.5 kg) are illustrative, not a prescription.",
     "'Stuck for 2-3 weeks' checklist is general coaching advice."
-  ]
+  ],
+  "brand_note": "v1.1: app renamed Lightweight → Harda (owner 2026-10-19); only the brand name changed, on slide(s) [9]."
 }

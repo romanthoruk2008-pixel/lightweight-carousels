@@ -1,6 +1,6 @@
-# Codex task — LW-CAR-0010 "YOUR FIRST WEEK IN THE GYM" (original Lightweight carousel, beginners)
+# Codex task — LW-CAR-0010 "YOUR FIRST WEEK IN THE GYM" (original Harda carousel, beginners)
 
-First read `carousels/CODEX-SERIES-RULES.md`. It covers palette, Rubik, logo, phone ending, format, saving, manifest, no added punctuation, no clipped text. Exact copy: `carousels/LW-CAR-0010/copy.json` (content_version 1.0). Repository: romanthoruk2008-pixel/lightweight-carousels, branch `claude/charming-einstein-xgejky`.
+First read `carousels/CODEX-SERIES-RULES.md`. It covers palette, Rubik, logo, phone ending, format, saving, manifest, no added punctuation, no clipped text. Exact copy: `carousels/LW-CAR-0010/copy.json` (content_version 1.1). Repository: romanthoruk2008-pixel/lightweight-carousels, branch `claude/charming-einstein-xgejky`.
 
 Our own carousel for **beginners**. It must look like the rest of the series. Every slide layout already exists in our approved slides, so copy those layouts exactly and change only the text, highlights and exercises. 10 slides, all can be generated now. The tone is friendly and simple: beginners must find it easy, not intimidating.
 
@@ -71,8 +71,8 @@ Same anatomical mannequin as the series: bald, faceless, **smooth plastic anatom
 Copy the approved slide's composition exactly: wordmark, left-aligned headline, underline bar, body, the hand holding the tall phone, the arch. Change only the text:
 - Headline, two lines, bold: `Week One Done?` in #2A2A2A, then `Now Beat It.` in #F26445.
 - Short #F26445 underline bar.
-- Body, regular #6B6B6B: `Log every workout in Lightweight and try to beat last week's numbers.`
-- Phone: the same **real Lightweight screenshot** as the approved slide (Muscle balance with Workout and Sets counts), true proportions, never squashed, may run off the bottom edge. If the owner gives you a workout-log screenshot for this carousel, use that instead. Do not generate, redraw or imitate UI. All text fully visible above the phone.
+- Body, regular #6B6B6B: `Log every workout in Harda and try to beat last week's numbers.`
+- Phone: the same **real Harda screenshot** as the approved slide (Muscle balance with Workout and Sets counts), true proportions, never squashed, may run off the bottom edge. If the owner gives you a workout-log screenshot for this carousel, use that instead. Do not generate, redraw or imitate UI. All text fully visible above the phone.
 
 ## Caption
 Write `caption.txt` from `copy.json` → `caption.text`, verbatim.

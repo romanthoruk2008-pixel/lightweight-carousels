@@ -1,6 +1,6 @@
-# Codex task — LW-CAR-0007 "HOW MANY SETS DO YOU ACTUALLY NEED?" (original Lightweight carousel)
+# Codex task — LW-CAR-0007 "HOW MANY SETS DO YOU ACTUALLY NEED?" (original Harda carousel)
 
-First read `carousels/CODEX-SERIES-RULES.md`. It covers palette, Rubik, logo, phone ending, format, saving and manifest. Exact copy: `carousels/LW-CAR-0007/copy.json` (content_version 1.1). Repository: romanthoruk2008-pixel/lightweight-carousels, branch `claude/charming-einstein-xgejky`.
+First read `carousels/CODEX-SERIES-RULES.md`. It covers palette, Rubik, logo, phone ending, format, saving and manifest. Exact copy: `carousels/LW-CAR-0007/copy.json` (content_version 1.2). Repository: romanthoruk2008-pixel/lightweight-carousels, branch `claude/charming-einstein-xgejky`.
 
 This is our own topic and text, with no competitor carousel to copy. It must look like the same series as LW-CAR-0001 and LW-CAR-0002: same background, arch, wordmark, Rubik, palette, illustration style. Several slides here are **information slides** (a big number, a checklist, a table, a small chart). Make them clean, large and readable on a phone. Treat them like a premium fitness infographic, never cluttered.
 
@@ -82,8 +82,8 @@ Copy the approved slide's composition exactly: wordmark, left-aligned headline, 
 - Short #F26445 underline bar.
 - Body, two paragraphs, regular #6B6B6B:
   - `Most people guess.`
-  - `Lightweight counts your working sets and shows how they're split across every muscle group.`
-- Phone: the **same real Lightweight Muscle balance screenshot** as the approved slide ("Based on Working sets", Sets 35), true proportions, never squashed, may run off the bottom edge. Do not generate, redraw or imitate UI.
+  - `Harda counts your working sets and shows how they're split across every muscle group.`
+- Phone: the **same real Harda Muscle balance screenshot** as the approved slide ("Based on Working sets", Sets 35), true proportions, never squashed, may run off the bottom edge. Do not generate, redraw or imitate UI.
 
 ## Caption
 Write `caption.txt` from `copy.json` → `caption.text`, verbatim.

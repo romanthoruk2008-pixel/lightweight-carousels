@@ -1,6 +1,6 @@
 {
   "carousel_id": "LW-CAR-0012",
-  "content_version": "1.0",
+  "content_version": "1.1",
   "status": "frozen",
   "type": "original",
   "source": {
@@ -202,7 +202,7 @@
           "style": "headline line 2, bold, accent, left-aligned"
         },
         {
-          "string": "Log every set in Lightweight and beat your last session.",
+          "string": "Log every set in Harda and beat your last session.",
           "style": "body, regular, text_body_grey"
         }
       ],
@@ -217,5 +217,6 @@
     "'Legs are some of your biggest muscles': true (quads, glutes, hamstrings are among the largest muscles); no number given on purpose.",
     "'Stick with it for 6-8 weeks': common coaching guidance, not from a single study.",
     "'Ego lifting' fix ('full range, control the way down') is framed against swinging and half reps; it does not claim partial reps never work."
-  ]
+  ],
+  "brand_note": "v1.1: app renamed Lightweight → Harda (owner 2026-10-19); only the brand name changed, on slide(s) [8]."
 }
