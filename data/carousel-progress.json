@@ -319,10 +319,42 @@
       "slides": 19,
       "background": "CLEAN",
       "slides_blocked": [],
+      "generation": "complete (19/19)",
+      "user_review": "approved",
+      "next_action": "ready to post",
+      "path": "carousels/LW-CAR-0021/"
+    },
+    {
+      "id": "LW-CAR-0022",
+      "title": "legs tier list (own ranking)",
+      "source_ref": null,
+      "type": "original",
+      "design_style": "S2",
+      "content_version": "1.0",
+      "copy_status": "frozen",
+      "slides": 19,
+      "background": "CLEAN",
+      "slides_blocked": [],
       "generation": "not_started",
       "user_review": "pending",
       "next_action": "Codex: match approved LW-CAR-0020 outputs; slides 1-3 first",
-      "path": "carousels/LW-CAR-0021/"
+      "path": "carousels/LW-CAR-0022/"
+    },
+    {
+      "id": "LW-CAR-0023",
+      "title": "biceps tier list (own ranking)",
+      "source_ref": null,
+      "type": "original",
+      "design_style": "S2",
+      "content_version": "1.0",
+      "copy_status": "frozen",
+      "slides": 19,
+      "background": "CLEAN",
+      "slides_blocked": [],
+      "generation": "not_started",
+      "user_review": "pending",
+      "next_action": "Codex: match approved LW-CAR-0020 outputs; slides 1-3 first",
+      "path": "carousels/LW-CAR-0023/"
     }
   ],
   "experiments": [

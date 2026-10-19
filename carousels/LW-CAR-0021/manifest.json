@@ -6,7 +6,7 @@
   "reference_id": null,
   "reference_use": "Approved LW-CAR-0020 outputs used as templates, as directed by the task.",
   "instructions": "carousels/LW-CAR-0021/prompts/codex-task.md",
-  "status": "complete_19_of_19_awaiting_owner_review",
+  "status": "approved_by_owner_19_of_19",
   "carousel_complete": true,
   "scope": "Owner approved slides 1-3; all 19 slides are now generated or reused as specified.",
   "background": "CLEAN",
@@ -147,13 +147,13 @@
             "has_alpha": false,
             "logo": "original_file_composited_at_48_19_341_71_without_backing_patch"
           },
-          "user_review": "pending"
+          "user_review": "approved"
         }
       ],
       "errors": [],
       "save_status": "pushed_to_target_branch",
       "agent_visual_review": "not_performed",
-      "user_review": "pending",
+      "user_review": "approved",
       "prompt": "prompts/slide-04.txt",
       "reference": "carousels/LW-CAR-0020/outputs/slide-03.png"
     },
@@ -188,13 +188,13 @@
             "has_alpha": false,
             "logo": "original_file_composited_at_48_19_341_71_without_backing_patch"
           },
-          "user_review": "pending"
+          "user_review": "approved"
         }
       ],
       "errors": [],
       "save_status": "pushed_to_target_branch",
       "agent_visual_review": "not_performed",
-      "user_review": "pending",
+      "user_review": "approved",
       "prompt": "prompts/slide-05.txt",
       "reference": "carousels/LW-CAR-0020/outputs/slide-02.png"
     },
@@ -229,13 +229,13 @@
             "has_alpha": false,
             "logo": "original_file_composited_at_48_19_341_71_without_backing_patch"
           },
-          "user_review": "pending"
+          "user_review": "approved"
         }
       ],
       "errors": [],
       "save_status": "pushed_to_target_branch",
       "agent_visual_review": "not_performed",
-      "user_review": "pending",
+      "user_review": "approved",
       "prompt": "prompts/slide-06.txt",
       "reference": "carousels/LW-CAR-0020/outputs/slide-03.png"
     },
@@ -270,13 +270,13 @@
             "has_alpha": false,
             "logo": "original_file_composited_at_48_19_341_71_without_backing_patch"
           },
-          "user_review": "pending"
+          "user_review": "approved"
         }
       ],
       "errors": [],
       "save_status": "pushed_to_target_branch",
       "agent_visual_review": "not_performed",
-      "user_review": "pending",
+      "user_review": "approved",
       "prompt": "prompts/slide-07.txt",
       "reference": "carousels/LW-CAR-0020/outputs/slide-03.png"
     },
@@ -311,13 +311,13 @@
             "has_alpha": false,
             "logo": "original_file_composited_at_48_19_341_71_without_backing_patch"
           },
-          "user_review": "pending"
+          "user_review": "approved"
         }
       ],
       "errors": [],
       "save_status": "pushed_to_target_branch",
       "agent_visual_review": "not_performed",
-      "user_review": "pending",
+      "user_review": "approved",
       "prompt": "prompts/slide-08.txt",
       "reference": "carousels/LW-CAR-0020/outputs/slide-02.png"
     },
@@ -352,13 +352,13 @@
             "has_alpha": false,
             "logo": "original_file_composited_at_48_19_341_71_without_backing_patch"
           },
-          "user_review": "pending"
+          "user_review": "approved"
         }
       ],
       "errors": [],
       "save_status": "pushed_to_target_branch",
       "agent_visual_review": "not_performed",
-      "user_review": "pending",
+      "user_review": "approved",
       "prompt": "prompts/slide-09.txt",
       "reference": "carousels/LW-CAR-0020/outputs/slide-03.png"
     },
@@ -393,13 +393,13 @@
             "has_alpha": false,
             "logo": "original_file_composited_at_48_19_341_71_without_backing_patch"
           },
-          "user_review": "pending"
+          "user_review": "approved"
         }
       ],
       "errors": [],
       "save_status": "pushed_to_target_branch",
       "agent_visual_review": "not_performed",
-      "user_review": "pending",
+      "user_review": "approved",
       "prompt": "prompts/slide-10.txt",
       "reference": "carousels/LW-CAR-0020/outputs/slide-03.png"
     },
@@ -434,13 +434,13 @@
             "has_alpha": false,
             "logo": "original_file_composited_at_48_19_341_71_without_backing_patch"
           },
-          "user_review": "pending"
+          "user_review": "approved"
         }
       ],
       "errors": [],
       "save_status": "pushed_to_target_branch",
       "agent_visual_review": "not_performed",
-      "user_review": "pending",
+      "user_review": "approved",
       "prompt": "prompts/slide-11.txt",
       "reference": "carousels/LW-CAR-0020/outputs/slide-03.png"
     },
@@ -475,13 +475,13 @@
             "has_alpha": false,
             "logo": "original_file_composited_at_48_19_341_71_without_backing_patch"
           },
-          "user_review": "pending"
+          "user_review": "approved"
         }
       ],
       "errors": [],
       "save_status": "pushed_to_target_branch",
       "agent_visual_review": "not_performed",
-      "user_review": "pending",
+      "user_review": "approved",
       "prompt": "prompts/slide-12.txt",
       "reference": "carousels/LW-CAR-0020/outputs/slide-02.png"
     },
@@ -522,7 +522,7 @@
             "has_alpha": false,
             "logo": "original_file_composited_at_48_19_341_71_without_backing_patch"
           },
-          "user_review": "pending"
+          "user_review": "approved"
         }
       ],
       "errors": [
@@ -530,7 +530,7 @@
       ],
       "save_status": "pushed_to_target_branch",
       "agent_visual_review": "not_performed",
-      "user_review": "pending",
+      "user_review": "approved",
       "prompt": "prompts/slide-13.txt",
       "reference": "carousels/LW-CAR-0020/outputs/slide-03.png"
     },
@@ -565,13 +565,13 @@
             "has_alpha": false,
             "logo": "original_file_composited_at_48_19_341_71_without_backing_patch"
           },
-          "user_review": "pending"
+          "user_review": "approved"
         }
       ],
       "errors": [],
       "save_status": "pushed_to_target_branch",
       "agent_visual_review": "not_performed",
-      "user_review": "pending",
+      "user_review": "approved",
       "prompt": "prompts/slide-14.txt",
       "reference": "carousels/LW-CAR-0020/outputs/slide-03.png"
     },
@@ -612,7 +612,7 @@
             "has_alpha": false,
             "logo": "original_file_composited_at_48_19_341_71_without_backing_patch"
           },
-          "user_review": "pending"
+          "user_review": "approved"
         }
       ],
       "errors": [
@@ -620,7 +620,7 @@
       ],
       "save_status": "pushed_to_target_branch",
       "agent_visual_review": "not_performed",
-      "user_review": "pending",
+      "user_review": "approved",
       "prompt": "prompts/slide-15.txt",
       "reference": "carousels/LW-CAR-0020/outputs/slide-03.png"
     },
@@ -655,13 +655,13 @@
             "has_alpha": false,
             "logo": "original_file_composited_at_48_19_341_71_without_backing_patch"
           },
-          "user_review": "pending"
+          "user_review": "approved"
         }
       ],
       "errors": [],
       "save_status": "pushed_to_target_branch",
       "agent_visual_review": "not_performed",
-      "user_review": "pending",
+      "user_review": "approved",
       "prompt": "prompts/slide-16.txt",
       "reference": "carousels/LW-CAR-0020/outputs/slide-02.png"
     },
@@ -696,13 +696,13 @@
             "has_alpha": false,
             "logo": "original_file_composited_at_48_19_341_71_without_backing_patch"
           },
-          "user_review": "pending"
+          "user_review": "approved"
         }
       ],
       "errors": [],
       "save_status": "pushed_to_target_branch",
       "agent_visual_review": "not_performed",
-      "user_review": "pending",
+      "user_review": "approved",
       "prompt": "prompts/slide-17.txt",
       "reference": "carousels/LW-CAR-0020/outputs/slide-03.png"
     },
@@ -737,13 +737,13 @@
             "has_alpha": false,
             "logo": "original_file_composited_at_48_19_341_71_without_backing_patch"
           },
-          "user_review": "pending"
+          "user_review": "approved"
         }
       ],
       "errors": [],
       "save_status": "pushed_to_target_branch",
       "agent_visual_review": "not_performed",
-      "user_review": "pending",
+      "user_review": "approved",
       "prompt": "prompts/slide-18.txt",
       "reference": "carousels/LW-CAR-0020/outputs/slide-03.png"
     },
@@ -777,13 +777,13 @@
             "has_alpha": false,
             "logo": "original_file_composited_at_48_19_341_71_without_backing_patch"
           },
-          "user_review": "pending"
+          "user_review": "approved"
         }
       ],
       "errors": [],
       "save_status": "pushed_to_target_branch",
       "agent_visual_review": "not_performed",
-      "user_review": "pending",
+      "user_review": "approved",
       "prompt": "prompts/slide-19.txt",
       "reference": "carousels/LW-CAR-0020/outputs/slide-19.png",
       "source_ui": {
@@ -794,6 +794,8 @@
       }
     }
   ],
-  "user_review": "slides_1_to_3_approved; slides_4_to_19_pending",
-  "agent_visual_review": "not_performed"
+  "user_review": "approved",
+  "agent_visual_review": "not_performed",
+  "owner_approval": "2026-10-19: owner approved all 19 slides as they are.",
+  "next_action": "None. Ready to post."
 }
