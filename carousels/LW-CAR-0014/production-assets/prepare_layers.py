@@ -23,7 +23,7 @@ strip = source.crop((0, 0, 1080, 110)).convert('RGBA')
 pixels = np.array(strip)
 alpha = (pixels[:, :, :3].mean(axis=2) < 200).astype(np.uint8) * 255
 strip.putalpha(Image.fromarray(alpha))
-strip.save(ASSETS / 'original-wordmark-transparent.png')
+strip.save(ASSETS / 'original-wordmark-layer.tiff', compression='tiff_deflate')
 
 # Preserve source RGB of phone/UI/hand at original coordinates. The dark
 # exterior contours form the matte; close the bottom crop and fill interiors.
@@ -37,4 +37,4 @@ labels, count = ndimage.label(filled)
 sizes = ndimage.sum(filled, labels, range(1, count + 1))
 matte = labels == (int(np.argmax(sizes)) + 1)
 layer.putalpha(Image.fromarray(matte.astype(np.uint8) * 255))
-layer.save(ASSETS / 'original-phone-hand-transparent.png')
+layer.save(ASSETS / 'original-phone-hand-layer.tiff', compression='tiff_deflate')
