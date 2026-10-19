@@ -2,15 +2,15 @@
   "carousel_id": "LW-CAR-0019",
   "content_version": "1.0",
   "source_commit": "a6a5fdcbd140300d5fac35f72da7b527dc8ac253",
-  "step": 1,
-  "status": "step_1_complete_awaiting_owner_choice",
+  "step": "1c",
+  "status": "step_1c_incomplete_H6_blocked",
   "background": "GRID",
   "font_family": "Rubik",
   "chosen_variant": null,
   "agent_visual_review": "not_performed",
   "user_review": "pending",
   "instructions": "prompts/codex-task.md",
-  "scope": "Only slides 1 and 3 in variants A, B and C. Stop after this style test and await owner's choice. No Step 2 generation.",
+  "scope": "Only cover slide 1 in headline variants H1-H6. Original detailed anatomy figure retained; no Step 2.",
   "logo": {
     "file": "assets/logo/lightweight-logo-full.png",
     "placement": {
@@ -281,12 +281,313 @@
       "user_review": "pending"
     }
   ],
-  "next_action": "STOP. Wait for the owner to choose A, B or C. Do not generate Step 2 or change the selected variant until the owner responds.",
-  "generated_images": 6,
+  "next_action": "H1-H5 saved for owner review. H6 returned no image: output-stage moderation_blocked. No automatic retry; await a specific owner instruction before another H6 attempt. Do not run Step 2.",
+  "generated_images": 5,
   "remote_save": {
     "remote": "origin",
     "branch": "claude/charming-einstein-xgejky",
     "method": "single_commit_and_push",
     "commit_lookup": "git log -1 -- carousels/LW-CAR-0019/manifest.json"
-  }
+  },
+  "previous_steps": [
+    {
+      "step": 1,
+      "status": "step_1_complete_awaiting_owner_choice",
+      "scope": "Only slides 1 and 3 in variants A, B and C. Stop after this style test and await owner's choice. No Step 2 generation.",
+      "source_commit": "a6a5fdcbd140300d5fac35f72da7b527dc8ac253",
+      "generated_images": 6
+    }
+  ],
+  "figure_style_decision": {
+    "chosen": "original_approved_LW-CAR-0001",
+    "minimal_variants": "declined_by_owner",
+    "source_commit": "86a7bbb17846b8d4742fea2bffb99942d8c46463",
+    "source": "prompts/codex-task.md / Step 1c"
+  },
+  "headline_test": {
+    "step": "1c",
+    "source_commit": "86a7bbb17846b8d4742fea2bffb99942d8c46463",
+    "status": "incomplete_5_of_6_H6_blocked",
+    "chosen": null,
+    "generated_images": 5,
+    "text_method": "headline generated together with artwork in a single image_gen call; no code-rendered text or separate text layer",
+    "slides": [
+      {
+        "variant": "H1",
+        "headline_style": "condensed poster",
+        "slide": 1,
+        "prompt": "LW-CAR-0019 / Step 1c — cover headline test. Edit the supplied APPROVED cover as the exact source image. Create ONE complete 1080 × 1350 px portrait 4:5 PNG with all artwork AND headline generated together in this single image. The headline will NOT be added by code or as a separate text layer.\n\nPRESERVE THE FIGURE: keep the ORIGINAL semi-realistic anatomy mannequin from the approved template, in the exact same pose, scale, proportions, placement and crop. Do not simplify it and do not adopt a minimal, flat, outline-only or clay figure style. Preserve its fine grey contour, visible fine muscle fibres and anatomical rendering; non-highlighted muscle warm sand #D9CBBE with sand shading and ivory #F5F0E5 skin/tendons, the back target muscles (lats, traps, rear delts and teres) coral #F26445. This is the rear view of the same bald faceless male mannequin from hips up, head near x530,y710, viewer's right arm bent up flexing a biceps, left hand on hip, bottom cropped. Preserve its featureless pelvis without anatomical detail. Do not add clothes, equipment or objects. Do not alter the muscle highlights, body, pose or illustration style. The ONLY creative variable is headline LETTERING.\n\nBACKGROUND change required by the new series rules: remove the template's entire pale arch. First fill the WHOLE canvas solid opaque #F0F1EB. Draw a uniform fine notebook GRID, #E1E2DA lines 2 px every 54 px horizontally and vertically, behind every element. No arch anywhere, no progress bar, slide counter, TikTok UI, transparency or checkerboard.\n\nTOP LOGO AREA: remove the template's OLD wordmark. Leave the top 110 px as uninterrupted grid background with NO text, badge, figure, decoration or placeholder box. DO NOT generate any logo or brand name. After generation the owner's exact original transparent full logo PNG will be pasted at x48,y19,341×71 px with its own transparency and no backing patch, as explicitly required. Reserve this area.\n\nHEADLINE CONTENT AND POSITION: spell EXACTLY two lines, \"WEAK\" then \"BACK?\". No other text besides the separately pasted authentic logo. WEAK solid dark #2A2A2A; BACK? coral #F26445. Keep the same upper roughly 45% headline block as the template, below y110, enormous and centered slightly left of the canvas centre; all letters and the question mark must fit fully inside the image and be clearly readable. The original figure's head may overlap the bottom edge of BACK? slightly, as in the template, but never obscure any letter. Preserve the small coral paint-splat dot associated with the question mark as on the template. Do not add words, signatures, watermarks, variant labels or added punctuation. Keep the composition the same, changing only the headline lettering as specified below; headline size may scale to fit the requested letterforms.\n\nH1 — CONDENSED POSTER. HEADLINE STYLE FOR THIS IMAGE ONLY:\nVery tall, narrow, heavy condensed poster sans in the style of Anton / Bebas Neue. Tight closely packed tall narrow letterforms with a strong vertical poster rhythm. Keep both lines enormous, but distinctly narrower and taller than the template. Flat solid lettering, NO shadow, NO bevel, NO outline.\n\nReturn exactly ONE finished opaque cover with the original detailed anatomy figure, the full two-line headline in this style, GRID background and empty logo reservation. No comparison sheet, mockup or collage.",
+        "prompt_file": "prompts/headline-test/H1-slide-01.txt",
+        "file": "outputs/headline-test/H1-slide-01.png",
+        "reference": "carousels/LW-CAR-0001/outputs/slide-01.png",
+        "attempts": [
+          {
+            "attempt": 1,
+            "tool": "image_gen.imagegen",
+            "started_at": "2026-10-19T13:43:23.160544+00:00",
+            "status": "succeeded",
+            "transparent_background": false,
+            "referenced_image_paths": [
+              "/workspace/lightweight-carousels/carousels/LW-CAR-0001/outputs/slide-01.png"
+            ],
+            "finished_at": "2026-10-19T13:44:47.156774+00:00",
+            "raw_result_file": "/workspace/generated_images/exec-40afe3cd-4815-4012-ad61-136341d39266.png",
+            "raw_result_format": {
+              "size": [
+                1122,
+                1402
+              ],
+              "mode": "RGB"
+            },
+            "result_file": "outputs/headline-test/H1-slide-01.png",
+            "export": {
+              "size": [
+                1080,
+                1350
+              ],
+              "mode": "RGB",
+              "has_alpha": false,
+              "logo": "original_file_composited_at_48_19_341_71_without_backing_patch",
+              "text_rendered_by_code": false
+            }
+          }
+        ],
+        "errors": [],
+        "save_status": "saved_to_repository_checkout",
+        "agent_visual_review": "not_performed",
+        "user_review": "pending"
+      },
+      {
+        "variant": "H2",
+        "headline_style": "extra wide",
+        "slide": 1,
+        "prompt": "LW-CAR-0019 / Step 1c — cover headline test. Edit the supplied APPROVED cover as the exact source image. Create ONE complete 1080 × 1350 px portrait 4:5 PNG with all artwork AND headline generated together in this single image. The headline will NOT be added by code or as a separate text layer.\n\nPRESERVE THE FIGURE: keep the ORIGINAL semi-realistic anatomy mannequin from the approved template, in the exact same pose, scale, proportions, placement and crop. Do not simplify it and do not adopt a minimal, flat, outline-only or clay figure style. Preserve its fine grey contour, visible fine muscle fibres and anatomical rendering; non-highlighted muscle warm sand #D9CBBE with sand shading and ivory #F5F0E5 skin/tendons, the back target muscles (lats, traps, rear delts and teres) coral #F26445. This is the rear view of the same bald faceless male mannequin from hips up, head near x530,y710, viewer's right arm bent up flexing a biceps, left hand on hip, bottom cropped. Preserve its featureless pelvis without anatomical detail. Do not add clothes, equipment or objects. Do not alter the muscle highlights, body, pose or illustration style. The ONLY creative variable is headline LETTERING.\n\nBACKGROUND change required by the new series rules: remove the template's entire pale arch. First fill the WHOLE canvas solid opaque #F0F1EB. Draw a uniform fine notebook GRID, #E1E2DA lines 2 px every 54 px horizontally and vertically, behind every element. No arch anywhere, no progress bar, slide counter, TikTok UI, transparency or checkerboard.\n\nTOP LOGO AREA: remove the template's OLD wordmark. Leave the top 110 px as uninterrupted grid background with NO text, badge, figure, decoration or placeholder box. DO NOT generate any logo or brand name. After generation the owner's exact original transparent full logo PNG will be pasted at x48,y19,341×71 px with its own transparency and no backing patch, as explicitly required. Reserve this area.\n\nHEADLINE CONTENT AND POSITION: spell EXACTLY two lines, \"WEAK\" then \"BACK?\". No other text besides the separately pasted authentic logo. WEAK solid dark #2A2A2A; BACK? coral #F26445. Keep the same upper roughly 45% headline block as the template, below y110, enormous and centered slightly left of the canvas centre; all letters and the question mark must fit fully inside the image and be clearly readable. The original figure's head may overlap the bottom edge of BACK? slightly, as in the template, but never obscure any letter. Preserve the small coral paint-splat dot associated with the question mark as on the template. Do not add words, signatures, watermarks, variant labels or added punctuation. Keep the composition the same, changing only the headline lettering as specified below; headline size may scale to fit the requested letterforms.\n\nH2 — EXTRA WIDE. HEADLINE STYLE FOR THIS IMAGE ONLY:\nVery wide, very heavy, flat expanded grotesk in the style of Archivo Black Expanded / Druk Wide. Squat broad letterforms with wide horizontal bowls and thick strokes, visually much wider than the template's narrow letters. Use a slightly smaller size so both complete words fit within the slide width with margins while staying prominent. Flat solid lettering, NO shadow, NO bevel, NO outline.\n\nReturn exactly ONE finished opaque cover with the original detailed anatomy figure, the full two-line headline in this style, GRID background and empty logo reservation. No comparison sheet, mockup or collage.",
+        "prompt_file": "prompts/headline-test/H2-slide-01.txt",
+        "file": "outputs/headline-test/H2-slide-01.png",
+        "reference": "carousels/LW-CAR-0001/outputs/slide-01.png",
+        "attempts": [
+          {
+            "attempt": 1,
+            "tool": "image_gen.imagegen",
+            "started_at": "2026-10-19T13:44:47.877142+00:00",
+            "status": "succeeded",
+            "transparent_background": false,
+            "referenced_image_paths": [
+              "/workspace/lightweight-carousels/carousels/LW-CAR-0001/outputs/slide-01.png"
+            ],
+            "finished_at": "2026-10-19T13:45:39.552607+00:00",
+            "raw_result_file": "/workspace/generated_images/exec-603919b7-a877-4854-b411-29943e35433c.png",
+            "raw_result_format": {
+              "size": [
+                1122,
+                1402
+              ],
+              "mode": "RGB"
+            },
+            "result_file": "outputs/headline-test/H2-slide-01.png",
+            "export": {
+              "size": [
+                1080,
+                1350
+              ],
+              "mode": "RGB",
+              "has_alpha": false,
+              "logo": "original_file_composited_at_48_19_341_71_without_backing_patch",
+              "text_rendered_by_code": false
+            }
+          }
+        ],
+        "errors": [],
+        "save_status": "saved_to_repository_checkout",
+        "agent_visual_review": "not_performed",
+        "user_review": "pending"
+      },
+      {
+        "variant": "H3",
+        "headline_style": "sport italic",
+        "slide": 1,
+        "prompt": "LW-CAR-0019 / Step 1c — cover headline test. Edit the supplied APPROVED cover as the exact source image. Create ONE complete 1080 × 1350 px portrait 4:5 PNG with all artwork AND headline generated together in this single image. The headline will NOT be added by code or as a separate text layer.\n\nPRESERVE THE FIGURE: keep the ORIGINAL semi-realistic anatomy mannequin from the approved template, in the exact same pose, scale, proportions, placement and crop. Do not simplify it and do not adopt a minimal, flat, outline-only or clay figure style. Preserve its fine grey contour, visible fine muscle fibres and anatomical rendering; non-highlighted muscle warm sand #D9CBBE with sand shading and ivory #F5F0E5 skin/tendons, the back target muscles (lats, traps, rear delts and teres) coral #F26445. This is the rear view of the same bald faceless male mannequin from hips up, head near x530,y710, viewer's right arm bent up flexing a biceps, left hand on hip, bottom cropped. Preserve its featureless pelvis without anatomical detail. Do not add clothes, equipment or objects. Do not alter the muscle highlights, body, pose or illustration style. The ONLY creative variable is headline LETTERING.\n\nBACKGROUND change required by the new series rules: remove the template's entire pale arch. First fill the WHOLE canvas solid opaque #F0F1EB. Draw a uniform fine notebook GRID, #E1E2DA lines 2 px every 54 px horizontally and vertically, behind every element. No arch anywhere, no progress bar, slide counter, TikTok UI, transparency or checkerboard.\n\nTOP LOGO AREA: remove the template's OLD wordmark. Leave the top 110 px as uninterrupted grid background with NO text, badge, figure, decoration or placeholder box. DO NOT generate any logo or brand name. After generation the owner's exact original transparent full logo PNG will be pasted at x48,y19,341×71 px with its own transparency and no backing patch, as explicitly required. Reserve this area.\n\nHEADLINE CONTENT AND POSITION: spell EXACTLY two lines, \"WEAK\" then \"BACK?\". No other text besides the separately pasted authentic logo. WEAK solid dark #2A2A2A; BACK? coral #F26445. Keep the same upper roughly 45% headline block as the template, below y110, enormous and centered slightly left of the canvas centre; all letters and the question mark must fit fully inside the image and be clearly readable. The original figure's head may overlap the bottom edge of BACK? slightly, as in the template, but never obscure any letter. Preserve the small coral paint-splat dot associated with the question mark as on the template. Do not add words, signatures, watermarks, variant labels or added punctuation. Keep the composition the same, changing only the headline lettering as specified below; headline size may scale to fit the requested letterforms.\n\nH3 — SPORT ITALIC. HEADLINE STYLE FOR THIS IMAGE ONLY:\nHeavy condensed sport italic in the style of Barlow Condensed Black Italic. Strong clearly visible forward slant, energetic feeling of motion, assertive heavy strokes. A thin HARD offset shadow in #2A2A2A at only 15% opacity, about 4–6 px offset. No soft glow, no large drop shadow, no bevel.\n\nReturn exactly ONE finished opaque cover with the original detailed anatomy figure, the full two-line headline in this style, GRID background and empty logo reservation. No comparison sheet, mockup or collage.",
+        "prompt_file": "prompts/headline-test/H3-slide-01.txt",
+        "file": "outputs/headline-test/H3-slide-01.png",
+        "reference": "carousels/LW-CAR-0001/outputs/slide-01.png",
+        "attempts": [
+          {
+            "attempt": 1,
+            "tool": "image_gen.imagegen",
+            "started_at": "2026-10-19T13:45:40.197793+00:00",
+            "status": "succeeded",
+            "transparent_background": false,
+            "referenced_image_paths": [
+              "/workspace/lightweight-carousels/carousels/LW-CAR-0001/outputs/slide-01.png"
+            ],
+            "finished_at": "2026-10-19T13:47:23.094261+00:00",
+            "raw_result_file": "/workspace/generated_images/exec-54df8223-49d8-4cda-ac8b-23bd534892dd.png",
+            "raw_result_format": {
+              "size": [
+                1122,
+                1402
+              ],
+              "mode": "RGB"
+            },
+            "result_file": "outputs/headline-test/H3-slide-01.png",
+            "export": {
+              "size": [
+                1080,
+                1350
+              ],
+              "mode": "RGB",
+              "has_alpha": false,
+              "logo": "original_file_composited_at_48_19_341_71_without_backing_patch",
+              "text_rendered_by_code": false
+            }
+          }
+        ],
+        "errors": [],
+        "save_status": "saved_to_repository_checkout",
+        "agent_visual_review": "not_performed",
+        "user_review": "pending"
+      },
+      {
+        "variant": "H4",
+        "headline_style": "clean geometric",
+        "slide": 1,
+        "prompt": "LW-CAR-0019 / Step 1c — cover headline test. Edit the supplied APPROVED cover as the exact source image. Create ONE complete 1080 × 1350 px portrait 4:5 PNG with all artwork AND headline generated together in this single image. The headline will NOT be added by code or as a separate text layer.\n\nPRESERVE THE FIGURE: keep the ORIGINAL semi-realistic anatomy mannequin from the approved template, in the exact same pose, scale, proportions, placement and crop. Do not simplify it and do not adopt a minimal, flat, outline-only or clay figure style. Preserve its fine grey contour, visible fine muscle fibres and anatomical rendering; non-highlighted muscle warm sand #D9CBBE with sand shading and ivory #F5F0E5 skin/tendons, the back target muscles (lats, traps, rear delts and teres) coral #F26445. This is the rear view of the same bald faceless male mannequin from hips up, head near x530,y710, viewer's right arm bent up flexing a biceps, left hand on hip, bottom cropped. Preserve its featureless pelvis without anatomical detail. Do not add clothes, equipment or objects. Do not alter the muscle highlights, body, pose or illustration style. The ONLY creative variable is headline LETTERING.\n\nBACKGROUND change required by the new series rules: remove the template's entire pale arch. First fill the WHOLE canvas solid opaque #F0F1EB. Draw a uniform fine notebook GRID, #E1E2DA lines 2 px every 54 px horizontally and vertically, behind every element. No arch anywhere, no progress bar, slide counter, TikTok UI, transparency or checkerboard.\n\nTOP LOGO AREA: remove the template's OLD wordmark. Leave the top 110 px as uninterrupted grid background with NO text, badge, figure, decoration or placeholder box. DO NOT generate any logo or brand name. After generation the owner's exact original transparent full logo PNG will be pasted at x48,y19,341×71 px with its own transparency and no backing patch, as explicitly required. Reserve this area.\n\nHEADLINE CONTENT AND POSITION: spell EXACTLY two lines, \"WEAK\" then \"BACK?\". No other text besides the separately pasted authentic logo. WEAK solid dark #2A2A2A; BACK? coral #F26445. Keep the same upper roughly 45% headline block as the template, below y110, enormous and centered slightly left of the canvas centre; all letters and the question mark must fit fully inside the image and be clearly readable. The original figure's head may overlap the bottom edge of BACK? slightly, as in the template, but never obscure any letter. Preserve the small coral paint-splat dot associated with the question mark as on the template. Do not add words, signatures, watermarks, variant labels or added punctuation. Keep the composition the same, changing only the headline lettering as specified below; headline size may scale to fit the requested letterforms.\n\nH4 — CLEAN GEOMETRIC. HEADLINE STYLE FOR THIS IMAGE ONLY:\nGeometric extra-bold sans in the style of Montserrat ExtraBold / Poppins Black. Normal-width letters with clean geometry, circular bowls, simple uniform heavy strokes, crisp highly legible silhouettes. This must look geometric and modern, not like the template's condensed poster lettering. NO shadow, NO bevel, NO outline.\n\nReturn exactly ONE finished opaque cover with the original detailed anatomy figure, the full two-line headline in this style, GRID background and empty logo reservation. No comparison sheet, mockup or collage.",
+        "prompt_file": "prompts/headline-test/H4-slide-01.txt",
+        "file": "outputs/headline-test/H4-slide-01.png",
+        "reference": "carousels/LW-CAR-0001/outputs/slide-01.png",
+        "attempts": [
+          {
+            "attempt": 1,
+            "tool": "image_gen.imagegen",
+            "started_at": "2026-10-19T13:47:23.748547+00:00",
+            "status": "succeeded",
+            "transparent_background": false,
+            "referenced_image_paths": [
+              "/workspace/lightweight-carousels/carousels/LW-CAR-0001/outputs/slide-01.png"
+            ],
+            "finished_at": "2026-10-19T13:48:26.086681+00:00",
+            "raw_result_file": "/workspace/generated_images/exec-9443543f-3e86-4cf2-9347-207e4be3d759.png",
+            "raw_result_format": {
+              "size": [
+                1122,
+                1402
+              ],
+              "mode": "RGB"
+            },
+            "result_file": "outputs/headline-test/H4-slide-01.png",
+            "export": {
+              "size": [
+                1080,
+                1350
+              ],
+              "mode": "RGB",
+              "has_alpha": false,
+              "logo": "original_file_composited_at_48_19_341_71_without_backing_patch",
+              "text_rendered_by_code": false
+            }
+          }
+        ],
+        "errors": [],
+        "save_status": "saved_to_repository_checkout",
+        "agent_visual_review": "not_performed",
+        "user_review": "pending"
+      },
+      {
+        "variant": "H5",
+        "headline_style": "rounded friendly",
+        "slide": 1,
+        "prompt": "LW-CAR-0019 / Step 1c — cover headline test. Edit the supplied APPROVED cover as the exact source image. Create ONE complete 1080 × 1350 px portrait 4:5 PNG with all artwork AND headline generated together in this single image. The headline will NOT be added by code or as a separate text layer.\n\nPRESERVE THE FIGURE: keep the ORIGINAL semi-realistic anatomy mannequin from the approved template, in the exact same pose, scale, proportions, placement and crop. Do not simplify it and do not adopt a minimal, flat, outline-only or clay figure style. Preserve its fine grey contour, visible fine muscle fibres and anatomical rendering; non-highlighted muscle warm sand #D9CBBE with sand shading and ivory #F5F0E5 skin/tendons, the back target muscles (lats, traps, rear delts and teres) coral #F26445. This is the rear view of the same bald faceless male mannequin from hips up, head near x530,y710, viewer's right arm bent up flexing a biceps, left hand on hip, bottom cropped. Preserve its featureless pelvis without anatomical detail. Do not add clothes, equipment or objects. Do not alter the muscle highlights, body, pose or illustration style. The ONLY creative variable is headline LETTERING.\n\nBACKGROUND change required by the new series rules: remove the template's entire pale arch. First fill the WHOLE canvas solid opaque #F0F1EB. Draw a uniform fine notebook GRID, #E1E2DA lines 2 px every 54 px horizontally and vertically, behind every element. No arch anywhere, no progress bar, slide counter, TikTok UI, transparency or checkerboard.\n\nTOP LOGO AREA: remove the template's OLD wordmark. Leave the top 110 px as uninterrupted grid background with NO text, badge, figure, decoration or placeholder box. DO NOT generate any logo or brand name. After generation the owner's exact original transparent full logo PNG will be pasted at x48,y19,341×71 px with its own transparency and no backing patch, as explicitly required. Reserve this area.\n\nHEADLINE CONTENT AND POSITION: spell EXACTLY two lines, \"WEAK\" then \"BACK?\". No other text besides the separately pasted authentic logo. WEAK solid dark #2A2A2A; BACK? coral #F26445. Keep the same upper roughly 45% headline block as the template, below y110, enormous and centered slightly left of the canvas centre; all letters and the question mark must fit fully inside the image and be clearly readable. The original figure's head may overlap the bottom edge of BACK? slightly, as in the template, but never obscure any letter. Preserve the small coral paint-splat dot associated with the question mark as on the template. Do not add words, signatures, watermarks, variant labels or added punctuation. Keep the composition the same, changing only the headline lettering as specified below; headline size may scale to fit the requested letterforms.\n\nH5 — ROUNDED FRIENDLY. HEADLINE STYLE FOR THIS IMAGE ONLY:\nHeavy rounded sans in the style of Nunito Black / Fredoka. Distinctly rounded pill-like terminals and soft corners, bubbly but strongly readable block letterforms, friendly and substantial, matching the friendliness of the owner's dinosaur logo. Include a subtle soft grey drop shadow. No sharp angular condensed poster letters and no bevel.\n\nReturn exactly ONE finished opaque cover with the original detailed anatomy figure, the full two-line headline in this style, GRID background and empty logo reservation. No comparison sheet, mockup or collage.",
+        "prompt_file": "prompts/headline-test/H5-slide-01.txt",
+        "file": "outputs/headline-test/H5-slide-01.png",
+        "reference": "carousels/LW-CAR-0001/outputs/slide-01.png",
+        "attempts": [
+          {
+            "attempt": 1,
+            "tool": "image_gen.imagegen",
+            "started_at": "2026-10-19T13:48:26.739627+00:00",
+            "status": "succeeded",
+            "transparent_background": false,
+            "referenced_image_paths": [
+              "/workspace/lightweight-carousels/carousels/LW-CAR-0001/outputs/slide-01.png"
+            ],
+            "finished_at": "2026-10-19T13:49:37.945537+00:00",
+            "raw_result_file": "/workspace/generated_images/exec-33b5b891-2b9b-4187-b324-cefbab283e7e.png",
+            "raw_result_format": {
+              "size": [
+                1122,
+                1402
+              ],
+              "mode": "RGB"
+            },
+            "result_file": "outputs/headline-test/H5-slide-01.png",
+            "export": {
+              "size": [
+                1080,
+                1350
+              ],
+              "mode": "RGB",
+              "has_alpha": false,
+              "logo": "original_file_composited_at_48_19_341_71_without_backing_patch",
+              "text_rendered_by_code": false
+            }
+          }
+        ],
+        "errors": [],
+        "save_status": "saved_to_repository_checkout",
+        "agent_visual_review": "not_performed",
+        "user_review": "pending"
+      },
+      {
+        "variant": "H6",
+        "headline_style": "bold + marker",
+        "slide": 1,
+        "prompt": "LW-CAR-0019 / Step 1c — cover headline test. Edit the supplied APPROVED cover as the exact source image. Create ONE complete 1080 × 1350 px portrait 4:5 PNG with all artwork AND headline generated together in this single image. The headline will NOT be added by code or as a separate text layer.\n\nPRESERVE THE FIGURE: keep the ORIGINAL semi-realistic anatomy mannequin from the approved template, in the exact same pose, scale, proportions, placement and crop. Do not simplify it and do not adopt a minimal, flat, outline-only or clay figure style. Preserve its fine grey contour, visible fine muscle fibres and anatomical rendering; non-highlighted muscle warm sand #D9CBBE with sand shading and ivory #F5F0E5 skin/tendons, the back target muscles (lats, traps, rear delts and teres) coral #F26445. This is the rear view of the same bald faceless male mannequin from hips up, head near x530,y710, viewer's right arm bent up flexing a biceps, left hand on hip, bottom cropped. Preserve its featureless pelvis without anatomical detail. Do not add clothes, equipment or objects. Do not alter the muscle highlights, body, pose or illustration style. The ONLY creative variable is headline LETTERING.\n\nBACKGROUND change required by the new series rules: remove the template's entire pale arch. First fill the WHOLE canvas solid opaque #F0F1EB. Draw a uniform fine notebook GRID, #E1E2DA lines 2 px every 54 px horizontally and vertically, behind every element. No arch anywhere, no progress bar, slide counter, TikTok UI, transparency or checkerboard.\n\nTOP LOGO AREA: remove the template's OLD wordmark. Leave the top 110 px as uninterrupted grid background with NO text, badge, figure, decoration or placeholder box. DO NOT generate any logo or brand name. After generation the owner's exact original transparent full logo PNG will be pasted at x48,y19,341×71 px with its own transparency and no backing patch, as explicitly required. Reserve this area.\n\nHEADLINE CONTENT AND POSITION: spell EXACTLY two lines, \"WEAK\" then \"BACK?\". No other text besides the separately pasted authentic logo. WEAK solid dark #2A2A2A; BACK? coral #F26445. Keep the same upper roughly 45% headline block as the template, below y110, enormous and centered slightly left of the canvas centre; all letters and the question mark must fit fully inside the image and be clearly readable. The original figure's head may overlap the bottom edge of BACK? slightly, as in the template, but never obscure any letter. Preserve the small coral paint-splat dot associated with the question mark as on the template. Do not add words, signatures, watermarks, variant labels or added punctuation. Keep the composition the same, changing only the headline lettering as specified below; headline size may scale to fit the requested letterforms.\n\nH6 — BOLD + MARKER. HEADLINE STYLE FOR THIS IMAGE ONLY:\nLine 1 \"WEAK\": clean heavy upright sans, solid #2A2A2A. Line 2 \"BACK?\": hand-painted coral #F26445 BRUSH MARKER lettering, a slightly rotated baseline, energetic spontaneous broad brush strokes with natural irregular edges and expressive stroke endings. It must clearly look hand-painted, not like a regular font. Keep BACK? readable, huge and on ONE line. Do not add marker scribbles, underlines, words, or punctuation beyond the exact question mark.\n\nReturn exactly ONE finished opaque cover with the original detailed anatomy figure, the full two-line headline in this style, GRID background and empty logo reservation. No comparison sheet, mockup or collage.",
+        "prompt_file": "prompts/headline-test/H6-slide-01.txt",
+        "file": "outputs/headline-test/H6-slide-01.png",
+        "reference": "carousels/LW-CAR-0001/outputs/slide-01.png",
+        "attempts": [
+          {
+            "attempt": 1,
+            "tool": "image_gen.imagegen",
+            "started_at": "2026-10-19T13:49:38.568816+00:00",
+            "status": "blocked",
+            "transparent_background": false,
+            "referenced_image_paths": [
+              "/workspace/lightweight-carousels/carousels/LW-CAR-0001/outputs/slide-01.png"
+            ],
+            "finished_at": "2026-10-19T13:59:59.482535+00:00",
+            "error": {
+              "code": "moderation_blocked",
+              "type": "image_generation_user_error",
+              "stage": "output",
+              "categories": [
+                "sexual"
+              ],
+              "request_id": "3635064e-5ccb-436d-8b38-18c74636f6d3",
+              "message": "Your request was rejected by the safety system. No image was returned."
+            },
+            "result_file": null
+          }
+        ],
+        "errors": [
+          {
+            "code": "moderation_blocked",
+            "type": "image_generation_user_error",
+            "stage": "output",
+            "categories": [
+              "sexual"
+            ],
+            "request_id": "3635064e-5ccb-436d-8b38-18c74636f6d3",
+            "message": "Your request was rejected by the safety system. No image was returned."
+          }
+        ],
+        "save_status": "blocked_no_image_returned",
+        "agent_visual_review": "not_performed",
+        "user_review": "pending"
+      }
+    ],
+    "agent_visual_review": "not_performed",
+    "user_review": "pending"
+  },
+  "generated_images_total_including_prior_figure_test": 11
 }
