@@ -19,8 +19,8 @@
       "https://github.com/user-attachments/assets/a6645f77-62e7-4284-9cf3-ef2d1e527897"
     ]
   },
-  "updated_at": "2026-10-18T21:02:07.889177+00:00",
-  "status": "slide_8_approved_slides_1_7_v2_pending_owner_review",
+  "updated_at": "2026-10-19T13:06:30+00:00",
+  "status": "owner_approved",
   "format": {
     "width": 1080,
     "height": 1350,
@@ -41,7 +41,7 @@
     "source": "First image in owner chat message; Lightweight wordmark in Figma screenshot"
   },
   "agent_visual_review": "not_performed",
-  "user_review": "partial_approval",
+  "user_review": "approved",
   "generation_call_count": 9,
   "remote_save_status": "saved_github",
   "next_slide_to_generate": null,
@@ -88,7 +88,7 @@
       ],
       "save_status": "saved_github",
       "agent_visual_review": "not_performed",
-      "user_review": "pending",
+      "user_review": "approved",
       "generation_result_original_path": "/workspace/generated_images/exec-0aaa1413-fd6a-4845-a692-1a31049ad1ee.png",
       "generated_dimensions": {
         "width": 1122,
@@ -122,7 +122,13 @@
           "note": "Owner-requested palette change: sage non-highlighted muscles recolored to warm sand #D9CBBE by a deterministic pixel recolor of v1 (hue mask on green/sage pixels, luminance preserved). No image generation, nothing else changed.",
           "sha256": "ed95fa90401153c3b609ce122c6611b9fa93e2c4b36e3f43a60d92a2e960b10b"
         }
-      ]
+      ],
+      "owner_approval": {
+        "at": "2026-10-19T13:06:30+00:00",
+        "by": "owner (chat with Claude)",
+        "file": "carousels/LW-CAR-0001/outputs/slide-01.png",
+        "sha256": "ed95fa90401153c3b609ce122c6611b9fa93e2c4b36e3f43a60d92a2e960b10b"
+      }
     },
     {
       "slide_number": 2,
@@ -165,7 +171,7 @@
       ],
       "save_status": "saved_github",
       "agent_visual_review": "not_performed",
-      "user_review": "pending",
+      "user_review": "approved",
       "generation_result_original_path": "/workspace/generated_images/exec-440e6df2-44ca-4a66-a85f-3699838828f6.png",
       "generated_dimensions": {
         "width": 1122,
@@ -199,7 +205,13 @@
           "note": "Owner-requested palette change: sage non-highlighted muscles recolored to warm sand #D9CBBE by a deterministic pixel recolor of v1 (hue mask on green/sage pixels, luminance preserved). No image generation, nothing else changed.",
           "sha256": "4e4d988ac6ad11c104833af4582a8c91bfb6d1c4be3a44eca313721c868ac549"
         }
-      ]
+      ],
+      "owner_approval": {
+        "at": "2026-10-19T13:06:30+00:00",
+        "by": "owner (chat with Claude)",
+        "file": "carousels/LW-CAR-0001/outputs/slide-02.png",
+        "sha256": "4e4d988ac6ad11c104833af4582a8c91bfb6d1c4be3a44eca313721c868ac549"
+      }
     },
     {
       "slide_number": 3,
@@ -242,7 +254,7 @@
       ],
       "save_status": "saved_github",
       "agent_visual_review": "not_performed",
-      "user_review": "pending",
+      "user_review": "approved",
       "generation_result_original_path": "/workspace/generated_images/exec-ac7cdab2-03e1-4377-84b4-360d10d4a86c.png",
       "generated_dimensions": {
         "width": 1122,
@@ -276,7 +288,13 @@
           "note": "Owner-requested palette change: sage non-highlighted muscles recolored to warm sand #D9CBBE by a deterministic pixel recolor of v1 (hue mask on green/sage pixels, luminance preserved). No image generation, nothing else changed.",
           "sha256": "2334c7766122f47739e2f460edb89baea97e594249c266e4aea41fc2dba7a4ee"
         }
-      ]
+      ],
+      "owner_approval": {
+        "at": "2026-10-19T13:06:30+00:00",
+        "by": "owner (chat with Claude)",
+        "file": "carousels/LW-CAR-0001/outputs/slide-03.png",
+        "sha256": "2334c7766122f47739e2f460edb89baea97e594249c266e4aea41fc2dba7a4ee"
+      }
     },
     {
       "slide_number": 4,
@@ -319,7 +337,7 @@
       ],
       "save_status": "saved_github",
       "agent_visual_review": "not_performed",
-      "user_review": "pending",
+      "user_review": "approved",
       "generation_result_original_path": "/workspace/generated_images/exec-86dcd2b8-5d5c-486e-9930-e49df54f1f56.png",
       "generated_dimensions": {
         "width": 1122,
@@ -353,7 +371,13 @@
           "note": "Owner-requested palette change: sage non-highlighted muscles recolored to warm sand #D9CBBE by a deterministic pixel recolor of v1 (hue mask on green/sage pixels, luminance preserved). No image generation, nothing else changed.",
           "sha256": "ea3b461a982d00a67bddd0226ad2a4aa7473324e8d587ea128fe702ba6f36b89"
         }
-      ]
+      ],
+      "owner_approval": {
+        "at": "2026-10-19T13:06:30+00:00",
+        "by": "owner (chat with Claude)",
+        "file": "carousels/LW-CAR-0001/outputs/slide-04.png",
+        "sha256": "ea3b461a982d00a67bddd0226ad2a4aa7473324e8d587ea128fe702ba6f36b89"
+      }
     },
     {
       "slide_number": 5,
@@ -396,7 +420,7 @@
       ],
       "save_status": "saved_github",
       "agent_visual_review": "not_performed",
-      "user_review": "pending",
+      "user_review": "approved",
       "generation_result_original_path": "/workspace/generated_images/exec-36c6367c-5636-4085-aa07-8e61232df6ab.png",
       "generated_dimensions": {
         "width": 1122,
@@ -430,7 +454,13 @@
           "note": "Owner-requested palette change: sage non-highlighted muscles recolored to warm sand #D9CBBE by a deterministic pixel recolor of v1 (hue mask on green/sage pixels, luminance preserved). No image generation, nothing else changed.",
           "sha256": "a5595bebc5785049942edcdc8baa7bfeb8a0daf8ffa3822ed264ecb660d02a25"
         }
-      ]
+      ],
+      "owner_approval": {
+        "at": "2026-10-19T13:06:30+00:00",
+        "by": "owner (chat with Claude)",
+        "file": "carousels/LW-CAR-0001/outputs/slide-05.png",
+        "sha256": "a5595bebc5785049942edcdc8baa7bfeb8a0daf8ffa3822ed264ecb660d02a25"
+      }
     },
     {
       "slide_number": 6,
@@ -473,7 +503,7 @@
       ],
       "save_status": "saved_github",
       "agent_visual_review": "not_performed",
-      "user_review": "pending",
+      "user_review": "approved",
       "generation_result_original_path": "/workspace/generated_images/exec-2d8f61a2-f1b9-4a58-9a73-ce93aee14505.png",
       "generated_dimensions": {
         "width": 1122,
@@ -507,7 +537,13 @@
           "note": "Owner-requested palette change: sage non-highlighted muscles recolored to warm sand #D9CBBE by a deterministic pixel recolor of v1 (hue mask on green/sage pixels, luminance preserved). No image generation, nothing else changed.",
           "sha256": "881285a4cf0475f2a4fb10ad7e4aa5766eac5c705052acbc01f393ec2d45ea45"
         }
-      ]
+      ],
+      "owner_approval": {
+        "at": "2026-10-19T13:06:30+00:00",
+        "by": "owner (chat with Claude)",
+        "file": "carousels/LW-CAR-0001/outputs/slide-06.png",
+        "sha256": "881285a4cf0475f2a4fb10ad7e4aa5766eac5c705052acbc01f393ec2d45ea45"
+      }
     },
     {
       "slide_number": 7,
@@ -550,7 +586,7 @@
       ],
       "save_status": "saved_github",
       "agent_visual_review": "not_performed",
-      "user_review": "pending",
+      "user_review": "approved",
       "generation_result_original_path": "/workspace/generated_images/exec-2d8be6f6-59a3-44c9-8a99-812a205f3eb3.png",
       "generated_dimensions": {
         "width": 1122,
@@ -584,7 +620,13 @@
           "note": "Owner-requested palette change: sage non-highlighted muscles recolored to warm sand #D9CBBE by a deterministic pixel recolor of v1 (hue mask on green/sage pixels, luminance preserved). No image generation, nothing else changed.",
           "sha256": "7f088a2a16a2c3c96985f9a214efc5de41bfe438405a51fa6a832fb192ebd569"
         }
-      ]
+      ],
+      "owner_approval": {
+        "at": "2026-10-19T13:06:30+00:00",
+        "by": "owner (chat with Claude)",
+        "file": "carousels/LW-CAR-0001/outputs/slide-07.png",
+        "sha256": "7f088a2a16a2c3c96985f9a214efc5de41bfe438405a51fa6a832fb192ebd569"
+      }
     },
     {
       "slide_number": 8,

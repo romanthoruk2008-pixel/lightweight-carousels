@@ -16,7 +16,7 @@
     }
   },
   "branch": "claude/charming-einstein-xgejky",
-  "status": "partially_approved",
+  "status": "owner_approved",
   "format": {
     "width": 1080,
     "height": 1350,
@@ -34,7 +34,7 @@
     "skin_ivory_approx": "#F5F0E5"
   },
   "agent_visual_review": "not_performed",
-  "user_review": "partially_approved",
+  "user_review": "approved",
   "generation_call_count": 8,
   "generated_slides": [
     1,
@@ -498,7 +498,7 @@
       "errors": [],
       "save_status": "saved_repository_file",
       "agent_visual_review": "not_performed",
-      "user_review": "pending",
+      "user_review": "approved",
       "generation_result_original_path": "/workspace/generated_images/exec-b0785d4e-28f0-4410-8102-2a89d467e073.png",
       "generated_dimensions": {
         "width": 1122,
@@ -522,6 +522,12 @@
         "initial_destination": "0,560",
         "assembly_layout_note": "The top/background generation stage uses more vertical space for the complete copy than initially reserved. Required final asset assembly therefore uses the explicit series rule to move/shrink the phone rather than cover or shrink text. No regeneration, OCR or additional review tool call.",
         "assembly_status": "completed"
+      },
+      "owner_approval": {
+        "at": "2026-10-19T13:06:30+00:00",
+        "by": "owner (chat with Claude)",
+        "file": "carousels/LW-CAR-0007/outputs/slide-08.png",
+        "sha256": "8505e62707173616127e48966d8e6afe82735a09892cc144099556c559ac2380"
       }
     }
   ],
@@ -536,7 +542,7 @@
     "Rendered typography, exact copy, poses and anatomy are requested in prompts and are not independently verified because owner disabled post-generation QA.",
     "Product display uses exact bitmap reuse from the accepted LW-CAR-0001 phone/hand composite; a separate raw screenshot is not available in this checkout."
   ],
-  "updated_at": "2026-10-19T08:22:27.055727+00:00",
+  "updated_at": "2026-10-19T13:06:30+00:00",
   "next_action": "Owner reviews slide 8. Slides 1-7 are accepted and remain unchanged; no regeneration without a specific owner request.",
   "delivery_archive": "carousels/LW-CAR-0007/LW-CAR-0007-1080x1350.zip",
   "storage": {

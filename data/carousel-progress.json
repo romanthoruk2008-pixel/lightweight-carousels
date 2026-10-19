@@ -19,7 +19,7 @@
       "slides": 8,
       "slides_blocked": [],
       "generation": "generated_8_of_8",
-      "user_review": "slides_1_7_v2_recolored_pending_owner_look; slide_8_changes_requested",
+      "user_review": "approved",
       "path": "carousels/LW-CAR-0001/",
       "outputs": "carousels/LW-CAR-0001/outputs/",
       "outputs_commit": "f49490e",
@@ -54,7 +54,7 @@
       "slides": 8,
       "slides_blocked": [],
       "generation": "not_started",
-      "user_review": "pending",
+      "user_review": "approved",
       "path": "carousels/LW-CAR-0003/"
     },
     {
@@ -80,7 +80,7 @@
       "slides": 8,
       "slides_blocked": [],
       "generation": "not_started",
-      "user_review": "pending",
+      "user_review": "slides 1-7 approved; slide 8 waits for the Distribution screenshot file",
       "path": "carousels/LW-CAR-0005/"
     },
     {
@@ -93,7 +93,7 @@
       "slides": 8,
       "slides_blocked": [],
       "generation": "generated_8_of_8_v1.0",
-      "user_review": "slides 1-7 approved (slide 2 keeps 'Lifters'); slide 8 waits for owner's Distribution screenshot + v1.1 text",
+      "user_review": "slides 1-7 approved; slide 8 waits for the Distribution screenshot file (+ v1.1 text)",
       "path": "carousels/LW-CAR-0006/"
     },
     {
@@ -106,7 +106,7 @@
       "slides": 8,
       "slides_blocked": [],
       "generation": "not_started",
-      "user_review": "pending",
+      "user_review": "approved",
       "path": "carousels/LW-CAR-0007/"
     },
     {
@@ -198,7 +198,7 @@
       "background": "DOTS",
       "slides_blocked": [],
       "generation": "not_started",
-      "user_review": "pending",
+      "user_review": "approved",
       "path": "carousels/LW-CAR-0014/"
     },
     {
@@ -226,7 +226,7 @@
       "background": "CLEAN",
       "slides_blocked": [],
       "generation": "not_started",
-      "user_review": "pending",
+      "user_review": "approved",
       "path": "carousels/LW-CAR-0016/"
     },
     {
@@ -257,7 +257,7 @@
       "accepted_assets": []
     }
   ],
-  "next_action": "Codex generates LW-CAR-0002, 0003, 0005 fully and LW-CAR-0004 slides 1-8 (slide 9 waits for owner on \"Personalised Plans\"). One commit per carousel.",
+  "next_action": "Owner sends the Distribution screenshot (blocks slide 8 of LW-CAR-0005 and 0006). Codex: generate LW-CAR-0011 and 0017; LW-CAR-0004 slides 1-8 (slide 9 waits for the Personalised Plans answer).",
   "review_policy": {
     "separate_reviewer": false,
     "automatic_post_generation_visual_review": false,

@@ -5,9 +5,9 @@
   "source_ref": "REF-002",
   "source_board_commit": "061d7a12e93f3ebadc8fd58c9539df2e5a8bb5ff",
   "style_master": "LW-CAR-0001 warm-sand outputs at d9225c0afcd9dacb8c532a0878fdd6b488764d06",
-  "status": "complete_partially_approved",
+  "status": "owner_approved",
   "agent_visual_review": "not_performed",
-  "user_review": "partially_approved",
+  "user_review": "approved",
   "slides": [
     {
       "slide_number": 1,
@@ -410,7 +410,7 @@
         "file_path": "/workspace/shared/LW-CAR-0003-references/reference-08.png"
       },
       "agent_visual_review": "not_performed",
-      "user_review": "pending",
+      "user_review": "approved",
       "prompt": "Reuse carousels/LW-CAR-0002/outputs/slide-09.png at approved completion commit 3b6c894, accepted in 205b5df0274b4afed3fdca15a1cb5349e8ad967e, as LW-CAR-0003 outputs/slide-08.png. The frozen copy headlines and default-screen phone ending are identical. Copy the approved PNG byte-for-byte. Do not regenerate or redraw any app UI. Existing blank scene is unused production material, not the final result.\n",
       "prompt_file": "carousels/LW-CAR-0003/prompts/slide-08-assembly.txt",
       "scene_file": "carousels/LW-CAR-0003/production-assets/slide-08-scene.png",
@@ -432,7 +432,13 @@
       "reused_at": "2026-10-18T21:31:12.408055+00:00",
       "provenance_limitation": "This reuses an owner-approved composed slide. Original raw screenshot pixel identity was not independently established for the earlier LW-CAR-0001 generated source, as recorded in its handoff. No new app UI was generated for this delivery.",
       "assembly_count": 1,
-      "remote_save_status": "saved_github"
+      "remote_save_status": "saved_github",
+      "owner_approval": {
+        "at": "2026-10-19T13:06:30+00:00",
+        "by": "owner (chat with Claude)",
+        "file": "carousels/LW-CAR-0003/outputs/slide-08.png",
+        "sha256": "ecee422b153697ac3102bb97353846903917ca209b1c6d9f2ee938853cb8735f"
+      }
     }
   ],
   "expected_slide_count": 8,
@@ -451,7 +457,7 @@
   "failed_image_tool_calls": 1,
   "delivery_archive": "carousels/LW-CAR-0003/LW-CAR-0003-1080x1350.zip",
   "caption_file": "carousels/LW-CAR-0003/caption.txt",
-  "updated_at": "2026-10-18T21:32:41.529369+00:00",
+  "updated_at": "2026-10-19T13:06:30+00:00",
   "remote_save_status": "saved_github",
   "generation_execution_order": [
     1,
