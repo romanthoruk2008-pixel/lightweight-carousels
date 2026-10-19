@@ -177,6 +177,23 @@
 
 ---
 
+## REF-008 — Chest exercise tier list (Arrow)
+
+Назва або тема: chest tier list (from worst to best)
+Посилання на оригінал: Arrow @arrowfitnessapp, TikTok, ~2026-10-16. 19.3K лайків, 86 коментарів, 7045 збережень. Звук: Into You (Slowed) - Altare.alt & Eclipse.
+Підпис: «Chest exercise tier list. Do you agree?? #gymtips #tierlist #chestexercise #chestday #hypertrophy»
+Що подобається: власник хоче спробувати цей стиль з нашими кольорами (2026-10-19).
+Статус: **частина 1 з кількох** (власник надсилає по 5 скриншотів). Файли лежать у репозиторії: `references/images/REF-008/`.
+
+### Слайди (частина 1, порядок від власника)
+1. ![](images/REF-008/slide-01.jpg) Обкладинка: `chest` / `tier list` (зелена смуга-маркер під `tier list`) / `(from worst to best)` курсивом. Фігура спереду, руки на поясі, груди зелені, чорні шорти.
+2. ![](images/REF-008/slide-02.jpg) Роздільник: блакитний квадрат `F` + `tier`; курсив `avoid these`.
+3. ![](images/REF-008/slide-03.jpg) `#12 hex press` (маркер під `hex press`), 1 зірка з 5. Текст: `a lot of people think these target the ‘inner chest’, but you can’t bias it.` Фігура: жим гантелей разом лежачи на рівній лаві.
+4. ![](images/REF-008/slide-04.jpg) `#11 decline press` (маркер), 1,5 зірки з 5. Текст: `decline presses are unnecessary. flat presses already target your lower fibres well.` Фігура: жим штанги на лаві з від'ємним нахилом.
+5. ![](images/REF-008/slide-05.jpg) Роздільник: зелений квадрат `C` + `tier`; курсив `there are better options`.
+
+---
+
 <!-- Наступні каруселі додавай новими розділами REF-005, REF-006 тощо, за тим самим зразком. -->
 
 ## Правила для агентів
