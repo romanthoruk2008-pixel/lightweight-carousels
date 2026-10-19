@@ -1,0 +1,12 @@
+Create ONE finished original Lightweight carousel slide, LW-CAR-0009 slide 6, using the attached owner-approved LW-CAR-0002 slide 6 as the exact list-template reference. Match its composition and positions: large coral #4 at top left with short underline, bold title and grey sets line to the right, left-aligned grey two-line sentence, pale arch on the right, two full-body exercise mannequins below, thin vertical coral divider, labels centered at bottom. Output a clean 4:5 portrait image, no extra text, border, watermark or signature.
+
+Series style: off-white #F0F1EB background; large pale arch #FBE3DD; coral #F26445; dark #2A2A2A; body grey #6B6B6B; warm sand #D9CBBE with darker sand shades; ivory #F5F0E5; fine grey anatomical linework; black/grey/white realistic equipment. Rubik typography. The final slide MUST show the actual approved black Lightweight wordmark in the top-left corner, same size and placement as the reference; use the supplied master logo pixels, never invent a logo.
+
+All figures are smooth plastic anatomy mannequins, bald and featureless, pelvis smooth and featureless with no genital detail. Full-body figures wear plain opaque short athletic shorts in sand #D9CBBE. Exercise figures remain unhighlighted; no coral muscle fill on them.
+
+Header: coral “#4” on far left, short coral underline below; to its right, bold dark title exactly “Adductors” and below it regular grey sets line exactly “2-3 sets x 10-15 reps”.
+Under header, left-aligned regular grey sentence exactly:
+“Choose one of these exercises to train your inner thighs:”
+Keep it to two lines, preserve exact words and colon.
+
+Bottom two figures side by side, separated by thin vertical coral rule. Left: front-view seated hip adductor machine, knees apart at start but legs squeezing inward against pads, realistic selectorized machine; label exactly “Adductor Machine”. Right: standing front/three-quarter mannequin beside a low cable station, ankle strap on the outside ankle, pulling the working leg across the body in hip adduction; side-on stance relative to low pulley but body readable from front three-quarter view; label exactly “Cable Hip Adduction”. Keep positions, clothing, equipment and label spacing like the approved template. No highlighted muscles and no other text.

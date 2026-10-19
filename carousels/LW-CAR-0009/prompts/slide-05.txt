@@ -1,0 +1,11 @@
+Create ONE finished original Lightweight carousel slide, LW-CAR-0009 slide 5, using the attached owner-approved LW-CAR-0002 slide 5 as the exact list-template reference. Copy its 4:5 layout: upper-left coral “#N” with short underline, title and grey sets line to the right, grey instruction sentence below, large pale arch on the right, lower two full-body exercise figures separated by thin vertical coral line, labels centered below. No extra text, border, watermark or signature.
+
+Use the series palette and drawing style: background #F0F1EB; pale rounded arch #FBE3DD; coral #F26445 for #3 and divider; dark #2A2A2A; grey #6B6B6B; warm sand #D9CBBE muscles, darker sand shading, ivory skin/tendons #F5F0E5, fine grey anatomy lines. Rubik lettering. The final slide MUST display the approved black Lightweight wordmark at its exact small top-left location and size from the reference, using the actual supplied logo pixels.
+
+Anatomical people are smooth plastic mannequins, bald, faceless, with featureless pelvises and no genital detail. Both full-body exercise figures wear plain opaque short athletic shorts in sand #D9CBBE. No muscle highlighting on exercise figures; keep all anatomy neutral sand/ivory. Equipment black/grey/white.
+
+Header: large coral “#3” on far left with short coral underline. Right of it bold dark title exactly “Glutes”; below title regular grey sets line exactly “2-3 sets x 8-12 reps”. Under header, left-aligned regular grey sentence exactly:
+“Choose one of these exercises to grow your glutes:”
+Keep the two-line sentence fully legible and verbatim.
+
+Bottom: two side-by-side full-body figures separated by a thin vertical coral divider. Left, hip thrust: upper back supported on a flat bench, barbell padded across hips, hips extended at the top, side view; label exactly “Hip Thrust”. Right, mid-stride walking lunge holding a dumbbell in each hand, side view; label exactly “Walking Lunges”. Keep figures, barbell and bench in the lower half, maintain comfortable gap and fully visible labels with a bottom margin.

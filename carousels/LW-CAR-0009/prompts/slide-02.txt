@@ -1,0 +1,18 @@
+Create ONE finished original Lightweight carousel slide, LW-CAR-0009 slide 2, using the attached owner-approved LW-CAR-0002 slide 2 as the exact layout template. Match its left-aligned two-line headline, short coral underline, five vertically spaced bullet rows with round dark bullets, partial figure composition in the bottom right, off-white background, pale arch, wordmark position, type scale, linework and hierarchy. Output one portrait 4:5 slide, no border, caption, watermark, signature or other words.
+
+Series palette: #F0F1EB background, pale arch #FBE3DD, coral #F26445, dark #2A2A2A, body grey #6B6B6B, warm sand muscles #D9CBBE, darker sand shading, ivory #F5F0E5 skin/tendons, thin grey anatomy outlines. Use Rubik. Leave the exact top-left wordmark area clear for logo pixels from the supplied approved master; do not invent a logo.
+
+At upper left, large bold dark title, exactly two lines:
+“Your Leg Day”
+“Should Include:”
+Below it, a short coral horizontal underline, same as template.
+
+Under title, five dark round bullet dots and five left-aligned text rows. Preserve every string and punctuation exactly; use regular weight for “1x” and the parenthetical, bold weight only for the muscle name:
+1x Quads (Squat Pattern)
+1x Hamstrings (Hinge or Curl)
+1x Glutes (Hip Extension)
+1x Adductors (Inner Thigh)
+1x Calves
+Do not omit bullets or alter capitalization. Keep all lines fully visible and evenly spaced.
+
+Lower right, cropped by the right and bottom edges as in the template: a smooth-plastic anatomical mannequin lower body from waist to feet in three-quarter rear view, one leg slightly forward. Smooth featureless pelvis with no genital detail. Highlight quads, hamstrings, glutes, adductors and calves coral #F26445; all other visible muscles warm sand/ivory with fine grey linework. Use the established premium educational anatomy style. Keep the figure on the right so it does not cover any checklist text. No additional text or figures.

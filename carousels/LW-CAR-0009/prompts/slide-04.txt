@@ -1,0 +1,15 @@
+Create ONE finished original Lightweight carousel slide, LW-CAR-0009 slide 4, using the attached approved LW-CAR-0002 slide 4 as the exact list-template reference. Match its top-left large coral “#N” and underline, bold title and regular grey sets line to the right, left-aligned two-line sentence, right-side pale arch, two full-body exercise figures below, thin vertical coral divider and centered labels under the figures. Output a clean 4:5 portrait slide; no extra text, border, watermark or signature.
+
+Brand style: background #F0F1EB; pale arch #FBE3DD; coral #F26445; dark text #2A2A2A; body and sets grey #6B6B6B; warm sand muscles #D9CBBE with darker sand shading; ivory skin/tendons #F5F0E5; fine grey anatomy outlines; realistic black/grey/white equipment. All text Rubik. The final slide MUST display the approved black Lightweight wordmark at the exact small top-left position/size seen in the reference; use the actual supplied master logo, do not invent/redraw it.
+
+All figures are smooth plastic anatomical mannequins, bald and featureless, with a smooth featureless pelvis and no genital detail. Full-body exercise figures wear plain opaque short athletic shorts in sand #D9CBBE. Exercise figures have no highlighted muscles; use sand/ivory only, as in the approved series.
+
+Header text:
+Large coral “#2” at far left, short coral underline directly below.
+To its right, title in bold dark text exactly “Hamstrings”.
+Under the title, regular grey sets line exactly “2-3 sets x 8-12 reps”.
+Below the header, left-aligned regular grey sentence exactly:
+“Choose one of these exercises to train your hamstrings:”
+Wrap naturally over two lines, do not change wording or punctuation.
+
+Bottom area: two full-body exercise illustrations side by side, separated by a thin vertical coral divider. Left figure: barbell Romanian deadlift, side view, hips back, slight knee bend and a flat neutral back while holding the barbell; label exactly “Romanian Deadlift”. Right figure: seated leg curl machine, side view, seated with ankles behind roller pad curling toward the seat, realistic machine; label exactly “Seated Leg Curl”. Keep poses anatomically plausible, figures distinct, all equipment dark neutral tones, and labels fully visible with bottom margin. No highlighted muscles.

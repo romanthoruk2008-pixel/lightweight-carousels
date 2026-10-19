@@ -1,0 +1,12 @@
+Create ONE finished original Lightweight carousel slide, LW-CAR-0009 slide 3, using the attached owner-approved LW-CAR-0002 slide 3 as the exact list-layout template. Match its top-left large coral “#N” with short underline, title and sets line to the right, two-line grey instruction sentence, pale arch, background, figure scale, thin vertical coral divider, two exercise figures and bottom labels. Output a clean portrait 4:5 image with no border, caption, watermark, signature or extra words.
+
+Brand style: #F0F1EB background, large pale coral arch #FBE3DD at right, coral #F26445 number and divider, dark #2A2A2A titles/labels, grey #6B6B6B sets/body, non-target anatomy warm sand #D9CBBE with darker sand shading, ivory skin #F5F0E5 and fine grey anatomical linework. Rubik for all lettering: bold number/title, regular sets and body/labels. The final slide MUST show the small black Lightweight wordmark in the exact top-left location and size from the reference. Keep that area clean during scene generation because the exact approved logo pixels are composited into the final export; do not invent or redraw it.
+
+Figures: smooth plastic anatomical mannequins, bald, faceless, featureless pelvises with no genital detail. Full-body figures wear plain opaque short athletic shorts in sand #D9CBBE. All exercise figures remain unhighlighted, entirely warm sand/ivory with no coral muscle patches. Use realistic black/grey/white equipment.
+
+Header: large coral “#1” on the far left, with short coral underline directly below. On its right, bold dark title exactly “Quads”; under the title, grey sets line exactly “2-3 sets x 6-10 reps”.
+Below the header, left-aligned regular grey body sentence exactly:
+“Choose one of these exercises to build your quads:”
+Wrap in two lines while preserving the exact wording and punctuation.
+
+Bottom half: two full-body smooth-plastic mannequins side by side, separated by a thin vertical coral line as in the reference. Left: plate-loaded hack squat machine, side view, deep knee bend, shoulders under pads, black/grey machine and plates, label below exactly “Hack Squat”. Right: Bulgarian split squat, side view, rear foot raised on a bench, front knee bent, dumbbells in hands, label below exactly “Bulgarian Split Squat”. Keep equipment and figures uncluttered, labels fully visible with bottom margin. No highlighted muscles. Do not add other text.

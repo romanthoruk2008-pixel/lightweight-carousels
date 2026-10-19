@@ -1,0 +1,8 @@
+Create ONE finished original Lightweight carousel slide, LW-CAR-0009 slide 8, using the attached approved LW-CAR-0002 slide 9 as the exact ending-slide template. Reproduce the approved composition: small black Lightweight wordmark at the top left; short coral bar; two-line left-aligned headline in the same heaviest Rubik, sizes, positions and line spacing; off-white background and pale coral arch; tall black phone held at a slight angle by the same sketch-style hand, entering from bottom right. Match the approved layout, colors, type hierarchy and generous spacing. No caption, border, watermark, signature, or extra copy.
+
+Use background #F0F1EB, arch #FBE3DD, coral #F26445, dark #2A2A2A. Text must be Rubik. The final export will use the exact approved top-left logo pixels and will directly reuse the approved lower phone/hand composite and its real Muscle balance app screenshot from y=420 through the bottom at unchanged coordinates. Do not regenerate, redraw, reinterpret, or alter any pixels of the app screen, phone, or hand. Do not change their proportions or squash the phone. Keep the app screen in its original tall proportions, showing the Muscle balance view and its Legs axis. The actual screenshot is inserted from the approved source slide during final assembly.
+
+Headline only, exact line breaks and punctuation:
+Track Your Leg Day. (bold, #2A2A2A)
+See If Your Legs Keep Up. (bold, #F26445)
+Use the same left alignment and scale as the approved ending slide. The exact small black Lightweight wordmark must appear in the top-left corner at the approved size and position; exact approved logo pixels are composited into the final export. Do not draw or invent a substitute logo. No other slide text.
