@@ -1,0 +1,14 @@
+LW-CAR-0022, content_version 1.1. Create one complete 1080 × 1350 px portrait exercise slide in the approved S2 look, matching LW-CAR-0020 slide 3 / LW-CAR-0021 slide 3: heavy tight lowercase title, coral marker, clean regular body copy, stars, and realistic white/light-grey mannequin.
+
+Clean opaque #F0F1EB background only: no texture, arch, grid, dots, rings, panel, counter, progress bar, watermark or signature. Leave logo area at top-left blank and top 110 px free. Do not draw any logo/brand text; official transparent Harda logo is added after generation at x=48,y=19,size=218×71.
+
+Exact text:
+#3
+hip thrust
+the easiest way to load your glutes heavy.
+
+At the top, large #3 and heavy tight-grotesk lowercase title “hip thrust”; coral #F26445 marker behind the exercise name only. Below show 4.5 stars: four full coral stars, one half coral/empty-grey star. Body copy exact, regular sans #2A2A2A, left-aligned and up to two lines.
+
+Lower half illustration: realistic bald faceless anatomical mannequin, white/light-grey with fine grey shading and subtle fibres, smooth featureless pelvis, dark #2A2A2A shorts, no colored muscles. Barbell hip thrust at the top position with hips raised, upper back supported on a flat bench, black/grey barbell across the hips, side view. Keep the full pose, bench and bar clear of text; match approved S2 figure finish.
+
+Return exactly one slide, no collage or mockup.

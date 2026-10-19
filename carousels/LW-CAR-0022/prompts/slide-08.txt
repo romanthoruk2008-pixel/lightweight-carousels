@@ -1,0 +1,12 @@
+LW-CAR-0022, content_version 1.1. Create one complete finished 1080 × 1350 px portrait tier divider in the approved S2 style. Match LW-CAR-0020 slide 2 and LW-CAR-0021 slide 2 in group placement, scale, spacing and typographic hierarchy.
+
+Clean opaque #F0F1EB background, no texture, arch, grid, dots, rings, panel, progress bar, slide counter, watermark or signature. Leave top-left empty and top 110 px clear; do not draw logo/brand text. Official transparent Harda logo will be composited afterward at x=48,y=19,size=218×71.
+
+Center the divider group around the middle with generous whitespace. Place a large rounded square #FFD95A tile with a soft shadow at the left and a huge bold white capital B inside. To its right set oversized heavy tight-grotesk lowercase “tier” in #2A2A2A. Center the italic regular #6B6B6B line “solid picks” underneath.
+
+Exact text only:
+B
+tier
+solid picks
+
+Return exactly one slide, no collage or mockup.

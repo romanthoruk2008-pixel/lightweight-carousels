@@ -1,0 +1,14 @@
+LW-CAR-0022, content_version 1.1. Create one complete 1080 × 1350 px portrait S2 exercise slide matching the owner-approved look/layout of LW-CAR-0020 slide 3 and LW-CAR-0021 slide 3: heavy tight lowercase headline, coral marker, clean regular sans body, five-star rating, realistic white/light-grey mannequin.
+
+Background clean solid opaque #F0F1EB, no texture, arch, grid, dots, rings, cards, counter, progress bar, watermark or signature. Keep the top 110 px free and the logo area empty; do not render brand text/logo. The supplied Harda logo is added afterward at x=48,y=19,size=218×71.
+
+Exact copy:
+#5
+romanian deadlift
+huge stretch for your hamstrings and glutes, and easy to load.
+
+Place the #5 and very-heavy tight-grotesk lowercase title at the top, with a coral #F26445 marker bar behind “romanian deadlift” only. Show exactly four full coral stars then one empty #D6D6D2 star. Put the exact clean sans-serif #2A2A2A description left aligned beneath, at most two lines, fully visible.
+
+Lower half: bald faceless realistic anatomical mannequin in white/light-grey, finely shaded with subtle muscle fibres, smooth featureless pelvis, dark #2A2A2A shorts, no colored muscles. Perform barbell Romanian deadlift, hips pushed back, bar at knee height, side view. Black/grey barbell, no other equipment. Keep subject/text separate and match the reference's anatomical rendering.
+
+Return exactly one slide, no collage or mockup.

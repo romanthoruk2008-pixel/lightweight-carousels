@@ -1,0 +1,14 @@
+LW-CAR-0022, content_version 1.1. Create one complete finished 1080 × 1350 px portrait exercise slide in the approved S2 look. Match LW-CAR-0020 slide 3 and the long-title wrapping example LW-CAR-0021 slide 18 for typography, marker bars, scale and spacing. Keep the title heavy and readable at the same size as other exercise slides; allow it to wrap as specified below rather than shrinking it.
+
+Background clean opaque #F0F1EB, no texture, arch, grid, dots, rings, panels, counter, progress bar, watermark or signature. Top-left blank and top 110 px clear; do not draw a logo/brand text. Official transparent Harda logo will be composited afterward at x=48,y=19,size=218×71.
+
+Exact copy:
+#7
+bulgarian split squat
+brutal and effective. everyone hates them for a reason.
+
+Layout: the top title starts with #7 and the heavy lowercase exercise name. Put “bulgarian split” on the first title line with #7; put “squat” on the second title line at the same heavy size. Add separate flat coral #F26445 marker bars behind each exercise-name line only. Beneath the title show 3.5 stars (three full coral stars, a half-filled coral/grey star, one empty #D6D6D2 star). Place the exact regular sans #2A2A2A body copy left-aligned below, at most two lines. Keep clear space before the figure.
+
+Illustration in the lower half: realistic bald faceless white/light-grey anatomical mannequin, fine grey shading/subtle muscle fibres, smooth featureless pelvis, dark #2A2A2A shorts, no colored muscles. Bulgarian split squat, rear foot resting on a flat bench, one black/grey dumbbell in each hand at the sides, side view. Use the same illustration finish as approved S2 exercise slides; no text overlap.
+
+Return exactly one slide, no collage or mockup.

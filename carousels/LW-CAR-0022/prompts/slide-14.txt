@@ -1,0 +1,14 @@
+LW-CAR-0022, content_version 1.1. Create one complete 1080 × 1350 px portrait exercise slide in the exact approved S2 carousel style of LW-CAR-0020 slide 3 / LW-CAR-0021 slide 3. Match hierarchy, typography, marker bars, spacing, colors, and the realistic white/light-grey anatomical figure.
+
+Background clean opaque #F0F1EB, no texture, arch, grid, dots, rings, panels, progress bar, counter, watermark or signature. Leave top-left empty and top 110 px free of content; do not render any logo or brand text. Official transparent Harda logo will be added after generation at x=48,y=19,size=218×71.
+
+Exact copy:
+#4
+leg extension
+nothing isolates your quads better. a perfect finisher.
+
+At the top, large #4 plus heavy tight-grotesk lowercase “leg extension”; flat coral #F26445 marker behind the exercise name only. Under it show exactly four full coral stars and one empty #D6D6D2 star. Place exact body copy in regular sans-serif #2A2A2A, left-aligned beneath, at most two lines.
+
+Lower half illustration: realistic bald faceless white/light-grey anatomical mannequin, fine grey shading and subtle muscle fibres, smooth featureless pelvis, dark #2A2A2A shorts, no colored muscles. Seated on a black/grey leg extension machine, legs straight at the extension position, side view. Show only the relevant machine. Keep text clear and match the S2 figure finish.
+
+Return exactly one slide, no collage or mockup.

@@ -1,0 +1,27 @@
+LW-CAR-0022, content_version 1.1. Create ONE complete 1080 × 1350 px portrait S2 ending slide. First reference supplies approved S2 type, color and figure style. Second reference supplies ONLY the lower-right phone/hand composition; ignore its old headline/body text and logo entirely.
+
+Clean opaque #F0F1EB background, no texture, arch, grid, dots, rings, white cards, progress bar, counter, watermark or signature. Headlines use the same heavy tight lowercase grotesk #2A2A2A as the approved S2 master. Body uses clean regular sans #2A2A2A. Coral #F26445 flat marker bars behind the specified phrases only. No extra text.
+
+LOGO: leave top-left clear; do not draw a logo or brand text. Keep the top 110 px free. The official transparent Harda logo will be composited afterward at x=48,y=19,size=218×71.
+
+EXACT HEADLINE:
+harda tracks every set you lift and shows if your legs get enough work.
+Set it large, lowercase, heaviest grotesk, left-aligned below y=110, in exactly these four lines:
+harda tracks
+every set you lift
+and shows if your
+legs get enough work.
+Place coral marker bars under “every set you lift” and “legs get enough work.” only, behind the lower part of those exact words.
+
+EXACT BODY:
+log your workouts and check your muscle balance, so you never skip leg day again.
+Set it in regular #2A2A2A sans, left-aligned, in two lines:
+log your workouts and check your muscle balance,
+so you never skip leg day again.
+Finish the body text above y=650, leaving a visible clear gap before the phone.
+
+PHONE/HAND: lower-right area only, same tall black smartphone, mild clockwise tilt, size and placement as the supplied blank-display reference, with a white/light-grey sketch-style anatomical hand holding it from the bottom-right. Phone may extend off bottom edge. Keep phone/hand below y=700 and never overlap the body copy. Mannequin/hand is white/light-grey with fine grey anatomical shading, not beige.
+
+CRITICAL SCREEN RULE: the handset display in this generated slide must be EMPTY UNIFORM BLACK. Do not generate any interface, status icons, chart, axes, text, buttons, or fake UI. The real approved phone pixel layer will be inserted afterward at its original scale and proportions; keep the phone screen flat, blank black and in the same exact position as the blank-display reference.
+
+Return exactly one finished slide, no collage or mockup.

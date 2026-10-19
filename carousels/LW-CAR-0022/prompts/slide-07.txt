@@ -1,0 +1,14 @@
+LW-CAR-0022, content_version 1.1. Create one complete finished 1080 × 1350 px portrait exercise slide matching the owner-approved S2 style of LW-CAR-0020 slide 3 and LW-CAR-0021 slide 3. Keep the same visual hierarchy, tight heavy lowercase type, colors, clean body typography and realistic white/light-grey mannequin finish.
+
+Clean opaque #F0F1EB background, no texture, arch, grid, dots, rings, panel, counter, watermark or signature. Keep the top-left clear and the top 110 px free of content; do not draw a logo/brand text. The official Harda transparent logo is composited after generation at x=48,y=19,size=218×71.
+
+EXACT TEXT:
+#9
+walking lunges
+they work, but balance limits how hard you can push.
+
+Layout: oversized #9 plus very-heavy tight-grotesk lowercase “walking lunges” near the top, marker bar #F26445 behind the exercise name only. Below place 2.5 stars (two full coral, one half coral/empty-grey, two empty #D6D6D2), then the exact body copy in clean regular sans #2A2A2A, left-aligned and wrapped to at most two lines. Keep a clear gap before the figure.
+
+Illustration in the lower half: one realistic bald faceless white/light-grey anatomical mannequin with fine grey anatomical shading and subtle muscle fibres, smooth featureless pelvis, black #2A2A2A gym shorts. Show a walking lunge in mid-step, holding one black/grey dumbbell at each side, side view. No colored muscles. Match the reference mannequin's proportions and rendering, and keep the complete exercise pose/equipment clear of the text.
+
+Return exactly one slide, no collage or mockup.

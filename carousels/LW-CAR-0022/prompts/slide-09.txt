@@ -1,0 +1,14 @@
+LW-CAR-0022, content_version 1.1. Create one complete finished 1080 × 1350 px portrait S2 exercise slide matching the owner-approved references LW-CAR-0020 slide 3 and LW-CAR-0021 slide 3, including the same headline/body hierarchy, spacing, colors, and realistic white/light-grey mannequin look.
+
+Use a clean opaque #F0F1EB background with no texture, arch, grid, dots, rings, cards, counter, progress bar, watermark or signature. Leave the upper-left logo region empty and top 110 px clear; do not draw any logo or brand text. The official transparent Harda logo will be added afterward at x=48,y=19,size=218×71.
+
+Exact copy:
+#8
+back squat
+a great classic, but it takes a lot out of your lower back and recovery.
+
+Place #8 plus oversized heavy tight-grotesk lowercase “back squat” near the top. Put a coral #F26445 bar behind the exercise name only. Beneath it show three full coral stars and two empty #D6D6D2 stars. Set the body copy left-aligned in clean regular sans #2A2A2A, wrapping to no more than two lines, fully visible.
+
+In the lower half show a realistic bald faceless white/light-grey anatomical mannequin, fine grey shading, subtle muscle fibres, smooth featureless pelvis, black #2A2A2A shorts, no colored muscles. The mannequin is performing a barbell back squat at the bottom position inside a simple black/grey squat rack, side three-quarter view. Include the barbell and rack, no other equipment. Keep the pose, text and equipment separate and unobstructed; match the approved S2 illustration finish.
+
+Return exactly one slide, no collage or mockup.

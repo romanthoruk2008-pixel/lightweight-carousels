@@ -1,0 +1,13 @@
+LW-CAR-0022, content_version 1.1. Create one complete finished 1080 × 1350 px portrait tier divider in the owner-approved S2 style, matching LW-CAR-0020 slide 2 and LW-CAR-0021 slide 2 in visual hierarchy, type, scale and spacing. Use this slide's exact frozen text and tile color.
+
+BACKGROUND: clean opaque #F0F1EB, no arch, texture, grid, dots, rings, card, panel, progress bar, slide counter, watermark or signature.
+LOGO: leave the top-left clear and do not draw any logo/brand text. The official transparent Harda logo will be composited at x=48,y=19,size=218×71 after generation. Keep top 110 px free.
+
+COMPOSITION: centered group around the vertical middle, generous blank space. Large rounded square tile with soft shadow on the left; tile fill #3FCF5E, with a large bold white C. To its right, oversized heavy tight-grotesk lowercase “tier” in #2A2A2A. Beneath both, center “you can do better” in regular italic #6B6B6B.
+
+EXACT TEXT only:
+C
+tier
+you can do better
+
+Return exactly one finished slide, no collage or mockup.

@@ -1,0 +1,14 @@
+LW-CAR-0022, content_version 1.1. Create one complete finished 1080 × 1350 px portrait exercise slide in the approved S2 look. Match LW-CAR-0020 slide 3 and LW-CAR-0021 slide 3 for exact hierarchy, typography, spacing, colors and realistic mannequin finish; use their exercise composition as reference, not their words.
+
+BACKGROUND is clean, opaque #F0F1EB, with no texture, arch, grid, dots, rings, cards, progress bar, counter, watermark or signature. Keep the top 110 px free of content. Leave the top-left empty; do not generate any logo or brand text. The official transparent Harda logo will be composited afterward at x=48,y=19,size=218×71.
+
+EXACT TEXT:
+#10
+goblet squat
+perfect to learn the squat, but your arms give out before your legs.
+
+Place the large #10 and oversized very-heavy tight-grotesk lowercase “goblet squat” at the top; put a flat coral #F26445 marker behind the exercise name only. Below, show 2.5 stars: two full coral stars, one half-filled coral/grey star, then two empty #D6D6D2 stars. Place the exact regular #2A2A2A body copy left-aligned below, wrapped to at most two lines and fully visible.
+
+ILLUSTRATION: lower half, realistic bald faceless white/light-grey anatomical mannequin with fine grey shading and subtle muscle fibres, smooth featureless pelvis, black #2A2A2A shorts. Goblet squat at the bottom position holding one black/grey dumbbell vertically at the chest, front three-quarter view. No colored muscles. Keep all text clear of the figure and equipment. Use the exact visual style of the approved S2 mannequins.
+
+Return exactly one slide, no collage or mockup.

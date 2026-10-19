@@ -1,0 +1,12 @@
+LW-CAR-0022, content_version 1.1. Create one finished 1080 × 1350 px portrait tier divider in approved S2 style, matching LW-CAR-0020 slide 2 and LW-CAR-0021 slide 2 exactly in hierarchy, group placement, scale, spacing and type.
+
+Background clean opaque #F0F1EB, no texture, arch, grid, dots, rings, panel, progress bar, counter, watermark or signature. Leave top-left blank, top 110 px clear; do not draw any logo or brand text. The official transparent Harda logo is composited after generation at x=48,y=19,size=218×71.
+
+Center a large rounded square tile #FF9A52 with soft shadow, containing a large bold white A. Place oversized heavy tight-grotesk lowercase “tier” to its right in #2A2A2A. Center regular italic #6B6B6B “worth your time” underneath. Keep generous whitespace.
+
+Exact text only:
+A
+tier
+worth your time
+
+Return exactly one slide, no collage or mockup.

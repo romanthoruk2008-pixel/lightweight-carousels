@@ -1,0 +1,12 @@
+LW-CAR-0022, content_version 1.1. Create one finished 1080 × 1350 px portrait S-tier divider in the approved S2 style, matching the exact hierarchy, typography, spacing, and group placement of LW-CAR-0020 slide 2 and LW-CAR-0021 slide 2.
+
+Background clean opaque #F0F1EB, no texture, arch, grid, dots, rings, panel, progress bar, counter, watermark or signature. Leave the top-left logo region empty; no logo or brand text. Keep top 110 px free. Official transparent Harda logo will be composited at x=48,y=19,size=218×71 afterward.
+
+Centered divider group: large rounded square tile with a soft shadow, filled coral #F26445, containing a large bold white S. To its right, oversized heavy tight-grotesk lowercase “tier” in #2A2A2A. Center regular italic #6B6B6B subtitle below: “build your legs on these”. Generous whitespace around it.
+
+Exact text only:
+S
+tier
+build your legs on these
+
+Return exactly one slide, no collage or mockup.

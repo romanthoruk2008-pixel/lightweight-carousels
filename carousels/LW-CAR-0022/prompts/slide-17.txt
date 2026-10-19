@@ -1,0 +1,14 @@
+LW-CAR-0022, content_version 1.1. Create one complete 1080 × 1350 px portrait S2 exercise slide matching the approved template and figure style of LW-CAR-0020 slide 3 and LW-CAR-0021 slide 3.
+
+Clean opaque #F0F1EB background; no texture, arch, grid, dots, rings, panels, progress bar, counter, watermark or signature. Leave the upper-left logo area empty and the top 110 px clear; do not draw brand/logo text. The official transparent Harda logo will be composited afterward at x=48,y=19,size=218×71.
+
+Exact copy:
+#2
+hack squat
+all the squat benefits, with a back pad keeping you stable.
+
+Place the large #2 and very-heavy tight-grotesk lowercase “hack squat” near the top, coral #F26445 marker bar behind the exercise name only. Below show exactly five full coral stars. Place the exact regular sans-serif #2A2A2A description left-aligned below, up to two lines, fully visible.
+
+Lower half: realistic bald faceless white/light-grey anatomical mannequin with fine grey shading and subtle muscle fibres, featureless smooth pelvis, dark #2A2A2A shorts, no colored muscles. Show a hack squat machine with the mannequin's back against the pad in the bottom position, side three-quarter view. Equipment black/grey. Match the exact anatomical drawing style of the approved S2 figures and keep all text clear.
+
+Return exactly one slide, no collage or mockup.

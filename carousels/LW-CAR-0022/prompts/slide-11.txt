@@ -1,0 +1,14 @@
+LW-CAR-0022, content_version 1.1. Create one complete finished 1080 × 1350 px portrait S2 exercise slide. Match the approved S2 look, layout, heavy tight-grotesk headings, clean sans body, marker bars, colors and realistic white/light-grey mannequin of LW-CAR-0020 slide 3 and LW-CAR-0021 slide 3.
+
+Clean opaque #F0F1EB background, no texture, arch, grid, dots, rings, cards, progress bar, counter, watermark or signature. Leave the top-left blank and the top 110 px free; do not draw any logo or brand name. The official transparent Harda logo will be composited at x=48,y=19,size=218×71 after generation.
+
+Exact text:
+#6
+lying leg curl
+the simplest way to isolate your hamstrings.
+
+Large #6 and very-heavy tight-grotesk lowercase title near the top, with coral #F26445 marker behind “lying leg curl” only. Place 3.5 stars below: three full coral stars, a half-filled coral/empty-grey star, and one empty #D6D6D2 star. Body copy in regular sans #2A2A2A below, left aligned, one line or at most two.
+
+Lower half illustration: realistic bald, faceless white/light-grey anatomical mannequin, fine grey shading and subtle muscle fibres, smooth featureless pelvis, dark #2A2A2A shorts, no colored muscles. Lying face down on a black/grey leg curl machine, heels pulled up, side view. Include only the leg curl machine. Keep text and illustration separate, matching the approved mannequin style.
+
+Return exactly one slide, no collage or mockup.

@@ -1,0 +1,14 @@
+LW-CAR-0022, content_version 1.1. Create one finished 1080 × 1350 px portrait S2 exercise slide, matching the owner-approved LW-CAR-0020 slide 3 and LW-CAR-0021 slide 3 for exact style, type, spacing, colors, marker and realistic white/light-grey mannequin finish.
+
+Background clean opaque #F0F1EB; no texture, arch, grid, dots, rings, panel, progress bar, counter, watermark or signature. Top-left area blank; keep the first 110 px clear and do not draw any logo or brand text. The official transparent Harda logo will be added afterward at x=48,y=19,size=218×71.
+
+Exact text:
+#1
+leg press
+heavy, stable and easy to push hard every set.
+
+At the top, large #1 and very-heavy tight-grotesk lowercase “leg press”, with coral #F26445 marker behind exercise name only. Under it show five full coral stars. Put the exact regular sans-serif #2A2A2A body copy left-aligned below, up to two lines.
+
+Lower half illustration: realistic bald, faceless anatomical mannequin, white/light-grey with fine grey shading and subtle muscle fibres, smooth featureless pelvis, dark #2A2A2A shorts, no colored muscles. Seated 45-degree leg press machine, knees bent, side view, black/grey equipment. Match the approved mannequin style and keep text unobstructed.
+
+Return exactly one slide, no collage or mockup.
