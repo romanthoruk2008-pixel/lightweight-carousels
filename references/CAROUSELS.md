@@ -183,7 +183,7 @@
 Посилання на оригінал: Arrow @arrowfitnessapp, TikTok, ~2026-10-16. 19.3K лайків, 86 коментарів, 7045 збережень. Звук: Into You (Slowed) - Altare.alt & Eclipse.
 Підпис: «Chest exercise tier list. Do you agree?? #gymtips #tierlist #chestexercise #chestday #hypertrophy»
 Що подобається: власник хоче спробувати цей стиль з нашими кольорами (2026-10-19).
-Статус: **частини 1–2 з кількох** (власник надсилає по 5 скриншотів). Файли лежать у репозиторії: `references/images/REF-008/`.
+Статус: **частини 1–3 з кількох** (власник надсилає по 5 скриншотів). Файли лежать у репозиторії: `references/images/REF-008/`.
 
 ### Слайди (частина 1, порядок від власника)
 1. ![](images/REF-008/slide-01.jpg) Обкладинка: `chest` / `tier list` (зелена смуга-маркер під `tier list`) / `(from worst to best)` курсивом. Фігура спереду, руки на поясі, груди зелені, чорні шорти.
@@ -199,6 +199,13 @@
 8. Роздільник: жовтий квадрат `B` + `tier`; курсив `solid, but not the best`.
 9. `#8 standing cable flys` (маркер), 3,5 зірки з 5. Текст: `feel very awkward. easy to lose balance and hard to perform when the weight gets heavier.` Фігура: зведення рук у кросовері стоячи, вид спереду, рама кросовера.
 10. `#7 barbell flat/incline bench` (маркер), 3,5 зірки з 5. Текст: `may be a classic, but it’s more of an ego exercise than one for building muscle.` Фігура: жим штанги лежачи в стійці, вид спереду під кутом.
+
+### Слайди (частина 3, порядок від власника)
+11. ![](images/REF-008/slide-11.jpg) Роздільник: помаранчевий квадрат `A` + `tier`; курсив `great choices`.
+12. ![](images/REF-008/slide-12.jpg) `#6 db flat/incline bench` (маркер), 4 зірки з 5. Текст: `very solid exercise. feels a lot more natural than barbell, and you get a better range of motion.` Фігура: жим гантелей лежачи на лаві, вид спереду.
+13. ![](images/REF-008/slide-13.jpg) `#5 flat machine press` (маркер), 4 зірки з 5. Текст: `a very solid exercise. great stability & tension. amazing for the mid/lower chest.` Фігура: жим у тренажері сидячи.
+14. ![](images/REF-008/slide-14.jpg) `#4 seated cable fly` (маркер), 4,5 зірки з 5. Текст: `far superior to standing. a lot more stable, and you can load a lot more weight.` Фігура: зведення рук у кросовері сидячи на лаві, вид спереду.
+15. ![](images/REF-008/slide-15.jpg) Роздільник: червоний квадрат `S` + `tier`; курсив `the best of the best`.
 
 ---
 
