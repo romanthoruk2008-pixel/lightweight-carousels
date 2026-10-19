@@ -256,6 +256,21 @@
       "generation": "not_started",
       "user_review": "pending",
       "path": "carousels/LW-CAR-0018/"
+    },
+    {
+      "id": "LW-CAR-0019",
+      "title": "WEAK BACK? (minimal figure style test)",
+      "source_ref": "REF-007",
+      "type": "style_test",
+      "content_version": "1.0",
+      "copy_status": "frozen",
+      "slides": 8,
+      "background": "GRID",
+      "slides_blocked": [],
+      "generation": "not_started",
+      "user_review": "pending",
+      "next_action": "Codex: style test, slides 1 and 3 in variants A/B/C; owner picks one; then the full carousel in that style",
+      "path": "carousels/LW-CAR-0019/"
     }
   ],
   "experiments": [

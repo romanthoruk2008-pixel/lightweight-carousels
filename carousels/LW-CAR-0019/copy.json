@@ -1,0 +1,258 @@
+{
+  "carousel_id": "LW-CAR-0019",
+  "content_version": "1.0",
+  "status": "frozen",
+  "type": "style_test",
+  "language": "en",
+  "font_family": "Rubik",
+  "background": "GRID",
+  "colors": {
+    "accent": "#F26445",
+    "text_dark": "#2A2A2A",
+    "text_body_grey": "#6B6B6B",
+    "background": "#F0F1EB",
+    "white": "#FFFFFF",
+    "muscle_base_sand": "#D9CBBE",
+    "skin_ivory_approx": "#F5F0E5"
+  },
+  "source": {
+    "ref_id": "REF-007",
+    "copied_from": "carousels/LW-CAR-0001/copy.json v1.0 (approved)",
+    "note": "Owner request 2026-10-19: test a more minimal way of drawing the body. Same topic and text as LW-CAR-0001 so the only thing that changes is the figure style. Slide layouts stay as on LW-CAR-0001."
+  },
+  "figure_style_test": {
+    "variants": [
+      "A_flat_shapes",
+      "B_line_art",
+      "C_soft_matte"
+    ],
+    "test_slides": [
+      1,
+      3
+    ],
+    "chosen": null
+  },
+  "caption": "The simpliest guide for you to build your entire back! #backday #backworkout #gymtips",
+  "slides": [
+    {
+      "n": 1,
+      "role": "hook",
+      "text": [
+        {
+          "string": "WEAK",
+          "style": "cover headline, uppercase, heaviest Rubik weight, text_dark"
+        },
+        {
+          "string": "BACK?",
+          "style": "cover headline, uppercase, heaviest Rubik weight, accent"
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "role": "setup / map of the back",
+      "text": [
+        {
+          "string": "Let’s Fix That",
+          "style": "title, bold, text_dark, centered"
+        },
+        {
+          "string": "REAR DELTS",
+          "style": "card label, white caps on dark bar"
+        },
+        {
+          "string": "TRAPS",
+          "style": "card label, white caps on dark bar"
+        },
+        {
+          "string": "LATS",
+          "style": "card label, white caps on dark bar"
+        },
+        {
+          "string": "ERECTORS",
+          "style": "card label, white caps on dark bar"
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "role": "list item 1",
+      "text": [
+        {
+          "string": "1",
+          "style": "white number in accent circle badge"
+        },
+        {
+          "string": "Lats (Adduction)",
+          "style": "title: 'Lats' bold, '(Adduction)' regular, text_dark, centered"
+        },
+        {
+          "string": "2-3 Sets x 6-10 Reps",
+          "style": "subtitle, semibold, text_dark, centered"
+        },
+        {
+          "string": "Lat Pulldown",
+          "style": "exercise label, semibold"
+        },
+        {
+          "string": "OR",
+          "style": "white text in accent circle badge"
+        },
+        {
+          "string": "Weighted Pull-ups",
+          "style": "exercise label, semibold"
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "role": "list item 2",
+      "text": [
+        {
+          "string": "2",
+          "style": "white number in accent circle badge"
+        },
+        {
+          "string": "Lats (Extension)",
+          "style": "title: 'Lats' bold, '(Extension)' regular"
+        },
+        {
+          "string": "2-3 Sets x 6-10 Reps",
+          "style": "subtitle"
+        },
+        {
+          "string": "Close-Grip Cable Row",
+          "style": "exercise label"
+        },
+        {
+          "string": "OR",
+          "style": "accent badge"
+        },
+        {
+          "string": "Close-Grip Machine Row",
+          "style": "exercise label"
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "role": "list item 3",
+      "text": [
+        {
+          "string": "3",
+          "style": "white number in accent circle badge"
+        },
+        {
+          "string": "Traps",
+          "style": "title, bold"
+        },
+        {
+          "string": "2-3 Sets x 6-10 Reps",
+          "style": "subtitle"
+        },
+        {
+          "string": "T-Bar Row",
+          "style": "exercise label"
+        },
+        {
+          "string": "OR",
+          "style": "accent badge"
+        },
+        {
+          "string": "Wide-Grip Row",
+          "style": "exercise label"
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "role": "list item 4",
+      "text": [
+        {
+          "string": "4",
+          "style": "white number in accent circle badge"
+        },
+        {
+          "string": "Rear Deltoids",
+          "style": "title, bold"
+        },
+        {
+          "string": "2-3 Sets x 8-12 Reps",
+          "style": "subtitle"
+        },
+        {
+          "string": "Cable Reverse Fly",
+          "style": "exercise label"
+        },
+        {
+          "string": "OR",
+          "style": "accent badge"
+        },
+        {
+          "string": "Reverse Pec Dec",
+          "style": "exercise label"
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "role": "list item 5",
+      "text": [
+        {
+          "string": "5",
+          "style": "white number in accent circle badge"
+        },
+        {
+          "string": "Erectors",
+          "style": "title, bold"
+        },
+        {
+          "string": "2-3 Sets x 8-12 Reps",
+          "style": "subtitle"
+        },
+        {
+          "string": "Hyperextensions",
+          "style": "exercise label"
+        },
+        {
+          "string": "OR",
+          "style": "accent badge"
+        },
+        {
+          "string": "Hinge Movement",
+          "style": "exercise label"
+        },
+        {
+          "string": "*Performed on leg day",
+          "style": "small italic footnote under 'Hinge Movement'"
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "role": "product ending",
+      "status": "blocked_pending_owner",
+      "blocked_on": [
+        "real Lightweight app screenshot for the phone (references/APP-SCREENS.md)",
+        "owner confirms the Lightweight feature named in the last line"
+      ],
+      "text": [
+        {
+          "string": "Trying to Build Muscle?",
+          "style": "headline, bold, text_dark, left-aligned"
+        },
+        {
+          "string": "Then you need to be consistently progress overloading.",
+          "style": "body, light/regular, text_body_grey"
+        },
+        {
+          "string": "Check your progress in Lightweight to make sure you’re still growing.",
+          "style": "body, light/regular, text_body_grey",
+          "draft": true,
+          "original": "Check your progress overload score to make sure you’re still growing.",
+          "note": "Only substitution in the copy: Arrow's proprietary 'progress overload score' replaced by a Lightweight feature. Final wording depends on the real feature the owner confirms."
+        }
+      ]
+    }
+  ]
+}
