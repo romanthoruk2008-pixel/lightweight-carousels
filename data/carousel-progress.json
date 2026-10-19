@@ -282,15 +282,10 @@
       "copy_status": "frozen",
       "slides": 19,
       "background": "CLEAN",
-      "slides_blocked": [
-        6,
-        7,
-        9,
-        10
-      ],
+      "slides_blocked": [],
       "generation": "not_started",
       "user_review": "pending",
-      "next_action": "Owner resends REF-008 slides 6-10; Codex generates all other slides now",
+      "next_action": "Codex: slides 1-3 first for owner OK, then the rest",
       "path": "carousels/LW-CAR-0020/"
     }
   ],

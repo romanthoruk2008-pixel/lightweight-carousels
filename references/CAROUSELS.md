@@ -183,7 +183,7 @@
 Посилання на оригінал: Arrow @arrowfitnessapp, TikTok, ~2026-10-16. 19.3K лайків, 86 коментарів, 7045 збережень. Звук: Into You (Slowed) - Altare.alt & Eclipse.
 Підпис: «Chest exercise tier list. Do you agree?? #gymtips #tierlist #chestexercise #chestday #hypertrophy»
 Що подобається: власник хоче спробувати цей стиль з нашими кольорами (2026-10-19).
-Статус: **уся карусель (19 слайдів) записана**; файли слайдів 6–10 ще треба докласти (власник надсилає по 5 скриншотів). Файли лежать у репозиторії: `references/images/REF-008/`.
+Статус: **уся карусель (19 слайдів) записана**; усі 19 файлів у репозиторії (власник надсилає по 5 скриншотів). Файли лежать у репозиторії: `references/images/REF-008/`.
 
 ### Слайди (частина 1, порядок від власника)
 1. ![](images/REF-008/slide-01.jpg) Обкладинка: `chest` / `tier list` (зелена смуга-маркер під `tier list`) / `(from worst to best)` курсивом. Фігура спереду, руки на поясі, груди зелені, чорні шорти.
@@ -193,12 +193,11 @@
 5. ![](images/REF-008/slide-05.jpg) Роздільник: зелений квадрат `C` + `tier`; курсив `there are better options`.
 
 ### Слайди (частина 2, порядок від власника)
-Картинки цієї частини прийшли в чат, але файли не збереглися в середовищі Claude. Текст і опис записані з перегляду; файли `slide-06.jpg` … `slide-10.jpg` додати, коли власник надішле їх ще раз.
-6. `#10 db flys` (маркер), 2,5 зірки з 5. Текст: `zero tension at the top. using a cable or machine is going to be far better.` Фігура: розведення гантелей лежачи на лаві, руки розведені.
-7. `#9 push-ups` (маркер), 3 зірки з 5. Текст: `great for beginners, but they get too easy the stronger you get.` Фігура: віджимання, вид збоку, внизу слайда.
-8. Роздільник: жовтий квадрат `B` + `tier`; курсив `solid, but not the best`.
-9. `#8 standing cable flys` (маркер), 3,5 зірки з 5. Текст: `feel very awkward. easy to lose balance and hard to perform when the weight gets heavier.` Фігура: зведення рук у кросовері стоячи, вид спереду, рама кросовера.
-10. `#7 barbell flat/incline bench` (маркер), 3,5 зірки з 5. Текст: `may be a classic, but it’s more of an ego exercise than one for building muscle.` Фігура: жим штанги лежачи в стійці, вид спереду під кутом.
+6. ![](images/REF-008/slide-06.jpg) `#10 db flys` (маркер), 2,5 зірки з 5. Текст: `zero tension at the top. using a cable or machine is going to be far better.` Фігура: розведення гантелей лежачи на лаві, руки розведені.
+7. ![](images/REF-008/slide-07.jpg) `#9 push-ups` (маркер), 3 зірки з 5. Текст: `great for beginners, but they get too easy the stronger you get.` Фігура: віджимання, вид збоку, внизу слайда.
+8. ![](images/REF-008/slide-08.jpg) Роздільник: жовтий квадрат `B` + `tier`; курсив `solid, but not the best`.
+9. ![](images/REF-008/slide-09.jpg) `#8 standing cable flys` (маркер), 3,5 зірки з 5. Текст: `feel very awkward. easy to lose balance and hard to perform when the weight gets heavier.` Фігура: зведення рук у кросовері стоячи, вид спереду, рама кросовера.
+10. ![](images/REF-008/slide-10.jpg) `#7 barbell flat/incline bench` (маркер), 3,5 зірки з 5. Текст: `may be a classic, but it’s more of an ego exercise than one for building muscle.` Фігура: жим штанги лежачи в стійці, вид спереду під кутом.
 
 ### Слайди (частина 3, порядок від власника)
 11. ![](images/REF-008/slide-11.jpg) Роздільник: помаранчевий квадрат `A` + `tier`; курсив `great choices`.

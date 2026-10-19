@@ -13,5 +13,4 @@
 «lightweight tracks every set you lift and shows which muscles you’re forgetting.» + «log your workouts and check your muscle balance, so you keep making progress.» + телефон зі справжнім скріном Muscle balance (як на LW-CAR-0001 слайд 8). Калорії не згадуємо: цю функцію в Lightweight не підтверджено.
 
 ## Відкрите
-- Слайди 6, 7, 9, 10 BLOCKED: власник має ще раз надіслати скриншоти другої частини.
 - Власник не відповів про фігури, кольори тірів і фон; взято поради Claude: білі реалістичні фігури як у референсі, класичні кольори тірів з кораловим S, фон CLEAN.

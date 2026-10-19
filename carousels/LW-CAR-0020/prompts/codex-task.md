@@ -7,7 +7,7 @@ First read `carousels/CODEX-SERIES-RULES.md` for format, saving, manifest, logo 
 ## Reference images
 `references/images/REF-008/slide-01.jpg` … `slide-19.jpg`, in this order. They are screenshots of the TikTok web viewer: the slide is the tall white area on the left (about x 139–1073). Ignore all TikTok UI (search bar, arrows, pager dots, the dark right panel). Transcriptions are in `references/CAROUSELS.md`, section REF-008.
 
-**BLOCKED: slides 6, 7, 9, 10.** Their reference files are not in the repository yet. Do not generate them until `slide-06.jpg`, `slide-07.jpg`, `slide-09.jpg` and `slide-10.jpg` exist. Generate every other slide now. Slide 8 (B tier) is the same layout as the other dividers, so generate it now.
+All 19 reference files are in the repository. No slide is blocked.
 
 ## Substitutions (the only changes)
 - **Accent:** everything bright green → **#F26445**: the marker bars behind words, filled stars, the chest on the cover.
@@ -32,11 +32,11 @@ First read `carousels/CODEX-SERIES-RULES.md` for format, saving, manifest, logo 
 | 3 | exercise | `#12` `hex press` / `a lot of people think these target the ‘inner chest’, but you can’t bias it.` | 1 | flat bench dumbbell hex press, dumbbells pressed together |
 | 4 | exercise | `#11` `decline press` / `decline presses are unnecessary. flat presses already target your lower fibres well.` | 1.5 | barbell press on a decline bench |
 | 5 | tier divider | tile `C` + `tier` / `there are better options` | — | — |
-| 6 | exercise, **BLOCKED** | `#10` `db flys` / `zero tension at the top. using a cable or machine is going to be far better.` | 2.5 | dumbbell fly on a bench, arms open |
-| 7 | exercise, **BLOCKED** | `#9` `push-ups` / `great for beginners, but they get too easy the stronger you get.` | 3 | push-up, side view, low in the frame |
+| 6 | exercise | `#10` `db flys` / `zero tension at the top. using a cable or machine is going to be far better.` | 2.5 | dumbbell fly on a bench, arms open |
+| 7 | exercise | `#9` `push-ups` / `great for beginners, but they get too easy the stronger you get.` | 3 | push-up, side view, low in the frame |
 | 8 | tier divider | tile `B` + `tier` / `solid, but not the best` | — | — |
-| 9 | exercise, **BLOCKED** | `#8` `standing cable flys` / `feel very awkward. easy to lose balance and hard to perform when the weight gets heavier.` | 3.5 | standing cable fly in a cable crossover frame, front view |
-| 10 | exercise, **BLOCKED** | `#7` `barbell flat/incline bench` / `may be a classic, but it’s more of an ego exercise than one for building muscle.` | 3.5 | barbell bench press in a rack, front three-quarter view |
+| 9 | exercise | `#8` `standing cable flys` / `feel very awkward. easy to lose balance and hard to perform when the weight gets heavier.` | 3.5 | standing cable fly in a cable crossover frame, front view |
+| 10 | exercise | `#7` `barbell flat/incline bench` / `may be a classic, but it’s more of an ego exercise than one for building muscle.` | 3.5 | barbell bench press in a rack, front three-quarter view |
 | 11 | tier divider | tile `A` + `tier` / `great choices` | — | — |
 | 12 | exercise | `#6` `db flat/incline bench` / `very solid exercise. feels a lot more natural than barbell, and you get a better range of motion.` | 4 | dumbbell bench press, front view |
 | 13 | exercise | `#5` `flat machine press` / `a very solid exercise. great stability & tension. amazing for the mid/lower chest.` | 4 | seated chest press machine |
@@ -60,4 +60,4 @@ Exercise slide layout (as in the reference): headline top-left under the logo ar
 Write `caption.txt` from `copy.json` → `caption.text`, verbatim.
 
 ## Order of work
-Generate slides 1, 2 and 3 first, show them to the owner and wait for OK on the new look. Then the rest except the BLOCKED slides. Commit the carousel in one commit; if a limit or error interrupts you, push what exists immediately, marked incomplete, with the next slide to generate.
+Generate slides 1, 2 and 3 first, show them to the owner and wait for OK on the new look. Then the rest. Commit the carousel in one commit; if a limit or error interrupts you, push what exists immediately, marked incomplete, with the next slide to generate.
