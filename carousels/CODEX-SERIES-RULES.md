@@ -18,6 +18,8 @@ Each task file lists the reference slide URLs in the **real** order. Use that or
   - `DOTS`: background #F0F1EB with small dots #D4D4CC, 6 px diameter, every 45 px.
   - `CLEAN`: plain #F0F1EB, nothing else.
   - `PLATES`: background #F0F1EB with three concentric rings in #EAE0D6 (stroke 26 / 22 / 18 px, radius 520 / 400 / 280 px) centred near the bottom-right corner (x 1010, y 1290), mostly off the canvas, like a weight plate.
+  - **Every background is solid and opaque.** First fill the whole 1080 × 1350 canvas with the solid colour **#F0F1EB** (the same off-white as the GRID slides). Then draw the dots / grid lines / rings on top of it. Never leave the background transparent, and never draw a grey-and-white checkerboard (that is how transparency looks in editors). TikTok does not accept transparent images.
+  - **Export check before saving:** every PNG must be flattened RGB with no alpha channel and no transparent pixels. If the image tool returns an image with transparency, put it on a solid #F0F1EB layer and flatten it before saving. This applies to the file in `outputs/`, to the ZIP and to anything you show the owner.
   - No progress bar or slide counter on any background.
   - Already generated carousels with the arch (LW-CAR-0001…0010, 0012, 0013) stay as they are. Do not repaint their backgrounds.
 - Non-highlighted muscles → warm sand **#D9CBBE**, with darker shades of the same sand for shading. No green or sage tint anywhere on the figures. Skin and tendons light ivory (about #F5F0E5). Fine grey linework.
