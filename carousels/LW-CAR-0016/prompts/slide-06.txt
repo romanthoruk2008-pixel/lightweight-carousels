@@ -1,0 +1,20 @@
+Create ONE original Lightweight fitness photo-carousel slide, portrait 1080 x 1350 pixels (4:5). Reference 1 is the authoritative CLEAN background: a completely solid opaque flat #F0F1EB canvas. Reference 2 is ONLY a layout/type/illustration reference. Ignore and entirely omit its old arch and any progress bars. NO ARCH, no pale curve, no blob, no rings, no grid, no dots, no gradient, no texture, no checkerboard, no transparency, no progress meter and no slide counter. The background must be plain opaque #F0F1EB over every pixel behind the content. Export opaque RGB PNG, no alpha.
+
+Series palette: coral #F26445; text dark #2A2A2A; body grey #6B6B6B; white #FFFFFF; anatomy warm sand #D9CBBE with darker sand shading, ivory skin/tendons about #F5F0E5; fine grey anatomical linework. No green/sage on figures. Rubik for all typography: heaviest cover, bold titles/pills/target values, regular body. Match the premium clean series rendering, line weights, type hierarchy and generous spacing.
+
+Mannequin when present: adult male, bald, faceless smooth plastic anatomy mannequin with a smooth featureless pelvis and no genital detail; plain opaque short shorts in sand #D9CBBE, fine anatomical muscle lines, athletic natural proportions, sand and ivory. Lats and biceps coral on each pulling figure. Same recognizable mannequin and simple realistic black pull-up apparatus through all six levels.
+
+Reserve x30–330,y20–103 completely empty off-white for the actual supplied Lightweight wordmark, inserted as original pixels in final assembly at x40,y28. Do NOT generate, invent, redraw or imitate a logo. No extra words, punctuation, signature, caption, watermark or decorations beyond those explicitly requested. All text fully visible, never overlapped by an illustration or cropped by an edge. Keep exact capitalization, hyphens, apostrophes and punctuation. Do not rewrite copy.
+
+LEVEL SLIDE, identical layout across slides 3–8. Reference 2 gives the pill/headline/body hierarchy only (ignore its arch and progress meter). Reference 3 gives only the AFTER card's rounded corners, pale coral fill and thin coral outline (ignore all its words and its arch).
+Use fixed layout: left margin x60. Coral rounded pill at x60,y125, white bold caps LEVEL 4. Bold dark headline Negatives at x60,y230, about 60 px Rubik; keep inside x1020. Regular grey body at x60,y315, about 36 px, maximum two lines, exact wording: Jump to the top, then lower yourself as slowly as you can.
+At x60,y440 place ONE rounded target card, width960,height145, fill #FBE3DD with thin #F26445 border. Small coral caps TARGET at x85,y460; below it the large bold DARK value 3 x 5 (5-sec lowering), around 54 px, fully inside the card. This card is an information card, NOT a background arch.
+Lower half: one full-body anatomical mannequin demonstrating this level, centered in the same frame. The simple black bar apparatus has slim vertical uprights near x175 and x905; standard overhead crossbar at y700, apparatus ending near y1300. For the inverted row ONLY, move its horizontal bar lower as described. Use same mannequin scale, sand shorts, fine grey linework, off-white empty surroundings, no extra gym scenery. Figure and equipment stay below y630 and fully above y1310, leaving a bottom margin. Pose: Rear three-quarter view at the TOP of the pull-up: both elbows bent, chin clearly over the horizontal black bar, sand shorts, body vertical, legs natural. Add ONE thin coral downward arrow next to the figure showing slow lowering. Lats and biceps coral. No extra text attached to the arrow.
+Do not add progress bars, numbered bubbles beyond the requested LEVEL pill, or exercise labels beneath the figure. All text stays separate above the figure.
+
+Exact allowed copy, no additional words:
+LEVEL 4
+Negatives
+Jump to the top, then lower yourself as slowly as you can.
+TARGET
+3 x 5 (5-sec lowering)

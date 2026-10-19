@@ -1,0 +1,25 @@
+Create ONE original Lightweight fitness photo-carousel slide, portrait 1080 x 1350 pixels (4:5). Reference 1 is the authoritative CLEAN background: a completely solid opaque flat #F0F1EB canvas. Reference 2 is ONLY a layout/type/illustration reference. Ignore and entirely omit its old arch and any progress bars. NO ARCH, no pale curve, no blob, no rings, no grid, no dots, no gradient, no texture, no checkerboard, no transparency, no progress meter and no slide counter. The background must be plain opaque #F0F1EB over every pixel behind the content. Export opaque RGB PNG, no alpha.
+
+Series palette: coral #F26445; text dark #2A2A2A; body grey #6B6B6B; white #FFFFFF; anatomy warm sand #D9CBBE with darker sand shading, ivory skin/tendons about #F5F0E5; fine grey anatomical linework. No green/sage on figures. Rubik for all typography: heaviest cover, bold titles/pills/target values, regular body. Match the premium clean series rendering, line weights, type hierarchy and generous spacing.
+
+Mannequin when present: adult male, bald, faceless smooth plastic anatomy mannequin with a smooth featureless pelvis and no genital detail; plain opaque short shorts in sand #D9CBBE, fine anatomical muscle lines, athletic natural proportions, sand and ivory. Lats and biceps coral on each pulling figure. Same recognizable mannequin and simple realistic black pull-up apparatus through all six levels.
+
+Reserve x30–330,y20–103 completely empty off-white for the actual supplied Lightweight wordmark, inserted as original pixels in final assembly at x40,y28. Do NOT generate, invent, redraw or imitate a logo. No extra words, punctuation, signature, caption, watermark or decorations beyond those explicitly requested. All text fully visible, never overlapped by an illustration or cropped by an edge. Keep exact capitalization, hyphens, apostrophes and punctuation. Do not rewrite copy.
+
+OVERVIEW: Use reference 2 only for its left-aligned heading, underline and vertical list hierarchy. Do NOT include its figure, arch, bullets or old wording. Top-left at x60,y155, bold title 6 Levels. In Order. Short coral underline below. Body underneath: Hit the target on each level, then move up. Below, six evenly spaced vertical rows, generous space, starting near y460 and ending near y1190. Each row has a small circle at x100 with a white number and its exact text at x170. Rows 1–5: dark #2A2A2A circles, white 1,2,3,4,5, regular dark labels Dead Hang; Scapular Pulls; Inverted Rows; Negatives; Band-Assisted Pull-ups. Row 6: coral circle with white 6; bold coral label Your First Pull-up. Six rows in that exact top-to-bottom order. Keep every label on one line, fully inside canvas. Plain off-white background throughout, no figure or other visual.
+
+Exact allowed copy, no additional words:
+6 Levels. In Order.
+Hit the target on each level, then move up.
+Dead Hang
+Scapular Pulls
+Inverted Rows
+Negatives
+Band-Assisted Pull-ups
+Your First Pull-up
+1
+2
+3
+4
+5
+6
