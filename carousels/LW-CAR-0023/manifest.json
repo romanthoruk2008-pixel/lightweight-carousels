@@ -1,0 +1,449 @@
+{
+  "carousel_id": "LW-CAR-0023",
+  "brand": "Harda",
+  "content_version": "1.1",
+  "design_style": "S2",
+  "source_commit": "50ae02678371b08ec9da908f2fb2ccc449918406",
+  "instructions": "prompts/codex-task.md",
+  "style_masters": [
+    "carousels/LW-CAR-0020/outputs",
+    "carousels/LW-CAR-0021/outputs"
+  ],
+  "logo": {
+    "file": "assets/logo/harda-logo-full.png",
+    "x": 48,
+    "y": 19,
+    "width": 218,
+    "height": 71,
+    "method": "paste original PNG with its own alpha, no backing patch; old Lightweight logo excluded"
+  },
+  "status": "initial_slides_1_2_3_generated_awaiting_owner_approval",
+  "carousel_complete": false,
+  "generated_images": 3,
+  "slides": [
+    {
+      "slide": 1,
+      "content_version": "1.1",
+      "role": "hook",
+      "exact_text": [
+        "biceps",
+        "tier list",
+        "(ranked worst to best)"
+      ],
+      "file": "outputs/slide-01.png",
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "started_at": "2026-10-19T23:29:56.492694+00:00",
+          "status": "succeeded",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0020/outputs/slide-01.png",
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0021/outputs/slide-01.png"
+          ],
+          "finished_at": "2026-10-19T23:30:51.989684+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-cc7c69ea-90f5-45bf-ab56-56f334c5c2eb.png",
+          "raw_result_format": {
+            "size": [
+              1122,
+              1402
+            ],
+            "mode": "RGB"
+          },
+          "result_file": "outputs/slide-01.png",
+          "export": {
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "has_alpha": false,
+            "logo": "original harda-logo-full.png, x48,y19,218x71, own alpha, no backing patch"
+          }
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_to_repository_checkout",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending",
+      "prompt": "HARDA carousel LW-CAR-0023, copy.json v1.1, approved S2 tier-list series. Edit the supplied APPROVED masters as the strict design/layout authority. Match their exact look, heavy lowercase tight grotesk lettering, type sizes, markers, spacing, white anatomical figure rendering and opaque off-white background. This new biceps carousel must look like the same series as LW-CAR-0020 and LW-CAR-0021, not a redesign.\n\nProduce ONE complete portrait 1080 × 1350 px PNG with all slide text and artwork generated TOGETHER. Solid opaque background #F0F1EB CLEAN, no texture, cards, arch, grid, dots, rings, transparency or checkerboard. Text dark #2A2A2A; grey italic secondary line #6B6B6B. Accent #F26445; empty stars #D6D6D2. Headlines are the masters' very heavy tight lowercase GROTESK, not Rubik. Marker is a flat coral rectangle BEHIND THE LOWER PART OF the designated words, keeping dark glyphs readable. Body regular sans, left-aligned, up to two lines.\n\nUse the same realistic WHITE/LIGHT-GREY male anatomical mannequin, bald faceless, fine grey shading/fibres, natural athletic proportions and featureless smooth pelvis, dark #2A2A2A gym shorts. No sand, beige, clay, simplified flat cartoon or outline-only figures. Equipment black/grey. Do not invent product features, extra labels, exercise facts or decorative elements.\n\nIMPORTANT REBRAND: the masters still show the OLD Lightweight logo. REMOVE that entire old wordmark and dinosaur from the generated image. Do NOT reproduce or redraw ANY logo, brand name or symbol. Leave the top 110 px completely EMPTY over uninterrupted #F0F1EB, no box, patch, panel, placeholder or other text. The owner's NEW authentic transparent Harda logo PNG will be pasted as a separate original layer at x48,y19,218×71 px after generation. Keep every other object/text below y110.\n\nAll words come ONLY from copy.json v1.1 below. Preserve exact spelling, lowercase, hyphens and punctuation. No extra words, variant letters, watermarks, signatures, slide counters or added punctuation. Keep all letters legible and fully inside the canvas; move/shrink the figure if needed rather than clip text.\n\nAUTHORITATIVE EXACT STRINGS:\n\"biceps\"\n\"tier list\"\n\"(ranked worst to best)\"\n\nCOVER: Use the first supplied cover (LW-CAR-0020 slide 1) as the precise layout, FRONT figure style, front-body proportions and type master; the second (0021 cover) only confirms the same series look. Centered upper headline exactly two lines: \"biceps\", then \"tier list\". Same massive lowercase black grotesk size/weight and positions as masters. Flat coral marker behind lower part of \"tier list\" only. Centered regular italic grey subtitle exactly \"(ranked worst to best)\", same position/size as master.\nLower ~60%: FRONT view from THIGHS UP of the same white anatomical mannequin, in a FRONT DOUBLE BICEPS POSE with BOTH arms raised out to sides and bent, both fists near shoulder/head height, flexed biceps visible. Highlight ONLY the two FRONT UPPER-ARM BICEPS in coral #F26445, retaining anatomical fibres/shading. Chest, shoulders, back, forearms and every other muscle stay white/light-grey. Do not copy the chest highlight from first master or the rear view from second. Keep head and both fists below the subtitle and fully within side edges, dark shorts visible at bottom. No equipment or extra text.\n\nReturn exactly ONE finished opaque slide, not a montage, mockup, comparison or sheet.",
+      "prompt_file": "prompts/slide-01.txt",
+      "references": [
+        "carousels/LW-CAR-0020/outputs/slide-01.png",
+        "carousels/LW-CAR-0021/outputs/slide-01.png"
+      ]
+    },
+    {
+      "slide": 2,
+      "content_version": "1.1",
+      "role": "tier divider F",
+      "exact_text": [
+        "F",
+        "tier",
+        "skip these"
+      ],
+      "file": "outputs/slide-02.png",
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "started_at": "2026-10-19T23:30:52.591430+00:00",
+          "status": "succeeded",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0020/outputs/slide-02.png",
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0021/outputs/slide-02.png"
+          ],
+          "finished_at": "2026-10-19T23:31:39.960819+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-a697d7e8-620a-46b6-a0c5-775ea4464629.png",
+          "raw_result_format": {
+            "size": [
+              1122,
+              1402
+            ],
+            "mode": "RGB"
+          },
+          "result_file": "outputs/slide-02.png",
+          "export": {
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "has_alpha": false,
+            "logo": "original harda-logo-full.png, x48,y19,218x71, own alpha, no backing patch"
+          }
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_to_repository_checkout",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending",
+      "prompt": "HARDA carousel LW-CAR-0023, copy.json v1.1, approved S2 tier-list series. Edit the supplied APPROVED masters as the strict design/layout authority. Match their exact look, heavy lowercase tight grotesk lettering, type sizes, markers, spacing, white anatomical figure rendering and opaque off-white background. This new biceps carousel must look like the same series as LW-CAR-0020 and LW-CAR-0021, not a redesign.\n\nProduce ONE complete portrait 1080 × 1350 px PNG with all slide text and artwork generated TOGETHER. Solid opaque background #F0F1EB CLEAN, no texture, cards, arch, grid, dots, rings, transparency or checkerboard. Text dark #2A2A2A; grey italic secondary line #6B6B6B. Accent #F26445; empty stars #D6D6D2. Headlines are the masters' very heavy tight lowercase GROTESK, not Rubik. Marker is a flat coral rectangle BEHIND THE LOWER PART OF the designated words, keeping dark glyphs readable. Body regular sans, left-aligned, up to two lines.\n\nUse the same realistic WHITE/LIGHT-GREY male anatomical mannequin, bald faceless, fine grey shading/fibres, natural athletic proportions and featureless smooth pelvis, dark #2A2A2A gym shorts. No sand, beige, clay, simplified flat cartoon or outline-only figures. Equipment black/grey. Do not invent product features, extra labels, exercise facts or decorative elements.\n\nIMPORTANT REBRAND: the masters still show the OLD Lightweight logo. REMOVE that entire old wordmark and dinosaur from the generated image. Do NOT reproduce or redraw ANY logo, brand name or symbol. Leave the top 110 px completely EMPTY over uninterrupted #F0F1EB, no box, patch, panel, placeholder or other text. The owner's NEW authentic transparent Harda logo PNG will be pasted as a separate original layer at x48,y19,218×71 px after generation. Keep every other object/text below y110.\n\nAll words come ONLY from copy.json v1.1 below. Preserve exact spelling, lowercase, hyphens and punctuation. No extra words, variant letters, watermarks, signatures, slide counters or added punctuation. Keep all letters legible and fully inside the canvas; move/shrink the figure if needed rather than clip text.\n\nAUTHORITATIVE EXACT STRINGS:\n\"F\"\n\"tier\"\n\"skip these\"\n\nF TIER DIVIDER: Regenerate in the exact appearance of the two approved F-tier masters, changing only the reserved brand area to be empty for the new Harda logo. Do NOT copy their old Lightweight logo. Preserve the same sparse centered composition and sizes/positions: rounded square cyan #5BDCE3 tile with huge bold WHITE \"F\" and subtle soft grey shadow; directly to its right huge heavy lowercase \"tier\" in #2A2A2A. Centered italic grey below, exactly \"skip these\". Large empty space above and below. No figure, stars, equipment or additional decorations.\n\nReturn exactly ONE finished opaque slide, not a montage, mockup, comparison or sheet.",
+      "prompt_file": "prompts/slide-02.txt",
+      "references": [
+        "carousels/LW-CAR-0020/outputs/slide-02.png",
+        "carousels/LW-CAR-0021/outputs/slide-02.png"
+      ]
+    },
+    {
+      "slide": 3,
+      "content_version": "1.1",
+      "role": "exercise #12",
+      "exact_text": [
+        "#12",
+        "band curl",
+        "almost no tension at the bottom, where your biceps need it."
+      ],
+      "file": "outputs/slide-03.png",
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "started_at": "2026-10-19T23:31:40.563634+00:00",
+          "status": "succeeded",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0020/outputs/slide-03.png",
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0021/outputs/slide-03.png"
+          ],
+          "finished_at": "2026-10-19T23:32:33.977016+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-87bd1b75-4a9b-4ecd-a0dd-27501879c41a.png",
+          "raw_result_format": {
+            "size": [
+              1122,
+              1402
+            ],
+            "mode": "RGB"
+          },
+          "result_file": "outputs/slide-03.png",
+          "export": {
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "has_alpha": false,
+            "logo": "original harda-logo-full.png, x48,y19,218x71, own alpha, no backing patch"
+          }
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_to_repository_checkout",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending",
+      "prompt": "HARDA carousel LW-CAR-0023, copy.json v1.1, approved S2 tier-list series. Edit the supplied APPROVED masters as the strict design/layout authority. Match their exact look, heavy lowercase tight grotesk lettering, type sizes, markers, spacing, white anatomical figure rendering and opaque off-white background. This new biceps carousel must look like the same series as LW-CAR-0020 and LW-CAR-0021, not a redesign.\n\nProduce ONE complete portrait 1080 × 1350 px PNG with all slide text and artwork generated TOGETHER. Solid opaque background #F0F1EB CLEAN, no texture, cards, arch, grid, dots, rings, transparency or checkerboard. Text dark #2A2A2A; grey italic secondary line #6B6B6B. Accent #F26445; empty stars #D6D6D2. Headlines are the masters' very heavy tight lowercase GROTESK, not Rubik. Marker is a flat coral rectangle BEHIND THE LOWER PART OF the designated words, keeping dark glyphs readable. Body regular sans, left-aligned, up to two lines.\n\nUse the same realistic WHITE/LIGHT-GREY male anatomical mannequin, bald faceless, fine grey shading/fibres, natural athletic proportions and featureless smooth pelvis, dark #2A2A2A gym shorts. No sand, beige, clay, simplified flat cartoon or outline-only figures. Equipment black/grey. Do not invent product features, extra labels, exercise facts or decorative elements.\n\nIMPORTANT REBRAND: the masters still show the OLD Lightweight logo. REMOVE that entire old wordmark and dinosaur from the generated image. Do NOT reproduce or redraw ANY logo, brand name or symbol. Leave the top 110 px completely EMPTY over uninterrupted #F0F1EB, no box, patch, panel, placeholder or other text. The owner's NEW authentic transparent Harda logo PNG will be pasted as a separate original layer at x48,y19,218×71 px after generation. Keep every other object/text below y110.\n\nAll words come ONLY from copy.json v1.1 below. Preserve exact spelling, lowercase, hyphens and punctuation. No extra words, variant letters, watermarks, signatures, slide counters or added punctuation. Keep all letters legible and fully inside the canvas; move/shrink the figure if needed rather than clip text.\n\nAUTHORITATIVE EXACT STRINGS:\n\"#12\"\n\"band curl\"\n\"almost no tension at the bottom, where your biceps need it.\"\n\nEXERCISE #12 BAND CURL: Use LW-CAR-0020 slide 3 as the precise header/stars/body layout master and LW-CAR-0021 slide 3 for a FRONT standing figure at the same scale, but REPLACE its barbell exercise with OUR band curl.\nTop-left below y110, same position and size as approved masters, exact heavy lowercase headline \"#12\" followed by \"band curl\". Coral marker behind the LOWER PART OF ONLY \"band curl\", never behind \"#12\". Below headline, left aligned row of EXACTLY FIVE five-point stars: FIRST star coral #F26445 and FOUR remaining stars light grey #D6D6D2. Rating exactly 1/5, no half stars or numeric rating label.\nBelow stars, exact body \"almost no tension at the bottom, where your biceps need it.\", regular dark sans, left aligned, up to two lines, such as:\nalmost no tension at the bottom, where\nyour biceps need it.\nLower ~60%: standing on a resistance band, curling the handles, front view. One full white anatomical mannequin, front view, feet shoulder width standing ON the middle of a black resistance band. Each hand holds one black handle attached to that band's two ends, elbows tucked by sides, forearms curling upward, supinated palms. Show BOTH band strands running from under the feet upward to the handles so the equipment is unmistakably a resistance band. No barbell, weight plates, dumbbells, cables/pulley machine or bench; do not copy equipment from either master. NO muscles coloured on this exercise slide; all white/light-grey, dark shorts. Head, feet, both hands, handles and band fully visible inside the slide, without touching any text.\n\nReturn exactly ONE finished opaque slide, not a montage, mockup, comparison or sheet.",
+      "prompt_file": "prompts/slide-03.txt",
+      "references": [
+        "carousels/LW-CAR-0020/outputs/slide-03.png",
+        "carousels/LW-CAR-0021/outputs/slide-03.png"
+      ]
+    },
+    {
+      "slide": 4,
+      "content_version": "1.1",
+      "role": "exercise #11",
+      "exact_text": [
+        "#11",
+        "21s",
+        "a fun burn, but the weight is too light to grow."
+      ],
+      "file": null,
+      "attempts": [],
+      "errors": [],
+      "save_status": "not_started_awaiting_owner_approval_of_slides_1_2_3",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 5,
+      "content_version": "1.1",
+      "role": "tier divider C",
+      "exact_text": [
+        "C",
+        "tier",
+        "you can do better"
+      ],
+      "file": null,
+      "attempts": [],
+      "errors": [],
+      "save_status": "not_started_awaiting_owner_approval_of_slides_1_2_3",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 6,
+      "content_version": "1.1",
+      "role": "exercise #10",
+      "exact_text": [
+        "#10",
+        "concentration curl",
+        "great squeeze, but one arm at a time takes forever."
+      ],
+      "file": null,
+      "attempts": [],
+      "errors": [],
+      "save_status": "not_started_awaiting_owner_approval_of_slides_1_2_3",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 7,
+      "content_version": "1.1",
+      "role": "exercise #9",
+      "exact_text": [
+        "#9",
+        "reverse curl",
+        "more forearms than biceps."
+      ],
+      "file": null,
+      "attempts": [],
+      "errors": [],
+      "save_status": "not_started_awaiting_owner_approval_of_slides_1_2_3",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 8,
+      "content_version": "1.1",
+      "role": "tier divider B",
+      "exact_text": [
+        "B",
+        "tier",
+        "solid picks"
+      ],
+      "file": null,
+      "attempts": [],
+      "errors": [],
+      "save_status": "not_started_awaiting_owner_approval_of_slides_1_2_3",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 9,
+      "content_version": "1.1",
+      "role": "exercise #8",
+      "exact_text": [
+        "#8",
+        "barbell curl",
+        "classic and heavy, but way too easy to swing the weight up."
+      ],
+      "file": null,
+      "attempts": [],
+      "errors": [],
+      "save_status": "not_started_awaiting_owner_approval_of_slides_1_2_3",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 10,
+      "content_version": "1.1",
+      "role": "exercise #7",
+      "exact_text": [
+        "#7",
+        "hammer curl",
+        "makes your arms look thicker, but it’s more brachialis than biceps."
+      ],
+      "file": null,
+      "attempts": [],
+      "errors": [],
+      "save_status": "not_started_awaiting_owner_approval_of_slides_1_2_3",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 11,
+      "content_version": "1.1",
+      "role": "exercise #6",
+      "exact_text": [
+        "#6",
+        "chin-ups",
+        "back and biceps in one move, and no gym needed."
+      ],
+      "file": null,
+      "attempts": [],
+      "errors": [],
+      "save_status": "not_started_awaiting_owner_approval_of_slides_1_2_3",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 12,
+      "content_version": "1.1",
+      "role": "tier divider A",
+      "exact_text": [
+        "A",
+        "tier",
+        "worth your time"
+      ],
+      "file": null,
+      "attempts": [],
+      "errors": [],
+      "save_status": "not_started_awaiting_owner_approval_of_slides_1_2_3",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 13,
+      "content_version": "1.1",
+      "role": "exercise #5",
+      "exact_text": [
+        "#5",
+        "ez-bar curl",
+        "easier on your wrists than a straight bar, and just as heavy."
+      ],
+      "file": null,
+      "attempts": [],
+      "errors": [],
+      "save_status": "not_started_awaiting_owner_approval_of_slides_1_2_3",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 14,
+      "content_version": "1.1",
+      "role": "exercise #4",
+      "exact_text": [
+        "#4",
+        "incline db curl",
+        "a huge stretch on your biceps. humbling, but it works."
+      ],
+      "file": null,
+      "attempts": [],
+      "errors": [],
+      "save_status": "not_started_awaiting_owner_approval_of_slides_1_2_3",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 15,
+      "content_version": "1.1",
+      "role": "exercise #3",
+      "exact_text": [
+        "#3",
+        "preacher curl",
+        "no swinging, no cheating. just your biceps."
+      ],
+      "file": null,
+      "attempts": [],
+      "errors": [],
+      "save_status": "not_started_awaiting_owner_approval_of_slides_1_2_3",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 16,
+      "content_version": "1.1",
+      "role": "tier divider S",
+      "exact_text": [
+        "S",
+        "tier",
+        "build your biceps on these"
+      ],
+      "file": null,
+      "attempts": [],
+      "errors": [],
+      "save_status": "not_started_awaiting_owner_approval_of_slides_1_2_3",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 17,
+      "content_version": "1.1",
+      "role": "exercise #2",
+      "exact_text": [
+        "#2",
+        "cable curl",
+        "tension from bottom to top, on every single rep."
+      ],
+      "file": null,
+      "attempts": [],
+      "errors": [],
+      "save_status": "not_started_awaiting_owner_approval_of_slides_1_2_3",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 18,
+      "content_version": "1.1",
+      "role": "exercise #1",
+      "exact_text": [
+        "#1",
+        "bayesian cable curl",
+        "arm behind your body, a big stretch and tension the whole way."
+      ],
+      "file": null,
+      "attempts": [],
+      "errors": [],
+      "save_status": "not_started_awaiting_owner_approval_of_slides_1_2_3",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 19,
+      "content_version": "1.1",
+      "role": "product ending",
+      "exact_text": [
+        "harda tracks every set you lift and shows if your arms get enough work.",
+        "log your workouts and check your muscle balance, so your arms keep growing."
+      ],
+      "file": null,
+      "attempts": [],
+      "errors": [],
+      "save_status": "not_started_awaiting_owner_approval_of_slides_1_2_3",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    }
+  ],
+  "agent_visual_review": "not_performed",
+  "user_review": "pending",
+  "next_action": "STOP and show slides 1,2,3 with the new Harda logo. Wait for explicit owner OK before slide 4 (21s) or any other slide.",
+  "archive": "LW-CAR-0023-initial-slides-01-03-1080x1350.zip",
+  "remote_save": {
+    "remote": "origin",
+    "branch": "claude/charming-einstein-xgejky",
+    "method": "one_commit_and_push_initial_three_slide_batch",
+    "commit_lookup": "git log -1 -- carousels/LW-CAR-0023/manifest.json"
+  }
+}

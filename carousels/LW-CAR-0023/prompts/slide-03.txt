@@ -1,0 +1,23 @@
+HARDA carousel LW-CAR-0023, copy.json v1.1, approved S2 tier-list series. Edit the supplied APPROVED masters as the strict design/layout authority. Match their exact look, heavy lowercase tight grotesk lettering, type sizes, markers, spacing, white anatomical figure rendering and opaque off-white background. This new biceps carousel must look like the same series as LW-CAR-0020 and LW-CAR-0021, not a redesign.
+
+Produce ONE complete portrait 1080 × 1350 px PNG with all slide text and artwork generated TOGETHER. Solid opaque background #F0F1EB CLEAN, no texture, cards, arch, grid, dots, rings, transparency or checkerboard. Text dark #2A2A2A; grey italic secondary line #6B6B6B. Accent #F26445; empty stars #D6D6D2. Headlines are the masters' very heavy tight lowercase GROTESK, not Rubik. Marker is a flat coral rectangle BEHIND THE LOWER PART OF the designated words, keeping dark glyphs readable. Body regular sans, left-aligned, up to two lines.
+
+Use the same realistic WHITE/LIGHT-GREY male anatomical mannequin, bald faceless, fine grey shading/fibres, natural athletic proportions and featureless smooth pelvis, dark #2A2A2A gym shorts. No sand, beige, clay, simplified flat cartoon or outline-only figures. Equipment black/grey. Do not invent product features, extra labels, exercise facts or decorative elements.
+
+IMPORTANT REBRAND: the masters still show the OLD Lightweight logo. REMOVE that entire old wordmark and dinosaur from the generated image. Do NOT reproduce or redraw ANY logo, brand name or symbol. Leave the top 110 px completely EMPTY over uninterrupted #F0F1EB, no box, patch, panel, placeholder or other text. The owner's NEW authentic transparent Harda logo PNG will be pasted as a separate original layer at x48,y19,218×71 px after generation. Keep every other object/text below y110.
+
+All words come ONLY from copy.json v1.1 below. Preserve exact spelling, lowercase, hyphens and punctuation. No extra words, variant letters, watermarks, signatures, slide counters or added punctuation. Keep all letters legible and fully inside the canvas; move/shrink the figure if needed rather than clip text.
+
+AUTHORITATIVE EXACT STRINGS:
+"#12"
+"band curl"
+"almost no tension at the bottom, where your biceps need it."
+
+EXERCISE #12 BAND CURL: Use LW-CAR-0020 slide 3 as the precise header/stars/body layout master and LW-CAR-0021 slide 3 for a FRONT standing figure at the same scale, but REPLACE its barbell exercise with OUR band curl.
+Top-left below y110, same position and size as approved masters, exact heavy lowercase headline "#12" followed by "band curl". Coral marker behind the LOWER PART OF ONLY "band curl", never behind "#12". Below headline, left aligned row of EXACTLY FIVE five-point stars: FIRST star coral #F26445 and FOUR remaining stars light grey #D6D6D2. Rating exactly 1/5, no half stars or numeric rating label.
+Below stars, exact body "almost no tension at the bottom, where your biceps need it.", regular dark sans, left aligned, up to two lines, such as:
+almost no tension at the bottom, where
+your biceps need it.
+Lower ~60%: standing on a resistance band, curling the handles, front view. One full white anatomical mannequin, front view, feet shoulder width standing ON the middle of a black resistance band. Each hand holds one black handle attached to that band's two ends, elbows tucked by sides, forearms curling upward, supinated palms. Show BOTH band strands running from under the feet upward to the handles so the equipment is unmistakably a resistance band. No barbell, weight plates, dumbbells, cables/pulley machine or bench; do not copy equipment from either master. NO muscles coloured on this exercise slide; all white/light-grey, dark shorts. Head, feet, both hands, handles and band fully visible inside the slide, without touching any text.
+
+Return exactly ONE finished opaque slide, not a montage, mockup, comparison or sheet.
