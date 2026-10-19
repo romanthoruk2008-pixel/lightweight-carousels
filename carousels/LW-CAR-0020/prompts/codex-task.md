@@ -1,57 +1,56 @@
-# Codex task — LW-CAR-0020 "chest tier list" (REF-008, new style test)
+# Codex task — LW-CAR-0020 "chest tier list" v1.1 (REF-008 look, our own ranking)
 
-First read `carousels/CODEX-SERIES-RULES.md` for format, saving, manifest, logo file, backgrounds (solid, never transparent), phone ending, no added punctuation and no clipped text. Exact copy: `carousels/LW-CAR-0020/copy.json` (content_version 1.0). Repository: romanthoruk2008-pixel/lightweight-carousels, branch `claude/charming-einstein-xgejky`.
+First read `carousels/CODEX-SERIES-RULES.md` for format, saving, manifest, logo file, backgrounds (solid, never transparent), the **white figure rule**, phone ending, no added punctuation and no clipped text. Exact copy: `carousels/LW-CAR-0020/copy.json` (**content_version 1.1**). Repository: romanthoruk2008-pixel/lightweight-carousels, branch `claude/charming-einstein-xgejky`.
 
-**This carousel tests a new look: the style of REF-008.** Where this task differs from the series rules (typography, figures), this task wins. Reproduce REF-008 1:1: the same 19 slides, order, text, lowercase, layouts, poses and equipment. Change only what is listed under "Substitutions".
+**What this is.** We take the **look and format** of REF-008 (a chest exercise tier list), but the exercises, ranking, text and caption are **our own**. Copy the design from the reference. Take every word and every exercise from this file and copy.json, never from the reference. Where this task differs from the series rules (typography), this task wins.
 
-## Reference images
-`references/images/REF-008/slide-01.jpg` … `slide-19.jpg`, in this order. They are screenshots of the TikTok web viewer: the slide is the tall white area on the left (about x 139–1073). Ignore all TikTok UI (search bar, arrows, pager dots, the dark right panel). Transcriptions are in `references/CAROUSELS.md`, section REF-008.
+## Reference images (design only)
+`references/images/REF-008/slide-NN.jpg`. They are TikTok web-viewer screenshots: the slide is the tall white area on the left (about x 139–1073). Ignore all TikTok UI (search bar, arrows, pager dots, the dark right panel).
 
-All 19 reference files are in the repository. No slide is blocked.
+| Our slide type | Copy the layout of |
+|---|---|
+| cover | `slide-01.jpg` |
+| tier divider | `slide-02.jpg` (same for every tier) |
+| exercise | `slide-03.jpg` (headline, stars, text, big figure) |
 
-## Substitutions (the only changes)
-- **Accent:** everything bright green → **#F26445**: the marker bars behind words, filled stars, the chest on the cover.
-- **Background:** pure white → **solid #F0F1EB** (`CLEAN`), no texture, opaque.
+Some of our exercises also appear in the reference; for those you may use the reference slide as a pose guide: db flys `slide-06.jpg`, push-ups `slide-07.jpg`, barbell bench press `slide-10.jpg`, seated cable fly `slide-14.jpg`, incline smith press `slide-16.jpg`, pec deck `slide-17.jpg`.
+
+## Look
+- **Background:** solid **#F0F1EB** (`CLEAN`), no texture, opaque.
 - **Logo:** `assets/logo/lightweight-logo-full.png` at x 48, y 19, 341 x 71, pasted with its own transparency. Keep the top 110 px free of everything else.
-- **Figures:** as in the reference: realistic white / light-grey anatomical mannequin, bald and faceless, fine grey shading, **featureless smooth pelvis**. Shorts **#2A2A2A** instead of black. No coloured muscles on the exercise slides, exactly as in the reference. Equipment black / grey as in the reference.
-- **Tier tiles:** same rounded square with a big white bold letter and a soft shadow on the letter. Colours: `S` **#F26445**, `A` #FF9A52, `B` #FFD95A, `C` #3FCF5E, `F` #5BDCE3.
-- **Stars:** filled #F26445, empty #D6D6D2. A half star is half filled, as in the reference.
-- **Slide 19:** the Arrow ending is replaced by our Lightweight ending with the hand and phone (see below).
+- **Figure:** as in the reference: a realistic **white / light-grey** anatomical mannequin, bald and faceless, fine grey shading, **featureless smooth pelvis**, shorts **#2A2A2A**. On exercise slides no muscle is coloured. On the cover the chest is filled **#F26445**. Equipment black / grey.
+- **Accent:** **#F26445** for the marker bars behind words and the filled stars. Empty stars #D6D6D2; a half star is half filled.
+- **Tier tiles:** rounded square, big white bold letter with a soft shadow. `S` **#F26445**, `A` #FF9A52, `B` #FFD95A, `C` #3FCF5E, `F` #5BDCE3.
+- **Type (match the reference):** headlines very heavy grotesk with tight letter spacing, lowercase exactly as written, #2A2A2A. The marker bar is a flat #F26445 rectangle behind the lower part of the exercise name only, not behind the `#12`. Body lines clean regular sans, #2A2A2A, left-aligned. Tier lines and the cover subtitle italic regular #6B6B6B, centered.
 
-## Typography (match the reference, not Rubik)
-- Headlines (`chest`, `tier list`, `#12 hex press`, `tier`): very heavy grotesk, tight letter spacing, lowercase exactly as written, #2A2A2A.
-- The **marker bar**: a flat #F26445 rectangle behind the lower part of the words. It covers the word part only (`tier list`, `hex press`), not the `#12`, as in the reference.
-- Body lines: clean regular sans, #2A2A2A, left-aligned, two lines.
-- Tier lines (`avoid these` …) and `(from worst to best)`: italic regular, #6B6B6B, centered.
-
-## Slides
-| # | Layout | Text (exact) | Stars | Figure |
+## Slides (exact text)
+| # | Type | Text | Stars | Figure |
 |---|---|---|---|---|
-| 1 | cover, centered | `chest` / `tier list` (marker) / `(from worst to best)` | — | front view from the thighs up, hands on hips, chest filled #F26445 |
-| 2 | tier divider | tile `F` + `tier` / `avoid these` | — | — |
-| 3 | exercise | `#12` `hex press` / `a lot of people think these target the ‘inner chest’, but you can’t bias it.` | 1 | flat bench dumbbell hex press, dumbbells pressed together |
-| 4 | exercise | `#11` `decline press` / `decline presses are unnecessary. flat presses already target your lower fibres well.` | 1.5 | barbell press on a decline bench |
-| 5 | tier divider | tile `C` + `tier` / `there are better options` | — | — |
-| 6 | exercise | `#10` `db flys` / `zero tension at the top. using a cable or machine is going to be far better.` | 2.5 | dumbbell fly on a bench, arms open |
-| 7 | exercise | `#9` `push-ups` / `great for beginners, but they get too easy the stronger you get.` | 3 | push-up, side view, low in the frame |
-| 8 | tier divider | tile `B` + `tier` / `solid, but not the best` | — | — |
-| 9 | exercise | `#8` `standing cable flys` / `feel very awkward. easy to lose balance and hard to perform when the weight gets heavier.` | 3.5 | standing cable fly in a cable crossover frame, front view |
-| 10 | exercise | `#7` `barbell flat/incline bench` / `may be a classic, but it’s more of an ego exercise than one for building muscle.` | 3.5 | barbell bench press in a rack, front three-quarter view |
-| 11 | tier divider | tile `A` + `tier` / `great choices` | — | — |
-| 12 | exercise | `#6` `db flat/incline bench` / `very solid exercise. feels a lot more natural than barbell, and you get a better range of motion.` | 4 | dumbbell bench press, front view |
-| 13 | exercise | `#5` `flat machine press` / `a very solid exercise. great stability & tension. amazing for the mid/lower chest.` | 4 | seated chest press machine |
-| 14 | exercise | `#4` `seated cable fly` / `far superior to standing. a lot more stable, and you can load a lot more weight.` | 4.5 | seated cable fly on a bench inside a cable crossover frame, front view |
-| 15 | tier divider | tile `S` + `tier` / `the best of the best` | — | — |
-| 16 | exercise | `#3` `incline smith machine` / `incredible exercise. fixed path, great stability and easy to overload.` | 4.5 | incline bench press in a Smith machine |
-| 17 | exercise | `#2` `pec deck` / `the best isolation exercise for the chest. incredible tension & feels amazing.` | 5 | seated pec deck machine |
-| 18 | exercise | `#1` `incline machine press` / `the best exercise for chest growth. targets your whole chest well & feels amazing.` | 5 | plate-loaded incline chest press machine |
-| 19 | product ending | see below | — | hand + phone |
+| 1 | cover | `chest` / `tier list` (marker) / `(ranked worst to best)` | — | front view from the thighs up, hands on hips, chest #F26445 |
+| 2 | tier | tile `F` + `tier` / `skip these` | — | — |
+| 3 | exercise | `#12` `svend press` / `you feel a burn, but there’s almost no load on your chest.` | 1 | standing, squeezing two small weight plates together in front of the chest, arms extended forward |
+| 4 | exercise | `#11` `db pullover` / `more of a lat and shoulder move than a chest builder.` | 1.5 | lying across a flat bench, one dumbbell held with both hands behind the head, arms extended |
+| 5 | tier | tile `C` + `tier` / `you can do better` | — | — |
+| 6 | exercise | `#10` `db flys` / `the stretch is great, but the top half does almost nothing.` | 2.5 | dumbbell fly on a flat bench, arms wide open |
+| 7 | exercise | `#9` `floor press` / `safe and simple, but the short range holds you back.` | 2.5 | lying on the floor, knees bent, pressing two dumbbells up, upper arms near the floor |
+| 8 | tier | tile `B` + `tier` / `solid picks` | — | — |
+| 9 | exercise | `#8` `push-ups` / `free and anywhere. add a vest or slow reps once they get easy.` | 3 | push-up, side view, low in the frame |
+| 10 | exercise | `#7` `barbell bench press` / `great for strength. for pure chest growth, a few options beat it.` | 3.5 | barbell bench press in a rack, front three-quarter view |
+| 11 | exercise | `#6` `low-to-high cable fly` / `hits your upper chest and keeps tension the whole rep.` | 3.5 | standing in a cable crossover frame, handles from the low pulleys raised up and together to upper-chest height, front view |
+| 12 | tier | tile `A` + `tier` / `worth your time` | — | — |
+| 13 | exercise | `#5` `dips` / `huge stretch and easy to load. lean forward for more chest.` | 4 | dip on parallel bars, torso leaning forward, side view |
+| 14 | exercise | `#4` `incline db press` / `natural path, and each side has to pull its own weight.` | 4 | dumbbell press on an incline bench, front three-quarter view |
+| 15 | exercise | `#3` `seated cable fly` / `steady tension from start to finish, and easy to load.` | 4.5 | seated cable fly on a bench inside a cable crossover frame, front view |
+| 16 | tier | tile `S` + `tier` / `build your chest on these` | — | — |
+| 17 | exercise | `#2` `incline smith press` / `stable path, so you can add weight week after week.` | 5 | incline bench press in a Smith machine |
+| 18 | exercise | `#1` `pec deck` / `the hardest chest squeeze you can get. tension never drops.` | 5 | seated pec deck machine, front view |
+| 19 | ending | see below | — | hand + phone |
 
-Exercise slide layout (as in the reference): headline top-left under the logo area, a row of 5 stars under it, the body text under the stars, and the large figure in the lower ~60%. Keep the reference spelling and apostrophes (`flys`, `fibres`, `‘inner chest’`, `it’s`). Do not add capitals or punctuation.
+Keep lowercase and apostrophes (`there’s`) exactly. Do not add capitals or punctuation.
 
-### Slide 19 — product ending (owner decision 2026-10-19: our hand and phone)
-- Composition of the approved `carousels/LW-CAR-0001/outputs/slide-08.png`: text on top, the sketch-style hand holding the tall phone from the bottom right, the phone may run off the bottom edge. The hand is drawn in the same style as this carousel's figures.
-- Headline, the REF-008 ending style (large, lowercase, heaviest grotesk, #2A2A2A, left-aligned), with **#F26445 marker bars** under `every set you lift` and under `which muscles you’re forgetting`:
+### Slide 19 — product ending
+- Composition of the approved `carousels/LW-CAR-0001/outputs/slide-08.png`: text on top, a sketch-style hand holding the tall phone from the bottom right, the phone may run off the bottom edge. Draw the hand in the white style of this carousel.
+- Headline, large, lowercase, heaviest grotesk, #2A2A2A, left-aligned, with **#F26445 marker bars** under `every set you lift` and under `which muscles you’re forgetting`:
   `lightweight tracks every set you lift and shows which muscles you’re forgetting.`
 - Body, regular #2A2A2A: `log your workouts and check your muscle balance, so you keep making progress.`
 - Phone: the **real Lightweight Progress / Muscle balance screenshot**, the same one as on the approved LW-CAR-0001 slide 8, true proportions, never squashed. Never generate, redraw or imitate app UI. All text fully visible.
@@ -60,4 +59,4 @@ Exercise slide layout (as in the reference): headline top-left under the logo ar
 Write `caption.txt` from `copy.json` → `caption.text`, verbatim.
 
 ## Order of work
-Generate slides 1, 2 and 3 first, show them to the owner and wait for OK on the new look. Then the rest. Commit the carousel in one commit; if a limit or error interrupts you, push what exists immediately, marked incomplete, with the next slide to generate.
+Generate slides 1, 2 and 3 first, show them to the owner and wait for OK. Then the rest. Commit the whole carousel in one commit. If a limit or error interrupts you, push what exists immediately, marked incomplete, with the next slide to generate.

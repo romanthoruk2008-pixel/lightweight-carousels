@@ -1,16 +1,21 @@
-# LW-CAR-0020 — «chest tier list» (REF-008, тест нового стилю)
+# LW-CAR-0020 — «chest tier list» v1.1 (вигляд REF-008, наш рейтинг)
 
-- **Тексти:** [copy.json](copy.json) v1.0. **Промпт для Codex:** [prompts/codex-task.md](prompts/codex-task.md). Референс: REF-008 у references/CAROUSELS.md, картинки в references/images/REF-008/.
-- **Фон:** `CLEAN` #F0F1EB. **Логотип:** повний файл.
+- **Тексти:** [copy.json](copy.json) v1.1. **Промпт для Codex:** [prompts/codex-task.md](prompts/codex-task.md). Дизайн-референс: REF-008 (references/CAROUSELS.md, references/images/REF-008/).
+- **Фон:** `CLEAN` #F0F1EB. **Логотип:** повний файл. **Фігура:** біла реалістична, шорти #2A2A2A (новий стандарт з 0020).
 
 ## Що це
-Копія 1:1 тір-листа Arrow для грудей (19 слайдів): обкладинка, роздільники тірів F, C, B, A, S, 12 вправ від гіршої до найкращої із зірками, фінал. Тексти, рейтинги й орфографія як в оригіналі. Ми міняємо: зелений на кораловий #F26445, білий фон на #F0F1EB, чорні шорти на #2A2A2A, тір S кораловий, логотип Lightweight, фінал з нашою рукою й телефоном (рішення власника 2026-10-19).
+Формат і вигляд тір-листа Arrow для грудей (обкладинка, роздільники тірів, слайди вправ із зірками, фінал), але **вправи, рейтинг, усі тексти й підпис наші** (рішення власника 2026-10-19, щоб не копіювати текст конкурента).
 
-## Чому працює
-Тір-лист провокує суперечки: у коментарях оригіналу сперечаються про місця вправ. У Arrow тір-лист спини має 164K, цей для грудей 19.3K лайків і 7045 збережень за 3 дні.
+## Наш рейтинг (від гіршого до кращого)
+- **F** «skip these»: #12 svend press (1★), #11 db pullover (1.5★)
+- **C** «you can do better»: #10 db flys (2.5★), #9 floor press (2.5★)
+- **B** «solid picks»: #8 push-ups (3★), #7 barbell bench press (3.5★), #6 low-to-high cable fly (3.5★)
+- **A** «worth your time»: #5 dips (4★), #4 incline db press (4★), #3 seated cable fly (4.5★)
+- **S** «build your chest on these»: #2 incline smith press (5★), #1 pec deck (5★)
+
+Пек-дек на #1 спірний навмисно: це привід сперечатися в коментарях. Брусся додані, бо про них питають у коментарях до оригіналу.
 
 ## Фінал
-«lightweight tracks every set you lift and shows which muscles you’re forgetting.» + «log your workouts and check your muscle balance, so you keep making progress.» + телефон зі справжнім скріном Muscle balance (як на LW-CAR-0001 слайд 8). Калорії не згадуємо: цю функцію в Lightweight не підтверджено.
+«lightweight tracks every set you lift and shows which muscles you’re forgetting.» + «log your workouts and check your muscle balance, so you keep making progress.» + рука з телефоном, справжній скрін Muscle balance.
 
-## Відкрите
-- Власник не відповів про фігури, кольори тірів і фон; взято поради Claude: білі реалістичні фігури як у референсі, класичні кольори тірів з кораловим S, фон CLEAN.
+**Підпис:** «What would you move up? 👇 #chestday #tierlist #gymtips #chestworkout»

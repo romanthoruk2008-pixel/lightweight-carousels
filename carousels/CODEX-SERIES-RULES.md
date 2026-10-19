@@ -23,6 +23,7 @@ Each task file lists the reference slide URLs in the **real** order. Use that or
   - No progress bar or slide counter on any background.
   - Already generated carousels with the arch (LW-CAR-0001…0010, 0012, 0013) stay as they are. Do not repaint their backgrounds.
 - Non-highlighted muscles → warm sand **#D9CBBE**, with darker shades of the same sand for shading. No green or sage tint anywhere on the figures. Skin and tendons light ivory (about #F5F0E5). Fine grey linework.
+- **Figure (owner decision 2026-10-19), from LW-CAR-0020 on:** a realistic **white / light-grey** anatomical mannequin (bald, faceless, featureless smooth pelvis, fine grey shading), shorts #2A2A2A, as in REF-008. Target muscles #F26445 only where the task file asks for them. Never mix the white figure and the sand figure in one carousel. Carousels already generated with the sand figure stay as they are.
 - Text: dark **#2A2A2A**, grey body **#6B6B6B**, white **#FFFFFF** on badges.
 - Font: **Rubik** for all text. Covers use the heaviest weight, titles bold, body regular. Rubik is wider than the sources' condensed cover font. Keep the same line breaks, scale to fit, and tell the owner if a layout cannot match. Never shorten text.
 - The Lightweight wordmark goes small in the top-left of every slide, exactly as on LW-CAR-0001, from the owner's wordmark file. Never draw or invent a logo.

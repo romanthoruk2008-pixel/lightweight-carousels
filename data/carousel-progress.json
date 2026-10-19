@@ -275,10 +275,10 @@
     },
     {
       "id": "LW-CAR-0020",
-      "title": "chest tier list (from worst to best)",
+      "title": "chest tier list (own ranking, REF-008 look)",
       "source_ref": "REF-008",
-      "type": "reference_adaptation",
-      "content_version": "1.0",
+      "type": "format_from_reference",
+      "content_version": "1.1",
       "copy_status": "frozen",
       "slides": 19,
       "background": "CLEAN",
