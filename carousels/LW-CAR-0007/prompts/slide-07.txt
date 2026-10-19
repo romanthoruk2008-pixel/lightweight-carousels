@@ -1,0 +1,20 @@
+Create ONE ORIGINAL Lightweight carousel slide, LW-CAR-0007, a clean portrait 1080x1350 PNG (4:5). This is our own topic, NOT a reproduction of competitor copy. Use only the attached own Lightweight template(s) for series identity and the explicitly named component references for their geometry. The task is frozen copy content_version 1.1.
+
+SERIES: off-white #F0F1EB background, very large pale coral #FBE3DD rounded arch rising on the right behind content. Accent #F26445, dark #2A2A2A, body grey #6B6B6B, badge white #FFFFFF. Real RUBIK typography throughout: heaviest cover and large numbers, bold titles, regular body and exercise labels. Same premium clean series, fine grey anatomy outlines, soft fine muscle-relief linework, plenty of space. No green, sage, gradients on target highlights, shadows except the cover's soft grey text offset. No TikTok UI, signatures, watermarks, added words or invented symbols.
+
+WORDMARK: the small actual accepted Lightweight wordmark at x~45,y~40 is an existing bitmap asset. Do not draw or invent a new logo. Reserve the full top strip y=0..110 for exact restoration of that source bitmap during planned asset assembly; you may leave that strip empty. All headline text starts below y=135. The same accepted source strip will be copied into the final export with no rescaling. No other branding.
+
+MANNEQUINS: smooth plastic educational ANATOMY MANNEQUINS, bald featureless head and face, featureless smooth pelvis with no genital detail. Warm sand #D9CBBE muscles, darker same-sand shading, ivory #F5F0E5 tendons/skin, fine grey linework matching our own attached series. All full-body or knees-up figures wear plain opaque short athletic shorts in sand #D9CBBE as explicitly permitted in this task. Nothing green. Target muscles only as specified below get flat coral #F26445. Gym equipment realistic black/grey/white. No real human skin or nude person.
+
+COPY: The numbered list of strings below gives the ONLY slide copy. Keep every string, spelling, capitalization and punctuation EXACTLY. Do not add a period to a headline without one. Line breaks may wrap a long string, but never omit words or change apostrophes, hyphens or punctuation. All text fully visible and readable; no text under an illustration, clipped by an edge, or hidden behind a phone. If space is needed, move or shrink the illustration, never the text. Keep at least 55 px left/right and bottom text safety margins. No extra captions from reference images.
+
+SLIDE 7 CHECKLIST. Own ending template supplies top-left heading/underline/arch/body style, second own input supplies anatomical style only, not its machine/exercise or old copy. No phone or app UI.
+Top-left bold title Not Growing? Check This First, may wrap into two lines; coral underline. Four spaced checklist rows, each with an EMPTY rounded-square checkbox with coral outline (no ticks), followed by regular dark text: Are your sets actually hard? / Are you adding weight or reps over time? / Are you eating enough protein? / Are you sleeping enough? All four boxes same size. Under all four rows, bold coral exact sentence More sets won't fix bad sets. Bottom-right one warm-sand anatomical mannequin in sand shorts sitting on a black gym bench BETWEEN SETS, forearms resting on knees, torso leaning slightly forward, neutral featureless head oriented toward viewer. It may be cropped at bottom/right edge. Reserve the complete width/height of every text row and coral sentence; start figure below sentence or at far right without covering any words. No weights needed, no extra text or icons.
+
+EXACT SLIDE COPY STRINGS (quotation marks below delimit strings; do not print delimiter quotes):
+1. "Not Growing? Check This First"
+2. "Are your sets actually hard?"
+3. "Are you adding weight or reps over time?"
+4. "Are you eating enough protein?"
+5. "Are you sleeping enough?"
+6. "More sets won't fix bad sets."
