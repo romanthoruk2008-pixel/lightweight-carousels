@@ -1,9 +1,13 @@
-# LW-CAR-0020 — initial style preview
+# LW-CAR-0020 v1.1 — initial three slides
 
-Generated slides 1, 2 and 3 only. Files are in outputs/slide-01.png through slide-03.png, 1080 × 1350 RGB PNG with the original logo inserted. Exact prompts and one actual attempt per slide are recorded in manifest.json. Caption copied verbatim from copy.json.
+Generated slides 1, 2 and 3 anew from copy.json v1.1. REF-008 screenshots were used only for design; previous LW-CAR-0020 images were not generation inputs.
 
-STOP: await owner approval of the new REF-008 look. This is an incomplete carousel, not an approved production set. agent_visual_review=not_performed; user_review=pending. No automatic visual review, OCR or regeneration was performed.
+- Slide 1: chest / tier list / (ranked worst to best).
+- Slide 2: F / tier / skip these.
+- Slide 3: #12 svend press, one star, standing mannequin squeezing two small plates together with arms forward. Copy: you feel a burn, but there’s almost no load on your chest.
 
-After explicit approval, next slide is 4. Slides 6, 7, 9 and 10 were skipped per the current user request. Their references arrived in commit 8dc719c during generation, so the repository no longer lacks them. Reconcile the next owner instruction before including them. No other slides have been generated.
+All final PNGs are 1080 × 1350 RGB with the original logo file composited at x48,y19,341×71, no backing patch. Prompts and actual attempts are recorded in manifest.json. Caption is verbatim copy.json v1.1. The ZIP contains only the new v1.1 initial outputs and current supporting files.
 
-The ZIP contains only the initial three outputs, caption, manifest, prompts and this handoff.
+STOP and wait for owner OK before slide 4 (db pullover) or any other slide. Carousel remains incomplete. agent_visual_review=not_performed; user_review=pending. No visual QA, OCR or automatic correction passes were performed.
+
+The superseded v1.0 batch remains in Git at d1be22e, including its exact outputs, prompts and manifest; it must not be used as current content.

@@ -1,35 +1,41 @@
 {
   "carousel_id": "LW-CAR-0020",
-  "content_version": "1.0",
-  "source_commit": "cbe5e57457ba62082ac6ab7b44f5cc07f30b7a03",
+  "content_version": "1.1",
+  "generation_round": 2,
+  "source_commit": "4e07b92287e5f3af0d5e51b58628ab45afe02b50",
   "reference_id": "REF-008",
+  "reference_use": "original screenshots for design only; every word and exercise from copy.json v1.1; no earlier LW-CAR-0020 outputs used as input",
   "instructions": "prompts/codex-task.md",
-  "status": "initial_3_slides_generated_awaiting_owner_approval",
-  "scope": "Generate only slides 1,2,3 first; show owner and wait for approval before the remaining slides. Skip 6,7,9,10.",
+  "status": "v1_1_initial_3_slides_generated_awaiting_owner_approval",
+  "carousel_complete": false,
+  "scope": "Generate only v1.1 slides 1,2,3 first, then show owner and wait for OK. This request supersedes the v1.0 initial batch.",
   "background": "CLEAN",
-  "font_family": "as in REF-008: heavy tight grotesk for headlines, clean sans for body, italic for tier lines (style test, owner request 2026-10-19)",
-  "blocked_slides": [],
+  "font_family": "REF-008 look: heavy tight grotesk for headlines, clean sans for body, italic for tier lines",
   "generated_images": 3,
+  "blocked_slides": [],
   "slides": [
     {
       "slide": 1,
-      "content_version": "1.0",
-      "prompt": "Adapt the supplied REF-008 screenshot into ONE finished Lightweight carousel slide at exactly 1080 × 1350 px, portrait 4:5. The source slide is ONLY the tall white left area approximately x139..1073 in the 2000 × 1110 screenshot. Reproduce that slide's design, typography, composition, text, mannequin, pose and equipment as closely as possible. REMOVE the whole TikTok viewer UI: top search bar and overlay, black margins, dark right comments panel, arrows, dots, pager, all interface text. Produce only the clean artwork, not a screenshot or mockup.\n\nOnly the following approved substitutions apply. Background: uniform opaque solid off-white #F0F1EB, CLEAN with no arch, grid, dots, rings, transparency or checkerboard. Original bright green accents become coral #F26445. Text #2A2A2A; italic secondary text #6B6B6B. All figures retain the reference's realistic white/light-grey anatomical mannequin style with fine grey shading and fine muscle fibres, bald faceless head, smooth featureless pelvis, athletic natural build, wearing the same gym shorts recoloured dark #2A2A2A. No sand, minimal-flat, outline-only or clay rendering. Do not redesign the figure, pose, layout or equipment. Retain the reference spelling, lowercase and punctuation verbatim; no added words or visual claims.\n\nTypography matches REF-008, NOT Rubik: headlines are extremely heavy, tight, lowercase grotesk, near the reference's black Helvetica-style forms. Clean regular sans for body. Regular italic secondary lines. Generate all text together with the artwork in this single complete image; do not leave space for later text typesetting.\n\nTOP LOGO RESERVATION: Keep top 110 px clear of every heading, pill, badge and figure. DO NOT draw a logo or brand name. The owner's original full transparent Lightweight logo PNG will be pasted separately as required, x48,y19,341×71 px. Leave this region as uninterrupted #F0F1EB without any placeholder box or patch. All other content starts below y110. No signatures, watermarks, slide numbers or extra marks. Keep all text fully visible and legible; preserve the requested text instead of shortening it. If necessary reduce or move the figure, never clip the lettering.\n\nSLIDE 1 — COVER, CENTERED. Preserve the screenshot cover layout. Large stacked lowercase headline at the top, centered, two lines: exactly \"chest\", then exactly \"tier list\". Both heavy black grotesk in #2A2A2A. A flat coral #F26445 rectangular marker bar sits BEHIND THE LOWER PART of the words \"tier list\", the width of those words only, as in the source. The letters remain dark and fully legible over the marker; do not turn the words white or fill their whole title area. Below, centered italic grey exactly \"(from worst to best)\".\nLower ~60%: same front-view white/light-grey anatomical male mannequin, from thighs up, hands resting on hips, head slightly tipped down as in reference. Same proportions, shoulders, abdominal detail, arm positions and dark shorts #2A2A2A. Both pectoral chest muscles filled coral #F26445 instead of green, retaining fine muscle fibres and grey anatomical shading. Other muscles stay white/light-grey. Crop the lower shorts at the bottom as in the source. No additional colored muscles. The three exact text strings are \"chest\", \"tier list\", \"(from worst to best)\".\n\nReturn one finished opaque slide only, not a collage, comparison sheet or web viewer screenshot.",
-      "prompt_file": "prompts/slide-01.txt",
-      "reference": "references/images/REF-008/slide-01.jpg",
+      "content_version": "1.1",
+      "role": "hook",
+      "exact_text": [
+        "chest",
+        "tier list",
+        "(ranked worst to best)"
+      ],
       "file": "outputs/slide-01.png",
       "attempts": [
         {
           "attempt": 1,
           "tool": "image_gen.imagegen",
-          "started_at": "2026-10-19T14:02:27.825931+00:00",
+          "started_at": "2026-10-19T14:16:15.635119+00:00",
           "status": "succeeded",
           "transparent_background": false,
           "referenced_image_paths": [
             "/workspace/lightweight-carousels/references/images/REF-008/slide-01.jpg"
           ],
-          "finished_at": "2026-10-19T14:03:09.549712+00:00",
-          "raw_result_file": "/workspace/generated_images/exec-a724b86b-ea28-4bf0-a1e3-afb223715005.png",
+          "finished_at": "2026-10-19T14:17:07.763645+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-7df81053-e742-438c-8711-611c38a92ff2.png",
           "raw_result_format": {
             "size": [
               1122,
@@ -52,27 +58,33 @@
       "errors": [],
       "save_status": "saved_to_repository_checkout",
       "agent_visual_review": "not_performed",
-      "user_review": "pending"
+      "user_review": "pending",
+      "prompt": "LW-CAR-0020, content_version 1.1, INITIAL THREE-SLIDE BATCH — new generation explicitly requested by the owner. Use ONLY the supplied ORIGINAL REF-008 screenshot as a DESIGN guide. Do not use any earlier LW-CAR-0020 output as input. All text and exercise content below is taken from copy.json v1.1 and REPLACES the screenshot's text and exercises.\n\nCreate ONE complete finished 1080 × 1350 px PNG, portrait 4:5, with headline, body and artwork generated together. In the 2000×1110 screenshot the design reference is ONLY the tall white area at approximately x139..1073. Ignore and remove ALL TikTok viewer UI: top search bar/overlay, black margins, dark right comments, dots, pager, arrows, icons and all UI text. The reference gives the LOOK and LAYOUT only. The authoritative exact words are listed below. Never transcribe words or exercise names from the screenshot.\n\nSTYLE: solid opaque #F0F1EB CLEAN background, no texture, grid, dots, arch, rings, transparency or checkerboard. Heavy tight GROTESK lowercase headlines like REF-008, NOT Rubik, dark #2A2A2A. Clean regular sans body #2A2A2A; secondary lines regular italic #6B6B6B. Coral accent #F26445 for marker bars and filled stars. Marker bar is a flat rectangle behind the LOWER PART of the indicated words only, keeping all dark letterforms readable. Empty stars #D6D6D2. Do not add any white cards or panels behind text.\n\nFIGURE STANDARD: realistic white/light-grey anatomical male mannequin as in REF-008, bald and faceless, fine grey anatomical shading and fine muscle fibres, featureless smooth pelvis, dark #2A2A2A gym shorts. Keep white/light-grey, never sand, beige, green or app-tinted. No simplified flat, line-art-only or clay/toy rendering. Equipment black/grey. No coloured muscles on exercise slides. Only the cover has coral chest muscles.\n\nLOGO: leave top 110 px empty of ALL content over uninterrupted #F0F1EB, no placeholder patch or box. DO NOT generate a logo or brand text. The owner's original full transparent logo file will be pasted at x48,y19,341×71 px with its own transparency and no backing patch after generation, exactly as required. Other content begins below y110. No added text, punctuation, watermarks, signatures or slide counters. Every letter fully visible; move or shrink the illustration if needed, never cut or shorten the text.\n\nAUTHORITATIVE EXACT STRINGS FROM copy.json v1.1 FOR THIS SLIDE:\n\"chest\"\n\"tier list\"\n\"(ranked worst to best)\"\n\nSLIDE 1 — COVER. Use REF-008 slide-01.jpg for layout. Centered large stacked heavy lowercase headline: line 1 \"chest\", line 2 \"tier list\". Both dark #2A2A2A. Place a flat coral #F26445 marker rectangle behind the LOWER PART of \"tier list\" only, sized to those words like the reference. Under it centered italic regular grey EXACTLY \"(ranked worst to best)\". Use this NEW subtitle rather than the reference's subtitle.\nLower ~60%: the same front-view realistic white/light-grey anatomical mannequin, thighs up, hands resting on hips, head slightly lowered, dark shorts. Highlight ONLY both chest muscles coral #F26445, retaining anatomical fibres and fine grey shading. Same framing and silhouette as reference. Lower shorts may crop at the bottom. All three specified strings fully legible.\n\nReturn exactly ONE finished opaque full slide, no comparison sheet, mockup or collage.",
+      "prompt_file": "prompts/slide-01.txt",
+      "reference": "references/images/REF-008/slide-01.jpg"
     },
     {
       "slide": 2,
-      "content_version": "1.0",
-      "prompt": "Adapt the supplied REF-008 screenshot into ONE finished Lightweight carousel slide at exactly 1080 × 1350 px, portrait 4:5. The source slide is ONLY the tall white left area approximately x139..1073 in the 2000 × 1110 screenshot. Reproduce that slide's design, typography, composition, text, mannequin, pose and equipment as closely as possible. REMOVE the whole TikTok viewer UI: top search bar and overlay, black margins, dark right comments panel, arrows, dots, pager, all interface text. Produce only the clean artwork, not a screenshot or mockup.\n\nOnly the following approved substitutions apply. Background: uniform opaque solid off-white #F0F1EB, CLEAN with no arch, grid, dots, rings, transparency or checkerboard. Original bright green accents become coral #F26445. Text #2A2A2A; italic secondary text #6B6B6B. All figures retain the reference's realistic white/light-grey anatomical mannequin style with fine grey shading and fine muscle fibres, bald faceless head, smooth featureless pelvis, athletic natural build, wearing the same gym shorts recoloured dark #2A2A2A. No sand, minimal-flat, outline-only or clay rendering. Do not redesign the figure, pose, layout or equipment. Retain the reference spelling, lowercase and punctuation verbatim; no added words or visual claims.\n\nTypography matches REF-008, NOT Rubik: headlines are extremely heavy, tight, lowercase grotesk, near the reference's black Helvetica-style forms. Clean regular sans for body. Regular italic secondary lines. Generate all text together with the artwork in this single complete image; do not leave space for later text typesetting.\n\nTOP LOGO RESERVATION: Keep top 110 px clear of every heading, pill, badge and figure. DO NOT draw a logo or brand name. The owner's original full transparent Lightweight logo PNG will be pasted separately as required, x48,y19,341×71 px. Leave this region as uninterrupted #F0F1EB without any placeholder box or patch. All other content starts below y110. No signatures, watermarks, slide numbers or extra marks. Keep all text fully visible and legible; preserve the requested text instead of shortening it. If necessary reduce or move the figure, never clip the lettering.\n\nSLIDE 2 — F TIER DIVIDER. Reproduce the source's very sparse centered composition, no figure or equipment. Around the middle of the slide place a rounded square tile filled bright cyan #5BDCE3, approximately 260×260 px at x270,y400. Inside it a very large bold WHITE uppercase \"F\", with the reference's gentle grey letter shadow. Immediately to its right, aligned on the same row, the huge heavy lowercase word \"tier\" in #2A2A2A. The tile plus word form one centered horizontal group. Below the whole group, centered regular italic grey #6B6B6B, exactly \"avoid these\". Preserve generous empty off-white space above and below; do not add stars, exercise art or decorations. Exact strings only: \"F\", \"tier\", \"avoid these\".\n\nReturn one finished opaque slide only, not a collage, comparison sheet or web viewer screenshot.",
-      "prompt_file": "prompts/slide-02.txt",
-      "reference": "references/images/REF-008/slide-02.jpg",
+      "content_version": "1.1",
+      "role": "tier divider F",
+      "exact_text": [
+        "F",
+        "tier",
+        "skip these"
+      ],
       "file": "outputs/slide-02.png",
       "attempts": [
         {
           "attempt": 1,
           "tool": "image_gen.imagegen",
-          "started_at": "2026-10-19T14:03:10.166127+00:00",
+          "started_at": "2026-10-19T14:17:08.400917+00:00",
           "status": "succeeded",
           "transparent_background": false,
           "referenced_image_paths": [
             "/workspace/lightweight-carousels/references/images/REF-008/slide-02.jpg"
           ],
-          "finished_at": "2026-10-19T14:03:53.391877+00:00",
-          "raw_result_file": "/workspace/generated_images/exec-ecc3a5ed-0fde-492a-aa59-bafcf9b7dd82.png",
+          "finished_at": "2026-10-19T14:17:51.762635+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-e40d580b-f1b0-4c2a-9bfd-57fe6adb4eee.png",
           "raw_result_format": {
             "size": [
               1122,
@@ -95,27 +107,33 @@
       "errors": [],
       "save_status": "saved_to_repository_checkout",
       "agent_visual_review": "not_performed",
-      "user_review": "pending"
+      "user_review": "pending",
+      "prompt": "LW-CAR-0020, content_version 1.1, INITIAL THREE-SLIDE BATCH — new generation explicitly requested by the owner. Use ONLY the supplied ORIGINAL REF-008 screenshot as a DESIGN guide. Do not use any earlier LW-CAR-0020 output as input. All text and exercise content below is taken from copy.json v1.1 and REPLACES the screenshot's text and exercises.\n\nCreate ONE complete finished 1080 × 1350 px PNG, portrait 4:5, with headline, body and artwork generated together. In the 2000×1110 screenshot the design reference is ONLY the tall white area at approximately x139..1073. Ignore and remove ALL TikTok viewer UI: top search bar/overlay, black margins, dark right comments, dots, pager, arrows, icons and all UI text. The reference gives the LOOK and LAYOUT only. The authoritative exact words are listed below. Never transcribe words or exercise names from the screenshot.\n\nSTYLE: solid opaque #F0F1EB CLEAN background, no texture, grid, dots, arch, rings, transparency or checkerboard. Heavy tight GROTESK lowercase headlines like REF-008, NOT Rubik, dark #2A2A2A. Clean regular sans body #2A2A2A; secondary lines regular italic #6B6B6B. Coral accent #F26445 for marker bars and filled stars. Marker bar is a flat rectangle behind the LOWER PART of the indicated words only, keeping all dark letterforms readable. Empty stars #D6D6D2. Do not add any white cards or panels behind text.\n\nFIGURE STANDARD: realistic white/light-grey anatomical male mannequin as in REF-008, bald and faceless, fine grey anatomical shading and fine muscle fibres, featureless smooth pelvis, dark #2A2A2A gym shorts. Keep white/light-grey, never sand, beige, green or app-tinted. No simplified flat, line-art-only or clay/toy rendering. Equipment black/grey. No coloured muscles on exercise slides. Only the cover has coral chest muscles.\n\nLOGO: leave top 110 px empty of ALL content over uninterrupted #F0F1EB, no placeholder patch or box. DO NOT generate a logo or brand text. The owner's original full transparent logo file will be pasted at x48,y19,341×71 px with its own transparency and no backing patch after generation, exactly as required. Other content begins below y110. No added text, punctuation, watermarks, signatures or slide counters. Every letter fully visible; move or shrink the illustration if needed, never cut or shorten the text.\n\nAUTHORITATIVE EXACT STRINGS FROM copy.json v1.1 FOR THIS SLIDE:\n\"F\"\n\"tier\"\n\"skip these\"\n\nSLIDE 2 — F TIER DIVIDER. Use REF-008 slide-02.jpg for its sparse centered composition. Mid-slide one centered horizontal group: rounded cyan #5BDCE3 square approximately 260×260 px, with big bold WHITE \"F\" and its subtle letter shadow; directly to its right huge heavy lowercase dark \"tier\". Below the whole group, centered regular italic grey EXACTLY \"skip these\". This NEW tier line replaces the reference's tier line. Preserve generous empty off-white space above and below. No mannequin, equipment, stars or added decoration.\n\nReturn exactly ONE finished opaque full slide, no comparison sheet, mockup or collage.",
+      "prompt_file": "prompts/slide-02.txt",
+      "reference": "references/images/REF-008/slide-02.jpg"
     },
     {
       "slide": 3,
-      "content_version": "1.0",
-      "prompt": "Adapt the supplied REF-008 screenshot into ONE finished Lightweight carousel slide at exactly 1080 × 1350 px, portrait 4:5. The source slide is ONLY the tall white left area approximately x139..1073 in the 2000 × 1110 screenshot. Reproduce that slide's design, typography, composition, text, mannequin, pose and equipment as closely as possible. REMOVE the whole TikTok viewer UI: top search bar and overlay, black margins, dark right comments panel, arrows, dots, pager, all interface text. Produce only the clean artwork, not a screenshot or mockup.\n\nOnly the following approved substitutions apply. Background: uniform opaque solid off-white #F0F1EB, CLEAN with no arch, grid, dots, rings, transparency or checkerboard. Original bright green accents become coral #F26445. Text #2A2A2A; italic secondary text #6B6B6B. All figures retain the reference's realistic white/light-grey anatomical mannequin style with fine grey shading and fine muscle fibres, bald faceless head, smooth featureless pelvis, athletic natural build, wearing the same gym shorts recoloured dark #2A2A2A. No sand, minimal-flat, outline-only or clay rendering. Do not redesign the figure, pose, layout or equipment. Retain the reference spelling, lowercase and punctuation verbatim; no added words or visual claims.\n\nTypography matches REF-008, NOT Rubik: headlines are extremely heavy, tight, lowercase grotesk, near the reference's black Helvetica-style forms. Clean regular sans for body. Regular italic secondary lines. Generate all text together with the artwork in this single complete image; do not leave space for later text typesetting.\n\nTOP LOGO RESERVATION: Keep top 110 px clear of every heading, pill, badge and figure. DO NOT draw a logo or brand name. The owner's original full transparent Lightweight logo PNG will be pasted separately as required, x48,y19,341×71 px. Leave this region as uninterrupted #F0F1EB without any placeholder box or patch. All other content starts below y110. No signatures, watermarks, slide numbers or extra marks. Keep all text fully visible and legible; preserve the requested text instead of shortening it. If necessary reduce or move the figure, never clip the lettering.\n\nSLIDE 3 — EXERCISE #12 HEX PRESS. Preserve the source's left-aligned title/stars/body block above the large bench illustration. Start title below logo area, around x95,y160: exactly \"#12\" followed on the SAME LINE by exactly \"hex press\", in extremely heavy tight lowercase grotesk #2A2A2A. Put a flat coral #F26445 rectangular marker BEHIND THE LOWER PART OF ONLY \"hex press\", no marker behind \"#12\". No title punctuation or capitals. Below title, left-aligned row of EXACTLY FIVE graphical five-point stars: FIRST star filled coral #F26445, FOUR remaining stars empty light grey #D6D6D2. Rating is exactly 1 out of 5; no half stars.\nBelow the stars, clean regular sans dark #2A2A2A, left-aligned, the exact body string: \"a lot of people think these target the ‘inner chest’, but you can’t bias it.\" Preserve the curly quotes and apostrophe. Use the source's TWO LINES:\na lot of people think these target the ‘inner chest’, but you\ncan’t bias it.\nLower ~60%: reproduce the same large realistic light-grey/white bald faceless anatomical mannequin lying supine on a flat BLACK bench, same three-quarter viewpoint with head on viewer's left and feet on viewer's right. Feet on the floor, dark #2A2A2A shorts, knees bent. Both arms extend upward holding two black hex dumbbells pressed TOGETHER over the chest in a dumbbell HEX PRESS. Keep dumbbells touching, wrists/hand positions and bench framing like the source. Fine grey muscle shading, NO colored muscles on this exercise slide. All equipment black/grey. The figure, feet and bench must remain fully visible above the bottom margin; no pager or UI. Do not invent extra text.\n\nReturn one finished opaque slide only, not a collage, comparison sheet or web viewer screenshot.",
-      "prompt_file": "prompts/slide-03.txt",
-      "reference": "references/images/REF-008/slide-03.jpg",
+      "content_version": "1.1",
+      "role": "exercise #12",
+      "exact_text": [
+        "#12",
+        "svend press",
+        "you feel a burn, but there’s almost no load on your chest."
+      ],
       "file": "outputs/slide-03.png",
       "attempts": [
         {
           "attempt": 1,
           "tool": "image_gen.imagegen",
-          "started_at": "2026-10-19T14:03:53.924925+00:00",
+          "started_at": "2026-10-19T14:17:52.315084+00:00",
           "status": "succeeded",
           "transparent_background": false,
           "referenced_image_paths": [
             "/workspace/lightweight-carousels/references/images/REF-008/slide-03.jpg"
           ],
-          "finished_at": "2026-10-19T14:04:52.803835+00:00",
-          "raw_result_file": "/workspace/generated_images/exec-7c09fe79-652c-4ab1-a0f4-5c9ae437ce30.png",
+          "finished_at": "2026-10-19T14:18:48.752796+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-6589d20e-afad-44af-bcf5-3a49049edf5e.png",
           "raw_result_format": {
             "size": [
               1122,
@@ -138,197 +156,263 @@
       "errors": [],
       "save_status": "saved_to_repository_checkout",
       "agent_visual_review": "not_performed",
-      "user_review": "pending"
+      "user_review": "pending",
+      "prompt": "LW-CAR-0020, content_version 1.1, INITIAL THREE-SLIDE BATCH — new generation explicitly requested by the owner. Use ONLY the supplied ORIGINAL REF-008 screenshot as a DESIGN guide. Do not use any earlier LW-CAR-0020 output as input. All text and exercise content below is taken from copy.json v1.1 and REPLACES the screenshot's text and exercises.\n\nCreate ONE complete finished 1080 × 1350 px PNG, portrait 4:5, with headline, body and artwork generated together. In the 2000×1110 screenshot the design reference is ONLY the tall white area at approximately x139..1073. Ignore and remove ALL TikTok viewer UI: top search bar/overlay, black margins, dark right comments, dots, pager, arrows, icons and all UI text. The reference gives the LOOK and LAYOUT only. The authoritative exact words are listed below. Never transcribe words or exercise names from the screenshot.\n\nSTYLE: solid opaque #F0F1EB CLEAN background, no texture, grid, dots, arch, rings, transparency or checkerboard. Heavy tight GROTESK lowercase headlines like REF-008, NOT Rubik, dark #2A2A2A. Clean regular sans body #2A2A2A; secondary lines regular italic #6B6B6B. Coral accent #F26445 for marker bars and filled stars. Marker bar is a flat rectangle behind the LOWER PART of the indicated words only, keeping all dark letterforms readable. Empty stars #D6D6D2. Do not add any white cards or panels behind text.\n\nFIGURE STANDARD: realistic white/light-grey anatomical male mannequin as in REF-008, bald and faceless, fine grey anatomical shading and fine muscle fibres, featureless smooth pelvis, dark #2A2A2A gym shorts. Keep white/light-grey, never sand, beige, green or app-tinted. No simplified flat, line-art-only or clay/toy rendering. Equipment black/grey. No coloured muscles on exercise slides. Only the cover has coral chest muscles.\n\nLOGO: leave top 110 px empty of ALL content over uninterrupted #F0F1EB, no placeholder patch or box. DO NOT generate a logo or brand text. The owner's original full transparent logo file will be pasted at x48,y19,341×71 px with its own transparency and no backing patch after generation, exactly as required. Other content begins below y110. No added text, punctuation, watermarks, signatures or slide counters. Every letter fully visible; move or shrink the illustration if needed, never cut or shorten the text.\n\nAUTHORITATIVE EXACT STRINGS FROM copy.json v1.1 FOR THIS SLIDE:\n\"#12\"\n\"svend press\"\n\"you feel a burn, but there’s almost no load on your chest.\"\n\nSLIDE 3 — OUR EXERCISE #12 SVEND PRESS. Use REF-008 slide-03.jpg ONLY for the title/stars/body/large-figure layout and white anatomical figure rendering; replace its entire exercise illustration with the NEW exercise specified here.\nTop-left below logo area, around x90,y165: EXACTLY \"#12\" followed on the SAME LINE by EXACTLY \"svend press\", lowercase very heavy tight grotesk dark #2A2A2A. Coral marker rectangle behind LOWER PART of \"svend press\" only, no coral bar under \"#12\".\nNext left-aligned row: EXACTLY FIVE graphical five-point stars, the FIRST filled #F26445 and the FOUR remaining light grey #D6D6D2. Rating exactly 1 out of 5.\nBelow stars clean regular sans dark #2A2A2A, left-aligned, EXACT body text: \"you feel a burn, but there’s almost no load on your chest.\"\nUse up to TWO lines, e.g.:\nyou feel a burn, but there’s almost no\nload on your chest.\nPreserve the curly apostrophe in \"there’s\", all lowercase and the single final period.\nLower ~60%, NEW exercise illustration from copy.json v1.1: \"standing, squeezing two small weight plates together in front of the chest, arms extended forward\". Show a STANDING white/light-grey anatomical mannequin in dark #2A2A2A shorts, feet planted shoulder width, arms extending FORWARD AT CHEST HEIGHT, palms pressing the outer sides of TWO SMALL ROUND WEIGHT PLATES held tightly together. Show the two thin black/grey circular plates and their separate rims clearly, with both hands squeezing them together; NOT a dumbbell exercise. Use a three-quarter side/front angle so the forward extended arms, hands and paired plates are visible. Keep torso upright and athletic. No bench, dumbbells, lying pose or colored muscles. The standing body fits the lower image area with head, hands, plates and feet fully visible. Same fine grey anatomical shading as the source. No other words.\n\nReturn exactly ONE finished opaque full slide, no comparison sheet, mockup or collage.",
+      "prompt_file": "prompts/slide-03.txt",
+      "reference": "references/images/REF-008/slide-03.jpg"
     },
     {
       "slide": 4,
-      "content_version": "1.0",
+      "content_version": "1.1",
       "role": "exercise #11",
-      "reference": "references/images/REF-008/slide-04.jpg",
+      "exact_text": [
+        "#11",
+        "db pullover",
+        "more of a lat and shoulder move than a chest builder."
+      ],
       "file": null,
       "attempts": [],
       "errors": [],
-      "save_status": "not_started_awaiting_owner_approval_of_slides_1_2_3",
+      "save_status": "not_started_awaiting_owner_approval_of_v1_1_slides_1_2_3",
       "agent_visual_review": "not_performed",
       "user_review": "pending"
     },
     {
       "slide": 5,
-      "content_version": "1.0",
+      "content_version": "1.1",
       "role": "tier divider C",
-      "reference": "references/images/REF-008/slide-05.jpg",
+      "exact_text": [
+        "C",
+        "tier",
+        "you can do better"
+      ],
       "file": null,
       "attempts": [],
       "errors": [],
-      "save_status": "not_started_awaiting_owner_approval_of_slides_1_2_3",
+      "save_status": "not_started_awaiting_owner_approval_of_v1_1_slides_1_2_3",
       "agent_visual_review": "not_performed",
       "user_review": "pending"
     },
     {
       "slide": 6,
-      "content_version": "1.0",
+      "content_version": "1.1",
       "role": "exercise #10",
-      "reference": "references/images/REF-008/slide-06.jpg",
+      "exact_text": [
+        "#10",
+        "db flys",
+        "the stretch is great, but the top half does almost nothing."
+      ],
       "file": null,
       "attempts": [],
       "errors": [],
-      "save_status": "skipped_per_user_request",
+      "save_status": "not_started_awaiting_owner_approval_of_v1_1_slides_1_2_3",
       "agent_visual_review": "not_performed",
       "user_review": "pending"
     },
     {
       "slide": 7,
-      "content_version": "1.0",
+      "content_version": "1.1",
       "role": "exercise #9",
-      "reference": "references/images/REF-008/slide-07.jpg",
+      "exact_text": [
+        "#9",
+        "floor press",
+        "safe and simple, but the short range holds you back."
+      ],
       "file": null,
       "attempts": [],
       "errors": [],
-      "save_status": "skipped_per_user_request",
+      "save_status": "not_started_awaiting_owner_approval_of_v1_1_slides_1_2_3",
       "agent_visual_review": "not_performed",
       "user_review": "pending"
     },
     {
       "slide": 8,
-      "content_version": "1.0",
+      "content_version": "1.1",
       "role": "tier divider B",
-      "reference": "references/images/REF-008/slide-08.jpg",
+      "exact_text": [
+        "B",
+        "tier",
+        "solid picks"
+      ],
       "file": null,
       "attempts": [],
       "errors": [],
-      "save_status": "not_started_awaiting_owner_approval_of_slides_1_2_3",
+      "save_status": "not_started_awaiting_owner_approval_of_v1_1_slides_1_2_3",
       "agent_visual_review": "not_performed",
       "user_review": "pending"
     },
     {
       "slide": 9,
-      "content_version": "1.0",
+      "content_version": "1.1",
       "role": "exercise #8",
-      "reference": "references/images/REF-008/slide-09.jpg",
+      "exact_text": [
+        "#8",
+        "push-ups",
+        "free and anywhere. add a vest or slow reps once they get easy."
+      ],
       "file": null,
       "attempts": [],
       "errors": [],
-      "save_status": "skipped_per_user_request",
+      "save_status": "not_started_awaiting_owner_approval_of_v1_1_slides_1_2_3",
       "agent_visual_review": "not_performed",
       "user_review": "pending"
     },
     {
       "slide": 10,
-      "content_version": "1.0",
+      "content_version": "1.1",
       "role": "exercise #7",
-      "reference": "references/images/REF-008/slide-10.jpg",
+      "exact_text": [
+        "#7",
+        "barbell bench press",
+        "great for strength. for pure chest growth, a few options beat it."
+      ],
       "file": null,
       "attempts": [],
       "errors": [],
-      "save_status": "skipped_per_user_request",
+      "save_status": "not_started_awaiting_owner_approval_of_v1_1_slides_1_2_3",
       "agent_visual_review": "not_performed",
       "user_review": "pending"
     },
     {
       "slide": 11,
-      "content_version": "1.0",
-      "role": "tier divider A",
-      "reference": "references/images/REF-008/slide-11.jpg",
+      "content_version": "1.1",
+      "role": "exercise #6",
+      "exact_text": [
+        "#6",
+        "low-to-high cable fly",
+        "hits your upper chest and keeps tension the whole rep."
+      ],
       "file": null,
       "attempts": [],
       "errors": [],
-      "save_status": "not_started_awaiting_owner_approval_of_slides_1_2_3",
+      "save_status": "not_started_awaiting_owner_approval_of_v1_1_slides_1_2_3",
       "agent_visual_review": "not_performed",
       "user_review": "pending"
     },
     {
       "slide": 12,
-      "content_version": "1.0",
-      "role": "exercise #6",
-      "reference": "references/images/REF-008/slide-12.jpg",
+      "content_version": "1.1",
+      "role": "tier divider A",
+      "exact_text": [
+        "A",
+        "tier",
+        "worth your time"
+      ],
       "file": null,
       "attempts": [],
       "errors": [],
-      "save_status": "not_started_awaiting_owner_approval_of_slides_1_2_3",
+      "save_status": "not_started_awaiting_owner_approval_of_v1_1_slides_1_2_3",
       "agent_visual_review": "not_performed",
       "user_review": "pending"
     },
     {
       "slide": 13,
-      "content_version": "1.0",
+      "content_version": "1.1",
       "role": "exercise #5",
-      "reference": "references/images/REF-008/slide-13.jpg",
+      "exact_text": [
+        "#5",
+        "dips",
+        "huge stretch and easy to load. lean forward for more chest."
+      ],
       "file": null,
       "attempts": [],
       "errors": [],
-      "save_status": "not_started_awaiting_owner_approval_of_slides_1_2_3",
+      "save_status": "not_started_awaiting_owner_approval_of_v1_1_slides_1_2_3",
       "agent_visual_review": "not_performed",
       "user_review": "pending"
     },
     {
       "slide": 14,
-      "content_version": "1.0",
+      "content_version": "1.1",
       "role": "exercise #4",
-      "reference": "references/images/REF-008/slide-14.jpg",
+      "exact_text": [
+        "#4",
+        "incline db press",
+        "natural path, and each side has to pull its own weight."
+      ],
       "file": null,
       "attempts": [],
       "errors": [],
-      "save_status": "not_started_awaiting_owner_approval_of_slides_1_2_3",
+      "save_status": "not_started_awaiting_owner_approval_of_v1_1_slides_1_2_3",
       "agent_visual_review": "not_performed",
       "user_review": "pending"
     },
     {
       "slide": 15,
-      "content_version": "1.0",
-      "role": "tier divider S",
-      "reference": "references/images/REF-008/slide-15.jpg",
+      "content_version": "1.1",
+      "role": "exercise #3",
+      "exact_text": [
+        "#3",
+        "seated cable fly",
+        "steady tension from start to finish, and easy to load."
+      ],
       "file": null,
       "attempts": [],
       "errors": [],
-      "save_status": "not_started_awaiting_owner_approval_of_slides_1_2_3",
+      "save_status": "not_started_awaiting_owner_approval_of_v1_1_slides_1_2_3",
       "agent_visual_review": "not_performed",
       "user_review": "pending"
     },
     {
       "slide": 16,
-      "content_version": "1.0",
-      "role": "exercise #3",
-      "reference": "references/images/REF-008/slide-16.jpg",
+      "content_version": "1.1",
+      "role": "tier divider S",
+      "exact_text": [
+        "S",
+        "tier",
+        "build your chest on these"
+      ],
       "file": null,
       "attempts": [],
       "errors": [],
-      "save_status": "not_started_awaiting_owner_approval_of_slides_1_2_3",
+      "save_status": "not_started_awaiting_owner_approval_of_v1_1_slides_1_2_3",
       "agent_visual_review": "not_performed",
       "user_review": "pending"
     },
     {
       "slide": 17,
-      "content_version": "1.0",
+      "content_version": "1.1",
       "role": "exercise #2",
-      "reference": "references/images/REF-008/slide-17.jpg",
+      "exact_text": [
+        "#2",
+        "incline smith press",
+        "stable path, so you can add weight week after week."
+      ],
       "file": null,
       "attempts": [],
       "errors": [],
-      "save_status": "not_started_awaiting_owner_approval_of_slides_1_2_3",
+      "save_status": "not_started_awaiting_owner_approval_of_v1_1_slides_1_2_3",
       "agent_visual_review": "not_performed",
       "user_review": "pending"
     },
     {
       "slide": 18,
-      "content_version": "1.0",
+      "content_version": "1.1",
       "role": "exercise #1",
-      "reference": "references/images/REF-008/slide-18.jpg",
+      "exact_text": [
+        "#1",
+        "pec deck",
+        "the hardest chest squeeze you can get. tension never drops."
+      ],
       "file": null,
       "attempts": [],
       "errors": [],
-      "save_status": "not_started_awaiting_owner_approval_of_slides_1_2_3",
+      "save_status": "not_started_awaiting_owner_approval_of_v1_1_slides_1_2_3",
       "agent_visual_review": "not_performed",
       "user_review": "pending"
     },
     {
       "slide": 19,
-      "content_version": "1.0",
+      "content_version": "1.1",
       "role": "product ending",
-      "reference": "references/images/REF-008/slide-19.jpg",
+      "exact_text": [
+        "lightweight tracks every set you lift and shows which muscles you’re forgetting.",
+        "log your workouts and check your muscle balance, so you keep making progress."
+      ],
       "file": null,
       "attempts": [],
       "errors": [],
-      "save_status": "not_started_awaiting_owner_approval_of_slides_1_2_3",
+      "save_status": "not_started_awaiting_owner_approval_of_v1_1_slides_1_2_3",
       "agent_visual_review": "not_performed",
       "user_review": "pending"
     }
@@ -341,31 +425,29 @@
     "height": 71,
     "method": "paste original PNG with its own alpha, without backing patch"
   },
+  "previous_batches": [
+    {
+      "content_version": "1.0",
+      "output_commit": "d1be22e016702e14b3c13ef5598c7b94416be49d",
+      "manifest_at_commit": "carousels/LW-CAR-0020/manifest.json",
+      "generated_slides": [
+        1,
+        2,
+        3
+      ],
+      "status": "superseded_by_explicit_owner_request_for_v1_1",
+      "previous_agent_visual_review": "not_performed",
+      "previous_user_review": "pending"
+    }
+  ],
   "agent_visual_review": "not_performed",
   "user_review": "pending",
-  "next_action": "STOP and show slides 1,2,3 to the owner. Wait for explicit OK on the new REF-008 look. Then the next slide is 4. Slides 6,7,9,10 were explicitly skipped in the current user request; their references now exist, so reconcile the next owner instruction before including them.",
-  "carousel_complete": false,
+  "next_action": "STOP and show the new v1.1 slides 1,2,3 to the owner. Wait for explicit OK. Next slide after approval: 4 (db pullover), using copy.json v1.1. Ignore superseded v1.0 outputs and prompts in Git history.",
+  "archive": "LW-CAR-0020-initial-slides-01-03-1080x1350.zip",
   "remote_save": {
     "remote": "origin",
     "branch": "claude/charming-einstein-xgejky",
-    "method": "single_commit_and_push_initial_three_slide_batch",
+    "method": "single_commit_and_push_v1_1_initial_three_slide_batch",
     "commit_lookup": "git log -1 -- carousels/LW-CAR-0020/manifest.json"
-  },
-  "archive": "LW-CAR-0020-initial-slides-01-03-1080x1350.zip",
-  "blocked_slides_at_generation_start": [
-    6,
-    7,
-    9,
-    10
-  ],
-  "skipped_slides_per_current_user_request": [
-    6,
-    7,
-    9,
-    10
-  ],
-  "reference_update": {
-    "commit": "8dc719c77e6f71a33d2aa2ef0e6c981c626bcceb",
-    "note": "The missing references arrived while slides 1-3 were generated. No further generation: wait for owner approval. Slides 6,7,9,10 remain skipped per the current chat instruction."
   }
 }
