@@ -12,4 +12,8 @@ Final PNGs use uniform scaling to fit 1080 x 1350 with centered canvas extent. T
 
 The ZIP contains the eight PNGs if complete, all actual prompts and task, brief, frozen copy, caption, manifest, handoff and production component assets. One complete-carousel commit is requested; confirm delivery from the task's successful Git push output.
 
-agent_visual_review=not_performed; user_review=pending. No post-generation visual QA, OCR, anatomy audit, font/layout audit, reviewer agent or automatic correction pass. Rendered copy, poses and font compliance were requested but not independently verified. Only the owner accepts the result. No social publishing, unrelated carousel modifications or coordinator global-progress edits.
+agent_visual_review=not_performed; user_review=partially_approved (slides 1-7 approved, slide 8 pending). No post-generation visual QA, OCR, anatomy audit, font/layout audit, reviewer agent or automatic correction pass. Rendered copy, poses and font compliance were requested but not independently verified. Only the owner accepts the result. No social publishing, unrelated carousel modifications or coordinator global-progress edits.
+
+## Owner review — 2026-10-19
+
+The owner said all the others may be pushed. This is recorded as acceptance of slides 1-7 from output commit `24632e0c3147821dce2ea69637be45937526257f`; the final slide 8 remains pending. Approved slides and their successful attempts are marked user_review=approved. All PNGs are unchanged. No generation, visual review or global-progress update was performed for this approval. The ZIP includes the updated manifest and handoff.
