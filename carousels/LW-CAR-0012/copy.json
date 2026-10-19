@@ -1,0 +1,221 @@
+{
+  "carousel_id": "LW-CAR-0012",
+  "content_version": "1.0",
+  "status": "frozen",
+  "type": "original",
+  "source": {
+    "ref_id": null,
+    "note": "Original Lightweight copy (owner request 2026-10-19). Countdown #5 → #1 (ranking format = most comments at Arrow, REF-003: 814). Mistake #2 'Not Tracking' and #1 'No Progression' lead naturally into the product.",
+    "visual_templates": {
+      "cover": "carousels/LW-CAR-0001/outputs/slide-01.png",
+      "mistake_header": "carousels/LW-CAR-0002/outputs/slide-03.png (big '#N' + title, top-left)",
+      "check_cross_rows": "carousels/LW-CAR-0007/outputs/slide-03.png",
+      "honorable_mentions": "carousels/LW-CAR-0007/outputs/slide-07.png",
+      "ending": "carousels/LW-CAR-0001/outputs/slide-08.png"
+    }
+  },
+  "language": "en",
+  "font_family": "Rubik",
+  "colors": {
+    "accent": "#F26445",
+    "accent_tint_background_shape": "#FBE3DD",
+    "background": "#F0F1EB",
+    "text_dark": "#2A2A2A",
+    "text_body_grey": "#6B6B6B",
+    "white": "#FFFFFF",
+    "muscle_base_sand": "#D9CBBE",
+    "skin_ivory_approx": "#F5F0E5"
+  },
+  "caption": {
+    "text": "Be honest: which one are you guilty of? 👇 Save this and check yourself next workout 📌 #gymtips #gymmistakes #musclebuilding #workouttips",
+    "notes": "Confession question drives comments; slide 7 asks 'Which one did we miss?' for more. No 'lifters'."
+  },
+  "hook_alternatives_not_used": [
+    "WHY YOU'RE NOT GROWING",
+    "STOP DOING THESE IN THE GYM"
+  ],
+  "slides": [
+    {
+      "n": 1,
+      "role": "hook",
+      "text": [
+        {
+          "string": "5 MISTAKES",
+          "style": "cover line 1, uppercase, heaviest Rubik, text_dark"
+        },
+        {
+          "string": "KILLING YOUR",
+          "style": "cover line 2, uppercase, heaviest Rubik, text_dark"
+        },
+        {
+          "string": "GAINS",
+          "style": "cover line 3, uppercase, heaviest Rubik, accent"
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "role": "mistake #5",
+      "text": [
+        {
+          "string": "#5",
+          "style": "big number, bold, accent"
+        },
+        {
+          "string": "Skipping Legs",
+          "style": "title, bold, text_dark"
+        },
+        {
+          "string": "Training only what you see in the mirror.",
+          "style": "✗ row, regular, text_dark"
+        },
+        {
+          "string": "Train legs every week. They're some of your biggest muscles.",
+          "style": "✓ row, bold, text_dark"
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "role": "mistake #4",
+      "text": [
+        {
+          "string": "#4",
+          "style": "big number, bold, accent"
+        },
+        {
+          "string": "Program Hopping",
+          "style": "title, bold, text_dark"
+        },
+        {
+          "string": "A new workout every week from a different video.",
+          "style": "✗ row, regular, text_dark"
+        },
+        {
+          "string": "Pick one plan and stick with it for 6-8 weeks.",
+          "style": "✓ row, bold, text_dark"
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "role": "mistake #3",
+      "text": [
+        {
+          "string": "#3",
+          "style": "big number, bold, accent"
+        },
+        {
+          "string": "Ego Lifting",
+          "style": "title, bold, text_dark"
+        },
+        {
+          "string": "Weight too heavy, half reps, swinging your whole body.",
+          "style": "✗ row, regular, text_dark"
+        },
+        {
+          "string": "Lower the weight. Full range, control the way down.",
+          "style": "✓ row, bold, text_dark"
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "role": "mistake #2",
+      "text": [
+        {
+          "string": "#2",
+          "style": "big number, bold, accent"
+        },
+        {
+          "string": "Not Tracking",
+          "style": "title, bold, text_dark"
+        },
+        {
+          "string": "Guessing what you lifted last week.",
+          "style": "✗ row, regular, text_dark"
+        },
+        {
+          "string": "Write down every set. You can't beat numbers you don't remember.",
+          "style": "✓ row, bold, text_dark"
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "role": "mistake #1",
+      "text": [
+        {
+          "string": "#1",
+          "style": "big number, bold, accent"
+        },
+        {
+          "string": "No Progression",
+          "style": "title, bold, text_dark"
+        },
+        {
+          "string": "Same weights, same reps, every single week.",
+          "style": "✗ row, regular, text_dark"
+        },
+        {
+          "string": "Add a rep or a little weight when it starts feeling easy.",
+          "style": "✓ row, bold, text_dark"
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "role": "honorable mentions",
+      "text": [
+        {
+          "string": "Honorable Mentions",
+          "style": "title, bold, text_dark, left-aligned"
+        },
+        {
+          "string": "Not enough sleep",
+          "style": "✗ row"
+        },
+        {
+          "string": "Not enough protein",
+          "style": "✗ row"
+        },
+        {
+          "string": "Comparing yourself to edited photos",
+          "style": "✗ row"
+        },
+        {
+          "string": "Which one did we miss?",
+          "style": "bold, accent"
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "role": "product ending",
+      "text": [
+        {
+          "string": "Fix #1 And #2",
+          "style": "headline line 1, bold, text_dark, left-aligned"
+        },
+        {
+          "string": "Starting Today.",
+          "style": "headline line 2, bold, accent, left-aligned"
+        },
+        {
+          "string": "Log every set in Lightweight and beat your last session.",
+          "style": "body, regular, text_body_grey"
+        }
+      ],
+      "screen": "real Lightweight screenshot as in approved LW-CAR-0001 slide 8 (Workout and Sets counts); a workout-log screenshot from the owner would fit best",
+      "product_claims_checked_against_real_screen": [
+        "workouts and sets are logged and counted (Workout tab, 'Workout 9', 'Sets 35')"
+      ]
+    }
+  ],
+  "claims_to_verify": [
+    "All five are standard coaching advice; progressive overload (#1) is the best-supported principle.",
+    "'Legs are some of your biggest muscles': true (quads, glutes, hamstrings are among the largest muscles); no number given on purpose.",
+    "'Stick with it for 6-8 weeks': common coaching guidance, not from a single study.",
+    "'Ego lifting' fix ('full range, control the way down') is framed against swinging and half reps; it does not claim partial reps never work."
+  ]
+}

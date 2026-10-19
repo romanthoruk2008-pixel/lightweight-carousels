@@ -63,3 +63,6 @@ Claude, хмарна генерація, канал точного вставл�
 
 ## LW-CAR-0011 «WHAT 1 YEAR OF TRAINING ACTUALLY LOOKS LIKE» — власна тема
 Пакет: carousels/LW-CAR-0011/. 9 слайдів, усі готові до генерації. Чесна версія формату CONSISTENCY: одна фігура в 4 реалістичних стадіях, сітка 156 тренувань, фінал «Your Year Starts With Workout #1.».
+
+## LW-CAR-0012 «5 MISTAKES KILLING YOUR GAINS» — власна тема
+Пакет: carousels/LW-CAR-0012/. 8 слайдів, усі готові до генерації. Відлік #5 → #1 з ✗ помилкою / ✓ виправленням і ілюстраціями; «Which one did we miss?»; фінал «Fix #1 And #2 Starting Today.».
