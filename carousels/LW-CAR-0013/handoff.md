@@ -1,4 +1,4 @@
-# LW-CAR-0013 — nine slides, pending owner review
+# LW-CAR-0013 — all nine final slides accepted by the owner
 
 Original Lightweight carousel: PROGRESSIVE OVERLOAD, EXPLAINED. Frozen copy v1.0 and task/rules snapshot at commit 7a38c06e4101bb7f81353a78e54bc686d6337453. All five supplied own-series reference images opened before generation: LW-CAR-0001 cover and ending, LW-CAR-0002 slide 3 number/title header, LW-CAR-0007 slide 5 table and slide 7 checklist/bench layout. Per-slide actual inputs recorded in manifest.json. No competitor assets added.
 
@@ -18,4 +18,8 @@ Slide 9 copies the accepted source phone/hand rectangle x0,y520,width1080,height
 
 Caption copied verbatim from copy.json. ZIP contains all nine final PNGs in numerical order, actual prompts and assembly instructions, task, brief, frozen copy, caption, manifest, handoff and production layers. One complete-carousel commit requested; successful Git push confirms remote delivery separately from the manifest's pre-commit status. Frozen copy, unrelated carousels and global coordinator progress unchanged. No social publication.
 
-agent_visual_review=not_performed; user_review=pending for the carousel, every final slide and every successful attempt. No post-generation visual QA, OCR, reviewer agents, anatomy audit, font verification, checksum pass, automatic correction or regeneration. Exact rendered text, font and layout compliance was requested but not independently verified. Only mechanical dimensions, package membership and verbatim caption are checked during packaging. Owner review is next; correct only explicitly requested slides.
+agent_visual_review=not_performed; user_review=approved for the carousel, every final slide and every successful attempt (acceptance applies to the final delivered output after production assembly). No post-generation visual QA, OCR, reviewer agents, anatomy audit, font verification, checksum pass, automatic correction or regeneration. Exact rendered text, font and layout compliance was requested but not independently verified. Only mechanical dimensions, package membership and verbatim caption were checked during packaging. Preserve approved outputs; correct only explicitly requested slides.
+
+## 2026-10-19 — entire carousel accepted
+
+The owner explicitly accepted all nine current final images from output commit e043b35958868ea0924e9b69f059c94c2f4a4099 and requested accepted-by-user statuses be pushed to GitHub. This includes the assembled phone ending on slide 9. Acceptance is recorded for the carousel, every final slide and each successful attempt; agent_visual_review remains not_performed. No image bytes changed, no generation calls occurred and no agent visual review was performed. Delivery ZIP includes the updated manifest and handoff.
