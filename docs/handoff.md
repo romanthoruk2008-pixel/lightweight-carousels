@@ -73,3 +73,6 @@ Claude, хмарна генерація, канал точного вставл�
 ## Фон без арки + пакети LW-CAR-0014…0017
 - Правило фонів: carousels/CODEX-SERIES-RULES.md (GRID / DOTS / CLEAN / PLATES, без арки, без смужки прогресу). LW-CAR-0011 → PLATES.
 - LW-CAR-0014 «NO GYM? NO PROBLEM» (DOTS, 9), LW-CAR-0015 «SKINNY ARMS?» (GRID, 8), LW-CAR-0016 «CAN'T DO A PULL-UP?» (CLEAN, 9), LW-CAR-0017 «HOW TO LOOK WIDER» (PLATES, 8). Усі готові до генерації; у 0014 власник має підтвердити запис вправ з власною вагою в апці.
+
+## LW-CAR-0018 «GYM MYTHS THAT NEED TO DIE» — власна тема
+Пакет: carousels/LW-CAR-0018/. 8 слайдів, фон DOTS, повний логотип з файлу. Усі готові до генерації. 6 міфів у форматі «MYTH #N (закреслений) → TRUTH», без вигаданих цифр; джерела в copy.json → claims_to_verify. Фінал «Stop Guessing. / Track What Works.».
