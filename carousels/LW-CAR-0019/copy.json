@@ -255,17 +255,19 @@
       ]
     }
   ],
-  "font_test": {
+  "headline_test": {
     "status": "open",
-    "reason": "Owner 2026-10-19: keep the figure, change the font. Image-model text only imitates Rubik; text is now set by code with real font files.",
-    "candidates": [
-      "rubik",
-      "poppins",
-      "nunito"
+    "reason": "Owner 2026-10-19: keep the figure and the title/body fonts; change only the cover headline lettering. Everything generated in one image, no text set by code.",
+    "variants": [
+      "H1 condensed poster",
+      "H2 extra wide",
+      "H3 sport italic",
+      "H4 clean geometric",
+      "H5 rounded friendly",
+      "H6 bold + marker"
     ],
     "test_slides": [
-      1,
-      3
+      1
     ],
     "chosen": null
   }

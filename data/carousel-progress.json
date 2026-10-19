@@ -260,7 +260,7 @@
     },
     {
       "id": "LW-CAR-0019",
-      "title": "WEAK BACK? (font test)",
+      "title": "WEAK BACK? (cover headline test)",
       "source_ref": "REF-007",
       "type": "style_test",
       "content_version": "1.0",
@@ -270,7 +270,7 @@
       "slides_blocked": [],
       "generation": "style test A/B/C done, rejected",
       "user_review": "pending",
-      "next_action": "Codex: Step 1b font test, slides 1 and 3, art without text + text by code in Rubik / Poppins / Nunito; owner picks the font",
+      "next_action": "Codex: Step 1c, cover in 6 headline styles H1-H6; owner picks one",
       "path": "carousels/LW-CAR-0019/"
     }
   ],

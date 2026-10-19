@@ -41,26 +41,36 @@ Generate slides 1–8 in the chosen variant into `carousels/LW-CAR-0019/outputs/
 
 ---
 
-## Step 1b — font test (owner decision 2026-10-19; replaces Step 2)
-The owner reviewed variants A, B and C and **does not want the minimal figures**. Keep the figure exactly as it is now on the approved slides (`carousels/LW-CAR-0001/outputs/`, `carousels/LW-CAR-0017/outputs/`): semi-realistic anatomy mannequin, sand muscles, coral target. **Ignore variants A/B/C and do not do Step 2.**
+## Step 1c — cover headline test (owner decision 2026-10-19; replaces Step 2)
+The owner reviewed variants A, B and C and **does not want the minimal figures**. Keep the figure exactly as it is now on the approved slides (`carousels/LW-CAR-0001/outputs/slide-01.png`): semi-realistic anatomy mannequin, sand muscles, coral target. **Ignore variants A/B/C and do not do Step 2.**
 
-What changes is the **font**. The text on our slides so far was drawn by the image model. It only imitates Rubik: tight spacing, a different shape, not the font of our logo. Now the text is set by code with real font files, so it looks exactly like the logo's font. Comparison mock-up: `carousels/LW-CAR-0019/production-assets/font-mockup-claude.png`.
+The owner likes the fonts of the titles and body text as they are now. The only thing to change is the **cover headline** (`WEAK` / `BACK?`): its current lettering style is not liked. Find a new one.
 
-### How
-1. **Art without text.** For slide 1 and slide 3, generate the slide with the **current figure style** and the same layout as `carousels/LW-CAR-0001/outputs/slide-01.png` / `slide-03.png`, on the `GRID` background. Leave **all text areas empty background**: no letters, numbers, words, badges, pills, underline bars or "OR" circles anywhere. Only the background, the figures and the equipment. Keep the top 110 px empty for the logo. Save as `carousels/LW-CAR-0019/production-assets/art-slide-01.png` and `art-slide-03.png` (1080 x 1350, flattened RGB).
-2. **Text by code.** Write `carousels/LW-CAR-0019/prompts/font-test/render_text.py` (Pillow). It draws on top of the art, at the positions and sizes of the template slide:
-   - every text string from `copy.json`, exactly;
-   - the #F26445 number badge, the short #F26445 underline bar and the #F26445 "OR" circle with white text;
-   - on the cover, `WEAK` #2A2A2A and `BACK?` #F26445 in the heaviest weight, with a soft grey offset shadow (a copy of the text in about #C9C9C2, offset about 6 px right and 6 px down, under the main text), and the small coral splat dot under the "?";
-   - then the logo file `assets/logo/lightweight-logo-full.png` at x 48, y 19, 341 x 71.
-   Text must never overlap a figure. If it does not fit, make the font smaller, never cut the text.
-3. **Fonts** (files in `assets/fonts/`, all free OFL licences). Render both slides in each of the three fonts: 6 images.
+**Generate everything in one image per slide, as before.** No text set by code afterwards, no separate text layer.
 
-| Font | Files | Cover | Titles | Subtitles, labels | Body |
-|---|---|---|---|---|---|
-| `rubik` (the logo font) | `Rubik[wght].ttf` (variable: `font.set_variation_by_axes([weight])`) | 900 | 700 | 600 | 400 |
-| `poppins` | `Poppins-Black/Bold/SemiBold/Regular.ttf` | Black | Bold | SemiBold | Regular |
-| `nunito` (rounder, softer) | `Nunito[wght].ttf` (variable) | 900 | 800 | 700 | 500 |
+### What to generate
+Slide 1 (cover) only, in **6 headline variants**: 6 images. Use `carousels/LW-CAR-0001/outputs/slide-01.png` as the layout template. Keep everything else from the template:
+- the same figure and pose;
+- `WEAK` in #2A2A2A on line 1 and `BACK?` in #F26445 on line 2, same position (upper ~45%), same big size;
+- the `GRID` background with no arch;
+- the top 110 px left empty for the logo.
 
-   Save as `carousels/LW-CAR-0019/outputs/font-test/rubik-slide-01.png`, `rubik-slide-03.png`, `poppins-…`, `nunito-…`.
-4. Record everything in `manifest.json` (`agent_visual_review: not_performed`, `user_review: pending`), commit in one commit, show the owner the 6 images and **stop**. The owner chooses a font. After that, the whole carousel and future carousels use the same art-without-text plus text-by-code process.
+Only the headline lettering changes:
+
+| Variant | Headline style |
+|---|---|
+| `H1` condensed poster | very tall, narrow, heavy sans in the style of Anton / Bebas Neue; tight letters; no shadow |
+| `H2` extra wide | very wide, heavy, flat grotesk in the style of Archivo Black Expanded / Druk Wide; a slightly smaller size so it fits; no shadow |
+| `H3` sport italic | heavy condensed italic slanted forward in the style of Barlow Condensed Black Italic, with a feeling of motion; a thin hard offset shadow in #2A2A2A at 15% |
+| `H4` clean geometric | geometric extra-bold sans in the style of Montserrat ExtraBold / Poppins Black; normal width; no shadow; very clean |
+| `H5` rounded friendly | heavy rounded sans in the style of Nunito Black / Fredoka, matching the friendly dino in our logo; a soft shadow |
+| `H6` bold + marker | `WEAK` in a clean heavy sans (#2A2A2A); `BACK?` in a hand-painted coral #F26445 brush marker lettering, slightly rotated, energetic |
+
+Rules for all variants:
+- Spell exactly `WEAK` and `BACK?`. No other text on the slide.
+- Every letter fully visible. The figure may overlap the bottom of `BACK?` a little, as on the template, but every letter stays readable.
+- Paste the logo file `assets/logo/lightweight-logo-full.png` at x 48, y 19, 341 x 71 as in the series rules.
+
+Save as `carousels/LW-CAR-0019/outputs/headline-test/H1-slide-01.png` … `H6-slide-01.png` (1080 x 1350, flattened RGB). Record each image in `manifest.json` (`agent_visual_review: not_performed`, `user_review: pending`). Commit in one commit, show the owner the 6 covers and **stop**.
+
+The owner picks one style, or a mix. That style becomes the cover headline for all future carousels. Titles and body text stay as they are now.
