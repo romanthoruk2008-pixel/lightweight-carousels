@@ -183,7 +183,7 @@
 Посилання на оригінал: Arrow @arrowfitnessapp, TikTok, ~2026-10-16. 19.3K лайків, 86 коментарів, 7045 збережень. Звук: Into You (Slowed) - Altare.alt & Eclipse.
 Підпис: «Chest exercise tier list. Do you agree?? #gymtips #tierlist #chestexercise #chestday #hypertrophy»
 Що подобається: власник хоче спробувати цей стиль з нашими кольорами (2026-10-19).
-Статус: **частини 1–3 з кількох** (власник надсилає по 5 скриншотів). Файли лежать у репозиторії: `references/images/REF-008/`.
+Статус: **уся карусель (19 слайдів) записана**; файли слайдів 6–10 ще треба докласти (власник надсилає по 5 скриншотів). Файли лежать у репозиторії: `references/images/REF-008/`.
 
 ### Слайди (частина 1, порядок від власника)
 1. ![](images/REF-008/slide-01.jpg) Обкладинка: `chest` / `tier list` (зелена смуга-маркер під `tier list`) / `(from worst to best)` курсивом. Фігура спереду, руки на поясі, груди зелені, чорні шорти.
@@ -206,6 +206,14 @@
 13. ![](images/REF-008/slide-13.jpg) `#5 flat machine press` (маркер), 4 зірки з 5. Текст: `a very solid exercise. great stability & tension. amazing for the mid/lower chest.` Фігура: жим у тренажері сидячи.
 14. ![](images/REF-008/slide-14.jpg) `#4 seated cable fly` (маркер), 4,5 зірки з 5. Текст: `far superior to standing. a lot more stable, and you can load a lot more weight.` Фігура: зведення рук у кросовері сидячи на лаві, вид спереду.
 15. ![](images/REF-008/slide-15.jpg) Роздільник: червоний квадрат `S` + `tier`; курсив `the best of the best`.
+
+### Слайди (частина 4, остання, порядок від власника)
+16. ![](images/REF-008/slide-16.jpg) `#3 incline smith machine` (маркер), 4,5 зірки з 5. Текст: `incredible exercise. fixed path, great stability and easy to overload.` Фігура: жим на похилій лаві в машині Сміта.
+17. ![](images/REF-008/slide-17.jpg) `#2 pec deck` (маркер), 5 зірок з 5. Текст: `the best isolation exercise for the chest. incredible tension & feels amazing.` Фігура: зведення рук у тренажері «батерфляй» сидячи.
+18. ![](images/REF-008/slide-18.jpg) `#1 incline machine press` (маркер), 5 зірок з 5. Текст: `the best exercise for chest growth. targets your whole chest well & feels amazing.` Фігура: жим у похилому важільному тренажері з дисками.
+19. ![](images/REF-008/slide-19.jpg) Фінал (продукт Arrow, без телефона): великий жирний текст `arrow tells you exactly what to eat and what to lift to gain muscle or lose fat.` (маркер під `what to eat` і `what to lift`). Під ним: `every week it checks your weight and fixes your calories for you, so you keep making progress.` Чотири картки: `week 1 2,400`, `week 2 2,400`, `week 3 2,550` (зелена), `week 4 2,550`; курсив `daily calories, adjusted when your weight stalls`.
+
+Разом 19 слайдів: обкладинка, 6 роздільників тірів (F, C, B, A, S; D немає), 12 вправ, фінал.
 
 ---
 
