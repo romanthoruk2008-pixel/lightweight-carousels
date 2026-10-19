@@ -1,11 +1,11 @@
 # Codex task — LW-CAR-0019 "WEAK BACK?" — minimal figure style test
 
-First read `carousels/CODEX-SERIES-RULES.md`. It covers palette, Rubik, the logo file, phone ending, format, saving, manifest, no added punctuation, no clipped text, and the **backgrounds** (solid and opaque, never transparent). Exact copy: `carousels/LW-CAR-0019/copy.json` (content_version 1.0, the same text as the approved LW-CAR-0001). Repository: romanthoruk2008-pixel/lightweight-carousels, branch `claude/charming-einstein-xgejky`.
+First read `carousels/CODEX-SERIES-RULES.md`. It covers palette, Rubik, the logo file, phone ending, format, saving, manifest, no added punctuation, no clipped text, and the **backgrounds** (solid and opaque, never transparent). Exact copy: `carousels/LW-CAR-0019/copy.json` (content_version 1.1, the same text as the approved LW-CAR-0001). Repository: romanthoruk2008-pixel/lightweight-carousels, branch `claude/charming-einstein-xgejky`.
 
 **This task overrides one series rule: the figure style.** The owner wants the **body drawn more minimally**. Everything else stays as on the approved LW-CAR-0001: the same slides, text, layout, type, colours, equipment, poses and the phone ending. The slides themselves do not get emptier; only the way the body is drawn changes.
 
 **Background: `GRID`** on every slide: solid #F0F1EB first, then the grid lines. No arch: LW-CAR-0001 still shows the old arch, so ignore it.
-**Logo:** the full logo file `assets/logo/lightweight-logo-full.png` top-left at x 48, y 19, 341 x 71 px, pasted with its own transparency only (no box or patch). Keep the top 110 px free of anything else, so the title block of slides 3–7 starts below y 110.
+**Logo:** the full logo file `assets/logo/harda-logo-full.png` top-left at x 48, y 19, 218 x 71 px, pasted with its own transparency only (no box or patch). Keep the top 110 px free of anything else, so the title block of slides 3–7 starts below y 110.
 
 ## Layout templates
 Slide N of this carousel takes its layout, poses and equipment from `carousels/LW-CAR-0001/outputs/slide-0N.png` and its description in `carousels/LW-CAR-0001/prompts/codex-task.md` (section "Slides"). Only the figures are drawn differently.
@@ -37,7 +37,7 @@ Generate **slide 1 and slide 3** in each of the three variants below: 6 images. 
 For each variant, record in `carousels/LW-CAR-0019/manifest.json`: variant, slide, prompt, file, attempts, errors, save status, `agent_visual_review: not_performed`, `user_review: pending`.
 
 ## Step 2 — full carousel (only after the owner picks a variant)
-Generate slides 1–8 in the chosen variant into `carousels/LW-CAR-0019/outputs/slide-01.png` … `slide-08.png`. You may reuse the chosen test images for slides 1 and 3 if the owner approved them as they are. Slide 8 is the product ending: same composition, text and real Lightweight screenshot as the approved `carousels/LW-CAR-0001/outputs/slide-08.png`; the hand holding the phone is drawn in the chosen style. Never generate, redraw or imitate the app UI. Write `caption.txt` from `copy.json` → `caption`, verbatim, build the ZIP, and commit the whole carousel in one commit.
+Generate slides 1–8 in the chosen variant into `carousels/LW-CAR-0019/outputs/slide-01.png` … `slide-08.png`. You may reuse the chosen test images for slides 1 and 3 if the owner approved them as they are. Slide 8 is the product ending: same composition, text and real Harda screenshot as the approved `carousels/LW-CAR-0001/outputs/slide-08.png`; the hand holding the phone is drawn in the chosen style. Never generate, redraw or imitate the app UI. Write `caption.txt` from `copy.json` → `caption`, verbatim, build the ZIP, and commit the whole carousel in one commit.
 
 ---
 
@@ -69,7 +69,7 @@ Only the headline lettering changes:
 Rules for all variants:
 - Spell exactly `WEAK` and `BACK?`. No other text on the slide.
 - Every letter fully visible. The figure may overlap the bottom of `BACK?` a little, as on the template, but every letter stays readable.
-- Paste the logo file `assets/logo/lightweight-logo-full.png` at x 48, y 19, 341 x 71 as in the series rules.
+- Paste the logo file `assets/logo/harda-logo-full.png` at x 48, y 19, 218 x 71 as in the series rules.
 
 Save as `carousels/LW-CAR-0019/outputs/headline-test/H1-slide-01.png` … `H6-slide-01.png` (1080 x 1350, flattened RGB). Record each image in `manifest.json` (`agent_visual_review: not_performed`, `user_review: pending`). Commit in one commit, show the owner the 6 covers and **stop**.
 

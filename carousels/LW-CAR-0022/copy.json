@@ -1,6 +1,6 @@
 {
   "carousel_id": "LW-CAR-0022",
-  "content_version": "1.0",
+  "content_version": "1.1",
   "status": "frozen",
   "type": "original",
   "design_style": "S2",
@@ -383,7 +383,7 @@
       "role": "product ending",
       "text": [
         {
-          "string": "lightweight tracks every set you lift and shows if your legs get enough work.",
+          "string": "harda tracks every set you lift and shows if your legs get enough work.",
           "style": "large, lowercase, heaviest weight, text_dark; accent marker bars under 'every set you lift' and 'your legs get enough work'"
         },
         {
@@ -391,7 +391,7 @@
           "style": "regular, text_dark, two lines"
         }
       ],
-      "screen": "real Lightweight Progress / Muscle balance screenshot (radar with a Legs axis), the same one as in approved LW-CAR-0001 slide 8",
+      "screen": "real Harda Progress / Muscle balance screenshot (radar with a Legs axis), the same one as in approved LW-CAR-0001 slide 8",
       "product_claims_checked_against_real_screen": [
         "workouts are logged",
         "muscle balance screen with a Legs axis (LW-CAR-0001 slide 8)"
@@ -401,5 +401,6 @@
   "claims_to_verify": [
     "Own opinions, no numbers or citations. Back squat in B and leg press at #1 are deliberately debatable.",
     "Ending: only workout logging and the Muscle balance screen, both on real screens."
-  ]
+  ],
+  "brand_note": "v1.1: app renamed Lightweight → Harda (owner 2026-10-19); only the brand name changed."
 }

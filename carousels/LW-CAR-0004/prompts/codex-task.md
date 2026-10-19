@@ -1,6 +1,6 @@
 # Codex task — LW-CAR-0004 "STRUCTURE THE PERFECT PULL DAY" (from REF-005)
 
-First read `carousels/CODEX-SERIES-RULES.md`. It covers palette, Rubik, logo, format, saving and manifest. Exact copy: `carousels/LW-CAR-0004/copy.json` (content_version 1.0). Repository: romanthoruk2008-pixel/lightweight-carousels, branch `claude/charming-einstein-xgejky`.
+First read `carousels/CODEX-SERIES-RULES.md`. It covers palette, Rubik, logo, format, saving and manifest. Exact copy: `carousels/LW-CAR-0004/copy.json` (content_version 1.1). Repository: romanthoruk2008-pixel/lightweight-carousels, branch `claude/charming-einstein-xgejky`.
 
 9 slides. **Generate slides 1–8 now. Slide 9 is BLOCKED** until the owner confirms its text.
 
@@ -52,8 +52,8 @@ Keep colons exactly as written: slides 3–5 end with ":", slides 6–8 do not.
 
 ### Slide 9 — before / after (BLOCKED: wait for the owner)
 Layout for when it is unblocked: two columns.
-- Left column: `Day 1` in heaviest Rubik #2A2A2A, under it `Of Using Lightweight` ("Of Using" #2A2A2A, "Lightweight" #F26445), short #F26445 underline. Then three lines, each with a dark circle ✗ icon: `No Progress`, `No Structure`, `No Results`.
-- Right column: `Day 100` in heaviest Rubik #F26445, `Of Using Lightweight`, underline. Then three lines with #F26445 circle ✓ icons: `Consistent Progress`, `Personalised Plans`, `Real Results`.
+- Left column: `Day 1` in heaviest Rubik #2A2A2A, under it `Of Using Harda` ("Of Using" #2A2A2A, "Harda" #F26445), short #F26445 underline. Then three lines, each with a dark circle ✗ icon: `No Progress`, `No Structure`, `No Results`.
+- Right column: `Day 100` in heaviest Rubik #F26445, `Of Using Harda`, underline. Then three lines with #F26445 circle ✓ icons: `Consistent Progress`, `Personalised Plans`, `Real Results`.
 - Below: two front-view full-body figures in the series style. Left: skinny, untrained, slouched. Right: heavily muscular, broad, fists clenched. No app screen on this slide.
 
 ## Caption

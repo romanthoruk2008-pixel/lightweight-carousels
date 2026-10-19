@@ -1,6 +1,6 @@
 {
   "carousel_id": "LW-CAR-0018",
-  "content_version": "1.0",
+  "content_version": "1.1",
   "status": "frozen",
   "type": "original",
   "language": "en",
@@ -196,11 +196,11 @@
           "style": "headline line 2, bold, accent, left-aligned"
         },
         {
-          "string": "Log every workout in Lightweight. Your numbers don't lie.",
+          "string": "Log every workout in Harda. Your numbers don't lie.",
           "style": "body, regular, text_body_grey"
         }
       ],
-      "screen": "real Lightweight Progress / Muscle balance screenshot, the same one as in approved LW-CAR-0001 slide 8",
+      "screen": "real Harda Progress / Muscle balance screenshot, the same one as in approved LW-CAR-0001 slide 8",
       "product_claims_checked_against_real_screen": [
         "workouts are logged in the app (real screens)"
       ]
@@ -213,5 +213,6 @@
     "Myth 4: general physiology; deliberately no numbers.",
     "Myth 5: Schoenfeld & Contreras, Strength Cond J 2013;35(5):16-21 — soreness is not a valid indicator of muscular adaptation.",
     "Myth 6: general consensus that diet, sleep and training matter far more than supplements; no product named."
-  ]
+  ],
+  "brand_note": "v1.1: app renamed Lightweight → Harda (owner 2026-10-19); only the brand name changed."
 }

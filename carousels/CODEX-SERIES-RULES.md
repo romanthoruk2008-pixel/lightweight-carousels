@@ -1,4 +1,6 @@
-# Series rules for every Lightweight carousel (Codex)
+# Series rules for every Harda carousel (Codex)
+
+The app is now called **Harda** (owner decision 2026-10-19; formerly Lightweight). Use the name Harda in all slide text and the Harda logo on every slide.
 
 Read this before any `carousels/LW-CAR-XXXX/prompts/codex-task.md`. The task file adds that carousel's slides. If the two ever disagree, the task file and its `copy.json` win.
 
@@ -26,12 +28,12 @@ Each task file lists the reference slide URLs in the **real** order. Use that or
 - **Design styles (owner decision 2026-10-19):** see `docs/DESIGN-STYLES.md`. Every task file names its style: `S1` (classic, sand anatomy figure, as LW-CAR-0001), `S2` (white minimal, as LW-CAR-0020: realistic **white / light-grey** mannequin, featureless smooth pelvis, fine grey shading, shorts #2A2A2A) or `S3` (dark, not defined yet). Never mix figure styles in one carousel. There is no logo file for dark backgrounds yet, so do not generate S3 until the owner supplies one.
 - Text: dark **#2A2A2A**, grey body **#6B6B6B**, white **#FFFFFF** on badges.
 - Font: **Rubik** for all text. Covers use the heaviest weight, titles bold, body regular. Rubik is wider than the sources' condensed cover font. Keep the same line breaks, scale to fit, and tell the owner if a layout cannot match. Never shorten text.
-- The Lightweight wordmark goes small in the top-left of every slide, exactly as on LW-CAR-0001, from the owner's wordmark file. Never draw or invent a logo.
-- **Logo file (2026-10-19):** the full logo (wordmark + app icon) is `assets/logo/lightweight-logo-full.png` (transparent PNG). Place it top-left at x 48, y 19, 341 x 71 px on a 1080 x 1350 slide, as on LW-CAR-0014. Insert the file as a layer; never redraw it. Paste it with its own transparency only: no background box or patch under it. Keep the top 110 px of every slide free of other text, pills and badges so nothing touches the logo.
-- The brand name "Arrow" in slide text → "Lightweight", only where the task file says so.
+- The Harda logo goes small in the top-left of every slide, from the owner's wordmark file. Never draw or invent a logo.
+- **Logo file (owner decision 2026-10-19, new brand name Harda):** the full logo (wordmark "Harda" + app icon) is `assets/logo/harda-logo-full.png` (transparent PNG). Place it top-left at x 48, y 19, **218 x 71 px** on a 1080 x 1350 slide. Insert the file as a layer; never redraw it. Paste it with its own transparency only: no background box or patch under it. Keep the top 110 px of every slide free of other text, pills and badges so nothing touches the logo. The old Lightweight logo file is retired: never use it on new slides.
+- The brand name "Arrow" in slide text → "Harda", only where the task file says so.
 
 ## Product ending (phone slides)
-- The phone shows a **real Lightweight screenshot** the owner supplied. It is never generated, redrawn or imitated UI.
+- The phone shows a **real Harda app screenshot** the owner supplied. It is never generated, redrawn or imitated UI.
 - Default screen: the same Progress / "Muscle balance" screenshot used in the approved LW-CAR-0001 slide 8, unless the task file or the owner gives another one.
 - Keep the screenshot's original proportions and scale it evenly. The phone is a naturally tall real phone held by the sketch-style line-art hand, and it may run off the bottom edge. Never squash the screen to fit it all in (owner feedback on LW-CAR-0001).
 - If you cannot insert the real screenshot cleanly, say so instead of faking it.

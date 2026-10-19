@@ -1,9 +1,9 @@
-# Codex task — LW-CAR-0018 "GYM MYTHS THAT NEED TO DIE" (original Lightweight carousel)
+# Codex task — LW-CAR-0018 "GYM MYTHS THAT NEED TO DIE" (original Harda carousel)
 
-First read `carousels/CODEX-SERIES-RULES.md`. It covers palette, Rubik, the logo file, phone ending, format, saving, manifest, no added punctuation, no clipped text, and the **backgrounds** (solid and opaque, never transparent). Exact copy: `carousels/LW-CAR-0018/copy.json` (content_version 1.0). Repository: romanthoruk2008-pixel/lightweight-carousels, branch `claude/charming-einstein-xgejky`.
+First read `carousels/CODEX-SERIES-RULES.md`. It covers palette, Rubik, the logo file, phone ending, format, saving, manifest, no added punctuation, no clipped text, and the **backgrounds** (solid and opaque, never transparent). Exact copy: `carousels/LW-CAR-0018/copy.json` (content_version 1.1). Repository: romanthoruk2008-pixel/lightweight-carousels, branch `claude/charming-einstein-xgejky`.
 
 **Background: `DOTS`** on every slide: solid #F0F1EB first, then the dots. No arch.
-**Logo:** the full logo file `assets/logo/lightweight-logo-full.png` top-left at x 48, y 19, 341 x 71 px, pasted with its own transparency only (no box or patch). Keep the top 110 px free of anything else.
+**Logo:** the full logo file `assets/logo/harda-logo-full.png` top-left at x 48, y 19, 218 x 71 px, pasted with its own transparency only (no box or patch). Keep the top 110 px free of anything else.
 
 Our own myth-busting carousel. 8 slides, all can be generated now. Tone: confident, a little playful, never mocking the viewer.
 
@@ -43,8 +43,8 @@ Keep the curly quotes exactly as written. Do not add a period or any other punct
 ### Slide 8 — product ending (template: LW-CAR-0001 slide 8, approved)
 Same composition as the approved slide: logo, left-aligned headline, short #F26445 underline bar, body, the hand holding the tall phone. Text:
 - Headline, two lines, bold: `Stop Guessing.` in #2A2A2A, then `Track What Works.` in #F26445.
-- Body, regular #6B6B6B: `Log every workout in Lightweight. Your numbers don't lie.`
-- Phone: the same **real Lightweight screenshot** as the approved slide, true proportions, never squashed, may run off the bottom edge. Do not generate, redraw or imitate UI. All text fully visible.
+- Body, regular #6B6B6B: `Log every workout in Harda. Your numbers don't lie.`
+- Phone: the same **real Harda screenshot** as the approved slide, true proportions, never squashed, may run off the bottom edge. Do not generate, redraw or imitate UI. All text fully visible.
 
 ## Caption
 Write `caption.txt` from `copy.json` → `caption.text`, verbatim.

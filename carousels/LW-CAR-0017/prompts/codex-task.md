@@ -1,6 +1,6 @@
-# Codex task — LW-CAR-0017 "HOW TO LOOK WIDER" (original Lightweight carousel)
+# Codex task — LW-CAR-0017 "HOW TO LOOK WIDER" (original Harda carousel)
 
-First read `carousels/CODEX-SERIES-RULES.md`. It covers palette, Rubik, logo, phone ending, format, saving, manifest, no added punctuation, no clipped text, and the **backgrounds**. Exact copy: `carousels/LW-CAR-0017/copy.json` (content_version 1.0). Repository: romanthoruk2008-pixel/lightweight-carousels, branch `claude/charming-einstein-xgejky`.
+First read `carousels/CODEX-SERIES-RULES.md`. It covers palette, Rubik, logo, phone ending, format, saving, manifest, no added punctuation, no clipped text, and the **backgrounds**. Exact copy: `carousels/LW-CAR-0017/copy.json` (content_version 1.1). Repository: romanthoruk2008-pixel/lightweight-carousels, branch `claude/charming-einstein-xgejky`.
 
 **Background: `PLATES`** on every slide. No arch: the template slides below still show the old arch, so ignore it.
 
@@ -51,8 +51,8 @@ Series mannequin: bald, faceless, **smooth plastic anatomy mannequin with a feat
 ### Slide 8 — product ending (template: LW-CAR-0001 slide 8, approved)
 Same composition as the approved slide. Text:
 - Headline: `Are Your Shoulders And Back Keeping Up?` (bold #2A2A2A, two lines if needed) + short #F26445 underline bar.
-- Body, two paragraphs, regular #6B6B6B: `Log your workouts in Lightweight.` / `See how many sets your back and shoulders really get.`
-- Phone: the **real Lightweight Muscle balance screenshot** (radar with Back and Shoulders axes), as on the approved slide, true proportions, never squashed. Do not generate, redraw or imitate UI. All text fully visible.
+- Body, two paragraphs, regular #6B6B6B: `Log your workouts in Harda.` / `See how many sets your back and shoulders really get.`
+- Phone: the **real Harda Muscle balance screenshot** (radar with Back and Shoulders axes), as on the approved slide, true proportions, never squashed. Do not generate, redraw or imitate UI. All text fully visible.
 
 ## Caption
 Write `caption.txt` from `copy.json` → `caption.text`, verbatim.

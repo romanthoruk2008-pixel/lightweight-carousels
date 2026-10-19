@@ -1,6 +1,6 @@
 {
   "carousel_id": "LW-CAR-0011",
-  "content_version": "1.0",
+  "content_version": "1.1",
   "status": "frozen",
   "type": "original",
   "source": {
@@ -216,11 +216,11 @@
           "style": "headline line 2, bold, accent, left-aligned"
         },
         {
-          "string": "Log every workout in Lightweight and watch your year add up.",
+          "string": "Log every workout in Harda and watch your year add up.",
           "style": "body, regular, text_body_grey"
         }
       ],
-      "screen": "real Lightweight screenshot as in approved LW-CAR-0001 slide 8 (shows 'Workout 9' and 'Sets 35' counts)",
+      "screen": "real Harda screenshot as in approved LW-CAR-0001 slide 8 (shows 'Workout 9' and 'Sets 35' counts)",
       "product_claims_checked_against_real_screen": [
         "workouts are logged and counted ('Workout 9', Workout tab)"
       ]
@@ -232,5 +232,6 @@
     "'3 workouts a week = 156 workouts a year': arithmetic (3 x 52).",
     "Figures must look natural and realistic at every stage — no bodybuilder at Year 1."
   ],
-  "background": "PLATES"
+  "background": "PLATES",
+  "brand_note": "v1.1: app renamed Lightweight → Harda (owner 2026-10-19); only the brand name changed."
 }

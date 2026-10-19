@@ -1,6 +1,6 @@
 {
   "carousel_id": "LW-CAR-0004",
-  "content_version": "1.0",
+  "content_version": "1.1",
   "status": "frozen",
   "language": "en",
   "font_family": "Rubik",
@@ -285,7 +285,7 @@
           "style": "left column heading, heaviest Rubik, text_dark"
         },
         {
-          "string": "Of Using Lightweight",
+          "string": "Of Using Harda",
           "style": "left subheading; 'Of Using' text_dark, 'Lightweight' accent"
         },
         {
@@ -293,7 +293,7 @@
           "style": "right column heading, heaviest Rubik, accent"
         },
         {
-          "string": "Of Using Lightweight",
+          "string": "Of Using Harda",
           "style": "right subheading; 'Lightweight' accent"
         },
         {
@@ -331,5 +331,6 @@
     "missing colons on slides 6-8",
     "'Personalised' spelling",
     "all exercise-to-muscle mappings and set/rep ranges"
-  ]
+  ],
+  "brand_note": "v1.1: app renamed Lightweight → Harda (owner 2026-10-19); only the brand name changed."
 }
