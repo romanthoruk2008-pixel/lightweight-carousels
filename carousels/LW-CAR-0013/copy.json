@@ -1,0 +1,316 @@
+{
+  "carousel_id": "LW-CAR-0013",
+  "content_version": "1.0",
+  "status": "frozen",
+  "type": "original",
+  "source": {
+    "ref_id": null,
+    "note": "Original Lightweight copy (owner request 2026-10-19). The topic with the strongest product link: progress needs tracked numbers.",
+    "visual_templates": {
+      "cover": "carousels/LW-CAR-0001/outputs/slide-01.png",
+      "text_slides": "carousels/LW-CAR-0001/outputs/slide-08.png text area",
+      "ways_header": "carousels/LW-CAR-0002/outputs/slide-03.png (big '#N' + title)",
+      "week_table": "carousels/LW-CAR-0007/outputs/slide-05.png (table style)",
+      "checklist": "carousels/LW-CAR-0007/outputs/slide-07.png",
+      "ending": "carousels/LW-CAR-0001/outputs/slide-08.png"
+    }
+  },
+  "language": "en",
+  "font_family": "Rubik",
+  "colors": {
+    "accent": "#F26445",
+    "accent_tint_background_shape": "#FBE3DD",
+    "background": "#F0F1EB",
+    "text_dark": "#2A2A2A",
+    "text_body_grey": "#6B6B6B",
+    "white": "#FFFFFF",
+    "muscle_base_sand": "#D9CBBE",
+    "skin_ivory_approx": "#F5F0E5"
+  },
+  "caption": {
+    "text": "The one rule behind every real transformation. Save this for your next workout 📌 Which method do you use? 👇 #progressiveoverload #gymtips #musclebuilding #strengthtraining",
+    "notes": "Save prompt + question. No 'lifters'."
+  },
+  "hook_alternatives_not_used": [
+    "THE ONE RULE OF MUSCLE GROWTH",
+    "WHY YOU STOPPED GROWING"
+  ],
+  "slides": [
+    {
+      "n": 1,
+      "role": "hook",
+      "text": [
+        {
+          "string": "PROGRESSIVE",
+          "style": "cover line 1, uppercase, heaviest Rubik, text_dark"
+        },
+        {
+          "string": "OVERLOAD,",
+          "style": "cover line 2, uppercase, heaviest Rubik, text_dark"
+        },
+        {
+          "string": "EXPLAINED",
+          "style": "cover line 3, uppercase, heaviest Rubik, accent"
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "role": "what it means",
+      "text": [
+        {
+          "string": "What It Means",
+          "style": "title, bold, text_dark, left-aligned"
+        },
+        {
+          "string": "Do a little more over time than your body is used to.",
+          "style": "large, bold, text_dark"
+        },
+        {
+          "string": "No more work = no reason to grow.",
+          "style": "body, regular, text_body_grey"
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "role": "way #1",
+      "text": [
+        {
+          "string": "#1",
+          "style": "big number, bold, accent"
+        },
+        {
+          "string": "Add Weight",
+          "style": "title, bold, text_dark"
+        },
+        {
+          "string": "Same reps, slightly heavier.",
+          "style": "body, regular, text_body_grey"
+        },
+        {
+          "string": "BEFORE",
+          "style": "small caps label"
+        },
+        {
+          "string": "20 kg x 10",
+          "style": "before card value, bold, text_dark"
+        },
+        {
+          "string": "AFTER",
+          "style": "small caps label, accent"
+        },
+        {
+          "string": "22.5 kg x 10",
+          "style": "after card value, bold, accent"
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "role": "way #2",
+      "text": [
+        {
+          "string": "#2",
+          "style": "big number, bold, accent"
+        },
+        {
+          "string": "Add Reps",
+          "style": "title, bold, text_dark"
+        },
+        {
+          "string": "Same weight, one more rep.",
+          "style": "body, regular, text_body_grey"
+        },
+        {
+          "string": "BEFORE",
+          "style": "small caps label"
+        },
+        {
+          "string": "20 kg x 10",
+          "style": "before card value, bold, text_dark"
+        },
+        {
+          "string": "AFTER",
+          "style": "small caps label, accent"
+        },
+        {
+          "string": "20 kg x 11",
+          "style": "after card value, bold, accent"
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "role": "way #3",
+      "text": [
+        {
+          "string": "#3",
+          "style": "big number, bold, accent"
+        },
+        {
+          "string": "Add Sets",
+          "style": "title, bold, text_dark"
+        },
+        {
+          "string": "Same weight and reps, one more set.",
+          "style": "body, regular, text_body_grey"
+        },
+        {
+          "string": "BEFORE",
+          "style": "small caps label"
+        },
+        {
+          "string": "3 sets",
+          "style": "before card value, bold, text_dark"
+        },
+        {
+          "string": "AFTER",
+          "style": "small caps label, accent"
+        },
+        {
+          "string": "4 sets",
+          "style": "after card value, bold, accent"
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "role": "way #4",
+      "text": [
+        {
+          "string": "#4",
+          "style": "big number, bold, accent"
+        },
+        {
+          "string": "Better Reps",
+          "style": "title, bold, text_dark"
+        },
+        {
+          "string": "Same numbers, cleaner reps: slower lowering, full range, no swinging.",
+          "style": "body, regular, text_body_grey"
+        },
+        {
+          "string": "BEFORE",
+          "style": "small caps label"
+        },
+        {
+          "string": "Fast and sloppy",
+          "style": "before card value, bold, text_dark"
+        },
+        {
+          "string": "AFTER",
+          "style": "small caps label, accent"
+        },
+        {
+          "string": "Slow and controlled",
+          "style": "after card value, bold, accent"
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "role": "4-week example",
+      "text": [
+        {
+          "string": "The Easiest Method",
+          "style": "title, bold, text_dark, left-aligned"
+        },
+        {
+          "string": "Work up to 12 reps. Then add weight and start again at 8.",
+          "style": "body, regular, text_body_grey"
+        },
+        {
+          "string": "WEEK 1",
+          "style": "row label"
+        },
+        {
+          "string": "20 kg x 8",
+          "style": "row value"
+        },
+        {
+          "string": "WEEK 2",
+          "style": "row label"
+        },
+        {
+          "string": "20 kg x 10",
+          "style": "row value"
+        },
+        {
+          "string": "WEEK 3",
+          "style": "row label"
+        },
+        {
+          "string": "20 kg x 12",
+          "style": "row value"
+        },
+        {
+          "string": "WEEK 4",
+          "style": "row label, accent"
+        },
+        {
+          "string": "22.5 kg x 8",
+          "style": "row value, bold, accent"
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "role": "stuck",
+      "text": [
+        {
+          "string": "Stuck For 2-3 Weeks?",
+          "style": "title, bold, text_dark, left-aligned"
+        },
+        {
+          "string": "Are you sleeping enough?",
+          "style": "checklist row"
+        },
+        {
+          "string": "Are you eating enough protein?",
+          "style": "checklist row"
+        },
+        {
+          "string": "Are your sets actually hard?",
+          "style": "checklist row"
+        },
+        {
+          "string": "Still stuck? Swap the exercise for a similar one.",
+          "style": "checklist row"
+        },
+        {
+          "string": "Progress isn't a straight line. It's a staircase.",
+          "style": "bold, accent"
+        }
+      ]
+    },
+    {
+      "n": 9,
+      "role": "product ending",
+      "text": [
+        {
+          "string": "You Can't Beat Numbers",
+          "style": "headline line 1, bold, text_dark, left-aligned"
+        },
+        {
+          "string": "You Don't Track.",
+          "style": "headline line 2, bold, accent, left-aligned"
+        },
+        {
+          "string": "Log every set in Lightweight. Next time, you'll know exactly what to beat.",
+          "style": "body, regular, text_body_grey"
+        }
+      ],
+      "screen": "real Lightweight screenshot as in approved LW-CAR-0001 slide 8 (Workout and Sets counts); a workout-log screenshot showing weights and reps would fit this topic best",
+      "product_claims_checked_against_real_screen": [
+        "sets and workouts are logged (Workout tab, 'Sets 35', 'Workout 9')"
+      ]
+    }
+  ],
+  "claims_to_verify": [
+    "Progressive overload is a core principle of resistance training (e.g. ACSM position stand on progression models, 2009). Verify the citation before quoting it.",
+    "Double progression (8 → 12 reps, then add weight) is a common coaching method, not a study result.",
+    "Example numbers (20 kg, 22.5 kg) are illustrative, not a prescription.",
+    "'Stuck for 2-3 weeks' checklist is general coaching advice."
+  ]
+}

@@ -66,3 +66,6 @@ Claude, хмарна генерація, канал точного вставл�
 
 ## LW-CAR-0012 «5 MISTAKES KILLING YOUR GAINS» — власна тема
 Пакет: carousels/LW-CAR-0012/. 8 слайдів, усі готові до генерації. Відлік #5 → #1 з ✗ помилкою / ✓ виправленням і ілюстраціями; «Which one did we miss?»; фінал «Fix #1 And #2 Starting Today.».
+
+## LW-CAR-0013 «PROGRESSIVE OVERLOAD, EXPLAINED» — власна тема
+Пакет: carousels/LW-CAR-0013/. 9 слайдів, усі готові до генерації. 4 способи прогресу (BEFORE → AFTER), таблиця на 4 тижні, «застряг?», фінал «You Can't Beat Numbers You Don't Track.». Найкраще пасує екран запису тренування.
