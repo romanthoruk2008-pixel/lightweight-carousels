@@ -1,0 +1,1 @@
+Reused byte-for-byte from the approved S2 template: carousels/LW-CAR-0020/outputs/slide-02.png. The copy and layout are identical: “F” / “tier” / “skip these”. No generation call was made.

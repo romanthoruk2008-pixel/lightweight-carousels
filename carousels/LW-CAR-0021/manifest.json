@@ -1,0 +1,799 @@
+{
+  "carousel_id": "LW-CAR-0021",
+  "content_version": "1.0",
+  "generation_round": 1,
+  "source_commit": "3f140101f9d6f495bb66ba952f83fcccdf5232a0",
+  "reference_id": null,
+  "reference_use": "Approved LW-CAR-0020 outputs used as templates, as directed by the task.",
+  "instructions": "carousels/LW-CAR-0021/prompts/codex-task.md",
+  "status": "complete_19_of_19_awaiting_owner_review",
+  "carousel_complete": true,
+  "scope": "Owner approved slides 1-3; all 19 slides are now generated or reused as specified.",
+  "background": "CLEAN",
+  "font_family": "REF-008 look: heavy tight grotesk for headlines, clean sans for body, italic for tier lines",
+  "generated_images": 18,
+  "blocked_slides": [],
+  "next_slide_to_generate": null,
+  "slides": [
+    {
+      "slide": 1,
+      "content_version": "1.0",
+      "role": "hook",
+      "exact_text": [
+        "back",
+        "tier list",
+        "(ranked worst to best)"
+      ],
+      "file": "outputs/slide-01.png",
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "carousels/LW-CAR-0020/outputs/slide-01.png",
+            "assets/logo/lightweight-logo-full.png"
+          ],
+          "raw_result_file": "/workspace/generated_images/exec-90a77291-adf6-4c0e-aa1b-67edf89737c4.png",
+          "result_file": "outputs/slide-01.png",
+          "export": {
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "has_alpha": false,
+            "logo": "original_file_composited_at_48_19_341_71_without_backing_patch"
+          },
+          "user_review": "approved"
+        }
+      ],
+      "errors": [],
+      "save_status": "pushed_to_target_branch",
+      "agent_visual_review": "not_performed",
+      "user_review": "approved",
+      "prompt": "prompts/slide-01.txt",
+      "reference": "carousels/LW-CAR-0020/outputs/slide-01.png"
+    },
+    {
+      "slide": 2,
+      "content_version": "1.0",
+      "role": "tier divider F",
+      "exact_text": [
+        "F",
+        "tier",
+        "skip these"
+      ],
+      "file": "outputs/slide-02.png",
+      "attempts": [],
+      "errors": [],
+      "save_status": "pushed_to_target_branch",
+      "agent_visual_review": "not_performed",
+      "user_review": "approved",
+      "prompt": "prompts/slide-02.txt",
+      "reference": "carousels/LW-CAR-0020/outputs/slide-02.png",
+      "note": "Reused byte-for-byte because copy and layout are identical."
+    },
+    {
+      "slide": 3,
+      "content_version": "1.0",
+      "role": "exercise #12",
+      "exact_text": [
+        "#12",
+        "upright row",
+        "mostly traps and shoulders, and it’s hard on a lot of joints."
+      ],
+      "file": "outputs/slide-03.png",
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "carousels/LW-CAR-0020/outputs/slide-03.png",
+            "assets/logo/lightweight-logo-full.png"
+          ],
+          "raw_result_file": "/workspace/generated_images/exec-1e6b0ede-d312-4c9a-b4fb-e0aa287f25cd.png",
+          "result_file": "outputs/slide-03.png",
+          "export": {
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "has_alpha": false,
+            "logo": "original_file_composited_at_48_19_341_71_without_backing_patch"
+          },
+          "user_review": "approved"
+        }
+      ],
+      "errors": [],
+      "save_status": "pushed_to_target_branch",
+      "agent_visual_review": "not_performed",
+      "user_review": "approved",
+      "prompt": "prompts/slide-03.txt",
+      "reference": "carousels/LW-CAR-0020/outputs/slide-03.png"
+    },
+    {
+      "slide": 4,
+      "content_version": "1.0",
+      "role": "exercise #11",
+      "exact_text": [
+        "#11",
+        "behind-the-neck pulldown",
+        "awkward on the shoulders, and the front version works just as well."
+      ],
+      "file": "outputs/slide-04.png",
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "carousels/LW-CAR-0020/outputs/slide-03.png",
+            "assets/logo/lightweight-logo-full.png"
+          ],
+          "raw_result_file": "/workspace/generated_images/exec-a194b471-a6ed-41d3-abb7-204cf77a96a3.png",
+          "result_file": "outputs/slide-04.png",
+          "export": {
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "has_alpha": false,
+            "logo": "original_file_composited_at_48_19_341_71_without_backing_patch"
+          },
+          "user_review": "pending"
+        }
+      ],
+      "errors": [],
+      "save_status": "pushed_to_target_branch",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending",
+      "prompt": "prompts/slide-04.txt",
+      "reference": "carousels/LW-CAR-0020/outputs/slide-03.png"
+    },
+    {
+      "slide": 5,
+      "content_version": "1.0",
+      "role": "tier divider C",
+      "exact_text": [
+        "C",
+        "tier",
+        "you can do better"
+      ],
+      "file": "outputs/slide-05.png",
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "carousels/LW-CAR-0020/outputs/slide-02.png",
+            "assets/logo/lightweight-logo-full.png"
+          ],
+          "raw_result_file": "/workspace/generated_images/exec-c8b5500f-7483-40d2-8434-e2d6dfd352b8.png",
+          "result_file": "outputs/slide-05.png",
+          "export": {
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "has_alpha": false,
+            "logo": "original_file_composited_at_48_19_341_71_without_backing_patch"
+          },
+          "user_review": "pending"
+        }
+      ],
+      "errors": [],
+      "save_status": "pushed_to_target_branch",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending",
+      "prompt": "prompts/slide-05.txt",
+      "reference": "carousels/LW-CAR-0020/outputs/slide-02.png"
+    },
+    {
+      "slide": 6,
+      "content_version": "1.0",
+      "role": "exercise #10",
+      "exact_text": [
+        "#10",
+        "straight-arm pulldown",
+        "nice lat feel, but it’s a finisher, not a builder."
+      ],
+      "file": "outputs/slide-06.png",
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "carousels/LW-CAR-0020/outputs/slide-03.png",
+            "assets/logo/lightweight-logo-full.png"
+          ],
+          "raw_result_file": "/workspace/generated_images/exec-40b361f1-22b2-42d6-8538-ccfc85191080.png",
+          "result_file": "outputs/slide-06.png",
+          "export": {
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "has_alpha": false,
+            "logo": "original_file_composited_at_48_19_341_71_without_backing_patch"
+          },
+          "user_review": "pending"
+        }
+      ],
+      "errors": [],
+      "save_status": "pushed_to_target_branch",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending",
+      "prompt": "prompts/slide-06.txt",
+      "reference": "carousels/LW-CAR-0020/outputs/slide-03.png"
+    },
+    {
+      "slide": 7,
+      "content_version": "1.0",
+      "role": "exercise #9",
+      "exact_text": [
+        "#9",
+        "inverted rows",
+        "perfect for beginners, but hard to load as you get stronger."
+      ],
+      "file": "outputs/slide-07.png",
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "carousels/LW-CAR-0020/outputs/slide-03.png",
+            "assets/logo/lightweight-logo-full.png"
+          ],
+          "raw_result_file": "/workspace/generated_images/exec-e04fd26d-54c9-4a18-bc31-b46fffe73efa.png",
+          "result_file": "outputs/slide-07.png",
+          "export": {
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "has_alpha": false,
+            "logo": "original_file_composited_at_48_19_341_71_without_backing_patch"
+          },
+          "user_review": "pending"
+        }
+      ],
+      "errors": [],
+      "save_status": "pushed_to_target_branch",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending",
+      "prompt": "prompts/slide-07.txt",
+      "reference": "carousels/LW-CAR-0020/outputs/slide-03.png"
+    },
+    {
+      "slide": 8,
+      "content_version": "1.0",
+      "role": "tier divider B",
+      "exact_text": [
+        "B",
+        "tier",
+        "solid picks"
+      ],
+      "file": "outputs/slide-08.png",
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "carousels/LW-CAR-0020/outputs/slide-02.png",
+            "assets/logo/lightweight-logo-full.png"
+          ],
+          "raw_result_file": "/workspace/generated_images/exec-e1723304-c035-4286-a55f-84818cbfc47c.png",
+          "result_file": "outputs/slide-08.png",
+          "export": {
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "has_alpha": false,
+            "logo": "original_file_composited_at_48_19_341_71_without_backing_patch"
+          },
+          "user_review": "pending"
+        }
+      ],
+      "errors": [],
+      "save_status": "pushed_to_target_branch",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending",
+      "prompt": "prompts/slide-08.txt",
+      "reference": "carousels/LW-CAR-0020/outputs/slide-02.png"
+    },
+    {
+      "slide": 9,
+      "content_version": "1.0",
+      "role": "exercise #8",
+      "exact_text": [
+        "#8",
+        "deadlift",
+        "amazing for strength. for back size, it costs a lot of energy."
+      ],
+      "file": "outputs/slide-09.png",
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "carousels/LW-CAR-0020/outputs/slide-03.png",
+            "assets/logo/lightweight-logo-full.png"
+          ],
+          "raw_result_file": "/workspace/generated_images/exec-90f741da-a0d5-4f53-9143-c7b77e9e1a05.png",
+          "result_file": "outputs/slide-09.png",
+          "export": {
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "has_alpha": false,
+            "logo": "original_file_composited_at_48_19_341_71_without_backing_patch"
+          },
+          "user_review": "pending"
+        }
+      ],
+      "errors": [],
+      "save_status": "pushed_to_target_branch",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending",
+      "prompt": "prompts/slide-09.txt",
+      "reference": "carousels/LW-CAR-0020/outputs/slide-03.png"
+    },
+    {
+      "slide": 10,
+      "content_version": "1.0",
+      "role": "exercise #7",
+      "exact_text": [
+        "#7",
+        "barbell row",
+        "builds a thick back, but your lower back often gives out first."
+      ],
+      "file": "outputs/slide-10.png",
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "carousels/LW-CAR-0020/outputs/slide-03.png",
+            "assets/logo/lightweight-logo-full.png"
+          ],
+          "raw_result_file": "/workspace/generated_images/exec-b62cdc6c-15ef-4b4f-9e51-56429b81c2e0.png",
+          "result_file": "outputs/slide-10.png",
+          "export": {
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "has_alpha": false,
+            "logo": "original_file_composited_at_48_19_341_71_without_backing_patch"
+          },
+          "user_review": "pending"
+        }
+      ],
+      "errors": [],
+      "save_status": "pushed_to_target_branch",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending",
+      "prompt": "prompts/slide-10.txt",
+      "reference": "carousels/LW-CAR-0020/outputs/slide-03.png"
+    },
+    {
+      "slide": 11,
+      "content_version": "1.0",
+      "role": "exercise #6",
+      "exact_text": [
+        "#6",
+        "single-arm db row",
+        "easy to load and great for fixing a weaker side."
+      ],
+      "file": "outputs/slide-11.png",
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "carousels/LW-CAR-0020/outputs/slide-03.png",
+            "assets/logo/lightweight-logo-full.png"
+          ],
+          "raw_result_file": "/workspace/generated_images/exec-85d81a00-e690-48f1-8e89-f4a7eb2c1068.png",
+          "result_file": "outputs/slide-11.png",
+          "export": {
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "has_alpha": false,
+            "logo": "original_file_composited_at_48_19_341_71_without_backing_patch"
+          },
+          "user_review": "pending"
+        }
+      ],
+      "errors": [],
+      "save_status": "pushed_to_target_branch",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending",
+      "prompt": "prompts/slide-11.txt",
+      "reference": "carousels/LW-CAR-0020/outputs/slide-03.png"
+    },
+    {
+      "slide": 12,
+      "content_version": "1.0",
+      "role": "tier divider A",
+      "exact_text": [
+        "A",
+        "tier",
+        "worth your time"
+      ],
+      "file": "outputs/slide-12.png",
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "carousels/LW-CAR-0020/outputs/slide-02.png",
+            "assets/logo/lightweight-logo-full.png"
+          ],
+          "raw_result_file": "/workspace/generated_images/exec-a8810b90-67b7-4bad-932b-a1d78d41ce92.png",
+          "result_file": "outputs/slide-12.png",
+          "export": {
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "has_alpha": false,
+            "logo": "original_file_composited_at_48_19_341_71_without_backing_patch"
+          },
+          "user_review": "pending"
+        }
+      ],
+      "errors": [],
+      "save_status": "pushed_to_target_branch",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending",
+      "prompt": "prompts/slide-12.txt",
+      "reference": "carousels/LW-CAR-0020/outputs/slide-02.png"
+    },
+    {
+      "slide": 13,
+      "content_version": "1.0",
+      "role": "exercise #5",
+      "exact_text": [
+        "#5",
+        "pull-ups",
+        "the king of bodyweight back work. add weight once they get easy."
+      ],
+      "file": "outputs/slide-13.png",
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "interrupted",
+          "error": "Generation batch interrupted before a result file was returned; retry pending."
+        },
+        {
+          "attempt": 2,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "carousels/LW-CAR-0020/outputs/slide-03.png",
+            "assets/logo/lightweight-logo-full.png"
+          ],
+          "raw_result_file": "/workspace/generated_images/exec-db7d3ecb-d399-4b35-a356-b6b6b6ecfc8d.png",
+          "result_file": "outputs/slide-13.png",
+          "export": {
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "has_alpha": false,
+            "logo": "original_file_composited_at_48_19_341_71_without_backing_patch"
+          },
+          "user_review": "pending"
+        }
+      ],
+      "errors": [
+        "Generation batch interrupted before a result file was returned; retry pending."
+      ],
+      "save_status": "pushed_to_target_branch",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending",
+      "prompt": "prompts/slide-13.txt",
+      "reference": "carousels/LW-CAR-0020/outputs/slide-03.png"
+    },
+    {
+      "slide": 14,
+      "content_version": "1.0",
+      "role": "exercise #4",
+      "exact_text": [
+        "#4",
+        "seated cable row",
+        "constant tension and a big stretch for your mid back."
+      ],
+      "file": "outputs/slide-14.png",
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "carousels/LW-CAR-0020/outputs/slide-03.png",
+            "assets/logo/lightweight-logo-full.png"
+          ],
+          "raw_result_file": "/workspace/generated_images/exec-f8f97496-9948-47dc-87fe-5f6a9d2c41c2.png",
+          "result_file": "outputs/slide-14.png",
+          "export": {
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "has_alpha": false,
+            "logo": "original_file_composited_at_48_19_341_71_without_backing_patch"
+          },
+          "user_review": "pending"
+        }
+      ],
+      "errors": [],
+      "save_status": "pushed_to_target_branch",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending",
+      "prompt": "prompts/slide-14.txt",
+      "reference": "carousels/LW-CAR-0020/outputs/slide-03.png"
+    },
+    {
+      "slide": 15,
+      "content_version": "1.0",
+      "role": "exercise #3",
+      "exact_text": [
+        "#3",
+        "lat pulldown",
+        "easy to learn, easy to load, and great for lat width."
+      ],
+      "file": "outputs/slide-15.png",
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "interrupted",
+          "error": "Generation batch interrupted before a result file was returned; retry pending."
+        },
+        {
+          "attempt": 2,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "carousels/LW-CAR-0020/outputs/slide-03.png",
+            "assets/logo/lightweight-logo-full.png"
+          ],
+          "raw_result_file": "/workspace/generated_images/exec-a54b97ad-9c73-4056-9253-1c8003a446c2.png",
+          "result_file": "outputs/slide-15.png",
+          "export": {
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "has_alpha": false,
+            "logo": "original_file_composited_at_48_19_341_71_without_backing_patch"
+          },
+          "user_review": "pending"
+        }
+      ],
+      "errors": [
+        "Generation batch interrupted before a result file was returned; retry pending."
+      ],
+      "save_status": "pushed_to_target_branch",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending",
+      "prompt": "prompts/slide-15.txt",
+      "reference": "carousels/LW-CAR-0020/outputs/slide-03.png"
+    },
+    {
+      "slide": 16,
+      "content_version": "1.0",
+      "role": "tier divider S",
+      "exact_text": [
+        "S",
+        "tier",
+        "build your back on these"
+      ],
+      "file": "outputs/slide-16.png",
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "carousels/LW-CAR-0020/outputs/slide-02.png",
+            "assets/logo/lightweight-logo-full.png"
+          ],
+          "raw_result_file": "/workspace/generated_images/exec-21c4ec6c-dfab-4b14-a551-a0426badcca9.png",
+          "result_file": "outputs/slide-16.png",
+          "export": {
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "has_alpha": false,
+            "logo": "original_file_composited_at_48_19_341_71_without_backing_patch"
+          },
+          "user_review": "pending"
+        }
+      ],
+      "errors": [],
+      "save_status": "pushed_to_target_branch",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending",
+      "prompt": "prompts/slide-16.txt",
+      "reference": "carousels/LW-CAR-0020/outputs/slide-02.png"
+    },
+    {
+      "slide": 17,
+      "content_version": "1.0",
+      "role": "exercise #2",
+      "exact_text": [
+        "#2",
+        "chest-supported t-bar row",
+        "heavy rows without your lower back doing the work."
+      ],
+      "file": "outputs/slide-17.png",
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "carousels/LW-CAR-0020/outputs/slide-03.png",
+            "assets/logo/lightweight-logo-full.png"
+          ],
+          "raw_result_file": "/workspace/generated_images/exec-d057ce86-e268-47de-9caa-191e1aa29052.png",
+          "result_file": "outputs/slide-17.png",
+          "export": {
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "has_alpha": false,
+            "logo": "original_file_composited_at_48_19_341_71_without_backing_patch"
+          },
+          "user_review": "pending"
+        }
+      ],
+      "errors": [],
+      "save_status": "pushed_to_target_branch",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending",
+      "prompt": "prompts/slide-17.txt",
+      "reference": "carousels/LW-CAR-0020/outputs/slide-03.png"
+    },
+    {
+      "slide": 18,
+      "content_version": "1.0",
+      "role": "exercise #1",
+      "exact_text": [
+        "#1",
+        "chest-supported machine row",
+        "nothing to balance, nothing to cheat. just your back pulling."
+      ],
+      "file": "outputs/slide-18.png",
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "carousels/LW-CAR-0020/outputs/slide-03.png",
+            "assets/logo/lightweight-logo-full.png"
+          ],
+          "raw_result_file": "/workspace/generated_images/exec-dfff188f-2771-426c-96f2-ac87e96c65d8.png",
+          "result_file": "outputs/slide-18.png",
+          "export": {
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "has_alpha": false,
+            "logo": "original_file_composited_at_48_19_341_71_without_backing_patch"
+          },
+          "user_review": "pending"
+        }
+      ],
+      "errors": [],
+      "save_status": "pushed_to_target_branch",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending",
+      "prompt": "prompts/slide-18.txt",
+      "reference": "carousels/LW-CAR-0020/outputs/slide-03.png"
+    },
+    {
+      "slide": 19,
+      "content_version": "1.0",
+      "role": "product ending",
+      "exact_text": [
+        "lightweight tracks every set you lift and shows if your back gets enough work.",
+        "log your workouts and check your muscle balance, so your back never falls behind."
+      ],
+      "file": "outputs/slide-19.png",
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "carousels/LW-CAR-0020/outputs/slide-19.png",
+            "assets/logo/lightweight-logo-full.png"
+          ],
+          "raw_result_file": "/workspace/generated_images/exec-15cf4163-d3d9-40a2-a739-d8f24c60e882.png",
+          "result_file": "outputs/slide-19.png",
+          "export": {
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "has_alpha": false,
+            "logo": "original_file_composited_at_48_19_341_71_without_backing_patch"
+          },
+          "user_review": "pending"
+        }
+      ],
+      "errors": [],
+      "save_status": "pushed_to_target_branch",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending",
+      "prompt": "prompts/slide-19.txt",
+      "reference": "carousels/LW-CAR-0020/outputs/slide-19.png",
+      "source_ui": {
+        "asset": "carousels/LW-CAR-0001/outputs/slide-08.png",
+        "source_commit": "cd6634266498d9b23367182aa46c62278658bb41",
+        "reused_via": "carousels/LW-CAR-0020/outputs/slide-19.png",
+        "preservation": "Phone/screen cutout composited from the approved LW-CAR-0020 ending; a 300x300 px screen crop at x500 y850 is pixel-identical to source."
+      }
+    }
+  ],
+  "user_review": "slides_1_to_3_approved; slides_4_to_19_pending",
+  "agent_visual_review": "not_performed"
+}
