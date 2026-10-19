@@ -1,0 +1,235 @@
+{
+  "carousel_id": "LW-CAR-0011",
+  "content_version": "1.0",
+  "status": "frozen",
+  "type": "original",
+  "source": {
+    "ref_id": null,
+    "note": "Original Lightweight copy (owner request 2026-10-19). Takes the format that gave Arrow its biggest reach (CONSISTENCY 1.2M, DISCIPLINE 517K views) and answers its top objection ('at least 2-3 years', unrealistic transformation) with an honest, realistic timeline.",
+    "visual_templates": {
+      "cover": "carousels/LW-CAR-0001/outputs/slide-01.png (headline) + row of progressing figures; component reference for the row only: https://github.com/user-attachments/assets/2af5e6ad-edd3-4aae-9cf5-9a42129a2a04 (REF-006 cover)",
+      "text_slides": "carousels/LW-CAR-0001/outputs/slide-08.png text area",
+      "checklist": "carousels/LW-CAR-0007/outputs/slide-03.png (✗ rows) and slide-07.png",
+      "ending": "carousels/LW-CAR-0001/outputs/slide-08.png"
+    }
+  },
+  "language": "en",
+  "font_family": "Rubik",
+  "colors": {
+    "accent": "#F26445",
+    "accent_tint_background_shape": "#FBE3DD",
+    "background": "#F0F1EB",
+    "text_dark": "#2A2A2A",
+    "text_body_grey": "#6B6B6B",
+    "white": "#FFFFFF",
+    "muscle_base_sand": "#D9CBBE",
+    "skin_ivory_approx": "#F5F0E5"
+  },
+  "caption": {
+    "text": "No 90-day miracle. Just one honest year. Save this for the days you feel like quitting 📌 Which month are you on? 👇 #gymmotivation #fitnessjourney #gymbeginner #consistency",
+    "notes": "Save prompt + question ('which month are you on?') invites comments from people at every stage. No 'lifters'."
+  },
+  "hook_alternatives_not_used": [
+    "1 YEAR OF TRAINING. NO FILTER.",
+    "THE HONEST 1-YEAR TRANSFORMATION"
+  ],
+  "slides": [
+    {
+      "n": 1,
+      "role": "hook",
+      "text": [
+        {
+          "string": "WHAT 1 YEAR",
+          "style": "cover line 1, uppercase, heaviest Rubik, text_dark"
+        },
+        {
+          "string": "OF TRAINING",
+          "style": "cover line 2, uppercase, heaviest Rubik, text_dark"
+        },
+        {
+          "string": "ACTUALLY LOOKS LIKE",
+          "style": "cover line 3, uppercase, heaviest Rubik, accent"
+        },
+        {
+          "string": "DAY 1",
+          "style": "label under figure 1"
+        },
+        {
+          "string": "MONTH 3",
+          "style": "label under figure 2"
+        },
+        {
+          "string": "MONTH 6",
+          "style": "label under figure 3"
+        },
+        {
+          "string": "YEAR 1",
+          "style": "label under figure 4, accent"
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "role": "honest reframe",
+      "text": [
+        {
+          "string": "Forget The 90-Day\nTransformations.",
+          "style": "title, bold, text_dark, left-aligned, two lines"
+        },
+        {
+          "string": "Real progress is slower than the internet shows.",
+          "style": "body, regular, text_body_grey"
+        },
+        {
+          "string": "And it's still worth it.",
+          "style": "body, bold, accent"
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "role": "timeline month 1",
+      "text": [
+        {
+          "string": "MONTH 1",
+          "style": "accent pill label"
+        },
+        {
+          "string": "You Get Stronger. Fast.",
+          "style": "headline, bold, text_dark"
+        },
+        {
+          "string": "Most early strength comes from your body learning the moves. The mirror barely changes. That's normal.",
+          "style": "body, regular, text_body_grey"
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "role": "timeline month 3",
+      "text": [
+        {
+          "string": "MONTH 3",
+          "style": "accent pill label"
+        },
+        {
+          "string": "Small Changes Show Up",
+          "style": "headline, bold, text_dark"
+        },
+        {
+          "string": "Other people might not notice yet. You will.",
+          "style": "body, regular, text_body_grey"
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "role": "timeline month 6",
+      "text": [
+        {
+          "string": "MONTH 6",
+          "style": "accent pill label"
+        },
+        {
+          "string": "Now People Notice",
+          "style": "headline, bold, text_dark"
+        },
+        {
+          "string": "Visible muscle, better posture, and weights that would have scared you on day one.",
+          "style": "body, regular, text_body_grey"
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "role": "timeline year 1",
+      "text": [
+        {
+          "string": "YEAR 1",
+          "style": "accent pill label"
+        },
+        {
+          "string": "You Look Like Someone Who Trains",
+          "style": "headline, bold, text_dark"
+        },
+        {
+          "string": "Not a fitness model. But clearly not the person who started a year ago.",
+          "style": "body, regular, text_body_grey"
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "role": "the catch",
+      "text": [
+        {
+          "string": "The Catch",
+          "style": "title, bold, text_dark, left-aligned"
+        },
+        {
+          "string": "3 workouts a week = 156 workouts a year.",
+          "style": "large, bold; '156' in accent"
+        },
+        {
+          "string": "Miss a month, lose a month. Showing up is the whole trick.",
+          "style": "body, regular, text_body_grey"
+        }
+      ],
+      "graphic": "grid of 156 small rounded squares (52 columns x 3 rows or 12 month blocks), filled accent"
+    },
+    {
+      "n": 8,
+      "role": "what slows you down",
+      "text": [
+        {
+          "string": "What Slows You Down",
+          "style": "title, bold, text_dark, left-aligned"
+        },
+        {
+          "string": "Skipping weeks",
+          "style": "✗ row"
+        },
+        {
+          "string": "Same weights for months",
+          "style": "✗ row"
+        },
+        {
+          "string": "Not enough protein",
+          "style": "✗ row"
+        },
+        {
+          "string": "Not enough sleep",
+          "style": "✗ row"
+        }
+      ]
+    },
+    {
+      "n": 9,
+      "role": "product ending",
+      "text": [
+        {
+          "string": "Your Year Starts",
+          "style": "headline line 1, bold, text_dark, left-aligned"
+        },
+        {
+          "string": "With Workout #1.",
+          "style": "headline line 2, bold, accent, left-aligned"
+        },
+        {
+          "string": "Log every workout in Lightweight and watch your year add up.",
+          "style": "body, regular, text_body_grey"
+        }
+      ],
+      "screen": "real Lightweight screenshot as in approved LW-CAR-0001 slide 8 (shows 'Workout 9' and 'Sets 35' counts)",
+      "product_claims_checked_against_real_screen": [
+        "workouts are logged and counted ('Workout 9', Workout tab)"
+      ]
+    }
+  ],
+  "claims_to_verify": [
+    "'Most early strength comes from your body learning the moves': early strength gains are largely neural (well established, e.g. Moritani & deVries, 1979). Verify the citation before quoting it.",
+    "Months 3 / 6 / 12 descriptions are deliberately qualitative: no kg or % numbers, because muscle-gain rates vary widely between people.",
+    "'3 workouts a week = 156 workouts a year': arithmetic (3 x 52).",
+    "Figures must look natural and realistic at every stage — no bodybuilder at Year 1."
+  ]
+}

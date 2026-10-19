@@ -60,3 +60,6 @@ Claude, хмарна генерація, канал точного вставл�
 
 ## LW-CAR-0010 «YOUR FIRST WEEK IN THE GYM» — власна тема для новачків
 Пакет: carousels/LW-CAR-0010/. 10 слайдів, усі готові до генерації. Full body 3×/тиждень, 5 рухів, правила для новачка, фінал «Week One Done? / Now Beat It.». Усі макети — з наших прийнятих слайдів (0001, 0002, 0007).
+
+## LW-CAR-0011 «WHAT 1 YEAR OF TRAINING ACTUALLY LOOKS LIKE» — власна тема
+Пакет: carousels/LW-CAR-0011/. 9 слайдів, усі готові до генерації. Чесна версія формату CONSISTENCY: одна фігура в 4 реалістичних стадіях, сітка 156 тренувань, фінал «Your Year Starts With Workout #1.».

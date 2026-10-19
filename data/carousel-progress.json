@@ -147,6 +147,19 @@
       "generation": "not_started",
       "user_review": "pending",
       "path": "carousels/LW-CAR-0010/"
+    },
+    {
+      "id": "LW-CAR-0011",
+      "title": "WHAT 1 YEAR OF TRAINING ACTUALLY LOOKS LIKE",
+      "source_ref": null,
+      "type": "original",
+      "content_version": "1.0",
+      "copy_status": "frozen",
+      "slides": 9,
+      "slides_blocked": [],
+      "generation": "not_started",
+      "user_review": "pending",
+      "path": "carousels/LW-CAR-0011/"
     }
   ],
   "experiments": [
