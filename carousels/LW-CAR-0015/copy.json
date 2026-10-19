@@ -1,0 +1,252 @@
+{
+  "carousel_id": "LW-CAR-0015",
+  "content_version": "1.0",
+  "status": "frozen",
+  "type": "original",
+  "language": "en",
+  "font_family": "Rubik",
+  "background": "GRID",
+  "colors": {
+    "accent": "#F26445",
+    "background": "#F0F1EB",
+    "text_dark": "#2A2A2A",
+    "text_body_grey": "#6B6B6B",
+    "white": "#FFFFFF",
+    "muscle_base_sand": "#D9CBBE",
+    "skin_ivory_approx": "#F5F0E5"
+  },
+  "source": {
+    "ref_id": null,
+    "note": "Original Lightweight copy (owner request 2026-10-19). 'SKINNY ARMS?' hook did 98K at Arrow (vs 24.5K for 'WEAK ARMS?').",
+    "visual_templates": {
+      "cover": "carousels/LW-CAR-0008/outputs/slide-01.png (front-view twin of WEAK BACK)",
+      "map": "carousels/LW-CAR-0008/outputs/slide-02.png",
+      "list": "carousels/LW-CAR-0008/outputs/slide-03.png … slide-06.png",
+      "bonus_tip": "carousels/LW-CAR-0008/outputs/slide-07.png",
+      "ending": "carousels/LW-CAR-0001/outputs/slide-08.png"
+    }
+  },
+  "caption": {
+    "text": "Skinny arms? It's usually the triceps. Save this for arm day 📌 Which one do you skip? 👇 #armday #bicepsworkout #tricepsworkout #gymtips"
+  },
+  "hook_alternatives_not_used": [
+    "ARMS NOT GROWING?",
+    "BIGGER ARMS IN 4 MOVES"
+  ],
+  "slides": [
+    {
+      "n": 1,
+      "role": "hook",
+      "text": [
+        {
+          "string": "SKINNY",
+          "style": "cover line 1, uppercase, heaviest Rubik, text_dark"
+        },
+        {
+          "string": "ARMS?",
+          "style": "cover line 2, uppercase, heaviest Rubik, accent"
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "role": "map",
+      "text": [
+        {
+          "string": "Here's The Fix",
+          "style": "title, bold, text_dark, centered"
+        },
+        {
+          "string": "BICEPS",
+          "style": "card label"
+        },
+        {
+          "string": "BRACHIALIS",
+          "style": "card label"
+        },
+        {
+          "string": "TRICEPS",
+          "style": "card label"
+        },
+        {
+          "string": "FOREARMS",
+          "style": "card label"
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "role": "list item 1",
+      "text": [
+        {
+          "string": "1",
+          "style": "white number in accent circle badge"
+        },
+        {
+          "string": "Biceps",
+          "style": "title, bold, centered"
+        },
+        {
+          "string": "2-3 Sets x 8-12 Reps",
+          "style": "subtitle, semibold, centered"
+        },
+        {
+          "string": "The peak everyone wants. Full range, no swinging.",
+          "style": "why line, regular, text_body_grey, centered"
+        },
+        {
+          "string": "Incline DB Curl",
+          "style": "exercise label"
+        },
+        {
+          "string": "OR",
+          "style": "accent badge"
+        },
+        {
+          "string": "Chin-up",
+          "style": "exercise label"
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "role": "list item 2",
+      "text": [
+        {
+          "string": "2",
+          "style": "white number in accent circle badge"
+        },
+        {
+          "string": "Brachialis",
+          "style": "title, bold, centered"
+        },
+        {
+          "string": "2-3 Sets x 8-12 Reps",
+          "style": "subtitle, semibold, centered"
+        },
+        {
+          "string": "It sits under your biceps and pushes it up. Train it with a neutral grip.",
+          "style": "why line, regular, text_body_grey, centered"
+        },
+        {
+          "string": "Hammer Curl",
+          "style": "exercise label"
+        },
+        {
+          "string": "OR",
+          "style": "accent badge"
+        },
+        {
+          "string": "Rope Hammer Curl",
+          "style": "exercise label"
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "role": "list item 3",
+      "text": [
+        {
+          "string": "3",
+          "style": "white number in accent circle badge"
+        },
+        {
+          "string": "Triceps",
+          "style": "title, bold, centered"
+        },
+        {
+          "string": "2-3 Sets x 8-12 Reps",
+          "style": "subtitle, semibold, centered"
+        },
+        {
+          "string": "The biggest muscle in your upper arm. Skip it and your arms stay small.",
+          "style": "why line, regular, text_body_grey, centered"
+        },
+        {
+          "string": "Overhead Cable Extension",
+          "style": "exercise label"
+        },
+        {
+          "string": "OR",
+          "style": "accent badge"
+        },
+        {
+          "string": "Dips",
+          "style": "exercise label"
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "role": "list item 4",
+      "text": [
+        {
+          "string": "4",
+          "style": "white number in accent circle badge"
+        },
+        {
+          "string": "Forearms",
+          "style": "title, bold, centered"
+        },
+        {
+          "string": "2-3 Sets x 10-15 Reps",
+          "style": "subtitle, semibold, centered"
+        },
+        {
+          "string": "They're on show every time you wear a T-shirt.",
+          "style": "why line, regular, text_body_grey, centered"
+        },
+        {
+          "string": "Wrist Curl",
+          "style": "exercise label"
+        },
+        {
+          "string": "OR",
+          "style": "accent badge"
+        },
+        {
+          "string": "Reverse Curl",
+          "style": "exercise label"
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "role": "bonus tip",
+      "text": [
+        {
+          "string": "Bonus Tip",
+          "style": "title, bold, accent"
+        },
+        {
+          "string": "Want them bigger for a photo? Do 20 push-ups first. It's called a pump.",
+          "style": "body, regular, text_body_grey"
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "role": "product ending",
+      "text": [
+        {
+          "string": "Are Your Arms Getting Enough Work?",
+          "style": "headline, bold, text_dark, left-aligned"
+        },
+        {
+          "string": "Log your workouts in Lightweight.",
+          "style": "body, regular, text_body_grey"
+        },
+        {
+          "string": "See how many sets your arms get compared to every other muscle.",
+          "style": "body, regular, text_body_grey"
+        }
+      ],
+      "screen": "real Lightweight Muscle balance screenshot (Arms axis), as in approved LW-CAR-0001 slide 8"
+    }
+  ],
+  "claims_to_verify": [
+    "'The biggest muscle in your upper arm': the triceps has the largest volume of the upper-arm muscles (e.g. Holzbaur et al., 2007, upper limb muscle volumes). Verify before citing.",
+    "'Brachialis pushes the biceps up': common coaching description (brachialis lies under the biceps).",
+    "Pump tip is playful and temporary by design."
+  ]
+}

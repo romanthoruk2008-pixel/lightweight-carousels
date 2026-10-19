@@ -186,6 +186,62 @@
       "generation": "not_started",
       "user_review": "pending",
       "path": "carousels/LW-CAR-0013/"
+    },
+    {
+      "id": "LW-CAR-0014",
+      "title": "NO GYM? NO PROBLEM",
+      "source_ref": null,
+      "type": "original",
+      "content_version": "1.0",
+      "copy_status": "frozen",
+      "slides": 9,
+      "background": "DOTS",
+      "slides_blocked": [],
+      "generation": "not_started",
+      "user_review": "pending",
+      "path": "carousels/LW-CAR-0014/"
+    },
+    {
+      "id": "LW-CAR-0015",
+      "title": "SKINNY ARMS?",
+      "source_ref": null,
+      "type": "original",
+      "content_version": "1.0",
+      "copy_status": "frozen",
+      "slides": 8,
+      "background": "GRID",
+      "slides_blocked": [],
+      "generation": "not_started",
+      "user_review": "pending",
+      "path": "carousels/LW-CAR-0015/"
+    },
+    {
+      "id": "LW-CAR-0016",
+      "title": "CAN'T DO A PULL-UP?",
+      "source_ref": null,
+      "type": "original",
+      "content_version": "1.0",
+      "copy_status": "frozen",
+      "slides": 9,
+      "background": "CLEAN",
+      "slides_blocked": [],
+      "generation": "not_started",
+      "user_review": "pending",
+      "path": "carousels/LW-CAR-0016/"
+    },
+    {
+      "id": "LW-CAR-0017",
+      "title": "HOW TO LOOK WIDER",
+      "source_ref": null,
+      "type": "original",
+      "content_version": "1.0",
+      "copy_status": "frozen",
+      "slides": 8,
+      "background": "PLATES",
+      "slides_blocked": [],
+      "generation": "not_started",
+      "user_review": "pending",
+      "path": "carousels/LW-CAR-0017/"
     }
   ],
   "experiments": [

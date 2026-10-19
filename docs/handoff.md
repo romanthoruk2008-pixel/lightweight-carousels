@@ -69,3 +69,7 @@ Claude, хмарна генерація, канал точного вставл�
 
 ## LW-CAR-0013 «PROGRESSIVE OVERLOAD, EXPLAINED» — власна тема
 Пакет: carousels/LW-CAR-0013/. 9 слайдів, усі готові до генерації. 4 способи прогресу (BEFORE → AFTER), таблиця на 4 тижні, «застряг?», фінал «You Can't Beat Numbers You Don't Track.». Найкраще пасує екран запису тренування.
+
+## Фон без арки + пакети LW-CAR-0014…0017
+- Правило фонів: carousels/CODEX-SERIES-RULES.md (GRID / DOTS / CLEAN / PLATES, без арки, без смужки прогресу). LW-CAR-0011 → PLATES.
+- LW-CAR-0014 «NO GYM? NO PROBLEM» (DOTS, 9), LW-CAR-0015 «SKINNY ARMS?» (GRID, 8), LW-CAR-0016 «CAN'T DO A PULL-UP?» (CLEAN, 9), LW-CAR-0017 «HOW TO LOOK WIDER» (PLATES, 8). Усі готові до генерації; у 0014 власник має підтвердити запис вправ з власною вагою в апці.

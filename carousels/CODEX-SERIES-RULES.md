@@ -13,7 +13,12 @@ Each task file lists the reference slide URLs in the **real** order. Use that or
 
 ## Substitutions (approved palette, 2026-10-18)
 - Everything bright green in the source → accent **#F26445**. That covers highlighted target muscles, accent words in headlines, "#N" numbers and number badges, short underline bars, dividers, arrows, "OR" badges and "Bonus Tip".
-- Pale-green background arch → **#FBE3DD**. Background **#F0F1EB**.
+- **Background (owner decision 2026-10-19): no arch.** The big pale arch from the references and from our older slides is the competitor's signature shape, so it is dropped. When a template slide shows the arch, ignore it. Each task file names one of four backgrounds, and the whole carousel uses it. The texture sits behind everything (text, figures, phone):
+  - `GRID`: background #F0F1EB with thin grid lines #E1E2DA, 2 px, every 54 px across the whole slide, like a training-log notebook.
+  - `DOTS`: background #F0F1EB with small dots #D4D4CC, 6 px diameter, every 45 px.
+  - `CLEAN`: plain #F0F1EB, nothing else.
+  - `PLATES`: background #F0F1EB with three concentric rings in #EAE0D6 (stroke 26 / 22 / 18 px, radius 520 / 400 / 280 px) centred near the bottom-right corner (x 1010, y 1290), mostly off the canvas, like a weight plate.
+  - No progress bar or slide counter on any background.
 - Non-highlighted muscles → warm sand **#D9CBBE**, with darker shades of the same sand for shading. No green or sage tint anywhere on the figures. Skin and tendons light ivory (about #F5F0E5). Fine grey linework.
 - Text: dark **#2A2A2A**, grey body **#6B6B6B**, white **#FFFFFF** on badges.
 - Font: **Rubik** for all text. Covers use the heaviest weight, titles bold, body regular. Rubik is wider than the sources' condensed cover font. Keep the same line breaks, scale to fit, and tell the owner if a layout cannot match. Never shorten text.

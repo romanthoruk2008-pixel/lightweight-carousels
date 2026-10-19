@@ -1,0 +1,287 @@
+{
+  "carousel_id": "LW-CAR-0014",
+  "content_version": "1.0",
+  "status": "frozen",
+  "type": "original",
+  "language": "en",
+  "font_family": "Rubik",
+  "background": "DOTS",
+  "colors": {
+    "accent": "#F26445",
+    "background": "#F0F1EB",
+    "text_dark": "#2A2A2A",
+    "text_body_grey": "#6B6B6B",
+    "white": "#FFFFFF",
+    "muscle_base_sand": "#D9CBBE",
+    "skin_ivory_approx": "#F5F0E5"
+  },
+  "source": {
+    "ref_id": null,
+    "note": "Original Lightweight copy (owner request 2026-10-19). Bodyweight full body for home and calisthenics viewers.",
+    "visual_templates": {
+      "cover": "carousels/LW-CAR-0002/outputs/slide-01.png",
+      "all_you_need": "carousels/LW-CAR-0007/outputs/slide-07.png",
+      "moves": "carousels/LW-CAR-0002/outputs/slide-03.png … slide-08.png",
+      "too_easy": "carousels/LW-CAR-0007/outputs/slide-07.png",
+      "ending": "carousels/LW-CAR-0001/outputs/slide-08.png"
+    }
+  },
+  "caption": {
+    "text": "No gym, no excuses. Save this for the days you can't make it 📌 Which one is hardest for you? 👇 #homeworkout #calisthenics #bodyweightworkout #noequipment"
+  },
+  "hook_alternatives_not_used": [
+    "THE NO-EQUIPMENT WORKOUT",
+    "TRAIN ANYWHERE"
+  ],
+  "slides": [
+    {
+      "n": 1,
+      "role": "hook",
+      "text": [
+        {
+          "string": "NO GYM?",
+          "style": "cover line 1, uppercase, heaviest Rubik, text_dark"
+        },
+        {
+          "string": "NO PROBLEM.",
+          "style": "cover line 2, uppercase, heaviest Rubik, accent"
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "role": "all you need",
+      "text": [
+        {
+          "string": "All You Need",
+          "style": "title, bold, text_dark, left-aligned"
+        },
+        {
+          "string": "Your body",
+          "style": "checklist row"
+        },
+        {
+          "string": "A floor",
+          "style": "checklist row"
+        },
+        {
+          "string": "A sturdy table",
+          "style": "checklist row"
+        },
+        {
+          "string": "A backpack",
+          "style": "checklist row"
+        },
+        {
+          "string": "That's a full-body workout.",
+          "style": "bold, accent"
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "role": "move #1",
+      "text": [
+        {
+          "string": "#1",
+          "style": "big number, bold, accent"
+        },
+        {
+          "string": "Legs",
+          "style": "title, bold, text_dark"
+        },
+        {
+          "string": "2-3 sets x 10-20 reps",
+          "style": "sets line, regular, text_body_grey"
+        },
+        {
+          "string": "Too easy? Switch to split squats and let one leg do all the work.",
+          "style": "cue, regular, text_body_grey, two lines"
+        },
+        {
+          "string": "Bodyweight Squat",
+          "style": "left exercise label"
+        },
+        {
+          "string": "Bulgarian Split Squat",
+          "style": "right exercise label"
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "role": "move #2",
+      "text": [
+        {
+          "string": "#2",
+          "style": "big number, bold, accent"
+        },
+        {
+          "string": "Push",
+          "style": "title, bold, text_dark"
+        },
+        {
+          "string": "2-3 sets x 8-15 reps",
+          "style": "sets line, regular, text_body_grey"
+        },
+        {
+          "string": "Floor push-ups too hard? Put your hands on a chair or a bed.",
+          "style": "cue, regular, text_body_grey, two lines"
+        },
+        {
+          "string": "Push-up",
+          "style": "left exercise label"
+        },
+        {
+          "string": "Incline Push-up",
+          "style": "right exercise label"
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "role": "move #3",
+      "text": [
+        {
+          "string": "#3",
+          "style": "big number, bold, accent"
+        },
+        {
+          "string": "Pull",
+          "style": "title, bold, text_dark"
+        },
+        {
+          "string": "2-3 sets x 8-15 reps",
+          "style": "sets line, regular, text_body_grey"
+        },
+        {
+          "string": "No bar? Fill a backpack with books and row it.",
+          "style": "cue, regular, text_body_grey, two lines"
+        },
+        {
+          "string": "Table Row",
+          "style": "left exercise label"
+        },
+        {
+          "string": "Backpack Row",
+          "style": "right exercise label"
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "role": "move #4",
+      "text": [
+        {
+          "string": "#4",
+          "style": "big number, bold, accent"
+        },
+        {
+          "string": "Glutes",
+          "style": "title, bold, text_dark"
+        },
+        {
+          "string": "2-3 sets x 10-20 reps",
+          "style": "sets line, regular, text_body_grey"
+        },
+        {
+          "string": "Squeeze your glutes at the top for a full second.",
+          "style": "cue, regular, text_body_grey, two lines"
+        },
+        {
+          "string": "Glute Bridge",
+          "style": "left exercise label"
+        },
+        {
+          "string": "Single-Leg Glute Bridge",
+          "style": "right exercise label"
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "role": "move #5",
+      "text": [
+        {
+          "string": "#5",
+          "style": "big number, bold, accent"
+        },
+        {
+          "string": "Core",
+          "style": "title, bold, text_dark"
+        },
+        {
+          "string": "2-3 sets x 20-40 sec",
+          "style": "sets line, regular, text_body_grey"
+        },
+        {
+          "string": "Squeeze your glutes and don't let your hips sag.",
+          "style": "cue, regular, text_body_grey, two lines"
+        },
+        {
+          "string": "Plank",
+          "style": "left exercise label"
+        },
+        {
+          "string": "Side Plank",
+          "style": "right exercise label"
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "role": "getting too easy",
+      "text": [
+        {
+          "string": "Getting Too Easy?",
+          "style": "title, bold, text_dark, left-aligned"
+        },
+        {
+          "string": "Slow down: 3 seconds on the way down",
+          "style": "checked row"
+        },
+        {
+          "string": "Pause for a second at the bottom",
+          "style": "checked row"
+        },
+        {
+          "string": "Add more reps",
+          "style": "checked row"
+        },
+        {
+          "string": "Move to the harder version",
+          "style": "checked row"
+        },
+        {
+          "string": "Bodyweight still counts. Just keep making it harder.",
+          "style": "bold, accent"
+        }
+      ]
+    },
+    {
+      "n": 9,
+      "role": "product ending",
+      "text": [
+        {
+          "string": "Train Anywhere.",
+          "style": "headline line 1, bold, text_dark, left-aligned"
+        },
+        {
+          "string": "Track Everything.",
+          "style": "headline line 2, bold, accent, left-aligned"
+        },
+        {
+          "string": "Log every workout in Lightweight, at home or in the gym.",
+          "style": "body, regular, text_body_grey"
+        }
+      ],
+      "screen": "real Lightweight screenshot as in approved LW-CAR-0001 slide 8",
+      "owner_to_confirm": "Lightweight lets people log bodyweight / home exercises. If not, the ending line must change."
+    }
+  ],
+  "claims_to_verify": [
+    "Standard bodyweight exercise choices and coaching cues.",
+    "Table rows: only under a sturdy table that cannot tip; the visual shows a solid table.",
+    "Progression methods (tempo, pauses, reps, harder variation) are standard coaching."
+  ]
+}

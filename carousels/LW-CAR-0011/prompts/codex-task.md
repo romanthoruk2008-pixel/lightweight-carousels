@@ -2,7 +2,7 @@
 
 First read `carousels/CODEX-SERIES-RULES.md`. It covers palette, Rubik, logo, phone ending, format, saving, manifest, no added punctuation, no clipped text. Exact copy: `carousels/LW-CAR-0011/copy.json` (content_version 1.0). Repository: romanthoruk2008-pixel/lightweight-carousels, branch `claude/charming-einstein-xgejky`.
 
-Our own carousel, in the same series style. **The whole point is honesty.** Competitor transformation posts get called "unrealistic" in the comments. Ours shows a believable natural year.
+Our own carousel, in the same series style. **Background: `PLATES`** (see series rules; no arch). **The whole point is honesty.** Competitor transformation posts get called "unrealistic" in the comments. Ours shows a believable natural year.
 
 ## The most important rule: one figure, four honest stages
 The same anatomical mannequin appears at four stages: **DAY 1, MONTH 3, MONTH 6, YEAR 1**. Same pose, same front view, same framing, same size on every slide where it appears, so swiping feels like watching one body change.

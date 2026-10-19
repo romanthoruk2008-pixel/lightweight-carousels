@@ -1,0 +1,269 @@
+{
+  "carousel_id": "LW-CAR-0016",
+  "content_version": "1.0",
+  "status": "frozen",
+  "type": "original",
+  "language": "en",
+  "font_family": "Rubik",
+  "background": "CLEAN",
+  "colors": {
+    "accent": "#F26445",
+    "background": "#F0F1EB",
+    "text_dark": "#2A2A2A",
+    "text_body_grey": "#6B6B6B",
+    "white": "#FFFFFF",
+    "muscle_base_sand": "#D9CBBE",
+    "skin_ivory_approx": "#F5F0E5"
+  },
+  "source": {
+    "ref_id": null,
+    "note": "Original Lightweight copy (owner request 2026-10-19: pull-up progression). Calisthenics and beginners.",
+    "visual_templates": {
+      "cover": "carousels/LW-CAR-0001/outputs/slide-01.png",
+      "overview": "carousels/LW-CAR-0002/outputs/slide-02.png (list)",
+      "levels": "timeline layout of LW-CAR-0011 slides 3-6 (pill + headline + body + figure) and BEFORE/AFTER card style of LW-CAR-0013",
+      "ending": "carousels/LW-CAR-0001/outputs/slide-08.png"
+    }
+  },
+  "caption": {
+    "text": "Can't do a pull-up yet? Follow these 6 levels. Save this 📌 Which level are you on? 👇 #pullups #calisthenics #pullupprogression #beginnerworkout"
+  },
+  "hook_alternatives_not_used": [
+    "PULL-UP PROGRESSION",
+    "YOUR FIRST PULL-UP IN 6 STEPS"
+  ],
+  "slides": [
+    {
+      "n": 1,
+      "role": "hook",
+      "text": [
+        {
+          "string": "CAN'T DO",
+          "style": "cover line 1, uppercase, heaviest Rubik, text_dark"
+        },
+        {
+          "string": "A PULL-UP?",
+          "style": "cover line 2, uppercase, heaviest Rubik, accent"
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "role": "how it works",
+      "text": [
+        {
+          "string": "6 Levels. In Order.",
+          "style": "title, bold, text_dark, left-aligned"
+        },
+        {
+          "string": "Hit the target on each level, then move up.",
+          "style": "body, regular, text_body_grey"
+        },
+        {
+          "string": "Dead Hang",
+          "style": "list row 1"
+        },
+        {
+          "string": "Scapular Pulls",
+          "style": "list row 2"
+        },
+        {
+          "string": "Inverted Rows",
+          "style": "list row 3"
+        },
+        {
+          "string": "Negatives",
+          "style": "list row 4"
+        },
+        {
+          "string": "Band-Assisted Pull-ups",
+          "style": "list row 5"
+        },
+        {
+          "string": "Your First Pull-up",
+          "style": "list row 6, accent"
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "role": "level 1",
+      "text": [
+        {
+          "string": "LEVEL 1",
+          "style": "accent pill label"
+        },
+        {
+          "string": "Dead Hang",
+          "style": "headline, bold, text_dark"
+        },
+        {
+          "string": "Hang from the bar with straight arms. Just hold on.",
+          "style": "body, regular, text_body_grey"
+        },
+        {
+          "string": "TARGET",
+          "style": "small caps label, accent"
+        },
+        {
+          "string": "3 x 30 sec",
+          "style": "target value, bold, text_dark"
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "role": "level 2",
+      "text": [
+        {
+          "string": "LEVEL 2",
+          "style": "accent pill label"
+        },
+        {
+          "string": "Scapular Pulls",
+          "style": "headline, bold, text_dark"
+        },
+        {
+          "string": "Hang, then pull your shoulders down without bending your arms.",
+          "style": "body, regular, text_body_grey"
+        },
+        {
+          "string": "TARGET",
+          "style": "small caps label, accent"
+        },
+        {
+          "string": "3 x 8",
+          "style": "target value, bold, text_dark"
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "role": "level 3",
+      "text": [
+        {
+          "string": "LEVEL 3",
+          "style": "accent pill label"
+        },
+        {
+          "string": "Inverted Rows",
+          "style": "headline, bold, text_dark"
+        },
+        {
+          "string": "Under a low bar or a sturdy table, pull your chest up to it.",
+          "style": "body, regular, text_body_grey"
+        },
+        {
+          "string": "TARGET",
+          "style": "small caps label, accent"
+        },
+        {
+          "string": "3 x 12",
+          "style": "target value, bold, text_dark"
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "role": "level 4",
+      "text": [
+        {
+          "string": "LEVEL 4",
+          "style": "accent pill label"
+        },
+        {
+          "string": "Negatives",
+          "style": "headline, bold, text_dark"
+        },
+        {
+          "string": "Jump to the top, then lower yourself as slowly as you can.",
+          "style": "body, regular, text_body_grey"
+        },
+        {
+          "string": "TARGET",
+          "style": "small caps label, accent"
+        },
+        {
+          "string": "3 x 5 (5-sec lowering)",
+          "style": "target value, bold, text_dark"
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "role": "level 5",
+      "text": [
+        {
+          "string": "LEVEL 5",
+          "style": "accent pill label"
+        },
+        {
+          "string": "Band-Assisted Pull-ups",
+          "style": "headline, bold, text_dark"
+        },
+        {
+          "string": "A resistance band takes some of your weight.",
+          "style": "body, regular, text_body_grey"
+        },
+        {
+          "string": "TARGET",
+          "style": "small caps label, accent"
+        },
+        {
+          "string": "3 x 8",
+          "style": "target value, bold, text_dark"
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "role": "level 6",
+      "text": [
+        {
+          "string": "LEVEL 6",
+          "style": "accent pill label"
+        },
+        {
+          "string": "Your First Pull-up",
+          "style": "headline, bold, text_dark"
+        },
+        {
+          "string": "Chin over the bar. Then go for two.",
+          "style": "body, regular, text_body_grey"
+        },
+        {
+          "string": "TARGET",
+          "style": "small caps label, accent"
+        },
+        {
+          "string": "1 rep",
+          "style": "target value, bold, text_dark"
+        }
+      ]
+    },
+    {
+      "n": 9,
+      "role": "product ending",
+      "text": [
+        {
+          "string": "Track Every Level.",
+          "style": "headline line 1, bold, text_dark, left-aligned"
+        },
+        {
+          "string": "Celebrate Rep #1.",
+          "style": "headline line 2, bold, accent, left-aligned"
+        },
+        {
+          "string": "Log your sets in Lightweight and watch the reps add up.",
+          "style": "body, regular, text_body_grey"
+        }
+      ],
+      "screen": "real Lightweight screenshot as in approved LW-CAR-0001 slide 8 (Workout and Sets counts)"
+    }
+  ],
+  "claims_to_verify": [
+    "The 6-step order (hang → scapular pulls → rows → negatives → assisted → full) is a standard calisthenics progression.",
+    "Targets per level are coaching heuristics, not study results.",
+    "No timeline promised on purpose: it differs a lot between people."
+  ]
+}

@@ -1,0 +1,297 @@
+{
+  "carousel_id": "LW-CAR-0017",
+  "content_version": "1.0",
+  "status": "frozen",
+  "type": "original",
+  "language": "en",
+  "font_family": "Rubik",
+  "background": "PLATES",
+  "colors": {
+    "accent": "#F26445",
+    "background": "#F0F1EB",
+    "text_dark": "#2A2A2A",
+    "text_body_grey": "#6B6B6B",
+    "white": "#FFFFFF",
+    "muscle_base_sand": "#D9CBBE",
+    "skin_ivory_approx": "#F5F0E5"
+  },
+  "source": {
+    "ref_id": null,
+    "note": "Original Lightweight copy (owner request 2026-10-19): width / V-taper, popular with a young audience.",
+    "visual_templates": {
+      "cover": "carousels/LW-CAR-0008/outputs/slide-01.png (front view)",
+      "formula_map": "carousels/LW-CAR-0008/outputs/slide-02.png",
+      "list": "carousels/LW-CAR-0008/outputs/slide-03.png … slide-06.png",
+      "width_day": "table style of carousels/LW-CAR-0013/outputs/slide-07.png",
+      "ending": "carousels/LW-CAR-0001/outputs/slide-08.png"
+    }
+  },
+  "caption": {
+    "text": "Wide shoulders, wide back, tight waist. That's the V-taper. Save this 📌 Which one is your weak point? 👇 #vtaper #shoulderworkout #backworkout #aesthetics"
+  },
+  "hook_alternatives_not_used": [
+    "BUILD THE V-TAPER",
+    "WANT WIDER SHOULDERS?"
+  ],
+  "slides": [
+    {
+      "n": 1,
+      "role": "hook",
+      "text": [
+        {
+          "string": "HOW TO",
+          "style": "cover line 1, uppercase, heaviest Rubik, text_dark"
+        },
+        {
+          "string": "LOOK WIDER",
+          "style": "cover line 2, uppercase, heaviest Rubik, accent"
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "role": "the formula",
+      "text": [
+        {
+          "string": "The V-Taper Formula",
+          "style": "title, bold, text_dark, centered"
+        },
+        {
+          "string": "Wide Shoulders",
+          "style": "formula part 1"
+        },
+        {
+          "string": "+",
+          "style": "operator, accent"
+        },
+        {
+          "string": "Wide Back",
+          "style": "formula part 2"
+        },
+        {
+          "string": "+",
+          "style": "operator, accent"
+        },
+        {
+          "string": "Tight Waist",
+          "style": "formula part 3"
+        },
+        {
+          "string": "SIDE DELTS",
+          "style": "card label"
+        },
+        {
+          "string": "LATS",
+          "style": "card label"
+        },
+        {
+          "string": "REAR DELTS",
+          "style": "card label"
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "role": "list item 1",
+      "text": [
+        {
+          "string": "1",
+          "style": "white number in accent circle badge"
+        },
+        {
+          "string": "Side Delts",
+          "style": "title, bold, centered"
+        },
+        {
+          "string": "2-3 Sets x 12-20 Reps",
+          "style": "subtitle, semibold, centered"
+        },
+        {
+          "string": "They make your shoulders wider from the front. Most people undertrain them.",
+          "style": "why line, regular, text_body_grey, centered"
+        },
+        {
+          "string": "Lateral Raise",
+          "style": "exercise label"
+        },
+        {
+          "string": "OR",
+          "style": "accent badge"
+        },
+        {
+          "string": "Cable Lateral Raise",
+          "style": "exercise label"
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "role": "list item 2",
+      "text": [
+        {
+          "string": "2",
+          "style": "white number in accent circle badge"
+        },
+        {
+          "string": "Lats",
+          "style": "title, bold, centered"
+        },
+        {
+          "string": "2-3 Sets x 8-12 Reps",
+          "style": "subtitle, semibold, centered"
+        },
+        {
+          "string": "Your lats give your back its width.",
+          "style": "why line, regular, text_body_grey, centered"
+        },
+        {
+          "string": "Lat Pulldown",
+          "style": "exercise label"
+        },
+        {
+          "string": "OR",
+          "style": "accent badge"
+        },
+        {
+          "string": "Pull-ups",
+          "style": "exercise label"
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "role": "list item 3",
+      "text": [
+        {
+          "string": "3",
+          "style": "white number in accent circle badge"
+        },
+        {
+          "string": "Rear Delts",
+          "style": "title, bold, centered"
+        },
+        {
+          "string": "2-3 Sets x 12-15 Reps",
+          "style": "subtitle, semibold, centered"
+        },
+        {
+          "string": "They round out your shoulders from the side and the back.",
+          "style": "why line, regular, text_body_grey, centered"
+        },
+        {
+          "string": "Reverse Pec Dec",
+          "style": "exercise label"
+        },
+        {
+          "string": "OR",
+          "style": "accent badge"
+        },
+        {
+          "string": "Face Pull",
+          "style": "exercise label"
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "role": "waist",
+      "text": [
+        {
+          "string": "4",
+          "style": "white number in accent circle badge"
+        },
+        {
+          "string": "The Waist",
+          "style": "title, bold, centered"
+        },
+        {
+          "string": "Same shoulders. Smaller waist. Looks wider.",
+          "style": "large, bold, text_dark, centered"
+        },
+        {
+          "string": "That mostly comes from your diet, not from ab exercises.",
+          "style": "body, regular, text_body_grey, centered"
+        },
+        {
+          "string": "BEFORE",
+          "style": "small caps label under left figure"
+        },
+        {
+          "string": "AFTER",
+          "style": "small caps label under right figure, accent"
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "role": "width day example",
+      "text": [
+        {
+          "string": "Width Day",
+          "style": "title, bold, text_dark, left-aligned"
+        },
+        {
+          "string": "Add this to any week:",
+          "style": "body, regular, text_body_grey"
+        },
+        {
+          "string": "Lat Pulldown",
+          "style": "row"
+        },
+        {
+          "string": "3 x 10",
+          "style": "row value"
+        },
+        {
+          "string": "Lateral Raise",
+          "style": "row"
+        },
+        {
+          "string": "4 x 15",
+          "style": "row value"
+        },
+        {
+          "string": "Pull-ups",
+          "style": "row"
+        },
+        {
+          "string": "3 x max",
+          "style": "row value"
+        },
+        {
+          "string": "Face Pull",
+          "style": "row"
+        },
+        {
+          "string": "3 x 15",
+          "style": "row value"
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "role": "product ending",
+      "text": [
+        {
+          "string": "Are Your Shoulders And Back Keeping Up?",
+          "style": "headline, bold, text_dark, left-aligned"
+        },
+        {
+          "string": "Log your workouts in Lightweight.",
+          "style": "body, regular, text_body_grey"
+        },
+        {
+          "string": "See how many sets your back and shoulders really get.",
+          "style": "body, regular, text_body_grey"
+        }
+      ],
+      "screen": "real Lightweight Muscle balance screenshot (Back and Shoulders axes), as in approved LW-CAR-0001 slide 8"
+    }
+  ],
+  "claims_to_verify": [
+    "Side delts, lats and rear delts as the width muscles: standard coaching.",
+    "'Waist mostly comes from diet, not ab exercises': spot reduction does not work (well supported); kept general.",
+    "Higher reps for side/rear delts: common coaching preference, not a rule.",
+    "Width Day sets are an example, not a prescription."
+  ]
+}
