@@ -19,6 +19,7 @@ Each task file lists the reference slide URLs in the **real** order. Use that or
   - `CLEAN`: plain #F0F1EB, nothing else.
   - `PLATES`: background #F0F1EB with three concentric rings in #EAE0D6 (stroke 26 / 22 / 18 px, radius 520 / 400 / 280 px) centred near the bottom-right corner (x 1010, y 1290), mostly off the canvas, like a weight plate.
   - No progress bar or slide counter on any background.
+  - Already generated carousels with the arch (LW-CAR-0001…0010, 0012, 0013) stay as they are. Do not repaint their backgrounds.
 - Non-highlighted muscles → warm sand **#D9CBBE**, with darker shades of the same sand for shading. No green or sage tint anywhere on the figures. Skin and tendons light ivory (about #F5F0E5). Fine grey linework.
 - Text: dark **#2A2A2A**, grey body **#6B6B6B**, white **#FFFFFF** on badges.
 - Font: **Rubik** for all text. Covers use the heaviest weight, titles bold, body regular. Rubik is wider than the sources' condensed cover font. Keep the same line breaks, scale to fit, and tell the owner if a layout cannot match. Never shorten text.
