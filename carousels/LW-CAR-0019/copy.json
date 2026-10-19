@@ -30,7 +30,7 @@
       1,
       3
     ],
-    "chosen": null
+    "chosen": "none: owner keeps the current anatomy figure (2026-10-19)"
   },
   "caption": "The simpliest guide for you to build your entire back! #backday #backworkout #gymtips",
   "slides": [
@@ -254,5 +254,19 @@
         }
       ]
     }
-  ]
+  ],
+  "font_test": {
+    "status": "open",
+    "reason": "Owner 2026-10-19: keep the figure, change the font. Image-model text only imitates Rubik; text is now set by code with real font files.",
+    "candidates": [
+      "rubik",
+      "poppins",
+      "nunito"
+    ],
+    "test_slides": [
+      1,
+      3
+    ],
+    "chosen": null
+  }
 }

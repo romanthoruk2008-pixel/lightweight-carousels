@@ -260,7 +260,7 @@
     },
     {
       "id": "LW-CAR-0019",
-      "title": "WEAK BACK? (minimal figure style test)",
+      "title": "WEAK BACK? (font test)",
       "source_ref": "REF-007",
       "type": "style_test",
       "content_version": "1.0",
@@ -268,9 +268,9 @@
       "slides": 8,
       "background": "GRID",
       "slides_blocked": [],
-      "generation": "not_started",
+      "generation": "style test A/B/C done, rejected",
       "user_review": "pending",
-      "next_action": "Codex: style test, slides 1 and 3 in variants A/B/C; owner picks one; then the full carousel in that style",
+      "next_action": "Codex: Step 1b font test, slides 1 and 3, art without text + text by code in Rubik / Poppins / Nunito; owner picks the font",
       "path": "carousels/LW-CAR-0019/"
     }
   ],

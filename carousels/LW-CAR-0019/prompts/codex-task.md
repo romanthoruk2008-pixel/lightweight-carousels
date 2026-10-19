@@ -38,3 +38,29 @@ For each variant, record in `carousels/LW-CAR-0019/manifest.json`: variant, slid
 
 ## Step 2 — full carousel (only after the owner picks a variant)
 Generate slides 1–8 in the chosen variant into `carousels/LW-CAR-0019/outputs/slide-01.png` … `slide-08.png`. You may reuse the chosen test images for slides 1 and 3 if the owner approved them as they are. Slide 8 is the product ending: same composition, text and real Lightweight screenshot as the approved `carousels/LW-CAR-0001/outputs/slide-08.png`; the hand holding the phone is drawn in the chosen style. Never generate, redraw or imitate the app UI. Write `caption.txt` from `copy.json` → `caption`, verbatim, build the ZIP, and commit the whole carousel in one commit.
+
+---
+
+## Step 1b — font test (owner decision 2026-10-19; replaces Step 2)
+The owner reviewed variants A, B and C and **does not want the minimal figures**. Keep the figure exactly as it is now on the approved slides (`carousels/LW-CAR-0001/outputs/`, `carousels/LW-CAR-0017/outputs/`): semi-realistic anatomy mannequin, sand muscles, coral target. **Ignore variants A/B/C and do not do Step 2.**
+
+What changes is the **font**. The text on our slides so far was drawn by the image model. It only imitates Rubik: tight spacing, a different shape, not the font of our logo. Now the text is set by code with real font files, so it looks exactly like the logo's font. Comparison mock-up: `carousels/LW-CAR-0019/production-assets/font-mockup-claude.png`.
+
+### How
+1. **Art without text.** For slide 1 and slide 3, generate the slide with the **current figure style** and the same layout as `carousels/LW-CAR-0001/outputs/slide-01.png` / `slide-03.png`, on the `GRID` background. Leave **all text areas empty background**: no letters, numbers, words, badges, pills, underline bars or "OR" circles anywhere. Only the background, the figures and the equipment. Keep the top 110 px empty for the logo. Save as `carousels/LW-CAR-0019/production-assets/art-slide-01.png` and `art-slide-03.png` (1080 x 1350, flattened RGB).
+2. **Text by code.** Write `carousels/LW-CAR-0019/prompts/font-test/render_text.py` (Pillow). It draws on top of the art, at the positions and sizes of the template slide:
+   - every text string from `copy.json`, exactly;
+   - the #F26445 number badge, the short #F26445 underline bar and the #F26445 "OR" circle with white text;
+   - on the cover, `WEAK` #2A2A2A and `BACK?` #F26445 in the heaviest weight, with a soft grey offset shadow (a copy of the text in about #C9C9C2, offset about 6 px right and 6 px down, under the main text), and the small coral splat dot under the "?";
+   - then the logo file `assets/logo/lightweight-logo-full.png` at x 48, y 19, 341 x 71.
+   Text must never overlap a figure. If it does not fit, make the font smaller, never cut the text.
+3. **Fonts** (files in `assets/fonts/`, all free OFL licences). Render both slides in each of the three fonts: 6 images.
+
+| Font | Files | Cover | Titles | Subtitles, labels | Body |
+|---|---|---|---|---|---|
+| `rubik` (the logo font) | `Rubik[wght].ttf` (variable: `font.set_variation_by_axes([weight])`) | 900 | 700 | 600 | 400 |
+| `poppins` | `Poppins-Black/Bold/SemiBold/Regular.ttf` | Black | Bold | SemiBold | Regular |
+| `nunito` (rounder, softer) | `Nunito[wght].ttf` (variable) | 900 | 800 | 700 | 500 |
+
+   Save as `carousels/LW-CAR-0019/outputs/font-test/rubik-slide-01.png`, `rubik-slide-03.png`, `poppins-…`, `nunito-…`.
+4. Record everything in `manifest.json` (`agent_visual_review: not_performed`, `user_review: pending`), commit in one commit, show the owner the 6 images and **stop**. The owner chooses a font. After that, the whole carousel and future carousels use the same art-without-text plus text-by-code process.
