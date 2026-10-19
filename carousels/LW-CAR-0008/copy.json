@@ -1,0 +1,259 @@
+{
+  "carousel_id": "LW-CAR-0008",
+  "content_version": "1.0",
+  "status": "frozen",
+  "type": "original",
+  "source": {
+    "ref_id": null,
+    "note": "Original Lightweight topic and copy (owner request 2026-10-19). Same structure as our approved WEAK BACK? (LW-CAR-0001), adapted from the proven 'WEAK ___?' hook (765K views at Arrow). Bodyweight option on 3 of 4 list slides so calisthenics viewers are included.",
+    "visual_templates": {
+      "cover": "carousels/LW-CAR-0001/outputs/slide-01.png (front view instead of rear)",
+      "map": "carousels/LW-CAR-0001/outputs/slide-02.png (front view, 4 cards)",
+      "list": "carousels/LW-CAR-0006/outputs/slide-03.png … slide-07.png (badge, title, sets, why line, close-up, A OR B)",
+      "bonus_tip": "carousels/LW-CAR-0001/outputs/slide-08.png top text area",
+      "ending": "carousels/LW-CAR-0001/outputs/slide-08.png"
+    }
+  },
+  "language": "en",
+  "font_family": "Rubik",
+  "colors": {
+    "accent": "#F26445",
+    "accent_tint_background_shape": "#FBE3DD",
+    "background": "#F0F1EB",
+    "text_dark": "#2A2A2A",
+    "text_body_grey": "#6B6B6B",
+    "white": "#FFFFFF",
+    "muscle_base_sand": "#D9CBBE",
+    "skin_ivory_approx": "#F5F0E5"
+  },
+  "caption": {
+    "text": "Chest not growing? Fix it with these 4. Save this for your next chest day 📌 Which one do you skip? 👇 #chestday #chestworkout #gymtips #calisthenics",
+    "notes": "Save prompt + question. No 'lifters' (owner rule for new carousels)."
+  },
+  "hook_alternatives_not_used": [
+    "CHEST NOT GROWING?",
+    "FLAT CHEST?"
+  ],
+  "slides": [
+    {
+      "n": 1,
+      "role": "hook",
+      "text": [
+        {
+          "string": "WEAK",
+          "style": "cover line 1, uppercase, heaviest Rubik, text_dark"
+        },
+        {
+          "string": "CHEST?",
+          "style": "cover line 2, uppercase, heaviest Rubik, accent"
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "role": "map",
+      "text": [
+        {
+          "string": "Let's Fix That",
+          "style": "title, bold, text_dark, centered"
+        },
+        {
+          "string": "UPPER CHEST",
+          "style": "card label, white caps on dark bar"
+        },
+        {
+          "string": "MID CHEST",
+          "style": "card label"
+        },
+        {
+          "string": "LOWER CHEST",
+          "style": "card label"
+        },
+        {
+          "string": "TRICEPS",
+          "style": "card label"
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "role": "list item 1",
+      "text": [
+        {
+          "string": "1",
+          "style": "white number in accent circle badge"
+        },
+        {
+          "string": "Upper Chest",
+          "style": "title, bold, centered"
+        },
+        {
+          "string": "2-3 Sets x 6-10 Reps",
+          "style": "subtitle, semibold, centered"
+        },
+        {
+          "string": "Most chest training misses the top. Incline work fills it in.",
+          "style": "why line, regular, text_body_grey, centered, max two lines"
+        },
+        {
+          "string": "Incline DB Press",
+          "style": "exercise label"
+        },
+        {
+          "string": "OR",
+          "style": "accent badge"
+        },
+        {
+          "string": "Low-To-High Cable Fly",
+          "style": "exercise label"
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "role": "list item 2",
+      "text": [
+        {
+          "string": "2",
+          "style": "white number in accent circle badge"
+        },
+        {
+          "string": "Mid Chest",
+          "style": "title, bold, centered"
+        },
+        {
+          "string": "2-3 Sets x 6-10 Reps",
+          "style": "subtitle, semibold, centered"
+        },
+        {
+          "string": "Your main pressing muscle. Get strong here first.",
+          "style": "why line, regular, text_body_grey, centered, max two lines"
+        },
+        {
+          "string": "Flat Bench Press",
+          "style": "exercise label"
+        },
+        {
+          "string": "OR",
+          "style": "accent badge"
+        },
+        {
+          "string": "Push-up",
+          "style": "exercise label"
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "role": "list item 3",
+      "text": [
+        {
+          "string": "3",
+          "style": "white number in accent circle badge"
+        },
+        {
+          "string": "Lower Chest",
+          "style": "title, bold, centered"
+        },
+        {
+          "string": "2-3 Sets x 8-12 Reps",
+          "style": "subtitle, semibold, centered"
+        },
+        {
+          "string": "Dips and high-to-low flies hit the lower fibers.",
+          "style": "why line, regular, text_body_grey, centered, max two lines"
+        },
+        {
+          "string": "Chest Dips",
+          "style": "exercise label"
+        },
+        {
+          "string": "OR",
+          "style": "accent badge"
+        },
+        {
+          "string": "High-To-Low Cable Fly",
+          "style": "exercise label"
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "role": "list item 4",
+      "text": [
+        {
+          "string": "4",
+          "style": "white number in accent circle badge"
+        },
+        {
+          "string": "Triceps",
+          "style": "title, bold, centered"
+        },
+        {
+          "string": "2-3 Sets x 8-12 Reps",
+          "style": "subtitle, semibold, centered"
+        },
+        {
+          "string": "Weak triceps cut your presses short.",
+          "style": "why line, regular, text_body_grey, centered, max two lines"
+        },
+        {
+          "string": "Cable Pushdown",
+          "style": "exercise label"
+        },
+        {
+          "string": "OR",
+          "style": "accent badge"
+        },
+        {
+          "string": "Diamond Push-up",
+          "style": "exercise label"
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "role": "bonus tip",
+      "text": [
+        {
+          "string": "Bonus Tip",
+          "style": "title, bold, accent"
+        },
+        {
+          "string": "Slow down the lowering and get a deep stretch at the bottom of every rep.",
+          "style": "body, regular, text_body_grey"
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "role": "product ending",
+      "text": [
+        {
+          "string": "Is Your Chest Getting Enough Work?",
+          "style": "headline, bold, text_dark, left-aligned"
+        },
+        {
+          "string": "Log your workouts in Lightweight.",
+          "style": "body, regular, text_body_grey"
+        },
+        {
+          "string": "See how many sets your chest gets compared to every other muscle.",
+          "style": "body, regular, text_body_grey"
+        }
+      ],
+      "screen": "real Lightweight Progress / Muscle balance screenshot (as in approved LW-CAR-0001 slide 8): radar with a Chest axis, 'Based on Working sets'",
+      "product_claims_checked_against_real_screen": [
+        "working sets per muscle group compared on one radar (Chest, Back, Arms, Shoulders, Core, Legs)",
+        "workouts are logged (Workout tab)"
+      ]
+    }
+  ],
+  "claims_to_verify": [
+    "'Incline work fills in the top': incline pressing emphasises the clavicular (upper) chest — broadly supported by EMG and hypertrophy research; no single study cited on the slide.",
+    "'Dips and high-to-low flies hit the lower fibers': common coaching guidance based on fibre direction; kept as a plain statement.",
+    "'Weak triceps cut your presses short': triceps drive the lockout of presses; coaching statement.",
+    "'deep stretch at the bottom': consistent with recent research favouring training at long muscle lengths; no study cited on the slide.",
+    "Rep ranges are generic hypertrophy guidance."
+  ]
+}
