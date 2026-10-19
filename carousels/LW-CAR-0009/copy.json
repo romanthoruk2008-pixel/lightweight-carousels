@@ -1,0 +1,256 @@
+{
+  "carousel_id": "LW-CAR-0009",
+  "content_version": "1.0",
+  "status": "frozen",
+  "type": "original",
+  "source": {
+    "ref_id": null,
+    "note": "Original Lightweight copy (owner request 2026-10-19). Third part of the series after LW-CAR-0002 (push, approved) and LW-CAR-0004 (pull). Same 'Structure the perfect ___ day' format, which had the best saves/likes ratio (67-74%).",
+    "visual_templates": {
+      "all_slides": "carousels/LW-CAR-0002/outputs/slide-01.png … slide-09.png (approved push day): cover, checklist, list template, ending"
+    }
+  },
+  "language": "en",
+  "font_family": "Rubik",
+  "colors": {
+    "accent": "#F26445",
+    "accent_tint_background_shape": "#FBE3DD",
+    "background": "#F0F1EB",
+    "text_dark": "#2A2A2A",
+    "text_body_grey": "#6B6B6B",
+    "white": "#FFFFFF",
+    "muscle_base_sand": "#D9CBBE",
+    "skin_ivory_approx": "#F5F0E5"
+  },
+  "caption": {
+    "text": "Build your perfect leg day: pick one exercise from each slot. Save this for your next leg day 📌 Which one do you always skip? 👇 #legday #legworkout #gymtips #calisthenics",
+    "notes": "Save prompt + question. No 'lifters'."
+  },
+  "hook_alternatives_not_used": [
+    "THE ONLY LEG DAY YOU NEED",
+    "STOP SKIPPING LEG DAY"
+  ],
+  "slides": [
+    {
+      "n": 1,
+      "role": "hook",
+      "text": [
+        {
+          "string": "STRUCTURE",
+          "style": "cover line 1, uppercase, heaviest Rubik, text_dark"
+        },
+        {
+          "string": "THE PERFECT",
+          "style": "cover line 2, uppercase, heaviest Rubik, text_dark"
+        },
+        {
+          "string": "LEG DAY",
+          "style": "cover line 3, uppercase, heaviest Rubik, accent"
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "role": "overview checklist",
+      "text": [
+        {
+          "string": "Your Leg Day\nShould Include:",
+          "style": "title, bold, text_dark, left-aligned, two lines"
+        },
+        {
+          "string": "1x Quads (Squat Pattern)",
+          "style": "bullet; '1x' regular, 'Quads' bold, bracket regular"
+        },
+        {
+          "string": "1x Hamstrings (Hinge or Curl)",
+          "style": "bullet; 'Hamstrings' bold"
+        },
+        {
+          "string": "1x Glutes (Hip Extension)",
+          "style": "bullet; 'Glutes' bold"
+        },
+        {
+          "string": "1x Adductors (Inner Thigh)",
+          "style": "bullet; 'Adductors' bold"
+        },
+        {
+          "string": "1x Calves",
+          "style": "bullet; 'Calves' bold"
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "role": "list item #1",
+      "text": [
+        {
+          "string": "#1",
+          "style": "big number, bold, accent"
+        },
+        {
+          "string": "Quads",
+          "style": "title, bold, text_dark"
+        },
+        {
+          "string": "2-3 sets x 6-10 reps",
+          "style": "sets line, regular, text_body_grey"
+        },
+        {
+          "string": "Choose one of these exercises to build your quads:",
+          "style": "body, regular, text_body_grey, two lines"
+        },
+        {
+          "string": "Hack Squat",
+          "style": "left exercise label"
+        },
+        {
+          "string": "Bulgarian Split Squat",
+          "style": "right exercise label"
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "role": "list item #2",
+      "text": [
+        {
+          "string": "#2",
+          "style": "big number, bold, accent"
+        },
+        {
+          "string": "Hamstrings",
+          "style": "title, bold, text_dark"
+        },
+        {
+          "string": "2-3 sets x 8-12 reps",
+          "style": "sets line, regular, text_body_grey"
+        },
+        {
+          "string": "Choose one of these exercises to train your hamstrings:",
+          "style": "body, regular, text_body_grey, two lines"
+        },
+        {
+          "string": "Romanian Deadlift",
+          "style": "left exercise label"
+        },
+        {
+          "string": "Seated Leg Curl",
+          "style": "right exercise label"
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "role": "list item #3",
+      "text": [
+        {
+          "string": "#3",
+          "style": "big number, bold, accent"
+        },
+        {
+          "string": "Glutes",
+          "style": "title, bold, text_dark"
+        },
+        {
+          "string": "2-3 sets x 8-12 reps",
+          "style": "sets line, regular, text_body_grey"
+        },
+        {
+          "string": "Choose one of these exercises to grow your glutes:",
+          "style": "body, regular, text_body_grey, two lines"
+        },
+        {
+          "string": "Hip Thrust",
+          "style": "left exercise label"
+        },
+        {
+          "string": "Walking Lunges",
+          "style": "right exercise label"
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "role": "list item #4",
+      "text": [
+        {
+          "string": "#4",
+          "style": "big number, bold, accent"
+        },
+        {
+          "string": "Adductors",
+          "style": "title, bold, text_dark"
+        },
+        {
+          "string": "2-3 sets x 10-15 reps",
+          "style": "sets line, regular, text_body_grey"
+        },
+        {
+          "string": "Choose one of these exercises to train your inner thighs:",
+          "style": "body, regular, text_body_grey, two lines"
+        },
+        {
+          "string": "Adductor Machine",
+          "style": "left exercise label"
+        },
+        {
+          "string": "Cable Hip Adduction",
+          "style": "right exercise label"
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "role": "list item #5",
+      "text": [
+        {
+          "string": "#5",
+          "style": "big number, bold, accent"
+        },
+        {
+          "string": "Calves",
+          "style": "title, bold, text_dark"
+        },
+        {
+          "string": "2-3 sets x 10-15 reps",
+          "style": "sets line, regular, text_body_grey"
+        },
+        {
+          "string": "Choose one of these exercises to grow your calves:",
+          "style": "body, regular, text_body_grey, two lines"
+        },
+        {
+          "string": "Standing Calf Raise",
+          "style": "left exercise label"
+        },
+        {
+          "string": "Single-Leg Calf Raise",
+          "style": "right exercise label"
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "role": "product ending",
+      "text": [
+        {
+          "string": "Track Your Leg Day.",
+          "style": "headline line 1, heaviest Rubik, text_dark, left-aligned"
+        },
+        {
+          "string": "See If Your Legs Keep Up.",
+          "style": "headline line 2, heaviest Rubik, accent, left-aligned"
+        }
+      ],
+      "screen": "real Lightweight Progress / Muscle balance screenshot (as in approved LW-CAR-0002 slide 9 / LW-CAR-0001 slide 8): radar with a Legs axis",
+      "product_claims_checked_against_real_screen": [
+        "workouts are logged (Workout tab)",
+        "Legs is one axis of the working-sets radar, so legs can be compared with the rest"
+      ]
+    }
+  ],
+  "claims_to_verify": [
+    "Exercise-to-muscle choices are standard (squat pattern for quads, RDL / leg curl for hamstrings, hip thrust / lunges for glutes, adduction for adductors, calf raises for calves).",
+    "Rep ranges are generic hypertrophy guidance."
+  ]
+}
