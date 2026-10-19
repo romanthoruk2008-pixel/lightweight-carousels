@@ -1,0 +1,14 @@
+Create ONE Harda S2 fitness instruction slide, 1080 × 1350 px, by editing the supplied approved layout master. Preserve its heavy tight lowercase grotesk typography, spacing, fine white/light-grey training-mannequin rendering, coral markers and solid opaque off-white #F0F1EB background.
+
+Exact headline: "#11" followed by "21s". Dark #2A2A2A heavy lowercase grotesk, same large size as master. Flat coral #F26445 marker behind LOWER PART of "21s" only, not "#11".
+Under it exactly FIVE five-point stars: first fully coral #F26445; second LEFT half coral and RIGHT half light grey #D6D6D2; remaining three entirely light grey. Rating 1.5 out of 5, no extra rating text.
+Exact body, regular dark sans, left aligned, up to two lines:
+a fun burn, but the weight is too light to grow.
+No changes to wording, punctuation or lowercase.
+
+Lower ~60%: a white/light-grey faceless SPORTS TRAINING MANNEQUIN in clearly visible OPAQUE loose dark charcoal #2A2A2A ATHLETIC SHORTS reaching to just above the knees, with a visible fabric waistband, seams and loose fabric folds. Keep the same fine grey muscle shading and white figure style as the source. Normal athletic proportions. This is a neutral gym-exercise instruction diagram. All hip and upper-leg areas are fully covered by the solid fabric shorts.
+The mannequin stands FRONT VIEW doing a light straight-bar biceps curl HALFWAY UP. Both hands hold the same light straight bar with palms up, elbows close to sides, forearms about horizontal; feet planted, full body visible. Black/grey equipment only. NO resistance band, cable or dumbbells. No coloured muscles.
+Keep the illustration separate from the lettering and entirely inside the canvas.
+
+Leave top 110 px completely blank on uninterrupted #F0F1EB: do not generate any logo, brand text, dinosaur, placeholder rectangle or patch. The original transparent Harda logo will be pasted at x48,y19,218×71 px using its own alpha. Remove the source logo from the generated image.
+All headline, body, stars and illustration must be generated TOGETHER. No other words, new numbers, signatures, watermarks, progress bars, cards, grid, arch or texture. Return one finished opaque slide, not a collage.

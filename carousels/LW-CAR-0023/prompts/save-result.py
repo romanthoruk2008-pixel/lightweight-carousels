@@ -20,10 +20,14 @@ action, number = sys.argv[1:3]
 entry = next(s for s in manifest['slides'] if s['slide'] == int(number))
 now = datetime.now(timezone.utc).isoformat()
 if action == 'start':
-    if int(number) not in manifest.get('authorized_slides', [1, 2, 3]) or entry['attempts']:
-        raise RuntimeError('Slide outside current owner authorization or an attempt already exists')
+    limit = manifest.get('attempt_limits', {}).get(str(number), 1)
+    if (int(number) not in manifest.get('authorized_slides', [1, 2, 3])
+            or len(entry['attempts']) >= limit
+            or entry['save_status'] == 'saved_to_repository_checkout'):
+        raise RuntimeError('Slide outside owner authorization or authorized attempt limit reached')
     entry['save_status'] = 'generation_in_progress'
-    entry['attempts'].append({'attempt': 1, 'tool': 'image_gen.imagegen',
+    entry['attempts'].append({'attempt': len(entry['attempts']) + 1, 'tool': 'image_gen.imagegen',
+        'prompt_file': entry['prompt_file'],
         'started_at': now, 'status': 'in_progress', 'transparent_background': False,
         'referenced_image_paths': [str(checkout / r) for r in entry['references']]})
 elif action == 'save':
@@ -63,6 +67,9 @@ elif action == 'save':
         'logo': 'original harda-logo-full.png, x48,y19,218x71, own alpha, no backing patch'}})
     manifest['generated_images'] = sum(s['save_status'] == 'saved_to_repository_checkout'
                                         for s in manifest['slides'])
+    manifest['new_images_this_continuation'] = max(0, manifest['generated_images'] - 3)
+    manifest['next_slide_to_generate'] = next((s['slide'] for s in manifest['slides']
+        if s['save_status'] != 'saved_to_repository_checkout'), None)
 else:
     raise ValueError('Use start or save')
 path.write_text(json.dumps(manifest, ensure_ascii=False, indent=2) + '\n')
