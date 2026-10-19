@@ -1,0 +1,27 @@
+LW-CAR-0020, copy.json content_version 1.1. Continue the owner-approved series. FIRST image is the approved v1.1 layout/style master. Match its typography, sizes, colours, spacing, white anatomical drawing and premium clean look. Any additional reference screenshot is a POSE GUIDE ONLY; its left slide is at approximately x139..1073, ignore all TikTok UI. Every word, exercise and rating below comes from our copy.json v1.1 and replaces the reference content. Never copy screenshot text.
+
+Output ONE complete 1080 × 1350 px portrait 4:5 PNG with all lettering and illustration generated together. Solid opaque #F0F1EB CLEAN background. No arch, texture, grid, dots, transparency or checkerboard. Headlines heavy tight lowercase grotesk #2A2A2A as in the approved master, not Rubik. Body clean regular sans #2A2A2A, left-aligned, up to two lines. Secondary tier lines italic grey #6B6B6B. Coral #F26445 flat marker behind the LOWER PART of exercise NAME only, not the #number. Stars coral #F26445 filled, light grey #D6D6D2 empty. No white text cards.
+
+Mannequin: realistic WHITE/LIGHT-GREY anatomical male, bald faceless, fine grey muscle shading/fibres, featureless smooth pelvis, dark #2A2A2A shorts, natural athletic proportions as in the approved master. No coloured muscles on these exercise slides, no sand/beige, no minimal-flat, clay or cartoon figure. Equipment black/grey. All artwork and labels fully within the frame, never obscure text.
+
+TOP 110 px must remain completely clear of text and objects on uninterrupted background. Do NOT draw or invent any logo or wordmark: the original full Lightweight logo file will be inserted at x48,y19,341×71 px using its own transparency, no backing patch. Start headings below y110. No extra words, captions, signatures, watermarks, slide counters or added punctuation. Exact lowercase, apostrophes and spelling below.
+
+AUTHORITATIVE STRINGS FROM copy.json v1.1:
+"lightweight tracks every set you lift and shows which muscles you’re forgetting."
+"log your workouts and check your muscle balance, so you keep making progress."
+
+SLIDE 19: LIGHTWEIGHT PRODUCT ENDING. First master supplies this carousel's typography/white drawing style; second image supplies ONLY the phone/hand composition, not old text or arch.
+Headline exact: "lightweight tracks every set you lift and shows which muscles you’re forgetting."
+Set it large heavy lowercase grotesk, left-aligned at x65, below y125, keeping ALL words readable, using five lines:
+lightweight tracks
+every set you lift
+and shows
+which muscles you’re
+forgetting.
+Flat coral marker bars behind LOWER PART of "every set you lift" and "which muscles you’re forgetting" (latter may span lines).
+Body exact: "log your workouts and check your muscle balance, so you keep making progress."
+Clean regular sans dark, left-aligned, up to two lines below the headline, completed above y660. No extra headings or words.
+Lower part: WHITE/LIGHT-GREY sketch anatomical hand, natural grey linework/shading consistent with this carousel, holding a tall black smartphone tilted mildly clockwise, lower end off canvas. Match the second source's handset shape and scale but translate its placement DOWN by exactly 200 px: source phone top near (530,525) becomes (530,725), right top near (900,640) becomes (900,840), left phone edge near x420. Hand enters from bottom left, fingers wrap naturally at the right. Keep all phone/hand pixels below y700.
+CRITICAL: the display must be EMPTY UNIFORM BLACK. Do not generate ANY app UI, chart, icons, scores, status bar, mock text or replica screenshot. The real approved phone/screen bitmap will be inserted in precisely this reserved handset position afterwards, at its ORIGINAL scale and proportions. Do not render screen content. Generate the white hand and surrounding slide only. Do not include the second source's beige hand colour or arch.
+
+Return exactly one complete opaque slide, not a sheet or comparison.

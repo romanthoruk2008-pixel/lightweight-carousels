@@ -22,15 +22,15 @@ entry = next(s for s in manifest['slides'] if s['slide'] == int(number))
 now = datetime.now(timezone.utc).isoformat()
 
 if action == 'start':
-    if int(number) not in [1, 2, 3]:
-        raise RuntimeError('Only the initial three slides are authorized before owner approval')
+    if int(number) not in manifest.get('authorized_slides', [1, 2, 3]):
+        raise RuntimeError('Slide is outside the current owner-authorized scope')
     if entry['attempts']:
         raise RuntimeError('Existing attempt: reconcile instead of automatically retrying')
     entry['save_status'] = 'generation_in_progress'
     entry['attempts'].append({
         'attempt': 1, 'tool': 'image_gen.imagegen', 'started_at': now,
         'status': 'in_progress', 'transparent_background': False,
-        'referenced_image_paths': [str(checkout / entry['reference'])],
+        'referenced_image_paths': [str(checkout / value) for value in entry.get('references', [entry['reference']])],
     })
 elif action == 'save':
     raw_path = Path(sys.argv[3])
@@ -42,6 +42,23 @@ elif action == 'save':
     with Image.open(checkout / 'assets/logo/lightweight-logo-full.png') as original_logo:
         logo = original_logo.convert('RGBA').resize((341, 71), Image.Resampling.LANCZOS)
         canvas.alpha_composite(logo, (48, 19))
+    if int(number) == 19:
+        # The generator supplies only the new text, white hand, and blank phone.
+        # Insert the real approved screen/phone pixels without rescaling the UI.
+        import shutil
+        shutil.copyfile(raw_path, carousel / 'production-assets/slide-19-generated-blank-display.png')
+        phone = Image.open(carousel / 'production-assets/approved-phone-pixels.png').convert('RGBA')
+        placed = Image.new('RGBA', canvas.size, (0, 0, 0, 0))
+        placed.alpha_composite(phone, (0, 200))
+        canvas.alpha_composite(placed)
+        entry['phone_compositing'] = {
+            'source': 'carousels/LW-CAR-0001/outputs/slide-08.png',
+            'source_image_commit': 'cd6634266498d9b23367182aa46c62278658bb41',
+            'asset': 'production-assets/approved-phone-pixels.png',
+            'method': 'original phone and UI pixels retained at 1:1 scale; translated x=0,y=200; bottom cropped by canvas',
+            'ui_generated_or_retyped': False,
+            'hand': 'newly generated white/light-grey hand',
+        }
     output = carousel / entry['file']
     output.parent.mkdir(parents=True, exist_ok=True)
     canvas.convert('RGB').save(output, format='PNG')

@@ -1,13 +1,11 @@
-# LW-CAR-0020 v1.1 — initial three slides
+# LW-CAR-0020 v1.1 — all 19 slides generated
 
-Generated slides 1, 2 and 3 anew from copy.json v1.1. REF-008 screenshots were used only for design; previous LW-CAR-0020 images were not generation inputs.
+The complete 19-slide carousel is in outputs/slide-01.png through outputs/slide-19.png. Exact text, exercises and ratings come from copy.json v1.1. Caption is copied verbatim. Every final PNG is 1080 × 1350 RGB without alpha.
 
-- Slide 1: chest / tier list / (ranked worst to best).
-- Slide 2: F / tier / skip these.
-- Slide 3: #12 svend press, one star, standing mannequin squeezing two small plates together with arms forward. Copy: you feel a burn, but there’s almost no load on your chest.
+The owner approved slides 1–3 from commit e1d3bdf in this chat and explicitly authorized continuation. Those images were retained unchanged. Slides 4–19 were generated once each; exact prompts, returned files, save status and any errors are in manifest.json. New slides are user_review=pending. agent_visual_review=not_performed for the entire carousel. No visual QA, OCR, reviewer agents, automatic correction or regeneration passes were run.
 
-All final PNGs are 1080 × 1350 RGB with the original logo file composited at x48,y19,341×71, no backing patch. Prompts and actual attempts are recorded in manifest.json. Caption is verbatim copy.json v1.1. The ZIP contains only the new v1.1 initial outputs and current supporting files.
+Slide 19 uses a newly generated white/light-grey hand and text, with the approved LW-CAR-0001 phone/UI pixels composited as an existing bitmap, at 1:1 scale and original tilt, translated downward by 200 px. The phone may run off the bottom edge. App UI was not generated, retyped, warped or squeezed. Source, mask preparation and export steps are retained under production-assets/ and prompts/save-result.py.
 
-STOP and wait for owner OK before slide 4 (db pullover) or any other slide. Carousel remains incomplete. agent_visual_review=not_performed; user_review=pending. No visual QA, OCR or automatic correction passes were performed.
+The full ZIP contains the 19 numbered outputs, caption, copy, manifest, prompts and production assets. The earlier three-slide ZIP has been superseded by the full archive.
 
-The superseded v1.0 batch remains in Git at d1be22e, including its exact outputs, prompts and manifest; it must not be used as current content.
+Next action: owner reviews slides 4–19 and names any specific requested changes. Do not regenerate slides 1–3 without an explicit request. Earlier v1.0 outputs remain in Git history at d1be22e and are superseded.

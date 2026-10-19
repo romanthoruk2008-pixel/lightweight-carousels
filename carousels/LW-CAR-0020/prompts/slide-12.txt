@@ -1,0 +1,16 @@
+LW-CAR-0020, copy.json content_version 1.1. Continue the owner-approved series. FIRST image is the approved v1.1 layout/style master. Match its typography, sizes, colours, spacing, white anatomical drawing and premium clean look. Any additional reference screenshot is a POSE GUIDE ONLY; its left slide is at approximately x139..1073, ignore all TikTok UI. Every word, exercise and rating below comes from our copy.json v1.1 and replaces the reference content. Never copy screenshot text.
+
+Output ONE complete 1080 × 1350 px portrait 4:5 PNG with all lettering and illustration generated together. Solid opaque #F0F1EB CLEAN background. No arch, texture, grid, dots, transparency or checkerboard. Headlines heavy tight lowercase grotesk #2A2A2A as in the approved master, not Rubik. Body clean regular sans #2A2A2A, left-aligned, up to two lines. Secondary tier lines italic grey #6B6B6B. Coral #F26445 flat marker behind the LOWER PART of exercise NAME only, not the #number. Stars coral #F26445 filled, light grey #D6D6D2 empty. No white text cards.
+
+Mannequin: realistic WHITE/LIGHT-GREY anatomical male, bald faceless, fine grey muscle shading/fibres, featureless smooth pelvis, dark #2A2A2A shorts, natural athletic proportions as in the approved master. No coloured muscles on these exercise slides, no sand/beige, no minimal-flat, clay or cartoon figure. Equipment black/grey. All artwork and labels fully within the frame, never obscure text.
+
+TOP 110 px must remain completely clear of text and objects on uninterrupted background. Do NOT draw or invent any logo or wordmark: the original full Lightweight logo file will be inserted at x48,y19,341×71 px using its own transparency, no backing patch. Start headings below y110. No extra words, captions, signatures, watermarks, slide counters or added punctuation. Exact lowercase, apostrophes and spelling below.
+
+AUTHORITATIVE STRINGS FROM copy.json v1.1:
+"A"
+"tier"
+"worth your time"
+
+SLIDE 12: TIER DIVIDER. Copy the approved F tier master composition exactly, with ONLY these substitutions. Rounded square tile colour #FF9A52, big white bold letter "A" with subtle grey soft letter shadow; to its right huge dark lowercase "tier". Below the group centered italic grey exactly "worth your time". Keep the same generous empty space and the same sizes/positions as the master. NO stars, mannequin, equipment or added decoration.
+
+Return exactly one complete opaque slide, not a sheet or comparison.
