@@ -1,6 +1,6 @@
 # App Store page — draft v1 (2026-10-19)
 
-Status: **draft**. Brand is a placeholder `[Brand]` (Lightweight will not be used). Keyword choice is based on observed evidence (App Store autocomplete, competitor metadata, reviews); search volume / difficulty are **not yet validated** (AppTweak step pending).
+Status: **draft**. Brand decided by the owner on 2026-10-19: **Harda** (Lightweight will not be used). Keyword choice is based on observed evidence (App Store autocomplete, competitor metadata, reviews); search volume / difficulty are **not yet validated** (AppTweak step pending).
 
 ---
 
@@ -26,15 +26,14 @@ Status: **draft**. Brand is a placeholder `[Brand]` (Lightweight will not be use
 
 ## 2. Name + subtitle (3 options)
 
-Brand length assumed ≤ 9 characters. Limits: name 30, subtitle 30.
+Limits: name 30, subtitle 30.
 
 | | App Name | Subtitle | Covers |
 |---|---|---|---|
-| **A (recommended)** | `[Brand]: Gym Workout Tracker` (28) | `Lifting Log with Friends` (24) | workout tracker, gym tracker, gym workout tracker, lifting log, workout log, gym log (cross-field), workout with friends, workout tracker with friends |
-| B | `[Brand]: Workout Tracker` (24) | `Gym Log & Lifting Planner` (25) | workout tracker, gym log, lifting planner, workout planner — classic, mirrors leaders, no differentiator |
-| C | `[Brand]: Lifting Tracker` (24) | `Gym Log for Phone & Watch` (25) | lifting tracker, gym log, watch workout log — leads with Apple Watch |
+| **A (recommended)** | `Harda: Gym Workout Tracker` (26) | `Lifting Log with Friends` (24) | workout tracker, gym tracker, gym workout tracker, lifting log, workout log, gym log (cross-field), workout with friends, workout tracker with friends |
+| B | `Harda: Workout Tracker` (22) | `Gym Log & Lifting Planner` (25) | workout tracker, gym log, lifting planner, workout planner — classic, mirrors leaders, no differentiator |
+| C | `Harda: Lifting Tracker` (22) | `Gym Log for Phone & Watch` (25) | lifting tracker, gym log, watch workout log — leads with Apple Watch |
 
-If the brand is longer than 9 characters, A becomes `[Brand]: Workout Tracker`.
 
 ## 3. Keywords (for option A)
 
@@ -45,9 +44,9 @@ Words already in name/subtitle (gym, workout, tracker, lifting, log, with, frien
 weightlifting,weight,strength,training,planner,routine,program,journal,buddy,streak,progress,watch
 ```
 
-**Spanish (Mexico) localization — second keyword field for the US store** (industry practice, not documented by Apple) — 100 characters:
+**Spanish (Mexico) localization — second keyword field for the US store** (industry practice, not documented by Apple) — 98 characters. `harder` catches people who hear "Harda" and type it as "harder":
 ```
-overload,beginner,split,push,pull,legs,5x5,body,measurement,photo,rest,timer,calendar,notebook,notes
+overload,beginner,split,push,pull,legs,5x5,body,measurement,photo,rest,timer,calendar,harder,notes
 ```
 
 Not used on purpose: competitor names (Hevy, Strong…), "Strava", "Apple Watch", "free", "app", "fitness" (category), 2-letter tokens ("PR", "AI").
@@ -66,7 +65,7 @@ Log every set in seconds and see what you lifted last time. Bring your program f
 ## 5. Description
 
 ```
-Log your lifts in seconds, see what you did last time, and keep each other going with friends. [Brand] is a workout tracker for iPhone and Apple Watch, built for how you actually train.
+Log your lifts in seconds, see what you did last time, and keep each other going with friends. Harda is a workout tracker for iPhone and Apple Watch, built for how you actually train.
 
 LOG FAST, RIGHT IN THE GYM
 • Weight, reps and sets in a few taps, with numbers you can read mid-set
@@ -76,7 +75,7 @@ LOG FAST, RIGHT IN THE GYM
 • Personal records saved as you hit them
 
 BRING THE PROGRAM YOU ALREADY HAVE
-• A screenshot, a photo of your notebook, text or your voice: [Brand] turns it into routines you can start right away
+• A screenshot, a photo of your notebook, text or your voice: Harda turns it into routines you can start right away
 • Switching apps? Import your workout history from any app that exports CSV
 
 A PLAN WHEN YOU NEED ONE. FULL CONTROL WHEN YOU DON'T.
@@ -110,7 +109,7 @@ A green dinosaur who drops in now and then to comment on your training. Resting 
 kg or lb, cm or in. Your call.
 
 PREMIUM
-[Brand] is free to download. Some features require a [Brand] Premium subscription, and new subscribers can try it free. Payment is charged to your Apple Account at confirmation of purchase. The subscription renews automatically unless canceled at least 24 hours before the end of the current period. Manage or cancel it in your Apple Account settings.
+Harda is free to download. Some features require a Harda Premium subscription, and new subscribers can try it free. Payment is charged to your Apple Account at confirmation of purchase. The subscription renews automatically unless canceled at least 24 hours before the end of the current period. Manage or cancel it in your Apple Account settings.
 
 Terms of Use: [URL]
 Privacy Policy: [URL]
@@ -157,7 +156,7 @@ Watch UI only, no device frame; one consistent size for all localizations.
 
 ## 10. Missing before publishing
 
-1. Brand name (and a check of the final name).
+1. Brand: Harda chosen. Still to do: manual trademark checks (EU national registers, Ukraine, Turkey), a short trademark-attorney review (near-sound "Hardy" app and EU mark HARDY 019146970 in classes 9/41/42), domains and social handles.
 2. Terms of Use (EULA) and Privacy Policy URLs; support URL.
 3. Apple Watch without iPhone — test result.
 4. Free vs Premium list (to keep screenshots honest).

@@ -18,3 +18,9 @@ Gym Rat, Buff, Jacked, Beefcake, Meathead, GOAT, Gains/Gainz, Pump, Swole, Bulk,
 
 ## Стан
 Власник може залишити Lightweight після консультації юриста. Сирі дані агентів були в scratchpad сесії (не збережені).
+
+## Рішення (2026-10-19)
+Власник обрав **Harda**. Чому: звучить як бренд (як Strava/Nike), читається як "harder" (подача як у Hevy = heavy), позитивні значення в PL (горда) і UA (гарда шаблі); контраст із Серьожею як джерело гумору.
+Перевірено: US App Store/Google Play/14 сторів — немає застосунку Harda; USPTO — лише HARDA клас 11 (Harda Intelligent Technologies, Reg. 6799403); EUIPO/Madrid — лише IR 1553473 HARDA клас 11 (діє в EU, GB, MX). Домени: harda.com і harda.app зайняті; hardaapp.com, getharda.com, harda.fit вільні (RDAP 404). YouTube/TikTok @harda зайняті; @hardaapp, @getharda ймовірно вільні.
+Ризики: схожий застосунок "Hardy: smart workout routines" і EU-марка HARDY 019146970 (кл. 9/41/42); Google-видача — місто Harda (Індія) і вибух на фабриці 2024; на слух пишуть "harder".
+Не перевірено (капчі): національні реєстри ЄС, Україна, Туреччина, Instagram/X/Threads.
