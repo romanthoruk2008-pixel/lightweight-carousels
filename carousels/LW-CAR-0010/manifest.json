@@ -4,10 +4,10 @@
   "content_version": "1.0",
   "content_commit": "f257f76577a386ba44b5d34cf2c8977dba475ad9",
   "source_ref": null,
-  "status": "complete_pending_owner_review",
+  "status": "complete_owner_approved",
   "expected_slide_count": 10,
   "agent_visual_review": "not_performed",
-  "user_review": "pending",
+  "user_review": "approved",
   "slides": [
     {
       "slide_number": 1,
@@ -29,20 +29,40 @@
           "prompt_file": "carousels/LW-CAR-0010/prompts/slide-01.txt",
           "finished_at": "2026-10-19T09:01:53.673025+00:00",
           "result_original_path": "/workspace/generated_images/exec-4c52f8ab-2703-4dd3-bf70-9a1d9a5627b2.png",
-          "user_review": "pending",
-          "agent_visual_review": "not_performed"
+          "user_review": "approved",
+          "agent_visual_review": "not_performed",
+          "owner_approval": {
+            "date": "2026-10-19",
+            "timezone": "Europe/Kyiv",
+            "approved_by": "owner",
+            "source": "Explicit acceptance of all current carousel images in this chat, with instruction to push accepted-by-user status.",
+            "output_commit": "ad7a85921067ec0ff6bfe66ac75f0e8ffda8a94b",
+            "scope": "all ten current final slides, including the assembled phone ending",
+            "file": "carousels/LW-CAR-0010/outputs/slide-01.png",
+            "approval_scope": "final delivered output after any required assembly"
+          }
         }
       ],
       "errors": [],
       "save_status": "saved_repository_file",
       "agent_visual_review": "not_performed",
-      "user_review": "pending",
+      "user_review": "approved",
       "generation_result_original_path": "/workspace/generated_images/exec-4c52f8ab-2703-4dd3-bf70-9a1d9a5627b2.png",
       "export_dimensions": {
         "width": 1080,
         "height": 1350
       },
-      "export_method": "Uniform fit and centered canvas extent to 1080x1350; preplanned exact copy of approved wordmark strip at original position, no independent-axis stretch."
+      "export_method": "Uniform fit and centered canvas extent to 1080x1350; preplanned exact copy of approved wordmark strip at original position, no independent-axis stretch.",
+      "owner_approval": {
+        "date": "2026-10-19",
+        "timezone": "Europe/Kyiv",
+        "approved_by": "owner",
+        "source": "Explicit acceptance of all current carousel images in this chat, with instruction to push accepted-by-user status.",
+        "output_commit": "ad7a85921067ec0ff6bfe66ac75f0e8ffda8a94b",
+        "scope": "all ten current final slides, including the assembled phone ending",
+        "file": "carousels/LW-CAR-0010/outputs/slide-01.png"
+      },
+      "remote_save_status": "saved_github"
     },
     {
       "slide_number": 2,
@@ -64,20 +84,40 @@
           "prompt_file": "carousels/LW-CAR-0010/prompts/slide-02.txt",
           "finished_at": "2026-10-19T09:02:57.293157+00:00",
           "result_original_path": "/workspace/generated_images/exec-480123a4-2987-42bf-b23a-4936ccac92df.png",
-          "user_review": "pending",
-          "agent_visual_review": "not_performed"
+          "user_review": "approved",
+          "agent_visual_review": "not_performed",
+          "owner_approval": {
+            "date": "2026-10-19",
+            "timezone": "Europe/Kyiv",
+            "approved_by": "owner",
+            "source": "Explicit acceptance of all current carousel images in this chat, with instruction to push accepted-by-user status.",
+            "output_commit": "ad7a85921067ec0ff6bfe66ac75f0e8ffda8a94b",
+            "scope": "all ten current final slides, including the assembled phone ending",
+            "file": "carousels/LW-CAR-0010/outputs/slide-02.png",
+            "approval_scope": "final delivered output after any required assembly"
+          }
         }
       ],
       "errors": [],
       "save_status": "saved_repository_file",
       "agent_visual_review": "not_performed",
-      "user_review": "pending",
+      "user_review": "approved",
       "generation_result_original_path": "/workspace/generated_images/exec-480123a4-2987-42bf-b23a-4936ccac92df.png",
       "export_dimensions": {
         "width": 1080,
         "height": 1350
       },
-      "export_method": "Uniform fit and centered canvas extent to 1080x1350; preplanned exact copy of approved wordmark strip at original position, no independent-axis stretch."
+      "export_method": "Uniform fit and centered canvas extent to 1080x1350; preplanned exact copy of approved wordmark strip at original position, no independent-axis stretch.",
+      "owner_approval": {
+        "date": "2026-10-19",
+        "timezone": "Europe/Kyiv",
+        "approved_by": "owner",
+        "source": "Explicit acceptance of all current carousel images in this chat, with instruction to push accepted-by-user status.",
+        "output_commit": "ad7a85921067ec0ff6bfe66ac75f0e8ffda8a94b",
+        "scope": "all ten current final slides, including the assembled phone ending",
+        "file": "carousels/LW-CAR-0010/outputs/slide-02.png"
+      },
+      "remote_save_status": "saved_github"
     },
     {
       "slide_number": 3,
@@ -99,20 +139,40 @@
           "prompt_file": "carousels/LW-CAR-0010/prompts/slide-03.txt",
           "finished_at": "2026-10-19T09:03:46.728873+00:00",
           "result_original_path": "/workspace/generated_images/exec-b5079ce9-309b-44ad-ab76-dfdca5f88c7f.png",
-          "user_review": "pending",
-          "agent_visual_review": "not_performed"
+          "user_review": "approved",
+          "agent_visual_review": "not_performed",
+          "owner_approval": {
+            "date": "2026-10-19",
+            "timezone": "Europe/Kyiv",
+            "approved_by": "owner",
+            "source": "Explicit acceptance of all current carousel images in this chat, with instruction to push accepted-by-user status.",
+            "output_commit": "ad7a85921067ec0ff6bfe66ac75f0e8ffda8a94b",
+            "scope": "all ten current final slides, including the assembled phone ending",
+            "file": "carousels/LW-CAR-0010/outputs/slide-03.png",
+            "approval_scope": "final delivered output after any required assembly"
+          }
         }
       ],
       "errors": [],
       "save_status": "saved_repository_file",
       "agent_visual_review": "not_performed",
-      "user_review": "pending",
+      "user_review": "approved",
       "generation_result_original_path": "/workspace/generated_images/exec-b5079ce9-309b-44ad-ab76-dfdca5f88c7f.png",
       "export_dimensions": {
         "width": 1080,
         "height": 1350
       },
-      "export_method": "Uniform fit and centered canvas extent to 1080x1350; preplanned exact copy of approved wordmark strip at original position, no independent-axis stretch."
+      "export_method": "Uniform fit and centered canvas extent to 1080x1350; preplanned exact copy of approved wordmark strip at original position, no independent-axis stretch.",
+      "owner_approval": {
+        "date": "2026-10-19",
+        "timezone": "Europe/Kyiv",
+        "approved_by": "owner",
+        "source": "Explicit acceptance of all current carousel images in this chat, with instruction to push accepted-by-user status.",
+        "output_commit": "ad7a85921067ec0ff6bfe66ac75f0e8ffda8a94b",
+        "scope": "all ten current final slides, including the assembled phone ending",
+        "file": "carousels/LW-CAR-0010/outputs/slide-03.png"
+      },
+      "remote_save_status": "saved_github"
     },
     {
       "slide_number": 4,
@@ -134,20 +194,40 @@
           "prompt_file": "carousels/LW-CAR-0010/prompts/slide-04.txt",
           "finished_at": "2026-10-19T09:05:06.811143+00:00",
           "result_original_path": "/workspace/generated_images/exec-90a0a9f2-5eb6-44ed-aa5f-8794fa46959e.png",
-          "user_review": "pending",
-          "agent_visual_review": "not_performed"
+          "user_review": "approved",
+          "agent_visual_review": "not_performed",
+          "owner_approval": {
+            "date": "2026-10-19",
+            "timezone": "Europe/Kyiv",
+            "approved_by": "owner",
+            "source": "Explicit acceptance of all current carousel images in this chat, with instruction to push accepted-by-user status.",
+            "output_commit": "ad7a85921067ec0ff6bfe66ac75f0e8ffda8a94b",
+            "scope": "all ten current final slides, including the assembled phone ending",
+            "file": "carousels/LW-CAR-0010/outputs/slide-04.png",
+            "approval_scope": "final delivered output after any required assembly"
+          }
         }
       ],
       "errors": [],
       "save_status": "saved_repository_file",
       "agent_visual_review": "not_performed",
-      "user_review": "pending",
+      "user_review": "approved",
       "generation_result_original_path": "/workspace/generated_images/exec-90a0a9f2-5eb6-44ed-aa5f-8794fa46959e.png",
       "export_dimensions": {
         "width": 1080,
         "height": 1350
       },
-      "export_method": "Uniform fit and centered canvas extent to 1080x1350; preplanned exact copy of approved wordmark strip at original position, no independent-axis stretch."
+      "export_method": "Uniform fit and centered canvas extent to 1080x1350; preplanned exact copy of approved wordmark strip at original position, no independent-axis stretch.",
+      "owner_approval": {
+        "date": "2026-10-19",
+        "timezone": "Europe/Kyiv",
+        "approved_by": "owner",
+        "source": "Explicit acceptance of all current carousel images in this chat, with instruction to push accepted-by-user status.",
+        "output_commit": "ad7a85921067ec0ff6bfe66ac75f0e8ffda8a94b",
+        "scope": "all ten current final slides, including the assembled phone ending",
+        "file": "carousels/LW-CAR-0010/outputs/slide-04.png"
+      },
+      "remote_save_status": "saved_github"
     },
     {
       "slide_number": 5,
@@ -169,20 +249,40 @@
           "prompt_file": "carousels/LW-CAR-0010/prompts/slide-05.txt",
           "finished_at": "2026-10-19T09:06:08.319197+00:00",
           "result_original_path": "/workspace/generated_images/exec-8b7e8852-7b44-4ada-b74a-275ba05bbee8.png",
-          "user_review": "pending",
-          "agent_visual_review": "not_performed"
+          "user_review": "approved",
+          "agent_visual_review": "not_performed",
+          "owner_approval": {
+            "date": "2026-10-19",
+            "timezone": "Europe/Kyiv",
+            "approved_by": "owner",
+            "source": "Explicit acceptance of all current carousel images in this chat, with instruction to push accepted-by-user status.",
+            "output_commit": "ad7a85921067ec0ff6bfe66ac75f0e8ffda8a94b",
+            "scope": "all ten current final slides, including the assembled phone ending",
+            "file": "carousels/LW-CAR-0010/outputs/slide-05.png",
+            "approval_scope": "final delivered output after any required assembly"
+          }
         }
       ],
       "errors": [],
       "save_status": "saved_repository_file",
       "agent_visual_review": "not_performed",
-      "user_review": "pending",
+      "user_review": "approved",
       "generation_result_original_path": "/workspace/generated_images/exec-8b7e8852-7b44-4ada-b74a-275ba05bbee8.png",
       "export_dimensions": {
         "width": 1080,
         "height": 1350
       },
-      "export_method": "Uniform fit and centered canvas extent to 1080x1350; preplanned exact copy of approved wordmark strip at original position, no independent-axis stretch."
+      "export_method": "Uniform fit and centered canvas extent to 1080x1350; preplanned exact copy of approved wordmark strip at original position, no independent-axis stretch.",
+      "owner_approval": {
+        "date": "2026-10-19",
+        "timezone": "Europe/Kyiv",
+        "approved_by": "owner",
+        "source": "Explicit acceptance of all current carousel images in this chat, with instruction to push accepted-by-user status.",
+        "output_commit": "ad7a85921067ec0ff6bfe66ac75f0e8ffda8a94b",
+        "scope": "all ten current final slides, including the assembled phone ending",
+        "file": "carousels/LW-CAR-0010/outputs/slide-05.png"
+      },
+      "remote_save_status": "saved_github"
     },
     {
       "slide_number": 6,
@@ -204,20 +304,40 @@
           "prompt_file": "carousels/LW-CAR-0010/prompts/slide-06.txt",
           "finished_at": "2026-10-19T09:06:56.239808+00:00",
           "result_original_path": "/workspace/generated_images/exec-87a7ea14-8f31-4e58-8a67-f43c6a786bc7.png",
-          "user_review": "pending",
-          "agent_visual_review": "not_performed"
+          "user_review": "approved",
+          "agent_visual_review": "not_performed",
+          "owner_approval": {
+            "date": "2026-10-19",
+            "timezone": "Europe/Kyiv",
+            "approved_by": "owner",
+            "source": "Explicit acceptance of all current carousel images in this chat, with instruction to push accepted-by-user status.",
+            "output_commit": "ad7a85921067ec0ff6bfe66ac75f0e8ffda8a94b",
+            "scope": "all ten current final slides, including the assembled phone ending",
+            "file": "carousels/LW-CAR-0010/outputs/slide-06.png",
+            "approval_scope": "final delivered output after any required assembly"
+          }
         }
       ],
       "errors": [],
       "save_status": "saved_repository_file",
       "agent_visual_review": "not_performed",
-      "user_review": "pending",
+      "user_review": "approved",
       "generation_result_original_path": "/workspace/generated_images/exec-87a7ea14-8f31-4e58-8a67-f43c6a786bc7.png",
       "export_dimensions": {
         "width": 1080,
         "height": 1350
       },
-      "export_method": "Uniform fit and centered canvas extent to 1080x1350; preplanned exact copy of approved wordmark strip at original position, no independent-axis stretch."
+      "export_method": "Uniform fit and centered canvas extent to 1080x1350; preplanned exact copy of approved wordmark strip at original position, no independent-axis stretch.",
+      "owner_approval": {
+        "date": "2026-10-19",
+        "timezone": "Europe/Kyiv",
+        "approved_by": "owner",
+        "source": "Explicit acceptance of all current carousel images in this chat, with instruction to push accepted-by-user status.",
+        "output_commit": "ad7a85921067ec0ff6bfe66ac75f0e8ffda8a94b",
+        "scope": "all ten current final slides, including the assembled phone ending",
+        "file": "carousels/LW-CAR-0010/outputs/slide-06.png"
+      },
+      "remote_save_status": "saved_github"
     },
     {
       "slide_number": 7,
@@ -239,20 +359,40 @@
           "prompt_file": "carousels/LW-CAR-0010/prompts/slide-07.txt",
           "finished_at": "2026-10-19T09:07:47.844054+00:00",
           "result_original_path": "/workspace/generated_images/exec-5d76a7b0-dd55-4f40-a92f-d55c9c115146.png",
-          "user_review": "pending",
-          "agent_visual_review": "not_performed"
+          "user_review": "approved",
+          "agent_visual_review": "not_performed",
+          "owner_approval": {
+            "date": "2026-10-19",
+            "timezone": "Europe/Kyiv",
+            "approved_by": "owner",
+            "source": "Explicit acceptance of all current carousel images in this chat, with instruction to push accepted-by-user status.",
+            "output_commit": "ad7a85921067ec0ff6bfe66ac75f0e8ffda8a94b",
+            "scope": "all ten current final slides, including the assembled phone ending",
+            "file": "carousels/LW-CAR-0010/outputs/slide-07.png",
+            "approval_scope": "final delivered output after any required assembly"
+          }
         }
       ],
       "errors": [],
       "save_status": "saved_repository_file",
       "agent_visual_review": "not_performed",
-      "user_review": "pending",
+      "user_review": "approved",
       "generation_result_original_path": "/workspace/generated_images/exec-5d76a7b0-dd55-4f40-a92f-d55c9c115146.png",
       "export_dimensions": {
         "width": 1080,
         "height": 1350
       },
-      "export_method": "Uniform fit and centered canvas extent to 1080x1350; preplanned exact copy of approved wordmark strip at original position, no independent-axis stretch."
+      "export_method": "Uniform fit and centered canvas extent to 1080x1350; preplanned exact copy of approved wordmark strip at original position, no independent-axis stretch.",
+      "owner_approval": {
+        "date": "2026-10-19",
+        "timezone": "Europe/Kyiv",
+        "approved_by": "owner",
+        "source": "Explicit acceptance of all current carousel images in this chat, with instruction to push accepted-by-user status.",
+        "output_commit": "ad7a85921067ec0ff6bfe66ac75f0e8ffda8a94b",
+        "scope": "all ten current final slides, including the assembled phone ending",
+        "file": "carousels/LW-CAR-0010/outputs/slide-07.png"
+      },
+      "remote_save_status": "saved_github"
     },
     {
       "slide_number": 8,
@@ -274,20 +414,40 @@
           "prompt_file": "carousels/LW-CAR-0010/prompts/slide-08.txt",
           "finished_at": "2026-10-19T09:08:37.992743+00:00",
           "result_original_path": "/workspace/generated_images/exec-3445e83c-4631-423b-bcbd-3dadccb967cc.png",
-          "user_review": "pending",
-          "agent_visual_review": "not_performed"
+          "user_review": "approved",
+          "agent_visual_review": "not_performed",
+          "owner_approval": {
+            "date": "2026-10-19",
+            "timezone": "Europe/Kyiv",
+            "approved_by": "owner",
+            "source": "Explicit acceptance of all current carousel images in this chat, with instruction to push accepted-by-user status.",
+            "output_commit": "ad7a85921067ec0ff6bfe66ac75f0e8ffda8a94b",
+            "scope": "all ten current final slides, including the assembled phone ending",
+            "file": "carousels/LW-CAR-0010/outputs/slide-08.png",
+            "approval_scope": "final delivered output after any required assembly"
+          }
         }
       ],
       "errors": [],
       "save_status": "saved_repository_file",
       "agent_visual_review": "not_performed",
-      "user_review": "pending",
+      "user_review": "approved",
       "generation_result_original_path": "/workspace/generated_images/exec-3445e83c-4631-423b-bcbd-3dadccb967cc.png",
       "export_dimensions": {
         "width": 1080,
         "height": 1350
       },
-      "export_method": "Uniform fit and centered canvas extent to 1080x1350; preplanned exact copy of approved wordmark strip at original position, no independent-axis stretch."
+      "export_method": "Uniform fit and centered canvas extent to 1080x1350; preplanned exact copy of approved wordmark strip at original position, no independent-axis stretch.",
+      "owner_approval": {
+        "date": "2026-10-19",
+        "timezone": "Europe/Kyiv",
+        "approved_by": "owner",
+        "source": "Explicit acceptance of all current carousel images in this chat, with instruction to push accepted-by-user status.",
+        "output_commit": "ad7a85921067ec0ff6bfe66ac75f0e8ffda8a94b",
+        "scope": "all ten current final slides, including the assembled phone ending",
+        "file": "carousels/LW-CAR-0010/outputs/slide-08.png"
+      },
+      "remote_save_status": "saved_github"
     },
     {
       "slide_number": 9,
@@ -309,20 +469,40 @@
           "prompt_file": "carousels/LW-CAR-0010/prompts/slide-09.txt",
           "finished_at": "2026-10-19T09:09:49.083696+00:00",
           "result_original_path": "/workspace/generated_images/exec-f694d731-9606-4e30-88d4-f55be2d3ec47.png",
-          "user_review": "pending",
-          "agent_visual_review": "not_performed"
+          "user_review": "approved",
+          "agent_visual_review": "not_performed",
+          "owner_approval": {
+            "date": "2026-10-19",
+            "timezone": "Europe/Kyiv",
+            "approved_by": "owner",
+            "source": "Explicit acceptance of all current carousel images in this chat, with instruction to push accepted-by-user status.",
+            "output_commit": "ad7a85921067ec0ff6bfe66ac75f0e8ffda8a94b",
+            "scope": "all ten current final slides, including the assembled phone ending",
+            "file": "carousels/LW-CAR-0010/outputs/slide-09.png",
+            "approval_scope": "final delivered output after any required assembly"
+          }
         }
       ],
       "errors": [],
       "save_status": "saved_repository_file",
       "agent_visual_review": "not_performed",
-      "user_review": "pending",
+      "user_review": "approved",
       "generation_result_original_path": "/workspace/generated_images/exec-f694d731-9606-4e30-88d4-f55be2d3ec47.png",
       "export_dimensions": {
         "width": 1080,
         "height": 1350
       },
-      "export_method": "Uniform fit and centered canvas extent to 1080x1350; preplanned exact copy of approved wordmark strip at original position, no independent-axis stretch."
+      "export_method": "Uniform fit and centered canvas extent to 1080x1350; preplanned exact copy of approved wordmark strip at original position, no independent-axis stretch.",
+      "owner_approval": {
+        "date": "2026-10-19",
+        "timezone": "Europe/Kyiv",
+        "approved_by": "owner",
+        "source": "Explicit acceptance of all current carousel images in this chat, with instruction to push accepted-by-user status.",
+        "output_commit": "ad7a85921067ec0ff6bfe66ac75f0e8ffda8a94b",
+        "scope": "all ten current final slides, including the assembled phone ending",
+        "file": "carousels/LW-CAR-0010/outputs/slide-09.png"
+      },
+      "remote_save_status": "saved_github"
     },
     {
       "slide_number": 10,
@@ -345,14 +525,24 @@
           "finished_at": "2026-10-19T09:10:41.733886+00:00",
           "result_original_path": "/workspace/generated_images/exec-5e150809-b928-4c76-9057-9e5692d7e166.png",
           "assembly_completed_at": "2026-10-19T09:11:46.817835+00:00",
-          "user_review": "pending",
-          "agent_visual_review": "not_performed"
+          "user_review": "approved",
+          "agent_visual_review": "not_performed",
+          "owner_approval": {
+            "date": "2026-10-19",
+            "timezone": "Europe/Kyiv",
+            "approved_by": "owner",
+            "source": "Explicit acceptance of all current carousel images in this chat, with instruction to push accepted-by-user status.",
+            "output_commit": "ad7a85921067ec0ff6bfe66ac75f0e8ffda8a94b",
+            "scope": "all ten current final slides, including the assembled phone ending",
+            "file": "carousels/LW-CAR-0010/outputs/slide-10.png",
+            "approval_scope": "final delivered output after any required assembly"
+          }
         }
       ],
       "errors": [],
       "save_status": "saved_repository_file",
       "agent_visual_review": "not_performed",
-      "user_review": "pending",
+      "user_review": "approved",
       "generation_result_original_path": "/workspace/generated_images/exec-5e150809-b928-4c76-9057-9e5692d7e166.png",
       "export_dimensions": {
         "width": 1080,
@@ -370,7 +560,17 @@
         "transform": "Direct bitmap copy, original dimensions; no rescaling, perspective change, independent-axis stretching, UI generation or redrawing.",
         "screen": "Existing accepted Muscle balance composite with Workout and Sets counts; no separate original raw screenshot present.",
         "assembly_status": "completed"
-      }
+      },
+      "owner_approval": {
+        "date": "2026-10-19",
+        "timezone": "Europe/Kyiv",
+        "approved_by": "owner",
+        "source": "Explicit acceptance of all current carousel images in this chat, with instruction to push accepted-by-user status.",
+        "output_commit": "ad7a85921067ec0ff6bfe66ac75f0e8ffda8a94b",
+        "scope": "all ten current final slides, including the assembled phone ending",
+        "file": "carousels/LW-CAR-0010/outputs/slide-10.png"
+      },
+      "remote_save_status": "saved_github"
     }
   ],
   "generation_execution_order": [
@@ -403,7 +603,7 @@
   "failed_image_tool_calls": 0,
   "caption_file": "carousels/LW-CAR-0010/caption.txt",
   "delivery_archive": "carousels/LW-CAR-0010/LW-CAR-0010-1080x1350.zip",
-  "remote_save_status": "not_confirmed_at_commit_creation",
+  "remote_save_status": "saved_github",
   "updated_at": "2026-10-19T09:11:46.818377+00:00",
   "wordmark_assembly": {
     "source_file": "carousels/LW-CAR-0001/outputs/slide-08.png",
@@ -416,6 +616,42 @@
     "Product ending directly reuses the accepted phone/hand composite specified by the task. Its original raw screenshot file is absent; no new UI was generated and no claim of separately verified raw screenshot fidelity is made."
   ],
   "next_actions": [
-    "Owner reviews all ten current PNGs. Make corrections only to explicitly requested slides; user_review remains pending until owner acceptance."
+    "Preserve all ten approved final outputs. Regenerate or change a slide only after an explicit owner request."
+  ],
+  "slides_approved": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "slides_pending_review": [],
+  "remote_outputs_commit": "ad7a85921067ec0ff6bfe66ac75f0e8ffda8a94b",
+  "owner_approval_history": [
+    {
+      "date": "2026-10-19",
+      "timezone": "Europe/Kyiv",
+      "approved_by": "owner",
+      "source": "Explicit acceptance of all current carousel images in this chat, with instruction to push accepted-by-user status.",
+      "output_commit": "ad7a85921067ec0ff6bfe66ac75f0e8ffda8a94b",
+      "scope": "all ten current final slides, including the assembled phone ending",
+      "slides": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    }
   ]
 }

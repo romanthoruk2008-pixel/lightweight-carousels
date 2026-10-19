@@ -1,4 +1,4 @@
-# LW-CAR-0010 — original beginner carousel, all ten final slides
+# LW-CAR-0010 — all ten final slides accepted by the owner
 
 Frozen copy v1.0 and the task/rules snapshot are recorded by exact commit in manifest.json. This is the original Lightweight carousel YOUR FIRST WEEK IN THE GYM. Every supplied own-series layout reference was opened before generation: LW-CAR-0002 slide 1, slide 2 and slides 3–8; LW-CAR-0007 slides 5 and 7; LW-CAR-0001 slide 8. Per-slide actual template inputs are listed in the manifest. No competitor references were added.
 
@@ -18,4 +18,8 @@ For slide 10, source rectangle x0,y520,width1080,height830 of approved LW-CAR-00
 
 LW-CAR-0010-1080x1350.zip includes all ten final PNGs in numerical order, exact prompts and assembly instructions, task, brief, frozen copy, caption, manifest, handoff and retained assembly assets. The task requests one complete-carousel delivery commit; actual Git push output separately establishes remote save. Other carousels and coordinator global progress were not edited. No social publishing occurred.
 
-`agent_visual_review=not_performed`; `user_review=pending` for the carousel, all ten slides and their attempts. No post-generation visual QA, OCR, font audit, anatomy audit, reviewer agents, checksum pass, automatic correction or regeneration. Exact rendered copy/font/pose/layout compliance was requested but not independently verified. Mechanical export dimensions, package membership and verbatim caption are checked without a visual review. Await owner acceptance or specific corrections.
+`agent_visual_review=not_performed`; `user_review=approved` for the carousel, all ten current final slides and their successful attempts (approval refers to the final delivered output after required assembly). No post-generation visual QA, OCR, font audit, anatomy audit, reviewer agents, checksum pass, automatic correction or regeneration. Exact rendered copy/font/pose/layout compliance was requested but not independently verified. Mechanical export dimensions, package membership and verbatim caption are checked without a visual review. All current outputs are owner-approved; await only explicitly requested corrections.
+
+## 2026-10-19 — entire carousel accepted
+
+The owner explicitly accepted all ten current final images from output commit ad7a85921067ec0ff6bfe66ac75f0e8ffda8a94b and requested accepted-by-user statuses be pushed to GitHub. This includes slide 10 with the assembled phone ending. Approval is recorded for the carousel, every final slide and each successful attempt; agent_visual_review remains not_performed. No image bytes changed and no new generation or visual review occurred. The delivery ZIP includes the updated manifest and handoff.
