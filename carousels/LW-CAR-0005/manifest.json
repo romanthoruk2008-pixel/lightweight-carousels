@@ -7,7 +7,7 @@
   "style_master": "LW-CAR-0001 approved warm-sand outputs",
   "status": "incomplete_missing_original_screenshot",
   "agent_visual_review": "not_performed",
-  "user_review": "pending",
+  "user_review": "partially_approved",
   "slides": [
     {
       "slide_number": 1,
@@ -33,7 +33,16 @@
           "prompt_file": "carousels/LW-CAR-0005/prompts/slide-01-attempt-02.txt",
           "finished_at": "2026-10-18T21:42:37.270411+00:00",
           "result_original_path": "/workspace/generated_images/exec-429140b0-a33e-4cb6-b03a-025c34aca2f6.png",
-          "owner_authorized": true
+          "owner_authorized": true,
+          "user_review": "approved",
+          "owner_approval": {
+            "date": "2026-10-19",
+            "timezone": "Europe/Kyiv",
+            "approved_by": "owner",
+            "source": "Explicit approval in this chat: all current images except the final phone slide.",
+            "output_commit": "968c36c37b1043140b4b7986265ee81f8cb7b25f",
+            "file": "carousels/LW-CAR-0005/outputs/slide-01.png"
+          }
         }
       ],
       "errors": [
@@ -46,7 +55,7 @@
         "file_path": "/workspace/shared/LW-CAR-0005-references/reference-01.png"
       },
       "agent_visual_review": "not_performed",
-      "user_review": "pending",
+      "user_review": "approved",
       "owner_retry_authorized": true,
       "generation_result_original_path": "/workspace/generated_images/exec-429140b0-a33e-4cb6-b03a-025c34aca2f6.png",
       "export_dimensions": {
@@ -54,7 +63,15 @@
         "height": 1350
       },
       "export_method": "Uniform ImageMagick resize and centered canvas extent, followed by preplanned overlay of original accepted master wordmark strip. No visual QA.",
-      "reference_url": "https://github.com/user-attachments/assets/157c32e4-2c66-4494-8ca4-64a78f45559e"
+      "reference_url": "https://github.com/user-attachments/assets/157c32e4-2c66-4494-8ca4-64a78f45559e",
+      "owner_approval": {
+        "date": "2026-10-19",
+        "timezone": "Europe/Kyiv",
+        "approved_by": "owner",
+        "source": "Explicit approval in this chat: all current images except the final phone slide.",
+        "output_commit": "968c36c37b1043140b4b7986265ee81f8cb7b25f",
+        "file": "carousels/LW-CAR-0005/outputs/slide-01.png"
+      }
     },
     {
       "slide_number": 2,
@@ -71,7 +88,16 @@
           "started_at": "2026-10-18T21:39:36.649038+00:00",
           "prompt_file": "carousels/LW-CAR-0005/prompts/slide-02.txt",
           "finished_at": "2026-10-18T21:40:10.661183+00:00",
-          "result_original_path": "/workspace/generated_images/exec-a515cb87-40d1-4d63-b8ed-75734206c981.png"
+          "result_original_path": "/workspace/generated_images/exec-a515cb87-40d1-4d63-b8ed-75734206c981.png",
+          "user_review": "approved",
+          "owner_approval": {
+            "date": "2026-10-19",
+            "timezone": "Europe/Kyiv",
+            "approved_by": "owner",
+            "source": "Explicit approval in this chat: all current images except the final phone slide.",
+            "output_commit": "968c36c37b1043140b4b7986265ee81f8cb7b25f",
+            "file": "carousels/LW-CAR-0005/outputs/slide-02.png"
+          }
         }
       ],
       "errors": [],
@@ -82,14 +108,22 @@
         "file_path": "/workspace/shared/LW-CAR-0005-references/reference-02.png"
       },
       "agent_visual_review": "not_performed",
-      "user_review": "pending",
+      "user_review": "approved",
       "generation_result_original_path": "/workspace/generated_images/exec-a515cb87-40d1-4d63-b8ed-75734206c981.png",
       "export_dimensions": {
         "width": 1080,
         "height": 1350
       },
       "export_method": "Uniform ImageMagick resize and centered canvas extent, followed by preplanned overlay of original accepted master wordmark strip. No visual QA.",
-      "reference_url": "https://github.com/user-attachments/assets/7e5eae6a-2eeb-4522-95bc-7722a7105edb"
+      "reference_url": "https://github.com/user-attachments/assets/7e5eae6a-2eeb-4522-95bc-7722a7105edb",
+      "owner_approval": {
+        "date": "2026-10-19",
+        "timezone": "Europe/Kyiv",
+        "approved_by": "owner",
+        "source": "Explicit approval in this chat: all current images except the final phone slide.",
+        "output_commit": "968c36c37b1043140b4b7986265ee81f8cb7b25f",
+        "file": "carousels/LW-CAR-0005/outputs/slide-02.png"
+      }
     },
     {
       "slide_number": 3,
@@ -106,7 +140,16 @@
           "started_at": "2026-10-18T21:40:24.801467+00:00",
           "prompt_file": "carousels/LW-CAR-0005/prompts/slide-03.txt",
           "finished_at": "2026-10-18T21:40:59.748989+00:00",
-          "result_original_path": "/workspace/generated_images/exec-98647644-c972-4934-9e0e-13a9961554bd.png"
+          "result_original_path": "/workspace/generated_images/exec-98647644-c972-4934-9e0e-13a9961554bd.png",
+          "user_review": "approved",
+          "owner_approval": {
+            "date": "2026-10-19",
+            "timezone": "Europe/Kyiv",
+            "approved_by": "owner",
+            "source": "Explicit approval in this chat: all current images except the final phone slide.",
+            "output_commit": "968c36c37b1043140b4b7986265ee81f8cb7b25f",
+            "file": "carousels/LW-CAR-0005/outputs/slide-03.png"
+          }
         }
       ],
       "errors": [],
@@ -117,14 +160,22 @@
         "file_path": "/workspace/shared/LW-CAR-0005-references/reference-03.png"
       },
       "agent_visual_review": "not_performed",
-      "user_review": "pending",
+      "user_review": "approved",
       "generation_result_original_path": "/workspace/generated_images/exec-98647644-c972-4934-9e0e-13a9961554bd.png",
       "export_dimensions": {
         "width": 1080,
         "height": 1350
       },
       "export_method": "Uniform ImageMagick resize and centered canvas extent, followed by preplanned overlay of original accepted master wordmark strip. No visual QA.",
-      "reference_url": "https://github.com/user-attachments/assets/bab17eb5-4daf-4091-86fd-9d848fc4b61b"
+      "reference_url": "https://github.com/user-attachments/assets/bab17eb5-4daf-4091-86fd-9d848fc4b61b",
+      "owner_approval": {
+        "date": "2026-10-19",
+        "timezone": "Europe/Kyiv",
+        "approved_by": "owner",
+        "source": "Explicit approval in this chat: all current images except the final phone slide.",
+        "output_commit": "968c36c37b1043140b4b7986265ee81f8cb7b25f",
+        "file": "carousels/LW-CAR-0005/outputs/slide-03.png"
+      }
     },
     {
       "slide_number": 4,
@@ -141,7 +192,16 @@
           "started_at": "2026-10-18T21:41:07.207041+00:00",
           "prompt_file": "carousels/LW-CAR-0005/prompts/slide-04.txt",
           "finished_at": "2026-10-18T21:41:34.364037+00:00",
-          "result_original_path": "/workspace/generated_images/exec-3178cb99-644c-44a8-91fc-654420634c11.png"
+          "result_original_path": "/workspace/generated_images/exec-3178cb99-644c-44a8-91fc-654420634c11.png",
+          "user_review": "approved",
+          "owner_approval": {
+            "date": "2026-10-19",
+            "timezone": "Europe/Kyiv",
+            "approved_by": "owner",
+            "source": "Explicit approval in this chat: all current images except the final phone slide.",
+            "output_commit": "968c36c37b1043140b4b7986265ee81f8cb7b25f",
+            "file": "carousels/LW-CAR-0005/outputs/slide-04.png"
+          }
         }
       ],
       "errors": [],
@@ -152,14 +212,22 @@
         "file_path": "/workspace/shared/LW-CAR-0005-references/reference-04.png"
       },
       "agent_visual_review": "not_performed",
-      "user_review": "pending",
+      "user_review": "approved",
       "generation_result_original_path": "/workspace/generated_images/exec-3178cb99-644c-44a8-91fc-654420634c11.png",
       "export_dimensions": {
         "width": 1080,
         "height": 1350
       },
       "export_method": "Uniform ImageMagick resize and centered canvas extent, followed by preplanned overlay of original accepted master wordmark strip. No visual QA.",
-      "reference_url": "https://github.com/user-attachments/assets/5018a1e6-fe03-4e23-9336-6033df4f0a13"
+      "reference_url": "https://github.com/user-attachments/assets/5018a1e6-fe03-4e23-9336-6033df4f0a13",
+      "owner_approval": {
+        "date": "2026-10-19",
+        "timezone": "Europe/Kyiv",
+        "approved_by": "owner",
+        "source": "Explicit approval in this chat: all current images except the final phone slide.",
+        "output_commit": "968c36c37b1043140b4b7986265ee81f8cb7b25f",
+        "file": "carousels/LW-CAR-0005/outputs/slide-04.png"
+      }
     },
     {
       "slide_number": 5,
@@ -176,7 +244,16 @@
           "started_at": "2026-10-18T21:42:44.996299+00:00",
           "prompt_file": "carousels/LW-CAR-0005/prompts/slide-05.txt",
           "finished_at": "2026-10-18T21:43:18.753203+00:00",
-          "result_original_path": "/workspace/generated_images/exec-9986eab3-0d0d-4ca2-8a6c-c06818da109c.png"
+          "result_original_path": "/workspace/generated_images/exec-9986eab3-0d0d-4ca2-8a6c-c06818da109c.png",
+          "user_review": "approved",
+          "owner_approval": {
+            "date": "2026-10-19",
+            "timezone": "Europe/Kyiv",
+            "approved_by": "owner",
+            "source": "Explicit approval in this chat: all current images except the final phone slide.",
+            "output_commit": "968c36c37b1043140b4b7986265ee81f8cb7b25f",
+            "file": "carousels/LW-CAR-0005/outputs/slide-05.png"
+          }
         }
       ],
       "errors": [],
@@ -187,14 +264,22 @@
         "file_path": "/workspace/shared/LW-CAR-0005-references/reference-05.png"
       },
       "agent_visual_review": "not_performed",
-      "user_review": "pending",
+      "user_review": "approved",
       "generation_result_original_path": "/workspace/generated_images/exec-9986eab3-0d0d-4ca2-8a6c-c06818da109c.png",
       "export_dimensions": {
         "width": 1080,
         "height": 1350
       },
       "export_method": "Uniform ImageMagick resize and centered canvas extent, followed by preplanned overlay of original accepted master wordmark strip. No visual QA.",
-      "reference_url": "https://github.com/user-attachments/assets/1c075d5e-8626-403b-a664-81e08b5ea727"
+      "reference_url": "https://github.com/user-attachments/assets/1c075d5e-8626-403b-a664-81e08b5ea727",
+      "owner_approval": {
+        "date": "2026-10-19",
+        "timezone": "Europe/Kyiv",
+        "approved_by": "owner",
+        "source": "Explicit approval in this chat: all current images except the final phone slide.",
+        "output_commit": "968c36c37b1043140b4b7986265ee81f8cb7b25f",
+        "file": "carousels/LW-CAR-0005/outputs/slide-05.png"
+      }
     },
     {
       "slide_number": 6,
@@ -220,7 +305,16 @@
           "prompt_file": "carousels/LW-CAR-0005/prompts/slide-06-attempt-02.txt",
           "finished_at": "2026-10-18T21:44:49.408816+00:00",
           "result_original_path": "/workspace/generated_images/exec-f487f178-924f-4a34-bb5d-c5bc8e7b1ce6.png",
-          "owner_authorized": true
+          "owner_authorized": true,
+          "user_review": "approved",
+          "owner_approval": {
+            "date": "2026-10-19",
+            "timezone": "Europe/Kyiv",
+            "approved_by": "owner",
+            "source": "Explicit approval in this chat: all current images except the final phone slide.",
+            "output_commit": "968c36c37b1043140b4b7986265ee81f8cb7b25f",
+            "file": "carousels/LW-CAR-0005/outputs/slide-06.png"
+          }
         }
       ],
       "errors": [
@@ -233,7 +327,7 @@
         "file_path": "/workspace/shared/LW-CAR-0005-references/reference-06.png"
       },
       "agent_visual_review": "not_performed",
-      "user_review": "pending",
+      "user_review": "approved",
       "owner_retry_authorized": true,
       "generation_result_original_path": "/workspace/generated_images/exec-f487f178-924f-4a34-bb5d-c5bc8e7b1ce6.png",
       "export_dimensions": {
@@ -241,7 +335,15 @@
         "height": 1350
       },
       "export_method": "Uniform ImageMagick resize and centered canvas extent, followed by preplanned overlay of original accepted master wordmark strip. No visual QA.",
-      "reference_url": "https://github.com/user-attachments/assets/af22285e-84e4-46d6-b4a6-c9a170644a58"
+      "reference_url": "https://github.com/user-attachments/assets/af22285e-84e4-46d6-b4a6-c9a170644a58",
+      "owner_approval": {
+        "date": "2026-10-19",
+        "timezone": "Europe/Kyiv",
+        "approved_by": "owner",
+        "source": "Explicit approval in this chat: all current images except the final phone slide.",
+        "output_commit": "968c36c37b1043140b4b7986265ee81f8cb7b25f",
+        "file": "carousels/LW-CAR-0005/outputs/slide-06.png"
+      }
     },
     {
       "slide_number": 7,
@@ -258,7 +360,16 @@
           "started_at": "2026-10-18T21:44:56.340385+00:00",
           "prompt_file": "carousels/LW-CAR-0005/prompts/slide-07.txt",
           "finished_at": "2026-10-18T21:45:23.782750+00:00",
-          "result_original_path": "/workspace/generated_images/exec-4081ec2f-8ce8-406d-95fc-315fc07351d0.png"
+          "result_original_path": "/workspace/generated_images/exec-4081ec2f-8ce8-406d-95fc-315fc07351d0.png",
+          "user_review": "approved",
+          "owner_approval": {
+            "date": "2026-10-19",
+            "timezone": "Europe/Kyiv",
+            "approved_by": "owner",
+            "source": "Explicit approval in this chat: all current images except the final phone slide.",
+            "output_commit": "968c36c37b1043140b4b7986265ee81f8cb7b25f",
+            "file": "carousels/LW-CAR-0005/outputs/slide-07.png"
+          }
         }
       ],
       "errors": [],
@@ -269,14 +380,22 @@
         "file_path": "/workspace/shared/LW-CAR-0005-references/reference-07.png"
       },
       "agent_visual_review": "not_performed",
-      "user_review": "pending",
+      "user_review": "approved",
       "generation_result_original_path": "/workspace/generated_images/exec-4081ec2f-8ce8-406d-95fc-315fc07351d0.png",
       "export_dimensions": {
         "width": 1080,
         "height": 1350
       },
       "export_method": "Uniform ImageMagick resize and centered canvas extent, followed by preplanned overlay of original accepted master wordmark strip. No visual QA.",
-      "reference_url": "https://github.com/user-attachments/assets/38a8e503-425f-4603-977b-87de9d11f659"
+      "reference_url": "https://github.com/user-attachments/assets/38a8e503-425f-4603-977b-87de9d11f659",
+      "owner_approval": {
+        "date": "2026-10-19",
+        "timezone": "Europe/Kyiv",
+        "approved_by": "owner",
+        "source": "Explicit approval in this chat: all current images except the final phone slide.",
+        "output_commit": "968c36c37b1043140b4b7986265ee81f8cb7b25f",
+        "file": "carousels/LW-CAR-0005/outputs/slide-07.png"
+      }
     },
     {
       "slide_number": 8,
@@ -368,9 +487,8 @@
   },
   "updated_at": "2026-10-18T21:48:34.321086+00:00",
   "next_actions": [
-    "Obtain the original Distribution screenshot as a downloadable PNG/JPG or file attachment with accessible file ID/path. Owner has already selected and supplied this screen visually; do not ask them to choose it again.",
-    "Insert the original Distribution bitmap into existing slide-08-scene.png with uniform scaling and rounded screen masking; preserve proportions and existing text. No generated replacement UI.",
-    "Rebuild complete ZIP after slide 8 is assembled. Keep all seven existing outputs unchanged unless explicitly requested."
+    "Keep approved slides 1–7 unchanged unless owner explicitly requests corrections.",
+    "Final phone slide 8 remains unapproved and blocked pending an accessible original Distribution PNG/JPG; insert its original bitmap into the existing scene without redrawing UI."
   ],
   "limitations": [
     "No visual QA, OCR, font verification, anatomy audit or reviewer calls performed. Rendered copy and font fidelity are not independently established.",
@@ -381,5 +499,38 @@
   ],
   "latest_integrated_branch_commit": "073942eff988f363c4dc1831c959521531fb50fb",
   "new_series_rules_observed": "Series rules at 073942e require no added punctuation and fully visible text; no automatic review or regeneration performed.",
-  "remote_outputs_commit": "968c36c"
+  "remote_outputs_commit": "968c36c",
+  "slides_approved": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "slides_pending_review": [
+    8
+  ],
+  "owner_approval_history": [
+    {
+      "date": "2026-10-19",
+      "timezone": "Europe/Kyiv",
+      "approved_by": "owner",
+      "source": "Explicit approval in this chat: all current images except the final phone slide.",
+      "output_commit": "968c36c37b1043140b4b7986265ee81f8cb7b25f",
+      "slides": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "excluded_slides": [
+        8
+      ]
+    }
+  ]
 }

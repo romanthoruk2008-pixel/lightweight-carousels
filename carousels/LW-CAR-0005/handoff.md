@@ -1,4 +1,4 @@
-# LW-CAR-0005 — seven final slides; phone scene waits for original screenshot file
+# LW-CAR-0005 — slides 1–7 approved; phone slide 8 unfinished and pending
 
 Branch: `claude/charming-einstein-xgejky`. Frozen copy v1.0 and rule/task snapshot: `ffb64372805255c58101e5f71f2fb17afe06b0a2`. All eight REF-004 images successfully downloaded and visually opened before generation; real order recorded in copy.json and manifest. Series style inputs: approved warm-sand LW-CAR-0001 artwork.
 
@@ -18,8 +18,12 @@ Once the original file is accessible: use the existing blank scene, uniformly sc
 
 ## Saving and review
 
-Incomplete ZIP includes seven numbered final PNGs, scene, wordmark strip, all prompts, frozen copy, task, brief, caption, manifest and this handoff. No final placeholder was created. `agent_visual_review=not_performed`; `user_review=pending` for this carousel and every slide. No post-generation visual QA, OCR, anatomy audit, font verification, checksum pass or reviewer calls. Mechanical dimensions and package membership are checked separately from visual fidelity. Frozen copy and other carousel outputs unchanged. Coordinator progress not edited. Remote delivery is established by the task's Git push result, not commit creation. No social publication occurred.
+Incomplete ZIP includes seven numbered final PNGs, scene, wordmark strip, all prompts, frozen copy, task, brief, caption, manifest and this handoff. No final placeholder was created. `agent_visual_review=not_performed`; carousel `user_review=partially_approved`. Current slides 1–7 are owner-approved; phone slide 8 remains pending and unfinished. No post-generation visual QA, OCR, anatomy audit, font verification, checksum pass or reviewer calls. Mechanical dimensions and package membership are checked separately from visual fidelity. Frozen copy and other carousel outputs unchanged. Coordinator progress not edited. Remote delivery is established by the task's Git push result, not commit creation. No social publication occurred.
 
 ## Owner update — Distribution selected for final phone
 
-After checkpoint 968c36c the owner supplied the Distribution screen inline in this chat. This replaces the default Muscle balance selection for LW-CAR-0005 slide 8. The image is visible, but the message contains no downloadable attachment ID or filesystem path. Rechecked /workspace shared/library/scratch locations, /mnt/data availability and task artifacts: no original file accessible. Do not ask the owner to reselect the screen. Need its original PNG/JPG as a downloadable file or direct URL. No UI editing, generation or redraw was attempted. Existing outputs 1–7 remain unchanged and pending owner review.
+After checkpoint 968c36c the owner supplied the Distribution screen inline in this chat. This replaces the default Muscle balance selection for LW-CAR-0005 slide 8. The image is visible, but the message contains no downloadable attachment ID or filesystem path. Rechecked /workspace shared/library/scratch locations, /mnt/data availability and task artifacts: no original file accessible. Do not ask the owner to reselect the screen. Need its original PNG/JPG as a downloadable file or direct URL. No UI editing, generation or redraw was attempted. Existing outputs 1–7 remain unchanged; their subsequent owner acceptance is recorded below.
+
+## 2026-10-19 — owner accepted slides 1–7
+
+The owner explicitly approved all current carousel images except the final phone slide and requested the statuses be pushed to GitHub. Slides 1–7 from output commit 968c36c37b1043140b4b7986265ee81f8cb7b25f and their successful generation attempts are user_review=approved. Phone slide 8 and its scene are not approved. The carousel remains incomplete because original Distribution file insertion is unresolved. No image bytes changed, generation calls occurred or agent visual QA was performed. The delivery ZIP contains the updated manifest and handoff.
