@@ -20,8 +20,8 @@ action, number = sys.argv[1:3]
 entry = next(s for s in manifest['slides'] if s['slide'] == int(number))
 now = datetime.now(timezone.utc).isoformat()
 if action == 'start':
-    if int(number) not in [1, 2, 3] or entry['attempts']:
-        raise RuntimeError('Only the first three slides, one attempt each, before owner OK')
+    if int(number) not in manifest.get('authorized_slides', [1, 2, 3]) or entry['attempts']:
+        raise RuntimeError('Slide outside current owner authorization or an attempt already exists')
     entry['save_status'] = 'generation_in_progress'
     entry['attempts'].append({'attempt': 1, 'tool': 'image_gen.imagegen',
         'started_at': now, 'status': 'in_progress', 'transparent_background': False,
@@ -33,6 +33,18 @@ elif action == 'save':
         canvas = Image.new('RGBA', raw.size, '#F0F1EB')
         canvas.alpha_composite(raw.convert('RGBA'))
         canvas = canvas.resize((1080, 1350), Image.Resampling.LANCZOS)
+    if int(number) == 19:
+        # Preserve the approved real app UI and white hand bitmap at 1:1 scale.
+        import shutil
+        shutil.copyfile(raw_path, carousel / 'production-assets/slide-19-generated-text.png')
+        with Image.open(carousel / 'production-assets/approved-phone-hand-strip.png') as strip:
+            canvas.paste(strip.convert('RGBA'), (0, 740))
+        entry['source_ui'] = {
+            'source': 'carousels/LW-CAR-0021/outputs/slide-19.png',
+            'strip': 'production-assets/approved-phone-hand-strip.png',
+            'source_crop': [0, 740, 1080, 1350], 'placement': [0, 740],
+            'scale': '1:1, no resampling', 'ui_generated_or_retyped': False,
+        }
     with Image.open(checkout / manifest['logo']['file']) as logo_source:
         logo = logo_source.convert('RGBA').resize((218, 71), Image.Resampling.LANCZOS)
         canvas.alpha_composite(logo, (48, 19))

@@ -17,7 +17,7 @@
     "height": 71,
     "method": "paste original PNG with its own alpha, no backing patch; old Lightweight logo excluded"
   },
-  "status": "initial_slides_1_2_3_generated_awaiting_owner_approval",
+  "status": "incomplete_generation_interrupted_at_slide_4",
   "carousel_complete": false,
   "generated_images": 3,
   "slides": [
@@ -60,19 +60,26 @@
             "mode": "RGB",
             "has_alpha": false,
             "logo": "original harda-logo-full.png, x48,y19,218x71, own alpha, no backing patch"
-          }
+          },
+          "user_review": "approved"
         }
       ],
       "errors": [],
       "save_status": "saved_to_repository_checkout",
       "agent_visual_review": "not_performed",
-      "user_review": "pending",
+      "user_review": "approved",
       "prompt": "HARDA carousel LW-CAR-0023, copy.json v1.1, approved S2 tier-list series. Edit the supplied APPROVED masters as the strict design/layout authority. Match their exact look, heavy lowercase tight grotesk lettering, type sizes, markers, spacing, white anatomical figure rendering and opaque off-white background. This new biceps carousel must look like the same series as LW-CAR-0020 and LW-CAR-0021, not a redesign.\n\nProduce ONE complete portrait 1080 × 1350 px PNG with all slide text and artwork generated TOGETHER. Solid opaque background #F0F1EB CLEAN, no texture, cards, arch, grid, dots, rings, transparency or checkerboard. Text dark #2A2A2A; grey italic secondary line #6B6B6B. Accent #F26445; empty stars #D6D6D2. Headlines are the masters' very heavy tight lowercase GROTESK, not Rubik. Marker is a flat coral rectangle BEHIND THE LOWER PART OF the designated words, keeping dark glyphs readable. Body regular sans, left-aligned, up to two lines.\n\nUse the same realistic WHITE/LIGHT-GREY male anatomical mannequin, bald faceless, fine grey shading/fibres, natural athletic proportions and featureless smooth pelvis, dark #2A2A2A gym shorts. No sand, beige, clay, simplified flat cartoon or outline-only figures. Equipment black/grey. Do not invent product features, extra labels, exercise facts or decorative elements.\n\nIMPORTANT REBRAND: the masters still show the OLD Lightweight logo. REMOVE that entire old wordmark and dinosaur from the generated image. Do NOT reproduce or redraw ANY logo, brand name or symbol. Leave the top 110 px completely EMPTY over uninterrupted #F0F1EB, no box, patch, panel, placeholder or other text. The owner's NEW authentic transparent Harda logo PNG will be pasted as a separate original layer at x48,y19,218×71 px after generation. Keep every other object/text below y110.\n\nAll words come ONLY from copy.json v1.1 below. Preserve exact spelling, lowercase, hyphens and punctuation. No extra words, variant letters, watermarks, signatures, slide counters or added punctuation. Keep all letters legible and fully inside the canvas; move/shrink the figure if needed rather than clip text.\n\nAUTHORITATIVE EXACT STRINGS:\n\"biceps\"\n\"tier list\"\n\"(ranked worst to best)\"\n\nCOVER: Use the first supplied cover (LW-CAR-0020 slide 1) as the precise layout, FRONT figure style, front-body proportions and type master; the second (0021 cover) only confirms the same series look. Centered upper headline exactly two lines: \"biceps\", then \"tier list\". Same massive lowercase black grotesk size/weight and positions as masters. Flat coral marker behind lower part of \"tier list\" only. Centered regular italic grey subtitle exactly \"(ranked worst to best)\", same position/size as master.\nLower ~60%: FRONT view from THIGHS UP of the same white anatomical mannequin, in a FRONT DOUBLE BICEPS POSE with BOTH arms raised out to sides and bent, both fists near shoulder/head height, flexed biceps visible. Highlight ONLY the two FRONT UPPER-ARM BICEPS in coral #F26445, retaining anatomical fibres/shading. Chest, shoulders, back, forearms and every other muscle stay white/light-grey. Do not copy the chest highlight from first master or the rear view from second. Keep head and both fists below the subtitle and fully within side edges, dark shorts visible at bottom. No equipment or extra text.\n\nReturn exactly ONE finished opaque slide, not a montage, mockup, comparison or sheet.",
       "prompt_file": "prompts/slide-01.txt",
       "references": [
         "carousels/LW-CAR-0020/outputs/slide-01.png",
         "carousels/LW-CAR-0021/outputs/slide-01.png"
-      ]
+      ],
+      "owner_approval": {
+        "source": "Owner explicitly approved all three initial Harda slides in this chat and authorized continuation",
+        "date": "2026-10-20",
+        "output_commit": "2c3fbbc1769f9eaafc893e4fb79d3ab3c03c1dc9",
+        "content_version": "1.1"
+      }
     },
     {
       "slide": 2,
@@ -113,19 +120,26 @@
             "mode": "RGB",
             "has_alpha": false,
             "logo": "original harda-logo-full.png, x48,y19,218x71, own alpha, no backing patch"
-          }
+          },
+          "user_review": "approved"
         }
       ],
       "errors": [],
       "save_status": "saved_to_repository_checkout",
       "agent_visual_review": "not_performed",
-      "user_review": "pending",
+      "user_review": "approved",
       "prompt": "HARDA carousel LW-CAR-0023, copy.json v1.1, approved S2 tier-list series. Edit the supplied APPROVED masters as the strict design/layout authority. Match their exact look, heavy lowercase tight grotesk lettering, type sizes, markers, spacing, white anatomical figure rendering and opaque off-white background. This new biceps carousel must look like the same series as LW-CAR-0020 and LW-CAR-0021, not a redesign.\n\nProduce ONE complete portrait 1080 × 1350 px PNG with all slide text and artwork generated TOGETHER. Solid opaque background #F0F1EB CLEAN, no texture, cards, arch, grid, dots, rings, transparency or checkerboard. Text dark #2A2A2A; grey italic secondary line #6B6B6B. Accent #F26445; empty stars #D6D6D2. Headlines are the masters' very heavy tight lowercase GROTESK, not Rubik. Marker is a flat coral rectangle BEHIND THE LOWER PART OF the designated words, keeping dark glyphs readable. Body regular sans, left-aligned, up to two lines.\n\nUse the same realistic WHITE/LIGHT-GREY male anatomical mannequin, bald faceless, fine grey shading/fibres, natural athletic proportions and featureless smooth pelvis, dark #2A2A2A gym shorts. No sand, beige, clay, simplified flat cartoon or outline-only figures. Equipment black/grey. Do not invent product features, extra labels, exercise facts or decorative elements.\n\nIMPORTANT REBRAND: the masters still show the OLD Lightweight logo. REMOVE that entire old wordmark and dinosaur from the generated image. Do NOT reproduce or redraw ANY logo, brand name or symbol. Leave the top 110 px completely EMPTY over uninterrupted #F0F1EB, no box, patch, panel, placeholder or other text. The owner's NEW authentic transparent Harda logo PNG will be pasted as a separate original layer at x48,y19,218×71 px after generation. Keep every other object/text below y110.\n\nAll words come ONLY from copy.json v1.1 below. Preserve exact spelling, lowercase, hyphens and punctuation. No extra words, variant letters, watermarks, signatures, slide counters or added punctuation. Keep all letters legible and fully inside the canvas; move/shrink the figure if needed rather than clip text.\n\nAUTHORITATIVE EXACT STRINGS:\n\"F\"\n\"tier\"\n\"skip these\"\n\nF TIER DIVIDER: Regenerate in the exact appearance of the two approved F-tier masters, changing only the reserved brand area to be empty for the new Harda logo. Do NOT copy their old Lightweight logo. Preserve the same sparse centered composition and sizes/positions: rounded square cyan #5BDCE3 tile with huge bold WHITE \"F\" and subtle soft grey shadow; directly to its right huge heavy lowercase \"tier\" in #2A2A2A. Centered italic grey below, exactly \"skip these\". Large empty space above and below. No figure, stars, equipment or additional decorations.\n\nReturn exactly ONE finished opaque slide, not a montage, mockup, comparison or sheet.",
       "prompt_file": "prompts/slide-02.txt",
       "references": [
         "carousels/LW-CAR-0020/outputs/slide-02.png",
         "carousels/LW-CAR-0021/outputs/slide-02.png"
-      ]
+      ],
+      "owner_approval": {
+        "source": "Owner explicitly approved all three initial Harda slides in this chat and authorized continuation",
+        "date": "2026-10-20",
+        "output_commit": "2c3fbbc1769f9eaafc893e4fb79d3ab3c03c1dc9",
+        "content_version": "1.1"
+      }
     },
     {
       "slide": 3,
@@ -166,19 +180,26 @@
             "mode": "RGB",
             "has_alpha": false,
             "logo": "original harda-logo-full.png, x48,y19,218x71, own alpha, no backing patch"
-          }
+          },
+          "user_review": "approved"
         }
       ],
       "errors": [],
       "save_status": "saved_to_repository_checkout",
       "agent_visual_review": "not_performed",
-      "user_review": "pending",
+      "user_review": "approved",
       "prompt": "HARDA carousel LW-CAR-0023, copy.json v1.1, approved S2 tier-list series. Edit the supplied APPROVED masters as the strict design/layout authority. Match their exact look, heavy lowercase tight grotesk lettering, type sizes, markers, spacing, white anatomical figure rendering and opaque off-white background. This new biceps carousel must look like the same series as LW-CAR-0020 and LW-CAR-0021, not a redesign.\n\nProduce ONE complete portrait 1080 × 1350 px PNG with all slide text and artwork generated TOGETHER. Solid opaque background #F0F1EB CLEAN, no texture, cards, arch, grid, dots, rings, transparency or checkerboard. Text dark #2A2A2A; grey italic secondary line #6B6B6B. Accent #F26445; empty stars #D6D6D2. Headlines are the masters' very heavy tight lowercase GROTESK, not Rubik. Marker is a flat coral rectangle BEHIND THE LOWER PART OF the designated words, keeping dark glyphs readable. Body regular sans, left-aligned, up to two lines.\n\nUse the same realistic WHITE/LIGHT-GREY male anatomical mannequin, bald faceless, fine grey shading/fibres, natural athletic proportions and featureless smooth pelvis, dark #2A2A2A gym shorts. No sand, beige, clay, simplified flat cartoon or outline-only figures. Equipment black/grey. Do not invent product features, extra labels, exercise facts or decorative elements.\n\nIMPORTANT REBRAND: the masters still show the OLD Lightweight logo. REMOVE that entire old wordmark and dinosaur from the generated image. Do NOT reproduce or redraw ANY logo, brand name or symbol. Leave the top 110 px completely EMPTY over uninterrupted #F0F1EB, no box, patch, panel, placeholder or other text. The owner's NEW authentic transparent Harda logo PNG will be pasted as a separate original layer at x48,y19,218×71 px after generation. Keep every other object/text below y110.\n\nAll words come ONLY from copy.json v1.1 below. Preserve exact spelling, lowercase, hyphens and punctuation. No extra words, variant letters, watermarks, signatures, slide counters or added punctuation. Keep all letters legible and fully inside the canvas; move/shrink the figure if needed rather than clip text.\n\nAUTHORITATIVE EXACT STRINGS:\n\"#12\"\n\"band curl\"\n\"almost no tension at the bottom, where your biceps need it.\"\n\nEXERCISE #12 BAND CURL: Use LW-CAR-0020 slide 3 as the precise header/stars/body layout master and LW-CAR-0021 slide 3 for a FRONT standing figure at the same scale, but REPLACE its barbell exercise with OUR band curl.\nTop-left below y110, same position and size as approved masters, exact heavy lowercase headline \"#12\" followed by \"band curl\". Coral marker behind the LOWER PART OF ONLY \"band curl\", never behind \"#12\". Below headline, left aligned row of EXACTLY FIVE five-point stars: FIRST star coral #F26445 and FOUR remaining stars light grey #D6D6D2. Rating exactly 1/5, no half stars or numeric rating label.\nBelow stars, exact body \"almost no tension at the bottom, where your biceps need it.\", regular dark sans, left aligned, up to two lines, such as:\nalmost no tension at the bottom, where\nyour biceps need it.\nLower ~60%: standing on a resistance band, curling the handles, front view. One full white anatomical mannequin, front view, feet shoulder width standing ON the middle of a black resistance band. Each hand holds one black handle attached to that band's two ends, elbows tucked by sides, forearms curling upward, supinated palms. Show BOTH band strands running from under the feet upward to the handles so the equipment is unmistakably a resistance band. No barbell, weight plates, dumbbells, cables/pulley machine or bench; do not copy equipment from either master. NO muscles coloured on this exercise slide; all white/light-grey, dark shorts. Head, feet, both hands, handles and band fully visible inside the slide, without touching any text.\n\nReturn exactly ONE finished opaque slide, not a montage, mockup, comparison or sheet.",
       "prompt_file": "prompts/slide-03.txt",
       "references": [
         "carousels/LW-CAR-0020/outputs/slide-03.png",
         "carousels/LW-CAR-0021/outputs/slide-03.png"
-      ]
+      ],
+      "owner_approval": {
+        "source": "Owner explicitly approved all three initial Harda slides in this chat and authorized continuation",
+        "date": "2026-10-20",
+        "output_commit": "2c3fbbc1769f9eaafc893e4fb79d3ab3c03c1dc9",
+        "content_version": "1.1"
+      }
     },
     {
       "slide": 4,
@@ -189,12 +210,51 @@
         "21s",
         "a fun burn, but the weight is too light to grow."
       ],
-      "file": null,
-      "attempts": [],
-      "errors": [],
-      "save_status": "not_started_awaiting_owner_approval_of_slides_1_2_3",
+      "file": "outputs/slide-04.png",
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "started_at": "2026-10-19T23:37:29.191123+00:00",
+          "status": "blocked",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0023/outputs/slide-03.png"
+          ],
+          "finished_at": "2026-10-19T23:39:11.475569+00:00",
+          "result_file": null,
+          "error": {
+            "code": "moderation_blocked",
+            "type": "image_generation_user_error",
+            "stage": "output",
+            "categories": [
+              "sexual"
+            ],
+            "request_id": "2174ebe4-c7b5-418c-a3ad-6b9169eb46a2",
+            "message": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 2174ebe4-c7b5-418c-a3ad-6b9169eb46a2. safety_violations=[sexual].\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"sexual\\\"\\n      ]\\n    }\\n  }\\n}\")"
+          }
+        }
+      ],
+      "errors": [
+        {
+          "code": "moderation_blocked",
+          "type": "image_generation_user_error",
+          "stage": "output",
+          "categories": [
+            "sexual"
+          ],
+          "request_id": "2174ebe4-c7b5-418c-a3ad-6b9169eb46a2",
+          "message": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 2174ebe4-c7b5-418c-a3ad-6b9169eb46a2. safety_violations=[sexual].\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"sexual\\\"\\n      ]\\n    }\\n  }\\n}\")"
+        }
+      ],
+      "save_status": "blocked_no_image_returned",
       "agent_visual_review": "not_performed",
-      "user_review": "pending"
+      "user_review": "pending",
+      "prompt": "Harda LW-CAR-0023 v1.1, approved S2 series continuation. FIRST supplied image is the approved layout/style master. Match EXACTLY the same design, heavy tight lowercase grotesk type and sizes, colours, marker bars, spacing, white anatomy figure and fine grey shading. Any second master is only a typography/line-wrap example, never its exercise or copy. All text/exercises/rating below are authoritative copy.json v1.1; replace every word and exercise in the input accordingly.\n\nONE finished 1080×1350 portrait 4:5 PNG, text and artwork generated TOGETHER. Opaque solid #F0F1EB CLEAN background, no texture, white cards, panels, arches, dots, grids, transparency or checkerboards. Headline #2A2A2A very heavy lowercase tight GROTESK as master, not Rubik. Body regular dark #2A2A2A sans left-aligned, up to two lines. Secondary tier line regular italic #6B6B6B. Coral #F26445 rectangular marker behind LOWER PART of exercise name ONLY, not the #number; dark glyphs remain legible. Filled stars #F26445, empty stars #D6D6D2.\n\nSame realistic WHITE/LIGHT-GREY anatomical adult male mannequin, bald faceless, fine grey muscle fibres/shading, natural athletic proportions, featureless smooth pelvis and dark #2A2A2A gym shorts. No muscles coloured on exercise slides, no sand/beige, no cartoon, clay or flat simplified figure. Equipment black/grey. Keep full figure, hands, equipment and feet in frame, clear of all text.\n\nREMOVE any source logo from generation. Leave the top 110 px completely EMPTY on uninterrupted background, no old wordmark, icon, box, patch or placeholder. The owner's ORIGINAL transparent Harda logo PNG will be pasted afterwards at x48,y19,218×71 using its own alpha, with no backing patch. No logo redrawing, extra text, signatures, watermarks, slide counters or punctuation. All exact strings legible without clipping. Long names may wrap over TWO lines at the SAME heavy size as the masters, with a coral marker under each name line; do not shrink them into a different type style.\n\nAUTHORITATIVE EXACT STRINGS:\n\"#11\"\n\"21s\"\n\"a fun burn, but the weight is too light to grow.\"\n\nSLIDE 4, EXERCISE: replace the master text/exercise. Header exact \"#11\" then \"21s\", left aligned, same big heavy grotesk. Marker ONLY under exercise name. \nRow of EXACTLY FIVE graphical stars beneath title. Rating 1.5/5: 1 full coral stars, then ONE half-filled star LEFT half coral RIGHT half light grey, then 3 entirely light grey stars. Do not add a numeric rating.\nBody exact \"a fun burn, but the weight is too light to grow.\", regular dark sans, left aligned, up to two lines.\nLarge illustration lower ~60%: standing barbell curl with a light bar, halfway up, front view. A light STRAIGHT BAR held in both hands in a standing FRONT-view curl halfway up. Palms SUPINATED facing up, elbows by sides, forearms about horizontal. No bands. The move is the partial-range curl called 21s; do not add sequence diagrams or numbers beyond the title. Match the approved master's white anatomical detail and dark shorts but replace the band-curl pose/equipment. No coloured muscles. Keep all text fully visible.\n\nReturn ONE complete opaque slide only, not a montage, mockup or comparison.",
+      "prompt_file": "prompts/slide-04.txt",
+      "references": [
+        "carousels/LW-CAR-0023/outputs/slide-03.png"
+      ]
     },
     {
       "slide": 5,
@@ -205,12 +265,17 @@
         "tier",
         "you can do better"
       ],
-      "file": null,
+      "file": "outputs/slide-05.png",
       "attempts": [],
       "errors": [],
-      "save_status": "not_started_awaiting_owner_approval_of_slides_1_2_3",
+      "save_status": "not_started",
       "agent_visual_review": "not_performed",
-      "user_review": "pending"
+      "user_review": "pending",
+      "prompt": "Harda LW-CAR-0023 v1.1, approved S2 series continuation. FIRST supplied image is the approved layout/style master. Match EXACTLY the same design, heavy tight lowercase grotesk type and sizes, colours, marker bars, spacing, white anatomy figure and fine grey shading. Any second master is only a typography/line-wrap example, never its exercise or copy. All text/exercises/rating below are authoritative copy.json v1.1; replace every word and exercise in the input accordingly.\n\nONE finished 1080×1350 portrait 4:5 PNG, text and artwork generated TOGETHER. Opaque solid #F0F1EB CLEAN background, no texture, white cards, panels, arches, dots, grids, transparency or checkerboards. Headline #2A2A2A very heavy lowercase tight GROTESK as master, not Rubik. Body regular dark #2A2A2A sans left-aligned, up to two lines. Secondary tier line regular italic #6B6B6B. Coral #F26445 rectangular marker behind LOWER PART of exercise name ONLY, not the #number; dark glyphs remain legible. Filled stars #F26445, empty stars #D6D6D2.\n\nSame realistic WHITE/LIGHT-GREY anatomical adult male mannequin, bald faceless, fine grey muscle fibres/shading, natural athletic proportions, featureless smooth pelvis and dark #2A2A2A gym shorts. No muscles coloured on exercise slides, no sand/beige, no cartoon, clay or flat simplified figure. Equipment black/grey. Keep full figure, hands, equipment and feet in frame, clear of all text.\n\nREMOVE any source logo from generation. Leave the top 110 px completely EMPTY on uninterrupted background, no old wordmark, icon, box, patch or placeholder. The owner's ORIGINAL transparent Harda logo PNG will be pasted afterwards at x48,y19,218×71 using its own alpha, with no backing patch. No logo redrawing, extra text, signatures, watermarks, slide counters or punctuation. All exact strings legible without clipping. Long names may wrap over TWO lines at the SAME heavy size as the masters, with a coral marker under each name line; do not shrink them into a different type style.\n\nAUTHORITATIVE EXACT STRINGS:\n\"C\"\n\"tier\"\n\"you can do better\"\n\nSLIDE 5, TIER DIVIDER: same approved F-tier master's precise composition, positions, type sizes, tile and letter shadow, but rounded tile is #3FCF5E and big white letter \"C\". To the right exactly \"tier\". Centered italic grey tier line below exactly \"you can do better\". No stars, figures or equipment. Keep the broad empty space above and below. Do not generate logo.\n\nReturn ONE complete opaque slide only, not a montage, mockup or comparison.",
+      "prompt_file": "prompts/slide-05.txt",
+      "references": [
+        "carousels/LW-CAR-0023/outputs/slide-02.png"
+      ]
     },
     {
       "slide": 6,
@@ -221,12 +286,18 @@
         "concentration curl",
         "great squeeze, but one arm at a time takes forever."
       ],
-      "file": null,
+      "file": "outputs/slide-06.png",
       "attempts": [],
       "errors": [],
-      "save_status": "not_started_awaiting_owner_approval_of_slides_1_2_3",
+      "save_status": "not_started",
       "agent_visual_review": "not_performed",
-      "user_review": "pending"
+      "user_review": "pending",
+      "prompt": "Harda LW-CAR-0023 v1.1, approved S2 series continuation. FIRST supplied image is the approved layout/style master. Match EXACTLY the same design, heavy tight lowercase grotesk type and sizes, colours, marker bars, spacing, white anatomy figure and fine grey shading. Any second master is only a typography/line-wrap example, never its exercise or copy. All text/exercises/rating below are authoritative copy.json v1.1; replace every word and exercise in the input accordingly.\n\nONE finished 1080×1350 portrait 4:5 PNG, text and artwork generated TOGETHER. Opaque solid #F0F1EB CLEAN background, no texture, white cards, panels, arches, dots, grids, transparency or checkerboards. Headline #2A2A2A very heavy lowercase tight GROTESK as master, not Rubik. Body regular dark #2A2A2A sans left-aligned, up to two lines. Secondary tier line regular italic #6B6B6B. Coral #F26445 rectangular marker behind LOWER PART of exercise name ONLY, not the #number; dark glyphs remain legible. Filled stars #F26445, empty stars #D6D6D2.\n\nSame realistic WHITE/LIGHT-GREY anatomical adult male mannequin, bald faceless, fine grey muscle fibres/shading, natural athletic proportions, featureless smooth pelvis and dark #2A2A2A gym shorts. No muscles coloured on exercise slides, no sand/beige, no cartoon, clay or flat simplified figure. Equipment black/grey. Keep full figure, hands, equipment and feet in frame, clear of all text.\n\nREMOVE any source logo from generation. Leave the top 110 px completely EMPTY on uninterrupted background, no old wordmark, icon, box, patch or placeholder. The owner's ORIGINAL transparent Harda logo PNG will be pasted afterwards at x48,y19,218×71 using its own alpha, with no backing patch. No logo redrawing, extra text, signatures, watermarks, slide counters or punctuation. All exact strings legible without clipping. Long names may wrap over TWO lines at the SAME heavy size as the masters, with a coral marker under each name line; do not shrink them into a different type style.\n\nAUTHORITATIVE EXACT STRINGS:\n\"#10\"\n\"concentration curl\"\n\"great squeeze, but one arm at a time takes forever.\"\n\nSLIDE 6, EXERCISE: replace the master text/exercise. Header exact \"#10\" then \"concentration curl\", left aligned, same big heavy grotesk. Marker ONLY under exercise name. Wrap the long name into TWO lines at the same large type size if needed; second image is ONLY a long-name typography example, not the exercise pose.\nRow of EXACTLY FIVE graphical stars beneath title. Rating 2.5/5: 2 full coral stars, then ONE half-filled star LEFT half coral RIGHT half light grey, then 2 entirely light grey stars. Do not add a numeric rating.\nBody exact \"great squeeze, but one arm at a time takes forever.\", regular dark sans, left aligned, up to two lines.\nLarge illustration lower ~60%: seated on a bench, elbow on the inner thigh, curling one dumbbell, front three-quarter view. Seated on a black flat bench, legs apart, torso leaning forward slightly. ONE elbow rests on the INSIDE of that thigh while the same arm curls ONE black dumbbell. Other hand supports the opposite knee. Front three-quarter view, not a standing curl. Match the approved master's white anatomical detail and dark shorts but replace the band-curl pose/equipment. No coloured muscles. Keep all text fully visible.\n\nReturn ONE complete opaque slide only, not a montage, mockup or comparison.",
+      "prompt_file": "prompts/slide-06.txt",
+      "references": [
+        "carousels/LW-CAR-0023/outputs/slide-03.png",
+        "carousels/LW-CAR-0021/outputs/slide-18.png"
+      ]
     },
     {
       "slide": 7,
@@ -237,12 +308,17 @@
         "reverse curl",
         "more forearms than biceps."
       ],
-      "file": null,
+      "file": "outputs/slide-07.png",
       "attempts": [],
       "errors": [],
-      "save_status": "not_started_awaiting_owner_approval_of_slides_1_2_3",
+      "save_status": "not_started",
       "agent_visual_review": "not_performed",
-      "user_review": "pending"
+      "user_review": "pending",
+      "prompt": "Harda LW-CAR-0023 v1.1, approved S2 series continuation. FIRST supplied image is the approved layout/style master. Match EXACTLY the same design, heavy tight lowercase grotesk type and sizes, colours, marker bars, spacing, white anatomy figure and fine grey shading. Any second master is only a typography/line-wrap example, never its exercise or copy. All text/exercises/rating below are authoritative copy.json v1.1; replace every word and exercise in the input accordingly.\n\nONE finished 1080×1350 portrait 4:5 PNG, text and artwork generated TOGETHER. Opaque solid #F0F1EB CLEAN background, no texture, white cards, panels, arches, dots, grids, transparency or checkerboards. Headline #2A2A2A very heavy lowercase tight GROTESK as master, not Rubik. Body regular dark #2A2A2A sans left-aligned, up to two lines. Secondary tier line regular italic #6B6B6B. Coral #F26445 rectangular marker behind LOWER PART of exercise name ONLY, not the #number; dark glyphs remain legible. Filled stars #F26445, empty stars #D6D6D2.\n\nSame realistic WHITE/LIGHT-GREY anatomical adult male mannequin, bald faceless, fine grey muscle fibres/shading, natural athletic proportions, featureless smooth pelvis and dark #2A2A2A gym shorts. No muscles coloured on exercise slides, no sand/beige, no cartoon, clay or flat simplified figure. Equipment black/grey. Keep full figure, hands, equipment and feet in frame, clear of all text.\n\nREMOVE any source logo from generation. Leave the top 110 px completely EMPTY on uninterrupted background, no old wordmark, icon, box, patch or placeholder. The owner's ORIGINAL transparent Harda logo PNG will be pasted afterwards at x48,y19,218×71 using its own alpha, with no backing patch. No logo redrawing, extra text, signatures, watermarks, slide counters or punctuation. All exact strings legible without clipping. Long names may wrap over TWO lines at the SAME heavy size as the masters, with a coral marker under each name line; do not shrink them into a different type style.\n\nAUTHORITATIVE EXACT STRINGS:\n\"#9\"\n\"reverse curl\"\n\"more forearms than biceps.\"\n\nSLIDE 7, EXERCISE: replace the master text/exercise. Header exact \"#9\" then \"reverse curl\", left aligned, same big heavy grotesk. Marker ONLY under exercise name. \nRow of EXACTLY FIVE graphical stars beneath title. Rating 2.5/5: 2 full coral stars, then ONE half-filled star LEFT half coral RIGHT half light grey, then 2 entirely light grey stars. Do not add a numeric rating.\nBody exact \"more forearms than biceps.\", regular dark sans, left aligned, up to two lines.\nLarge illustration lower ~60%: standing barbell curl with an overhand grip, halfway up, front view. Standing FRONT view barbell curl halfway up with PRONATED OVERHAND grip: palms face DOWN on a straight black/grey bar. Elbows by torso. No band or machine. Match the approved master's white anatomical detail and dark shorts but replace the band-curl pose/equipment. No coloured muscles. Keep all text fully visible.\n\nReturn ONE complete opaque slide only, not a montage, mockup or comparison.",
+      "prompt_file": "prompts/slide-07.txt",
+      "references": [
+        "carousels/LW-CAR-0023/outputs/slide-03.png"
+      ]
     },
     {
       "slide": 8,
@@ -253,12 +329,17 @@
         "tier",
         "solid picks"
       ],
-      "file": null,
+      "file": "outputs/slide-08.png",
       "attempts": [],
       "errors": [],
-      "save_status": "not_started_awaiting_owner_approval_of_slides_1_2_3",
+      "save_status": "not_started",
       "agent_visual_review": "not_performed",
-      "user_review": "pending"
+      "user_review": "pending",
+      "prompt": "Harda LW-CAR-0023 v1.1, approved S2 series continuation. FIRST supplied image is the approved layout/style master. Match EXACTLY the same design, heavy tight lowercase grotesk type and sizes, colours, marker bars, spacing, white anatomy figure and fine grey shading. Any second master is only a typography/line-wrap example, never its exercise or copy. All text/exercises/rating below are authoritative copy.json v1.1; replace every word and exercise in the input accordingly.\n\nONE finished 1080×1350 portrait 4:5 PNG, text and artwork generated TOGETHER. Opaque solid #F0F1EB CLEAN background, no texture, white cards, panels, arches, dots, grids, transparency or checkerboards. Headline #2A2A2A very heavy lowercase tight GROTESK as master, not Rubik. Body regular dark #2A2A2A sans left-aligned, up to two lines. Secondary tier line regular italic #6B6B6B. Coral #F26445 rectangular marker behind LOWER PART of exercise name ONLY, not the #number; dark glyphs remain legible. Filled stars #F26445, empty stars #D6D6D2.\n\nSame realistic WHITE/LIGHT-GREY anatomical adult male mannequin, bald faceless, fine grey muscle fibres/shading, natural athletic proportions, featureless smooth pelvis and dark #2A2A2A gym shorts. No muscles coloured on exercise slides, no sand/beige, no cartoon, clay or flat simplified figure. Equipment black/grey. Keep full figure, hands, equipment and feet in frame, clear of all text.\n\nREMOVE any source logo from generation. Leave the top 110 px completely EMPTY on uninterrupted background, no old wordmark, icon, box, patch or placeholder. The owner's ORIGINAL transparent Harda logo PNG will be pasted afterwards at x48,y19,218×71 using its own alpha, with no backing patch. No logo redrawing, extra text, signatures, watermarks, slide counters or punctuation. All exact strings legible without clipping. Long names may wrap over TWO lines at the SAME heavy size as the masters, with a coral marker under each name line; do not shrink them into a different type style.\n\nAUTHORITATIVE EXACT STRINGS:\n\"B\"\n\"tier\"\n\"solid picks\"\n\nSLIDE 8, TIER DIVIDER: same approved F-tier master's precise composition, positions, type sizes, tile and letter shadow, but rounded tile is #FFD95A and big white letter \"B\". To the right exactly \"tier\". Centered italic grey tier line below exactly \"solid picks\". No stars, figures or equipment. Keep the broad empty space above and below. Do not generate logo.\n\nReturn ONE complete opaque slide only, not a montage, mockup or comparison.",
+      "prompt_file": "prompts/slide-08.txt",
+      "references": [
+        "carousels/LW-CAR-0023/outputs/slide-02.png"
+      ]
     },
     {
       "slide": 9,
@@ -269,12 +350,17 @@
         "barbell curl",
         "classic and heavy, but way too easy to swing the weight up."
       ],
-      "file": null,
+      "file": "outputs/slide-09.png",
       "attempts": [],
       "errors": [],
-      "save_status": "not_started_awaiting_owner_approval_of_slides_1_2_3",
+      "save_status": "not_started",
       "agent_visual_review": "not_performed",
-      "user_review": "pending"
+      "user_review": "pending",
+      "prompt": "Harda LW-CAR-0023 v1.1, approved S2 series continuation. FIRST supplied image is the approved layout/style master. Match EXACTLY the same design, heavy tight lowercase grotesk type and sizes, colours, marker bars, spacing, white anatomy figure and fine grey shading. Any second master is only a typography/line-wrap example, never its exercise or copy. All text/exercises/rating below are authoritative copy.json v1.1; replace every word and exercise in the input accordingly.\n\nONE finished 1080×1350 portrait 4:5 PNG, text and artwork generated TOGETHER. Opaque solid #F0F1EB CLEAN background, no texture, white cards, panels, arches, dots, grids, transparency or checkerboards. Headline #2A2A2A very heavy lowercase tight GROTESK as master, not Rubik. Body regular dark #2A2A2A sans left-aligned, up to two lines. Secondary tier line regular italic #6B6B6B. Coral #F26445 rectangular marker behind LOWER PART of exercise name ONLY, not the #number; dark glyphs remain legible. Filled stars #F26445, empty stars #D6D6D2.\n\nSame realistic WHITE/LIGHT-GREY anatomical adult male mannequin, bald faceless, fine grey muscle fibres/shading, natural athletic proportions, featureless smooth pelvis and dark #2A2A2A gym shorts. No muscles coloured on exercise slides, no sand/beige, no cartoon, clay or flat simplified figure. Equipment black/grey. Keep full figure, hands, equipment and feet in frame, clear of all text.\n\nREMOVE any source logo from generation. Leave the top 110 px completely EMPTY on uninterrupted background, no old wordmark, icon, box, patch or placeholder. The owner's ORIGINAL transparent Harda logo PNG will be pasted afterwards at x48,y19,218×71 using its own alpha, with no backing patch. No logo redrawing, extra text, signatures, watermarks, slide counters or punctuation. All exact strings legible without clipping. Long names may wrap over TWO lines at the SAME heavy size as the masters, with a coral marker under each name line; do not shrink them into a different type style.\n\nAUTHORITATIVE EXACT STRINGS:\n\"#8\"\n\"barbell curl\"\n\"classic and heavy, but way too easy to swing the weight up.\"\n\nSLIDE 9, EXERCISE: replace the master text/exercise. Header exact \"#8\" then \"barbell curl\", left aligned, same big heavy grotesk. Marker ONLY under exercise name. \nRow of EXACTLY FIVE graphical stars beneath title. Rating 3/5: 3 full coral stars, then 2 entirely light grey stars. Do not add a numeric rating.\nBody exact \"classic and heavy, but way too easy to swing the weight up.\", regular dark sans, left aligned, up to two lines.\nLarge illustration lower ~60%: standing barbell curl, bar at chest height, front view. Standing FRONT view classic straight-bar barbell curl, palms underhand, bar raised near chest. Elbows bent naturally and feet planted. No resistance band. Match the approved master's white anatomical detail and dark shorts but replace the band-curl pose/equipment. No coloured muscles. Keep all text fully visible.\n\nReturn ONE complete opaque slide only, not a montage, mockup or comparison.",
+      "prompt_file": "prompts/slide-09.txt",
+      "references": [
+        "carousels/LW-CAR-0023/outputs/slide-03.png"
+      ]
     },
     {
       "slide": 10,
@@ -285,12 +371,17 @@
         "hammer curl",
         "makes your arms look thicker, but it’s more brachialis than biceps."
       ],
-      "file": null,
+      "file": "outputs/slide-10.png",
       "attempts": [],
       "errors": [],
-      "save_status": "not_started_awaiting_owner_approval_of_slides_1_2_3",
+      "save_status": "not_started",
       "agent_visual_review": "not_performed",
-      "user_review": "pending"
+      "user_review": "pending",
+      "prompt": "Harda LW-CAR-0023 v1.1, approved S2 series continuation. FIRST supplied image is the approved layout/style master. Match EXACTLY the same design, heavy tight lowercase grotesk type and sizes, colours, marker bars, spacing, white anatomy figure and fine grey shading. Any second master is only a typography/line-wrap example, never its exercise or copy. All text/exercises/rating below are authoritative copy.json v1.1; replace every word and exercise in the input accordingly.\n\nONE finished 1080×1350 portrait 4:5 PNG, text and artwork generated TOGETHER. Opaque solid #F0F1EB CLEAN background, no texture, white cards, panels, arches, dots, grids, transparency or checkerboards. Headline #2A2A2A very heavy lowercase tight GROTESK as master, not Rubik. Body regular dark #2A2A2A sans left-aligned, up to two lines. Secondary tier line regular italic #6B6B6B. Coral #F26445 rectangular marker behind LOWER PART of exercise name ONLY, not the #number; dark glyphs remain legible. Filled stars #F26445, empty stars #D6D6D2.\n\nSame realistic WHITE/LIGHT-GREY anatomical adult male mannequin, bald faceless, fine grey muscle fibres/shading, natural athletic proportions, featureless smooth pelvis and dark #2A2A2A gym shorts. No muscles coloured on exercise slides, no sand/beige, no cartoon, clay or flat simplified figure. Equipment black/grey. Keep full figure, hands, equipment and feet in frame, clear of all text.\n\nREMOVE any source logo from generation. Leave the top 110 px completely EMPTY on uninterrupted background, no old wordmark, icon, box, patch or placeholder. The owner's ORIGINAL transparent Harda logo PNG will be pasted afterwards at x48,y19,218×71 using its own alpha, with no backing patch. No logo redrawing, extra text, signatures, watermarks, slide counters or punctuation. All exact strings legible without clipping. Long names may wrap over TWO lines at the SAME heavy size as the masters, with a coral marker under each name line; do not shrink them into a different type style.\n\nAUTHORITATIVE EXACT STRINGS:\n\"#7\"\n\"hammer curl\"\n\"makes your arms look thicker, but it’s more brachialis than biceps.\"\n\nSLIDE 10, EXERCISE: replace the master text/exercise. Header exact \"#7\" then \"hammer curl\", left aligned, same big heavy grotesk. Marker ONLY under exercise name. \nRow of EXACTLY FIVE graphical stars beneath title. Rating 3.5/5: 3 full coral stars, then ONE half-filled star LEFT half coral RIGHT half light grey, then 1 entirely light grey stars. Do not add a numeric rating.\nBody exact \"makes your arms look thicker, but it’s more brachialis than biceps.\", regular dark sans, left aligned, up to two lines.\nLarge illustration lower ~60%: standing hammer curl with dumbbells, neutral grip, one arm up, front view. Standing FRONT view holding two dumbbells with NEUTRAL hammer grip, palms facing each other/thumbs up. ONE arm curls up while the other hangs lower. Do not rotate to a palms-up standard curl. Match the approved master's white anatomical detail and dark shorts but replace the band-curl pose/equipment. No coloured muscles. Keep all text fully visible.\n\nReturn ONE complete opaque slide only, not a montage, mockup or comparison.",
+      "prompt_file": "prompts/slide-10.txt",
+      "references": [
+        "carousels/LW-CAR-0023/outputs/slide-03.png"
+      ]
     },
     {
       "slide": 11,
@@ -301,12 +392,17 @@
         "chin-ups",
         "back and biceps in one move, and no gym needed."
       ],
-      "file": null,
+      "file": "outputs/slide-11.png",
       "attempts": [],
       "errors": [],
-      "save_status": "not_started_awaiting_owner_approval_of_slides_1_2_3",
+      "save_status": "not_started",
       "agent_visual_review": "not_performed",
-      "user_review": "pending"
+      "user_review": "pending",
+      "prompt": "Harda LW-CAR-0023 v1.1, approved S2 series continuation. FIRST supplied image is the approved layout/style master. Match EXACTLY the same design, heavy tight lowercase grotesk type and sizes, colours, marker bars, spacing, white anatomy figure and fine grey shading. Any second master is only a typography/line-wrap example, never its exercise or copy. All text/exercises/rating below are authoritative copy.json v1.1; replace every word and exercise in the input accordingly.\n\nONE finished 1080×1350 portrait 4:5 PNG, text and artwork generated TOGETHER. Opaque solid #F0F1EB CLEAN background, no texture, white cards, panels, arches, dots, grids, transparency or checkerboards. Headline #2A2A2A very heavy lowercase tight GROTESK as master, not Rubik. Body regular dark #2A2A2A sans left-aligned, up to two lines. Secondary tier line regular italic #6B6B6B. Coral #F26445 rectangular marker behind LOWER PART of exercise name ONLY, not the #number; dark glyphs remain legible. Filled stars #F26445, empty stars #D6D6D2.\n\nSame realistic WHITE/LIGHT-GREY anatomical adult male mannequin, bald faceless, fine grey muscle fibres/shading, natural athletic proportions, featureless smooth pelvis and dark #2A2A2A gym shorts. No muscles coloured on exercise slides, no sand/beige, no cartoon, clay or flat simplified figure. Equipment black/grey. Keep full figure, hands, equipment and feet in frame, clear of all text.\n\nREMOVE any source logo from generation. Leave the top 110 px completely EMPTY on uninterrupted background, no old wordmark, icon, box, patch or placeholder. The owner's ORIGINAL transparent Harda logo PNG will be pasted afterwards at x48,y19,218×71 using its own alpha, with no backing patch. No logo redrawing, extra text, signatures, watermarks, slide counters or punctuation. All exact strings legible without clipping. Long names may wrap over TWO lines at the SAME heavy size as the masters, with a coral marker under each name line; do not shrink them into a different type style.\n\nAUTHORITATIVE EXACT STRINGS:\n\"#6\"\n\"chin-ups\"\n\"back and biceps in one move, and no gym needed.\"\n\nSLIDE 11, EXERCISE: replace the master text/exercise. Header exact \"#6\" then \"chin-ups\", left aligned, same big heavy grotesk. Marker ONLY under exercise name. \nRow of EXACTLY FIVE graphical stars beneath title. Rating 3.5/5: 3 full coral stars, then ONE half-filled star LEFT half coral RIGHT half light grey, then 1 entirely light grey stars. Do not add a numeric rating.\nBody exact \"back and biceps in one move, and no gym needed.\", regular dark sans, left aligned, up to two lines.\nLarge illustration lower ~60%: chin-up on a bar with an underhand grip, chin over the bar, front view. Front view chin-up on a horizontal black bar with UNDERHAND grip, palms toward face, chin ABOVE bar. Full body with bent knees and feet visible. Dark shorts. No weights or invented machinery. Match the approved master's white anatomical detail and dark shorts but replace the band-curl pose/equipment. No coloured muscles. Keep all text fully visible.\n\nReturn ONE complete opaque slide only, not a montage, mockup or comparison.",
+      "prompt_file": "prompts/slide-11.txt",
+      "references": [
+        "carousels/LW-CAR-0023/outputs/slide-03.png"
+      ]
     },
     {
       "slide": 12,
@@ -317,12 +413,17 @@
         "tier",
         "worth your time"
       ],
-      "file": null,
+      "file": "outputs/slide-12.png",
       "attempts": [],
       "errors": [],
-      "save_status": "not_started_awaiting_owner_approval_of_slides_1_2_3",
+      "save_status": "not_started",
       "agent_visual_review": "not_performed",
-      "user_review": "pending"
+      "user_review": "pending",
+      "prompt": "Harda LW-CAR-0023 v1.1, approved S2 series continuation. FIRST supplied image is the approved layout/style master. Match EXACTLY the same design, heavy tight lowercase grotesk type and sizes, colours, marker bars, spacing, white anatomy figure and fine grey shading. Any second master is only a typography/line-wrap example, never its exercise or copy. All text/exercises/rating below are authoritative copy.json v1.1; replace every word and exercise in the input accordingly.\n\nONE finished 1080×1350 portrait 4:5 PNG, text and artwork generated TOGETHER. Opaque solid #F0F1EB CLEAN background, no texture, white cards, panels, arches, dots, grids, transparency or checkerboards. Headline #2A2A2A very heavy lowercase tight GROTESK as master, not Rubik. Body regular dark #2A2A2A sans left-aligned, up to two lines. Secondary tier line regular italic #6B6B6B. Coral #F26445 rectangular marker behind LOWER PART of exercise name ONLY, not the #number; dark glyphs remain legible. Filled stars #F26445, empty stars #D6D6D2.\n\nSame realistic WHITE/LIGHT-GREY anatomical adult male mannequin, bald faceless, fine grey muscle fibres/shading, natural athletic proportions, featureless smooth pelvis and dark #2A2A2A gym shorts. No muscles coloured on exercise slides, no sand/beige, no cartoon, clay or flat simplified figure. Equipment black/grey. Keep full figure, hands, equipment and feet in frame, clear of all text.\n\nREMOVE any source logo from generation. Leave the top 110 px completely EMPTY on uninterrupted background, no old wordmark, icon, box, patch or placeholder. The owner's ORIGINAL transparent Harda logo PNG will be pasted afterwards at x48,y19,218×71 using its own alpha, with no backing patch. No logo redrawing, extra text, signatures, watermarks, slide counters or punctuation. All exact strings legible without clipping. Long names may wrap over TWO lines at the SAME heavy size as the masters, with a coral marker under each name line; do not shrink them into a different type style.\n\nAUTHORITATIVE EXACT STRINGS:\n\"A\"\n\"tier\"\n\"worth your time\"\n\nSLIDE 12, TIER DIVIDER: same approved F-tier master's precise composition, positions, type sizes, tile and letter shadow, but rounded tile is #FF9A52 and big white letter \"A\". To the right exactly \"tier\". Centered italic grey tier line below exactly \"worth your time\". No stars, figures or equipment. Keep the broad empty space above and below. Do not generate logo.\n\nReturn ONE complete opaque slide only, not a montage, mockup or comparison.",
+      "prompt_file": "prompts/slide-12.txt",
+      "references": [
+        "carousels/LW-CAR-0023/outputs/slide-02.png"
+      ]
     },
     {
       "slide": 13,
@@ -333,12 +434,17 @@
         "ez-bar curl",
         "easier on your wrists than a straight bar, and just as heavy."
       ],
-      "file": null,
+      "file": "outputs/slide-13.png",
       "attempts": [],
       "errors": [],
-      "save_status": "not_started_awaiting_owner_approval_of_slides_1_2_3",
+      "save_status": "not_started",
       "agent_visual_review": "not_performed",
-      "user_review": "pending"
+      "user_review": "pending",
+      "prompt": "Harda LW-CAR-0023 v1.1, approved S2 series continuation. FIRST supplied image is the approved layout/style master. Match EXACTLY the same design, heavy tight lowercase grotesk type and sizes, colours, marker bars, spacing, white anatomy figure and fine grey shading. Any second master is only a typography/line-wrap example, never its exercise or copy. All text/exercises/rating below are authoritative copy.json v1.1; replace every word and exercise in the input accordingly.\n\nONE finished 1080×1350 portrait 4:5 PNG, text and artwork generated TOGETHER. Opaque solid #F0F1EB CLEAN background, no texture, white cards, panels, arches, dots, grids, transparency or checkerboards. Headline #2A2A2A very heavy lowercase tight GROTESK as master, not Rubik. Body regular dark #2A2A2A sans left-aligned, up to two lines. Secondary tier line regular italic #6B6B6B. Coral #F26445 rectangular marker behind LOWER PART of exercise name ONLY, not the #number; dark glyphs remain legible. Filled stars #F26445, empty stars #D6D6D2.\n\nSame realistic WHITE/LIGHT-GREY anatomical adult male mannequin, bald faceless, fine grey muscle fibres/shading, natural athletic proportions, featureless smooth pelvis and dark #2A2A2A gym shorts. No muscles coloured on exercise slides, no sand/beige, no cartoon, clay or flat simplified figure. Equipment black/grey. Keep full figure, hands, equipment and feet in frame, clear of all text.\n\nREMOVE any source logo from generation. Leave the top 110 px completely EMPTY on uninterrupted background, no old wordmark, icon, box, patch or placeholder. The owner's ORIGINAL transparent Harda logo PNG will be pasted afterwards at x48,y19,218×71 using its own alpha, with no backing patch. No logo redrawing, extra text, signatures, watermarks, slide counters or punctuation. All exact strings legible without clipping. Long names may wrap over TWO lines at the SAME heavy size as the masters, with a coral marker under each name line; do not shrink them into a different type style.\n\nAUTHORITATIVE EXACT STRINGS:\n\"#5\"\n\"ez-bar curl\"\n\"easier on your wrists than a straight bar, and just as heavy.\"\n\nSLIDE 13, EXERCISE: replace the master text/exercise. Header exact \"#5\" then \"ez-bar curl\", left aligned, same big heavy grotesk. Marker ONLY under exercise name. \nRow of EXACTLY FIVE graphical stars beneath title. Rating 4/5: 4 full coral stars, then 1 entirely light grey stars. Do not add a numeric rating.\nBody exact \"easier on your wrists than a straight bar, and just as heavy.\", regular dark sans, left aligned, up to two lines.\nLarge illustration lower ~60%: standing ez-bar curl, bar at chest height, front view. Standing FRONT view curling a visibly zig-zag EZ BAR to chest height, both hands on angled grips. Show the recognisable bends in the bar, not a straight bar or band. Match the approved master's white anatomical detail and dark shorts but replace the band-curl pose/equipment. No coloured muscles. Keep all text fully visible.\n\nReturn ONE complete opaque slide only, not a montage, mockup or comparison.",
+      "prompt_file": "prompts/slide-13.txt",
+      "references": [
+        "carousels/LW-CAR-0023/outputs/slide-03.png"
+      ]
     },
     {
       "slide": 14,
@@ -349,12 +455,17 @@
         "incline db curl",
         "a huge stretch on your biceps. humbling, but it works."
       ],
-      "file": null,
+      "file": "outputs/slide-14.png",
       "attempts": [],
       "errors": [],
-      "save_status": "not_started_awaiting_owner_approval_of_slides_1_2_3",
+      "save_status": "not_started",
       "agent_visual_review": "not_performed",
-      "user_review": "pending"
+      "user_review": "pending",
+      "prompt": "Harda LW-CAR-0023 v1.1, approved S2 series continuation. FIRST supplied image is the approved layout/style master. Match EXACTLY the same design, heavy tight lowercase grotesk type and sizes, colours, marker bars, spacing, white anatomy figure and fine grey shading. Any second master is only a typography/line-wrap example, never its exercise or copy. All text/exercises/rating below are authoritative copy.json v1.1; replace every word and exercise in the input accordingly.\n\nONE finished 1080×1350 portrait 4:5 PNG, text and artwork generated TOGETHER. Opaque solid #F0F1EB CLEAN background, no texture, white cards, panels, arches, dots, grids, transparency or checkerboards. Headline #2A2A2A very heavy lowercase tight GROTESK as master, not Rubik. Body regular dark #2A2A2A sans left-aligned, up to two lines. Secondary tier line regular italic #6B6B6B. Coral #F26445 rectangular marker behind LOWER PART of exercise name ONLY, not the #number; dark glyphs remain legible. Filled stars #F26445, empty stars #D6D6D2.\n\nSame realistic WHITE/LIGHT-GREY anatomical adult male mannequin, bald faceless, fine grey muscle fibres/shading, natural athletic proportions, featureless smooth pelvis and dark #2A2A2A gym shorts. No muscles coloured on exercise slides, no sand/beige, no cartoon, clay or flat simplified figure. Equipment black/grey. Keep full figure, hands, equipment and feet in frame, clear of all text.\n\nREMOVE any source logo from generation. Leave the top 110 px completely EMPTY on uninterrupted background, no old wordmark, icon, box, patch or placeholder. The owner's ORIGINAL transparent Harda logo PNG will be pasted afterwards at x48,y19,218×71 using its own alpha, with no backing patch. No logo redrawing, extra text, signatures, watermarks, slide counters or punctuation. All exact strings legible without clipping. Long names may wrap over TWO lines at the SAME heavy size as the masters, with a coral marker under each name line; do not shrink them into a different type style.\n\nAUTHORITATIVE EXACT STRINGS:\n\"#4\"\n\"incline db curl\"\n\"a huge stretch on your biceps. humbling, but it works.\"\n\nSLIDE 14, EXERCISE: replace the master text/exercise. Header exact \"#4\" then \"incline db curl\", left aligned, same big heavy grotesk. Marker ONLY under exercise name. \nRow of EXACTLY FIVE graphical stars beneath title. Rating 4/5: 4 full coral stars, then 1 entirely light grey stars. Do not add a numeric rating.\nBody exact \"a huge stretch on your biceps. humbling, but it works.\", regular dark sans, left aligned, up to two lines.\nLarge illustration lower ~60%: seated on an incline bench, arms hanging back, curling two dumbbells, side view. SIDE view seated/reclining on an incline bench, torso against sloped backrest, upper arms hanging slightly BEHIND torso, curling two dumbbells. Feet planted, no cable machine. Match the approved master's white anatomical detail and dark shorts but replace the band-curl pose/equipment. No coloured muscles. Keep all text fully visible.\n\nReturn ONE complete opaque slide only, not a montage, mockup or comparison.",
+      "prompt_file": "prompts/slide-14.txt",
+      "references": [
+        "carousels/LW-CAR-0023/outputs/slide-03.png"
+      ]
     },
     {
       "slide": 15,
@@ -365,12 +476,17 @@
         "preacher curl",
         "no swinging, no cheating. just your biceps."
       ],
-      "file": null,
+      "file": "outputs/slide-15.png",
       "attempts": [],
       "errors": [],
-      "save_status": "not_started_awaiting_owner_approval_of_slides_1_2_3",
+      "save_status": "not_started",
       "agent_visual_review": "not_performed",
-      "user_review": "pending"
+      "user_review": "pending",
+      "prompt": "Harda LW-CAR-0023 v1.1, approved S2 series continuation. FIRST supplied image is the approved layout/style master. Match EXACTLY the same design, heavy tight lowercase grotesk type and sizes, colours, marker bars, spacing, white anatomy figure and fine grey shading. Any second master is only a typography/line-wrap example, never its exercise or copy. All text/exercises/rating below are authoritative copy.json v1.1; replace every word and exercise in the input accordingly.\n\nONE finished 1080×1350 portrait 4:5 PNG, text and artwork generated TOGETHER. Opaque solid #F0F1EB CLEAN background, no texture, white cards, panels, arches, dots, grids, transparency or checkerboards. Headline #2A2A2A very heavy lowercase tight GROTESK as master, not Rubik. Body regular dark #2A2A2A sans left-aligned, up to two lines. Secondary tier line regular italic #6B6B6B. Coral #F26445 rectangular marker behind LOWER PART of exercise name ONLY, not the #number; dark glyphs remain legible. Filled stars #F26445, empty stars #D6D6D2.\n\nSame realistic WHITE/LIGHT-GREY anatomical adult male mannequin, bald faceless, fine grey muscle fibres/shading, natural athletic proportions, featureless smooth pelvis and dark #2A2A2A gym shorts. No muscles coloured on exercise slides, no sand/beige, no cartoon, clay or flat simplified figure. Equipment black/grey. Keep full figure, hands, equipment and feet in frame, clear of all text.\n\nREMOVE any source logo from generation. Leave the top 110 px completely EMPTY on uninterrupted background, no old wordmark, icon, box, patch or placeholder. The owner's ORIGINAL transparent Harda logo PNG will be pasted afterwards at x48,y19,218×71 using its own alpha, with no backing patch. No logo redrawing, extra text, signatures, watermarks, slide counters or punctuation. All exact strings legible without clipping. Long names may wrap over TWO lines at the SAME heavy size as the masters, with a coral marker under each name line; do not shrink them into a different type style.\n\nAUTHORITATIVE EXACT STRINGS:\n\"#3\"\n\"preacher curl\"\n\"no swinging, no cheating. just your biceps.\"\n\nSLIDE 15, EXERCISE: replace the master text/exercise. Header exact \"#3\" then \"preacher curl\", left aligned, same big heavy grotesk. Marker ONLY under exercise name. \nRow of EXACTLY FIVE graphical stars beneath title. Rating 4.5/5: 4 full coral stars, then ONE half-filled star LEFT half coral RIGHT half light grey, then 0 entirely light grey stars. Do not add a numeric rating.\nBody exact \"no swinging, no cheating. just your biceps.\", regular dark sans, left aligned, up to two lines.\nLarge illustration lower ~60%: seated preacher curl bench, arms on the pad, curling an ez-bar, side view. SIDE view seated at a preacher curl bench, BOTH upper arms supported on the sloped preacher PAD, hands curling an EZ bar. Show elbow support clearly; no standing curl. Match the approved master's white anatomical detail and dark shorts but replace the band-curl pose/equipment. No coloured muscles. Keep all text fully visible.\n\nReturn ONE complete opaque slide only, not a montage, mockup or comparison.",
+      "prompt_file": "prompts/slide-15.txt",
+      "references": [
+        "carousels/LW-CAR-0023/outputs/slide-03.png"
+      ]
     },
     {
       "slide": 16,
@@ -381,12 +497,17 @@
         "tier",
         "build your biceps on these"
       ],
-      "file": null,
+      "file": "outputs/slide-16.png",
       "attempts": [],
       "errors": [],
-      "save_status": "not_started_awaiting_owner_approval_of_slides_1_2_3",
+      "save_status": "not_started",
       "agent_visual_review": "not_performed",
-      "user_review": "pending"
+      "user_review": "pending",
+      "prompt": "Harda LW-CAR-0023 v1.1, approved S2 series continuation. FIRST supplied image is the approved layout/style master. Match EXACTLY the same design, heavy tight lowercase grotesk type and sizes, colours, marker bars, spacing, white anatomy figure and fine grey shading. Any second master is only a typography/line-wrap example, never its exercise or copy. All text/exercises/rating below are authoritative copy.json v1.1; replace every word and exercise in the input accordingly.\n\nONE finished 1080×1350 portrait 4:5 PNG, text and artwork generated TOGETHER. Opaque solid #F0F1EB CLEAN background, no texture, white cards, panels, arches, dots, grids, transparency or checkerboards. Headline #2A2A2A very heavy lowercase tight GROTESK as master, not Rubik. Body regular dark #2A2A2A sans left-aligned, up to two lines. Secondary tier line regular italic #6B6B6B. Coral #F26445 rectangular marker behind LOWER PART of exercise name ONLY, not the #number; dark glyphs remain legible. Filled stars #F26445, empty stars #D6D6D2.\n\nSame realistic WHITE/LIGHT-GREY anatomical adult male mannequin, bald faceless, fine grey muscle fibres/shading, natural athletic proportions, featureless smooth pelvis and dark #2A2A2A gym shorts. No muscles coloured on exercise slides, no sand/beige, no cartoon, clay or flat simplified figure. Equipment black/grey. Keep full figure, hands, equipment and feet in frame, clear of all text.\n\nREMOVE any source logo from generation. Leave the top 110 px completely EMPTY on uninterrupted background, no old wordmark, icon, box, patch or placeholder. The owner's ORIGINAL transparent Harda logo PNG will be pasted afterwards at x48,y19,218×71 using its own alpha, with no backing patch. No logo redrawing, extra text, signatures, watermarks, slide counters or punctuation. All exact strings legible without clipping. Long names may wrap over TWO lines at the SAME heavy size as the masters, with a coral marker under each name line; do not shrink them into a different type style.\n\nAUTHORITATIVE EXACT STRINGS:\n\"S\"\n\"tier\"\n\"build your biceps on these\"\n\nSLIDE 16, TIER DIVIDER: same approved F-tier master's precise composition, positions, type sizes, tile and letter shadow, but rounded tile is #F26445 and big white letter \"S\". To the right exactly \"tier\". Centered italic grey tier line below exactly \"build your biceps on these\". No stars, figures or equipment. Keep the broad empty space above and below. Do not generate logo.\n\nReturn ONE complete opaque slide only, not a montage, mockup or comparison.",
+      "prompt_file": "prompts/slide-16.txt",
+      "references": [
+        "carousels/LW-CAR-0023/outputs/slide-02.png"
+      ]
     },
     {
       "slide": 17,
@@ -397,12 +518,17 @@
         "cable curl",
         "tension from bottom to top, on every single rep."
       ],
-      "file": null,
+      "file": "outputs/slide-17.png",
       "attempts": [],
       "errors": [],
-      "save_status": "not_started_awaiting_owner_approval_of_slides_1_2_3",
+      "save_status": "not_started",
       "agent_visual_review": "not_performed",
-      "user_review": "pending"
+      "user_review": "pending",
+      "prompt": "Harda LW-CAR-0023 v1.1, approved S2 series continuation. FIRST supplied image is the approved layout/style master. Match EXACTLY the same design, heavy tight lowercase grotesk type and sizes, colours, marker bars, spacing, white anatomy figure and fine grey shading. Any second master is only a typography/line-wrap example, never its exercise or copy. All text/exercises/rating below are authoritative copy.json v1.1; replace every word and exercise in the input accordingly.\n\nONE finished 1080×1350 portrait 4:5 PNG, text and artwork generated TOGETHER. Opaque solid #F0F1EB CLEAN background, no texture, white cards, panels, arches, dots, grids, transparency or checkerboards. Headline #2A2A2A very heavy lowercase tight GROTESK as master, not Rubik. Body regular dark #2A2A2A sans left-aligned, up to two lines. Secondary tier line regular italic #6B6B6B. Coral #F26445 rectangular marker behind LOWER PART of exercise name ONLY, not the #number; dark glyphs remain legible. Filled stars #F26445, empty stars #D6D6D2.\n\nSame realistic WHITE/LIGHT-GREY anatomical adult male mannequin, bald faceless, fine grey muscle fibres/shading, natural athletic proportions, featureless smooth pelvis and dark #2A2A2A gym shorts. No muscles coloured on exercise slides, no sand/beige, no cartoon, clay or flat simplified figure. Equipment black/grey. Keep full figure, hands, equipment and feet in frame, clear of all text.\n\nREMOVE any source logo from generation. Leave the top 110 px completely EMPTY on uninterrupted background, no old wordmark, icon, box, patch or placeholder. The owner's ORIGINAL transparent Harda logo PNG will be pasted afterwards at x48,y19,218×71 using its own alpha, with no backing patch. No logo redrawing, extra text, signatures, watermarks, slide counters or punctuation. All exact strings legible without clipping. Long names may wrap over TWO lines at the SAME heavy size as the masters, with a coral marker under each name line; do not shrink them into a different type style.\n\nAUTHORITATIVE EXACT STRINGS:\n\"#2\"\n\"cable curl\"\n\"tension from bottom to top, on every single rep.\"\n\nSLIDE 17, EXERCISE: replace the master text/exercise. Header exact \"#2\" then \"cable curl\", left aligned, same big heavy grotesk. Marker ONLY under exercise name. \nRow of EXACTLY FIVE graphical stars beneath title. Rating 5/5: 5 full coral stars, then 0 entirely light grey stars. Do not add a numeric rating.\nBody exact \"tension from bottom to top, on every single rep.\", regular dark sans, left aligned, up to two lines.\nLarge illustration lower ~60%: standing cable curl from a low pulley with a straight bar, front view. FRONT view standing cable curl with a straight bar connected by a visible cable to a LOW pulley in front of feet. Both hands underhand, elbows by sides. One cable/bar, not the two loose bands of the source master. Match the approved master's white anatomical detail and dark shorts but replace the band-curl pose/equipment. No coloured muscles. Keep all text fully visible.\n\nReturn ONE complete opaque slide only, not a montage, mockup or comparison.",
+      "prompt_file": "prompts/slide-17.txt",
+      "references": [
+        "carousels/LW-CAR-0023/outputs/slide-03.png"
+      ]
     },
     {
       "slide": 18,
@@ -413,12 +539,18 @@
         "bayesian cable curl",
         "arm behind your body, a big stretch and tension the whole way."
       ],
-      "file": null,
+      "file": "outputs/slide-18.png",
       "attempts": [],
       "errors": [],
-      "save_status": "not_started_awaiting_owner_approval_of_slides_1_2_3",
+      "save_status": "not_started",
       "agent_visual_review": "not_performed",
-      "user_review": "pending"
+      "user_review": "pending",
+      "prompt": "Harda LW-CAR-0023 v1.1, approved S2 series continuation. FIRST supplied image is the approved layout/style master. Match EXACTLY the same design, heavy tight lowercase grotesk type and sizes, colours, marker bars, spacing, white anatomy figure and fine grey shading. Any second master is only a typography/line-wrap example, never its exercise or copy. All text/exercises/rating below are authoritative copy.json v1.1; replace every word and exercise in the input accordingly.\n\nONE finished 1080×1350 portrait 4:5 PNG, text and artwork generated TOGETHER. Opaque solid #F0F1EB CLEAN background, no texture, white cards, panels, arches, dots, grids, transparency or checkerboards. Headline #2A2A2A very heavy lowercase tight GROTESK as master, not Rubik. Body regular dark #2A2A2A sans left-aligned, up to two lines. Secondary tier line regular italic #6B6B6B. Coral #F26445 rectangular marker behind LOWER PART of exercise name ONLY, not the #number; dark glyphs remain legible. Filled stars #F26445, empty stars #D6D6D2.\n\nSame realistic WHITE/LIGHT-GREY anatomical adult male mannequin, bald faceless, fine grey muscle fibres/shading, natural athletic proportions, featureless smooth pelvis and dark #2A2A2A gym shorts. No muscles coloured on exercise slides, no sand/beige, no cartoon, clay or flat simplified figure. Equipment black/grey. Keep full figure, hands, equipment and feet in frame, clear of all text.\n\nREMOVE any source logo from generation. Leave the top 110 px completely EMPTY on uninterrupted background, no old wordmark, icon, box, patch or placeholder. The owner's ORIGINAL transparent Harda logo PNG will be pasted afterwards at x48,y19,218×71 using its own alpha, with no backing patch. No logo redrawing, extra text, signatures, watermarks, slide counters or punctuation. All exact strings legible without clipping. Long names may wrap over TWO lines at the SAME heavy size as the masters, with a coral marker under each name line; do not shrink them into a different type style.\n\nAUTHORITATIVE EXACT STRINGS:\n\"#1\"\n\"bayesian cable curl\"\n\"arm behind your body, a big stretch and tension the whole way.\"\n\nSLIDE 18, EXERCISE: replace the master text/exercise. Header exact \"#1\" then \"bayesian cable curl\", left aligned, same big heavy grotesk. Marker ONLY under exercise name. Wrap the long name into TWO lines at the same large type size if needed; second image is ONLY a long-name typography example, not the exercise pose.\nRow of EXACTLY FIVE graphical stars beneath title. Rating 5/5: 5 full coral stars, then 0 entirely light grey stars. Do not add a numeric rating.\nBody exact \"arm behind your body, a big stretch and tension the whole way.\", regular dark sans, left aligned, up to two lines.\nLarge illustration lower ~60%: standing with the back to a low cable pulley, one arm behind the body curling the handle forward, side view. SIDE view standing with BACK toward a low cable pulley, one upper arm trailing BEHIND the torso, that hand holding one handle and curling forward. Cable runs back/down from hand to the low pulley BEHIND the body. Keep the arm-behind-body setup clear; not a cable curl facing the machine. Match the approved master's white anatomical detail and dark shorts but replace the band-curl pose/equipment. No coloured muscles. Keep all text fully visible.\n\nReturn ONE complete opaque slide only, not a montage, mockup or comparison.",
+      "prompt_file": "prompts/slide-18.txt",
+      "references": [
+        "carousels/LW-CAR-0023/outputs/slide-03.png",
+        "carousels/LW-CAR-0021/outputs/slide-18.png"
+      ]
     },
     {
       "slide": 19,
@@ -428,22 +560,53 @@
         "harda tracks every set you lift and shows if your arms get enough work.",
         "log your workouts and check your muscle balance, so your arms keep growing."
       ],
-      "file": null,
+      "file": "outputs/slide-19.png",
       "attempts": [],
       "errors": [],
-      "save_status": "not_started_awaiting_owner_approval_of_slides_1_2_3",
+      "save_status": "not_started",
       "agent_visual_review": "not_performed",
-      "user_review": "pending"
+      "user_review": "pending",
+      "prompt": "Harda LW-CAR-0023 v1.1, approved S2 series continuation. FIRST supplied image is the approved layout/style master. Match EXACTLY the same design, heavy tight lowercase grotesk type and sizes, colours, marker bars, spacing, white anatomy figure and fine grey shading. Any second master is only a typography/line-wrap example, never its exercise or copy. All text/exercises/rating below are authoritative copy.json v1.1; replace every word and exercise in the input accordingly.\n\nONE finished 1080×1350 portrait 4:5 PNG, text and artwork generated TOGETHER. Opaque solid #F0F1EB CLEAN background, no texture, white cards, panels, arches, dots, grids, transparency or checkerboards. Headline #2A2A2A very heavy lowercase tight GROTESK as master, not Rubik. Body regular dark #2A2A2A sans left-aligned, up to two lines. Secondary tier line regular italic #6B6B6B. Coral #F26445 rectangular marker behind LOWER PART of exercise name ONLY, not the #number; dark glyphs remain legible. Filled stars #F26445, empty stars #D6D6D2.\n\nSame realistic WHITE/LIGHT-GREY anatomical adult male mannequin, bald faceless, fine grey muscle fibres/shading, natural athletic proportions, featureless smooth pelvis and dark #2A2A2A gym shorts. No muscles coloured on exercise slides, no sand/beige, no cartoon, clay or flat simplified figure. Equipment black/grey. Keep full figure, hands, equipment and feet in frame, clear of all text.\n\nREMOVE any source logo from generation. Leave the top 110 px completely EMPTY on uninterrupted background, no old wordmark, icon, box, patch or placeholder. The owner's ORIGINAL transparent Harda logo PNG will be pasted afterwards at x48,y19,218×71 using its own alpha, with no backing patch. No logo redrawing, extra text, signatures, watermarks, slide counters or punctuation. All exact strings legible without clipping. Long names may wrap over TWO lines at the SAME heavy size as the masters, with a coral marker under each name line; do not shrink them into a different type style.\n\nAUTHORITATIVE EXACT STRINGS:\n\"harda tracks every set you lift and shows if your arms get enough work.\"\n\"log your workouts and check your muscle balance, so your arms keep growing.\"\n\nSLIDE 19, PRODUCT ENDING: use first approved ending as exact type/layout authority; second image confirms the current white S2 style and new brand reservation.\nHeadline exact \"harda tracks every set you lift and shows if your arms get enough work.\". Heavy lowercase tight grotesk dark, left aligned, four balanced lines:\nharda tracks\nevery set you lift\nand shows if\nyour arms get enough work.\nFlat coral marker under \"every set you lift\" and under \"your arms get enough work\" only. No added punctuation. Keep the large headline size consistent with the source ending, starting below logo area.\nBody exact \"log your workouts and check your muscle balance, so your arms keep growing.\". Regular dark sans, two lines, completed ABOVE y690. Leave a CLEAR EMPTY GAP of at least 40 px below the last body line before the phone. All letters completely visible.\nIMPORTANT: generate NO app UI, labels, chart, mock screen, phone or hand in the lower region. Leave the entire area at y740..1350 as PLAIN #F0F1EB. The owner's approved ORIGINAL PHONE + WHITE HAND bitmap from the first image will be pasted UNCHANGED at original coordinates into this lower region after generation, preserving the real screenshot's proportions, tilt and pixels. Do not regenerate, redraw, imitate, retype or invent any UI or phone content. Do not repeat the source's Lightweight name anywhere: current headline starts \"harda\". No arch. The finished exported slide will use the original Harda logo and actual approved phone/hand pixels.\n\nReturn ONE complete opaque slide only, not a montage, mockup or comparison.",
+      "prompt_file": "prompts/slide-19.txt",
+      "references": [
+        "carousels/LW-CAR-0021/outputs/slide-19.png",
+        "carousels/LW-CAR-0023/outputs/slide-03.png"
+      ]
     }
   ],
   "agent_visual_review": "not_performed",
   "user_review": "pending",
-  "next_action": "STOP and show slides 1,2,3 with the new Harda logo. Wait for explicit owner OK before slide 4 (21s) or any other slide.",
+  "next_action": "STOP. Slide 4 returned no image: output-stage moderation_blocked. Slides 1-3 remain owner-approved and unchanged. Slides 5-19 were not attempted. No automatic retry. Resume only with a specific owner instruction; next missing slide is 4 (21s).",
   "archive": "LW-CAR-0023-initial-slides-01-03-1080x1350.zip",
   "remote_save": {
     "remote": "origin",
     "branch": "claude/charming-einstein-xgejky",
-    "method": "one_commit_and_push_initial_three_slide_batch",
+    "method": "immediate_incomplete_checkpoint_commit_and_push_after_generation_error",
     "commit_lookup": "git log -1 -- carousels/LW-CAR-0023/manifest.json"
-  }
+  },
+  "authorized_slides": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19
+  ],
+  "approved_slides": [
+    1,
+    2,
+    3
+  ],
+  "new_images_this_continuation": 0,
+  "next_slide_to_generate": 4
 }

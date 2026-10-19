@@ -1,0 +1,16 @@
+Harda LW-CAR-0023 v1.1, approved S2 series continuation. FIRST supplied image is the approved layout/style master. Match EXACTLY the same design, heavy tight lowercase grotesk type and sizes, colours, marker bars, spacing, white anatomy figure and fine grey shading. Any second master is only a typography/line-wrap example, never its exercise or copy. All text/exercises/rating below are authoritative copy.json v1.1; replace every word and exercise in the input accordingly.
+
+ONE finished 1080×1350 portrait 4:5 PNG, text and artwork generated TOGETHER. Opaque solid #F0F1EB CLEAN background, no texture, white cards, panels, arches, dots, grids, transparency or checkerboards. Headline #2A2A2A very heavy lowercase tight GROTESK as master, not Rubik. Body regular dark #2A2A2A sans left-aligned, up to two lines. Secondary tier line regular italic #6B6B6B. Coral #F26445 rectangular marker behind LOWER PART of exercise name ONLY, not the #number; dark glyphs remain legible. Filled stars #F26445, empty stars #D6D6D2.
+
+Same realistic WHITE/LIGHT-GREY anatomical adult male mannequin, bald faceless, fine grey muscle fibres/shading, natural athletic proportions, featureless smooth pelvis and dark #2A2A2A gym shorts. No muscles coloured on exercise slides, no sand/beige, no cartoon, clay or flat simplified figure. Equipment black/grey. Keep full figure, hands, equipment and feet in frame, clear of all text.
+
+REMOVE any source logo from generation. Leave the top 110 px completely EMPTY on uninterrupted background, no old wordmark, icon, box, patch or placeholder. The owner's ORIGINAL transparent Harda logo PNG will be pasted afterwards at x48,y19,218×71 using its own alpha, with no backing patch. No logo redrawing, extra text, signatures, watermarks, slide counters or punctuation. All exact strings legible without clipping. Long names may wrap over TWO lines at the SAME heavy size as the masters, with a coral marker under each name line; do not shrink them into a different type style.
+
+AUTHORITATIVE EXACT STRINGS:
+"B"
+"tier"
+"solid picks"
+
+SLIDE 8, TIER DIVIDER: same approved F-tier master's precise composition, positions, type sizes, tile and letter shadow, but rounded tile is #FFD95A and big white letter "B". To the right exactly "tier". Centered italic grey tier line below exactly "solid picks". No stars, figures or equipment. Keep the broad empty space above and below. Do not generate logo.
+
+Return ONE complete opaque slide only, not a montage, mockup or comparison.

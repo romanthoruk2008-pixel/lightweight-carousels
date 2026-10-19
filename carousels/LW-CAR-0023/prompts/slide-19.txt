@@ -1,0 +1,23 @@
+Harda LW-CAR-0023 v1.1, approved S2 series continuation. FIRST supplied image is the approved layout/style master. Match EXACTLY the same design, heavy tight lowercase grotesk type and sizes, colours, marker bars, spacing, white anatomy figure and fine grey shading. Any second master is only a typography/line-wrap example, never its exercise or copy. All text/exercises/rating below are authoritative copy.json v1.1; replace every word and exercise in the input accordingly.
+
+ONE finished 1080×1350 portrait 4:5 PNG, text and artwork generated TOGETHER. Opaque solid #F0F1EB CLEAN background, no texture, white cards, panels, arches, dots, grids, transparency or checkerboards. Headline #2A2A2A very heavy lowercase tight GROTESK as master, not Rubik. Body regular dark #2A2A2A sans left-aligned, up to two lines. Secondary tier line regular italic #6B6B6B. Coral #F26445 rectangular marker behind LOWER PART of exercise name ONLY, not the #number; dark glyphs remain legible. Filled stars #F26445, empty stars #D6D6D2.
+
+Same realistic WHITE/LIGHT-GREY anatomical adult male mannequin, bald faceless, fine grey muscle fibres/shading, natural athletic proportions, featureless smooth pelvis and dark #2A2A2A gym shorts. No muscles coloured on exercise slides, no sand/beige, no cartoon, clay or flat simplified figure. Equipment black/grey. Keep full figure, hands, equipment and feet in frame, clear of all text.
+
+REMOVE any source logo from generation. Leave the top 110 px completely EMPTY on uninterrupted background, no old wordmark, icon, box, patch or placeholder. The owner's ORIGINAL transparent Harda logo PNG will be pasted afterwards at x48,y19,218×71 using its own alpha, with no backing patch. No logo redrawing, extra text, signatures, watermarks, slide counters or punctuation. All exact strings legible without clipping. Long names may wrap over TWO lines at the SAME heavy size as the masters, with a coral marker under each name line; do not shrink them into a different type style.
+
+AUTHORITATIVE EXACT STRINGS:
+"harda tracks every set you lift and shows if your arms get enough work."
+"log your workouts and check your muscle balance, so your arms keep growing."
+
+SLIDE 19, PRODUCT ENDING: use first approved ending as exact type/layout authority; second image confirms the current white S2 style and new brand reservation.
+Headline exact "harda tracks every set you lift and shows if your arms get enough work.". Heavy lowercase tight grotesk dark, left aligned, four balanced lines:
+harda tracks
+every set you lift
+and shows if
+your arms get enough work.
+Flat coral marker under "every set you lift" and under "your arms get enough work" only. No added punctuation. Keep the large headline size consistent with the source ending, starting below logo area.
+Body exact "log your workouts and check your muscle balance, so your arms keep growing.". Regular dark sans, two lines, completed ABOVE y690. Leave a CLEAR EMPTY GAP of at least 40 px below the last body line before the phone. All letters completely visible.
+IMPORTANT: generate NO app UI, labels, chart, mock screen, phone or hand in the lower region. Leave the entire area at y740..1350 as PLAIN #F0F1EB. The owner's approved ORIGINAL PHONE + WHITE HAND bitmap from the first image will be pasted UNCHANGED at original coordinates into this lower region after generation, preserving the real screenshot's proportions, tilt and pixels. Do not regenerate, redraw, imitate, retype or invent any UI or phone content. Do not repeat the source's Lightweight name anywhere: current headline starts "harda". No arch. The finished exported slide will use the original Harda logo and actual approved phone/hand pixels.
+
+Return ONE complete opaque slide only, not a montage, mockup or comparison.
