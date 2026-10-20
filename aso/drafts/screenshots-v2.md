@@ -24,17 +24,19 @@ Based on: competitor first-three analysis (`research/screenshots.md`), US review
 
 | # | Goal | Headline | Supporting line | Screen to show | Composition | Depends on |
 |---|---|---|---|---|---|---|
-| 1 | What it is + core value | **Finish a set. Log it. Go again.** | The workout tracker that remembers last time. | Active workout: Bench Press, Previous column filled, set 3 in progress, rest-timer sheet at bottom | Large phone, centered low; Seryozha peeking from behind the phone edge | — |
+| 1 | What it is + core value | **Log it fast. Beat last time.** | Workout tracker for iPhone and Apple Watch. | Active workout: Bench Press, Previous column filled, set 3 in progress, rest-timer sheet at bottom | Large phone, centered low; Seryozha peeking from behind the phone edge | — |
 | 2 | Why switch | **Already have a program? Bring it.** | From a screenshot, your notes, a photo or your voice. | Import collage → "Review detected routines" (push / pull / legs) | Sources on the left (screenshot, notebook photo, voice note) with orange lines into the phone; small chip: "CSV history import" | Import quality on real samples |
-| 3 | Friends | **Different gyms. Same streak.** | Share workouts with friends. Nudge whoever's skipping. | Gym Bro: you + friend avatars, flame, shared streak number, "Give a kick" card | Phone + Seryozha kicking the friend's avatar (as in launch carousel) | Final streak wording |
-| 4 | Apple Watch | **Log sets from your wrist.** | Heart rate on screen. Syncs with Apple Health. | iPhone workout + Apple Watch showing the same set | Watch overlapping lower-right of phone, same exercise/weight on both | If watch works without iPhone: headline "Leave your phone in the locker." |
+| 3 | Friends | **Train with friends, even in different gyms.** | Share workouts, keep a streak, nudge whoever's skipping. | Gym Bro: you + friend avatars, flame, shared streak number, "Give a kick" card | Phone + Seryozha kicking the friend's avatar (as in launch carousel) | Final streak wording |
+| 4 | Apple Watch | **Log sets from your wrist.** | Apple Watch app with heart rate. Syncs with Apple Health. | iPhone workout + Apple Watch showing the same set | Watch overlapping lower-right of phone, same exercise/weight on both | If watch works without iPhone: headline "Leave your phone in the locker." |
 | 5 | Progress | **Your progress has receipts.** | PRs, volume and every lift you've logged. | Statistics: volume chart + Personal Records list | Chart period label must match the data | — |
 | 6 | Plan / beginners | **No plan? Get one that fits your week.** | Your days, your time, your equipment. | Build a plan: 4 days, 60 min, Gym, "Avoid: overhead pressing" → first workout preview | Two stacked cards or one screen | — |
 | 7 | Library / swap | **All the benches are taken. Of course.** | Swap the exercise and keep going. | Swap sheet: Bench Press → Dumbbell Bench Press, Machine Chest Press, Push-Up (with muscle images) | Phone centered | Correct equipment tags |
-| 8 | Character | **Comes with a dinosaur who notices.** | Long rests. Same weight for weeks. He'll say something. | Workout screen + Seryozha card: "One set and done? Workout or free sample?" | Seryozha large, phone smaller | Lines without profanity |
+| 8 | Character | **Skip leg day. Seryozha will notice.** | A dino who roasts long rests and lazy weeks. Mute him anytime. | Workout screen + Seryozha card: "One set and done? Workout or free sample?" | Seryozha large, phone smaller | Lines without profanity |
 | 9 opt. | Body | **Same mirror. Different month.** | Measurements and progress photos in one place. | Measurements with a filled progress photo | Phone centered | Premium? (keep honest) |
 
 Optional small badge on screen 4: "Compatible with Strava" (use Strava's official badge only; never the word in app name/keywords).
+
+Alternatives to test: #1 "Finish a set. Log it. Go again."; #3 "Different gyms. Same streak."
 
 ## Demo dataset (US)
 - Program: Push Pull Legs → Push day, 25:29 elapsed.
