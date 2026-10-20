@@ -1,0 +1,8 @@
+Create ONE finished portrait PNG for Harda S2. Canvas 1080 × 1350, 4:5 portrait. Match the owner-approved LW-CAR-0022 exactly: clean opaque #F0F1EB, no arch or texture; very heavy tight lowercase grotesk #2A2A2A; regular clean sans #2A2A2A; hints in regular italic #6B6B6B; flat coral #F26445 marker bars; realistic white/light-grey bald faceless anatomical mannequins with fine grey shading and smooth featureless pelvis, black #2A2A2A shorts, dark grey/black equipment. Use references only for style and figure rendering, never for their words. Keep the official logo space at top-left clear (entire top 110px); do not render any logo, brand text, watermark, signature, slide number, border, panel, grid, texture or extra copy. The official transparent Harda logo is composited afterward at x=48,y=19,size=218×71. Keep every line fully visible. Render only the provided exact lowercase strings; no colored muscles.
+
+VERDICT LAYOUT. Exact text and line order:
+`winner:`
+`dips`
+`a bigger stretch and easy to add weight. push-ups get too easy.`
+
+Below y=110, set `winner:` at upper-left in very heavy tight lowercase grotesk #2A2A2A. On the next line set `dips` in the same heavy type with one flat coral #F26445 marker bar behind the winner words only. Under it place the exact body in regular clean #2A2A2A, wrapping naturally to no more than two lines without clipping. In the lower ~60%, show one large white/light-grey anatomical mannequin doing exactly this exercise: dip on parallel bars, torso leaning forward, side view. Use the same pose, view and equipment described for the winning side on its preceding question slide. Keep the illustration fully below and clear of all copy. No other words or figures.

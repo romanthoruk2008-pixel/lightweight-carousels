@@ -1,0 +1,16 @@
+Create ONE finished portrait PNG for Harda S2. Canvas 1080 × 1350, 4:5 portrait. Match the owner-approved LW-CAR-0022 exactly: clean opaque #F0F1EB, no arch or texture; very heavy tight lowercase grotesk #2A2A2A; regular clean sans #2A2A2A; hints in regular italic #6B6B6B; flat coral #F26445 marker bars; realistic white/light-grey bald faceless anatomical mannequins with fine grey shading and smooth featureless pelvis, black #2A2A2A shorts, dark grey/black equipment. Use references only for style and figure rendering, never for their words. Keep the official logo space at top-left clear (entire top 110px); do not render any logo, brand text, watermark, signature, slide number, border, panel, grid, texture or extra copy. The official transparent Harda logo is composited afterward at x=48,y=19,size=218×71. Keep every line fully visible. Render only the provided exact lowercase strings; no colored muscles.
+
+PRODUCT ENDING (slide 14). Exact headline and body:
+headline: `not sure which works for you? harda tracks every set, so you can test both.`
+body: `log your workouts and see which one actually moves your numbers.`
+
+Set the headline below y=110, large, heavy lowercase and left-aligned, in five lines exactly:
+not sure which works
+for you?
+harda tracks every set,
+so you can
+test both.
+Use coral marker bars behind `harda tracks every set,` and `test both.` only. Put the regular #2A2A2A body text below in two lines exactly:
+log your workouts and see which one
+actually moves your numbers.
+Finish the body above y=690, leaving a clear gap before the phone. In the lower-right, use the same tall black phone, size, tilt and position as the hand/phone composition in the approved LW-CAR-0022 slide 19. A white/light-grey sketch-style anatomical hand holds the phone from the bottom-right; it may run off the bottom edge. The display in your generated image must be a uniform EMPTY BLACK screen: draw absolutely no interface, status icons, chart, axes, text, buttons or fake UI. The actual owner-approved Harda Progress / Muscle balance phone pixels will be overlaid afterward, at original scale and placement, so leave the display flat, blank and unobstructed. The hand is white/light-grey with fine grey shading, never beige. No arch, no texture and no other text.

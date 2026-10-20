@@ -1,0 +1,11 @@
+Create ONE finished portrait PNG for the Harda S2 carousel. Canvas 1080 × 1350, 4:5 portrait. Match the owner-approved LW-CAR-0022 reference for exact visual style: clean, nearly flat opaque #F0F1EB background, no arch or texture; very heavy tight lowercase grotesk in #2A2A2A; regular clean sans for body; italic regular #6B6B6B for hints; coral #F26445 flat marker bars; white/light-grey realistic anatomical mannequins, bald and faceless, fine grey shading, smooth featureless pelvis, black #2A2A2A shorts, black/grey equipment. Use references only for style and figure rendering, not their words or composition details that conflict with this slide's layout. Reserve the entire top 110 px clear for the official logo. Do not generate any logo, brand text, watermark, signature, slide number, panel, border, grid or extra text. The official transparent Harda logo will be composited afterward at x=48,y=19,size=218×71. Keep all content fully inside the canvas. Render every provided string exactly, letter for letter, lowercase and with the specified line breaks. Do not invent, omit or repeat any text. No colored muscles.
+
+EXACT TEXT AND POSITIONS:
+`round 1`
+`which builds more chest?`
+left label: `barbell bench`
+center badge: `vs`
+right label: `incline db press`
+bottom center: `(answer on the next slide)`
+
+ROUND QUESTION LAYOUT: set `round 1` at upper left below y=110, large heavy lowercase grotesk #2A2A2A, no marker bar. Under it, one regular #2A2A2A question line exactly `which builds more chest?`. In the lower roughly 65% place two white/light-grey realistic anatomical mannequins side by side, same scale and on the same ground line, no colored muscles. Left performs barbell bench press in a rack, front three-quarter view. Right performs dumbbell press on an incline bench, front three-quarter view. Each full exercise and equipment must be clearly visible. Put bold lowercase labels `barbell bench` and `incline db press` directly under their respective figures. Between figures place a round coral #F26445 badge with white bold lowercase `vs`, not covering either figure. At bottom center put the small italic grey line `(answer on the next slide)` fully visible. Keep generous spacing and do not let the labels or hint overlap the figures. No additional text.

@@ -1,0 +1,11 @@
+Create ONE finished portrait PNG for Harda S2. Canvas 1080 × 1350, 4:5 portrait. Match the owner-approved LW-CAR-0022 exactly: clean opaque #F0F1EB, no arch or texture; very heavy tight lowercase grotesk #2A2A2A; regular clean sans #2A2A2A; hints in regular italic #6B6B6B; flat coral #F26445 marker bars; realistic white/light-grey bald faceless anatomical mannequins with fine grey shading and smooth featureless pelvis, black #2A2A2A shorts, dark grey/black equipment. Use references only for style and figure rendering, never for their words. Keep the official logo space at top-left clear (entire top 110px); do not render any logo, brand text, watermark, signature, slide number, border, panel, grid, texture or extra copy. The official transparent Harda logo is composited afterward at x=48,y=19,size=218×71. Keep every line fully visible. Render only the provided exact lowercase strings; no colored muscles.
+
+ROUND QUESTION LAYOUT. Exact text, in these roles:
+round title: `round 2`
+question: `which builds bigger quads?`
+left label: `leg press`
+center badge: `vs`
+right label: `back squat`
+bottom hint: `(answer on the next slide)`
+
+Put `round 2` at upper left below y=110 in heavy lowercase #2A2A2A, without a marker. Put the exact one-line question below it in regular #2A2A2A. In the lower ~65%, show two full exercise scenes side by side, identical scale and sharing one ground line, no colored muscles. Left: seated 45-degree leg press machine, knees bent, side view. Right: barbell back squat in a rack, bottom position, side view. Each mannequin and all equipment must be clear. Put bold lowercase labels directly below their figures. Between the two scenes put a round #F26445 badge with white bold lowercase `vs`, in the gap and not obscuring either figure. Put the exact small italic grey hint `(answer on the next slide)` bottom-center fully above the edge. Match the spacing and visual weight of the approved S2 reference; keep all copy and figures separated. Do not add any text.
