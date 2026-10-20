@@ -7,7 +7,7 @@
   "reference_id": null,
   "reference_use": "Owner-approved S2 outputs from LW-CAR-0020 and LW-CAR-0021 used as visual references.",
   "instructions": "Generate slides 1–3 first and wait for owner review before generating slide 4 onward.",
-  "status": "complete",
+  "status": "approved_by_owner_19_of_19",
   "carousel_complete": true,
   "scope": {
     "initial_batch": [
@@ -204,7 +204,7 @@
       ],
       "save_status": "pushed_to_target_branch",
       "agent_visual_review": "not_performed",
-      "user_review": "pending",
+      "user_review": "approved",
       "prompt": "LW-CAR-0022, content_version 1.1. Create one complete finished 1080 × 1350 px portrait exercise slide in the owner-approved S2 style. Match the exact hierarchy, type scale, spacing, colors, and realistic white/light-grey mannequin finish of LW-CAR-0020 slide 3 and LW-CAR-0021 slide 3. References are visual guides only; the exact copy and pose below are authoritative.\n\nBACKGROUND: clean opaque #F0F1EB; no arch, texture, grid, dots, rings, panels, progress bars, slide counters, watermark or signature.\nLOGO: leave the top-left clear; do not draw a logo or brand text. The official transparent Harda logo will be composited at x=48,y=19,size=218×71 after generation. Keep top 110 px clear.\n\nEXACT TEXT:\n#11\nwall sit\nburns like crazy, but builds very little muscle.\n\nPlace #11 and the very heavy tight-grotesk lowercase title near the top, with a coral #F26445 marker bar behind “wall sit” only. Under the headline place 1.5 stars: one full #F26445 star, one half-filled #F26445/#D6D6D2 star, then three empty #D6D6D2 stars. Set the exact body line left-aligned below, in clean regular sans-serif #2A2A2A, wrapped to at most two lines. Keep a clear gap before the illustration.\n\nILLUSTRATION: lower half, realistic bald faceless white/light-grey anatomical mannequin, fine grey shading and subtle muscle fibres, smooth featureless pelvis, black #2A2A2A shorts, no colored muscles. Side view, back flat against a simple wall, knees bent at 90 degrees, static wall sit pose. Use only the wall needed for the pose. Keep all text unobstructed and all important figure parts visible.\n\nReturn exactly one finished slide, no collage or mockup.\n",
       "prompt_file": "prompts/slide-04.txt",
       "reference": "carousels/LW-CAR-0020/outputs/slide-03.png"
@@ -245,7 +245,7 @@
       "errors": [],
       "save_status": "pushed_to_target_branch",
       "agent_visual_review": "not_performed",
-      "user_review": "pending",
+      "user_review": "approved",
       "prompt": "LW-CAR-0022, content_version 1.1. Create one complete finished 1080 × 1350 px portrait tier divider in the owner-approved S2 style, matching LW-CAR-0020 slide 2 and LW-CAR-0021 slide 2 in visual hierarchy, type, scale and spacing. Use this slide's exact frozen text and tile color.\n\nBACKGROUND: clean opaque #F0F1EB, no arch, texture, grid, dots, rings, card, panel, progress bar, slide counter, watermark or signature.\nLOGO: leave the top-left clear and do not draw any logo/brand text. The official transparent Harda logo will be composited at x=48,y=19,size=218×71 after generation. Keep top 110 px free.\n\nCOMPOSITION: centered group around the vertical middle, generous blank space. Large rounded square tile with soft shadow on the left; tile fill #3FCF5E, with a large bold white C. To its right, oversized heavy tight-grotesk lowercase “tier” in #2A2A2A. Beneath both, center “you can do better” in regular italic #6B6B6B.\n\nEXACT TEXT only:\nC\ntier\nyou can do better\n\nReturn exactly one finished slide, no collage or mockup.\n",
       "prompt_file": "prompts/slide-05.txt",
       "reference": "carousels/LW-CAR-0020/outputs/slide-02.png"
@@ -286,7 +286,7 @@
       "errors": [],
       "save_status": "pushed_to_target_branch",
       "agent_visual_review": "not_performed",
-      "user_review": "pending",
+      "user_review": "approved",
       "prompt": "LW-CAR-0022, content_version 1.1. Create one complete finished 1080 × 1350 px portrait exercise slide in the approved S2 look. Match LW-CAR-0020 slide 3 and LW-CAR-0021 slide 3 for exact hierarchy, typography, spacing, colors and realistic mannequin finish; use their exercise composition as reference, not their words.\n\nBACKGROUND is clean, opaque #F0F1EB, with no texture, arch, grid, dots, rings, cards, progress bar, counter, watermark or signature. Keep the top 110 px free of content. Leave the top-left empty; do not generate any logo or brand text. The official transparent Harda logo will be composited afterward at x=48,y=19,size=218×71.\n\nEXACT TEXT:\n#10\ngoblet squat\nperfect to learn the squat, but your arms give out before your legs.\n\nPlace the large #10 and oversized very-heavy tight-grotesk lowercase “goblet squat” at the top; put a flat coral #F26445 marker behind the exercise name only. Below, show 2.5 stars: two full coral stars, one half-filled coral/grey star, then two empty #D6D6D2 stars. Place the exact regular #2A2A2A body copy left-aligned below, wrapped to at most two lines and fully visible.\n\nILLUSTRATION: lower half, realistic bald faceless white/light-grey anatomical mannequin with fine grey shading and subtle muscle fibres, smooth featureless pelvis, black #2A2A2A shorts. Goblet squat at the bottom position holding one black/grey dumbbell vertically at the chest, front three-quarter view. No colored muscles. Keep all text clear of the figure and equipment. Use the exact visual style of the approved S2 mannequins.\n\nReturn exactly one slide, no collage or mockup.\n",
       "prompt_file": "prompts/slide-06.txt",
       "reference": "carousels/LW-CAR-0020/outputs/slide-03.png"
@@ -327,7 +327,7 @@
       "errors": [],
       "save_status": "pushed_to_target_branch",
       "agent_visual_review": "not_performed",
-      "user_review": "pending",
+      "user_review": "approved",
       "prompt": "LW-CAR-0022, content_version 1.1. Create one complete finished 1080 × 1350 px portrait exercise slide matching the owner-approved S2 style of LW-CAR-0020 slide 3 and LW-CAR-0021 slide 3. Keep the same visual hierarchy, tight heavy lowercase type, colors, clean body typography and realistic white/light-grey mannequin finish.\n\nClean opaque #F0F1EB background, no texture, arch, grid, dots, rings, panel, counter, watermark or signature. Keep the top-left clear and the top 110 px free of content; do not draw a logo/brand text. The official Harda transparent logo is composited after generation at x=48,y=19,size=218×71.\n\nEXACT TEXT:\n#9\nwalking lunges\nthey work, but balance limits how hard you can push.\n\nLayout: oversized #9 plus very-heavy tight-grotesk lowercase “walking lunges” near the top, marker bar #F26445 behind the exercise name only. Below place 2.5 stars (two full coral, one half coral/empty-grey, two empty #D6D6D2), then the exact body copy in clean regular sans #2A2A2A, left-aligned and wrapped to at most two lines. Keep a clear gap before the figure.\n\nIllustration in the lower half: one realistic bald faceless white/light-grey anatomical mannequin with fine grey anatomical shading and subtle muscle fibres, smooth featureless pelvis, black #2A2A2A gym shorts. Show a walking lunge in mid-step, holding one black/grey dumbbell at each side, side view. No colored muscles. Match the reference mannequin's proportions and rendering, and keep the complete exercise pose/equipment clear of the text.\n\nReturn exactly one slide, no collage or mockup.\n",
       "prompt_file": "prompts/slide-07.txt",
       "reference": "carousels/LW-CAR-0020/outputs/slide-03.png"
@@ -368,7 +368,7 @@
       "errors": [],
       "save_status": "pushed_to_target_branch",
       "agent_visual_review": "not_performed",
-      "user_review": "pending",
+      "user_review": "approved",
       "prompt": "LW-CAR-0022, content_version 1.1. Create one complete finished 1080 × 1350 px portrait tier divider in the approved S2 style. Match LW-CAR-0020 slide 2 and LW-CAR-0021 slide 2 in group placement, scale, spacing and typographic hierarchy.\n\nClean opaque #F0F1EB background, no texture, arch, grid, dots, rings, panel, progress bar, slide counter, watermark or signature. Leave top-left empty and top 110 px clear; do not draw logo/brand text. Official transparent Harda logo will be composited afterward at x=48,y=19,size=218×71.\n\nCenter the divider group around the middle with generous whitespace. Place a large rounded square #FFD95A tile with a soft shadow at the left and a huge bold white capital B inside. To its right set oversized heavy tight-grotesk lowercase “tier” in #2A2A2A. Center the italic regular #6B6B6B line “solid picks” underneath.\n\nExact text only:\nB\ntier\nsolid picks\n\nReturn exactly one slide, no collage or mockup.\n",
       "prompt_file": "prompts/slide-08.txt",
       "reference": "carousels/LW-CAR-0020/outputs/slide-02.png"
@@ -409,7 +409,7 @@
       "errors": [],
       "save_status": "pushed_to_target_branch",
       "agent_visual_review": "not_performed",
-      "user_review": "pending",
+      "user_review": "approved",
       "prompt": "LW-CAR-0022, content_version 1.1. Create one complete finished 1080 × 1350 px portrait S2 exercise slide matching the owner-approved references LW-CAR-0020 slide 3 and LW-CAR-0021 slide 3, including the same headline/body hierarchy, spacing, colors, and realistic white/light-grey mannequin look.\n\nUse a clean opaque #F0F1EB background with no texture, arch, grid, dots, rings, cards, counter, progress bar, watermark or signature. Leave the upper-left logo region empty and top 110 px clear; do not draw any logo or brand text. The official transparent Harda logo will be added afterward at x=48,y=19,size=218×71.\n\nExact copy:\n#8\nback squat\na great classic, but it takes a lot out of your lower back and recovery.\n\nPlace #8 plus oversized heavy tight-grotesk lowercase “back squat” near the top. Put a coral #F26445 bar behind the exercise name only. Beneath it show three full coral stars and two empty #D6D6D2 stars. Set the body copy left-aligned in clean regular sans #2A2A2A, wrapping to no more than two lines, fully visible.\n\nIn the lower half show a realistic bald faceless white/light-grey anatomical mannequin, fine grey shading, subtle muscle fibres, smooth featureless pelvis, black #2A2A2A shorts, no colored muscles. The mannequin is performing a barbell back squat at the bottom position inside a simple black/grey squat rack, side three-quarter view. Include the barbell and rack, no other equipment. Keep the pose, text and equipment separate and unobstructed; match the approved S2 illustration finish.\n\nReturn exactly one slide, no collage or mockup.\n",
       "prompt_file": "prompts/slide-09.txt",
       "reference": "carousels/LW-CAR-0020/outputs/slide-03.png"
@@ -450,7 +450,7 @@
       "errors": [],
       "save_status": "pushed_to_target_branch",
       "agent_visual_review": "not_performed",
-      "user_review": "pending",
+      "user_review": "approved",
       "prompt": "LW-CAR-0022, content_version 1.1. Create one complete finished 1080 × 1350 px portrait exercise slide in the approved S2 look. Match LW-CAR-0020 slide 3 and the long-title wrapping example LW-CAR-0021 slide 18 for typography, marker bars, scale and spacing. Keep the title heavy and readable at the same size as other exercise slides; allow it to wrap as specified below rather than shrinking it.\n\nBackground clean opaque #F0F1EB, no texture, arch, grid, dots, rings, panels, counter, progress bar, watermark or signature. Top-left blank and top 110 px clear; do not draw a logo/brand text. Official transparent Harda logo will be composited afterward at x=48,y=19,size=218×71.\n\nExact copy:\n#7\nbulgarian split squat\nbrutal and effective. everyone hates them for a reason.\n\nLayout: the top title starts with #7 and the heavy lowercase exercise name. Put “bulgarian split” on the first title line with #7; put “squat” on the second title line at the same heavy size. Add separate flat coral #F26445 marker bars behind each exercise-name line only. Beneath the title show 3.5 stars (three full coral stars, a half-filled coral/grey star, one empty #D6D6D2 star). Place the exact regular sans #2A2A2A body copy left-aligned below, at most two lines. Keep clear space before the figure.\n\nIllustration in the lower half: realistic bald faceless white/light-grey anatomical mannequin, fine grey shading/subtle muscle fibres, smooth featureless pelvis, dark #2A2A2A shorts, no colored muscles. Bulgarian split squat, rear foot resting on a flat bench, one black/grey dumbbell in each hand at the sides, side view. Use the same illustration finish as approved S2 exercise slides; no text overlap.\n\nReturn exactly one slide, no collage or mockup.\n",
       "prompt_file": "prompts/slide-10.txt",
       "reference": "carousels/LW-CAR-0020/outputs/slide-03.png"
@@ -491,7 +491,7 @@
       "errors": [],
       "save_status": "pushed_to_target_branch",
       "agent_visual_review": "not_performed",
-      "user_review": "pending",
+      "user_review": "approved",
       "prompt": "LW-CAR-0022, content_version 1.1. Create one complete finished 1080 × 1350 px portrait S2 exercise slide. Match the approved S2 look, layout, heavy tight-grotesk headings, clean sans body, marker bars, colors and realistic white/light-grey mannequin of LW-CAR-0020 slide 3 and LW-CAR-0021 slide 3.\n\nClean opaque #F0F1EB background, no texture, arch, grid, dots, rings, cards, progress bar, counter, watermark or signature. Leave the top-left blank and the top 110 px free; do not draw any logo or brand name. The official transparent Harda logo will be composited at x=48,y=19,size=218×71 after generation.\n\nExact text:\n#6\nlying leg curl\nthe simplest way to isolate your hamstrings.\n\nLarge #6 and very-heavy tight-grotesk lowercase title near the top, with coral #F26445 marker behind “lying leg curl” only. Place 3.5 stars below: three full coral stars, a half-filled coral/empty-grey star, and one empty #D6D6D2 star. Body copy in regular sans #2A2A2A below, left aligned, one line or at most two.\n\nLower half illustration: realistic bald, faceless white/light-grey anatomical mannequin, fine grey shading and subtle muscle fibres, smooth featureless pelvis, dark #2A2A2A shorts, no colored muscles. Lying face down on a black/grey leg curl machine, heels pulled up, side view. Include only the leg curl machine. Keep text and illustration separate, matching the approved mannequin style.\n\nReturn exactly one slide, no collage or mockup.\n",
       "prompt_file": "prompts/slide-11.txt",
       "reference": "carousels/LW-CAR-0020/outputs/slide-03.png"
@@ -532,7 +532,7 @@
       "errors": [],
       "save_status": "pushed_to_target_branch",
       "agent_visual_review": "not_performed",
-      "user_review": "pending",
+      "user_review": "approved",
       "prompt": "LW-CAR-0022, content_version 1.1. Create one finished 1080 × 1350 px portrait tier divider in approved S2 style, matching LW-CAR-0020 slide 2 and LW-CAR-0021 slide 2 exactly in hierarchy, group placement, scale, spacing and type.\n\nBackground clean opaque #F0F1EB, no texture, arch, grid, dots, rings, panel, progress bar, counter, watermark or signature. Leave top-left blank, top 110 px clear; do not draw any logo or brand text. The official transparent Harda logo is composited after generation at x=48,y=19,size=218×71.\n\nCenter a large rounded square tile #FF9A52 with soft shadow, containing a large bold white A. Place oversized heavy tight-grotesk lowercase “tier” to its right in #2A2A2A. Center regular italic #6B6B6B “worth your time” underneath. Keep generous whitespace.\n\nExact text only:\nA\ntier\nworth your time\n\nReturn exactly one slide, no collage or mockup.\n",
       "prompt_file": "prompts/slide-12.txt",
       "reference": "carousels/LW-CAR-0020/outputs/slide-02.png"
@@ -573,7 +573,7 @@
       "errors": [],
       "save_status": "pushed_to_target_branch",
       "agent_visual_review": "not_performed",
-      "user_review": "pending",
+      "user_review": "approved",
       "prompt": "LW-CAR-0022, content_version 1.1. Create one complete 1080 × 1350 px portrait S2 exercise slide matching the owner-approved look/layout of LW-CAR-0020 slide 3 and LW-CAR-0021 slide 3: heavy tight lowercase headline, coral marker, clean regular sans body, five-star rating, realistic white/light-grey mannequin.\n\nBackground clean solid opaque #F0F1EB, no texture, arch, grid, dots, rings, cards, counter, progress bar, watermark or signature. Keep the top 110 px free and the logo area empty; do not render brand text/logo. The supplied Harda logo is added afterward at x=48,y=19,size=218×71.\n\nExact copy:\n#5\nromanian deadlift\nhuge stretch for your hamstrings and glutes, and easy to load.\n\nPlace the #5 and very-heavy tight-grotesk lowercase title at the top, with a coral #F26445 marker bar behind “romanian deadlift” only. Show exactly four full coral stars then one empty #D6D6D2 star. Put the exact clean sans-serif #2A2A2A description left aligned beneath, at most two lines, fully visible.\n\nLower half: bald faceless realistic anatomical mannequin in white/light-grey, finely shaded with subtle muscle fibres, smooth featureless pelvis, dark #2A2A2A shorts, no colored muscles. Perform barbell Romanian deadlift, hips pushed back, bar at knee height, side view. Black/grey barbell, no other equipment. Keep subject/text separate and match the reference's anatomical rendering.\n\nReturn exactly one slide, no collage or mockup.\n",
       "prompt_file": "prompts/slide-13.txt",
       "reference": "carousels/LW-CAR-0020/outputs/slide-03.png"
@@ -614,7 +614,7 @@
       "errors": [],
       "save_status": "pushed_to_target_branch",
       "agent_visual_review": "not_performed",
-      "user_review": "pending",
+      "user_review": "approved",
       "prompt": "LW-CAR-0022, content_version 1.1. Create one complete 1080 × 1350 px portrait exercise slide in the exact approved S2 carousel style of LW-CAR-0020 slide 3 / LW-CAR-0021 slide 3. Match hierarchy, typography, marker bars, spacing, colors, and the realistic white/light-grey anatomical figure.\n\nBackground clean opaque #F0F1EB, no texture, arch, grid, dots, rings, panels, progress bar, counter, watermark or signature. Leave top-left empty and top 110 px free of content; do not render any logo or brand text. Official transparent Harda logo will be added after generation at x=48,y=19,size=218×71.\n\nExact copy:\n#4\nleg extension\nnothing isolates your quads better. a perfect finisher.\n\nAt the top, large #4 plus heavy tight-grotesk lowercase “leg extension”; flat coral #F26445 marker behind the exercise name only. Under it show exactly four full coral stars and one empty #D6D6D2 star. Place exact body copy in regular sans-serif #2A2A2A, left-aligned beneath, at most two lines.\n\nLower half illustration: realistic bald faceless white/light-grey anatomical mannequin, fine grey shading and subtle muscle fibres, smooth featureless pelvis, dark #2A2A2A shorts, no colored muscles. Seated on a black/grey leg extension machine, legs straight at the extension position, side view. Show only the relevant machine. Keep text clear and match the S2 figure finish.\n\nReturn exactly one slide, no collage or mockup.\n",
       "prompt_file": "prompts/slide-14.txt",
       "reference": "carousels/LW-CAR-0020/outputs/slide-03.png"
@@ -655,7 +655,7 @@
       "errors": [],
       "save_status": "pushed_to_target_branch",
       "agent_visual_review": "not_performed",
-      "user_review": "pending",
+      "user_review": "approved",
       "prompt": "LW-CAR-0022, content_version 1.1. Create one complete 1080 × 1350 px portrait exercise slide in the approved S2 look, matching LW-CAR-0020 slide 3 / LW-CAR-0021 slide 3: heavy tight lowercase title, coral marker, clean regular body copy, stars, and realistic white/light-grey mannequin.\n\nClean opaque #F0F1EB background only: no texture, arch, grid, dots, rings, panel, counter, progress bar, watermark or signature. Leave logo area at top-left blank and top 110 px free. Do not draw any logo/brand text; official transparent Harda logo is added after generation at x=48,y=19,size=218×71.\n\nExact text:\n#3\nhip thrust\nthe easiest way to load your glutes heavy.\n\nAt the top, large #3 and heavy tight-grotesk lowercase title “hip thrust”; coral #F26445 marker behind the exercise name only. Below show 4.5 stars: four full coral stars, one half coral/empty-grey star. Body copy exact, regular sans #2A2A2A, left-aligned and up to two lines.\n\nLower half illustration: realistic bald faceless anatomical mannequin, white/light-grey with fine grey shading and subtle fibres, smooth featureless pelvis, dark #2A2A2A shorts, no colored muscles. Barbell hip thrust at the top position with hips raised, upper back supported on a flat bench, black/grey barbell across the hips, side view. Keep the full pose, bench and bar clear of text; match approved S2 figure finish.\n\nReturn exactly one slide, no collage or mockup.\n",
       "prompt_file": "prompts/slide-15.txt",
       "reference": "carousels/LW-CAR-0020/outputs/slide-03.png"
@@ -696,7 +696,7 @@
       "errors": [],
       "save_status": "pushed_to_target_branch",
       "agent_visual_review": "not_performed",
-      "user_review": "pending",
+      "user_review": "approved",
       "prompt": "LW-CAR-0022, content_version 1.1. Create one finished 1080 × 1350 px portrait S-tier divider in the approved S2 style, matching the exact hierarchy, typography, spacing, and group placement of LW-CAR-0020 slide 2 and LW-CAR-0021 slide 2.\n\nBackground clean opaque #F0F1EB, no texture, arch, grid, dots, rings, panel, progress bar, counter, watermark or signature. Leave the top-left logo region empty; no logo or brand text. Keep top 110 px free. Official transparent Harda logo will be composited at x=48,y=19,size=218×71 afterward.\n\nCentered divider group: large rounded square tile with a soft shadow, filled coral #F26445, containing a large bold white S. To its right, oversized heavy tight-grotesk lowercase “tier” in #2A2A2A. Center regular italic #6B6B6B subtitle below: “build your legs on these”. Generous whitespace around it.\n\nExact text only:\nS\ntier\nbuild your legs on these\n\nReturn exactly one slide, no collage or mockup.\n",
       "prompt_file": "prompts/slide-16.txt",
       "reference": "carousels/LW-CAR-0020/outputs/slide-02.png"
@@ -737,7 +737,7 @@
       "errors": [],
       "save_status": "pushed_to_target_branch",
       "agent_visual_review": "not_performed",
-      "user_review": "pending",
+      "user_review": "approved",
       "prompt": "LW-CAR-0022, content_version 1.1. Create one complete 1080 × 1350 px portrait S2 exercise slide matching the approved template and figure style of LW-CAR-0020 slide 3 and LW-CAR-0021 slide 3.\n\nClean opaque #F0F1EB background; no texture, arch, grid, dots, rings, panels, progress bar, counter, watermark or signature. Leave the upper-left logo area empty and the top 110 px clear; do not draw brand/logo text. The official transparent Harda logo will be composited afterward at x=48,y=19,size=218×71.\n\nExact copy:\n#2\nhack squat\nall the squat benefits, with a back pad keeping you stable.\n\nPlace the large #2 and very-heavy tight-grotesk lowercase “hack squat” near the top, coral #F26445 marker bar behind the exercise name only. Below show exactly five full coral stars. Place the exact regular sans-serif #2A2A2A description left-aligned below, up to two lines, fully visible.\n\nLower half: realistic bald faceless white/light-grey anatomical mannequin with fine grey shading and subtle muscle fibres, featureless smooth pelvis, dark #2A2A2A shorts, no colored muscles. Show a hack squat machine with the mannequin's back against the pad in the bottom position, side three-quarter view. Equipment black/grey. Match the exact anatomical drawing style of the approved S2 figures and keep all text clear.\n\nReturn exactly one slide, no collage or mockup.\n",
       "prompt_file": "prompts/slide-17.txt",
       "reference": "carousels/LW-CAR-0020/outputs/slide-03.png"
@@ -778,7 +778,7 @@
       "errors": [],
       "save_status": "pushed_to_target_branch",
       "agent_visual_review": "not_performed",
-      "user_review": "pending",
+      "user_review": "approved",
       "prompt": "LW-CAR-0022, content_version 1.1. Create one finished 1080 × 1350 px portrait S2 exercise slide, matching the owner-approved LW-CAR-0020 slide 3 and LW-CAR-0021 slide 3 for exact style, type, spacing, colors, marker and realistic white/light-grey mannequin finish.\n\nBackground clean opaque #F0F1EB; no texture, arch, grid, dots, rings, panel, progress bar, counter, watermark or signature. Top-left area blank; keep the first 110 px clear and do not draw any logo or brand text. The official transparent Harda logo will be added afterward at x=48,y=19,size=218×71.\n\nExact text:\n#1\nleg press\nheavy, stable and easy to push hard every set.\n\nAt the top, large #1 and very-heavy tight-grotesk lowercase “leg press”, with coral #F26445 marker behind exercise name only. Under it show five full coral stars. Put the exact regular sans-serif #2A2A2A body copy left-aligned below, up to two lines.\n\nLower half illustration: realistic bald, faceless anatomical mannequin, white/light-grey with fine grey shading and subtle muscle fibres, smooth featureless pelvis, dark #2A2A2A shorts, no colored muscles. Seated 45-degree leg press machine, knees bent, side view, black/grey equipment. Match the approved mannequin style and keep text unobstructed.\n\nReturn exactly one slide, no collage or mockup.\n",
       "prompt_file": "prompts/slide-18.txt",
       "reference": "carousels/LW-CAR-0020/outputs/slide-03.png"
@@ -821,7 +821,7 @@
       "errors": [],
       "save_status": "pushed_to_target_branch",
       "agent_visual_review": "not_performed",
-      "user_review": "pending",
+      "user_review": "approved",
       "prompt": "LW-CAR-0022, content_version 1.1. Create ONE complete 1080 × 1350 px portrait S2 ending slide. First reference supplies approved S2 type, color and figure style. Second reference supplies ONLY the lower-right phone/hand composition; ignore its old headline/body text and logo entirely.\n\nClean opaque #F0F1EB background, no texture, arch, grid, dots, rings, white cards, progress bar, counter, watermark or signature. Headlines use the same heavy tight lowercase grotesk #2A2A2A as the approved S2 master. Body uses clean regular sans #2A2A2A. Coral #F26445 flat marker bars behind the specified phrases only. No extra text.\n\nLOGO: leave top-left clear; do not draw a logo or brand text. Keep the top 110 px free. The official transparent Harda logo will be composited afterward at x=48,y=19,size=218×71.\n\nEXACT HEADLINE:\nharda tracks every set you lift and shows if your legs get enough work.\nSet it large, lowercase, heaviest grotesk, left-aligned below y=110, in exactly these four lines:\nharda tracks\nevery set you lift\nand shows if your\nlegs get enough work.\nPlace coral marker bars under “every set you lift” and “legs get enough work.” only, behind the lower part of those exact words.\n\nEXACT BODY:\nlog your workouts and check your muscle balance, so you never skip leg day again.\nSet it in regular #2A2A2A sans, left-aligned, in two lines:\nlog your workouts and check your muscle balance,\nso you never skip leg day again.\nFinish the body text above y=650, leaving a visible clear gap before the phone.\n\nPHONE/HAND: lower-right area only, same tall black smartphone, mild clockwise tilt, size and placement as the supplied blank-display reference, with a white/light-grey sketch-style anatomical hand holding it from the bottom-right. Phone may extend off bottom edge. Keep phone/hand below y=700 and never overlap the body copy. Mannequin/hand is white/light-grey with fine grey anatomical shading, not beige.\n\nCRITICAL SCREEN RULE: the handset display in this generated slide must be EMPTY UNIFORM BLACK. Do not generate any interface, status icons, chart, axes, text, buttons, or fake UI. The real approved phone pixel layer will be inserted afterward at its original scale and proportions; keep the phone screen flat, blank black and in the same exact position as the blank-display reference.\n\nReturn exactly one finished slide, no collage or mockup.\n",
       "prompt_file": "prompts/slide-19.txt",
       "reference": "carousels/LW-CAR-0020/outputs/slide-03.png"
@@ -839,21 +839,20 @@
     ],
     "old_lightweight_logo_used": false
   },
-  "user_review": "in_progress",
+  "user_review": "approved",
   "agent_visual_review": "not_performed",
   "owner_approval": {
-    "source": "Owner explicitly approved the initial slides 1–3 and authorized continuing the carousel",
-    "content_version": "1.1"
+    "source": "Owner explicitly approved all 19 slides in chat and instructed to push them to GitHub with user-approved status.",
+    "content_version": "1.1",
+    "approved_at": "2026-10-20"
   },
-  "next_action": "Ready for owner review. All 19 slides are generated and packaged.",
+  "next_action": "None. All 19 slides are owner-approved and ready to post.",
   "partial_push_reason": "Generation wrapper error interrupted the first checkpoint after slide 4; saved slides 1–4 before continuing.",
   "target_branch": "claude/charming-einstein-xgejky",
   "approved_slides": [
     1,
     2,
-    3
-  ],
-  "pending_review_slides": [
+    3,
     4,
     5,
     6,
@@ -871,6 +870,7 @@
     18,
     19
   ],
+  "pending_review_slides": [],
   "export_format": {
     "images": 19,
     "width": 1080,
