@@ -7,8 +7,8 @@
   "target_branch": "claude/charming-einstein-xgejky",
   "reference_id": null,
   "reference_use": "Owner-approved Harda S2 outputs from LW-CAR-0022 used as visual references for cover, figure style, exercise layout, and ending style.",
-  "instructions": "Generate slides 1–3 first, show and wait for owner approval, then generate remaining slides. Owner approved slides 1–3 and authorized continuation.",
-  "status": "complete",
+  "instructions": "Owner approved all 14 slides and authorized pushing the complete carousel.",
+  "status": "approved_by_owner_14_of_14",
   "carousel_complete": true,
   "scope": {
     "initial_batch": [
@@ -50,15 +50,11 @@
     ],
     "old_lightweight_logo_used": false
   },
-  "user_review": "in_progress",
+  "user_review": "approved",
   "agent_visual_review": "not_performed",
-  "owner_approval": {
-    "source": "Owner explicitly approved slides 1–3 and authorized generating the remaining slides in chat.",
-    "content_version": "1.0",
-    "approved_at": "2026-10-20"
-  },
+  "owner_approval": "2026-10-20: owner approved all 14 slides as they are.",
   "caption": "caption.txt",
-  "next_action": "Slides 1–3 are owner-approved; slides 4–14 are ready for owner review.",
+  "next_action": "None. Ready to post.",
   "slides": [
     {
       "slide": 1,
@@ -229,7 +225,7 @@
       "errors": [],
       "save_status": "pushed_to_target_branch",
       "agent_visual_review": "not_performed",
-      "user_review": "pending",
+      "user_review": "approved",
       "prompt": "Create ONE finished portrait PNG for Harda S2. Canvas 1080 × 1350, 4:5 portrait. Match the owner-approved LW-CAR-0022 exactly: clean opaque #F0F1EB, no arch or texture; very heavy tight lowercase grotesk #2A2A2A; regular clean sans #2A2A2A; hints in regular italic #6B6B6B; flat coral #F26445 marker bars; realistic white/light-grey bald faceless anatomical mannequins with fine grey shading and smooth featureless pelvis, black #2A2A2A shorts, dark grey/black equipment. Use references only for style and figure rendering, never for their words. Keep the official logo space at top-left clear (entire top 110px); do not render any logo, brand text, watermark, signature, slide number, border, panel, grid, texture or extra copy. The official transparent Harda logo is composited afterward at x=48,y=19,size=218×71. Keep every line fully visible. Render only the provided exact lowercase strings; no colored muscles.\n\nROUND QUESTION LAYOUT. Exact text, in these roles:\nround title: `round 2`\nquestion: `which builds bigger quads?`\nleft label: `leg press`\ncenter badge: `vs`\nright label: `back squat`\nbottom hint: `(answer on the next slide)`\n\nPut `round 2` at upper left below y=110 in heavy lowercase #2A2A2A, without a marker. Put the exact one-line question below it in regular #2A2A2A. In the lower ~65%, show two full exercise scenes side by side, identical scale and sharing one ground line, no colored muscles. Left: seated 45-degree leg press machine, knees bent, side view. Right: barbell back squat in a rack, bottom position, side view. Each mannequin and all equipment must be clear. Put bold lowercase labels directly below their figures. Between the two scenes put a round #F26445 badge with white bold lowercase `vs`, in the gap and not obscuring either figure. Put the exact small italic grey hint `(answer on the next slide)` bottom-center fully above the edge. Match the spacing and visual weight of the approved S2 reference; keep all copy and figures separated. Do not add any text.",
       "prompt_file": "prompts/slide-04.txt",
       "reference": [
@@ -271,7 +267,7 @@
       "errors": [],
       "save_status": "pushed_to_target_branch",
       "agent_visual_review": "not_performed",
-      "user_review": "pending",
+      "user_review": "approved",
       "prompt": "Create ONE finished portrait PNG for Harda S2. Canvas 1080 × 1350, 4:5 portrait. Match the owner-approved LW-CAR-0022 exactly: clean opaque #F0F1EB, no arch or texture; very heavy tight lowercase grotesk #2A2A2A; regular clean sans #2A2A2A; hints in regular italic #6B6B6B; flat coral #F26445 marker bars; realistic white/light-grey bald faceless anatomical mannequins with fine grey shading and smooth featureless pelvis, black #2A2A2A shorts, dark grey/black equipment. Use references only for style and figure rendering, never for their words. Keep the official logo space at top-left clear (entire top 110px); do not render any logo, brand text, watermark, signature, slide number, border, panel, grid, texture or extra copy. The official transparent Harda logo is composited afterward at x=48,y=19,size=218×71. Keep every line fully visible. Render only the provided exact lowercase strings; no colored muscles.\n\nVERDICT LAYOUT. Exact text and line order:\n`winner:`\n`leg press`\n`big quad growth with way less lower back fatigue.`\n\nBelow y=110, set `winner:` at upper-left in very heavy tight lowercase grotesk #2A2A2A. On the next line set `leg press` in the same heavy type with one flat coral #F26445 marker bar behind the winner words only. Under it place the exact body in regular clean #2A2A2A, wrapping naturally to no more than two lines without clipping. In the lower ~60%, show one large white/light-grey anatomical mannequin doing exactly this exercise: seated 45-degree leg press machine, knees bent, side view. Use the same pose, view and equipment described for the winning side on its preceding question slide. Keep the illustration fully below and clear of all copy. No other words or figures.",
       "prompt_file": "prompts/slide-05.txt",
       "reference": [
@@ -316,7 +312,7 @@
       "errors": [],
       "save_status": "pushed_to_target_branch",
       "agent_visual_review": "not_performed",
-      "user_review": "pending",
+      "user_review": "approved",
       "prompt": "Create ONE finished portrait PNG for Harda S2. Canvas 1080 × 1350, 4:5 portrait. Match the owner-approved LW-CAR-0022 exactly: clean opaque #F0F1EB, no arch or texture; very heavy tight lowercase grotesk #2A2A2A; regular clean sans #2A2A2A; hints in regular italic #6B6B6B; flat coral #F26445 marker bars; realistic white/light-grey bald faceless anatomical mannequins with fine grey shading and smooth featureless pelvis, black #2A2A2A shorts, dark grey/black equipment. Use references only for style and figure rendering, never for their words. Keep the official logo space at top-left clear (entire top 110px); do not render any logo, brand text, watermark, signature, slide number, border, panel, grid, texture or extra copy. The official transparent Harda logo is composited afterward at x=48,y=19,size=218×71. Keep every line fully visible. Render only the provided exact lowercase strings; no colored muscles.\n\nROUND QUESTION LAYOUT. Exact text, in these roles:\nround title: `round 3`\nquestion: `which builds a wider back?`\nleft label: `pull-ups`\ncenter badge: `vs`\nright label: `lat pulldown`\nbottom hint: `(answer on the next slide)`\n\nPut `round 3` at upper left below y=110 in heavy lowercase #2A2A2A, without a marker. Put the exact one-line question below it in regular #2A2A2A. In the lower ~65%, show two full exercise scenes side by side, identical scale and sharing one ground line, no colored muscles. Left: pull-up on a bar, chin near the bar, rear view. Right: seated lat pulldown, wide bar pulled to the upper chest, rear view. Each mannequin and all equipment must be clear. Put bold lowercase labels directly below their figures. Between the two scenes put a round #F26445 badge with white bold lowercase `vs`, in the gap and not obscuring either figure. Put the exact small italic grey hint `(answer on the next slide)` bottom-center fully above the edge. Match the spacing and visual weight of the approved S2 reference; keep all copy and figures separated. Do not add any text.",
       "prompt_file": "prompts/slide-06.txt",
       "reference": [
@@ -358,7 +354,7 @@
       "errors": [],
       "save_status": "pushed_to_target_branch",
       "agent_visual_review": "not_performed",
-      "user_review": "pending",
+      "user_review": "approved",
       "prompt": "Create ONE finished portrait PNG for Harda S2. Canvas 1080 × 1350, 4:5 portrait. Match the owner-approved LW-CAR-0022 exactly: clean opaque #F0F1EB, no arch or texture; very heavy tight lowercase grotesk #2A2A2A; regular clean sans #2A2A2A; hints in regular italic #6B6B6B; flat coral #F26445 marker bars; realistic white/light-grey bald faceless anatomical mannequins with fine grey shading and smooth featureless pelvis, black #2A2A2A shorts, dark grey/black equipment. Use references only for style and figure rendering, never for their words. Keep the official logo space at top-left clear (entire top 110px); do not render any logo, brand text, watermark, signature, slide number, border, panel, grid, texture or extra copy. The official transparent Harda logo is composited afterward at x=48,y=19,size=218×71. Keep every line fully visible. Render only the provided exact lowercase strings; no colored muscles.\n\nVERDICT LAYOUT. Exact text and line order:\n`winner:`\n`lat pulldown`\n`easier to load and to push close to failure. pull-ups are a close second.`\n\nBelow y=110, set `winner:` at upper-left in very heavy tight lowercase grotesk #2A2A2A. On the next line set `lat pulldown` in the same heavy type with one flat coral #F26445 marker bar behind the winner words only. Under it place the exact body in regular clean #2A2A2A, wrapping naturally to no more than two lines without clipping. In the lower ~60%, show one large white/light-grey anatomical mannequin doing exactly this exercise: seated lat pulldown, wide bar pulled to the upper chest, rear view. Use the same pose, view and equipment described for the winning side on its preceding question slide. Keep the illustration fully below and clear of all copy. No other words or figures.",
       "prompt_file": "prompts/slide-07.txt",
       "reference": [
@@ -403,7 +399,7 @@
       "errors": [],
       "save_status": "pushed_to_target_branch",
       "agent_visual_review": "not_performed",
-      "user_review": "pending",
+      "user_review": "approved",
       "prompt": "Create ONE finished portrait PNG for Harda S2. Canvas 1080 × 1350, 4:5 portrait. Match the owner-approved LW-CAR-0022 exactly: clean opaque #F0F1EB, no arch or texture; very heavy tight lowercase grotesk #2A2A2A; regular clean sans #2A2A2A; hints in regular italic #6B6B6B; flat coral #F26445 marker bars; realistic white/light-grey bald faceless anatomical mannequins with fine grey shading and smooth featureless pelvis, black #2A2A2A shorts, dark grey/black equipment. Use references only for style and figure rendering, never for their words. Keep the official logo space at top-left clear (entire top 110px); do not render any logo, brand text, watermark, signature, slide number, border, panel, grid, texture or extra copy. The official transparent Harda logo is composited afterward at x=48,y=19,size=218×71. Keep every line fully visible. Render only the provided exact lowercase strings; no colored muscles.\n\nROUND QUESTION LAYOUT. Exact text, in these roles:\nround title: `round 4`\nquestion: `which builds bigger biceps?`\nleft label: `cable curl`\ncenter badge: `vs`\nright label: `barbell curl`\nbottom hint: `(answer on the next slide)`\n\nPut `round 4` at upper left below y=110 in heavy lowercase #2A2A2A, without a marker. Put the exact one-line question below it in regular #2A2A2A. In the lower ~65%, show two full exercise scenes side by side, identical scale and sharing one ground line, no colored muscles. Left: standing cable curl from a low pulley with a straight bar, front view. Right: standing barbell curl, bar at chest height, front view. Each mannequin and all equipment must be clear. Put bold lowercase labels directly below their figures. Between the two scenes put a round #F26445 badge with white bold lowercase `vs`, in the gap and not obscuring either figure. Put the exact small italic grey hint `(answer on the next slide)` bottom-center fully above the edge. Match the spacing and visual weight of the approved S2 reference; keep all copy and figures separated. Do not add any text.",
       "prompt_file": "prompts/slide-08.txt",
       "reference": [
@@ -445,7 +441,7 @@
       "errors": [],
       "save_status": "pushed_to_target_branch",
       "agent_visual_review": "not_performed",
-      "user_review": "pending",
+      "user_review": "approved",
       "prompt": "Create ONE finished portrait PNG for Harda S2. Canvas 1080 × 1350, 4:5 portrait. Match the owner-approved LW-CAR-0022 exactly: clean opaque #F0F1EB, no arch or texture; very heavy tight lowercase grotesk #2A2A2A; regular clean sans #2A2A2A; hints in regular italic #6B6B6B; flat coral #F26445 marker bars; realistic white/light-grey bald faceless anatomical mannequins with fine grey shading and smooth featureless pelvis, black #2A2A2A shorts, dark grey/black equipment. Use references only for style and figure rendering, never for their words. Keep the official logo space at top-left clear (entire top 110px); do not render any logo, brand text, watermark, signature, slide number, border, panel, grid, texture or extra copy. The official transparent Harda logo is composited afterward at x=48,y=19,size=218×71. Keep every line fully visible. Render only the provided exact lowercase strings; no colored muscles.\n\nVERDICT LAYOUT. Exact text and line order:\n`winner:`\n`cable curl`\n`tension from bottom to top, and no swinging the weight up.`\n\nBelow y=110, set `winner:` at upper-left in very heavy tight lowercase grotesk #2A2A2A. On the next line set `cable curl` in the same heavy type with one flat coral #F26445 marker bar behind the winner words only. Under it place the exact body in regular clean #2A2A2A, wrapping naturally to no more than two lines without clipping. In the lower ~60%, show one large white/light-grey anatomical mannequin doing exactly this exercise: standing cable curl from a low pulley with a straight bar, front view. Use the same pose, view and equipment described for the winning side on its preceding question slide. Keep the illustration fully below and clear of all copy. No other words or figures.",
       "prompt_file": "prompts/slide-09.txt",
       "reference": [
@@ -490,7 +486,7 @@
       "errors": [],
       "save_status": "pushed_to_target_branch",
       "agent_visual_review": "not_performed",
-      "user_review": "pending",
+      "user_review": "approved",
       "prompt": "Create ONE finished portrait PNG for Harda S2. Canvas 1080 × 1350, 4:5 portrait. Match the owner-approved LW-CAR-0022 exactly: clean opaque #F0F1EB, no arch or texture; very heavy tight lowercase grotesk #2A2A2A; regular clean sans #2A2A2A; hints in regular italic #6B6B6B; flat coral #F26445 marker bars; realistic white/light-grey bald faceless anatomical mannequins with fine grey shading and smooth featureless pelvis, black #2A2A2A shorts, dark grey/black equipment. Use references only for style and figure rendering, never for their words. Keep the official logo space at top-left clear (entire top 110px); do not render any logo, brand text, watermark, signature, slide number, border, panel, grid, texture or extra copy. The official transparent Harda logo is composited afterward at x=48,y=19,size=218×71. Keep every line fully visible. Render only the provided exact lowercase strings; no colored muscles.\n\nROUND QUESTION LAYOUT. Exact text, in these roles:\nround title: `round 5`\nquestion: `which builds more chest?`\nleft label: `dips`\ncenter badge: `vs`\nright label: `push-ups`\nbottom hint: `(answer on the next slide)`\n\nPut `round 5` at upper left below y=110 in heavy lowercase #2A2A2A, without a marker. Put the exact one-line question below it in regular #2A2A2A. In the lower ~65%, show two full exercise scenes side by side, identical scale and sharing one ground line, no colored muscles. Left: dip on parallel bars, torso leaning forward, side view. Right: push-up, side view. Each mannequin and all equipment must be clear. Put bold lowercase labels directly below their figures. Between the two scenes put a round #F26445 badge with white bold lowercase `vs`, in the gap and not obscuring either figure. Put the exact small italic grey hint `(answer on the next slide)` bottom-center fully above the edge. Match the spacing and visual weight of the approved S2 reference; keep all copy and figures separated. Do not add any text.",
       "prompt_file": "prompts/slide-10.txt",
       "reference": [
@@ -532,7 +528,7 @@
       "errors": [],
       "save_status": "pushed_to_target_branch",
       "agent_visual_review": "not_performed",
-      "user_review": "pending",
+      "user_review": "approved",
       "prompt": "Create ONE finished portrait PNG for Harda S2. Canvas 1080 × 1350, 4:5 portrait. Match the owner-approved LW-CAR-0022 exactly: clean opaque #F0F1EB, no arch or texture; very heavy tight lowercase grotesk #2A2A2A; regular clean sans #2A2A2A; hints in regular italic #6B6B6B; flat coral #F26445 marker bars; realistic white/light-grey bald faceless anatomical mannequins with fine grey shading and smooth featureless pelvis, black #2A2A2A shorts, dark grey/black equipment. Use references only for style and figure rendering, never for their words. Keep the official logo space at top-left clear (entire top 110px); do not render any logo, brand text, watermark, signature, slide number, border, panel, grid, texture or extra copy. The official transparent Harda logo is composited afterward at x=48,y=19,size=218×71. Keep every line fully visible. Render only the provided exact lowercase strings; no colored muscles.\n\nVERDICT LAYOUT. Exact text and line order:\n`winner:`\n`dips`\n`a bigger stretch and easy to add weight. push-ups get too easy.`\n\nBelow y=110, set `winner:` at upper-left in very heavy tight lowercase grotesk #2A2A2A. On the next line set `dips` in the same heavy type with one flat coral #F26445 marker bar behind the winner words only. Under it place the exact body in regular clean #2A2A2A, wrapping naturally to no more than two lines without clipping. In the lower ~60%, show one large white/light-grey anatomical mannequin doing exactly this exercise: dip on parallel bars, torso leaning forward, side view. Use the same pose, view and equipment described for the winning side on its preceding question slide. Keep the illustration fully below and clear of all copy. No other words or figures.",
       "prompt_file": "prompts/slide-11.txt",
       "reference": [
@@ -577,7 +573,7 @@
       "errors": [],
       "save_status": "pushed_to_target_branch",
       "agent_visual_review": "not_performed",
-      "user_review": "pending",
+      "user_review": "approved",
       "prompt": "Create ONE finished portrait PNG for Harda S2. Canvas 1080 × 1350, 4:5 portrait. Match the owner-approved LW-CAR-0022 exactly: clean opaque #F0F1EB, no arch or texture; very heavy tight lowercase grotesk #2A2A2A; regular clean sans #2A2A2A; hints in regular italic #6B6B6B; flat coral #F26445 marker bars; realistic white/light-grey bald faceless anatomical mannequins with fine grey shading and smooth featureless pelvis, black #2A2A2A shorts, dark grey/black equipment. Use references only for style and figure rendering, never for their words. Keep the official logo space at top-left clear (entire top 110px); do not render any logo, brand text, watermark, signature, slide number, border, panel, grid, texture or extra copy. The official transparent Harda logo is composited afterward at x=48,y=19,size=218×71. Keep every line fully visible. Render only the provided exact lowercase strings; no colored muscles.\n\nROUND QUESTION LAYOUT. Exact text, in these roles:\nround title: `round 6`\nquestion: `which is better for your hamstrings?`\nleft label: `deadlift`\ncenter badge: `vs`\nright label: `romanian deadlift`\nbottom hint: `(answer on the next slide)`\n\nPut `round 6` at upper left below y=110 in heavy lowercase #2A2A2A, without a marker. Put the exact one-line question below it in regular #2A2A2A. In the lower ~65%, show two full exercise scenes side by side, identical scale and sharing one ground line, no colored muscles. Left: conventional barbell deadlift, standing tall at the top, side view. Right: barbell romanian deadlift, hips back, bar at the knees, side view. Each mannequin and all equipment must be clear. Put bold lowercase labels directly below their figures. Between the two scenes put a round #F26445 badge with white bold lowercase `vs`, in the gap and not obscuring either figure. Put the exact small italic grey hint `(answer on the next slide)` bottom-center fully above the edge. Match the spacing and visual weight of the approved S2 reference; keep all copy and figures separated. Do not add any text.",
       "prompt_file": "prompts/slide-12.txt",
       "reference": [
@@ -619,7 +615,7 @@
       "errors": [],
       "save_status": "pushed_to_target_branch",
       "agent_visual_review": "not_performed",
-      "user_review": "pending",
+      "user_review": "approved",
       "prompt": "Create ONE finished portrait PNG for Harda S2. Canvas 1080 × 1350, 4:5 portrait. Match the owner-approved LW-CAR-0022 exactly: clean opaque #F0F1EB, no arch or texture; very heavy tight lowercase grotesk #2A2A2A; regular clean sans #2A2A2A; hints in regular italic #6B6B6B; flat coral #F26445 marker bars; realistic white/light-grey bald faceless anatomical mannequins with fine grey shading and smooth featureless pelvis, black #2A2A2A shorts, dark grey/black equipment. Use references only for style and figure rendering, never for their words. Keep the official logo space at top-left clear (entire top 110px); do not render any logo, brand text, watermark, signature, slide number, border, panel, grid, texture or extra copy. The official transparent Harda logo is composited afterward at x=48,y=19,size=218×71. Keep every line fully visible. Render only the provided exact lowercase strings; no colored muscles.\n\nVERDICT LAYOUT. Exact text and line order:\n`winner:`\n`romanian deadlift`\n`more stretch for your hamstrings and glutes, with less fatigue.`\n\nBelow y=110, set `winner:` at upper-left in very heavy tight lowercase grotesk #2A2A2A. On the next line set `romanian deadlift` in the same heavy type with one flat coral #F26445 marker bar behind the winner words only. Under it place the exact body in regular clean #2A2A2A, wrapping naturally to no more than two lines without clipping. In the lower ~60%, show one large white/light-grey anatomical mannequin doing exactly this exercise: barbell romanian deadlift, hips back, bar at the knees, side view. Use the same pose, view and equipment described for the winning side on its preceding question slide. Keep the illustration fully below and clear of all copy. No other words or figures.",
       "prompt_file": "prompts/slide-13.txt",
       "reference": [
@@ -664,7 +660,7 @@
       "errors": [],
       "save_status": "pushed_to_target_branch",
       "agent_visual_review": "not_performed",
-      "user_review": "pending",
+      "user_review": "approved",
       "prompt": "Create ONE finished portrait PNG for Harda S2. Canvas 1080 × 1350, 4:5 portrait. Match the owner-approved LW-CAR-0022 exactly: clean opaque #F0F1EB, no arch or texture; very heavy tight lowercase grotesk #2A2A2A; regular clean sans #2A2A2A; hints in regular italic #6B6B6B; flat coral #F26445 marker bars; realistic white/light-grey bald faceless anatomical mannequins with fine grey shading and smooth featureless pelvis, black #2A2A2A shorts, dark grey/black equipment. Use references only for style and figure rendering, never for their words. Keep the official logo space at top-left clear (entire top 110px); do not render any logo, brand text, watermark, signature, slide number, border, panel, grid, texture or extra copy. The official transparent Harda logo is composited afterward at x=48,y=19,size=218×71. Keep every line fully visible. Render only the provided exact lowercase strings; no colored muscles.\n\nPRODUCT ENDING (slide 14). Exact headline and body:\nheadline: `not sure which works for you? harda tracks every set, so you can test both.`\nbody: `log your workouts and see which one actually moves your numbers.`\n\nSet the headline below y=110, large, heavy lowercase and left-aligned, in five lines exactly:\nnot sure which works\nfor you?\nharda tracks every set,\nso you can\ntest both.\nUse coral marker bars behind `harda tracks every set,` and `test both.` only. Put the regular #2A2A2A body text below in two lines exactly:\nlog your workouts and see which one\nactually moves your numbers.\nFinish the body above y=690, leaving a clear gap before the phone. In the lower-right, use the same tall black phone, size, tilt and position as the hand/phone composition in the approved LW-CAR-0022 slide 19. A white/light-grey sketch-style anatomical hand holds the phone from the bottom-right; it may run off the bottom edge. The display in your generated image must be a uniform EMPTY BLACK screen: draw absolutely no interface, status icons, chart, axes, text, buttons or fake UI. The actual owner-approved Harda Progress / Muscle balance phone pixels will be overlaid afterward, at original scale and placement, so leave the display flat, blank and unobstructed. The hand is white/light-grey with fine grey shading, never beige. No arch, no texture and no other text.",
       "prompt_file": "prompts/slide-14.txt",
       "reference": [
@@ -676,9 +672,7 @@
   "approved_slides": [
     1,
     2,
-    3
-  ],
-  "pending_review_slides": [
+    3,
     4,
     5,
     6,
@@ -691,6 +685,7 @@
     13,
     14
   ],
+  "pending_review_slides": [],
   "authorized_slides": [
     4,
     5,
