@@ -1,0 +1,293 @@
+{
+  "carousel_id": "LW-CAR-0026",
+  "content_version": "1.0",
+  "status": "frozen",
+  "type": "original",
+  "design_style": "S2",
+  "language": "en",
+  "background": "CLEAN",
+  "font_family": "REF-008 look: heavy tight grotesk for headlines, clean sans for body, italic for tier lines",
+  "colors": {
+    "accent": "#F26445",
+    "background": "#F0F1EB",
+    "text_dark": "#2A2A2A",
+    "text_body_grey": "#6B6B6B",
+    "white": "#FFFFFF"
+  },
+  "source": {
+    "ref_id": null,
+    "note": "Our own 'hardest muscles to grow' ranking in the S2 look (owner request 2026-10-20). Countdown #7 → #1 with a difficulty meter, no tiers.",
+    "layout_from": "carousels/LW-CAR-0022/outputs (owner-approved S2, Harda logo)"
+  },
+  "caption": {
+    "text": "Which one is hardest for you? 👇 #gymtips #musclegrowth #workout #fitnesstips",
+    "notes": "comment prompt"
+  },
+  "slides": [
+    {
+      "n": 1,
+      "role": "hook",
+      "text": [
+        {
+          "string": "hardest muscles",
+          "style": "cover line 1, lowercase, heaviest weight, text_dark"
+        },
+        {
+          "string": "to grow",
+          "style": "cover line 2, lowercase, heaviest weight, text_dark on an accent marker bar"
+        },
+        {
+          "string": "(ranked)",
+          "style": "italic, regular, text_body_grey"
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "role": "rank #7",
+      "difficulty_out_of_5": 3,
+      "text": [
+        {
+          "string": "#7",
+          "style": "heaviest weight, text_dark"
+        },
+        {
+          "string": "side delts",
+          "style": "heaviest weight, lowercase, text_dark on an accent marker bar"
+        },
+        {
+          "string": "difficulty",
+          "style": "small label, lowercase, text_body_grey, left of the meter"
+        },
+        {
+          "string": "they respond well, but most people never train them directly.",
+          "style": "regular, text_dark, up to two lines"
+        },
+        {
+          "string": "fix:",
+          "style": "bold, lowercase, accent"
+        },
+        {
+          "string": "lateral raises, slow and out to the side.",
+          "style": "regular, text_dark, after 'fix:'"
+        }
+      ],
+      "illustration": "front view from the thighs up, arms relaxed, side delts filled #F26445"
+    },
+    {
+      "n": 3,
+      "role": "rank #6",
+      "difficulty_out_of_5": 3,
+      "text": [
+        {
+          "string": "#6",
+          "style": "heaviest weight, text_dark"
+        },
+        {
+          "string": "upper chest",
+          "style": "heaviest weight, lowercase, text_dark on an accent marker bar"
+        },
+        {
+          "string": "difficulty",
+          "style": "small label, lowercase, text_body_grey, left of the meter"
+        },
+        {
+          "string": "flat pressing barely reaches it, so it lags behind.",
+          "style": "regular, text_dark, up to two lines"
+        },
+        {
+          "string": "fix:",
+          "style": "bold, lowercase, accent"
+        },
+        {
+          "string": "start your chest day with an incline press.",
+          "style": "regular, text_dark, after 'fix:'"
+        }
+      ],
+      "illustration": "front view from the thighs up, upper chest filled #F26445"
+    },
+    {
+      "n": 4,
+      "role": "rank #5",
+      "difficulty_out_of_5": 4,
+      "text": [
+        {
+          "string": "#5",
+          "style": "heaviest weight, text_dark"
+        },
+        {
+          "string": "hamstrings",
+          "style": "heaviest weight, lowercase, text_dark on an accent marker bar"
+        },
+        {
+          "string": "difficulty",
+          "style": "small label, lowercase, text_body_grey, left of the meter"
+        },
+        {
+          "string": "squats don’t cover them. they need their own work.",
+          "style": "regular, text_dark, up to two lines"
+        },
+        {
+          "string": "fix:",
+          "style": "bold, lowercase, accent"
+        },
+        {
+          "string": "add romanian deadlifts and leg curls.",
+          "style": "regular, text_dark, after 'fix:'"
+        }
+      ],
+      "illustration": "rear view, full body, hamstrings filled #F26445"
+    },
+    {
+      "n": 5,
+      "role": "rank #4",
+      "difficulty_out_of_5": 4,
+      "text": [
+        {
+          "string": "#4",
+          "style": "heaviest weight, text_dark"
+        },
+        {
+          "string": "lats",
+          "style": "heaviest weight, lowercase, text_dark on an accent marker bar"
+        },
+        {
+          "string": "difficulty",
+          "style": "small label, lowercase, text_body_grey, left of the meter"
+        },
+        {
+          "string": "hard to feel at first, so most people pull with their arms.",
+          "style": "regular, text_dark, up to two lines"
+        },
+        {
+          "string": "fix:",
+          "style": "bold, lowercase, accent"
+        },
+        {
+          "string": "think elbows down, not hands down.",
+          "style": "regular, text_dark, after 'fix:'"
+        }
+      ],
+      "illustration": "rear view from the thighs up, arms slightly away from the body, lats filled #F26445"
+    },
+    {
+      "n": 6,
+      "role": "rank #3",
+      "difficulty_out_of_5": 4,
+      "text": [
+        {
+          "string": "#3",
+          "style": "heaviest weight, text_dark"
+        },
+        {
+          "string": "abs",
+          "style": "heaviest weight, lowercase, text_dark on an accent marker bar"
+        },
+        {
+          "string": "difficulty",
+          "style": "small label, lowercase, text_body_grey, left of the meter"
+        },
+        {
+          "string": "you can train them, but they only show at low body fat.",
+          "style": "regular, text_dark, up to two lines"
+        },
+        {
+          "string": "fix:",
+          "style": "bold, lowercase, accent"
+        },
+        {
+          "string": "train them hard and keep your diet in check.",
+          "style": "regular, text_dark, after 'fix:'"
+        }
+      ],
+      "illustration": "front view from the thighs up, abs filled #F26445"
+    },
+    {
+      "n": 7,
+      "role": "rank #2",
+      "difficulty_out_of_5": 5,
+      "text": [
+        {
+          "string": "#2",
+          "style": "heaviest weight, text_dark"
+        },
+        {
+          "string": "forearms",
+          "style": "heaviest weight, lowercase, text_dark on an accent marker bar"
+        },
+        {
+          "string": "difficulty",
+          "style": "small label, lowercase, text_body_grey, left of the meter"
+        },
+        {
+          "string": "tough, used all day, and slow to change.",
+          "style": "regular, text_dark, up to two lines"
+        },
+        {
+          "string": "fix:",
+          "style": "bold, lowercase, accent"
+        },
+        {
+          "string": "hammer curls, reverse curls and heavy holds.",
+          "style": "regular, text_dark, after 'fix:'"
+        }
+      ],
+      "illustration": "front view from the thighs up, one arm bent showing the forearm, forearms filled #F26445"
+    },
+    {
+      "n": 8,
+      "role": "rank #1",
+      "difficulty_out_of_5": 5,
+      "text": [
+        {
+          "string": "#1",
+          "style": "heaviest weight, text_dark"
+        },
+        {
+          "string": "calves",
+          "style": "heaviest weight, lowercase, text_dark on an accent marker bar"
+        },
+        {
+          "string": "difficulty",
+          "style": "small label, lowercase, text_body_grey, left of the meter"
+        },
+        {
+          "string": "you walk on them all day. they need heavy, slow reps.",
+          "style": "regular, text_dark, up to two lines"
+        },
+        {
+          "string": "fix:",
+          "style": "bold, lowercase, accent"
+        },
+        {
+          "string": "slow reps with a pause at the bottom, trained often.",
+          "style": "regular, text_dark, after 'fix:'"
+        }
+      ],
+      "illustration": "rear view, full body standing on the toes, calves filled #F26445"
+    },
+    {
+      "n": 9,
+      "role": "product ending",
+      "text": [
+        {
+          "string": "harda tracks every set and shows which muscles get the least work.",
+          "style": "large, lowercase, heaviest weight, text_dark; accent marker bars under 'every set' and 'the least work'"
+        },
+        {
+          "string": "log your workouts and check your muscle balance, so the hard ones get enough too.",
+          "style": "regular, text_dark, two lines"
+        }
+      ],
+      "screen": "real Harda Progress / Muscle balance screenshot, the same one as in approved LW-CAR-0022 slide 19",
+      "product_claims_checked_against_real_screen": [
+        "workouts are logged",
+        "muscle balance screen (LW-CAR-0022 slide 19)"
+      ]
+    }
+  ],
+  "claims_to_verify": [
+    "Own opinions, no numbers or citations. The abs line matches LW-CAR-0018 (abs show at low body fat). Calves at #1 and forearms at #2 are deliberately debatable.",
+    "Ending: only workout logging and the Muscle balance screen, both on real screens."
+  ]
+}
