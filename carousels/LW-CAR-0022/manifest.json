@@ -841,12 +841,8 @@
   },
   "user_review": "approved",
   "agent_visual_review": "not_performed",
-  "owner_approval": {
-    "source": "Owner explicitly approved all 19 slides in chat and instructed to push them to GitHub with user-approved status.",
-    "content_version": "1.1",
-    "approved_at": "2026-10-20"
-  },
-  "next_action": "None. All 19 slides are owner-approved and ready to post.",
+  "owner_approval": "2026-10-20: owner approved the carousel as it is.",
+  "next_action": "None. Ready to post.",
   "partial_push_reason": "Generation wrapper error interrupted the first checkpoint after slide 4; saved slides 1–4 before continuing.",
   "target_branch": "claude/charming-einstein-xgejky",
   "approved_slides": [
