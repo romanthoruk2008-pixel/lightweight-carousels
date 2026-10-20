@@ -1,0 +1,269 @@
+{
+  "carousel_id": "LW-CAR-0024",
+  "content_version": "1.0",
+  "status": "frozen",
+  "type": "original",
+  "design_style": "S2",
+  "language": "en",
+  "background": "CLEAN",
+  "font_family": "REF-008 look: heavy tight grotesk for headlines, clean sans for body, italic for tier lines",
+  "colors": {
+    "accent": "#F26445",
+    "background": "#F0F1EB",
+    "text_dark": "#2A2A2A",
+    "text_body_grey": "#6B6B6B",
+    "white": "#FFFFFF"
+  },
+  "source": {
+    "ref_id": null,
+    "note": "Our own 'one exercise per muscle' carousel in the S2 look (owner request 2026-10-20). Picks agree with our tier lists (LW-CAR-0020 … 0023).",
+    "layout_from": "carousels/LW-CAR-0022/outputs (owner-approved S2, Harda logo)"
+  },
+  "caption": {
+    "text": "Which one would you change? 👇 #gymtips #workout #fitnesstips #musclebuilding",
+    "notes": "comment prompt"
+  },
+  "slides": [
+    {
+      "n": 1,
+      "role": "hook",
+      "text": [
+        {
+          "string": "1 exercise",
+          "style": "cover line 1, lowercase, heaviest weight, text_dark"
+        },
+        {
+          "string": "per muscle",
+          "style": "cover line 2, lowercase, heaviest weight, text_dark on an accent marker bar"
+        },
+        {
+          "string": "(if you could only pick one)",
+          "style": "italic, regular, text_body_grey"
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "role": "muscle chest",
+      "text": [
+        {
+          "string": "chest",
+          "style": "small heading above the name, lowercase, bold, text_body_grey"
+        },
+        {
+          "string": "incline smith press",
+          "style": "heaviest weight, lowercase, text_dark on an accent marker bar"
+        },
+        {
+          "string": "hits your whole chest, and it’s easy to add weight every week.",
+          "style": "regular, text_dark, up to two lines"
+        }
+      ],
+      "illustration": "incline bench press in a Smith machine, front three-quarter view",
+      "highlight": "chest"
+    },
+    {
+      "n": 3,
+      "role": "muscle back",
+      "text": [
+        {
+          "string": "back",
+          "style": "small heading above the name, lowercase, bold, text_body_grey"
+        },
+        {
+          "string": "pull-ups",
+          "style": "heaviest weight, lowercase, text_dark on an accent marker bar"
+        },
+        {
+          "string": "width and thickness in one move, and you can do them anywhere.",
+          "style": "regular, text_dark, up to two lines"
+        }
+      ],
+      "illustration": "pull-up on a bar, chin near the bar, rear view",
+      "highlight": "lats and upper back"
+    },
+    {
+      "n": 4,
+      "role": "muscle shoulders",
+      "text": [
+        {
+          "string": "shoulders",
+          "style": "small heading above the name, lowercase, bold, text_body_grey"
+        },
+        {
+          "string": "lateral raise",
+          "style": "heaviest weight, lowercase, text_dark on an accent marker bar"
+        },
+        {
+          "string": "side delts make you look wider, and your presses barely touch them.",
+          "style": "regular, text_dark, up to two lines"
+        }
+      ],
+      "illustration": "standing dumbbell lateral raise, arms at shoulder height, front view",
+      "highlight": "side delts"
+    },
+    {
+      "n": 5,
+      "role": "muscle biceps",
+      "text": [
+        {
+          "string": "biceps",
+          "style": "small heading above the name, lowercase, bold, text_body_grey"
+        },
+        {
+          "string": "bayesian cable curl",
+          "style": "heaviest weight, lowercase, text_dark on an accent marker bar"
+        },
+        {
+          "string": "arm behind your body, a big stretch and tension the whole way.",
+          "style": "regular, text_dark, up to two lines"
+        }
+      ],
+      "illustration": "standing with the back to a low cable pulley, one arm behind the body curling the handle forward, side view",
+      "highlight": "biceps"
+    },
+    {
+      "n": 6,
+      "role": "muscle triceps",
+      "text": [
+        {
+          "string": "triceps",
+          "style": "small heading above the name, lowercase, bold, text_body_grey"
+        },
+        {
+          "string": "overhead cable extension",
+          "style": "heaviest weight, lowercase, text_dark on an accent marker bar"
+        },
+        {
+          "string": "trains the long head in a big stretch, the part most people miss.",
+          "style": "regular, text_dark, up to two lines"
+        }
+      ],
+      "illustration": "standing facing away from a cable station, rope held behind the head, extending the arms overhead, side view",
+      "highlight": "triceps"
+    },
+    {
+      "n": 7,
+      "role": "muscle quads",
+      "text": [
+        {
+          "string": "quads",
+          "style": "small heading above the name, lowercase, bold, text_body_grey"
+        },
+        {
+          "string": "leg press",
+          "style": "heaviest weight, lowercase, text_dark on an accent marker bar"
+        },
+        {
+          "string": "heavy and stable, so your quads do all the work.",
+          "style": "regular, text_dark, up to two lines"
+        }
+      ],
+      "illustration": "seated 45-degree leg press machine, knees bent, side view",
+      "highlight": "quads"
+    },
+    {
+      "n": 8,
+      "role": "muscle hamstrings",
+      "text": [
+        {
+          "string": "hamstrings",
+          "style": "small heading above the name, lowercase, bold, text_body_grey"
+        },
+        {
+          "string": "romanian deadlift",
+          "style": "heaviest weight, lowercase, text_dark on an accent marker bar"
+        },
+        {
+          "string": "stretches and loads your hamstrings and glutes together.",
+          "style": "regular, text_dark, up to two lines"
+        }
+      ],
+      "illustration": "barbell romanian deadlift, hips back, bar at the knees, side view",
+      "highlight": "hamstrings and glutes"
+    },
+    {
+      "n": 9,
+      "role": "muscle glutes",
+      "text": [
+        {
+          "string": "glutes",
+          "style": "small heading above the name, lowercase, bold, text_body_grey"
+        },
+        {
+          "string": "hip thrust",
+          "style": "heaviest weight, lowercase, text_dark on an accent marker bar"
+        },
+        {
+          "string": "your glutes do the work, and it’s easy to go heavy.",
+          "style": "regular, text_dark, up to two lines"
+        }
+      ],
+      "illustration": "barbell hip thrust, upper back on a bench, hips up at the top, side view",
+      "highlight": "glutes"
+    },
+    {
+      "n": 10,
+      "role": "muscle calves",
+      "text": [
+        {
+          "string": "calves",
+          "style": "small heading above the name, lowercase, bold, text_body_grey"
+        },
+        {
+          "string": "standing calf raise",
+          "style": "heaviest weight, lowercase, text_dark on an accent marker bar"
+        },
+        {
+          "string": "slow reps and a full stretch at the bottom. that’s the whole secret.",
+          "style": "regular, text_dark, up to two lines"
+        }
+      ],
+      "illustration": "standing calf raise machine, up on the toes, side view",
+      "highlight": "calves"
+    },
+    {
+      "n": 11,
+      "role": "muscle abs",
+      "text": [
+        {
+          "string": "abs",
+          "style": "small heading above the name, lowercase, bold, text_body_grey"
+        },
+        {
+          "string": "hanging leg raise",
+          "style": "heaviest weight, lowercase, text_dark on an accent marker bar"
+        },
+        {
+          "string": "a big range for your abs, and no machine needed.",
+          "style": "regular, text_dark, up to two lines"
+        }
+      ],
+      "illustration": "hanging from a pull-up bar, straight legs raised to hip height, side view",
+      "highlight": "abs"
+    },
+    {
+      "n": 12,
+      "role": "product ending",
+      "text": [
+        {
+          "string": "harda tracks every set you lift and shows which muscles fall behind.",
+          "style": "large, lowercase, heaviest weight, text_dark; accent marker bars under 'every set you lift' and 'which muscles fall behind'"
+        },
+        {
+          "string": "log your workouts and check your muscle balance, so no muscle gets left out.",
+          "style": "regular, text_dark, two lines"
+        }
+      ],
+      "screen": "real Harda Progress / Muscle balance screenshot, the same one as in approved LW-CAR-0022 slide 19",
+      "product_claims_checked_against_real_screen": [
+        "workouts are logged",
+        "muscle balance screen (LW-CAR-0022 slide 19)"
+      ]
+    }
+  ],
+  "claims_to_verify": [
+    "Own opinions, no numbers or citations. Picks are consistent with our tier lists: incline smith press (chest S), pull-ups (back A), bayesian cable curl (biceps #1), leg press (legs #1), romanian deadlift and hip thrust (legs A).",
+    "Ending: only workout logging and the Muscle balance screen, both on real screens."
+  ]
+}

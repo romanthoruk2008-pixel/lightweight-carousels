@@ -1,0 +1,369 @@
+{
+  "carousel_id": "LW-CAR-0025",
+  "content_version": "1.0",
+  "status": "frozen",
+  "type": "original",
+  "design_style": "S2",
+  "language": "en",
+  "background": "CLEAN",
+  "font_family": "REF-008 look: heavy tight grotesk for headlines, clean sans for body, italic for tier lines",
+  "colors": {
+    "accent": "#F26445",
+    "background": "#F0F1EB",
+    "text_dark": "#2A2A2A",
+    "text_body_grey": "#6B6B6B",
+    "white": "#FFFFFF"
+  },
+  "source": {
+    "ref_id": null,
+    "note": "Our own 'this or that' carousel in the S2 look (owner request 2026-10-20). Verdicts agree with our tier lists (LW-CAR-0020 … 0023).",
+    "layout_from": "carousels/LW-CAR-0022/outputs (owner-approved S2, Harda logo)"
+  },
+  "caption": {
+    "text": "How many did you guess right? 👇 #gymtips #thisorthat #workout #fitnesstips",
+    "notes": "comment prompt"
+  },
+  "slides": [
+    {
+      "n": 1,
+      "role": "hook",
+      "text": [
+        {
+          "string": "this or",
+          "style": "cover line 1, lowercase, heaviest weight, text_dark"
+        },
+        {
+          "string": "that?",
+          "style": "cover line 2, lowercase, heaviest weight, text_dark on an accent marker bar"
+        },
+        {
+          "string": "(gym edition)",
+          "style": "italic, regular, text_body_grey"
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "role": "round 1 question",
+      "text": [
+        {
+          "string": "round 1",
+          "style": "headline, lowercase, heaviest weight, text_dark"
+        },
+        {
+          "string": "which builds more chest?",
+          "style": "question, regular, text_dark"
+        },
+        {
+          "string": "barbell bench",
+          "style": "label under the left figure, bold lowercase, text_dark"
+        },
+        {
+          "string": "vs",
+          "style": "white bold lowercase in an accent circle badge between the figures"
+        },
+        {
+          "string": "incline db press",
+          "style": "label under the right figure, bold lowercase, text_dark"
+        },
+        {
+          "string": "(answer on the next slide)",
+          "style": "small italic, text_body_grey, bottom center"
+        }
+      ],
+      "illustration": "left: barbell bench press in a rack, front three-quarter view; right: dumbbell press on an incline bench, front three-quarter view"
+    },
+    {
+      "n": 3,
+      "role": "round 1 verdict",
+      "text": [
+        {
+          "string": "winner:",
+          "style": "headline line 1, lowercase, heaviest weight, text_dark"
+        },
+        {
+          "string": "incline db press",
+          "style": "headline line 2, heaviest weight, lowercase, text_dark on an accent marker bar"
+        },
+        {
+          "string": "natural path and more upper chest. the barbell is better for strength.",
+          "style": "regular, text_dark, up to two lines"
+        }
+      ],
+      "illustration": "dumbbell press on an incline bench, front three-quarter view"
+    },
+    {
+      "n": 4,
+      "role": "round 2 question",
+      "text": [
+        {
+          "string": "round 2",
+          "style": "headline, lowercase, heaviest weight, text_dark"
+        },
+        {
+          "string": "which builds bigger quads?",
+          "style": "question, regular, text_dark"
+        },
+        {
+          "string": "leg press",
+          "style": "label under the left figure, bold lowercase, text_dark"
+        },
+        {
+          "string": "vs",
+          "style": "white bold lowercase in an accent circle badge between the figures"
+        },
+        {
+          "string": "back squat",
+          "style": "label under the right figure, bold lowercase, text_dark"
+        },
+        {
+          "string": "(answer on the next slide)",
+          "style": "small italic, text_body_grey, bottom center"
+        }
+      ],
+      "illustration": "left: seated 45-degree leg press machine, knees bent, side view; right: barbell back squat in a rack, bottom position, side view"
+    },
+    {
+      "n": 5,
+      "role": "round 2 verdict",
+      "text": [
+        {
+          "string": "winner:",
+          "style": "headline line 1, lowercase, heaviest weight, text_dark"
+        },
+        {
+          "string": "leg press",
+          "style": "headline line 2, heaviest weight, lowercase, text_dark on an accent marker bar"
+        },
+        {
+          "string": "big quad growth with way less lower back fatigue.",
+          "style": "regular, text_dark, up to two lines"
+        }
+      ],
+      "illustration": "seated 45-degree leg press machine, knees bent, side view"
+    },
+    {
+      "n": 6,
+      "role": "round 3 question",
+      "text": [
+        {
+          "string": "round 3",
+          "style": "headline, lowercase, heaviest weight, text_dark"
+        },
+        {
+          "string": "which builds a wider back?",
+          "style": "question, regular, text_dark"
+        },
+        {
+          "string": "pull-ups",
+          "style": "label under the left figure, bold lowercase, text_dark"
+        },
+        {
+          "string": "vs",
+          "style": "white bold lowercase in an accent circle badge between the figures"
+        },
+        {
+          "string": "lat pulldown",
+          "style": "label under the right figure, bold lowercase, text_dark"
+        },
+        {
+          "string": "(answer on the next slide)",
+          "style": "small italic, text_body_grey, bottom center"
+        }
+      ],
+      "illustration": "left: pull-up on a bar, chin near the bar, rear view; right: seated lat pulldown, wide bar pulled to the upper chest, rear view"
+    },
+    {
+      "n": 7,
+      "role": "round 3 verdict",
+      "text": [
+        {
+          "string": "winner:",
+          "style": "headline line 1, lowercase, heaviest weight, text_dark"
+        },
+        {
+          "string": "lat pulldown",
+          "style": "headline line 2, heaviest weight, lowercase, text_dark on an accent marker bar"
+        },
+        {
+          "string": "easier to load and to push close to failure. pull-ups are a close second.",
+          "style": "regular, text_dark, up to two lines"
+        }
+      ],
+      "illustration": "seated lat pulldown, wide bar pulled to the upper chest, rear view"
+    },
+    {
+      "n": 8,
+      "role": "round 4 question",
+      "text": [
+        {
+          "string": "round 4",
+          "style": "headline, lowercase, heaviest weight, text_dark"
+        },
+        {
+          "string": "which builds bigger biceps?",
+          "style": "question, regular, text_dark"
+        },
+        {
+          "string": "cable curl",
+          "style": "label under the left figure, bold lowercase, text_dark"
+        },
+        {
+          "string": "vs",
+          "style": "white bold lowercase in an accent circle badge between the figures"
+        },
+        {
+          "string": "barbell curl",
+          "style": "label under the right figure, bold lowercase, text_dark"
+        },
+        {
+          "string": "(answer on the next slide)",
+          "style": "small italic, text_body_grey, bottom center"
+        }
+      ],
+      "illustration": "left: standing cable curl from a low pulley with a straight bar, front view; right: standing barbell curl, bar at chest height, front view"
+    },
+    {
+      "n": 9,
+      "role": "round 4 verdict",
+      "text": [
+        {
+          "string": "winner:",
+          "style": "headline line 1, lowercase, heaviest weight, text_dark"
+        },
+        {
+          "string": "cable curl",
+          "style": "headline line 2, heaviest weight, lowercase, text_dark on an accent marker bar"
+        },
+        {
+          "string": "tension from bottom to top, and no swinging the weight up.",
+          "style": "regular, text_dark, up to two lines"
+        }
+      ],
+      "illustration": "standing cable curl from a low pulley with a straight bar, front view"
+    },
+    {
+      "n": 10,
+      "role": "round 5 question",
+      "text": [
+        {
+          "string": "round 5",
+          "style": "headline, lowercase, heaviest weight, text_dark"
+        },
+        {
+          "string": "which builds more chest?",
+          "style": "question, regular, text_dark"
+        },
+        {
+          "string": "dips",
+          "style": "label under the left figure, bold lowercase, text_dark"
+        },
+        {
+          "string": "vs",
+          "style": "white bold lowercase in an accent circle badge between the figures"
+        },
+        {
+          "string": "push-ups",
+          "style": "label under the right figure, bold lowercase, text_dark"
+        },
+        {
+          "string": "(answer on the next slide)",
+          "style": "small italic, text_body_grey, bottom center"
+        }
+      ],
+      "illustration": "left: dip on parallel bars, torso leaning forward, side view; right: push-up, side view"
+    },
+    {
+      "n": 11,
+      "role": "round 5 verdict",
+      "text": [
+        {
+          "string": "winner:",
+          "style": "headline line 1, lowercase, heaviest weight, text_dark"
+        },
+        {
+          "string": "dips",
+          "style": "headline line 2, heaviest weight, lowercase, text_dark on an accent marker bar"
+        },
+        {
+          "string": "a bigger stretch and easy to add weight. push-ups get too easy.",
+          "style": "regular, text_dark, up to two lines"
+        }
+      ],
+      "illustration": "dip on parallel bars, torso leaning forward, side view"
+    },
+    {
+      "n": 12,
+      "role": "round 6 question",
+      "text": [
+        {
+          "string": "round 6",
+          "style": "headline, lowercase, heaviest weight, text_dark"
+        },
+        {
+          "string": "which is better for your hamstrings?",
+          "style": "question, regular, text_dark"
+        },
+        {
+          "string": "deadlift",
+          "style": "label under the left figure, bold lowercase, text_dark"
+        },
+        {
+          "string": "vs",
+          "style": "white bold lowercase in an accent circle badge between the figures"
+        },
+        {
+          "string": "romanian deadlift",
+          "style": "label under the right figure, bold lowercase, text_dark"
+        },
+        {
+          "string": "(answer on the next slide)",
+          "style": "small italic, text_body_grey, bottom center"
+        }
+      ],
+      "illustration": "left: conventional barbell deadlift, standing tall at the top, side view; right: barbell romanian deadlift, hips back, bar at the knees, side view"
+    },
+    {
+      "n": 13,
+      "role": "round 6 verdict",
+      "text": [
+        {
+          "string": "winner:",
+          "style": "headline line 1, lowercase, heaviest weight, text_dark"
+        },
+        {
+          "string": "romanian deadlift",
+          "style": "headline line 2, heaviest weight, lowercase, text_dark on an accent marker bar"
+        },
+        {
+          "string": "more stretch for your hamstrings and glutes, with less fatigue.",
+          "style": "regular, text_dark, up to two lines"
+        }
+      ],
+      "illustration": "barbell romanian deadlift, hips back, bar at the knees, side view"
+    },
+    {
+      "n": 14,
+      "role": "product ending",
+      "text": [
+        {
+          "string": "not sure which works for you? harda tracks every set, so you can test both.",
+          "style": "large, lowercase, heaviest weight, text_dark; accent marker bars under 'harda tracks every set' and 'test both'"
+        },
+        {
+          "string": "log your workouts and see which one actually moves your numbers.",
+          "style": "regular, text_dark, two lines"
+        }
+      ],
+      "screen": "real Harda Progress / Muscle balance screenshot, the same one as in approved LW-CAR-0022 slide 19",
+      "product_claims_checked_against_real_screen": [
+        "workouts are logged",
+        "muscle balance screen (LW-CAR-0022 slide 19)"
+      ]
+    }
+  ],
+  "claims_to_verify": [
+    "Own opinions, no numbers or citations. Verdicts follow our tier lists: incline db press over barbell bench (chest A vs B), leg press over back squat (legs #1 vs B), lat pulldown over pull-ups (back #3 vs #5), cable curl over barbell curl (biceps S vs B), dips over push-ups (chest A vs B), romanian deadlift over deadlift (legs A, back B).",
+    "Ending: 'see which one actually moves your numbers' relies on workout logging only; no new feature claimed."
+  ]
+}

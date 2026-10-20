@@ -372,6 +372,38 @@
       "next_action": "fix slide 17 typo 'bottonto' and slide 19 missing period, then owner review",
       "path": "carousels/LW-CAR-0023/",
       "owner_approval": "2026-10-20: all 19 slides from output commit b5f25183f795b4da3f60ed2fc1f7aee999be8122 accepted by the owner."
+    },
+    {
+      "id": "LW-CAR-0024",
+      "title": "1 exercise per muscle",
+      "source_ref": null,
+      "type": "original",
+      "design_style": "S2",
+      "content_version": "1.0",
+      "copy_status": "frozen",
+      "slides": 12,
+      "background": "CLEAN",
+      "slides_blocked": [],
+      "generation": "not_started",
+      "user_review": "pending",
+      "next_action": "Codex: match approved LW-CAR-0022 look; slides 1-3 first",
+      "path": "carousels/LW-CAR-0024/"
+    },
+    {
+      "id": "LW-CAR-0025",
+      "title": "this or that? (gym edition)",
+      "source_ref": null,
+      "type": "original",
+      "design_style": "S2",
+      "content_version": "1.0",
+      "copy_status": "frozen",
+      "slides": 14,
+      "background": "CLEAN",
+      "slides_blocked": [],
+      "generation": "not_started",
+      "user_review": "pending",
+      "next_action": "Codex: match approved LW-CAR-0022 look; slides 1-3 first",
+      "path": "carousels/LW-CAR-0025/"
     }
   ],
   "experiments": [
