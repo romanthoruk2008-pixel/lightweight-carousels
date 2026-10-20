@@ -1,0 +1,378 @@
+{
+  "carousel_id": "LW-CAR-0024",
+  "brand": "Harda",
+  "content_version": "1.0",
+  "design_style": "S2",
+  "source_commit": "dc97329d37702ab4a23e1a33933ab73dcbdeaacd",
+  "instructions": "prompts/codex-task.md",
+  "style_masters": [
+    "carousels/LW-CAR-0022/outputs"
+  ],
+  "logo": {
+    "file": "assets/logo/harda-logo-full.png",
+    "x": 48,
+    "y": 19,
+    "width": 218,
+    "height": 71,
+    "method": "original PNG with own transparency, no backing patch"
+  },
+  "status": "generated_initial_3_of_12_awaiting_owner_review",
+  "carousel_complete": false,
+  "generated_images": 3,
+  "agent_visual_review": "not_performed",
+  "user_review": "pending",
+  "authorized_slides": [
+    1,
+    2,
+    3
+  ],
+  "approved_slides": [],
+  "pending_review_slides": [
+    1,
+    2,
+    3
+  ],
+  "next_slide_to_generate": 4,
+  "next_action": "Owner reviews slides 1-3. Wait for explicit OK before generating slides 4-12; do not regenerate existing outputs automatically.",
+  "remote_save": {
+    "remote": "origin",
+    "branch": "claude/charming-einstein-xgejky",
+    "status": "commit_and_push_requested",
+    "commit_lookup": "git log -1 -- carousels/LW-CAR-0024/manifest.json"
+  },
+  "slides": [
+    {
+      "slide": 1,
+      "content_version": "1.0",
+      "role": "hook",
+      "exact_text": [
+        "1 exercise",
+        "per muscle",
+        "(if you could only pick one)"
+      ],
+      "file": "outputs/slide-01.png",
+      "prompt_file": "prompts/slide-01.txt",
+      "references": [
+        "carousels/LW-CAR-0022/outputs/slide-01.png"
+      ],
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-20T08:01:00.898822+00:00",
+          "prompt_file": "prompts/slide-01.txt",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0022/outputs/slide-01.png"
+          ],
+          "finished_at": "2026-10-20T08:01:52.543670+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-4308aa0f-db0f-4e60-8735-31314cd6ec95.png",
+          "raw_result_format": {
+            "size": [
+              1122,
+              1402
+            ],
+            "mode": "RGB"
+          },
+          "result_file": "outputs/slide-01.png",
+          "export": {
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "has_alpha": false,
+            "logo": "original Harda PNG, x48 y19 218x71, own alpha, no backing patch"
+          }
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_to_repository_checkout",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 2,
+      "content_version": "1.0",
+      "role": "muscle chest",
+      "exact_text": [
+        "chest",
+        "incline smith press",
+        "hits your whole chest, and it’s easy to add weight every week."
+      ],
+      "file": "outputs/slide-02.png",
+      "prompt_file": "prompts/slide-02.txt",
+      "references": [
+        "carousels/LW-CAR-0022/outputs/slide-03.png"
+      ],
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-20T08:01:53.130106+00:00",
+          "prompt_file": "prompts/slide-02.txt",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0022/outputs/slide-03.png"
+          ],
+          "finished_at": "2026-10-20T08:02:54.125336+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-2f67f953-fedf-478f-b328-163ba9609879.png",
+          "raw_result_format": {
+            "size": [
+              1122,
+              1402
+            ],
+            "mode": "RGB"
+          },
+          "result_file": "outputs/slide-02.png",
+          "export": {
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "has_alpha": false,
+            "logo": "original Harda PNG, x48 y19 218x71, own alpha, no backing patch"
+          }
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_to_repository_checkout",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 3,
+      "content_version": "1.0",
+      "role": "muscle back",
+      "exact_text": [
+        "back",
+        "pull-ups",
+        "width and thickness in one move, and you can do them anywhere."
+      ],
+      "file": "outputs/slide-03.png",
+      "prompt_file": "prompts/slide-03.txt",
+      "references": [
+        "carousels/LW-CAR-0022/outputs/slide-03.png"
+      ],
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-20T08:02:54.809858+00:00",
+          "prompt_file": "prompts/slide-03.txt",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0022/outputs/slide-03.png"
+          ],
+          "finished_at": "2026-10-20T08:04:09.067618+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-c330531c-91f3-4743-8519-8f6aaf85ed23.png",
+          "raw_result_format": {
+            "size": [
+              1122,
+              1402
+            ],
+            "mode": "RGB"
+          },
+          "result_file": "outputs/slide-03.png",
+          "export": {
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "has_alpha": false,
+            "logo": "original Harda PNG, x48 y19 218x71, own alpha, no backing patch"
+          }
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_to_repository_checkout",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 4,
+      "content_version": "1.0",
+      "role": "muscle shoulders",
+      "exact_text": [
+        "shoulders",
+        "lateral raise",
+        "side delts make you look wider, and your presses barely touch them."
+      ],
+      "file": "outputs/slide-04.png",
+      "prompt_file": null,
+      "references": [
+        "carousels/LW-CAR-0022/outputs/slide-03.png"
+      ],
+      "attempts": [],
+      "errors": [],
+      "save_status": "not_started",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 5,
+      "content_version": "1.0",
+      "role": "muscle biceps",
+      "exact_text": [
+        "biceps",
+        "bayesian cable curl",
+        "arm behind your body, a big stretch and tension the whole way."
+      ],
+      "file": "outputs/slide-05.png",
+      "prompt_file": null,
+      "references": [
+        "carousels/LW-CAR-0022/outputs/slide-03.png"
+      ],
+      "attempts": [],
+      "errors": [],
+      "save_status": "not_started",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 6,
+      "content_version": "1.0",
+      "role": "muscle triceps",
+      "exact_text": [
+        "triceps",
+        "overhead cable extension",
+        "trains the long head in a big stretch, the part most people miss."
+      ],
+      "file": "outputs/slide-06.png",
+      "prompt_file": null,
+      "references": [
+        "carousels/LW-CAR-0022/outputs/slide-03.png"
+      ],
+      "attempts": [],
+      "errors": [],
+      "save_status": "not_started",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 7,
+      "content_version": "1.0",
+      "role": "muscle quads",
+      "exact_text": [
+        "quads",
+        "leg press",
+        "heavy and stable, so your quads do all the work."
+      ],
+      "file": "outputs/slide-07.png",
+      "prompt_file": null,
+      "references": [
+        "carousels/LW-CAR-0022/outputs/slide-03.png"
+      ],
+      "attempts": [],
+      "errors": [],
+      "save_status": "not_started",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 8,
+      "content_version": "1.0",
+      "role": "muscle hamstrings",
+      "exact_text": [
+        "hamstrings",
+        "romanian deadlift",
+        "stretches and loads your hamstrings and glutes together."
+      ],
+      "file": "outputs/slide-08.png",
+      "prompt_file": null,
+      "references": [
+        "carousels/LW-CAR-0022/outputs/slide-03.png"
+      ],
+      "attempts": [],
+      "errors": [],
+      "save_status": "not_started",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 9,
+      "content_version": "1.0",
+      "role": "muscle glutes",
+      "exact_text": [
+        "glutes",
+        "hip thrust",
+        "your glutes do the work, and it’s easy to go heavy."
+      ],
+      "file": "outputs/slide-09.png",
+      "prompt_file": null,
+      "references": [
+        "carousels/LW-CAR-0022/outputs/slide-03.png"
+      ],
+      "attempts": [],
+      "errors": [],
+      "save_status": "not_started",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 10,
+      "content_version": "1.0",
+      "role": "muscle calves",
+      "exact_text": [
+        "calves",
+        "standing calf raise",
+        "slow reps and a full stretch at the bottom. that’s the whole secret."
+      ],
+      "file": "outputs/slide-10.png",
+      "prompt_file": null,
+      "references": [
+        "carousels/LW-CAR-0022/outputs/slide-03.png"
+      ],
+      "attempts": [],
+      "errors": [],
+      "save_status": "not_started",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 11,
+      "content_version": "1.0",
+      "role": "muscle abs",
+      "exact_text": [
+        "abs",
+        "hanging leg raise",
+        "a big range for your abs, and no machine needed."
+      ],
+      "file": "outputs/slide-11.png",
+      "prompt_file": null,
+      "references": [
+        "carousels/LW-CAR-0022/outputs/slide-03.png"
+      ],
+      "attempts": [],
+      "errors": [],
+      "save_status": "not_started",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 12,
+      "content_version": "1.0",
+      "role": "product ending",
+      "exact_text": [
+        "harda tracks every set you lift and shows which muscles fall behind.",
+        "log your workouts and check your muscle balance, so no muscle gets left out."
+      ],
+      "file": "outputs/slide-12.png",
+      "prompt_file": null,
+      "references": [
+        "carousels/LW-CAR-0022/outputs/slide-03.png"
+      ],
+      "attempts": [],
+      "errors": [],
+      "save_status": "not_started",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    }
+  ],
+  "archive": "LW-CAR-0024-initial-slides-01-03-1080x1350.zip"
+}
