@@ -1,11 +1,13 @@
-# LW-CAR-0024 — initial slides 1–3 ready for owner review
+# LW-CAR-0024 v1.0 — complete
 
-Copy v1.0 frozen at dc97329. Three initial slides generated successfully on their first attempts using approved LW-CAR-0022 slide 1 (cover) and slide 3 (muscle-slide style) as visual references. Those references and the original Harda logo were opened before generation.
+Saved 12 of 12 ordered opaque 1080 × 1350 RGB PNGs. Exact text from copy.json v1.0. Original Harda PNG composited at x48 y19, 218×71 with its own transparency, no backing patch. Caption is verbatim.
 
-Outputs: slide-01.png (cover), slide-02.png (chest / incline smith press), slide-03.png (back / pull-ups). All exported as opaque 1080 × 1350 RGB PNGs. The original Harda PNG was composited at x48 y19, 218×71 using its own transparency, without a backing patch. Exact copy and target-muscle highlights follow copy.json v1.0. Caption copied verbatim.
+Owner approved initial slides 1–3 from 6d83188204e06e7c3a4cedf79fab334ee2e195dc and authorized the remaining slides. Accepted PNGs remain unchanged. New saved slides 4–12 remain user_review=pending. Prompts, actual generation calls, returned paths and any errors are in manifest.json. No automatic retries or corrections.
 
-Raw result paths, actual prompts, attempts and export metadata are in manifest.json. No errors or retries. Only export-format metadata was checked; no automatic visual QA, OCR, anatomy audits, reviewer calls or corrections. agent_visual_review=not_performed; user_review=pending.
+Slide 12, if saved, reuses the original phone, real Muscle balance UI and white hand bitmap from approved LW-CAR-0022 slide 19, crop [0,720,1080,1350] pasted at [0,720] at 1:1 scale. UI not generated, retyped, redrawn or rescaled.
 
-The ZIP contains these three ordered PNGs, caption, copy, manifest, handoff and prompts. It is an explicitly partial preview, not the complete 12-slide carousel.
+agent_visual_review=not_performed. Only export-format metadata checked; no visual QA, OCR, anatomy audits or reviewer calls.
 
-Next action: show slides 1–3 to the owner and WAIT for OK. Slides 4–12 have not been generated. Do not regenerate existing outputs without an explicit request.
+Status: generated_12_of_12_awaiting_owner_review_of_slides_4_12.
+Next action: Owner reviews new slides 4-12; slides 1-3 approved and unchanged. No automatic corrections.
+Next slide to generate: None.

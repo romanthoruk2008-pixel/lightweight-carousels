@@ -30,6 +30,16 @@ elif action == 'save':
         canvas = Image.new('RGBA', raw.size, '#F0F1EB')
         canvas.alpha_composite(raw.convert('RGBA'))
         canvas = canvas.resize((1080, 1350), Image.Resampling.LANCZOS)
+    if int(number) == 12:
+        import shutil
+        shutil.copyfile(raw_path, carousel / 'production-assets/slide-12-generated-text.png')
+        with Image.open(carousel / 'production-assets/approved-phone-hand-strip.png') as strip:
+            canvas.paste(strip.convert('RGBA'), (0, 720))
+        entry['source_ui'] = dict(source='carousels/LW-CAR-0022/outputs/slide-19.png',
+            source_commit=manifest['continuation_source_commit'],
+            strip='production-assets/approved-phone-hand-strip.png',
+            source_crop=[0,720,1080,1350], placement=[0,720],
+            scale='1:1, no resampling', ui_generated_or_retyped=False)
     with Image.open(checkout / manifest['logo']['file']) as original:
         logo = original.convert('RGBA').resize((218, 71), Image.Resampling.LANCZOS)
         canvas.alpha_composite(logo, (48, 19))
@@ -44,7 +54,7 @@ elif action == 'save':
         result_file=entry['file'], export=dict(size=[1080,1350], mode='RGB',
             has_alpha=False, logo='original Harda PNG, x48 y19 218x71, own alpha, no backing patch'))
     manifest['generated_images'] = sum(s['save_status'] == 'saved_to_repository_checkout' for s in manifest['slides'])
-    manifest['pending_review_slides'] = [s['slide'] for s in manifest['slides'] if s['save_status'] == 'saved_to_repository_checkout']
+    manifest['pending_review_slides'] = [s['slide'] for s in manifest['slides'] if s['save_status'] == 'saved_to_repository_checkout' and s['user_review'] != 'approved']
     manifest['next_slide_to_generate'] = next((s['slide'] for s in manifest['slides'] if s['save_status'] == 'not_started'), None)
 elif action == 'error':
     error = sys.argv[3]
