@@ -9,11 +9,11 @@
 - Етап 1 (дослідження) завершено. Результати — у `research/`.
 - Бренд: **Harda** (робоча назва, обрана власником; див. `research/naming.md`). В App Store Connect назва вже `Harda: Gym Workout Tracker`.
 - Чернетка сторінки App Store: `drafts/app-store-v1.md` (назва/subtitle/keywords/promo/опис/план скриншотів).
-- Наступне: перевірка ключових слів цифрами через AppTweak API (змінна середовища `APPTWEAK_API_KEY`) → фіналізація назви/subtitle/keywords → іспанська (Мексика) локалізація → скриншоти.
+- Наступне: перевірка ключових слів цифрами через Sonar API (trysonar.app; змінна середовища `SONAR_API_KEY`, заголовок `Authorization: Bearer <key>`, база `https://api.trysonar.app`, `GET /api/v1/keywords/metrics?qs=<до 25 слів через кому>&store=ios&country=us`; специфікація `https://trysonar.app/openapi.json`). AppTweak не вдалося активувати → фіналізація назви/subtitle/keywords → іспанська (Мексика) локалізація → скриншоти.
 
 ## Як продовжити в новій сесії
-Прочитати цей файл, `drafts/app-store-v1.md` і `research/keywords-longlist.md` (топ-60 для перевірки). Інструкції про каруселі в CLAUDE.md до ASO-роботи не застосовуються; у `main` нічого не писати.
-AppTweak: для US і пріоритетних ринків (GB, DE, ES/MX, FR, BR) отримати volume, difficulty, поточні ранги конкурентів (Hevy, Strong, Fitbod, Dropset…) для топ-60 і для токенів поля Keywords; не вигадувати цифри.
+Прочитати цей файл, `drafts/app-store-v1.md` і `research/keywords-longlist.md` (топ-60 для перевірки). Інструкції про каруселі в CLAUDE.md до ASO-роботи не застосовуються; у `main` нічого не писати. Перші цифри — `research/keyword-metrics.md`. Правило відбору: релевантність; popularity ≥ 20; difficulty Sonar ≤ 35–40; 1–2 загальні запити (workout tracker) лишаються в назві.
+Sonar (замість AppTweak): для US і пріоритетних ринків (GB, DE, ES/MX, FR, BR) отримати volume, difficulty, поточні ранги конкурентів (Hevy, Strong, Fitbod, Dropset…) для топ-60 і для токенів поля Keywords; не вигадувати цифри.
 
 ## Підтверджено власником для релізу
 
