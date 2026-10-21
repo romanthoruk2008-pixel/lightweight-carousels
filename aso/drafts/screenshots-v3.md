@@ -1295,3 +1295,16 @@ Add it later only as a Product Page Optimization treatment.
 - видимий експорт CSV;
 - системний запит оцінки після нового PR або завершеного тренування.
 - Відео (App Preview): погоджуєшся запускатися без нього й тестувати пізніше? Відео завжди стоїть першим і витісняє один зі скринів із результатів пошуку.
+## Update 2026-10-21: owner wants three more screens (muscle distribution, ChatGPT app, Apple Watch)
+Proposed 10-slot order:
+1. Log every set. Beat last time. (no Watch overlay now)
+2. Have a program? Bring it in.
+3. Say what changed. The workout adapts.
+4. Different gyms. Same streak.
+5. Log sets from your wrist. — Apple Watch hero (own slot)
+6. Your progress has receipts.
+7. See what you're skipping. — muscle distribution radar + Seryozha bubble (merges the Seryozha slot)
+8. Ask ChatGPT about your training. — Harda in ChatGPT (only if the ChatGPT app is live and public; follow OpenAI brand guidelines; keep Harda UI dominant for 2.3.3)
+9. No plan? Get one that fits.
+10. Squat rack taken? Swipe to replace.
+Cut: standalone Seryozha slot (merged into 7), "Know the move before you lift", "Classic programs. Or your own." (covered in description).
