@@ -749,10 +749,10 @@
     },
     {
       "slide": 19,
-      "content_version": "1.0",
+      "content_version": "1.1",
       "role": "product ending",
       "exact_text": [
-        "lightweight tracks every set you lift and shows if your back gets enough work.",
+        "harda tracks every set you lift and shows if your back gets enough work.",
         "log your workouts and check your muscle balance, so your back never falls behind."
       ],
       "file": "outputs/slide-19.png",
@@ -778,12 +778,44 @@
             "logo": "original_file_composited_at_48_19_341_71_without_backing_patch"
           },
           "user_review": "approved"
+        },
+        {
+          "attempt": 2,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-21T15:06:50.411444+00:00",
+          "prompt_file": "prompts/harda-rebrand-slide-19.txt",
+          "referenced_image_paths": [
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0021/outputs/slide-19.png"
+          ],
+          "transparent_background": false,
+          "finished_at": "2026-10-21T15:07:37.220560+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-bce2569a-9cef-4640-a28b-3bdc343172c1.png",
+          "raw_result_format": {
+            "size": [
+              1122,
+              1402
+            ],
+            "mode": "RGB"
+          },
+          "result_file": "carousels/LW-CAR-0021/outputs/slide-19.png",
+          "export": {
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "alpha": false
+          },
+          "operation": "owner_requested_Harda_brand_word_edit",
+          "user_review": "pending",
+          "source_commit": "b42cab2f3629659ef6064edc7c7cbf191b6d0d38"
         }
       ],
       "errors": [],
-      "save_status": "pushed_to_target_branch",
+      "save_status": "saved_to_repository_checkout",
       "agent_visual_review": "not_performed",
-      "user_review": "approved",
+      "user_review": "pending",
       "prompt": "prompts/slide-19.txt",
       "reference": "carousels/LW-CAR-0020/outputs/slide-19.png",
       "source_ui": {
@@ -791,6 +823,23 @@
         "source_commit": "cd6634266498d9b23367182aa46c62278658bb41",
         "reused_via": "carousels/LW-CAR-0020/outputs/slide-19.png",
         "preservation": "Phone/screen cutout composited from the approved LW-CAR-0020 ending; a 300x300 px screen crop at x500 y850 is pixel-identical to source."
+      },
+      "harda_rebrand_edit": {
+        "prompt_file": "prompts/harda-rebrand-slide-19.txt",
+        "source_commit": "b42cab2f3629659ef6064edc7c7cbf191b6d0d38",
+        "input_file": "carousels/LW-CAR-0021/outputs/slide-19.png",
+        "brand_word_rectangle": [
+          58,
+          232,
+          578,
+          325
+        ],
+        "replacement_word": "harda",
+        "exact_text": "harda tracks every set you lift and shows if your back gets enough work.",
+        "method": "image_gen edits original slide; only brand-word rectangle copied back onto original; original logo composited again",
+        "other_pixels": "original input pixels retained outside brand rectangle and required logo placement; phone, real UI and hand never resampled or regenerated",
+        "user_review": "pending",
+        "agent_visual_review": "not_performed"
       }
     }
   ],
@@ -798,5 +847,12 @@
   "agent_visual_review": "not_performed",
   "owner_approval": "2026-10-19: owner approved all 19 slides as they are.",
   "next_action": "None. Ready to post.",
-  "rebrand_2026_10_19": "Logo on every slide replaced with the Harda logo (assets/logo/harda-logo-full.png, x48 y19 218x71) by Claude as a deterministic overlay: old logo area restored from surrounding background, nothing else changed. Owner approval of the slides still stands."
+  "rebrand_2026_10_19": "Logo on every slide replaced with the Harda logo (assets/logo/harda-logo-full.png, x48 y19 218x71) by Claude as a deterministic overlay: old logo area restored from surrounding background, nothing else changed. Owner approval of the slides still stands.",
+  "harda_rebrand_endings": {
+    "slide": 19,
+    "content_version": "1.1",
+    "source_commit": "b42cab2f3629659ef6064edc7c7cbf191b6d0d38",
+    "status": "edited_ending_pending_owner_review",
+    "other_slides": "unchanged; prior owner approvals remain in force"
+  }
 }

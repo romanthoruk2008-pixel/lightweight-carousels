@@ -973,10 +973,10 @@
     },
     {
       "slide": 19,
-      "content_version": "1.1",
+      "content_version": "1.2",
       "role": "product ending",
       "exact_text": [
-        "lightweight tracks every set you lift and shows which muscles you’re forgetting.",
+        "harda tracks every set you lift and shows which muscles you’re forgetting.",
         "log your workouts and check your muscle balance, so you keep making progress."
       ],
       "file": "outputs/slide-19.png",
@@ -1010,12 +1010,44 @@
             "has_alpha": false,
             "logo": "original_file_composited_at_48_19_341_71_without_backing_patch"
           }
+        },
+        {
+          "attempt": 2,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-21T15:05:34.921115+00:00",
+          "prompt_file": "prompts/harda-rebrand-slide-19.txt",
+          "referenced_image_paths": [
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0020/outputs/slide-19.png"
+          ],
+          "transparent_background": false,
+          "finished_at": "2026-10-21T15:06:38.057648+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-231df1fd-204e-4d50-b689-bf38e7f7be69.png",
+          "raw_result_format": {
+            "size": [
+              1122,
+              1402
+            ],
+            "mode": "RGB"
+          },
+          "result_file": "carousels/LW-CAR-0020/outputs/slide-19.png",
+          "export": {
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "alpha": false
+          },
+          "operation": "owner_requested_Harda_brand_word_edit",
+          "user_review": "pending",
+          "source_commit": "b42cab2f3629659ef6064edc7c7cbf191b6d0d38"
         }
       ],
       "errors": [],
       "save_status": "saved_to_repository_checkout",
       "agent_visual_review": "not_performed",
-      "user_review": "approved",
+      "user_review": "pending",
       "prompt": "LW-CAR-0020, copy.json content_version 1.1. Continue the owner-approved series. FIRST image is the approved v1.1 layout/style master. Match its typography, sizes, colours, spacing, white anatomical drawing and premium clean look. Any additional reference screenshot is a POSE GUIDE ONLY; its left slide is at approximately x139..1073, ignore all TikTok UI. Every word, exercise and rating below comes from our copy.json v1.1 and replaces the reference content. Never copy screenshot text.\n\nOutput ONE complete 1080 × 1350 px portrait 4:5 PNG with all lettering and illustration generated together. Solid opaque #F0F1EB CLEAN background. No arch, texture, grid, dots, transparency or checkerboard. Headlines heavy tight lowercase grotesk #2A2A2A as in the approved master, not Rubik. Body clean regular sans #2A2A2A, left-aligned, up to two lines. Secondary tier lines italic grey #6B6B6B. Coral #F26445 flat marker behind the LOWER PART of exercise NAME only, not the #number. Stars coral #F26445 filled, light grey #D6D6D2 empty. No white text cards.\n\nMannequin: realistic WHITE/LIGHT-GREY anatomical male, bald faceless, fine grey muscle shading/fibres, featureless smooth pelvis, dark #2A2A2A shorts, natural athletic proportions as in the approved master. No coloured muscles on these exercise slides, no sand/beige, no minimal-flat, clay or cartoon figure. Equipment black/grey. All artwork and labels fully within the frame, never obscure text.\n\nTOP 110 px must remain completely clear of text and objects on uninterrupted background. Do NOT draw or invent any logo or wordmark: the original full Lightweight logo file will be inserted at x48,y19,341×71 px using its own transparency, no backing patch. Start headings below y110. No extra words, captions, signatures, watermarks, slide counters or added punctuation. Exact lowercase, apostrophes and spelling below.\n\nAUTHORITATIVE STRINGS FROM copy.json v1.1:\n\"lightweight tracks every set you lift and shows which muscles you’re forgetting.\"\n\"log your workouts and check your muscle balance, so you keep making progress.\"\n\nSLIDE 19: LIGHTWEIGHT PRODUCT ENDING. First master supplies this carousel's typography/white drawing style; second image supplies ONLY the phone/hand composition, not old text or arch.\nHeadline exact: \"lightweight tracks every set you lift and shows which muscles you’re forgetting.\"\nSet it large heavy lowercase grotesk, left-aligned at x65, below y125, keeping ALL words readable, using five lines:\nlightweight tracks\nevery set you lift\nand shows\nwhich muscles you’re\nforgetting.\nFlat coral marker bars behind LOWER PART of \"every set you lift\" and \"which muscles you’re forgetting\" (latter may span lines).\nBody exact: \"log your workouts and check your muscle balance, so you keep making progress.\"\nClean regular sans dark, left-aligned, up to two lines below the headline, completed above y660. No extra headings or words.\nLower part: WHITE/LIGHT-GREY sketch anatomical hand, natural grey linework/shading consistent with this carousel, holding a tall black smartphone tilted mildly clockwise, lower end off canvas. Match the second source's handset shape and scale but translate its placement DOWN by exactly 200 px: source phone top near (530,525) becomes (530,725), right top near (900,640) becomes (900,840), left phone edge near x420. Hand enters from bottom left, fingers wrap naturally at the right. Keep all phone/hand pixels below y700.\nCRITICAL: the display must be EMPTY UNIFORM BLACK. Do not generate ANY app UI, chart, icons, scores, status bar, mock text or replica screenshot. The real approved phone/screen bitmap will be inserted in precisely this reserved handset position afterwards, at its ORIGINAL scale and proportions. Do not render screen content. Generate the white hand and surrounding slide only. Do not include the second source's beige hand colour or arch.\n\nReturn exactly one complete opaque slide, not a sheet or comparison.",
       "prompt_file": "prompts/slide-19.txt",
       "reference": "carousels/LW-CAR-0020/outputs/slide-03.png",
@@ -1030,6 +1062,23 @@
         "method": "original phone and UI pixels retained at 1:1 scale; translated x=0,y=200; bottom cropped by canvas",
         "ui_generated_or_retyped": false,
         "hand": "newly generated white/light-grey hand"
+      },
+      "harda_rebrand_edit": {
+        "prompt_file": "prompts/harda-rebrand-slide-19.txt",
+        "source_commit": "b42cab2f3629659ef6064edc7c7cbf191b6d0d38",
+        "input_file": "carousels/LW-CAR-0020/outputs/slide-19.png",
+        "brand_word_rectangle": [
+          64,
+          150,
+          572,
+          248
+        ],
+        "replacement_word": "harda",
+        "exact_text": "harda tracks every set you lift and shows which muscles you’re forgetting.",
+        "method": "image_gen edits original slide; only brand-word rectangle copied back onto original; original logo composited again",
+        "other_pixels": "original input pixels retained outside brand rectangle and required logo placement; phone, real UI and hand never resampled or regenerated",
+        "user_review": "pending",
+        "agent_visual_review": "not_performed"
       }
     }
   ],
@@ -1118,5 +1167,12 @@
   "design_style": "S2 master (owner-approved 2026-10-19)",
   "repository_sync_commit": "5f482816eec2a48836156e3d92ed186ca2128659",
   "owner_approval": "2026-10-19: owner approved all 19 slides as they are, including slide 19 (no fixes wanted). LW-CAR-0020 is the S2 master.",
-  "rebrand_2026_10_19": "Logo on every slide replaced with the Harda logo (assets/logo/harda-logo-full.png, x48 y19 218x71) by Claude as a deterministic overlay: old logo area restored from surrounding background, nothing else changed. Owner approval of the slides still stands."
+  "rebrand_2026_10_19": "Logo on every slide replaced with the Harda logo (assets/logo/harda-logo-full.png, x48 y19 218x71) by Claude as a deterministic overlay: old logo area restored from surrounding background, nothing else changed. Owner approval of the slides still stands.",
+  "harda_rebrand_endings": {
+    "slide": 19,
+    "content_version": "1.2",
+    "source_commit": "b42cab2f3629659ef6064edc7c7cbf191b6d0d38",
+    "status": "edited_ending_pending_owner_review",
+    "other_slides": "unchanged; prior owner approvals remain in force"
+  }
 }

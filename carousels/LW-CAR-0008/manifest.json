@@ -414,15 +414,15 @@
     },
     {
       "slide_number": 8,
-      "content_version": "1.0",
-      "status": "generated",
+      "content_version": "1.1",
+      "status": "rebrand_edit_saved_pending_owner_review",
       "visual_template_files": [
         "carousels/LW-CAR-0001/outputs/slide-08.png"
       ],
       "template_access": "opened",
       "prompt_file": "carousels/LW-CAR-0008/prompts/slide-08.txt",
       "prompt": "Create ONE new ORIGINAL Lightweight product-ending carousel slide, slide 8 of LW-CAR-0008. Edit the attached owner-approved LW-CAR-0001 slide 8 as the exact composition template. Preserve its 4:5 portrait canvas, off-white background and pale right-side arch, same typography hierarchy/alignment, same top-left wordmark position, left-aligned headline and underline, two body paragraphs, and lower hand holding tall black phone. This is our own approved phone/hand composition and contains the real Muscle balance screen with a Chest axis and “Based on Working sets”. Do not create, redraw, imitate, replace, or embellish app UI. Use no border, watermark, signature or extra copy.\n\nMatch series colors exactly: off-white #F0F1EB, pale arch #FBE3DD, coral #F26445, dark #2A2A2A, body grey #6B6B6B. Typography Rubik, bold headline and regular grey body. Keep upper-left wordmark region clean; exact supplied master wordmark will be composited, so do not draw a logo.\n\nChange ONLY the headline and two body paragraphs from the reference:\nHeadline exact text: “Is Your Chest Getting Enough Work?”\nAt the reference headline size, break naturally into two left-aligned lines:\n“Is Your Chest”\n“Getting Enough Work?”\nUse dark #2A2A2A. Add the short coral underline beneath the complete two-line headline.\nBody paragraph 1, exact: “Log your workouts in Lightweight.”\nBody paragraph 2, exact: “See how many sets your chest gets compared to every other muscle.”\nUse regular grey #6B6B6B, left aligned, separated as two paragraphs. Preserve every word and punctuation. Adjust only the vertical placement needed to fit all text above y=510; nothing may be clipped or covered by the phone.\n\nLeave the approved lower hand-and-phone illustration in its existing location and true proportions: a naturally tall black smartphone held by a sketch-style line-art hand, extending off the bottom edge if needed. The real screen stays unchanged. The final assembly uses the exact pixels from the approved reference's lower rectangle x=0,y=520,width=1080,height=830 directly at the same coordinates without scaling, so do not place any body text below y=510. All app UI pixels must come from that approved source crop.",
-      "attempt_count": 1,
+      "attempt_count": 2,
       "attempt_history": [
         {
           "attempt": 1,
@@ -434,13 +434,45 @@
           "result_original_path": "/workspace/generated_images/exec-4269f220-e873-481b-bbb6-64a1427c9cf7.png",
           "result_file": "carousels/LW-CAR-0008/outputs/slide-08.png",
           "save_status": "saved_repository_file"
+        },
+        {
+          "attempt": 2,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-21T14:57:05.858238+00:00",
+          "prompt_file": "prompts/harda-rebrand-slide-08.txt",
+          "referenced_image_paths": [
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0008/outputs/slide-08.png"
+          ],
+          "transparent_background": false,
+          "finished_at": "2026-10-21T14:58:08.512701+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-88bacbde-c1df-49ea-a8fd-9ce06de4c14a.png",
+          "raw_result_format": {
+            "size": [
+              1122,
+              1402
+            ],
+            "mode": "RGB"
+          },
+          "result_file": "carousels/LW-CAR-0008/outputs/slide-08.png",
+          "export": {
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "alpha": false
+          },
+          "operation": "owner_requested_Harda_brand_word_edit",
+          "user_review": "pending",
+          "source_commit": "b42cab2f3629659ef6064edc7c7cbf191b6d0d38"
         }
       ],
       "result_file": "carousels/LW-CAR-0008/outputs/slide-08.png",
       "errors": [],
-      "save_status": "saved_repository_file",
+      "save_status": "saved_to_repository_checkout",
       "agent_visual_review": "not_performed",
-      "user_review": "approved",
+      "user_review": "pending",
       "generated_dimensions": {
         "width": 1122,
         "height": 1402
@@ -469,6 +501,23 @@
         "source": "Explicit user acceptance in this conversation, including request to push with accepted-by-user status.",
         "scope": "all eight slides, content_version 1.0",
         "file": "carousels/LW-CAR-0008/outputs/slide-08.png"
+      },
+      "harda_rebrand_edit": {
+        "prompt_file": "prompts/harda-rebrand-slide-08.txt",
+        "source_commit": "b42cab2f3629659ef6064edc7c7cbf191b6d0d38",
+        "input_file": "carousels/LW-CAR-0008/outputs/slide-08.png",
+        "brand_word_rectangle": [
+          431,
+          350,
+          652,
+          396
+        ],
+        "replacement_word": "Harda.",
+        "exact_text": "Log your workouts in Harda.",
+        "method": "image_gen edits original slide; only brand-word rectangle copied back onto original; original logo composited again",
+        "other_pixels": "original input pixels retained outside brand rectangle and required logo placement; phone, real UI and hand never resampled or regenerated",
+        "user_review": "pending",
+        "agent_visual_review": "not_performed"
       }
     }
   ],
@@ -508,5 +557,12 @@
     "source": "Explicit user acceptance in this conversation, including request to push with accepted-by-user status.",
     "scope": "all eight slides, content_version 1.0"
   },
-  "rebrand_2026_10_19": "Logo on every slide replaced with the Harda logo (assets/logo/harda-logo-full.png, x48 y19 218x71) by Claude as a deterministic overlay: old logo area restored from surrounding background, nothing else changed. Owner approval of the slides still stands."
+  "rebrand_2026_10_19": "Logo on every slide replaced with the Harda logo (assets/logo/harda-logo-full.png, x48 y19 218x71) by Claude as a deterministic overlay: old logo area restored from surrounding background, nothing else changed. Owner approval of the slides still stands.",
+  "harda_rebrand_endings": {
+    "slide": 8,
+    "content_version": "1.1",
+    "source_commit": "b42cab2f3629659ef6064edc7c7cbf191b6d0d38",
+    "status": "edited_ending_pending_owner_review",
+    "other_slides": "unchanged; prior owner approvals remain in force"
+  }
 }

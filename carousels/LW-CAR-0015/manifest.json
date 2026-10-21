@@ -433,8 +433,8 @@
     },
     {
       "slide_number": 8,
-      "content_version": "1.0",
-      "status": "generated",
+      "content_version": "1.1",
+      "status": "rebrand_edit_saved_pending_owner_review",
       "prompt_file": "carousels/LW-CAR-0015/prompts/slide-08.txt",
       "prompt": "Produce ONE finished 4:5 portrait Lightweight fitness carousel slide, 1080 x 1350. Use attached reference 1 as the authoritative background: GRID, off-white #F0F1EB with thin #E1E2DA grid lines, 2 px at 54 px intervals across the entire canvas behind all content, like a training-log notebook. Reference 2 supplies ONLY the composition, type hierarchy and fine anatomical illustration style. IMPORTANT: completely remove its old pale coral arch. NO ARCH, no curved background shape, no blob, no ring, no gradient, no slide counter or progress bar. The sole background is the supplied GRID.\n\nBrand style: all text Rubik; cover heaviest, titles bold, sets/labels semibold, body regular. Dark #2A2A2A, grey body #6B6B6B, accent #F26445, white #FFFFFF. Anatomy illustration: bald, faceless smooth-plastic adult male anatomy mannequin, fine grey linework, warm sand #D9CBBE muscles and darker sand shading, light ivory skin/tendons about #F5F0E5. No green/sage anywhere. Smooth featureless pelvis, no genital detail. Full-body exercise figures wear plain opaque sand short shorts. Realistic black/grey/white gym equipment. Same premium rendering and body proportions across the series.\n\nReserve top-left x30-330,y20-100 clear for the exact supplied Lightweight wordmark added during final assembly; do not draw or invent a logo, and put no content in that reserved area. No border, extra copy, watermark, signature, caption or branding beyond the supplied exact logo. Keep every text line fully visible; labels need bottom margin. Preserve the exact spelling, capitalization, punctuation and apostrophes in the copy below.\n\nPRODUCT ENDING TOP PLATE ONLY: Match reference 2's upper text hierarchy and generous spacing. The final exact original phone/hand foreground will be composited afterward at its original coordinates, beginning around y525. Therefore generate NO phone, NO hand, NO app UI, and keep everything below y520 as empty GRID. Headline bold dark exactly Are Your Arms Getting Enough Work? split into two lines: Are Your Arms Getting / Enough Work? positioned x60, top about y140. Short coral underline below. Two separate grey regular paragraphs: Log your workouts in Lightweight. / See how many sets your arms get compared to every other muscle. Keep all headline/body copy fully ABOVE y515; the second paragraph may wrap into two lines. Do not draw any screen, chart, counts, cards or phone placeholder. Final assembly uses original approved phone, hand and real Muscle balance screenshot with Arms axis, preserving all source pixels and true tall proportions; no arch pixels will be carried over.\n\nExact allowed copy for this slide (no extra text):\nAre Your Arms Getting Enough Work?\nLog your workouts in Lightweight.\nSee how many sets your arms get compared to every other muscle.",
       "visual_template_files": [
@@ -445,7 +445,7 @@
         "carousels/LW-CAR-0001/outputs/slide-08.png"
       ],
       "template_access": "opened",
-      "attempt_count": 1,
+      "attempt_count": 2,
       "attempt_history": [
         {
           "attempt": 1,
@@ -462,13 +462,45 @@
           "result_file": "carousels/LW-CAR-0015/outputs/slide-08.png",
           "raw_generation_file": "carousels/LW-CAR-0015/production-assets/slide-08-generated.png",
           "save_status": "saved_repository_file"
+        },
+        {
+          "attempt": 2,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-21T15:03:41.962826+00:00",
+          "prompt_file": "prompts/harda-rebrand-slide-08.txt",
+          "referenced_image_paths": [
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0015/outputs/slide-08.png"
+          ],
+          "transparent_background": false,
+          "finished_at": "2026-10-21T15:04:24.541006+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-98c27842-e498-43e8-9ab3-0cd2e4296abb.png",
+          "raw_result_format": {
+            "size": [
+              1122,
+              1402
+            ],
+            "mode": "RGB"
+          },
+          "result_file": "carousels/LW-CAR-0015/outputs/slide-08.png",
+          "export": {
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "alpha": false
+          },
+          "operation": "owner_requested_Harda_brand_word_edit",
+          "user_review": "pending",
+          "source_commit": "b42cab2f3629659ef6064edc7c7cbf191b6d0d38"
         }
       ],
       "errors": [],
-      "save_status": "saved_repository_file",
+      "save_status": "saved_to_repository_checkout",
       "result_file": "carousels/LW-CAR-0015/outputs/slide-08.png",
       "agent_visual_review": "not_performed",
-      "user_review": "approved",
+      "user_review": "pending",
       "result_link": "https://github.com/romanthoruk2008-pixel/lightweight-carousels/blob/claude/charming-einstein-xgejky/carousels/LW-CAR-0015/outputs/slide-08.png",
       "raw_generation_file": "carousels/LW-CAR-0015/production-assets/slide-08-generated.png",
       "generation_result_original_path": "/workspace/generated_images/exec-e85f0036-d9ce-483b-8abc-846ad30dd660.png",
@@ -489,6 +521,23 @@
           "y": 100
         },
         "screen_redrawn": false
+      },
+      "harda_rebrand_edit": {
+        "prompt_file": "prompts/harda-rebrand-slide-08.txt",
+        "source_commit": "b42cab2f3629659ef6064edc7c7cbf191b6d0d38",
+        "input_file": "carousels/LW-CAR-0015/outputs/slide-08.png",
+        "brand_word_rectangle": [
+          485,
+          412,
+          735,
+          467
+        ],
+        "replacement_word": "Harda.",
+        "exact_text": "Log your workouts in Harda.",
+        "method": "image_gen edits original slide; only brand-word rectangle copied back onto original; original logo composited again",
+        "other_pixels": "original input pixels retained outside brand rectangle and required logo placement; phone, real UI and hand never resampled or regenerated",
+        "user_review": "pending",
+        "agent_visual_review": "not_performed"
       }
     }
   ],
@@ -516,5 +565,12 @@
     "published_output_commit": "4dc9e36",
     "recorded_at": "2026-10-19T14:47:13.239896+03:00"
   },
-  "rebrand_2026_10_19": "Logo on every slide replaced with the Harda logo (assets/logo/harda-logo-full.png, x48 y19 218x71) by Claude as a deterministic overlay: old logo area restored from surrounding background, nothing else changed. Owner approval of the slides still stands."
+  "rebrand_2026_10_19": "Logo on every slide replaced with the Harda logo (assets/logo/harda-logo-full.png, x48 y19 218x71) by Claude as a deterministic overlay: old logo area restored from surrounding background, nothing else changed. Owner approval of the slides still stands.",
+  "harda_rebrand_endings": {
+    "slide": 8,
+    "content_version": "1.1",
+    "source_commit": "b42cab2f3629659ef6064edc7c7cbf191b6d0d38",
+    "status": "edited_ending_pending_owner_review",
+    "other_slides": "unchanged; prior owner approvals remain in force"
+  }
 }

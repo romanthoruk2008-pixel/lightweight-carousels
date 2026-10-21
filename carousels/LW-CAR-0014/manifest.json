@@ -626,9 +626,9 @@
     },
     {
       "slide_number": 9,
-      "content_version": "1.0",
+      "content_version": "1.1",
       "generation_round": 2,
-      "status": "generated_and_assembled",
+      "status": "rebrand_edit_saved_pending_owner_review",
       "visual_template_files": [
         "carousels/LW-CAR-0001/outputs/slide-08.png"
       ],
@@ -636,7 +636,7 @@
       "prompt": "Create ONE complete original Lightweight carousel slide as a fully OPAQUE 1080x1350 portrait PNG, aspect ratio4:5. This is our own instructional exercise carousel using our supplied approved slide ONLY as a layout/illustration reference.\nMANDATORY OPAQUE BACKGROUND: fill the ENTIRE canvas edge-to-edge with solid warm offwhite #F0F1EB. On this solid color place small #D4D4CC dots, diameter6px, spaced every45px in a regular square grid across the whole canvas, BEHIND all text/figures/props. This is DOTS background. All background pixels are opaque, alpha255. NO transparency, cutout canvas, checkerboard, black background, gradient, pale arch, ring, halo, large shape, grid lines, progress bar or slide counter. Ignore/remove every pale coral arch from reference. Include this full opaque dotted background in the returned image itself.\nFont RUBIK only, wide rounded sans serif, not condensed display: heaviest cover, Bold titles, Regular body/labels. Dark #2A2A2A, body grey #6B6B6B, coral #F26445, white #FFFFFF check marks. Adult male instructional sports mannequin with smooth bald faceless head and anatomical muscle line art, wearing loose plain OPAQUE SAND ATHLETIC SHORTS #D9CBBE on every figure. Sand muscle illustration #D9CBBE with darker sand shading, ivory #F5F0E5, fine grey linework. Home fitness demonstration; neutral exercise poses. No green/sage. Only cover has named coral muscle highlights; figures on slides3-7 have NO highlighted muscles. Home props ONLY floor contact, sturdy solid wooden table, chair, backpack; no gym machines or weights.\nExact supplied text ONLY, preserve case, hyphens, apostrophes, lowercase x, numbers and punctuation. No added words/labels/title periods, no signatures/watermarks. All text must remain fully visible, separate from props/figures/edges; move/shrink only artwork when space competes. Reserve y0..110 as blank OPAQUE DOTS BACKGROUND for exact original Lightweight wordmark to be copied later; do not generate a logo. Header/text starts below y120. Return one complete opaque design, never a transparent foreground.\nSLIDE9 PRODUCT ENDING. Supplied approved LW-CAR-0001 slide8 is layout reference for text, underline, hand/phone composition. Generate ONLY the new text and full OPAQUE DOTS background. No phone, hand, chart or app UI may be generated or imitated. Our existing accepted original phone/hand/UI bitmap will be inserted afterwards at x0,y650, unchanged at scale1. Below y650 leave only opaque DOTS background; all generated lower content is discarded in planned assembly.\nLeft-aligned Bold headline EXACTLY TWO lines, within y140..390:\nTrain Anywhere.\nTrack Everything.\nLine1 dark #2A2A2A; line2 coral #F26445. Preserve both periods. Short coral underline.\nGrey Regular body, exact sentence over TWO lines, fully inside y430..600:\nLog every workout in Lightweight,\nat home or in the gym.\nAll text fully visible above y620. Reserve y0..110 opaque dotted background for original wordmark. Full solid #F0F1EB dotted background across entire canvas, no arch, no transparency. No other text.",
       "prompt_file": "carousels/LW-CAR-0014/prompts/slide-09-opaque-v2.txt",
       "result_file": "carousels/LW-CAR-0014/outputs/slide-09.png",
-      "attempt_count": 2,
+      "attempt_count": 3,
       "attempt_history": [
         {
           "attempt": 1,
@@ -672,12 +672,44 @@
             "file": "carousels/LW-CAR-0014/outputs/slide-09.png",
             "applies_to": "Current final delivered output after production assembly."
           }
+        },
+        {
+          "attempt": 3,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-21T15:02:20.729105+00:00",
+          "prompt_file": "prompts/harda-rebrand-slide-09.txt",
+          "referenced_image_paths": [
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0014/outputs/slide-09.png"
+          ],
+          "transparent_background": false,
+          "finished_at": "2026-10-21T15:03:22.218028+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-f0bbd3bc-9c83-4624-bab6-bc0619f31ebb.png",
+          "raw_result_format": {
+            "size": [
+              1122,
+              1402
+            ],
+            "mode": "RGB"
+          },
+          "result_file": "carousels/LW-CAR-0014/outputs/slide-09.png",
+          "export": {
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "alpha": false
+          },
+          "operation": "owner_requested_Harda_brand_word_edit",
+          "user_review": "pending",
+          "source_commit": "b42cab2f3629659ef6064edc7c7cbf191b6d0d38"
         }
       ],
       "errors": [],
-      "save_status": "saved_repository_file",
+      "save_status": "saved_to_repository_checkout",
       "agent_visual_review": "not_performed",
-      "user_review": "approved",
+      "user_review": "pending",
       "generation_result_original_path": "/workspace/generated_images/exec-ff7a6750-812d-4f09-9f28-5022c48f3049.png",
       "generated_plate_file": "carousels/LW-CAR-0014/production-assets/slide-09-generated-opaque.png",
       "export_dimensions": {
@@ -698,6 +730,23 @@
         "by": "owner (chat with Claude)",
         "file": "carousels/LW-CAR-0014/outputs/slide-09.png",
         "sha256": "11ff1e7c06fe67a8ee815833c49aa759ff3acd7545e91db2e64150db58026f08"
+      },
+      "harda_rebrand_edit": {
+        "prompt_file": "prompts/harda-rebrand-slide-09.txt",
+        "source_commit": "b42cab2f3629659ef6064edc7c7cbf191b6d0d38",
+        "input_file": "carousels/LW-CAR-0014/outputs/slide-09.png",
+        "brand_word_rectangle": [
+          597,
+          556,
+          925,
+          622
+        ],
+        "replacement_word": "Harda,",
+        "exact_text": "Log every workout in Harda, at home or in the gym.",
+        "method": "image_gen edits original slide; only brand-word rectangle copied back onto original; original logo composited again",
+        "other_pixels": "original input pixels retained outside brand rectangle and required logo placement; phone, real UI and hand never resampled or regenerated",
+        "user_review": "pending",
+        "agent_visual_review": "not_performed"
       }
     }
   ],
@@ -822,10 +871,11 @@
     5,
     6,
     7,
-    8,
+    8
+  ],
+  "slides_pending_review": [
     9
   ],
-  "slides_pending_review": [],
   "owner_approval_history": [
     {
       "date": "2026-10-19",
@@ -866,5 +916,12 @@
       }
     }
   ],
-  "rebrand_2026_10_19": "Logo on every slide replaced with the Harda logo (assets/logo/harda-logo-full.png, x48 y19 218x71) by Claude as a deterministic overlay: old logo area restored from surrounding background, nothing else changed. Owner approval of the slides still stands."
+  "rebrand_2026_10_19": "Logo on every slide replaced with the Harda logo (assets/logo/harda-logo-full.png, x48 y19 218x71) by Claude as a deterministic overlay: old logo area restored from surrounding background, nothing else changed. Owner approval of the slides still stands.",
+  "harda_rebrand_endings": {
+    "slide": 9,
+    "content_version": "1.1",
+    "source_commit": "b42cab2f3629659ef6064edc7c7cbf191b6d0d38",
+    "status": "edited_ending_pending_owner_review",
+    "other_slides": "unchanged; prior owner approvals remain in force"
+  }
 }

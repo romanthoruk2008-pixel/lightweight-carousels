@@ -506,8 +506,8 @@
     },
     {
       "slide_number": 10,
-      "content_version": "1.0",
-      "status": "generated_and_assembled",
+      "content_version": "1.1",
+      "status": "rebrand_edit_saved_pending_owner_review",
       "visual_template_files": [
         "carousels/LW-CAR-0001/outputs/slide-08.png"
       ],
@@ -515,7 +515,7 @@
       "prompt": "Create ONE finished original Lightweight carousel slide, portrait 1080x1350 PNG, using the FIRST supplied approved slide as the exact layout template. This is our own new text and exercise content, not a new design. Preserve its composition, spacing, hierarchy, arch and illustration style; change only the requested text, exercises and highlights. No TikTok interface exists in these own-slide inputs.\nSeries: offwhite #F0F1EB background, pale-coral right arch #FBE3DD, accent #F26445, dark #2A2A2A, grey body #6B6B6B, white #FFFFFF. Fine grey anatomical linework, ivory skin/tendons #F5F0E5, nonhighlighted muscles warm sand #D9CBBE with darker sand shading, absolutely no green/sage. Adult bald faceless SMOOTH PLASTIC educational anatomy mannequin, featureless pelvis, friendly calm pose. Every full-body exercise/cover figure wears plain SHORT OPAQUE warm-sand #D9CBBE athletic shorts fully covering pelvis/groin/buttocks. No reproductive features or nudity details. Do not make intimidating or grotesquely exaggerated bodybuilding anatomy.\nFont Rubik: heaviest for cover, Bold titles, Regular body, as the supplied series. Exact text below only, preserving case and punctuation. Do not add a period to titles that lack one. No extra copy, explanations, watermarks, signatures or invented logos. Reuse supplied small black Lightweight wordmark at top-left with the same size/placement. Original accepted top strip will be copied in planned assembly, so reserve y0..110 for it. Every line must remain fully visible: keep text above/beside illustrations. Move or shrink the illustration when needed, never cover or shorten text. Bottom labels fully inside canvas.\n\nSLIDE 10 ending. FIRST supplied approved LW-CAR-0001 slide 8 is exact composition template. This generation stage changes ONLY top text/background; the original phone/hand with its existing accepted Muscle balance screen will be copied as ONE EXISTING BITMAP into the final image afterwards. Do not generate, redraw, imitate or retype any app UI. Keep lower area ready for direct original source rectangle x0,y520,width1080,height830 placed at exactly x0,y520, unscaled. In this stage leave lower y520..1350 just matching offwhite/pale coral background, NO newly drawn phone/hand/UI, because final source bitmap supplies them unchanged.\nTop small wordmark as template. Left-aligned bold headline exactly TWO lines, fully above phone:\nWeek One Done?\nNow Beat It.\nFirst line dark #2A2A2A, second coral #F26445. Short coral underline beneath headline. Then grey Regular Rubik body exactly:\nLog every workout in Lightweight and try\nto beat last week's numbers.\nKeep entire headline, underline and two body lines inside y120..495 so original phone beginning y520 cannot cover any text. Keep letter size readable; use available upper space, no extra paragraphs or punctuation. Match source arch/background. This is the top plate for required original-bitmap assembly, not a request to draw a new UI.",
       "prompt_file": "carousels/LW-CAR-0010/prompts/slide-10.txt",
       "result_file": "carousels/LW-CAR-0010/outputs/slide-10.png",
-      "attempt_count": 1,
+      "attempt_count": 2,
       "attempt_history": [
         {
           "attempt": 1,
@@ -537,12 +537,44 @@
             "file": "carousels/LW-CAR-0010/outputs/slide-10.png",
             "approval_scope": "final delivered output after any required assembly"
           }
+        },
+        {
+          "attempt": 2,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-21T14:58:18.291404+00:00",
+          "prompt_file": "prompts/harda-rebrand-slide-10.txt",
+          "referenced_image_paths": [
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0010/outputs/slide-10.png"
+          ],
+          "transparent_background": false,
+          "finished_at": "2026-10-21T14:59:14.355079+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-8beeb363-3800-476f-bc91-9af596e45134.png",
+          "raw_result_format": {
+            "size": [
+              1122,
+              1402
+            ],
+            "mode": "RGB"
+          },
+          "result_file": "carousels/LW-CAR-0010/outputs/slide-10.png",
+          "export": {
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "alpha": false
+          },
+          "operation": "owner_requested_Harda_brand_word_edit",
+          "user_review": "pending",
+          "source_commit": "b42cab2f3629659ef6064edc7c7cbf191b6d0d38"
         }
       ],
       "errors": [],
-      "save_status": "saved_repository_file",
+      "save_status": "saved_to_repository_checkout",
       "agent_visual_review": "not_performed",
-      "user_review": "approved",
+      "user_review": "pending",
       "generation_result_original_path": "/workspace/generated_images/exec-5e150809-b928-4c76-9057-9e5692d7e166.png",
       "export_dimensions": {
         "width": 1080,
@@ -570,7 +602,24 @@
         "scope": "all ten current final slides, including the assembled phone ending",
         "file": "carousels/LW-CAR-0010/outputs/slide-10.png"
       },
-      "remote_save_status": "saved_github"
+      "remote_save_status": "saved_github",
+      "harda_rebrand_edit": {
+        "prompt_file": "prompts/harda-rebrand-slide-10.txt",
+        "source_commit": "b42cab2f3629659ef6064edc7c7cbf191b6d0d38",
+        "input_file": "carousels/LW-CAR-0010/outputs/slide-10.png",
+        "brand_word_rectangle": [
+          443,
+          410,
+          665,
+          461
+        ],
+        "replacement_word": "Harda",
+        "exact_text": "Log every workout in Harda and try to beat last week's numbers.",
+        "method": "image_gen edits original slide; only brand-word rectangle copied back onto original; original logo composited again",
+        "other_pixels": "original input pixels retained outside brand rectangle and required logo placement; phone, real UI and hand never resampled or regenerated",
+        "user_review": "pending",
+        "agent_visual_review": "not_performed"
+      }
     }
   ],
   "generation_execution_order": [
@@ -627,10 +676,11 @@
     6,
     7,
     8,
-    9,
+    9
+  ],
+  "slides_pending_review": [
     10
   ],
-  "slides_pending_review": [],
   "remote_outputs_commit": "ad7a85921067ec0ff6bfe66ac75f0e8ffda8a94b",
   "owner_approval_history": [
     {
@@ -654,5 +704,12 @@
       ]
     }
   ],
-  "rebrand_2026_10_19": "Logo on every slide replaced with the Harda logo (assets/logo/harda-logo-full.png, x48 y19 218x71) by Claude as a deterministic overlay: old logo area restored from surrounding background, nothing else changed. Owner approval of the slides still stands."
+  "rebrand_2026_10_19": "Logo on every slide replaced with the Harda logo (assets/logo/harda-logo-full.png, x48 y19 218x71) by Claude as a deterministic overlay: old logo area restored from surrounding background, nothing else changed. Owner approval of the slides still stands.",
+  "harda_rebrand_endings": {
+    "slide": 10,
+    "content_version": "1.1",
+    "source_commit": "b42cab2f3629659ef6064edc7c7cbf191b6d0d38",
+    "status": "edited_ending_pending_owner_review",
+    "other_slides": "unchanged; prior owner approvals remain in force"
+  }
 }

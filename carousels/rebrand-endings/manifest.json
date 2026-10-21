@@ -1,0 +1,631 @@
+{
+  "task": "carousels/HARDA-REBRAND-ENDINGS.md",
+  "source_commit": "b42cab2f3629659ef6064edc7c7cbf191b6d0d38",
+  "status": "all_11_edits_saved_pending_owner_review",
+  "agent_visual_review": "not_performed",
+  "saved_slides": [
+    "LW-CAR-0001",
+    "LW-CAR-0007",
+    "LW-CAR-0008",
+    "LW-CAR-0010",
+    "LW-CAR-0012",
+    "LW-CAR-0013",
+    "LW-CAR-0014",
+    "LW-CAR-0015",
+    "LW-CAR-0016",
+    "LW-CAR-0020",
+    "LW-CAR-0021"
+  ],
+  "remaining_slides": [],
+  "slides": [
+    {
+      "carousel_id": "LW-CAR-0001",
+      "slide": 8,
+      "file": "carousels/LW-CAR-0001/outputs/slide-08.png",
+      "original_cloud_file": "/tmp/harda-rebrand-endings-inputs/LW-CAR-0001-slide-08.png",
+      "brand_word_rectangle": [
+        453,
+        432,
+        659,
+        478
+      ],
+      "replacement_word": "Harda",
+      "new_text": "Check your progress in Harda to make sure you’re still growing.",
+      "exact_slide_text": [
+        "Trying to Build Muscle?",
+        "Then you need to be consistently progress overloading.",
+        "Check your progress in Harda to make sure you’re still growing."
+      ],
+      "content_version": "1.1",
+      "prompt_file": "prompts/harda-rebrand-slide-08.txt",
+      "status": "saved",
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-21T14:54:30.205360+00:00",
+          "prompt_file": "prompts/harda-rebrand-slide-08.txt",
+          "referenced_image_paths": [
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0001/outputs/slide-08.png"
+          ],
+          "transparent_background": false,
+          "finished_at": "2026-10-21T14:55:30.834964+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-28e84502-6a38-43a4-91e5-7a6cd3c95164.png",
+          "raw_result_format": {
+            "size": [
+              1122,
+              1402
+            ],
+            "mode": "RGB"
+          },
+          "result_file": "carousels/LW-CAR-0001/outputs/slide-08.png",
+          "export": {
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "alpha": false
+          }
+        }
+      ],
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "carousel_id": "LW-CAR-0007",
+      "slide": 8,
+      "file": "carousels/LW-CAR-0007/outputs/slide-08.png",
+      "original_cloud_file": "/tmp/harda-rebrand-endings-inputs/LW-CAR-0007-slide-08.png",
+      "brand_word_rectangle": [
+        59,
+        536,
+        303,
+        590
+      ],
+      "replacement_word": "Harda",
+      "new_text": "Harda counts your working sets and shows how they're split across every muscle group.",
+      "exact_slide_text": [
+        "Do You Know Your Number?",
+        "Most people guess.",
+        "Harda counts your working sets and shows how they're split across every muscle group."
+      ],
+      "content_version": "1.2",
+      "prompt_file": "prompts/harda-rebrand-slide-08.txt",
+      "status": "saved",
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-21T14:55:43.272879+00:00",
+          "prompt_file": "prompts/harda-rebrand-slide-08.txt",
+          "referenced_image_paths": [
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0007/outputs/slide-08.png"
+          ],
+          "transparent_background": false,
+          "finished_at": "2026-10-21T14:56:54.282533+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-bcc9de09-964c-4be9-9dc6-cb26967c44c9.png",
+          "raw_result_format": {
+            "size": [
+              1122,
+              1402
+            ],
+            "mode": "RGB"
+          },
+          "result_file": "carousels/LW-CAR-0007/outputs/slide-08.png",
+          "export": {
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "alpha": false
+          }
+        }
+      ],
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "carousel_id": "LW-CAR-0008",
+      "slide": 8,
+      "file": "carousels/LW-CAR-0008/outputs/slide-08.png",
+      "original_cloud_file": "/tmp/harda-rebrand-endings-inputs/LW-CAR-0008-slide-08.png",
+      "brand_word_rectangle": [
+        431,
+        350,
+        652,
+        396
+      ],
+      "replacement_word": "Harda.",
+      "new_text": "Log your workouts in Harda.",
+      "exact_slide_text": [
+        "Is Your Chest Getting Enough Work?",
+        "Log your workouts in Harda.",
+        "See how many sets your chest gets compared to every other muscle."
+      ],
+      "content_version": "1.1",
+      "prompt_file": "prompts/harda-rebrand-slide-08.txt",
+      "status": "saved",
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-21T14:57:05.858238+00:00",
+          "prompt_file": "prompts/harda-rebrand-slide-08.txt",
+          "referenced_image_paths": [
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0008/outputs/slide-08.png"
+          ],
+          "transparent_background": false,
+          "finished_at": "2026-10-21T14:58:08.512701+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-88bacbde-c1df-49ea-a8fd-9ce06de4c14a.png",
+          "raw_result_format": {
+            "size": [
+              1122,
+              1402
+            ],
+            "mode": "RGB"
+          },
+          "result_file": "carousels/LW-CAR-0008/outputs/slide-08.png",
+          "export": {
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "alpha": false
+          }
+        }
+      ],
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "carousel_id": "LW-CAR-0010",
+      "slide": 10,
+      "file": "carousels/LW-CAR-0010/outputs/slide-10.png",
+      "original_cloud_file": "/tmp/harda-rebrand-endings-inputs/LW-CAR-0010-slide-10.png",
+      "brand_word_rectangle": [
+        443,
+        410,
+        665,
+        461
+      ],
+      "replacement_word": "Harda",
+      "new_text": "Log every workout in Harda and try to beat last week's numbers.",
+      "exact_slide_text": [
+        "Week One Done?",
+        "Now Beat It.",
+        "Log every workout in Harda and try to beat last week's numbers."
+      ],
+      "content_version": "1.1",
+      "prompt_file": "prompts/harda-rebrand-slide-10.txt",
+      "status": "saved",
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-21T14:58:18.291404+00:00",
+          "prompt_file": "prompts/harda-rebrand-slide-10.txt",
+          "referenced_image_paths": [
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0010/outputs/slide-10.png"
+          ],
+          "transparent_background": false,
+          "finished_at": "2026-10-21T14:59:14.355079+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-8beeb363-3800-476f-bc91-9af596e45134.png",
+          "raw_result_format": {
+            "size": [
+              1122,
+              1402
+            ],
+            "mode": "RGB"
+          },
+          "result_file": "carousels/LW-CAR-0010/outputs/slide-10.png",
+          "export": {
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "alpha": false
+          }
+        }
+      ],
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "carousel_id": "LW-CAR-0012",
+      "slide": 8,
+      "file": "carousels/LW-CAR-0012/outputs/slide-08.png",
+      "original_cloud_file": "/tmp/harda-rebrand-endings-inputs/LW-CAR-0012-slide-08.png",
+      "brand_word_rectangle": [
+        344,
+        401,
+        552,
+        449
+      ],
+      "replacement_word": "Harda",
+      "new_text": "Log every set in Harda and beat your last session.",
+      "exact_slide_text": [
+        "Fix #1 And #2",
+        "Starting Today.",
+        "Log every set in Harda and beat your last session."
+      ],
+      "content_version": "1.1",
+      "prompt_file": "prompts/harda-rebrand-slide-08.txt",
+      "status": "saved",
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-21T14:59:24.914875+00:00",
+          "prompt_file": "prompts/harda-rebrand-slide-08.txt",
+          "referenced_image_paths": [
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0012/outputs/slide-08.png"
+          ],
+          "transparent_background": false,
+          "finished_at": "2026-10-21T15:00:30.825258+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-126cc2b4-1fef-4e2d-80db-c7ff1dac2539.png",
+          "raw_result_format": {
+            "size": [
+              1122,
+              1402
+            ],
+            "mode": "RGB"
+          },
+          "result_file": "carousels/LW-CAR-0012/outputs/slide-08.png",
+          "export": {
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "alpha": false
+          }
+        }
+      ],
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "carousel_id": "LW-CAR-0013",
+      "slide": 9,
+      "file": "carousels/LW-CAR-0013/outputs/slide-09.png",
+      "original_cloud_file": "/tmp/harda-rebrand-endings-inputs/LW-CAR-0013-slide-09.png",
+      "brand_word_rectangle": [
+        343,
+        389,
+        565,
+        435
+      ],
+      "replacement_word": "Harda.",
+      "new_text": "Log every set in Harda. Next time, you'll know exactly what to beat.",
+      "exact_slide_text": [
+        "You Can't Beat Numbers",
+        "You Don't Track.",
+        "Log every set in Harda. Next time, you'll know exactly what to beat."
+      ],
+      "content_version": "1.1",
+      "prompt_file": "prompts/harda-rebrand-slide-09.txt",
+      "status": "saved",
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-21T15:00:46.405778+00:00",
+          "prompt_file": "prompts/harda-rebrand-slide-09.txt",
+          "referenced_image_paths": [
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0013/outputs/slide-09.png"
+          ],
+          "transparent_background": false,
+          "finished_at": "2026-10-21T15:02:07.245095+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-9fbd69f9-9c4e-459e-ab6e-10ff08f2d2f2.png",
+          "raw_result_format": {
+            "size": [
+              1122,
+              1402
+            ],
+            "mode": "RGB"
+          },
+          "result_file": "carousels/LW-CAR-0013/outputs/slide-09.png",
+          "export": {
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "alpha": false
+          }
+        }
+      ],
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "carousel_id": "LW-CAR-0014",
+      "slide": 9,
+      "file": "carousels/LW-CAR-0014/outputs/slide-09.png",
+      "original_cloud_file": "/tmp/harda-rebrand-endings-inputs/LW-CAR-0014-slide-09.png",
+      "brand_word_rectangle": [
+        597,
+        556,
+        925,
+        622
+      ],
+      "replacement_word": "Harda,",
+      "new_text": "Log every workout in Harda, at home or in the gym.",
+      "exact_slide_text": [
+        "Train Anywhere.",
+        "Track Everything.",
+        "Log every workout in Harda, at home or in the gym."
+      ],
+      "content_version": "1.1",
+      "prompt_file": "prompts/harda-rebrand-slide-09.txt",
+      "status": "saved",
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-21T15:02:20.729105+00:00",
+          "prompt_file": "prompts/harda-rebrand-slide-09.txt",
+          "referenced_image_paths": [
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0014/outputs/slide-09.png"
+          ],
+          "transparent_background": false,
+          "finished_at": "2026-10-21T15:03:22.218028+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-f0bbd3bc-9c83-4624-bab6-bc0619f31ebb.png",
+          "raw_result_format": {
+            "size": [
+              1122,
+              1402
+            ],
+            "mode": "RGB"
+          },
+          "result_file": "carousels/LW-CAR-0014/outputs/slide-09.png",
+          "export": {
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "alpha": false
+          }
+        }
+      ],
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "carousel_id": "LW-CAR-0015",
+      "slide": 8,
+      "file": "carousels/LW-CAR-0015/outputs/slide-08.png",
+      "original_cloud_file": "/tmp/harda-rebrand-endings-inputs/LW-CAR-0015-slide-08.png",
+      "brand_word_rectangle": [
+        485,
+        412,
+        735,
+        467
+      ],
+      "replacement_word": "Harda.",
+      "new_text": "Log your workouts in Harda.",
+      "exact_slide_text": [
+        "Are Your Arms Getting Enough Work?",
+        "Log your workouts in Harda.",
+        "See how many sets your arms get compared to every other muscle."
+      ],
+      "content_version": "1.1",
+      "prompt_file": "prompts/harda-rebrand-slide-08.txt",
+      "status": "saved",
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-21T15:03:41.962826+00:00",
+          "prompt_file": "prompts/harda-rebrand-slide-08.txt",
+          "referenced_image_paths": [
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0015/outputs/slide-08.png"
+          ],
+          "transparent_background": false,
+          "finished_at": "2026-10-21T15:04:24.541006+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-98c27842-e498-43e8-9ab3-0cd2e4296abb.png",
+          "raw_result_format": {
+            "size": [
+              1122,
+              1402
+            ],
+            "mode": "RGB"
+          },
+          "result_file": "carousels/LW-CAR-0015/outputs/slide-08.png",
+          "export": {
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "alpha": false
+          }
+        }
+      ],
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "carousel_id": "LW-CAR-0016",
+      "slide": 9,
+      "file": "carousels/LW-CAR-0016/outputs/slide-09.png",
+      "original_cloud_file": "/tmp/harda-rebrand-endings-inputs/LW-CAR-0016-slide-09.png",
+      "brand_word_rectangle": [
+        475,
+        507,
+        776,
+        574
+      ],
+      "replacement_word": "Harda",
+      "new_text": "Log your sets in Harda and watch the reps add up.",
+      "exact_slide_text": [
+        "Track Every Level.",
+        "Celebrate Rep #1.",
+        "Log your sets in Harda and watch the reps add up."
+      ],
+      "content_version": "1.1",
+      "prompt_file": "prompts/harda-rebrand-slide-09.txt",
+      "status": "saved",
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-21T15:04:36.770860+00:00",
+          "prompt_file": "prompts/harda-rebrand-slide-09.txt",
+          "referenced_image_paths": [
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0016/outputs/slide-09.png"
+          ],
+          "transparent_background": false,
+          "finished_at": "2026-10-21T15:05:19.058218+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-98014ecb-53af-4627-94ac-c332e3352db1.png",
+          "raw_result_format": {
+            "size": [
+              1122,
+              1402
+            ],
+            "mode": "RGB"
+          },
+          "result_file": "carousels/LW-CAR-0016/outputs/slide-09.png",
+          "export": {
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "alpha": false
+          }
+        }
+      ],
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "carousel_id": "LW-CAR-0020",
+      "slide": 19,
+      "file": "carousels/LW-CAR-0020/outputs/slide-19.png",
+      "original_cloud_file": "/tmp/harda-rebrand-endings-inputs/LW-CAR-0020-slide-19.png",
+      "brand_word_rectangle": [
+        64,
+        150,
+        572,
+        248
+      ],
+      "replacement_word": "harda",
+      "new_text": "harda tracks every set you lift and shows which muscles you’re forgetting.",
+      "exact_slide_text": [
+        "harda tracks every set you lift and shows which muscles you’re forgetting.",
+        "log your workouts and check your muscle balance, so you keep making progress."
+      ],
+      "content_version": "1.2",
+      "prompt_file": "prompts/harda-rebrand-slide-19.txt",
+      "status": "saved",
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-21T15:05:34.921115+00:00",
+          "prompt_file": "prompts/harda-rebrand-slide-19.txt",
+          "referenced_image_paths": [
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0020/outputs/slide-19.png"
+          ],
+          "transparent_background": false,
+          "finished_at": "2026-10-21T15:06:38.057648+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-231df1fd-204e-4d50-b689-bf38e7f7be69.png",
+          "raw_result_format": {
+            "size": [
+              1122,
+              1402
+            ],
+            "mode": "RGB"
+          },
+          "result_file": "carousels/LW-CAR-0020/outputs/slide-19.png",
+          "export": {
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "alpha": false
+          }
+        }
+      ],
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "carousel_id": "LW-CAR-0021",
+      "slide": 19,
+      "file": "carousels/LW-CAR-0021/outputs/slide-19.png",
+      "original_cloud_file": "/tmp/harda-rebrand-endings-inputs/LW-CAR-0021-slide-19.png",
+      "brand_word_rectangle": [
+        58,
+        232,
+        578,
+        325
+      ],
+      "replacement_word": "harda",
+      "new_text": "harda tracks every set you lift and shows if your back gets enough work.",
+      "exact_slide_text": [
+        "harda tracks every set you lift and shows if your back gets enough work.",
+        "log your workouts and check your muscle balance, so your back never falls behind."
+      ],
+      "content_version": "1.1",
+      "prompt_file": "prompts/harda-rebrand-slide-19.txt",
+      "status": "saved",
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-21T15:06:50.411444+00:00",
+          "prompt_file": "prompts/harda-rebrand-slide-19.txt",
+          "referenced_image_paths": [
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0021/outputs/slide-19.png"
+          ],
+          "transparent_background": false,
+          "finished_at": "2026-10-21T15:07:37.220560+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-bce2569a-9cef-4640-a28b-3bdc343172c1.png",
+          "raw_result_format": {
+            "size": [
+              1122,
+              1402
+            ],
+            "mode": "RGB"
+          },
+          "result_file": "carousels/LW-CAR-0021/outputs/slide-19.png",
+          "export": {
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "alpha": false
+          }
+        }
+      ],
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    }
+  ],
+  "remote_save": {
+    "remote": "origin",
+    "branch": "claude/charming-einstein-xgejky",
+    "method": "one_commit_for_all_11_requested_edits",
+    "commit_lookup": "git log -1 -- carousels/rebrand-endings/manifest.json"
+  }
+}

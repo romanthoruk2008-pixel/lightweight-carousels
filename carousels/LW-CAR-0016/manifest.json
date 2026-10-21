@@ -578,8 +578,8 @@
     },
     {
       "slide_number": 9,
-      "content_version": "1.0",
-      "status": "generated",
+      "content_version": "1.1",
+      "status": "rebrand_edit_saved_pending_owner_review",
       "prompt_file": "carousels/LW-CAR-0016/prompts/slide-09.txt",
       "prompt": "Create ONE original Lightweight fitness photo-carousel slide, portrait 1080 x 1350 pixels (4:5). Reference 1 is the authoritative CLEAN background: a completely solid opaque flat #F0F1EB canvas. Reference 2 is ONLY a layout/type/illustration reference. Ignore and entirely omit its old arch and any progress bars. NO ARCH, no pale curve, no blob, no rings, no grid, no dots, no gradient, no texture, no checkerboard, no transparency, no progress meter and no slide counter. The background must be plain opaque #F0F1EB over every pixel behind the content. Export opaque RGB PNG, no alpha.\n\nSeries palette: coral #F26445; text dark #2A2A2A; body grey #6B6B6B; white #FFFFFF; anatomy warm sand #D9CBBE with darker sand shading, ivory skin/tendons about #F5F0E5; fine grey anatomical linework. No green/sage on figures. Rubik for all typography: heaviest cover, bold titles/pills/target values, regular body. Match the premium clean series rendering, line weights, type hierarchy and generous spacing.\n\nMannequin when present: adult male, bald, faceless smooth plastic anatomy mannequin with a smooth featureless pelvis and no genital detail; plain opaque short shorts in sand #D9CBBE, fine anatomical muscle lines, athletic natural proportions, sand and ivory. Lats and biceps coral on each pulling figure. Same recognizable mannequin and simple realistic black pull-up apparatus through all six levels.\n\nReserve x30–330,y20–103 completely empty off-white for the actual supplied Lightweight wordmark, inserted as original pixels in final assembly at x40,y28. Do NOT generate, invent, redraw or imitate a logo. No extra words, punctuation, signature, caption, watermark or decorations beyond those explicitly requested. All text fully visible, never overlapped by an illustration or cropped by an edge. Keep exact capitalization, hyphens, apostrophes and punctuation. Do not rewrite copy.\n\nPRODUCT ENDING — UPPER TEXT PLATE ONLY. Reference 2 supplies the upper text hierarchy. Generate ONLY text on the plain opaque off-white CLEAN background. Do NOT generate a phone, hand, screen, graph, app UI, cards or UI placeholder. The real approved phone and hand with the authentic Muscle balance screen will be composited afterward without resizing. It starts at y525 and extends off the bottom edge. Every word of the slide's text must fit above y495; everything below y500 must be blank plain #F0F1EB. Two exact headline lines, left-aligned x60: Track Every Level. in bold dark at y145, then Celebrate Rep #1. in bold coral at y235. Around 76 px Rubik, generous right margin. Short coral underline at about y335. Grey regular body around 36 px, starting near y380, split into two lines as needed: Log your sets in Lightweight and watch the reps add up. Keep final body baseline above y480. No other content. Do not reproduce any text from reference 2. Final assembly reuses original phone/hand pixels and original real screen, true tall proportions, no generated UI.\n\nExact allowed copy, no additional words:\nTrack Every Level.\nCelebrate Rep #1.\nLog your sets in Lightweight and watch the reps add up.",
       "visual_template_files": [
@@ -590,7 +590,7 @@
         "carousels/LW-CAR-0001/outputs/slide-08.png"
       ],
       "template_access": "opened",
-      "attempt_count": 1,
+      "attempt_count": 2,
       "attempt_history": [
         {
           "attempt": 1,
@@ -607,13 +607,45 @@
           "result_file": "carousels/LW-CAR-0016/outputs/slide-09.png",
           "raw_generation_file": "carousels/LW-CAR-0016/production-assets/slide-09-generated.png",
           "save_status": "saved_repository_file"
+        },
+        {
+          "attempt": 2,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-21T15:04:36.770860+00:00",
+          "prompt_file": "prompts/harda-rebrand-slide-09.txt",
+          "referenced_image_paths": [
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0016/outputs/slide-09.png"
+          ],
+          "transparent_background": false,
+          "finished_at": "2026-10-21T15:05:19.058218+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-98014ecb-53af-4627-94ac-c332e3352db1.png",
+          "raw_result_format": {
+            "size": [
+              1122,
+              1402
+            ],
+            "mode": "RGB"
+          },
+          "result_file": "carousels/LW-CAR-0016/outputs/slide-09.png",
+          "export": {
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "alpha": false
+          },
+          "operation": "owner_requested_Harda_brand_word_edit",
+          "user_review": "pending",
+          "source_commit": "b42cab2f3629659ef6064edc7c7cbf191b6d0d38"
         }
       ],
       "errors": [],
-      "save_status": "saved_repository_file",
+      "save_status": "saved_to_repository_checkout",
       "result_file": "carousels/LW-CAR-0016/outputs/slide-09.png",
       "agent_visual_review": "not_performed",
-      "user_review": "approved",
+      "user_review": "pending",
       "result_link": "https://github.com/romanthoruk2008-pixel/lightweight-carousels/blob/claude/charming-einstein-xgejky/carousels/LW-CAR-0016/outputs/slide-09.png",
       "raw_generation_file": "carousels/LW-CAR-0016/production-assets/slide-09-generated.png",
       "generation_result_original_path": "/workspace/generated_images/exec-d46ec356-def8-4816-b709-e31354fdf4f7.png",
@@ -642,6 +674,23 @@
         "by": "owner (chat with Claude)",
         "file": "carousels/LW-CAR-0016/outputs/slide-09.png",
         "sha256": "7bc50e43c0dcc1e6ccf98bcc3e9ed7d2f92488733dbda11cedfbd3f093c72d7d"
+      },
+      "harda_rebrand_edit": {
+        "prompt_file": "prompts/harda-rebrand-slide-09.txt",
+        "source_commit": "b42cab2f3629659ef6064edc7c7cbf191b6d0d38",
+        "input_file": "carousels/LW-CAR-0016/outputs/slide-09.png",
+        "brand_word_rectangle": [
+          475,
+          507,
+          776,
+          574
+        ],
+        "replacement_word": "Harda",
+        "exact_text": "Log your sets in Harda and watch the reps add up.",
+        "method": "image_gen edits original slide; only brand-word rectangle copied back onto original; original logo composited again",
+        "other_pixels": "original input pixels retained outside brand rectangle and required logo placement; phone, real UI and hand never resampled or regenerated",
+        "user_review": "pending",
+        "agent_visual_review": "not_performed"
       }
     }
   ],
@@ -757,5 +806,12 @@
       }
     }
   ],
-  "rebrand_2026_10_19": "Logo on every slide replaced with the Harda logo (assets/logo/harda-logo-full.png, x48 y19 218x71) by Claude as a deterministic overlay: old logo area restored from surrounding background, nothing else changed. Owner approval of the slides still stands."
+  "rebrand_2026_10_19": "Logo on every slide replaced with the Harda logo (assets/logo/harda-logo-full.png, x48 y19 218x71) by Claude as a deterministic overlay: old logo area restored from surrounding background, nothing else changed. Owner approval of the slides still stands.",
+  "harda_rebrand_endings": {
+    "slide": 9,
+    "content_version": "1.1",
+    "source_commit": "b42cab2f3629659ef6064edc7c7cbf191b6d0d38",
+    "status": "edited_ending_pending_owner_review",
+    "other_slides": "unchanged; prior owner approvals remain in force"
+  }
 }
