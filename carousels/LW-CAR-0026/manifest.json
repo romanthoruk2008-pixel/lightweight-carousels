@@ -1,0 +1,545 @@
+{
+  "carousel_id": "LW-CAR-0026",
+  "content_version": "1.0",
+  "generation_round": "complete carousel after owner-approved initial batch",
+  "source_commit": "f448a44083bd85a6b9737756ec94e955297bf0b1",
+  "branch": "claude/charming-einstein-xgejky",
+  "target_branch": "claude/charming-einstein-xgejky",
+  "design_style": "S2",
+  "reference_id": null,
+  "reference_use": "Owner-approved LW-CAR-0022 cover and exercise-slide images opened before generation and supplied directly to image_gen for style; exact new content from copy.json v1.0. Continuation rank slides use the owner-approved LW-CAR-0026 slide 2 as the exact layout/style reference; ending uses LW-CAR-0022 slide 19 and its original blank-display template plus real phone pixel layer.",
+  "status": "complete",
+  "carousel_complete": true,
+  "scope": {
+    "initial_batch": [
+      1,
+      2,
+      3
+    ],
+    "total_slides": 9
+  },
+  "background": "CLEAN #F0F1EB",
+  "font_family": "REF-008 look: heavy tight grotesk for headlines, clean sans for body, italic for tier lines",
+  "logo": {
+    "file": "assets/logo/harda-logo-full.png",
+    "position": [
+      48,
+      19
+    ],
+    "size": [
+      218,
+      71
+    ],
+    "old_lightweight_logo_used": false
+  },
+  "generated_images": [
+    "outputs/slide-01.png",
+    "outputs/slide-02.png",
+    "outputs/slide-03.png",
+    "outputs/slide-04.png",
+    "outputs/slide-05.png",
+    "outputs/slide-06.png",
+    "outputs/slide-07.png",
+    "outputs/slide-08.png",
+    "outputs/slide-09.png"
+  ],
+  "blocked_slides": [],
+  "next_slide_to_generate": null,
+  "approved_slides": [
+    1,
+    2,
+    3
+  ],
+  "pending_review_slides": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "user_review": "in_progress",
+  "agent_visual_review": "not_performed",
+  "caption": "caption.txt",
+  "next_action": "Slides 1–3 are owner-approved; slides 4–9 are ready for owner review.",
+  "remote_save": {
+    "remote": "origin",
+    "branch": "claude/charming-einstein-xgejky",
+    "status": "pushed_to_target_branch",
+    "method": "One complete-carousel commit and push after owner-approved three-slide review batch.",
+    "commit_lookup": "git log -1 -- carousels/LW-CAR-0026/manifest.json"
+  },
+  "slides": [
+    {
+      "slide": 1,
+      "content_version": "1.0",
+      "role": "hook",
+      "exact_text": [
+        "hardest muscles",
+        "to grow",
+        "(ranked)"
+      ],
+      "file": "outputs/slide-01.png",
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "carousels/LW-CAR-0022/outputs/slide-01.png"
+          ],
+          "raw_result_file": "/workspace/generated_images/exec-b4677a1a-a53a-4f66-b7bc-8e8fa9e4b1a9.png",
+          "preserved_raw_file": "production-assets/slide-01-generated.png",
+          "result_file": "outputs/slide-01.png",
+          "export": {
+            "raw_size": [
+              1122,
+              1402
+            ],
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "has_alpha": false,
+            "logo": "Official assets/logo/harda-logo-full.png composited with its own alpha at x=48,y=19,size=218x71; no background patch."
+          }
+        }
+      ],
+      "errors": [],
+      "save_status": "pushed_to_target_branch",
+      "agent_visual_review": "not_performed",
+      "user_review": "approved",
+      "prompt": "Create ONE finished Harda S2 portrait carousel slide, 1080 x 1350, 4:5. Match the supplied owner-approved LW-CAR-0022 image reference for its exact visual language: very heavy tight lowercase grotesk headlines, clean regular sans body, regular italic grey subtitles; realistic white/light-grey anatomical mannequin with fine grey shading, bald and faceless, opaque black #2A2A2A shorts covering a featureless smooth pelvis. Solid opaque CLEAN #F0F1EB background, no texture or arch. Headline/body #2A2A2A, secondary #6B6B6B, flat coral #F26445 marker bars. All non-target muscles white/light-grey; highlight only the target muscles listed for this slide in coral #F26445. No sand tint, green muscles, extra people or equipment. Use the reference only for look, typography, spacing and figure rendering; replace ALL its words and its pose with the instructions below. Keep the ENTIRE TOP 110 PX blank for the official logo, with no other elements there. Do not generate any logo, brand name, watermark, signature, border, panel, grid, stars, tiers, slide counter, decorative progress bar or additional text. The real transparent Harda logo will be composited as its own layer later at x=48,y=19,size=218x71. Render every supplied string exactly, lowercase and with the exact punctuation. Keep all text fully visible and separated from the figure. Return one complete slide only.\n\nSLIDE 1 — COVER. Use the centered headline/marker/subtitle composition of approved LW-CAR-0022 slide 1, and its white anatomical figure rendering. Exact text, centered, in exactly these three lines:\nhardest muscles\nto grow\n(ranked)\n\nBelow the clear top 110px area, make `hardest muscles` one very heavy tightly spaced lowercase headline line, scaled to fit the full width with generous side margins; do not split or shorten that string. Directly below, `to grow` in the same heavy lowercase style, on a flat coral marker bar behind ONLY `to grow`. Directly below that, centered regular italic grey `(ranked)`. Title stack occupies roughly y=145 to y=490, with clean spacing and the same visual weight as the reference. In the lower area, roughly y=530 to 1310, one large full-body white/light-grey realistic anatomical mannequin standing in a REAR THREE-QUARTER VIEW, facing away, full head and both feet visible, arms naturally slightly away from the torso so forearms are visible. Black shorts. Fill ONLY the lats, hamstrings, forearms and calves coral #F26445, with anatomical shading. All other muscle regions remain white/light grey. No numbered labels, meter, stars or other words.",
+      "prompt_file": "prompts/slide-01.txt",
+      "reference": [
+        "carousels/LW-CAR-0022/outputs/slide-01.png"
+      ]
+    },
+    {
+      "slide": 2,
+      "content_version": "1.0",
+      "role": "rank #7",
+      "exact_text": [
+        "#7",
+        "side delts",
+        "difficulty",
+        "they respond well, but most people never train them directly.",
+        "fix:",
+        "lateral raises, slow and out to the side."
+      ],
+      "file": "outputs/slide-02.png",
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "carousels/LW-CAR-0022/outputs/slide-03.png"
+          ],
+          "raw_result_file": "/workspace/generated_images/exec-b55ce00d-505c-4b3e-934b-93020649986b.png",
+          "preserved_raw_file": "production-assets/slide-02-generated.png",
+          "result_file": "outputs/slide-02.png",
+          "export": {
+            "raw_size": [
+              1122,
+              1402
+            ],
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "has_alpha": false,
+            "logo": "Official assets/logo/harda-logo-full.png composited with its own alpha at x=48,y=19,size=218x71; no background patch."
+          }
+        }
+      ],
+      "errors": [],
+      "save_status": "pushed_to_target_branch",
+      "agent_visual_review": "not_performed",
+      "user_review": "approved",
+      "prompt": "Create ONE finished Harda S2 portrait carousel slide, 1080 x 1350, 4:5. Match the supplied owner-approved LW-CAR-0022 image reference for its exact visual language: very heavy tight lowercase grotesk headlines, clean regular sans body, regular italic grey subtitles; realistic white/light-grey anatomical mannequin with fine grey shading, bald and faceless, opaque black #2A2A2A shorts covering a featureless smooth pelvis. Solid opaque CLEAN #F0F1EB background, no texture or arch. Headline/body #2A2A2A, secondary #6B6B6B, flat coral #F26445 marker bars. All non-target muscles white/light-grey; highlight only the target muscles listed for this slide in coral #F26445. No sand tint, green muscles, extra people or equipment. Use the reference only for look, typography, spacing and figure rendering; replace ALL its words and its pose with the instructions below. Keep the ENTIRE TOP 110 PX blank for the official logo, with no other elements there. Do not generate any logo, brand name, watermark, signature, border, panel, grid, stars, tiers, slide counter, decorative progress bar or additional text. The real transparent Harda logo will be composited as its own layer later at x=48,y=19,size=218x71. Render every supplied string exactly, lowercase and with the exact punctuation. Keep all text fully visible and separated from the figure. Return one complete slide only.\n\nRANK LAYOUT — both rank slides must share identical geometry. Follow approved LW-CAR-0022 slide 3 for the left-aligned headline and large lower figure, replacing its stars with the meter specified here. Keep generous side margins about 80px. In one headline row around y=160, put the rank first, then the muscle name, using the reference's heaviest tight lowercase grotesk. Flat coral marker bar behind the MUSCLE NAME ONLY, never behind the rank. Around y=295, small grey `difficulty` at left followed by FIVE separate short rounded horizontal bars in ONE ROW: first THREE coral #F26445, last TWO light grey #D6D6D2. No star shapes and no numbers, fractions, percentages or icons in the meter. Under that row, body text in regular #2A2A2A, at most two lines. Below the body, ONE fix line: `fix:` bold coral #F26445 followed by the exact fix text in regular #2A2A2A. Finish all text above y=535. Lower roughly 55% is the big standing white anatomical figure, from head to mid-thighs, viewed from the front, centered, no exercise equipment, black shorts, full head visible and the crop cleanly through the thighs at the bottom edge. The figure must not overlap or obscure any copy. Keep the same scale and styling on both rank slides.\n\nSLIDE 2. Exact rank: #7\nExact muscle name: side delts\nExact meter label: difficulty\nExact body: they respond well, but most people never train them directly.\nExact fix label: fix:\nExact fix text: lateral raises, slow and out to the side.\n\nFIGURE: FRONT VIEW, arms relaxed slightly away from the body, palms neutral. ONLY both lateral/side deltoids filled coral; do not color the front deltoids, chest, arms or any other muscles.\nNo other text or highlighted muscles.",
+      "prompt_file": "prompts/slide-02.txt",
+      "reference": [
+        "carousels/LW-CAR-0022/outputs/slide-03.png"
+      ]
+    },
+    {
+      "slide": 3,
+      "content_version": "1.0",
+      "role": "rank #6",
+      "exact_text": [
+        "#6",
+        "upper chest",
+        "difficulty",
+        "flat pressing barely reaches it, so it lags behind.",
+        "fix:",
+        "start your chest day with an incline press."
+      ],
+      "file": "outputs/slide-03.png",
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "carousels/LW-CAR-0022/outputs/slide-03.png"
+          ],
+          "raw_result_file": "/workspace/generated_images/exec-e1bc8907-5b25-46ef-abc0-16fd56802a2a.png",
+          "preserved_raw_file": "production-assets/slide-03-generated.png",
+          "result_file": "outputs/slide-03.png",
+          "export": {
+            "raw_size": [
+              1092,
+              1440
+            ],
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "has_alpha": false,
+            "logo": "Official assets/logo/harda-logo-full.png composited with its own alpha at x=48,y=19,size=218x71; no background patch."
+          }
+        }
+      ],
+      "errors": [],
+      "save_status": "pushed_to_target_branch",
+      "agent_visual_review": "not_performed",
+      "user_review": "approved",
+      "prompt": "Create ONE finished Harda S2 portrait carousel slide, 1080 x 1350, 4:5. Match the supplied owner-approved LW-CAR-0022 image reference for its exact visual language: very heavy tight lowercase grotesk headlines, clean regular sans body, regular italic grey subtitles; realistic white/light-grey anatomical mannequin with fine grey shading, bald and faceless, opaque black #2A2A2A shorts covering a featureless smooth pelvis. Solid opaque CLEAN #F0F1EB background, no texture or arch. Headline/body #2A2A2A, secondary #6B6B6B, flat coral #F26445 marker bars. All non-target muscles white/light-grey; highlight only the target muscles listed for this slide in coral #F26445. No sand tint, green muscles, extra people or equipment. Use the reference only for look, typography, spacing and figure rendering; replace ALL its words and its pose with the instructions below. Keep the ENTIRE TOP 110 PX blank for the official logo, with no other elements there. Do not generate any logo, brand name, watermark, signature, border, panel, grid, stars, tiers, slide counter, decorative progress bar or additional text. The real transparent Harda logo will be composited as its own layer later at x=48,y=19,size=218x71. Render every supplied string exactly, lowercase and with the exact punctuation. Keep all text fully visible and separated from the figure. Return one complete slide only.\n\nRANK LAYOUT — both rank slides must share identical geometry. Follow approved LW-CAR-0022 slide 3 for the left-aligned headline and large lower figure, replacing its stars with the meter specified here. Keep generous side margins about 80px. In one headline row around y=160, put the rank first, then the muscle name, using the reference's heaviest tight lowercase grotesk. Flat coral marker bar behind the MUSCLE NAME ONLY, never behind the rank. Around y=295, small grey `difficulty` at left followed by FIVE separate short rounded horizontal bars in ONE ROW: first THREE coral #F26445, last TWO light grey #D6D6D2. No star shapes and no numbers, fractions, percentages or icons in the meter. Under that row, body text in regular #2A2A2A, at most two lines. Below the body, ONE fix line: `fix:` bold coral #F26445 followed by the exact fix text in regular #2A2A2A. Finish all text above y=535. Lower roughly 55% is the big standing white anatomical figure, from head to mid-thighs, viewed from the front, centered, no exercise equipment, black shorts, full head visible and the crop cleanly through the thighs at the bottom edge. The figure must not overlap or obscure any copy. Keep the same scale and styling on both rank slides.\n\nSLIDE 3. Exact rank: #6\nExact muscle name: upper chest\nExact meter label: difficulty\nExact body: flat pressing barely reaches it, so it lags behind.\nExact fix label: fix:\nExact fix text: start your chest day with an incline press.\n\nFIGURE: FRONT VIEW, arms relaxed slightly away from the body, palms neutral. ONLY the upper/clavicular portions of both pectorals filled coral; lower/mid chest, deltoids, arms and all other muscles remain white/light-grey.\nNo other text or highlighted muscles.",
+      "prompt_file": "prompts/slide-03.txt",
+      "reference": [
+        "carousels/LW-CAR-0022/outputs/slide-03.png"
+      ]
+    },
+    {
+      "slide": 4,
+      "content_version": "1.0",
+      "role": "rank #5",
+      "exact_text": [
+        "#5",
+        "hamstrings",
+        "difficulty",
+        "squats don’t cover them. they need their own work.",
+        "fix:",
+        "add romanian deadlifts and leg curls."
+      ],
+      "file": "outputs/slide-04.png",
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "carousels/LW-CAR-0026/outputs/slide-02.png"
+          ],
+          "raw_result_file": "/workspace/generated_images/exec-91bad724-0781-4ddd-a1ab-d8c9822b98ef.png",
+          "preserved_raw_file": "production-assets/slide-04-generated.png",
+          "result_file": "outputs/slide-04.png",
+          "export": {
+            "raw_size": [
+              1092,
+              1440
+            ],
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "has_alpha": false,
+            "logo": "Official assets/logo/harda-logo-full.png composited with its own alpha at x=48,y=19,size=218x71; no background patch."
+          }
+        }
+      ],
+      "errors": [],
+      "save_status": "pushed_to_target_branch",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending",
+      "prompt": "Create ONE finished Harda S2 portrait carousel slide, 1080 x 1350, 4:5. Match the supplied owner-approved LW-CAR-0026 slide 2 image reference (which matches LW-CAR-0022) for its exact visual language: very heavy tight lowercase grotesk headlines, clean regular sans body, regular italic grey subtitles; realistic white/light-grey anatomical mannequin with fine grey shading, bald and faceless, opaque black #2A2A2A shorts covering a featureless smooth pelvis. Solid opaque CLEAN #F0F1EB background, no texture or arch. Headline/body #2A2A2A, secondary #6B6B6B, flat coral #F26445 marker bars. All non-target muscles white/light-grey; highlight only the target muscles listed for this slide in coral #F26445. No sand tint, green muscles, extra people or equipment. Use the reference only for look, typography, spacing and figure rendering; replace ALL its words and its pose with the instructions below. Keep the ENTIRE TOP 110 PX blank for the official logo, with no other elements there. Do not generate any logo, brand name, watermark, signature, border, panel, grid, stars, tiers, slide counter, decorative progress bar or additional text. The real transparent Harda logo will be composited as its own layer later at x=48,y=19,size=218x71. Render every supplied string exactly, lowercase and with the exact punctuation. Keep all text fully visible and separated from the figure. Return one complete slide only.\n\nRANK LAYOUT — continue the IDENTICAL geometry of the supplied owner-approved LW-CAR-0026 slide 2. Generous side margins around 80px. At around y=160 put the rank and muscle in ONE headline row, in the same very heavy tight lowercase grotesk. Flat coral marker behind the muscle name ONLY, never behind the rank. Around y=295, small grey italic `difficulty` at left followed by FIVE separate short rounded horizontal bars in ONE ROW, with the specified number of coral bars from left to right and remaining bars light grey #D6D6D2. No numbers, stars, fractions, percentages or icons on the meter. Below it the body text in regular #2A2A2A, at most two lines. Below the body, ONE fix line: `fix:` bold coral #F26445 followed by the exact fix text in regular #2A2A2A. Finish all copy above y=535. Put one large standing white/light-grey anatomical mannequin in the lower 55%, below all the copy, with the view and crop specified for this slide. Black shorts. Keep head and all specified figure parts visible. No exercise equipment. No other words.\n\nSLIDE 4. Exact rank: #5\nExact muscle name: hamstrings\nExact meter label: difficulty\nExact body: squats don’t cover them. they need their own work.\nExact fix label: fix:\nExact fix text: add romanian deadlifts and leg curls.\n\nEXACT METER: FIVE bars total; first 4 bars coral #F26445 and last 1 bars light grey #D6D6D2.\nFIGURE: REAR VIEW, FULL BODY, standing naturally, entire bald head and both feet visible, positioned between y=550 and y=1310. Arms relaxed slightly away from torso. Only the hamstrings on the backs of both thighs filled coral #F26445 below the shorts. Glutes covered by black shorts; calves, back, arms and all other muscle regions remain white/light grey.\nNo other text or highlighted muscles.",
+      "prompt_file": "prompts/slide-04.txt",
+      "reference": [
+        "carousels/LW-CAR-0026/outputs/slide-02.png"
+      ]
+    },
+    {
+      "slide": 5,
+      "content_version": "1.0",
+      "role": "rank #4",
+      "exact_text": [
+        "#4",
+        "lats",
+        "difficulty",
+        "hard to feel at first, so most people pull with their arms.",
+        "fix:",
+        "think elbows down, not hands down."
+      ],
+      "file": "outputs/slide-05.png",
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "carousels/LW-CAR-0026/outputs/slide-02.png"
+          ],
+          "raw_result_file": "/workspace/generated_images/exec-60213e77-77d3-4463-8323-8e57fd33890e.png",
+          "preserved_raw_file": "production-assets/slide-05-generated.png",
+          "result_file": "outputs/slide-05.png",
+          "export": {
+            "raw_size": [
+              1122,
+              1402
+            ],
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "has_alpha": false,
+            "logo": "Official assets/logo/harda-logo-full.png composited with its own alpha at x=48,y=19,size=218x71; no background patch."
+          }
+        }
+      ],
+      "errors": [],
+      "save_status": "pushed_to_target_branch",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending",
+      "prompt": "Create ONE finished Harda S2 portrait carousel slide, 1080 x 1350, 4:5. Match the supplied owner-approved LW-CAR-0026 slide 2 image reference (which matches LW-CAR-0022) for its exact visual language: very heavy tight lowercase grotesk headlines, clean regular sans body, regular italic grey subtitles; realistic white/light-grey anatomical mannequin with fine grey shading, bald and faceless, opaque black #2A2A2A shorts covering a featureless smooth pelvis. Solid opaque CLEAN #F0F1EB background, no texture or arch. Headline/body #2A2A2A, secondary #6B6B6B, flat coral #F26445 marker bars. All non-target muscles white/light-grey; highlight only the target muscles listed for this slide in coral #F26445. No sand tint, green muscles, extra people or equipment. Use the reference only for look, typography, spacing and figure rendering; replace ALL its words and its pose with the instructions below. Keep the ENTIRE TOP 110 PX blank for the official logo, with no other elements there. Do not generate any logo, brand name, watermark, signature, border, panel, grid, stars, tiers, slide counter, decorative progress bar or additional text. The real transparent Harda logo will be composited as its own layer later at x=48,y=19,size=218x71. Render every supplied string exactly, lowercase and with the exact punctuation. Keep all text fully visible and separated from the figure. Return one complete slide only.\n\nRANK LAYOUT — continue the IDENTICAL geometry of the supplied owner-approved LW-CAR-0026 slide 2. Generous side margins around 80px. At around y=160 put the rank and muscle in ONE headline row, in the same very heavy tight lowercase grotesk. Flat coral marker behind the muscle name ONLY, never behind the rank. Around y=295, small grey italic `difficulty` at left followed by FIVE separate short rounded horizontal bars in ONE ROW, with the specified number of coral bars from left to right and remaining bars light grey #D6D6D2. No numbers, stars, fractions, percentages or icons on the meter. Below it the body text in regular #2A2A2A, at most two lines. Below the body, ONE fix line: `fix:` bold coral #F26445 followed by the exact fix text in regular #2A2A2A. Finish all copy above y=535. Put one large standing white/light-grey anatomical mannequin in the lower 55%, below all the copy, with the view and crop specified for this slide. Black shorts. Keep head and all specified figure parts visible. No exercise equipment. No other words.\n\nSLIDE 5. Exact rank: #4\nExact muscle name: lats\nExact meter label: difficulty\nExact body: hard to feel at first, so most people pull with their arms.\nExact fix label: fix:\nExact fix text: think elbows down, not hands down.\n\nEXACT METER: FIVE bars total; first 4 bars coral #F26445 and last 1 bars light grey #D6D6D2.\nFIGURE: REAR VIEW, from head to mid-thighs, large figure centered, arms slightly away from body. Only both lats filled coral #F26445. Trapezius, spinal erectors, deltoids, arms and all other muscle regions stay white/light grey. Black shorts. Clean crop through thighs at bottom edge.\nNo other text or highlighted muscles.",
+      "prompt_file": "prompts/slide-05.txt",
+      "reference": [
+        "carousels/LW-CAR-0026/outputs/slide-02.png"
+      ]
+    },
+    {
+      "slide": 6,
+      "content_version": "1.0",
+      "role": "rank #3",
+      "exact_text": [
+        "#3",
+        "abs",
+        "difficulty",
+        "you can train them, but they only show at low body fat.",
+        "fix:",
+        "train them hard and keep your diet in check."
+      ],
+      "file": "outputs/slide-06.png",
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "carousels/LW-CAR-0026/outputs/slide-02.png"
+          ],
+          "raw_result_file": "/workspace/generated_images/exec-5172e245-8e6b-47b0-83ee-616c119168e6.png",
+          "preserved_raw_file": "production-assets/slide-06-generated.png",
+          "result_file": "outputs/slide-06.png",
+          "export": {
+            "raw_size": [
+              1122,
+              1402
+            ],
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "has_alpha": false,
+            "logo": "Official assets/logo/harda-logo-full.png composited with its own alpha at x=48,y=19,size=218x71; no background patch."
+          }
+        }
+      ],
+      "errors": [],
+      "save_status": "pushed_to_target_branch",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending",
+      "prompt": "Create ONE finished Harda S2 portrait carousel slide, 1080 x 1350, 4:5. Match the supplied owner-approved LW-CAR-0026 slide 2 image reference (which matches LW-CAR-0022) for its exact visual language: very heavy tight lowercase grotesk headlines, clean regular sans body, regular italic grey subtitles; realistic white/light-grey anatomical mannequin with fine grey shading, bald and faceless, opaque black #2A2A2A shorts covering a featureless smooth pelvis. Solid opaque CLEAN #F0F1EB background, no texture or arch. Headline/body #2A2A2A, secondary #6B6B6B, flat coral #F26445 marker bars. All non-target muscles white/light-grey; highlight only the target muscles listed for this slide in coral #F26445. No sand tint, green muscles, extra people or equipment. Use the reference only for look, typography, spacing and figure rendering; replace ALL its words and its pose with the instructions below. Keep the ENTIRE TOP 110 PX blank for the official logo, with no other elements there. Do not generate any logo, brand name, watermark, signature, border, panel, grid, stars, tiers, slide counter, decorative progress bar or additional text. The real transparent Harda logo will be composited as its own layer later at x=48,y=19,size=218x71. Render every supplied string exactly, lowercase and with the exact punctuation. Keep all text fully visible and separated from the figure. Return one complete slide only.\n\nRANK LAYOUT — continue the IDENTICAL geometry of the supplied owner-approved LW-CAR-0026 slide 2. Generous side margins around 80px. At around y=160 put the rank and muscle in ONE headline row, in the same very heavy tight lowercase grotesk. Flat coral marker behind the muscle name ONLY, never behind the rank. Around y=295, small grey italic `difficulty` at left followed by FIVE separate short rounded horizontal bars in ONE ROW, with the specified number of coral bars from left to right and remaining bars light grey #D6D6D2. No numbers, stars, fractions, percentages or icons on the meter. Below it the body text in regular #2A2A2A, at most two lines. Below the body, ONE fix line: `fix:` bold coral #F26445 followed by the exact fix text in regular #2A2A2A. Finish all copy above y=535. Put one large standing white/light-grey anatomical mannequin in the lower 55%, below all the copy, with the view and crop specified for this slide. Black shorts. Keep head and all specified figure parts visible. No exercise equipment. No other words.\n\nSLIDE 6. Exact rank: #3\nExact muscle name: abs\nExact meter label: difficulty\nExact body: you can train them, but they only show at low body fat.\nExact fix label: fix:\nExact fix text: train them hard and keep your diet in check.\n\nEXACT METER: FIVE bars total; first 4 bars coral #F26445 and last 1 bars light grey #D6D6D2.\nFIGURE: FRONT VIEW, from head to mid-thighs, centered, arms relaxed slightly away from body. Only abs/rectus abdominis including upper and lower segments filled coral #F26445. Chest, deltoids, arms and all other muscle regions remain white/light grey. Black shorts. Clean crop through thighs at bottom edge.\nNo other text or highlighted muscles.",
+      "prompt_file": "prompts/slide-06.txt",
+      "reference": [
+        "carousels/LW-CAR-0026/outputs/slide-02.png"
+      ]
+    },
+    {
+      "slide": 7,
+      "content_version": "1.0",
+      "role": "rank #2",
+      "exact_text": [
+        "#2",
+        "forearms",
+        "difficulty",
+        "tough, used all day, and slow to change.",
+        "fix:",
+        "hammer curls, reverse curls and heavy holds."
+      ],
+      "file": "outputs/slide-07.png",
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "carousels/LW-CAR-0026/outputs/slide-02.png"
+          ],
+          "raw_result_file": "/workspace/generated_images/exec-0fb447ee-2420-4936-8d48-e2714f0fc413.png",
+          "preserved_raw_file": "production-assets/slide-07-generated.png",
+          "result_file": "outputs/slide-07.png",
+          "export": {
+            "raw_size": [
+              1122,
+              1402
+            ],
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "has_alpha": false,
+            "logo": "Official assets/logo/harda-logo-full.png composited with its own alpha at x=48,y=19,size=218x71; no background patch."
+          }
+        }
+      ],
+      "errors": [],
+      "save_status": "pushed_to_target_branch",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending",
+      "prompt": "Create ONE finished Harda S2 portrait carousel slide, 1080 x 1350, 4:5. Match the supplied owner-approved LW-CAR-0026 slide 2 image reference (which matches LW-CAR-0022) for its exact visual language: very heavy tight lowercase grotesk headlines, clean regular sans body, regular italic grey subtitles; realistic white/light-grey anatomical mannequin with fine grey shading, bald and faceless, opaque black #2A2A2A shorts covering a featureless smooth pelvis. Solid opaque CLEAN #F0F1EB background, no texture or arch. Headline/body #2A2A2A, secondary #6B6B6B, flat coral #F26445 marker bars. All non-target muscles white/light-grey; highlight only the target muscles listed for this slide in coral #F26445. No sand tint, green muscles, extra people or equipment. Use the reference only for look, typography, spacing and figure rendering; replace ALL its words and its pose with the instructions below. Keep the ENTIRE TOP 110 PX blank for the official logo, with no other elements there. Do not generate any logo, brand name, watermark, signature, border, panel, grid, stars, tiers, slide counter, decorative progress bar or additional text. The real transparent Harda logo will be composited as its own layer later at x=48,y=19,size=218x71. Render every supplied string exactly, lowercase and with the exact punctuation. Keep all text fully visible and separated from the figure. Return one complete slide only.\n\nRANK LAYOUT — continue the IDENTICAL geometry of the supplied owner-approved LW-CAR-0026 slide 2. Generous side margins around 80px. At around y=160 put the rank and muscle in ONE headline row, in the same very heavy tight lowercase grotesk. Flat coral marker behind the muscle name ONLY, never behind the rank. Around y=295, small grey italic `difficulty` at left followed by FIVE separate short rounded horizontal bars in ONE ROW, with the specified number of coral bars from left to right and remaining bars light grey #D6D6D2. No numbers, stars, fractions, percentages or icons on the meter. Below it the body text in regular #2A2A2A, at most two lines. Below the body, ONE fix line: `fix:` bold coral #F26445 followed by the exact fix text in regular #2A2A2A. Finish all copy above y=535. Put one large standing white/light-grey anatomical mannequin in the lower 55%, below all the copy, with the view and crop specified for this slide. Black shorts. Keep head and all specified figure parts visible. No exercise equipment. No other words.\n\nSLIDE 7. Exact rank: #2\nExact muscle name: forearms\nExact meter label: difficulty\nExact body: tough, used all day, and slow to change.\nExact fix label: fix:\nExact fix text: hammer curls, reverse curls and heavy holds.\n\nEXACT METER: FIVE bars total, ALL FIVE filled coral #F26445; no grey bars.\nFIGURE: FRONT VIEW, from head to mid-thighs, centered. One arm bent at the elbow to clearly show the forearm; the other relaxed. Only forearm muscle regions on both arms filled coral #F26445, between wrists and elbows. Hands, upper arms, deltoids, chest and all other regions remain white/light grey. Black shorts. Clean crop through thighs at bottom edge.\nNo other text or highlighted muscles.",
+      "prompt_file": "prompts/slide-07.txt",
+      "reference": [
+        "carousels/LW-CAR-0026/outputs/slide-02.png"
+      ]
+    },
+    {
+      "slide": 8,
+      "content_version": "1.0",
+      "role": "rank #1",
+      "exact_text": [
+        "#1",
+        "calves",
+        "difficulty",
+        "you walk on them all day. they need heavy, slow reps.",
+        "fix:",
+        "slow reps with a pause at the bottom, trained often."
+      ],
+      "file": "outputs/slide-08.png",
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "carousels/LW-CAR-0026/outputs/slide-02.png"
+          ],
+          "raw_result_file": "/workspace/generated_images/exec-150a529c-30a3-4d03-9c80-79fb35a31a81.png",
+          "preserved_raw_file": "production-assets/slide-08-generated.png",
+          "result_file": "outputs/slide-08.png",
+          "export": {
+            "raw_size": [
+              1122,
+              1402
+            ],
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "has_alpha": false,
+            "logo": "Official assets/logo/harda-logo-full.png composited with its own alpha at x=48,y=19,size=218x71; no background patch."
+          }
+        }
+      ],
+      "errors": [],
+      "save_status": "pushed_to_target_branch",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending",
+      "prompt": "Create ONE finished Harda S2 portrait carousel slide, 1080 x 1350, 4:5. Match the supplied owner-approved LW-CAR-0026 slide 2 image reference (which matches LW-CAR-0022) for its exact visual language: very heavy tight lowercase grotesk headlines, clean regular sans body, regular italic grey subtitles; realistic white/light-grey anatomical mannequin with fine grey shading, bald and faceless, opaque black #2A2A2A shorts covering a featureless smooth pelvis. Solid opaque CLEAN #F0F1EB background, no texture or arch. Headline/body #2A2A2A, secondary #6B6B6B, flat coral #F26445 marker bars. All non-target muscles white/light-grey; highlight only the target muscles listed for this slide in coral #F26445. No sand tint, green muscles, extra people or equipment. Use the reference only for look, typography, spacing and figure rendering; replace ALL its words and its pose with the instructions below. Keep the ENTIRE TOP 110 PX blank for the official logo, with no other elements there. Do not generate any logo, brand name, watermark, signature, border, panel, grid, stars, tiers, slide counter, decorative progress bar or additional text. The real transparent Harda logo will be composited as its own layer later at x=48,y=19,size=218x71. Render every supplied string exactly, lowercase and with the exact punctuation. Keep all text fully visible and separated from the figure. Return one complete slide only.\n\nRANK LAYOUT — continue the IDENTICAL geometry of the supplied owner-approved LW-CAR-0026 slide 2. Generous side margins around 80px. At around y=160 put the rank and muscle in ONE headline row, in the same very heavy tight lowercase grotesk. Flat coral marker behind the muscle name ONLY, never behind the rank. Around y=295, small grey italic `difficulty` at left followed by FIVE separate short rounded horizontal bars in ONE ROW, with the specified number of coral bars from left to right and remaining bars light grey #D6D6D2. No numbers, stars, fractions, percentages or icons on the meter. Below it the body text in regular #2A2A2A, at most two lines. Below the body, ONE fix line: `fix:` bold coral #F26445 followed by the exact fix text in regular #2A2A2A. Finish all copy above y=535. Put one large standing white/light-grey anatomical mannequin in the lower 55%, below all the copy, with the view and crop specified for this slide. Black shorts. Keep head and all specified figure parts visible. No exercise equipment. No other words.\n\nSLIDE 8. Exact rank: #1\nExact muscle name: calves\nExact meter label: difficulty\nExact body: you walk on them all day. they need heavy, slow reps.\nExact fix label: fix:\nExact fix text: slow reps with a pause at the bottom, trained often.\n\nEXACT METER: FIVE bars total, ALL FIVE filled coral #F26445; no grey bars.\nFIGURE: REAR VIEW, FULL BODY standing on the toes with heels clearly raised, entire bald head and both feet/toes visible, positioned between y=550 and y=1310. Only both calves filled coral #F26445. Hamstrings, back, arms and all other muscles remain white/light grey. Black shorts. No equipment.\nNo other text or highlighted muscles.",
+      "prompt_file": "prompts/slide-08.txt",
+      "reference": [
+        "carousels/LW-CAR-0026/outputs/slide-02.png"
+      ]
+    },
+    {
+      "slide": 9,
+      "content_version": "1.0",
+      "role": "product ending",
+      "exact_text": [
+        "harda tracks every set and shows which muscles get the least work.",
+        "log your workouts and check your muscle balance, so the hard ones get enough too."
+      ],
+      "file": "outputs/slide-09.png",
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "carousels/LW-CAR-0022/outputs/slide-19.png",
+            "carousels/LW-CAR-0020/production-assets/slide-19-generated-blank-display.png"
+          ],
+          "raw_result_file": "/workspace/generated_images/exec-ff37b0a3-352e-4f2f-a8be-00e5f3011fc3.png",
+          "preserved_raw_file": "production-assets/slide-09-generated.png",
+          "result_file": "outputs/slide-09.png",
+          "export": {
+            "raw_size": [
+              1122,
+              1402
+            ],
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "has_alpha": false,
+            "logo": "Official assets/logo/harda-logo-full.png composited with its own alpha at x=48,y=19,size=218x71; no background patch."
+          },
+          "post_generation_layers": [
+            "production-assets/approved-phone-pixels.png inserted at original scale with y offset +200px, as in owner-approved LW-CAR-0022 slide 19",
+            "assets/logo/harda-logo-full.png at x=48,y=19,size=218x71"
+          ]
+        }
+      ],
+      "errors": [],
+      "save_status": "pushed_to_target_branch",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending",
+      "prompt": "Create ONE finished portrait Harda S2 product ending, 1080 x 1350, 4:5. Match the first supplied reference, owner-approved LW-CAR-0022 slide 19, for exact clean off-white #F0F1EB background, type, coral marker bars, lower-right phone size/tilt/position and white sketch/anatomical hand. The second supplied reference gives the same composition with a BLANK black display. Ignore ALL old copy, logos and brand names in the references. Render ONLY the new exact copy below. Solid opaque background, no texture or arch, no panels, border, slide counter, signature or watermark. Headlines very heavy tight lowercase grotesk #2A2A2A; body clean regular sans #2A2A2A. Flat coral #F26445 marker bars. Keep the ENTIRE top 110 px free for the real logo, to be composited later at x=48,y=19,size=218x71. Do not generate a logo.\n\nEXACT HEADLINE, large, heaviest weight, left-aligned below y=110, in exactly these four lines:\nharda tracks every set\nand shows which\nmuscles get\nthe least work.\n\nPut marker bars behind `every set` ONLY on the first line and behind `the least work` ONLY on the fourth line. Keep text fully inside the width, preserving all words and punctuation. Title finishes above y=585.\n\nEXACT BODY, regular #2A2A2A, left-aligned, in exactly these two lines:\nlog your workouts and check your muscle balance,\nso the hard ones get enough too.\n\nFinish the body above y=700 and leave a visible gap before the top of the phone. At lower right, tall black phone held by the white/light-grey sketch-style anatomical hand, same natural proportions, scale, mild clockwise tilt and placement as approved LW-CAR-0022 slide 19. Phone top about y=730. Hand and phone may extend off bottom edge. Keep hand white/light grey with fine grey shading, never beige. The generated display must be EMPTY UNIFORM BLACK: absolutely no UI, charts, axes, buttons, icons, numbers, status bar or letters on the display. The actual owner-approved Harda Progress / Muscle balance phone pixels will be composited at their original scale afterward, translated down 200px as on approved LW-CAR-0022 slide 19. Do not imitate or regenerate app UI. Only the supplied headline and body text may appear.",
+      "prompt_file": "prompts/slide-09.txt",
+      "reference": [
+        "carousels/LW-CAR-0022/outputs/slide-19.png",
+        "carousels/LW-CAR-0020/production-assets/slide-19-generated-blank-display.png"
+      ]
+    }
+  ],
+  "archive": "LW-CAR-0026-1080x1350.zip",
+  "export_format": {
+    "images": 9,
+    "width": 1080,
+    "height": 1350,
+    "mode": "RGB",
+    "alpha": false,
+    "check": "Required export metadata only; no visual QA, OCR, or automatic regeneration performed."
+  },
+  "authorized_slides": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "owner_approval": {
+    "source": "Owner approved slides 1–3 in chat and authorized continuation through slide 9.",
+    "approved_at": "2026-10-21",
+    "content_version": "1.0"
+  }
+}

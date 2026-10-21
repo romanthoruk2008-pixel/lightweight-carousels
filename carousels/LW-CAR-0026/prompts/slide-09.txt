@@ -1,0 +1,15 @@
+Create ONE finished portrait Harda S2 product ending, 1080 x 1350, 4:5. Match the first supplied reference, owner-approved LW-CAR-0022 slide 19, for exact clean off-white #F0F1EB background, type, coral marker bars, lower-right phone size/tilt/position and white sketch/anatomical hand. The second supplied reference gives the same composition with a BLANK black display. Ignore ALL old copy, logos and brand names in the references. Render ONLY the new exact copy below. Solid opaque background, no texture or arch, no panels, border, slide counter, signature or watermark. Headlines very heavy tight lowercase grotesk #2A2A2A; body clean regular sans #2A2A2A. Flat coral #F26445 marker bars. Keep the ENTIRE top 110 px free for the real logo, to be composited later at x=48,y=19,size=218x71. Do not generate a logo.
+
+EXACT HEADLINE, large, heaviest weight, left-aligned below y=110, in exactly these four lines:
+harda tracks every set
+and shows which
+muscles get
+the least work.
+
+Put marker bars behind `every set` ONLY on the first line and behind `the least work` ONLY on the fourth line. Keep text fully inside the width, preserving all words and punctuation. Title finishes above y=585.
+
+EXACT BODY, regular #2A2A2A, left-aligned, in exactly these two lines:
+log your workouts and check your muscle balance,
+so the hard ones get enough too.
+
+Finish the body above y=700 and leave a visible gap before the top of the phone. At lower right, tall black phone held by the white/light-grey sketch-style anatomical hand, same natural proportions, scale, mild clockwise tilt and placement as approved LW-CAR-0022 slide 19. Phone top about y=730. Hand and phone may extend off bottom edge. Keep hand white/light grey with fine grey shading, never beige. The generated display must be EMPTY UNIFORM BLACK: absolutely no UI, charts, axes, buttons, icons, numbers, status bar or letters on the display. The actual owner-approved Harda Progress / Muscle balance phone pixels will be composited at their original scale afterward, translated down 200px as on approved LW-CAR-0022 slide 19. Do not imitate or regenerate app UI. Only the supplied headline and body text may appear.
