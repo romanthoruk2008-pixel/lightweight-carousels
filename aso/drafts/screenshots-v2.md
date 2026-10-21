@@ -63,3 +63,9 @@ Watch UI only, no bezel, one size across localizations.
 ## A/B tests after launch (Product Page Optimization)
 1. Switching first: #2 moved to position 1.
 2. Friends first: #3 moved to position 1.
+
+## Audit of Figma frames 2204 / 2210 / 2208 / 2207 / 2206 (2026-10-21)
+Good: consistent dark style, same phone size/position, 9:41 everywhere, one orange keyword per headline, Seryozha peeking (2204), import collage, clean kick copy.
+Fix: 2204 + 2210 are the same logging screen (merge into one screen 1 with "Log it fast. Beat last time."); watch overlay in 2204 hides rest timer/Add Set and its data (Set 2 of 4, 60 kg, 10:09) contradicts the phone → move watch to its own screen; set data (6/18, 1,908 kg) ≠ visible sets; "Incline Dumbell" typo; kg → lb for US; Statistics says "this month" + "Last Month" + August dates (now October) and shows no PRs although headline promises PRs; "9325" → "9,325"; chart should trend up; avatar "X" for "You" looks like a close icon; "CSV history import" is an orphan label → make it a 4th source card or a chip.
+Missing screens: Apple Watch (own), Build a plan, Exercise swap, Seryozha, optional Measurements; Watch-only set (4) for the watchOS slot.
+Order: Log → Import → Friends → Watch → Progress → Plan → Swap → Seryozha.
