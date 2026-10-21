@@ -384,10 +384,11 @@
       "slides": 12,
       "background": "CLEAN",
       "slides_blocked": [],
-      "generation": "not_started",
-      "user_review": "pending",
-      "next_action": "Codex: match approved LW-CAR-0022 look; slides 1-3 first",
-      "path": "carousels/LW-CAR-0024/"
+      "generation": "complete (12/12)",
+      "user_review": "approved",
+      "next_action": "ready to post",
+      "path": "carousels/LW-CAR-0024/",
+      "owner_approval": "2026-10-21: owner explicitly accepted all 12 slides from output commit ace16827fd63778d39983d8ef4ef54270ba51734 and requested pushing the user-approved status to GitHub."
     },
     {
       "id": "LW-CAR-0025",
