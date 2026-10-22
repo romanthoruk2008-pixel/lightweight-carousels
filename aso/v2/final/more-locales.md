@@ -2,7 +2,8 @@
 
 Measured with Sonar (iOS), one country at a time, 2026-10-22. Same rules as
 [`metadata.md`](metadata.md): no repeated words within a locale, no competitors, no "harda", no
-category words (fitness, health, sports). `55A/45` means popularity/difficulty; `A` marks
+category words (fitness, health, sports). `1rm`, `5x5` and `531` are out everywhere (owner's call,
+2026-10-22): the measured coverage below still counts 1rm, so the real totals are slightly lower. `55A/45` means popularity/difficulty; `A` marks
 Apple's own popularity reading, the rest are Sonar estimates.
 
 **Every line needs a native-speaker check before App Store Connect.**
@@ -17,15 +18,15 @@ Each keyword field goes in as one line: no spaces, no line breaks.
 
 | Locale | Name (30) | Subtitle (30) | Keywords (100) | Chars / bytes |
 |---|---|---|---|---|
-| Spanish (Spain) | `Harda: Rutinas gym y fuerza` | `Plan de entrenamiento y pesas` | `1rm,gimnasio,barra,ejercicios,entreno,diario,registro,bodybuilding,racha,masa,muscular,hypertrophy` | 98 / 98 |
-| Italian | `Harda: Esercizi in palestra` | `Scheda allenamento e progressi` | `pesi,ripetizioni,1rm,manubri,squat,hypertrophy,bodybuilding,weightlifting,diario,forza,programma,gym` | 100 / 100 |
-| Portuguese (Brazil) | `Harda: Treino de academia` | `Musculação e hipertrofia` | `1rm,ficha,perna,maromba,timer,montar,repetições,barra,ia,weightlifting,agachamento,full,body,abc` | 96 / 98 |
-| Polish | `Harda: Siłownia i trening` | `Plan treningowy i dziennik` | `1rm,fbw,hypertrophy,bodybuilding,powerlifting,weightlifting,dumbbell,ai,przysiad,ćwiczenia,silownia` | 99 / 100 |
-| Turkish | `Harda: Egzersiz ve antrenman` | `Vücut geliştirme programı` | `1rm,squat,gym,kas,deadlift,hypertrophy,powerlifting,bodybuilding,dumbbell,weightlifting,takibi,bro` | 98 / 98 |
-| Czech | `Harda: Posilovna a trénink` | `Tréninkový plán a deník` | `1rm,fitko,hypertrophy,powerlifting,weightlifting,dumbbell,progres,dřep,cviky,bodybuilding,cvičení` | 97 / 100 |
-| Ukrainian | `Harda: План тренувань` | `Спортзал, качалка і прогрес` | `1rm,hypertrophy,powerlifting,weightlifting,dumbbell,зал,bodybuilding,щоденник,спліт` | 83 / 99 |
-| Russian | `Harda: Тренировки в зале` | `Спортзал, гантели и штанга` | `1rm,качок,weightlifting,качалка,приседания,bodybuilding,powerlifting,body,full` | 78 / 100 |
-| Dutch | `Harda: Krachttraining schema` | `Trainingslogboek & spiermassa` | `1rm,hypertrophy,rusttimer,squat,trainingsschema,sportschool,weightlifting,trainingsdagboek,trainen` | 98 / 98 |
+| Spanish (Spain) | `Harda: Rutinas gym y fuerza` | `Plan de entrenamiento y pesas` | `gimnasio,barra,ejercicios,entreno,diario,registro,bodybuilding,racha,masa,muscular,hypertrophy` | 94 / 94 |
+| Italian | `Harda: Esercizi in palestra` | `Scheda allenamento e progressi` | `pesi,ripetizioni,manubri,squat,hypertrophy,bodybuilding,weightlifting,diario,forza,programma,gym` | 96 / 96 |
+| Portuguese (Brazil) | `Harda: Treino de academia` | `Musculação e hipertrofia` | `ficha,perna,maromba,timer,montar,repetições,barra,ia,weightlifting,agachamento,full,body,abc` | 92 / 94 |
+| Polish | `Harda: Siłownia i trening` | `Plan treningowy i dziennik` | `fbw,hypertrophy,bodybuilding,powerlifting,weightlifting,dumbbell,ai,przysiad,ćwiczenia,silownia` | 95 / 96 |
+| Turkish | `Harda: Egzersiz ve antrenman` | `Vücut geliştirme programı` | `squat,gym,kas,deadlift,hypertrophy,powerlifting,bodybuilding,dumbbell,weightlifting,takibi,bro` | 94 / 94 |
+| Czech | `Harda: Posilovna a trénink` | `Tréninkový plán a deník` | `fitko,hypertrophy,powerlifting,weightlifting,dumbbell,progres,dřep,cviky,bodybuilding,cvičení` | 93 / 96 |
+| Ukrainian | `Harda: План тренувань` | `Спортзал, качалка і прогрес` | `hypertrophy,powerlifting,weightlifting,dumbbell,зал,bodybuilding,щоденник,спліт` | 79 / 95 |
+| Russian | `Harda: Тренировки в зале` | `Спортзал, гантели и штанга` | `качок,weightlifting,качалка,приседания,bodybuilding,powerlifting,body,full` | 74 / 96 |
+| Dutch | `Harda: Krachttraining schema` | `Trainingslogboek & spiermassa` | `hypertrophy,rusttimer,squat,trainingsschema,sportschool,weightlifting,trainingsdagboek,trainen` | 94 / 94 |
 
 Cyrillic and letters such as ł, ř, ç, ğ take two bytes. Several fields are at exactly 100
 bytes: read App Store Connect's counter after pasting and drop the last word if it refuses.

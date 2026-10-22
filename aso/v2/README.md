@@ -16,12 +16,22 @@ Second round, 2026-10-20 to 2026-10-22. Supersedes the keyword picks in `aso/dra
 
 ## Changes to make before pasting
 
-1. **Drop `fitness` from the en-US and en-GB keyword fields.** The app's categories are Health &
-   Fitness and Sports, and Apple indexes category words already. Use the freed 8 characters for
-   `dumbbell` (US, 31/36) and `superset` (UK, 26/5).
-2. **Consider swapping `531`.** 5/3/1 is Jim Wendler's program name and may be his trademark
-   (unverified). In the US, `hypertrophy` scores the same (30/25); it is in es-MX now, so es-MX
-   would take a bench word instead.
+1. **Use these keyword fields instead of the ones in `metadata.md`** for the first five locales.
+   - No category words: the app's categories are Health & Fitness and Sports, and Apple indexes
+     them already (`fitness` out of en-US and en-GB, `sport` out of French).
+   - No `1rm`, `5x5` or `531` anywhere (owner's call): 531 is Jim Wendler's program name, and
+     the app has no such programs. `hypertrophy` (30/25) moves from es-MX to en-US.
+
+   | Locale | Keywords | Chars |
+   |---|---|---|
+   | English (U.S.) | `ai,hypertrophy,dumbbell,lifting,planner,weight,coach,program,gains,streak,gymbro,lift,social,routine` | 100 |
+   | Spanish (Mexico) | `workout,gym,superset,barbell,lifter,split,muscle,friends,progress,timer,stats,diary,buddy,build` | 95 |
+   | English (U.K.) | `ai,plan,superset,lifter,lifting,weight,strength,coach,gains,gymbro,routine,barbell,streak,program` | 97 |
+   | German | `ki,gym,powerlifting,pausentimer,plan,körpermaße,trainingspartner,fitnessstudio,anfänger,coach` | 93 (96 bytes) |
+   | French | `ia,force,coach,barre,entrainement,suivi,mensurations,salle,bodybuilding,haltères,poids,plan` | 91 (92 bytes) |
+
+2. **Coverage numbers in `metadata.md` and `more-locales.md` still include the dropped words**,
+   so the real totals are slightly lower.
 3. **Sentence case** for every non-English name and subtitle except German (done in
    `more-locales.md`; the French lines in `metadata.md` still use Title Case).
 4. **One line per keyword field**, no spaces or line breaks; check App Store Connect's counter,
