@@ -1,0 +1,245 @@
+{
+  "carousel_id": "LW-CAR-0031",
+  "content_version": "1.0",
+  "status": "frozen",
+  "type": "original",
+  "design_style": "S1",
+  "language": "en",
+  "font_family": "Rubik",
+  "background": "DOTS",
+  "colors": {
+    "accent": "#F26445",
+    "background": "#F0F1EB",
+    "text_dark": "#2A2A2A",
+    "text_body_grey": "#6B6B6B",
+    "white": "#FFFFFF",
+    "muscle_base_sand": "#D9CBBE",
+    "skin_ivory_approx": "#F5F0E5"
+  },
+  "source": {
+    "ref_id": null,
+    "note": "Our own core version of the approved WEAK BACK? (LW-CAR-0001) / WEAK CHEST? (LW-CAR-0008), style S1 (owner request 2026-10-22). Bonus tip matches LW-CAR-0018 and 0026."
+  },
+  "caption": {
+    "text": "Core weak? Fix it with these 4. Save this for your next workout 📌 Which one do you skip? 👇 #abs #coreworkout #gymtips #calisthenics",
+    "notes": "same pattern as LW-CAR-0008"
+  },
+  "slides": [
+    {
+      "n": 1,
+      "role": "hook",
+      "text": [
+        {
+          "string": "WEAK",
+          "style": "cover headline, uppercase, heaviest Rubik weight, text_dark"
+        },
+        {
+          "string": "CORE?",
+          "style": "cover headline, uppercase, heaviest Rubik weight, accent"
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "role": "map of the core",
+      "text": [
+        {
+          "string": "Let's Fix That",
+          "style": "title, bold, text_dark, centered"
+        },
+        {
+          "string": "UPPER ABS",
+          "style": "card label, white caps on dark bar"
+        },
+        {
+          "string": "LOWER ABS",
+          "style": "card label, white caps on dark bar"
+        },
+        {
+          "string": "OBLIQUES",
+          "style": "card label, white caps on dark bar"
+        },
+        {
+          "string": "LOWER BACK",
+          "style": "card label, white caps on dark bar"
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "role": "list item 1",
+      "text": [
+        {
+          "string": "1",
+          "style": "white number in accent circle badge"
+        },
+        {
+          "string": "Upper Abs",
+          "style": "title, bold, text_dark, centered"
+        },
+        {
+          "string": "2-3 Sets x 10-15 Reps",
+          "style": "subtitle, semibold, text_dark, centered"
+        },
+        {
+          "string": "Curl your ribs down toward your hips. Don't just pull on your neck.",
+          "style": "why line, regular, text_body_grey, centered, up to two lines"
+        },
+        {
+          "string": "Cable Crunch",
+          "style": "exercise label, semibold"
+        },
+        {
+          "string": "OR",
+          "style": "white text in accent circle badge"
+        },
+        {
+          "string": "Crunch",
+          "style": "exercise label, semibold"
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "role": "list item 2",
+      "text": [
+        {
+          "string": "2",
+          "style": "white number in accent circle badge"
+        },
+        {
+          "string": "Lower Abs",
+          "style": "title, bold, text_dark, centered"
+        },
+        {
+          "string": "2-3 Sets x 10-15 Reps",
+          "style": "subtitle, semibold, text_dark, centered"
+        },
+        {
+          "string": "Tilt your pelvis up. Just swinging your legs works your hip flexors.",
+          "style": "why line, regular, text_body_grey, centered, up to two lines"
+        },
+        {
+          "string": "Hanging Leg Raise",
+          "style": "exercise label, semibold"
+        },
+        {
+          "string": "OR",
+          "style": "white text in accent circle badge"
+        },
+        {
+          "string": "Reverse Crunch",
+          "style": "exercise label, semibold"
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "role": "list item 3",
+      "text": [
+        {
+          "string": "3",
+          "style": "white number in accent circle badge"
+        },
+        {
+          "string": "Obliques",
+          "style": "title, bold, text_dark, centered"
+        },
+        {
+          "string": "2-3 Sets x 10-12 Reps",
+          "style": "subtitle, semibold, text_dark, centered"
+        },
+        {
+          "string": "They turn and brace your torso. Train both sides.",
+          "style": "why line, regular, text_body_grey, centered, up to two lines"
+        },
+        {
+          "string": "Cable Woodchop",
+          "style": "exercise label, semibold"
+        },
+        {
+          "string": "OR",
+          "style": "white text in accent circle badge"
+        },
+        {
+          "string": "Side Plank Dips",
+          "style": "exercise label, semibold"
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "role": "list item 4",
+      "text": [
+        {
+          "string": "4",
+          "style": "white number in accent circle badge"
+        },
+        {
+          "string": "Lower Back",
+          "style": "title, bold, text_dark, centered"
+        },
+        {
+          "string": "2-3 Sets x 10-15 Reps",
+          "style": "subtitle, semibold, text_dark, centered"
+        },
+        {
+          "string": "A strong lower back keeps your core solid under heavy weights.",
+          "style": "why line, regular, text_body_grey, centered, up to two lines"
+        },
+        {
+          "string": "Back Extension",
+          "style": "exercise label, semibold"
+        },
+        {
+          "string": "OR",
+          "style": "white text in accent circle badge"
+        },
+        {
+          "string": "Bird Dog",
+          "style": "exercise label, semibold"
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "role": "bonus tip",
+      "text": [
+        {
+          "string": "Bonus Tip",
+          "style": "title, bold, accent"
+        },
+        {
+          "string": "Abs show when your body fat drops. Train them hard and keep your diet in check.",
+          "style": "body, regular, text_body_grey"
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "role": "product ending",
+      "text": [
+        {
+          "string": "Is Your Core Getting Enough Work?",
+          "style": "headline, bold, text_dark"
+        },
+        {
+          "string": "Log your workouts in Harda.",
+          "style": "body, regular, text_body_grey"
+        },
+        {
+          "string": "See how many sets your core gets compared to every other muscle.",
+          "style": "body, regular, text_body_grey"
+        }
+      ],
+      "screen": "real Harda Muscle balance screenshot (radar with a Core axis), same as the approved LW-CAR-0008 slide 8",
+      "product_claims_checked_against_real_screen": [
+        "Muscle balance radar has a Core axis and shows 'No core work in this period'"
+      ]
+    }
+  ],
+  "claims_to_verify": [
+    "Practical cues only, no numbers or citations. The bonus tip repeats LW-CAR-0018 (abs show at low body fat).",
+    "Ending: Muscle balance screen with a Core axis (real screen)."
+  ]
+}

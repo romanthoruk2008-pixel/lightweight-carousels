@@ -1,0 +1,405 @@
+{
+  "carousel_id": "LW-CAR-0027",
+  "content_version": "1.0",
+  "status": "frozen",
+  "type": "original",
+  "design_style": "S2",
+  "language": "en",
+  "background": "CLEAN",
+  "font_family": "REF-008 look: heavy tight grotesk for headlines, clean sans for body, italic for tier lines",
+  "colors": {
+    "accent": "#F26445",
+    "background": "#F0F1EB",
+    "text_dark": "#2A2A2A",
+    "text_body_grey": "#6B6B6B",
+    "white": "#FFFFFF",
+    "tier_S": "#F26445",
+    "tier_A": "#FF9A52",
+    "tier_B": "#FFD95A",
+    "tier_C": "#3FCF5E",
+    "tier_F": "#5BDCE3",
+    "star_empty": "#D6D6D2"
+  },
+  "source": {
+    "ref_id": null,
+    "note": "Our own glutes tier list in the S2 look (owner request 2026-10-22), aimed at a female audience. Same tier format as LW-CAR-0020 … 0023.",
+    "layout_from": "carousels/LW-CAR-0022/outputs (owner-approved S2, Harda logo)"
+  },
+  "caption": {
+    "text": "Hip thrusts only at #2. Agree? 👇 #glutes #gluteworkout #tierlist #gymtips",
+    "notes": "comment prompt"
+  },
+  "slides": [
+    {
+      "n": 1,
+      "role": "hook",
+      "text": [
+        {
+          "string": "glutes",
+          "style": "cover line 1, lowercase, heaviest weight, text_dark"
+        },
+        {
+          "string": "tier list",
+          "style": "cover line 2, lowercase, heaviest weight, text_dark on an accent marker bar"
+        },
+        {
+          "string": "(ranked worst to best)",
+          "style": "italic, regular, text_body_grey"
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "role": "tier divider F",
+      "text": [
+        {
+          "string": "F",
+          "style": "white bold letter on a rounded colour tile"
+        },
+        {
+          "string": "tier",
+          "style": "lowercase, heaviest weight, text_dark"
+        },
+        {
+          "string": "skip these",
+          "style": "italic, regular, text_body_grey"
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "role": "exercise #12",
+      "rating_stars": 1,
+      "text": [
+        {
+          "string": "#12",
+          "style": "heaviest weight, text_dark"
+        },
+        {
+          "string": "donkey kicks",
+          "style": "heaviest weight, lowercase, text_dark on an accent marker bar"
+        },
+        {
+          "string": "a fun burn, but way too light to build your glutes.",
+          "style": "regular, text_dark, up to two lines"
+        }
+      ],
+      "illustration": "on all fours on a mat, kicking one bent leg up and back, side view"
+    },
+    {
+      "n": 4,
+      "role": "exercise #11",
+      "rating_stars": 1.5,
+      "text": [
+        {
+          "string": "#11",
+          "style": "heaviest weight, text_dark"
+        },
+        {
+          "string": "fire hydrants",
+          "style": "heaviest weight, lowercase, text_dark on an accent marker bar"
+        },
+        {
+          "string": "a warm-up move. use it before training, not as training.",
+          "style": "regular, text_dark, up to two lines"
+        }
+      ],
+      "illustration": "on all fours on a mat, lifting one bent knee out to the side, rear three-quarter view"
+    },
+    {
+      "n": 5,
+      "role": "tier divider C",
+      "text": [
+        {
+          "string": "C",
+          "style": "white bold letter on a rounded colour tile"
+        },
+        {
+          "string": "tier",
+          "style": "lowercase, heaviest weight, text_dark"
+        },
+        {
+          "string": "you can do better",
+          "style": "italic, regular, text_body_grey"
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "role": "exercise #10",
+      "rating_stars": 2.5,
+      "text": [
+        {
+          "string": "#10",
+          "style": "heaviest weight, text_dark"
+        },
+        {
+          "string": "cable kickback",
+          "style": "heaviest weight, lowercase, text_dark on an accent marker bar"
+        },
+        {
+          "string": "easy to do wrong. most people swing and use their lower back.",
+          "style": "regular, text_dark, up to two lines"
+        }
+      ],
+      "illustration": "standing at a low cable with an ankle strap, kicking one leg back, side view"
+    },
+    {
+      "n": 7,
+      "role": "exercise #9",
+      "rating_stars": 2.5,
+      "text": [
+        {
+          "string": "#9",
+          "style": "heaviest weight, text_dark"
+        },
+        {
+          "string": "sumo squat",
+          "style": "heaviest weight, lowercase, text_dark on an accent marker bar"
+        },
+        {
+          "string": "more inner thigh than glutes, and hard to load heavy.",
+          "style": "regular, text_dark, up to two lines"
+        }
+      ],
+      "illustration": "wide-stance squat holding one dumbbell between the legs, bottom position, front view"
+    },
+    {
+      "n": 8,
+      "role": "tier divider B",
+      "text": [
+        {
+          "string": "B",
+          "style": "white bold letter on a rounded colour tile"
+        },
+        {
+          "string": "tier",
+          "style": "lowercase, heaviest weight, text_dark"
+        },
+        {
+          "string": "solid picks",
+          "style": "italic, regular, text_body_grey"
+        }
+      ]
+    },
+    {
+      "n": 9,
+      "role": "exercise #8",
+      "rating_stars": 3,
+      "text": [
+        {
+          "string": "#8",
+          "style": "heaviest weight, text_dark"
+        },
+        {
+          "string": "back squat",
+          "style": "heaviest weight, lowercase, text_dark on an accent marker bar"
+        },
+        {
+          "string": "great for legs, but your quads do most of the work.",
+          "style": "regular, text_dark, up to two lines"
+        }
+      ],
+      "illustration": "barbell back squat in a rack, bottom position, side three-quarter view"
+    },
+    {
+      "n": 10,
+      "role": "exercise #7",
+      "rating_stars": 3.5,
+      "text": [
+        {
+          "string": "#7",
+          "style": "heaviest weight, text_dark"
+        },
+        {
+          "string": "step-ups",
+          "style": "heaviest weight, lowercase, text_dark on an accent marker bar"
+        },
+        {
+          "string": "one leg at a time. the higher the box, the more glutes.",
+          "style": "regular, text_dark, up to two lines"
+        }
+      ],
+      "illustration": "stepping up onto a flat bench holding dumbbells at the sides, side view"
+    },
+    {
+      "n": 11,
+      "role": "exercise #6",
+      "rating_stars": 3.5,
+      "text": [
+        {
+          "string": "#6",
+          "style": "heaviest weight, text_dark"
+        },
+        {
+          "string": "cable pull-through",
+          "style": "heaviest weight, lowercase, text_dark on an accent marker bar"
+        },
+        {
+          "string": "teaches the hip hinge and keeps tension at the top.",
+          "style": "regular, text_dark, up to two lines"
+        }
+      ],
+      "illustration": "standing facing away from a low cable, rope between the legs, driving the hips forward, side view"
+    },
+    {
+      "n": 12,
+      "role": "tier divider A",
+      "text": [
+        {
+          "string": "A",
+          "style": "white bold letter on a rounded colour tile"
+        },
+        {
+          "string": "tier",
+          "style": "lowercase, heaviest weight, text_dark"
+        },
+        {
+          "string": "worth your time",
+          "style": "italic, regular, text_body_grey"
+        }
+      ]
+    },
+    {
+      "n": 13,
+      "role": "exercise #5",
+      "rating_stars": 4,
+      "text": [
+        {
+          "string": "#5",
+          "style": "heaviest weight, text_dark"
+        },
+        {
+          "string": "bulgarian split squat",
+          "style": "heaviest weight, lowercase, text_dark on an accent marker bar"
+        },
+        {
+          "string": "lean forward a little and your glutes take over.",
+          "style": "regular, text_dark, up to two lines"
+        }
+      ],
+      "illustration": "bulgarian split squat, rear foot on a flat bench, torso leaning slightly forward, dumbbells at the sides, side view"
+    },
+    {
+      "n": 14,
+      "role": "exercise #4",
+      "rating_stars": 4,
+      "text": [
+        {
+          "string": "#4",
+          "style": "heaviest weight, text_dark"
+        },
+        {
+          "string": "hip abduction machine",
+          "style": "heaviest weight, lowercase, text_dark on an accent marker bar"
+        },
+        {
+          "string": "the easiest way to hit the side of your glutes.",
+          "style": "regular, text_dark, up to two lines"
+        }
+      ],
+      "illustration": "seated hip abduction machine, knees pushed out against the pads, front view"
+    },
+    {
+      "n": 15,
+      "role": "exercise #3",
+      "rating_stars": 4.5,
+      "text": [
+        {
+          "string": "#3",
+          "style": "heaviest weight, text_dark"
+        },
+        {
+          "string": "romanian deadlift",
+          "style": "heaviest weight, lowercase, text_dark on an accent marker bar"
+        },
+        {
+          "string": "a huge stretch for your glutes and hamstrings.",
+          "style": "regular, text_dark, up to two lines"
+        }
+      ],
+      "illustration": "barbell romanian deadlift, hips back, bar at the knees, side view"
+    },
+    {
+      "n": 16,
+      "role": "tier divider S",
+      "text": [
+        {
+          "string": "S",
+          "style": "white bold letter on a rounded colour tile"
+        },
+        {
+          "string": "tier",
+          "style": "lowercase, heaviest weight, text_dark"
+        },
+        {
+          "string": "build your glutes on these",
+          "style": "italic, regular, text_body_grey"
+        }
+      ]
+    },
+    {
+      "n": 17,
+      "role": "exercise #2",
+      "rating_stars": 5,
+      "text": [
+        {
+          "string": "#2",
+          "style": "heaviest weight, text_dark"
+        },
+        {
+          "string": "hip thrust",
+          "style": "heaviest weight, lowercase, text_dark on an accent marker bar"
+        },
+        {
+          "string": "heavy load right at the top, where your glutes work hardest.",
+          "style": "regular, text_dark, up to two lines"
+        }
+      ],
+      "illustration": "barbell hip thrust, upper back on a bench, hips up at the top, side view"
+    },
+    {
+      "n": 18,
+      "role": "exercise #1",
+      "rating_stars": 5,
+      "text": [
+        {
+          "string": "#1",
+          "style": "heaviest weight, text_dark"
+        },
+        {
+          "string": "45° back extension",
+          "style": "heaviest weight, lowercase, text_dark on an accent marker bar"
+        },
+        {
+          "string": "round your upper back, push your hips into the pad, and your glutes do the work.",
+          "style": "regular, text_dark, up to two lines"
+        }
+      ],
+      "illustration": "45-degree back extension bench, upper back rounded, hips pressed into the pad, at the top, side view"
+    },
+    {
+      "n": 19,
+      "role": "product ending",
+      "text": [
+        {
+          "string": "harda tracks every set you lift, so you see your progress week after week.",
+          "style": "large, lowercase, heaviest weight, text_dark; accent marker bars under 'every set you lift' and 'week after week'"
+        },
+        {
+          "string": "log your workouts and check your muscle balance.",
+          "style": "regular, text_dark, two lines"
+        }
+      ],
+      "screen": "real Harda Progress / Muscle balance screenshot, the same one as in approved LW-CAR-0022 slide 19",
+      "product_claims_checked_against_real_screen": [
+        "workouts are logged",
+        "muscle balance screen (LW-CAR-0022 slide 19)"
+      ]
+    }
+  ],
+  "claims_to_verify": [
+    "Own opinions, no numbers or citations. Back squat in B matches the legs tier list (LW-CAR-0022). The 45° back extension at #1 is deliberately debatable.",
+    "Ending: only workout logging and the Muscle balance screen; no glutes-specific feature is claimed."
+  ]
+}

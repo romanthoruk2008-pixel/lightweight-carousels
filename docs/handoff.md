@@ -87,3 +87,4 @@ Claude, хмарна генерація, канал точного вставл�
 - 0022 «legs tier list» і 0023 «biceps tier list»: та сама серія S2, наш рейтинг і тексти. Еталон — прийняті 0020 / 0021.
 - 0024 «1 exercise per muscle» (12 слайдів) і 0025 «this or that? (gym edition)» (14 слайдів): нові формати S2, еталон вигляду — прийнята 0022 з логотипом Harda.
 - 0026 «hardest muscles to grow (ranked)» (9 слайдів): відлік #7 → #1 зі шкалою складності й порадою «fix:», стиль S2.
+- Пачка 2026-10-22: BATCH-A (0027 glutes tier list, 0028 stop doing this, 0029 why you're not growing) і BATCH-B (0030 underrated exercises, 0031 WEAK CORE? у стилі S1, 0032 ranking every gym split). Генератори роблять усе одразу, без зупинок на перевірку.

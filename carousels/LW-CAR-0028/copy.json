@@ -1,0 +1,251 @@
+{
+  "carousel_id": "LW-CAR-0028",
+  "content_version": "1.0",
+  "status": "frozen",
+  "type": "original",
+  "design_style": "S2",
+  "language": "en",
+  "background": "CLEAN",
+  "font_family": "REF-008 look: heavy tight grotesk for headlines, clean sans for body, italic for tier lines",
+  "colors": {
+    "accent": "#F26445",
+    "background": "#F0F1EB",
+    "text_dark": "#2A2A2A",
+    "text_body_grey": "#6B6B6B",
+    "white": "#FFFFFF"
+  },
+  "source": {
+    "ref_id": null,
+    "note": "Our own exercise-swap carousel in the S2 look (owner request 2026-10-22). Every swap agrees with our tier lists.",
+    "layout_from": "carousels/LW-CAR-0022/outputs (owner-approved S2, Harda logo)"
+  },
+  "caption": {
+    "text": "Which one are you still doing? 👇 Save this for your next workout 📌 #gymtips #workouttips #gymmistakes #fitnesstips",
+    "notes": "comment prompt"
+  },
+  "slides": [
+    {
+      "n": 1,
+      "role": "hook",
+      "text": [
+        {
+          "string": "stop doing this.",
+          "style": "cover line 1, lowercase, heaviest weight, text_dark"
+        },
+        {
+          "string": "do this instead",
+          "style": "cover line 2, lowercase, heaviest weight, text_dark on an accent marker bar"
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "role": "swap 1",
+      "text": [
+        {
+          "string": "stop:",
+          "style": "small label, bold lowercase, text_body_grey"
+        },
+        {
+          "string": "upright row",
+          "style": "bold lowercase, text_body_grey, struck through with one accent line"
+        },
+        {
+          "string": "do this:",
+          "style": "small label, bold lowercase, accent"
+        },
+        {
+          "string": "lateral raise",
+          "style": "heaviest weight, lowercase, text_dark on an accent marker bar"
+        },
+        {
+          "string": "same wider shoulders, much easier on your joints.",
+          "style": "regular, text_dark, up to two lines"
+        }
+      ],
+      "illustration": {
+        "stop": "standing, barbell pulled up to chest height with elbows high, front view",
+        "do": "standing dumbbell lateral raise, arms at shoulder height, front view"
+      },
+      "highlight": "side delts"
+    },
+    {
+      "n": 3,
+      "role": "swap 2",
+      "text": [
+        {
+          "string": "stop:",
+          "style": "small label, bold lowercase, text_body_grey"
+        },
+        {
+          "string": "behind-the-neck pulldown",
+          "style": "bold lowercase, text_body_grey, struck through with one accent line"
+        },
+        {
+          "string": "do this:",
+          "style": "small label, bold lowercase, accent"
+        },
+        {
+          "string": "lat pulldown to the chest",
+          "style": "heaviest weight, lowercase, text_dark on an accent marker bar"
+        },
+        {
+          "string": "the same lats, without the awkward shoulder angle.",
+          "style": "regular, text_dark, up to two lines"
+        }
+      ],
+      "illustration": {
+        "stop": "seated lat pulldown, bar pulled down behind the head, rear view",
+        "do": "seated lat pulldown, wide bar pulled to the upper chest, rear view"
+      },
+      "highlight": "lats"
+    },
+    {
+      "n": 4,
+      "role": "swap 3",
+      "text": [
+        {
+          "string": "stop:",
+          "style": "small label, bold lowercase, text_body_grey"
+        },
+        {
+          "string": "db flys",
+          "style": "bold lowercase, text_body_grey, struck through with one accent line"
+        },
+        {
+          "string": "do this:",
+          "style": "small label, bold lowercase, accent"
+        },
+        {
+          "string": "seated cable fly",
+          "style": "heaviest weight, lowercase, text_dark on an accent marker bar"
+        },
+        {
+          "string": "tension the whole rep, not just at the bottom.",
+          "style": "regular, text_dark, up to two lines"
+        }
+      ],
+      "illustration": {
+        "stop": "dumbbell fly on a flat bench, arms wide open, front three-quarter view",
+        "do": "seated cable fly on a bench inside a cable crossover frame, front view"
+      },
+      "highlight": "chest"
+    },
+    {
+      "n": 5,
+      "role": "swap 4",
+      "text": [
+        {
+          "string": "stop:",
+          "style": "small label, bold lowercase, text_body_grey"
+        },
+        {
+          "string": "bosu ball squat",
+          "style": "bold lowercase, text_body_grey, struck through with one accent line"
+        },
+        {
+          "string": "do this:",
+          "style": "small label, bold lowercase, accent"
+        },
+        {
+          "string": "leg press",
+          "style": "heaviest weight, lowercase, text_dark on an accent marker bar"
+        },
+        {
+          "string": "real load for your legs instead of a balance act.",
+          "style": "regular, text_dark, up to two lines"
+        }
+      ],
+      "illustration": {
+        "stop": "squatting on an upturned bosu ball, arms forward for balance, front three-quarter view",
+        "do": "seated 45-degree leg press machine, knees bent, side view"
+      },
+      "highlight": "quads"
+    },
+    {
+      "n": 6,
+      "role": "swap 5",
+      "text": [
+        {
+          "string": "stop:",
+          "style": "small label, bold lowercase, text_body_grey"
+        },
+        {
+          "string": "21s",
+          "style": "bold lowercase, text_body_grey, struck through with one accent line"
+        },
+        {
+          "string": "do this:",
+          "style": "small label, bold lowercase, accent"
+        },
+        {
+          "string": "incline db curl",
+          "style": "heaviest weight, lowercase, text_dark on an accent marker bar"
+        },
+        {
+          "string": "a real stretch and a real weight.",
+          "style": "regular, text_dark, up to two lines"
+        }
+      ],
+      "illustration": {
+        "stop": "standing barbell curl with a light bar, halfway up, front view",
+        "do": "seated on an incline bench, arms hanging back, curling two dumbbells, side view"
+      },
+      "highlight": "biceps"
+    },
+    {
+      "n": 7,
+      "role": "swap 6",
+      "text": [
+        {
+          "string": "stop:",
+          "style": "small label, bold lowercase, text_body_grey"
+        },
+        {
+          "string": "crunches",
+          "style": "bold lowercase, text_body_grey, struck through with one accent line"
+        },
+        {
+          "string": "do this:",
+          "style": "small label, bold lowercase, accent"
+        },
+        {
+          "string": "hanging leg raise",
+          "style": "heaviest weight, lowercase, text_dark on an accent marker bar"
+        },
+        {
+          "string": "a bigger range for your abs, and no neck pulling.",
+          "style": "regular, text_dark, up to two lines"
+        }
+      ],
+      "illustration": {
+        "stop": "crunch on a mat, hands behind the head, side view",
+        "do": "hanging from a pull-up bar, straight legs raised to hip height, side view"
+      },
+      "highlight": "abs"
+    },
+    {
+      "n": 8,
+      "role": "product ending",
+      "text": [
+        {
+          "string": "harda tracks every set you lift, so you see which swap actually works for you.",
+          "style": "large, lowercase, heaviest weight, text_dark; accent marker bars under 'every set you lift' and 'actually works'"
+        },
+        {
+          "string": "log your workouts and watch your numbers go up.",
+          "style": "regular, text_dark, two lines"
+        }
+      ],
+      "screen": "real Harda Progress / Muscle balance screenshot, the same one as in approved LW-CAR-0022 slide 19",
+      "product_claims_checked_against_real_screen": [
+        "workouts are logged",
+        "muscle balance screen (LW-CAR-0022 slide 19)"
+      ]
+    }
+  ],
+  "claims_to_verify": [
+    "Own opinions, no numbers or citations. Swaps follow our tier lists: upright row and behind-the-neck pulldown (back F), db flys (chest C) → seated cable fly (chest A), bosu ball squat (legs F) → leg press (legs #1), 21s (biceps F) → incline db curl (biceps A), crunches → hanging leg raise (LW-CAR-0024 abs pick).",
+    "Ending: only workout logging."
+  ]
+}

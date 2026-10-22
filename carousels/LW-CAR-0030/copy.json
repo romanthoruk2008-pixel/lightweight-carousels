@@ -1,0 +1,209 @@
+{
+  "carousel_id": "LW-CAR-0030",
+  "content_version": "1.0",
+  "status": "frozen",
+  "type": "original",
+  "design_style": "S2",
+  "language": "en",
+  "background": "CLEAN",
+  "font_family": "REF-008 look: heavy tight grotesk for headlines, clean sans for body, italic for tier lines",
+  "colors": {
+    "accent": "#F26445",
+    "background": "#F0F1EB",
+    "text_dark": "#2A2A2A",
+    "text_body_grey": "#6B6B6B",
+    "white": "#FFFFFF"
+  },
+  "source": {
+    "ref_id": null,
+    "note": "Our own 'underrated exercises' carousel in the S2 look (owner request 2026-10-22). Same slide layout as LW-CAR-0024.",
+    "layout_from": "carousels/LW-CAR-0022/outputs (owner-approved S2, Harda logo)"
+  },
+  "caption": {
+    "text": "Which one have you never tried? 👇 Save this for later 📌 #gymtips #underratedexercises #workout #fitnesstips",
+    "notes": "comment prompt"
+  },
+  "slides": [
+    {
+      "n": 1,
+      "role": "hook",
+      "text": [
+        {
+          "string": "underrated",
+          "style": "cover line 1, lowercase, heaviest weight, text_dark"
+        },
+        {
+          "string": "exercises",
+          "style": "cover line 2, lowercase, heaviest weight, text_dark on an accent marker bar"
+        },
+        {
+          "string": "(nobody does these)",
+          "style": "italic, regular, text_body_grey"
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "role": "exercise seated leg curl",
+      "text": [
+        {
+          "string": "hamstrings",
+          "style": "small heading above the name, lowercase, bold, text_body_grey"
+        },
+        {
+          "string": "seated leg curl",
+          "style": "heaviest weight, lowercase, text_dark on an accent marker bar"
+        },
+        {
+          "string": "the stretch at your hip makes it a better curl than the lying one.",
+          "style": "regular, text_dark, up to two lines"
+        }
+      ],
+      "illustration": "seated leg curl machine, legs curled under the seat, side view",
+      "highlight": "hamstrings"
+    },
+    {
+      "n": 3,
+      "role": "exercise cable lateral raise",
+      "text": [
+        {
+          "string": "side delts",
+          "style": "small heading above the name, lowercase, bold, text_body_grey"
+        },
+        {
+          "string": "cable lateral raise",
+          "style": "heaviest weight, lowercase, text_dark on an accent marker bar"
+        },
+        {
+          "string": "tension right at the bottom, where dumbbells give you nothing.",
+          "style": "regular, text_dark, up to two lines"
+        }
+      ],
+      "illustration": "standing single-arm cable lateral raise from a low pulley, front view",
+      "highlight": "side delts"
+    },
+    {
+      "n": 4,
+      "role": "exercise deficit push-ups",
+      "text": [
+        {
+          "string": "chest",
+          "style": "small heading above the name, lowercase, bold, text_body_grey"
+        },
+        {
+          "string": "deficit push-ups",
+          "style": "heaviest weight, lowercase, text_dark on an accent marker bar"
+        },
+        {
+          "string": "a deeper stretch than normal push-ups, and no gym needed.",
+          "style": "regular, text_dark, up to two lines"
+        }
+      ],
+      "illustration": "push-up with each hand on a raised block or weight plate, chest lowered below the hands, side view",
+      "highlight": "chest"
+    },
+    {
+      "n": 5,
+      "role": "exercise reverse nordic",
+      "text": [
+        {
+          "string": "quads",
+          "style": "small heading above the name, lowercase, bold, text_body_grey"
+        },
+        {
+          "string": "reverse nordic",
+          "style": "heaviest weight, lowercase, text_dark on an accent marker bar"
+        },
+        {
+          "string": "loads your quads in a big stretch with just your bodyweight.",
+          "style": "regular, text_dark, up to two lines"
+        }
+      ],
+      "illustration": "kneeling upright on a mat, leaning the whole straight body backwards from the knees, side view",
+      "highlight": "quads"
+    },
+    {
+      "n": 6,
+      "role": "exercise farmer’s carry",
+      "text": [
+        {
+          "string": "grip & traps",
+          "style": "small heading above the name, lowercase, bold, text_body_grey"
+        },
+        {
+          "string": "farmer’s carry",
+          "style": "heaviest weight, lowercase, text_dark on an accent marker bar"
+        },
+        {
+          "string": "grip, traps and core in one walk.",
+          "style": "regular, text_dark, up to two lines"
+        }
+      ],
+      "illustration": "walking forward holding a heavy dumbbell in each hand at the sides, front three-quarter view",
+      "highlight": "forearms and traps"
+    },
+    {
+      "n": 7,
+      "role": "exercise tibialis raise",
+      "text": [
+        {
+          "string": "shins",
+          "style": "small heading above the name, lowercase, bold, text_body_grey"
+        },
+        {
+          "string": "tibialis raise",
+          "style": "heaviest weight, lowercase, text_dark on an accent marker bar"
+        },
+        {
+          "string": "the front of your shins. almost nobody trains them.",
+          "style": "regular, text_dark, up to two lines"
+        }
+      ],
+      "illustration": "standing with the back against a wall, heels on the floor, lifting the toes up, side view",
+      "highlight": "tibialis (front of the shins)"
+    },
+    {
+      "n": 8,
+      "role": "exercise copenhagen plank",
+      "text": [
+        {
+          "string": "inner thighs",
+          "style": "small heading above the name, lowercase, bold, text_body_grey"
+        },
+        {
+          "string": "copenhagen plank",
+          "style": "heaviest weight, lowercase, text_dark on an accent marker bar"
+        },
+        {
+          "string": "your inner thighs and core, no equipment at all.",
+          "style": "regular, text_dark, up to two lines"
+        }
+      ],
+      "illustration": "side plank with the top leg resting on a flat bench and the bottom leg hanging free, front three-quarter view",
+      "highlight": "adductors (inner thighs)"
+    },
+    {
+      "n": 9,
+      "role": "product ending",
+      "text": [
+        {
+          "string": "harda tracks every set you lift, so a new exercise gets a fair test.",
+          "style": "large, lowercase, heaviest weight, text_dark; accent marker bars under 'every set you lift' and 'a fair test'"
+        },
+        {
+          "string": "add one to your next workout and see how your numbers grow.",
+          "style": "regular, text_dark, two lines"
+        }
+      ],
+      "screen": "real Harda Progress / Muscle balance screenshot, the same one as in approved LW-CAR-0022 slide 19",
+      "product_claims_checked_against_real_screen": [
+        "workouts are logged",
+        "muscle balance screen (LW-CAR-0022 slide 19)"
+      ]
+    }
+  ],
+  "claims_to_verify": [
+    "Own opinions, no numbers or citations.",
+    "Ending: only workout logging."
+  ]
+}

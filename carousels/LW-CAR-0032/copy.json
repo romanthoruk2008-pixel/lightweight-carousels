@@ -1,0 +1,627 @@
+{
+  "carousel_id": "LW-CAR-0032",
+  "content_version": "1.0",
+  "status": "frozen",
+  "type": "original",
+  "design_style": "S2",
+  "language": "en",
+  "background": "CLEAN",
+  "font_family": "REF-008 look: heavy tight grotesk for headlines, clean sans for body, italic for tier lines",
+  "colors": {
+    "accent": "#F26445",
+    "background": "#F0F1EB",
+    "text_dark": "#2A2A2A",
+    "text_body_grey": "#6B6B6B",
+    "white": "#FFFFFF",
+    "tier_S": "#F26445",
+    "tier_A": "#FF9A52",
+    "tier_B": "#FFD95A",
+    "tier_C": "#3FCF5E",
+    "tier_F": "#5BDCE3",
+    "star_empty": "#D6D6D2"
+  },
+  "source": {
+    "ref_id": null,
+    "note": "Our own ranking of gym splits in the S2 look (owner request 2026-10-22). Harda supports splits (Push Pull Legs, 5x5, Fullbody cards in the app design).",
+    "layout_from": "carousels/LW-CAR-0022/outputs (owner-approved S2, Harda logo)"
+  },
+  "caption": {
+    "text": "Which split are you running? 👇 #gymsplit #pushpulllegs #workoutsplit #gymtips",
+    "notes": "comment prompt"
+  },
+  "slides": [
+    {
+      "n": 1,
+      "role": "hook",
+      "text": [
+        {
+          "string": "ranking every",
+          "style": "cover line 1, lowercase, heaviest weight, text_dark"
+        },
+        {
+          "string": "gym split",
+          "style": "cover line 2, lowercase, heaviest weight, text_dark on an accent marker bar"
+        },
+        {
+          "string": "(worst to best)",
+          "style": "italic, regular, text_body_grey"
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "role": "split #6",
+      "rating_stars": 2,
+      "text": [
+        {
+          "string": "#6",
+          "style": "heaviest weight, text_dark"
+        },
+        {
+          "string": "bro split",
+          "style": "heaviest weight, lowercase, text_dark on an accent marker bar"
+        },
+        {
+          "string": "every muscle once a week. fun pumps, slower progress.",
+          "style": "regular, text_dark, up to two lines"
+        },
+        {
+          "string": "best for:",
+          "style": "bold, lowercase, accent"
+        },
+        {
+          "string": "you love one big muscle day",
+          "style": "regular, text_dark, after 'best for:'"
+        },
+        {
+          "string": "mon",
+          "style": "day chip label, small bold lowercase, text_body_grey"
+        },
+        {
+          "string": "tue",
+          "style": "day chip label, small bold lowercase, text_body_grey"
+        },
+        {
+          "string": "wed",
+          "style": "day chip label, small bold lowercase, text_body_grey"
+        },
+        {
+          "string": "thu",
+          "style": "day chip label, small bold lowercase, text_body_grey"
+        },
+        {
+          "string": "fri",
+          "style": "day chip label, small bold lowercase, text_body_grey"
+        },
+        {
+          "string": "sat",
+          "style": "day chip label, small bold lowercase, text_body_grey"
+        },
+        {
+          "string": "sun",
+          "style": "day chip label, small bold lowercase, text_body_grey"
+        },
+        {
+          "string": "chest",
+          "style": "day chip content, bold lowercase; 'rest' in text_body_grey, others text_dark"
+        },
+        {
+          "string": "back",
+          "style": "day chip content, bold lowercase; 'rest' in text_body_grey, others text_dark"
+        },
+        {
+          "string": "shoulders",
+          "style": "day chip content, bold lowercase; 'rest' in text_body_grey, others text_dark"
+        },
+        {
+          "string": "arms",
+          "style": "day chip content, bold lowercase; 'rest' in text_body_grey, others text_dark"
+        },
+        {
+          "string": "legs",
+          "style": "day chip content, bold lowercase; 'rest' in text_body_grey, others text_dark"
+        },
+        {
+          "string": "rest",
+          "style": "day chip content, bold lowercase; 'rest' in text_body_grey, others text_dark"
+        },
+        {
+          "string": "rest",
+          "style": "day chip content, bold lowercase; 'rest' in text_body_grey, others text_dark"
+        }
+      ],
+      "week": {
+        "mon": "chest",
+        "tue": "back",
+        "wed": "shoulders",
+        "thu": "arms",
+        "fri": "legs",
+        "sat": "rest",
+        "sun": "rest"
+      }
+    },
+    {
+      "n": 3,
+      "role": "split #5",
+      "rating_stars": 3,
+      "text": [
+        {
+          "string": "#5",
+          "style": "heaviest weight, text_dark"
+        },
+        {
+          "string": "arnold split",
+          "style": "heaviest weight, lowercase, text_dark on an accent marker bar"
+        },
+        {
+          "string": "lots of volume, but six days a week is a lot.",
+          "style": "regular, text_dark, up to two lines"
+        },
+        {
+          "string": "best for:",
+          "style": "bold, lowercase, accent"
+        },
+        {
+          "string": "you can train 6 days",
+          "style": "regular, text_dark, after 'best for:'"
+        },
+        {
+          "string": "mon",
+          "style": "day chip label, small bold lowercase, text_body_grey"
+        },
+        {
+          "string": "tue",
+          "style": "day chip label, small bold lowercase, text_body_grey"
+        },
+        {
+          "string": "wed",
+          "style": "day chip label, small bold lowercase, text_body_grey"
+        },
+        {
+          "string": "thu",
+          "style": "day chip label, small bold lowercase, text_body_grey"
+        },
+        {
+          "string": "fri",
+          "style": "day chip label, small bold lowercase, text_body_grey"
+        },
+        {
+          "string": "sat",
+          "style": "day chip label, small bold lowercase, text_body_grey"
+        },
+        {
+          "string": "sun",
+          "style": "day chip label, small bold lowercase, text_body_grey"
+        },
+        {
+          "string": "chest + back",
+          "style": "day chip content, bold lowercase; 'rest' in text_body_grey, others text_dark"
+        },
+        {
+          "string": "shoulders + arms",
+          "style": "day chip content, bold lowercase; 'rest' in text_body_grey, others text_dark"
+        },
+        {
+          "string": "legs",
+          "style": "day chip content, bold lowercase; 'rest' in text_body_grey, others text_dark"
+        },
+        {
+          "string": "chest + back",
+          "style": "day chip content, bold lowercase; 'rest' in text_body_grey, others text_dark"
+        },
+        {
+          "string": "shoulders + arms",
+          "style": "day chip content, bold lowercase; 'rest' in text_body_grey, others text_dark"
+        },
+        {
+          "string": "legs",
+          "style": "day chip content, bold lowercase; 'rest' in text_body_grey, others text_dark"
+        },
+        {
+          "string": "rest",
+          "style": "day chip content, bold lowercase; 'rest' in text_body_grey, others text_dark"
+        }
+      ],
+      "week": {
+        "mon": "chest + back",
+        "tue": "shoulders + arms",
+        "wed": "legs",
+        "thu": "chest + back",
+        "fri": "shoulders + arms",
+        "sat": "legs",
+        "sun": "rest"
+      }
+    },
+    {
+      "n": 4,
+      "role": "split #4",
+      "rating_stars": 3.5,
+      "text": [
+        {
+          "string": "#4",
+          "style": "heaviest weight, text_dark"
+        },
+        {
+          "string": "full body",
+          "style": "heaviest weight, lowercase, text_dark on an accent marker bar"
+        },
+        {
+          "string": "every muscle often, but the sessions get long.",
+          "style": "regular, text_dark, up to two lines"
+        },
+        {
+          "string": "best for:",
+          "style": "bold, lowercase, accent"
+        },
+        {
+          "string": "beginners and busy weeks",
+          "style": "regular, text_dark, after 'best for:'"
+        },
+        {
+          "string": "mon",
+          "style": "day chip label, small bold lowercase, text_body_grey"
+        },
+        {
+          "string": "tue",
+          "style": "day chip label, small bold lowercase, text_body_grey"
+        },
+        {
+          "string": "wed",
+          "style": "day chip label, small bold lowercase, text_body_grey"
+        },
+        {
+          "string": "thu",
+          "style": "day chip label, small bold lowercase, text_body_grey"
+        },
+        {
+          "string": "fri",
+          "style": "day chip label, small bold lowercase, text_body_grey"
+        },
+        {
+          "string": "sat",
+          "style": "day chip label, small bold lowercase, text_body_grey"
+        },
+        {
+          "string": "sun",
+          "style": "day chip label, small bold lowercase, text_body_grey"
+        },
+        {
+          "string": "full body",
+          "style": "day chip content, bold lowercase; 'rest' in text_body_grey, others text_dark"
+        },
+        {
+          "string": "rest",
+          "style": "day chip content, bold lowercase; 'rest' in text_body_grey, others text_dark"
+        },
+        {
+          "string": "full body",
+          "style": "day chip content, bold lowercase; 'rest' in text_body_grey, others text_dark"
+        },
+        {
+          "string": "rest",
+          "style": "day chip content, bold lowercase; 'rest' in text_body_grey, others text_dark"
+        },
+        {
+          "string": "full body",
+          "style": "day chip content, bold lowercase; 'rest' in text_body_grey, others text_dark"
+        },
+        {
+          "string": "rest",
+          "style": "day chip content, bold lowercase; 'rest' in text_body_grey, others text_dark"
+        },
+        {
+          "string": "rest",
+          "style": "day chip content, bold lowercase; 'rest' in text_body_grey, others text_dark"
+        }
+      ],
+      "week": {
+        "mon": "full body",
+        "tue": "rest",
+        "wed": "full body",
+        "thu": "rest",
+        "fri": "full body",
+        "sat": "rest",
+        "sun": "rest"
+      }
+    },
+    {
+      "n": 5,
+      "role": "split #3",
+      "rating_stars": 4,
+      "text": [
+        {
+          "string": "#3",
+          "style": "heaviest weight, text_dark"
+        },
+        {
+          "string": "upper / lower",
+          "style": "heaviest weight, lowercase, text_dark on an accent marker bar"
+        },
+        {
+          "string": "every muscle twice a week in just 4 days.",
+          "style": "regular, text_dark, up to two lines"
+        },
+        {
+          "string": "best for:",
+          "style": "bold, lowercase, accent"
+        },
+        {
+          "string": "4 days a week",
+          "style": "regular, text_dark, after 'best for:'"
+        },
+        {
+          "string": "mon",
+          "style": "day chip label, small bold lowercase, text_body_grey"
+        },
+        {
+          "string": "tue",
+          "style": "day chip label, small bold lowercase, text_body_grey"
+        },
+        {
+          "string": "wed",
+          "style": "day chip label, small bold lowercase, text_body_grey"
+        },
+        {
+          "string": "thu",
+          "style": "day chip label, small bold lowercase, text_body_grey"
+        },
+        {
+          "string": "fri",
+          "style": "day chip label, small bold lowercase, text_body_grey"
+        },
+        {
+          "string": "sat",
+          "style": "day chip label, small bold lowercase, text_body_grey"
+        },
+        {
+          "string": "sun",
+          "style": "day chip label, small bold lowercase, text_body_grey"
+        },
+        {
+          "string": "upper",
+          "style": "day chip content, bold lowercase; 'rest' in text_body_grey, others text_dark"
+        },
+        {
+          "string": "lower",
+          "style": "day chip content, bold lowercase; 'rest' in text_body_grey, others text_dark"
+        },
+        {
+          "string": "rest",
+          "style": "day chip content, bold lowercase; 'rest' in text_body_grey, others text_dark"
+        },
+        {
+          "string": "upper",
+          "style": "day chip content, bold lowercase; 'rest' in text_body_grey, others text_dark"
+        },
+        {
+          "string": "lower",
+          "style": "day chip content, bold lowercase; 'rest' in text_body_grey, others text_dark"
+        },
+        {
+          "string": "rest",
+          "style": "day chip content, bold lowercase; 'rest' in text_body_grey, others text_dark"
+        },
+        {
+          "string": "rest",
+          "style": "day chip content, bold lowercase; 'rest' in text_body_grey, others text_dark"
+        }
+      ],
+      "week": {
+        "mon": "upper",
+        "tue": "lower",
+        "wed": "rest",
+        "thu": "upper",
+        "fri": "lower",
+        "sat": "rest",
+        "sun": "rest"
+      }
+    },
+    {
+      "n": 6,
+      "role": "split #2",
+      "rating_stars": 4.5,
+      "text": [
+        {
+          "string": "#2",
+          "style": "heaviest weight, text_dark"
+        },
+        {
+          "string": "push pull legs",
+          "style": "heaviest weight, lowercase, text_dark on an accent marker bar"
+        },
+        {
+          "string": "simple, balanced, and works at 3 or 6 days.",
+          "style": "regular, text_dark, up to two lines"
+        },
+        {
+          "string": "best for:",
+          "style": "bold, lowercase, accent"
+        },
+        {
+          "string": "3 or 6 days a week",
+          "style": "regular, text_dark, after 'best for:'"
+        },
+        {
+          "string": "mon",
+          "style": "day chip label, small bold lowercase, text_body_grey"
+        },
+        {
+          "string": "tue",
+          "style": "day chip label, small bold lowercase, text_body_grey"
+        },
+        {
+          "string": "wed",
+          "style": "day chip label, small bold lowercase, text_body_grey"
+        },
+        {
+          "string": "thu",
+          "style": "day chip label, small bold lowercase, text_body_grey"
+        },
+        {
+          "string": "fri",
+          "style": "day chip label, small bold lowercase, text_body_grey"
+        },
+        {
+          "string": "sat",
+          "style": "day chip label, small bold lowercase, text_body_grey"
+        },
+        {
+          "string": "sun",
+          "style": "day chip label, small bold lowercase, text_body_grey"
+        },
+        {
+          "string": "push",
+          "style": "day chip content, bold lowercase; 'rest' in text_body_grey, others text_dark"
+        },
+        {
+          "string": "pull",
+          "style": "day chip content, bold lowercase; 'rest' in text_body_grey, others text_dark"
+        },
+        {
+          "string": "legs",
+          "style": "day chip content, bold lowercase; 'rest' in text_body_grey, others text_dark"
+        },
+        {
+          "string": "push",
+          "style": "day chip content, bold lowercase; 'rest' in text_body_grey, others text_dark"
+        },
+        {
+          "string": "pull",
+          "style": "day chip content, bold lowercase; 'rest' in text_body_grey, others text_dark"
+        },
+        {
+          "string": "legs",
+          "style": "day chip content, bold lowercase; 'rest' in text_body_grey, others text_dark"
+        },
+        {
+          "string": "rest",
+          "style": "day chip content, bold lowercase; 'rest' in text_body_grey, others text_dark"
+        }
+      ],
+      "week": {
+        "mon": "push",
+        "tue": "pull",
+        "wed": "legs",
+        "thu": "push",
+        "fri": "pull",
+        "sat": "legs",
+        "sun": "rest"
+      }
+    },
+    {
+      "n": 7,
+      "role": "split #1",
+      "rating_stars": 5,
+      "text": [
+        {
+          "string": "#1",
+          "style": "heaviest weight, text_dark"
+        },
+        {
+          "string": "upper lower + ppl",
+          "style": "heaviest weight, lowercase, text_dark on an accent marker bar"
+        },
+        {
+          "string": "every muscle twice a week in 5 days, without the 6-day burnout.",
+          "style": "regular, text_dark, up to two lines"
+        },
+        {
+          "string": "best for:",
+          "style": "bold, lowercase, accent"
+        },
+        {
+          "string": "5 days a week",
+          "style": "regular, text_dark, after 'best for:'"
+        },
+        {
+          "string": "mon",
+          "style": "day chip label, small bold lowercase, text_body_grey"
+        },
+        {
+          "string": "tue",
+          "style": "day chip label, small bold lowercase, text_body_grey"
+        },
+        {
+          "string": "wed",
+          "style": "day chip label, small bold lowercase, text_body_grey"
+        },
+        {
+          "string": "thu",
+          "style": "day chip label, small bold lowercase, text_body_grey"
+        },
+        {
+          "string": "fri",
+          "style": "day chip label, small bold lowercase, text_body_grey"
+        },
+        {
+          "string": "sat",
+          "style": "day chip label, small bold lowercase, text_body_grey"
+        },
+        {
+          "string": "sun",
+          "style": "day chip label, small bold lowercase, text_body_grey"
+        },
+        {
+          "string": "upper",
+          "style": "day chip content, bold lowercase; 'rest' in text_body_grey, others text_dark"
+        },
+        {
+          "string": "lower",
+          "style": "day chip content, bold lowercase; 'rest' in text_body_grey, others text_dark"
+        },
+        {
+          "string": "rest",
+          "style": "day chip content, bold lowercase; 'rest' in text_body_grey, others text_dark"
+        },
+        {
+          "string": "push",
+          "style": "day chip content, bold lowercase; 'rest' in text_body_grey, others text_dark"
+        },
+        {
+          "string": "pull",
+          "style": "day chip content, bold lowercase; 'rest' in text_body_grey, others text_dark"
+        },
+        {
+          "string": "legs",
+          "style": "day chip content, bold lowercase; 'rest' in text_body_grey, others text_dark"
+        },
+        {
+          "string": "rest",
+          "style": "day chip content, bold lowercase; 'rest' in text_body_grey, others text_dark"
+        }
+      ],
+      "week": {
+        "mon": "upper",
+        "tue": "lower",
+        "wed": "rest",
+        "thu": "push",
+        "fri": "pull",
+        "sat": "legs",
+        "sun": "rest"
+      }
+    },
+    {
+      "n": 8,
+      "role": "product ending",
+      "text": [
+        {
+          "string": "set up your split in harda and track every set you lift.",
+          "style": "large, lowercase, heaviest weight, text_dark; accent marker bars under 'set up your split' and 'every set you lift'"
+        },
+        {
+          "string": "log your workouts and check your muscle balance, so every muscle gets its turn.",
+          "style": "regular, text_dark, two lines"
+        }
+      ],
+      "screen": "real Harda Progress / Muscle balance screenshot, the same one as in approved LW-CAR-0022 slide 19",
+      "product_claims_checked_against_real_screen": [
+        "workouts are logged",
+        "muscle balance screen (LW-CAR-0022 slide 19)"
+      ]
+    }
+  ],
+  "claims_to_verify": [
+    "Own opinions, no numbers or citations. 'every muscle twice a week' is true by construction for upper/lower and the hybrid.",
+    "Ending: 'set up your split in harda' relies on the split cards in the app (Push Pull Legs, 5x5, Fullbody, + Add). Owner to confirm that users can create their own split."
+  ]
+}
