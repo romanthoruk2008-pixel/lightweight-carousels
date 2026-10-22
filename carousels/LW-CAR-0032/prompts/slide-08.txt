@@ -1,0 +1,11 @@
+Create ONE finished Harda S2 portrait carousel slide, 1080 x 1350, 4:5. Match the supplied owner-approved LW-CAR-0022 reference for very heavy tight lowercase grotesk headlines, clean regular sans body, italic grey subtitle, flat coral markers and realistic WHITE/LIGHT-GREY anatomy mannequin, bald and faceless, fine grey shading, opaque black #2A2A2A shorts, smooth featureless pelvis, black/grey equipment. Athletic adult male proportions. Use reference for DESIGN ONLY, never its words or exercise content. All non-target anatomy white/light-grey; NO coloured muscles in this carousel. Solid opaque CLEAN #F0F1EB background, no texture or arch. Main type #2A2A2A, secondary #6B6B6B, coral #F26445, empty stars/borders #D6D6D2. Entire top 110px empty for the actual transparent Harda logo, to be composited later at x=48,y=19,size=218x71. Do not generate a logo, brand wordmark, watermark, signature, counter, decorative progress bar or extra text. Preserve exact lowercase, punctuation, spaces around / and +, numbers and hyphens. All text fully visible and never obscured.
+
+PRODUCT ENDING. Same composition as approved LW-CAR-0022 slide 19. Exact heaviest lowercase headline in these four left-aligned lines below y=110:
+set up your split
+in harda
+and track
+every set you lift.
+Coral marker bars behind `set up your split` and `every set you lift` ONLY. Preserve final period. Finish title above y=580. Exact regular body in two lines:
+log your workouts and check your muscle balance,
+so every muscle gets its turn.
+Finish body above y=700, leaving a visible gap before the phone. Lower right: same tall black phone, natural proportions, scale, tilt and placement as approved LW-CAR-0022 slide 19, top around y=730, held by a white/light-grey sketch-style anatomical hand, extending off bottom as needed. Second reference supplies blank-display template; ignore all its old copy and logo. Generated display MUST be EMPTY UNIFORM BLACK. No generated UI, icons, chart, axes, numbers, text or buttons on display. Actual approved real Progress / Muscle balance phone pixel layer will be inserted afterward at original scale with offset x=0,y=+200px as in approved ending. Never imitate UI. White/light-grey hand, not beige. No other words.

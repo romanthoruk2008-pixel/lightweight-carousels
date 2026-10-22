@@ -1,0 +1,639 @@
+{
+  "carousel_id": "LW-CAR-0032",
+  "content_version": "1.0",
+  "source_commit": "37fce2d27f2123af0af10966567dc3bef28fa9cf",
+  "branch": "claude/charming-einstein-xgejky",
+  "target_branch": "claude/charming-einstein-xgejky",
+  "batch": "B",
+  "batch_task": "carousels/BATCH-B.md",
+  "design_style": "S2",
+  "status": "complete",
+  "carousel_complete": true,
+  "scope": {
+    "total_slides": 8,
+    "authorized_slides": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ]
+  },
+  "reference_id": null,
+  "reference_use": "Approved LW-CAR-0022 for S2 cover, rank headline/stars/type and ending. Seven-card week visual and small figure follow the new task; every week entry copied exactly from frozen copy.json v1.0.",
+  "font_family": "REF-008 look: heavy tight grotesk for headlines, clean sans for body, italic for tier lines",
+  "background": "CLEAN #F0F1EB",
+  "logo": {
+    "file": "assets/logo/harda-logo-full.png",
+    "position": [
+      48,
+      19
+    ],
+    "size": [
+      218,
+      71
+    ],
+    "old_lightweight_logo_used": false
+  },
+  "generated_images": [
+    "outputs/slide-01.png",
+    "outputs/slide-02.png",
+    "outputs/slide-03.png",
+    "outputs/slide-04.png",
+    "outputs/slide-05.png",
+    "outputs/slide-06.png",
+    "outputs/slide-07.png",
+    "outputs/slide-08.png"
+  ],
+  "blocked_slides": [],
+  "next_slide_to_generate": null,
+  "approved_slides": [],
+  "pending_review_slides": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "user_review": "pending",
+  "agent_visual_review": "not_performed",
+  "next_action": "Owner reviews all generated slides at the end of Batch B.",
+  "caption": "caption.txt",
+  "remote_save": {
+    "remote": "origin",
+    "branch": "claude/charming-einstein-xgejky",
+    "status": "pushed_to_target_branch",
+    "method": "One complete-carousel commit and immediate push under BATCH-B.md.",
+    "commit_lookup": "git log -1 -- carousels/LW-CAR-0032/manifest.json"
+  },
+  "slides": [
+    {
+      "slide": 1,
+      "content_version": "1.0",
+      "role": "hook",
+      "exact_text": [
+        "ranking every",
+        "gym split",
+        "(worst to best)"
+      ],
+      "file": "outputs/slide-01.png",
+      "prompt": "Create ONE finished Harda S2 portrait carousel slide, 1080 x 1350, 4:5. Match the supplied owner-approved LW-CAR-0022 reference for very heavy tight lowercase grotesk headlines, clean regular sans body, italic grey subtitle, flat coral markers and realistic WHITE/LIGHT-GREY anatomy mannequin, bald and faceless, fine grey shading, opaque black #2A2A2A shorts, smooth featureless pelvis, black/grey equipment. Athletic adult male proportions. Use reference for DESIGN ONLY, never its words or exercise content. All non-target anatomy white/light-grey; NO coloured muscles in this carousel. Solid opaque CLEAN #F0F1EB background, no texture or arch. Main type #2A2A2A, secondary #6B6B6B, coral #F26445, empty stars/borders #D6D6D2. Entire top 110px empty for the actual transparent Harda logo, to be composited later at x=48,y=19,size=218x71. Do not generate a logo, brand wordmark, watermark, signature, counter, decorative progress bar or extra text. Preserve exact lowercase, punctuation, spaces around / and +, numbers and hyphens. All text fully visible and never obscured.\n\nCOVER, same centered headline/marker/italic subtitle composition as approved reference. Exact lines:\nranking every\ngym split\n(worst to best)\nVery heavy tight lowercase grotesk for first two lines; coral marker behind ONLY `gym split`; regular italic grey `(worst to best)` below. Lower half: one large WHITE/LIGHT-GREY mannequin from the THIGHS UP, FRONT VIEW, holding a small OPEN NOTEBOOK in one hand like a training plan, other hand on hip, confident upright posture. Blank notebook pages: NO readable words, numbers, UI or drawings. Opaque black shorts, smooth featureless pelvis, no colored muscles. No other words or symbols.",
+      "prompt_file": "prompts/slide-01.txt",
+      "reference": [
+        "carousels/LW-CAR-0022/outputs/slide-01.png"
+      ],
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "carousels/LW-CAR-0022/outputs/slide-01.png"
+          ],
+          "prompt": "Create ONE finished Harda S2 portrait carousel slide, 1080 x 1350, 4:5. Match the supplied owner-approved LW-CAR-0022 reference for very heavy tight lowercase grotesk headlines, clean regular sans body, italic grey subtitle, flat coral markers and realistic WHITE/LIGHT-GREY anatomy mannequin, bald and faceless, fine grey shading, opaque black #2A2A2A shorts, smooth featureless pelvis, black/grey equipment. Athletic adult male proportions. Use reference for DESIGN ONLY, never its words or exercise content. All non-target anatomy white/light-grey; NO coloured muscles in this carousel. Solid opaque CLEAN #F0F1EB background, no texture or arch. Main type #2A2A2A, secondary #6B6B6B, coral #F26445, empty stars/borders #D6D6D2. Entire top 110px empty for the actual transparent Harda logo, to be composited later at x=48,y=19,size=218x71. Do not generate a logo, brand wordmark, watermark, signature, counter, decorative progress bar or extra text. Preserve exact lowercase, punctuation, spaces around / and +, numbers and hyphens. All text fully visible and never obscured.\n\nCOVER, same centered headline/marker/italic subtitle composition as approved reference. Exact lines:\nranking every\ngym split\n(worst to best)\nVery heavy tight lowercase grotesk for first two lines; coral marker behind ONLY `gym split`; regular italic grey `(worst to best)` below. Lower half: one large WHITE/LIGHT-GREY mannequin from the THIGHS UP, FRONT VIEW, holding a small OPEN NOTEBOOK in one hand like a training plan, other hand on hip, confident upright posture. Blank notebook pages: NO readable words, numbers, UI or drawings. Opaque black shorts, smooth featureless pelvis, no colored muscles. No other words or symbols.",
+          "prompt_file": "prompts/slide-01.txt",
+          "raw_result_file": "/workspace/generated_images/exec-88156cf0-0c50-4607-b6fe-340b4c99f657.png",
+          "preserved_raw_file": "production-assets/slide-01-generated.png",
+          "result_file": "outputs/slide-01.png",
+          "export": {
+            "raw_size": [
+              1122,
+              1402
+            ],
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "has_alpha": false,
+            "logo": "Official transparent logo composited at x=48,y=19,size=218x71; no background patch."
+          }
+        }
+      ],
+      "errors": [],
+      "save_status": "pushed_to_target_branch",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 2,
+      "content_version": "1.0",
+      "role": "split #6",
+      "exact_text": [
+        "#6",
+        "bro split",
+        "every muscle once a week. fun pumps, slower progress.",
+        "best for:",
+        "you love one big muscle day",
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "chest",
+        "back",
+        "shoulders",
+        "arms",
+        "legs",
+        "rest",
+        "rest"
+      ],
+      "file": "outputs/slide-02.png",
+      "prompt": "Create ONE finished Harda S2 portrait carousel slide, 1080 x 1350, 4:5. Match the supplied owner-approved LW-CAR-0022 reference for very heavy tight lowercase grotesk headlines, clean regular sans body, italic grey subtitle, flat coral markers and realistic WHITE/LIGHT-GREY anatomy mannequin, bald and faceless, fine grey shading, opaque black #2A2A2A shorts, smooth featureless pelvis, black/grey equipment. Athletic adult male proportions. Use reference for DESIGN ONLY, never its words or exercise content. All non-target anatomy white/light-grey; NO coloured muscles in this carousel. Solid opaque CLEAN #F0F1EB background, no texture or arch. Main type #2A2A2A, secondary #6B6B6B, coral #F26445, empty stars/borders #D6D6D2. Entire top 110px empty for the actual transparent Harda logo, to be composited later at x=48,y=19,size=218x71. Do not generate a logo, brand wordmark, watermark, signature, counter, decorative progress bar or extra text. Preserve exact lowercase, punctuation, spaces around / and +, numbers and hyphens. All text fully visible and never obscured.\n\nSPLIT RANKING LAYOUT — use IDENTICAL geometry on all six ranking slides. Top-left, below y=110: rank number and split name in heaviest tight lowercase grotesk #2A2A2A; flat coral marker behind SPLIT NAME ONLY, not behind rank. Long name may wrap onto two lines with marker behind each line. Below it a row of EXACTLY FIVE five-point stars, with filled/half/empty colors as specified. Then regular #2A2A2A body, up to two lines; then one line with `best for:` in bold coral and its following text in regular #2A2A2A. Finish upper copy above y=560.\n\nLOWER HALF MAIN VISUAL: exactly SEVEN rounded day cards, two rows. Row 1 left to right = mon, tue, wed, thu. Row 2 left to right = fri, sat, sun. No eighth card. Suggested geometry: cards about 210px wide and 170px tall, first row y=650 to 820, second row y=850 to 1020, with generous gaps and side margins. Each card has a thin #D6D6D2 border. Day label at top = small bold lowercase grey #6B6B6B; training label below = bold lowercase dark #2A2A2A on WHITE #FFFFFF, with a thin coral #F26445 LEFT EDGE. If content is `rest`, card fill #F0F1EB, text #6B6B6B and NO coral edge. Keep every day/training label fully visible inside its own card. Long training labels such as `shoulders + arms` may wrap naturally to two lines, preserving all words and the + character. Do not add month, dates, headings, icons or extra week/day cards. This is a simple editorial week diagram, not an app interface.\n\nBOTTOM RIGHT: ONE SMALL fully visible white/light-grey mannequin doing the specified exercise, black shorts and equipment. Place it in the clear right/bottom space below or beside the week cards, never overlapping a card or any text. The seven-card week strip remains much larger and more prominent than this small figure. No colored muscles, no tier tiles and no extra text.\n\nEXACT UPPER TEXT:\nrank: `#6`\nsplit name on marker: `bro split`\nregular body: `every muscle once a week. fun pumps, slower progress.`\ncoral label: `best for:`\nregular best-for text: `you love one big muscle day`\n\nSTAR ROW: exactly five stars, left to right: 2 full coral #F26445, 0 half star (LEFT half coral, RIGHT half #D6D6D2), then 3 empty grey #D6D6D2. Do not print a rating number or the word stars.\n\nEXACT WEEK CONTENT — each day printed once in its own card, its training label below it:\nmon: `chest`\ntue: `back`\nwed: `shoulders`\nthu: `arms`\nfri: `legs`\nsat: `rest`\nsun: `rest`\n\nSMALL BOTTOM-RIGHT FIGURE: a barbell bench press on a flat bench, side view, fully separated from the week cards. No other words.",
+      "prompt_file": "prompts/slide-02.txt",
+      "reference": [
+        "carousels/LW-CAR-0022/outputs/slide-03.png"
+      ],
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "carousels/LW-CAR-0022/outputs/slide-03.png"
+          ],
+          "prompt": "Create ONE finished Harda S2 portrait carousel slide, 1080 x 1350, 4:5. Match the supplied owner-approved LW-CAR-0022 reference for very heavy tight lowercase grotesk headlines, clean regular sans body, italic grey subtitle, flat coral markers and realistic WHITE/LIGHT-GREY anatomy mannequin, bald and faceless, fine grey shading, opaque black #2A2A2A shorts, smooth featureless pelvis, black/grey equipment. Athletic adult male proportions. Use reference for DESIGN ONLY, never its words or exercise content. All non-target anatomy white/light-grey; NO coloured muscles in this carousel. Solid opaque CLEAN #F0F1EB background, no texture or arch. Main type #2A2A2A, secondary #6B6B6B, coral #F26445, empty stars/borders #D6D6D2. Entire top 110px empty for the actual transparent Harda logo, to be composited later at x=48,y=19,size=218x71. Do not generate a logo, brand wordmark, watermark, signature, counter, decorative progress bar or extra text. Preserve exact lowercase, punctuation, spaces around / and +, numbers and hyphens. All text fully visible and never obscured.\n\nSPLIT RANKING LAYOUT — use IDENTICAL geometry on all six ranking slides. Top-left, below y=110: rank number and split name in heaviest tight lowercase grotesk #2A2A2A; flat coral marker behind SPLIT NAME ONLY, not behind rank. Long name may wrap onto two lines with marker behind each line. Below it a row of EXACTLY FIVE five-point stars, with filled/half/empty colors as specified. Then regular #2A2A2A body, up to two lines; then one line with `best for:` in bold coral and its following text in regular #2A2A2A. Finish upper copy above y=560.\n\nLOWER HALF MAIN VISUAL: exactly SEVEN rounded day cards, two rows. Row 1 left to right = mon, tue, wed, thu. Row 2 left to right = fri, sat, sun. No eighth card. Suggested geometry: cards about 210px wide and 170px tall, first row y=650 to 820, second row y=850 to 1020, with generous gaps and side margins. Each card has a thin #D6D6D2 border. Day label at top = small bold lowercase grey #6B6B6B; training label below = bold lowercase dark #2A2A2A on WHITE #FFFFFF, with a thin coral #F26445 LEFT EDGE. If content is `rest`, card fill #F0F1EB, text #6B6B6B and NO coral edge. Keep every day/training label fully visible inside its own card. Long training labels such as `shoulders + arms` may wrap naturally to two lines, preserving all words and the + character. Do not add month, dates, headings, icons or extra week/day cards. This is a simple editorial week diagram, not an app interface.\n\nBOTTOM RIGHT: ONE SMALL fully visible white/light-grey mannequin doing the specified exercise, black shorts and equipment. Place it in the clear right/bottom space below or beside the week cards, never overlapping a card or any text. The seven-card week strip remains much larger and more prominent than this small figure. No colored muscles, no tier tiles and no extra text.\n\nEXACT UPPER TEXT:\nrank: `#6`\nsplit name on marker: `bro split`\nregular body: `every muscle once a week. fun pumps, slower progress.`\ncoral label: `best for:`\nregular best-for text: `you love one big muscle day`\n\nSTAR ROW: exactly five stars, left to right: 2 full coral #F26445, 0 half star (LEFT half coral, RIGHT half #D6D6D2), then 3 empty grey #D6D6D2. Do not print a rating number or the word stars.\n\nEXACT WEEK CONTENT — each day printed once in its own card, its training label below it:\nmon: `chest`\ntue: `back`\nwed: `shoulders`\nthu: `arms`\nfri: `legs`\nsat: `rest`\nsun: `rest`\n\nSMALL BOTTOM-RIGHT FIGURE: a barbell bench press on a flat bench, side view, fully separated from the week cards. No other words.",
+          "prompt_file": "prompts/slide-02.txt",
+          "raw_result_file": "/workspace/generated_images/exec-a7825687-9828-456b-b33f-aadcd09568a6.png",
+          "preserved_raw_file": "production-assets/slide-02-generated.png",
+          "result_file": "outputs/slide-02.png",
+          "export": {
+            "raw_size": [
+              1122,
+              1402
+            ],
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "has_alpha": false,
+            "logo": "Official transparent logo composited at x=48,y=19,size=218x71; no background patch."
+          }
+        }
+      ],
+      "errors": [],
+      "save_status": "pushed_to_target_branch",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending",
+      "week": {
+        "mon": "chest",
+        "tue": "back",
+        "wed": "shoulders",
+        "thu": "arms",
+        "fri": "legs",
+        "sat": "rest",
+        "sun": "rest"
+      },
+      "rating_stars": 2
+    },
+    {
+      "slide": 3,
+      "content_version": "1.0",
+      "role": "split #5",
+      "exact_text": [
+        "#5",
+        "arnold split",
+        "lots of volume, but six days a week is a lot.",
+        "best for:",
+        "you can train 6 days",
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "chest + back",
+        "shoulders + arms",
+        "legs",
+        "chest + back",
+        "shoulders + arms",
+        "legs",
+        "rest"
+      ],
+      "file": "outputs/slide-03.png",
+      "prompt": "Create ONE finished Harda S2 portrait carousel slide, 1080 x 1350, 4:5. Match the supplied owner-approved LW-CAR-0022 reference for very heavy tight lowercase grotesk headlines, clean regular sans body, italic grey subtitle, flat coral markers and realistic WHITE/LIGHT-GREY anatomy mannequin, bald and faceless, fine grey shading, opaque black #2A2A2A shorts, smooth featureless pelvis, black/grey equipment. Athletic adult male proportions. Use reference for DESIGN ONLY, never its words or exercise content. All non-target anatomy white/light-grey; NO coloured muscles in this carousel. Solid opaque CLEAN #F0F1EB background, no texture or arch. Main type #2A2A2A, secondary #6B6B6B, coral #F26445, empty stars/borders #D6D6D2. Entire top 110px empty for the actual transparent Harda logo, to be composited later at x=48,y=19,size=218x71. Do not generate a logo, brand wordmark, watermark, signature, counter, decorative progress bar or extra text. Preserve exact lowercase, punctuation, spaces around / and +, numbers and hyphens. All text fully visible and never obscured.\n\nSPLIT RANKING LAYOUT — use IDENTICAL geometry on all six ranking slides. Top-left, below y=110: rank number and split name in heaviest tight lowercase grotesk #2A2A2A; flat coral marker behind SPLIT NAME ONLY, not behind rank. Long name may wrap onto two lines with marker behind each line. Below it a row of EXACTLY FIVE five-point stars, with filled/half/empty colors as specified. Then regular #2A2A2A body, up to two lines; then one line with `best for:` in bold coral and its following text in regular #2A2A2A. Finish upper copy above y=560.\n\nLOWER HALF MAIN VISUAL: exactly SEVEN rounded day cards, two rows. Row 1 left to right = mon, tue, wed, thu. Row 2 left to right = fri, sat, sun. No eighth card. Suggested geometry: cards about 210px wide and 170px tall, first row y=650 to 820, second row y=850 to 1020, with generous gaps and side margins. Each card has a thin #D6D6D2 border. Day label at top = small bold lowercase grey #6B6B6B; training label below = bold lowercase dark #2A2A2A on WHITE #FFFFFF, with a thin coral #F26445 LEFT EDGE. If content is `rest`, card fill #F0F1EB, text #6B6B6B and NO coral edge. Keep every day/training label fully visible inside its own card. Long training labels such as `shoulders + arms` may wrap naturally to two lines, preserving all words and the + character. Do not add month, dates, headings, icons or extra week/day cards. This is a simple editorial week diagram, not an app interface.\n\nBOTTOM RIGHT: ONE SMALL fully visible white/light-grey mannequin doing the specified exercise, black shorts and equipment. Place it in the clear right/bottom space below or beside the week cards, never overlapping a card or any text. The seven-card week strip remains much larger and more prominent than this small figure. No colored muscles, no tier tiles and no extra text.\n\nEXACT UPPER TEXT:\nrank: `#5`\nsplit name on marker: `arnold split`\nregular body: `lots of volume, but six days a week is a lot.`\ncoral label: `best for:`\nregular best-for text: `you can train 6 days`\n\nSTAR ROW: exactly five stars, left to right: 3 full coral #F26445, 0 half star (LEFT half coral, RIGHT half #D6D6D2), then 2 empty grey #D6D6D2. Do not print a rating number or the word stars.\n\nEXACT WEEK CONTENT — each day printed once in its own card, its training label below it:\nmon: `chest + back`\ntue: `shoulders + arms`\nwed: `legs`\nthu: `chest + back`\nfri: `shoulders + arms`\nsat: `legs`\nsun: `rest`\n\nSMALL BOTTOM-RIGHT FIGURE: a pull-up on a compact pull-up bar, rear view, fully separated from the week cards. No other words.",
+      "prompt_file": "prompts/slide-03.txt",
+      "reference": [
+        "carousels/LW-CAR-0022/outputs/slide-03.png"
+      ],
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "carousels/LW-CAR-0022/outputs/slide-03.png"
+          ],
+          "prompt": "Create ONE finished Harda S2 portrait carousel slide, 1080 x 1350, 4:5. Match the supplied owner-approved LW-CAR-0022 reference for very heavy tight lowercase grotesk headlines, clean regular sans body, italic grey subtitle, flat coral markers and realistic WHITE/LIGHT-GREY anatomy mannequin, bald and faceless, fine grey shading, opaque black #2A2A2A shorts, smooth featureless pelvis, black/grey equipment. Athletic adult male proportions. Use reference for DESIGN ONLY, never its words or exercise content. All non-target anatomy white/light-grey; NO coloured muscles in this carousel. Solid opaque CLEAN #F0F1EB background, no texture or arch. Main type #2A2A2A, secondary #6B6B6B, coral #F26445, empty stars/borders #D6D6D2. Entire top 110px empty for the actual transparent Harda logo, to be composited later at x=48,y=19,size=218x71. Do not generate a logo, brand wordmark, watermark, signature, counter, decorative progress bar or extra text. Preserve exact lowercase, punctuation, spaces around / and +, numbers and hyphens. All text fully visible and never obscured.\n\nSPLIT RANKING LAYOUT — use IDENTICAL geometry on all six ranking slides. Top-left, below y=110: rank number and split name in heaviest tight lowercase grotesk #2A2A2A; flat coral marker behind SPLIT NAME ONLY, not behind rank. Long name may wrap onto two lines with marker behind each line. Below it a row of EXACTLY FIVE five-point stars, with filled/half/empty colors as specified. Then regular #2A2A2A body, up to two lines; then one line with `best for:` in bold coral and its following text in regular #2A2A2A. Finish upper copy above y=560.\n\nLOWER HALF MAIN VISUAL: exactly SEVEN rounded day cards, two rows. Row 1 left to right = mon, tue, wed, thu. Row 2 left to right = fri, sat, sun. No eighth card. Suggested geometry: cards about 210px wide and 170px tall, first row y=650 to 820, second row y=850 to 1020, with generous gaps and side margins. Each card has a thin #D6D6D2 border. Day label at top = small bold lowercase grey #6B6B6B; training label below = bold lowercase dark #2A2A2A on WHITE #FFFFFF, with a thin coral #F26445 LEFT EDGE. If content is `rest`, card fill #F0F1EB, text #6B6B6B and NO coral edge. Keep every day/training label fully visible inside its own card. Long training labels such as `shoulders + arms` may wrap naturally to two lines, preserving all words and the + character. Do not add month, dates, headings, icons or extra week/day cards. This is a simple editorial week diagram, not an app interface.\n\nBOTTOM RIGHT: ONE SMALL fully visible white/light-grey mannequin doing the specified exercise, black shorts and equipment. Place it in the clear right/bottom space below or beside the week cards, never overlapping a card or any text. The seven-card week strip remains much larger and more prominent than this small figure. No colored muscles, no tier tiles and no extra text.\n\nEXACT UPPER TEXT:\nrank: `#5`\nsplit name on marker: `arnold split`\nregular body: `lots of volume, but six days a week is a lot.`\ncoral label: `best for:`\nregular best-for text: `you can train 6 days`\n\nSTAR ROW: exactly five stars, left to right: 3 full coral #F26445, 0 half star (LEFT half coral, RIGHT half #D6D6D2), then 2 empty grey #D6D6D2. Do not print a rating number or the word stars.\n\nEXACT WEEK CONTENT — each day printed once in its own card, its training label below it:\nmon: `chest + back`\ntue: `shoulders + arms`\nwed: `legs`\nthu: `chest + back`\nfri: `shoulders + arms`\nsat: `legs`\nsun: `rest`\n\nSMALL BOTTOM-RIGHT FIGURE: a pull-up on a compact pull-up bar, rear view, fully separated from the week cards. No other words.",
+          "prompt_file": "prompts/slide-03.txt",
+          "raw_result_file": "/workspace/generated_images/exec-0b84836e-1a02-4b48-a72f-a8a0b85afc67.png",
+          "preserved_raw_file": "production-assets/slide-03-generated.png",
+          "result_file": "outputs/slide-03.png",
+          "export": {
+            "raw_size": [
+              1122,
+              1402
+            ],
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "has_alpha": false,
+            "logo": "Official transparent logo composited at x=48,y=19,size=218x71; no background patch."
+          }
+        }
+      ],
+      "errors": [],
+      "save_status": "pushed_to_target_branch",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending",
+      "week": {
+        "mon": "chest + back",
+        "tue": "shoulders + arms",
+        "wed": "legs",
+        "thu": "chest + back",
+        "fri": "shoulders + arms",
+        "sat": "legs",
+        "sun": "rest"
+      },
+      "rating_stars": 3
+    },
+    {
+      "slide": 4,
+      "content_version": "1.0",
+      "role": "split #4",
+      "exact_text": [
+        "#4",
+        "full body",
+        "every muscle often, but the sessions get long.",
+        "best for:",
+        "beginners and busy weeks",
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "full body",
+        "rest",
+        "full body",
+        "rest",
+        "full body",
+        "rest",
+        "rest"
+      ],
+      "file": "outputs/slide-04.png",
+      "prompt": "Create ONE finished Harda S2 portrait carousel slide, 1080 x 1350, 4:5. Match the supplied owner-approved LW-CAR-0022 reference for very heavy tight lowercase grotesk headlines, clean regular sans body, italic grey subtitle, flat coral markers and realistic WHITE/LIGHT-GREY anatomy mannequin, bald and faceless, fine grey shading, opaque black #2A2A2A shorts, smooth featureless pelvis, black/grey equipment. Athletic adult male proportions. Use reference for DESIGN ONLY, never its words or exercise content. All non-target anatomy white/light-grey; NO coloured muscles in this carousel. Solid opaque CLEAN #F0F1EB background, no texture or arch. Main type #2A2A2A, secondary #6B6B6B, coral #F26445, empty stars/borders #D6D6D2. Entire top 110px empty for the actual transparent Harda logo, to be composited later at x=48,y=19,size=218x71. Do not generate a logo, brand wordmark, watermark, signature, counter, decorative progress bar or extra text. Preserve exact lowercase, punctuation, spaces around / and +, numbers and hyphens. All text fully visible and never obscured.\n\nSPLIT RANKING LAYOUT — use IDENTICAL geometry on all six ranking slides. Top-left, below y=110: rank number and split name in heaviest tight lowercase grotesk #2A2A2A; flat coral marker behind SPLIT NAME ONLY, not behind rank. Long name may wrap onto two lines with marker behind each line. Below it a row of EXACTLY FIVE five-point stars, with filled/half/empty colors as specified. Then regular #2A2A2A body, up to two lines; then one line with `best for:` in bold coral and its following text in regular #2A2A2A. Finish upper copy above y=560.\n\nLOWER HALF MAIN VISUAL: exactly SEVEN rounded day cards, two rows. Row 1 left to right = mon, tue, wed, thu. Row 2 left to right = fri, sat, sun. No eighth card. Suggested geometry: cards about 210px wide and 170px tall, first row y=650 to 820, second row y=850 to 1020, with generous gaps and side margins. Each card has a thin #D6D6D2 border. Day label at top = small bold lowercase grey #6B6B6B; training label below = bold lowercase dark #2A2A2A on WHITE #FFFFFF, with a thin coral #F26445 LEFT EDGE. If content is `rest`, card fill #F0F1EB, text #6B6B6B and NO coral edge. Keep every day/training label fully visible inside its own card. Long training labels such as `shoulders + arms` may wrap naturally to two lines, preserving all words and the + character. Do not add month, dates, headings, icons or extra week/day cards. This is a simple editorial week diagram, not an app interface.\n\nBOTTOM RIGHT: ONE SMALL fully visible white/light-grey mannequin doing the specified exercise, black shorts and equipment. Place it in the clear right/bottom space below or beside the week cards, never overlapping a card or any text. The seven-card week strip remains much larger and more prominent than this small figure. No colored muscles, no tier tiles and no extra text.\n\nEXACT UPPER TEXT:\nrank: `#4`\nsplit name on marker: `full body`\nregular body: `every muscle often, but the sessions get long.`\ncoral label: `best for:`\nregular best-for text: `beginners and busy weeks`\n\nSTAR ROW: exactly five stars, left to right: 3 full coral #F26445, 1 half star (LEFT half coral, RIGHT half #D6D6D2), then 1 empty grey #D6D6D2. Do not print a rating number or the word stars.\n\nEXACT WEEK CONTENT — each day printed once in its own card, its training label below it:\nmon: `full body`\ntue: `rest`\nwed: `full body`\nthu: `rest`\nfri: `full body`\nsat: `rest`\nsun: `rest`\n\nSMALL BOTTOM-RIGHT FIGURE: a barbell back squat, side three-quarter view, fully separated from the week cards. No other words.",
+      "prompt_file": "prompts/slide-04.txt",
+      "reference": [
+        "carousels/LW-CAR-0022/outputs/slide-03.png"
+      ],
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "carousels/LW-CAR-0022/outputs/slide-03.png"
+          ],
+          "prompt": "Create ONE finished Harda S2 portrait carousel slide, 1080 x 1350, 4:5. Match the supplied owner-approved LW-CAR-0022 reference for very heavy tight lowercase grotesk headlines, clean regular sans body, italic grey subtitle, flat coral markers and realistic WHITE/LIGHT-GREY anatomy mannequin, bald and faceless, fine grey shading, opaque black #2A2A2A shorts, smooth featureless pelvis, black/grey equipment. Athletic adult male proportions. Use reference for DESIGN ONLY, never its words or exercise content. All non-target anatomy white/light-grey; NO coloured muscles in this carousel. Solid opaque CLEAN #F0F1EB background, no texture or arch. Main type #2A2A2A, secondary #6B6B6B, coral #F26445, empty stars/borders #D6D6D2. Entire top 110px empty for the actual transparent Harda logo, to be composited later at x=48,y=19,size=218x71. Do not generate a logo, brand wordmark, watermark, signature, counter, decorative progress bar or extra text. Preserve exact lowercase, punctuation, spaces around / and +, numbers and hyphens. All text fully visible and never obscured.\n\nSPLIT RANKING LAYOUT — use IDENTICAL geometry on all six ranking slides. Top-left, below y=110: rank number and split name in heaviest tight lowercase grotesk #2A2A2A; flat coral marker behind SPLIT NAME ONLY, not behind rank. Long name may wrap onto two lines with marker behind each line. Below it a row of EXACTLY FIVE five-point stars, with filled/half/empty colors as specified. Then regular #2A2A2A body, up to two lines; then one line with `best for:` in bold coral and its following text in regular #2A2A2A. Finish upper copy above y=560.\n\nLOWER HALF MAIN VISUAL: exactly SEVEN rounded day cards, two rows. Row 1 left to right = mon, tue, wed, thu. Row 2 left to right = fri, sat, sun. No eighth card. Suggested geometry: cards about 210px wide and 170px tall, first row y=650 to 820, second row y=850 to 1020, with generous gaps and side margins. Each card has a thin #D6D6D2 border. Day label at top = small bold lowercase grey #6B6B6B; training label below = bold lowercase dark #2A2A2A on WHITE #FFFFFF, with a thin coral #F26445 LEFT EDGE. If content is `rest`, card fill #F0F1EB, text #6B6B6B and NO coral edge. Keep every day/training label fully visible inside its own card. Long training labels such as `shoulders + arms` may wrap naturally to two lines, preserving all words and the + character. Do not add month, dates, headings, icons or extra week/day cards. This is a simple editorial week diagram, not an app interface.\n\nBOTTOM RIGHT: ONE SMALL fully visible white/light-grey mannequin doing the specified exercise, black shorts and equipment. Place it in the clear right/bottom space below or beside the week cards, never overlapping a card or any text. The seven-card week strip remains much larger and more prominent than this small figure. No colored muscles, no tier tiles and no extra text.\n\nEXACT UPPER TEXT:\nrank: `#4`\nsplit name on marker: `full body`\nregular body: `every muscle often, but the sessions get long.`\ncoral label: `best for:`\nregular best-for text: `beginners and busy weeks`\n\nSTAR ROW: exactly five stars, left to right: 3 full coral #F26445, 1 half star (LEFT half coral, RIGHT half #D6D6D2), then 1 empty grey #D6D6D2. Do not print a rating number or the word stars.\n\nEXACT WEEK CONTENT — each day printed once in its own card, its training label below it:\nmon: `full body`\ntue: `rest`\nwed: `full body`\nthu: `rest`\nfri: `full body`\nsat: `rest`\nsun: `rest`\n\nSMALL BOTTOM-RIGHT FIGURE: a barbell back squat, side three-quarter view, fully separated from the week cards. No other words.",
+          "prompt_file": "prompts/slide-04.txt",
+          "raw_result_file": "/workspace/generated_images/exec-be4fd9e8-e638-4057-a7b7-af4bd8762a70.png",
+          "preserved_raw_file": "production-assets/slide-04-generated.png",
+          "result_file": "outputs/slide-04.png",
+          "export": {
+            "raw_size": [
+              1122,
+              1402
+            ],
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "has_alpha": false,
+            "logo": "Official transparent logo composited at x=48,y=19,size=218x71; no background patch."
+          }
+        }
+      ],
+      "errors": [],
+      "save_status": "pushed_to_target_branch",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending",
+      "week": {
+        "mon": "full body",
+        "tue": "rest",
+        "wed": "full body",
+        "thu": "rest",
+        "fri": "full body",
+        "sat": "rest",
+        "sun": "rest"
+      },
+      "rating_stars": 3.5
+    },
+    {
+      "slide": 5,
+      "content_version": "1.0",
+      "role": "split #3",
+      "exact_text": [
+        "#3",
+        "upper / lower",
+        "every muscle twice a week in just 4 days.",
+        "best for:",
+        "4 days a week",
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "upper",
+        "lower",
+        "rest",
+        "upper",
+        "lower",
+        "rest",
+        "rest"
+      ],
+      "file": "outputs/slide-05.png",
+      "prompt": "Create ONE finished Harda S2 portrait carousel slide, 1080 x 1350, 4:5. Match the supplied owner-approved LW-CAR-0022 reference for very heavy tight lowercase grotesk headlines, clean regular sans body, italic grey subtitle, flat coral markers and realistic WHITE/LIGHT-GREY anatomy mannequin, bald and faceless, fine grey shading, opaque black #2A2A2A shorts, smooth featureless pelvis, black/grey equipment. Athletic adult male proportions. Use reference for DESIGN ONLY, never its words or exercise content. All non-target anatomy white/light-grey; NO coloured muscles in this carousel. Solid opaque CLEAN #F0F1EB background, no texture or arch. Main type #2A2A2A, secondary #6B6B6B, coral #F26445, empty stars/borders #D6D6D2. Entire top 110px empty for the actual transparent Harda logo, to be composited later at x=48,y=19,size=218x71. Do not generate a logo, brand wordmark, watermark, signature, counter, decorative progress bar or extra text. Preserve exact lowercase, punctuation, spaces around / and +, numbers and hyphens. All text fully visible and never obscured.\n\nSPLIT RANKING LAYOUT — use IDENTICAL geometry on all six ranking slides. Top-left, below y=110: rank number and split name in heaviest tight lowercase grotesk #2A2A2A; flat coral marker behind SPLIT NAME ONLY, not behind rank. Long name may wrap onto two lines with marker behind each line. Below it a row of EXACTLY FIVE five-point stars, with filled/half/empty colors as specified. Then regular #2A2A2A body, up to two lines; then one line with `best for:` in bold coral and its following text in regular #2A2A2A. Finish upper copy above y=560.\n\nLOWER HALF MAIN VISUAL: exactly SEVEN rounded day cards, two rows. Row 1 left to right = mon, tue, wed, thu. Row 2 left to right = fri, sat, sun. No eighth card. Suggested geometry: cards about 210px wide and 170px tall, first row y=650 to 820, second row y=850 to 1020, with generous gaps and side margins. Each card has a thin #D6D6D2 border. Day label at top = small bold lowercase grey #6B6B6B; training label below = bold lowercase dark #2A2A2A on WHITE #FFFFFF, with a thin coral #F26445 LEFT EDGE. If content is `rest`, card fill #F0F1EB, text #6B6B6B and NO coral edge. Keep every day/training label fully visible inside its own card. Long training labels such as `shoulders + arms` may wrap naturally to two lines, preserving all words and the + character. Do not add month, dates, headings, icons or extra week/day cards. This is a simple editorial week diagram, not an app interface.\n\nBOTTOM RIGHT: ONE SMALL fully visible white/light-grey mannequin doing the specified exercise, black shorts and equipment. Place it in the clear right/bottom space below or beside the week cards, never overlapping a card or any text. The seven-card week strip remains much larger and more prominent than this small figure. No colored muscles, no tier tiles and no extra text.\n\nEXACT UPPER TEXT:\nrank: `#3`\nsplit name on marker: `upper / lower`\nregular body: `every muscle twice a week in just 4 days.`\ncoral label: `best for:`\nregular best-for text: `4 days a week`\n\nSTAR ROW: exactly five stars, left to right: 4 full coral #F26445, 0 half star (LEFT half coral, RIGHT half #D6D6D2), then 1 empty grey #D6D6D2. Do not print a rating number or the word stars.\n\nEXACT WEEK CONTENT — each day printed once in its own card, its training label below it:\nmon: `upper`\ntue: `lower`\nwed: `rest`\nthu: `upper`\nfri: `lower`\nsat: `rest`\nsun: `rest`\n\nSMALL BOTTOM-RIGHT FIGURE: a barbell back squat, side view, fully separated from the week cards. No other words.",
+      "prompt_file": "prompts/slide-05.txt",
+      "reference": [
+        "carousels/LW-CAR-0022/outputs/slide-03.png"
+      ],
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "carousels/LW-CAR-0022/outputs/slide-03.png"
+          ],
+          "prompt": "Create ONE finished Harda S2 portrait carousel slide, 1080 x 1350, 4:5. Match the supplied owner-approved LW-CAR-0022 reference for very heavy tight lowercase grotesk headlines, clean regular sans body, italic grey subtitle, flat coral markers and realistic WHITE/LIGHT-GREY anatomy mannequin, bald and faceless, fine grey shading, opaque black #2A2A2A shorts, smooth featureless pelvis, black/grey equipment. Athletic adult male proportions. Use reference for DESIGN ONLY, never its words or exercise content. All non-target anatomy white/light-grey; NO coloured muscles in this carousel. Solid opaque CLEAN #F0F1EB background, no texture or arch. Main type #2A2A2A, secondary #6B6B6B, coral #F26445, empty stars/borders #D6D6D2. Entire top 110px empty for the actual transparent Harda logo, to be composited later at x=48,y=19,size=218x71. Do not generate a logo, brand wordmark, watermark, signature, counter, decorative progress bar or extra text. Preserve exact lowercase, punctuation, spaces around / and +, numbers and hyphens. All text fully visible and never obscured.\n\nSPLIT RANKING LAYOUT — use IDENTICAL geometry on all six ranking slides. Top-left, below y=110: rank number and split name in heaviest tight lowercase grotesk #2A2A2A; flat coral marker behind SPLIT NAME ONLY, not behind rank. Long name may wrap onto two lines with marker behind each line. Below it a row of EXACTLY FIVE five-point stars, with filled/half/empty colors as specified. Then regular #2A2A2A body, up to two lines; then one line with `best for:` in bold coral and its following text in regular #2A2A2A. Finish upper copy above y=560.\n\nLOWER HALF MAIN VISUAL: exactly SEVEN rounded day cards, two rows. Row 1 left to right = mon, tue, wed, thu. Row 2 left to right = fri, sat, sun. No eighth card. Suggested geometry: cards about 210px wide and 170px tall, first row y=650 to 820, second row y=850 to 1020, with generous gaps and side margins. Each card has a thin #D6D6D2 border. Day label at top = small bold lowercase grey #6B6B6B; training label below = bold lowercase dark #2A2A2A on WHITE #FFFFFF, with a thin coral #F26445 LEFT EDGE. If content is `rest`, card fill #F0F1EB, text #6B6B6B and NO coral edge. Keep every day/training label fully visible inside its own card. Long training labels such as `shoulders + arms` may wrap naturally to two lines, preserving all words and the + character. Do not add month, dates, headings, icons or extra week/day cards. This is a simple editorial week diagram, not an app interface.\n\nBOTTOM RIGHT: ONE SMALL fully visible white/light-grey mannequin doing the specified exercise, black shorts and equipment. Place it in the clear right/bottom space below or beside the week cards, never overlapping a card or any text. The seven-card week strip remains much larger and more prominent than this small figure. No colored muscles, no tier tiles and no extra text.\n\nEXACT UPPER TEXT:\nrank: `#3`\nsplit name on marker: `upper / lower`\nregular body: `every muscle twice a week in just 4 days.`\ncoral label: `best for:`\nregular best-for text: `4 days a week`\n\nSTAR ROW: exactly five stars, left to right: 4 full coral #F26445, 0 half star (LEFT half coral, RIGHT half #D6D6D2), then 1 empty grey #D6D6D2. Do not print a rating number or the word stars.\n\nEXACT WEEK CONTENT — each day printed once in its own card, its training label below it:\nmon: `upper`\ntue: `lower`\nwed: `rest`\nthu: `upper`\nfri: `lower`\nsat: `rest`\nsun: `rest`\n\nSMALL BOTTOM-RIGHT FIGURE: a barbell back squat, side view, fully separated from the week cards. No other words.",
+          "prompt_file": "prompts/slide-05.txt",
+          "raw_result_file": "/workspace/generated_images/exec-00a0077a-6acd-4799-afdd-106e20e81089.png",
+          "preserved_raw_file": "production-assets/slide-05-generated.png",
+          "result_file": "outputs/slide-05.png",
+          "export": {
+            "raw_size": [
+              1122,
+              1402
+            ],
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "has_alpha": false,
+            "logo": "Official transparent logo composited at x=48,y=19,size=218x71; no background patch."
+          }
+        }
+      ],
+      "errors": [],
+      "save_status": "pushed_to_target_branch",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending",
+      "week": {
+        "mon": "upper",
+        "tue": "lower",
+        "wed": "rest",
+        "thu": "upper",
+        "fri": "lower",
+        "sat": "rest",
+        "sun": "rest"
+      },
+      "rating_stars": 4
+    },
+    {
+      "slide": 6,
+      "content_version": "1.0",
+      "role": "split #2",
+      "exact_text": [
+        "#2",
+        "push pull legs",
+        "simple, balanced, and works at 3 or 6 days.",
+        "best for:",
+        "3 or 6 days a week",
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "push",
+        "pull",
+        "legs",
+        "push",
+        "pull",
+        "legs",
+        "rest"
+      ],
+      "file": "outputs/slide-06.png",
+      "prompt": "Create ONE finished Harda S2 portrait carousel slide, 1080 x 1350, 4:5. Match the supplied owner-approved LW-CAR-0022 reference for very heavy tight lowercase grotesk headlines, clean regular sans body, italic grey subtitle, flat coral markers and realistic WHITE/LIGHT-GREY anatomy mannequin, bald and faceless, fine grey shading, opaque black #2A2A2A shorts, smooth featureless pelvis, black/grey equipment. Athletic adult male proportions. Use reference for DESIGN ONLY, never its words or exercise content. All non-target anatomy white/light-grey; NO coloured muscles in this carousel. Solid opaque CLEAN #F0F1EB background, no texture or arch. Main type #2A2A2A, secondary #6B6B6B, coral #F26445, empty stars/borders #D6D6D2. Entire top 110px empty for the actual transparent Harda logo, to be composited later at x=48,y=19,size=218x71. Do not generate a logo, brand wordmark, watermark, signature, counter, decorative progress bar or extra text. Preserve exact lowercase, punctuation, spaces around / and +, numbers and hyphens. All text fully visible and never obscured.\n\nSPLIT RANKING LAYOUT — use IDENTICAL geometry on all six ranking slides. Top-left, below y=110: rank number and split name in heaviest tight lowercase grotesk #2A2A2A; flat coral marker behind SPLIT NAME ONLY, not behind rank. Long name may wrap onto two lines with marker behind each line. Below it a row of EXACTLY FIVE five-point stars, with filled/half/empty colors as specified. Then regular #2A2A2A body, up to two lines; then one line with `best for:` in bold coral and its following text in regular #2A2A2A. Finish upper copy above y=560.\n\nLOWER HALF MAIN VISUAL: exactly SEVEN rounded day cards, two rows. Row 1 left to right = mon, tue, wed, thu. Row 2 left to right = fri, sat, sun. No eighth card. Suggested geometry: cards about 210px wide and 170px tall, first row y=650 to 820, second row y=850 to 1020, with generous gaps and side margins. Each card has a thin #D6D6D2 border. Day label at top = small bold lowercase grey #6B6B6B; training label below = bold lowercase dark #2A2A2A on WHITE #FFFFFF, with a thin coral #F26445 LEFT EDGE. If content is `rest`, card fill #F0F1EB, text #6B6B6B and NO coral edge. Keep every day/training label fully visible inside its own card. Long training labels such as `shoulders + arms` may wrap naturally to two lines, preserving all words and the + character. Do not add month, dates, headings, icons or extra week/day cards. This is a simple editorial week diagram, not an app interface.\n\nBOTTOM RIGHT: ONE SMALL fully visible white/light-grey mannequin doing the specified exercise, black shorts and equipment. Place it in the clear right/bottom space below or beside the week cards, never overlapping a card or any text. The seven-card week strip remains much larger and more prominent than this small figure. No colored muscles, no tier tiles and no extra text.\n\nEXACT UPPER TEXT:\nrank: `#2`\nsplit name on marker: `push pull legs`\nregular body: `simple, balanced, and works at 3 or 6 days.`\ncoral label: `best for:`\nregular best-for text: `3 or 6 days a week`\n\nSTAR ROW: exactly five stars, left to right: 4 full coral #F26445, 1 half star (LEFT half coral, RIGHT half #D6D6D2), then 0 empty grey #D6D6D2. Do not print a rating number or the word stars.\n\nEXACT WEEK CONTENT — each day printed once in its own card, its training label below it:\nmon: `push`\ntue: `pull`\nwed: `legs`\nthu: `push`\nfri: `pull`\nsat: `legs`\nsun: `rest`\n\nSMALL BOTTOM-RIGHT FIGURE: a pull-up on a compact pull-up bar, rear view, fully separated from the week cards. No other words.",
+      "prompt_file": "prompts/slide-06.txt",
+      "reference": [
+        "carousels/LW-CAR-0022/outputs/slide-03.png"
+      ],
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "carousels/LW-CAR-0022/outputs/slide-03.png"
+          ],
+          "prompt": "Create ONE finished Harda S2 portrait carousel slide, 1080 x 1350, 4:5. Match the supplied owner-approved LW-CAR-0022 reference for very heavy tight lowercase grotesk headlines, clean regular sans body, italic grey subtitle, flat coral markers and realistic WHITE/LIGHT-GREY anatomy mannequin, bald and faceless, fine grey shading, opaque black #2A2A2A shorts, smooth featureless pelvis, black/grey equipment. Athletic adult male proportions. Use reference for DESIGN ONLY, never its words or exercise content. All non-target anatomy white/light-grey; NO coloured muscles in this carousel. Solid opaque CLEAN #F0F1EB background, no texture or arch. Main type #2A2A2A, secondary #6B6B6B, coral #F26445, empty stars/borders #D6D6D2. Entire top 110px empty for the actual transparent Harda logo, to be composited later at x=48,y=19,size=218x71. Do not generate a logo, brand wordmark, watermark, signature, counter, decorative progress bar or extra text. Preserve exact lowercase, punctuation, spaces around / and +, numbers and hyphens. All text fully visible and never obscured.\n\nSPLIT RANKING LAYOUT — use IDENTICAL geometry on all six ranking slides. Top-left, below y=110: rank number and split name in heaviest tight lowercase grotesk #2A2A2A; flat coral marker behind SPLIT NAME ONLY, not behind rank. Long name may wrap onto two lines with marker behind each line. Below it a row of EXACTLY FIVE five-point stars, with filled/half/empty colors as specified. Then regular #2A2A2A body, up to two lines; then one line with `best for:` in bold coral and its following text in regular #2A2A2A. Finish upper copy above y=560.\n\nLOWER HALF MAIN VISUAL: exactly SEVEN rounded day cards, two rows. Row 1 left to right = mon, tue, wed, thu. Row 2 left to right = fri, sat, sun. No eighth card. Suggested geometry: cards about 210px wide and 170px tall, first row y=650 to 820, second row y=850 to 1020, with generous gaps and side margins. Each card has a thin #D6D6D2 border. Day label at top = small bold lowercase grey #6B6B6B; training label below = bold lowercase dark #2A2A2A on WHITE #FFFFFF, with a thin coral #F26445 LEFT EDGE. If content is `rest`, card fill #F0F1EB, text #6B6B6B and NO coral edge. Keep every day/training label fully visible inside its own card. Long training labels such as `shoulders + arms` may wrap naturally to two lines, preserving all words and the + character. Do not add month, dates, headings, icons or extra week/day cards. This is a simple editorial week diagram, not an app interface.\n\nBOTTOM RIGHT: ONE SMALL fully visible white/light-grey mannequin doing the specified exercise, black shorts and equipment. Place it in the clear right/bottom space below or beside the week cards, never overlapping a card or any text. The seven-card week strip remains much larger and more prominent than this small figure. No colored muscles, no tier tiles and no extra text.\n\nEXACT UPPER TEXT:\nrank: `#2`\nsplit name on marker: `push pull legs`\nregular body: `simple, balanced, and works at 3 or 6 days.`\ncoral label: `best for:`\nregular best-for text: `3 or 6 days a week`\n\nSTAR ROW: exactly five stars, left to right: 4 full coral #F26445, 1 half star (LEFT half coral, RIGHT half #D6D6D2), then 0 empty grey #D6D6D2. Do not print a rating number or the word stars.\n\nEXACT WEEK CONTENT — each day printed once in its own card, its training label below it:\nmon: `push`\ntue: `pull`\nwed: `legs`\nthu: `push`\nfri: `pull`\nsat: `legs`\nsun: `rest`\n\nSMALL BOTTOM-RIGHT FIGURE: a pull-up on a compact pull-up bar, rear view, fully separated from the week cards. No other words.",
+          "prompt_file": "prompts/slide-06.txt",
+          "raw_result_file": "/workspace/generated_images/exec-2daa5db6-7e7a-49d3-9ca0-b1e1940318a6.png",
+          "preserved_raw_file": "production-assets/slide-06-generated.png",
+          "result_file": "outputs/slide-06.png",
+          "export": {
+            "raw_size": [
+              1122,
+              1402
+            ],
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "has_alpha": false,
+            "logo": "Official transparent logo composited at x=48,y=19,size=218x71; no background patch."
+          }
+        }
+      ],
+      "errors": [],
+      "save_status": "pushed_to_target_branch",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending",
+      "week": {
+        "mon": "push",
+        "tue": "pull",
+        "wed": "legs",
+        "thu": "push",
+        "fri": "pull",
+        "sat": "legs",
+        "sun": "rest"
+      },
+      "rating_stars": 4.5
+    },
+    {
+      "slide": 7,
+      "content_version": "1.0",
+      "role": "split #1",
+      "exact_text": [
+        "#1",
+        "upper lower + ppl",
+        "every muscle twice a week in 5 days, without the 6-day burnout.",
+        "best for:",
+        "5 days a week",
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "upper",
+        "lower",
+        "rest",
+        "push",
+        "pull",
+        "legs",
+        "rest"
+      ],
+      "file": "outputs/slide-07.png",
+      "prompt": "Create ONE finished Harda S2 portrait carousel slide, 1080 x 1350, 4:5. Match the supplied owner-approved LW-CAR-0022 reference for very heavy tight lowercase grotesk headlines, clean regular sans body, italic grey subtitle, flat coral markers and realistic WHITE/LIGHT-GREY anatomy mannequin, bald and faceless, fine grey shading, opaque black #2A2A2A shorts, smooth featureless pelvis, black/grey equipment. Athletic adult male proportions. Use reference for DESIGN ONLY, never its words or exercise content. All non-target anatomy white/light-grey; NO coloured muscles in this carousel. Solid opaque CLEAN #F0F1EB background, no texture or arch. Main type #2A2A2A, secondary #6B6B6B, coral #F26445, empty stars/borders #D6D6D2. Entire top 110px empty for the actual transparent Harda logo, to be composited later at x=48,y=19,size=218x71. Do not generate a logo, brand wordmark, watermark, signature, counter, decorative progress bar or extra text. Preserve exact lowercase, punctuation, spaces around / and +, numbers and hyphens. All text fully visible and never obscured.\n\nSPLIT RANKING LAYOUT — use IDENTICAL geometry on all six ranking slides. Top-left, below y=110: rank number and split name in heaviest tight lowercase grotesk #2A2A2A; flat coral marker behind SPLIT NAME ONLY, not behind rank. Long name may wrap onto two lines with marker behind each line. Below it a row of EXACTLY FIVE five-point stars, with filled/half/empty colors as specified. Then regular #2A2A2A body, up to two lines; then one line with `best for:` in bold coral and its following text in regular #2A2A2A. Finish upper copy above y=560.\n\nLOWER HALF MAIN VISUAL: exactly SEVEN rounded day cards, two rows. Row 1 left to right = mon, tue, wed, thu. Row 2 left to right = fri, sat, sun. No eighth card. Suggested geometry: cards about 210px wide and 170px tall, first row y=650 to 820, second row y=850 to 1020, with generous gaps and side margins. Each card has a thin #D6D6D2 border. Day label at top = small bold lowercase grey #6B6B6B; training label below = bold lowercase dark #2A2A2A on WHITE #FFFFFF, with a thin coral #F26445 LEFT EDGE. If content is `rest`, card fill #F0F1EB, text #6B6B6B and NO coral edge. Keep every day/training label fully visible inside its own card. Long training labels such as `shoulders + arms` may wrap naturally to two lines, preserving all words and the + character. Do not add month, dates, headings, icons or extra week/day cards. This is a simple editorial week diagram, not an app interface.\n\nBOTTOM RIGHT: ONE SMALL fully visible white/light-grey mannequin doing the specified exercise, black shorts and equipment. Place it in the clear right/bottom space below or beside the week cards, never overlapping a card or any text. The seven-card week strip remains much larger and more prominent than this small figure. No colored muscles, no tier tiles and no extra text.\n\nEXACT UPPER TEXT:\nrank: `#1`\nsplit name on marker: `upper lower + ppl`\nregular body: `every muscle twice a week in 5 days, without the 6-day burnout.`\ncoral label: `best for:`\nregular best-for text: `5 days a week`\n\nSTAR ROW: exactly five stars, left to right: 5 full coral #F26445, 0 half star (LEFT half coral, RIGHT half #D6D6D2), then 0 empty grey #D6D6D2. Do not print a rating number or the word stars.\n\nEXACT WEEK CONTENT — each day printed once in its own card, its training label below it:\nmon: `upper`\ntue: `lower`\nwed: `rest`\nthu: `push`\nfri: `pull`\nsat: `legs`\nsun: `rest`\n\nSMALL BOTTOM-RIGHT FIGURE: a barbell bench press on a flat bench, side view, fully separated from the week cards. No other words.",
+      "prompt_file": "prompts/slide-07.txt",
+      "reference": [
+        "carousels/LW-CAR-0022/outputs/slide-03.png"
+      ],
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "carousels/LW-CAR-0022/outputs/slide-03.png"
+          ],
+          "prompt": "Create ONE finished Harda S2 portrait carousel slide, 1080 x 1350, 4:5. Match the supplied owner-approved LW-CAR-0022 reference for very heavy tight lowercase grotesk headlines, clean regular sans body, italic grey subtitle, flat coral markers and realistic WHITE/LIGHT-GREY anatomy mannequin, bald and faceless, fine grey shading, opaque black #2A2A2A shorts, smooth featureless pelvis, black/grey equipment. Athletic adult male proportions. Use reference for DESIGN ONLY, never its words or exercise content. All non-target anatomy white/light-grey; NO coloured muscles in this carousel. Solid opaque CLEAN #F0F1EB background, no texture or arch. Main type #2A2A2A, secondary #6B6B6B, coral #F26445, empty stars/borders #D6D6D2. Entire top 110px empty for the actual transparent Harda logo, to be composited later at x=48,y=19,size=218x71. Do not generate a logo, brand wordmark, watermark, signature, counter, decorative progress bar or extra text. Preserve exact lowercase, punctuation, spaces around / and +, numbers and hyphens. All text fully visible and never obscured.\n\nSPLIT RANKING LAYOUT — use IDENTICAL geometry on all six ranking slides. Top-left, below y=110: rank number and split name in heaviest tight lowercase grotesk #2A2A2A; flat coral marker behind SPLIT NAME ONLY, not behind rank. Long name may wrap onto two lines with marker behind each line. Below it a row of EXACTLY FIVE five-point stars, with filled/half/empty colors as specified. Then regular #2A2A2A body, up to two lines; then one line with `best for:` in bold coral and its following text in regular #2A2A2A. Finish upper copy above y=560.\n\nLOWER HALF MAIN VISUAL: exactly SEVEN rounded day cards, two rows. Row 1 left to right = mon, tue, wed, thu. Row 2 left to right = fri, sat, sun. No eighth card. Suggested geometry: cards about 210px wide and 170px tall, first row y=650 to 820, second row y=850 to 1020, with generous gaps and side margins. Each card has a thin #D6D6D2 border. Day label at top = small bold lowercase grey #6B6B6B; training label below = bold lowercase dark #2A2A2A on WHITE #FFFFFF, with a thin coral #F26445 LEFT EDGE. If content is `rest`, card fill #F0F1EB, text #6B6B6B and NO coral edge. Keep every day/training label fully visible inside its own card. Long training labels such as `shoulders + arms` may wrap naturally to two lines, preserving all words and the + character. Do not add month, dates, headings, icons or extra week/day cards. This is a simple editorial week diagram, not an app interface.\n\nBOTTOM RIGHT: ONE SMALL fully visible white/light-grey mannequin doing the specified exercise, black shorts and equipment. Place it in the clear right/bottom space below or beside the week cards, never overlapping a card or any text. The seven-card week strip remains much larger and more prominent than this small figure. No colored muscles, no tier tiles and no extra text.\n\nEXACT UPPER TEXT:\nrank: `#1`\nsplit name on marker: `upper lower + ppl`\nregular body: `every muscle twice a week in 5 days, without the 6-day burnout.`\ncoral label: `best for:`\nregular best-for text: `5 days a week`\n\nSTAR ROW: exactly five stars, left to right: 5 full coral #F26445, 0 half star (LEFT half coral, RIGHT half #D6D6D2), then 0 empty grey #D6D6D2. Do not print a rating number or the word stars.\n\nEXACT WEEK CONTENT — each day printed once in its own card, its training label below it:\nmon: `upper`\ntue: `lower`\nwed: `rest`\nthu: `push`\nfri: `pull`\nsat: `legs`\nsun: `rest`\n\nSMALL BOTTOM-RIGHT FIGURE: a barbell bench press on a flat bench, side view, fully separated from the week cards. No other words.",
+          "prompt_file": "prompts/slide-07.txt",
+          "raw_result_file": "/workspace/generated_images/exec-c6fac833-069d-40dc-b66c-5a1443e0a7ac.png",
+          "preserved_raw_file": "production-assets/slide-07-generated.png",
+          "result_file": "outputs/slide-07.png",
+          "export": {
+            "raw_size": [
+              1092,
+              1440
+            ],
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "has_alpha": false,
+            "logo": "Official transparent logo composited at x=48,y=19,size=218x71; no background patch."
+          }
+        }
+      ],
+      "errors": [],
+      "save_status": "pushed_to_target_branch",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending",
+      "week": {
+        "mon": "upper",
+        "tue": "lower",
+        "wed": "rest",
+        "thu": "push",
+        "fri": "pull",
+        "sat": "legs",
+        "sun": "rest"
+      },
+      "rating_stars": 5
+    },
+    {
+      "slide": 8,
+      "content_version": "1.0",
+      "role": "product ending",
+      "exact_text": [
+        "set up your split in harda and track every set you lift.",
+        "log your workouts and check your muscle balance, so every muscle gets its turn."
+      ],
+      "file": "outputs/slide-08.png",
+      "prompt": "Create ONE finished Harda S2 portrait carousel slide, 1080 x 1350, 4:5. Match the supplied owner-approved LW-CAR-0022 reference for very heavy tight lowercase grotesk headlines, clean regular sans body, italic grey subtitle, flat coral markers and realistic WHITE/LIGHT-GREY anatomy mannequin, bald and faceless, fine grey shading, opaque black #2A2A2A shorts, smooth featureless pelvis, black/grey equipment. Athletic adult male proportions. Use reference for DESIGN ONLY, never its words or exercise content. All non-target anatomy white/light-grey; NO coloured muscles in this carousel. Solid opaque CLEAN #F0F1EB background, no texture or arch. Main type #2A2A2A, secondary #6B6B6B, coral #F26445, empty stars/borders #D6D6D2. Entire top 110px empty for the actual transparent Harda logo, to be composited later at x=48,y=19,size=218x71. Do not generate a logo, brand wordmark, watermark, signature, counter, decorative progress bar or extra text. Preserve exact lowercase, punctuation, spaces around / and +, numbers and hyphens. All text fully visible and never obscured.\n\nPRODUCT ENDING. Same composition as approved LW-CAR-0022 slide 19. Exact heaviest lowercase headline in these four left-aligned lines below y=110:\nset up your split\nin harda\nand track\nevery set you lift.\nCoral marker bars behind `set up your split` and `every set you lift` ONLY. Preserve final period. Finish title above y=580. Exact regular body in two lines:\nlog your workouts and check your muscle balance,\nso every muscle gets its turn.\nFinish body above y=700, leaving a visible gap before the phone. Lower right: same tall black phone, natural proportions, scale, tilt and placement as approved LW-CAR-0022 slide 19, top around y=730, held by a white/light-grey sketch-style anatomical hand, extending off bottom as needed. Second reference supplies blank-display template; ignore all its old copy and logo. Generated display MUST be EMPTY UNIFORM BLACK. No generated UI, icons, chart, axes, numbers, text or buttons on display. Actual approved real Progress / Muscle balance phone pixel layer will be inserted afterward at original scale with offset x=0,y=+200px as in approved ending. Never imitate UI. White/light-grey hand, not beige. No other words.",
+      "prompt_file": "prompts/slide-08.txt",
+      "reference": [
+        "carousels/LW-CAR-0022/outputs/slide-19.png",
+        "carousels/LW-CAR-0020/production-assets/slide-19-generated-blank-display.png"
+      ],
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "carousels/LW-CAR-0022/outputs/slide-19.png",
+            "carousels/LW-CAR-0020/production-assets/slide-19-generated-blank-display.png"
+          ],
+          "prompt": "Create ONE finished Harda S2 portrait carousel slide, 1080 x 1350, 4:5. Match the supplied owner-approved LW-CAR-0022 reference for very heavy tight lowercase grotesk headlines, clean regular sans body, italic grey subtitle, flat coral markers and realistic WHITE/LIGHT-GREY anatomy mannequin, bald and faceless, fine grey shading, opaque black #2A2A2A shorts, smooth featureless pelvis, black/grey equipment. Athletic adult male proportions. Use reference for DESIGN ONLY, never its words or exercise content. All non-target anatomy white/light-grey; NO coloured muscles in this carousel. Solid opaque CLEAN #F0F1EB background, no texture or arch. Main type #2A2A2A, secondary #6B6B6B, coral #F26445, empty stars/borders #D6D6D2. Entire top 110px empty for the actual transparent Harda logo, to be composited later at x=48,y=19,size=218x71. Do not generate a logo, brand wordmark, watermark, signature, counter, decorative progress bar or extra text. Preserve exact lowercase, punctuation, spaces around / and +, numbers and hyphens. All text fully visible and never obscured.\n\nPRODUCT ENDING. Same composition as approved LW-CAR-0022 slide 19. Exact heaviest lowercase headline in these four left-aligned lines below y=110:\nset up your split\nin harda\nand track\nevery set you lift.\nCoral marker bars behind `set up your split` and `every set you lift` ONLY. Preserve final period. Finish title above y=580. Exact regular body in two lines:\nlog your workouts and check your muscle balance,\nso every muscle gets its turn.\nFinish body above y=700, leaving a visible gap before the phone. Lower right: same tall black phone, natural proportions, scale, tilt and placement as approved LW-CAR-0022 slide 19, top around y=730, held by a white/light-grey sketch-style anatomical hand, extending off bottom as needed. Second reference supplies blank-display template; ignore all its old copy and logo. Generated display MUST be EMPTY UNIFORM BLACK. No generated UI, icons, chart, axes, numbers, text or buttons on display. Actual approved real Progress / Muscle balance phone pixel layer will be inserted afterward at original scale with offset x=0,y=+200px as in approved ending. Never imitate UI. White/light-grey hand, not beige. No other words.",
+          "prompt_file": "prompts/slide-08.txt",
+          "raw_result_file": "/workspace/generated_images/exec-048ff090-6e0f-4230-9232-dc3212c00e62.png",
+          "preserved_raw_file": "production-assets/slide-08-generated.png",
+          "post_generation_layers": [
+            "Approved LW-CAR-0022 real phone pixel layer, original scale, offset x=0,y=200.",
+            "assets/logo/harda-logo-full.png at x=48,y=19,size=218x71, own alpha, no patch"
+          ],
+          "result_file": "outputs/slide-08.png",
+          "export": {
+            "raw_size": [
+              1122,
+              1402
+            ],
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "has_alpha": false,
+            "logo": "Official transparent logo composited at x=48,y=19,size=218x71; no background patch."
+          }
+        }
+      ],
+      "errors": [],
+      "save_status": "pushed_to_target_branch",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    }
+  ],
+  "archive": "LW-CAR-0032-1080x1350.zip",
+  "export_format": {
+    "images": 8,
+    "width": 1080,
+    "height": 1350,
+    "mode": "RGB",
+    "alpha": false,
+    "check": "Required export metadata only. No visual QA, OCR, or automatic regeneration."
+  }
+}
