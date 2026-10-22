@@ -1,0 +1,14 @@
+Create ONE finished Harda S2 portrait carousel slide, 1080 x 1350, 4:5. Precisely match the supplied owner-approved S2 reference for very heavy tight lowercase grotesk headlines, regular clean sans body, white/light-grey realistic anatomical mannequin, bald and FACELESS, fine grey shading, opaque black #2A2A2A shorts, featureless smooth pelvis, and black/grey exercise equipment. Adult athletic male proportions as on approved LW-CAR-0022 and 0026. Use the reference for design ONLY, never its words. Solid opaque CLEAN #F0F1EB background, no texture or arch. Main text #2A2A2A, secondary #6B6B6B, flat coral #F26445 marker bars. Highlight only muscle regions explicitly named for this slide; all others white/light-grey, never sand or green. Reserve the ENTIRE top 110px empty for the actual transparent Harda logo, to be composited at x=48,y=19,size=218x71. Do not generate any logo, watermark, signature, border, panels, progress bar or counter. Keep exact lowercase copy, curly apostrophes and punctuation; no paraphrases or extra words. The mannequin remains faceless even when mood is suggested: convey it through head tilt/posture, do not add eyes or facial expressions.
+
+REASON LAYOUT. Match the supplied owner-approved LW-CAR-0026 slide 2 for the NUMBER + MARKER HEADLINE, body line, bold coral `fix:` line and big lower white figure, but REMOVE its difficulty meter and the word difficulty entirely. No stars, meter, bars, ratings or numbers other than the supplied reason number and any numbers within exact copy. Keep around 80px side margins. Top-left below y=110: number followed by the heaviest lowercase headline; coral marker behind the HEADLINE ONLY, not behind the number. Long headlines may wrap onto two lines with a marker behind each, without dropping words. Under the headline, exact regular #2A2A2A body, up to two lines; then one fix line, `fix:` bold coral followed by the exact fix text in regular #2A2A2A. Let body/fix move naturally up into the former meter space; finish copy above roughly y=535. Lower roughly 55% is the big white anatomical figure/scene specified for this slide, fully separated from all copy. Keep all figure parts/equipment needed to understand the scene visible. If space is needed, move/shrink the figure rather than clipping any text. No other words or symbols.
+
+EXACT TEXT:
+number: `#1`
+marker headline: `you don’t track`
+regular body: `if you can’t see last week’s numbers, you can’t beat them.`
+coral label: `fix:`
+regular fix text: `write down every set, weight and rep.`
+
+FIGURE/SCENE: sitting on a flat bench between sets, looking down at a phone held in both hands (the screen is not visible).
+HIGHLIGHT AND SCENE RULE: No coloured muscles. The phone screen is NOT visible: show only its back/edge, no UI or fake screen text.
+Preserve `1-3` with a plain hyphen wherever it appears; never change it to a dash or add a citation. No other text.

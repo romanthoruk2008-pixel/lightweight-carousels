@@ -1,0 +1,12 @@
+Create ONE finished Harda S2 portrait carousel slide, 1080 x 1350, 4:5. Precisely match the supplied owner-approved S2 reference for very heavy tight lowercase grotesk headlines, regular clean sans body, white/light-grey realistic anatomical mannequin, bald and FACELESS, fine grey shading, opaque black #2A2A2A shorts, featureless smooth pelvis, and black/grey exercise equipment. Adult athletic male proportions as on approved LW-CAR-0022 and 0026. Use the reference for design ONLY, never its words. Solid opaque CLEAN #F0F1EB background, no texture or arch. Main text #2A2A2A, secondary #6B6B6B, flat coral #F26445 marker bars. Highlight only muscle regions explicitly named for this slide; all others white/light-grey, never sand or green. Reserve the ENTIRE top 110px empty for the actual transparent Harda logo, to be composited at x=48,y=19,size=218x71. Do not generate any logo, watermark, signature, border, panels, progress bar or counter. Keep exact lowercase copy, curly apostrophes and punctuation; no paraphrases or extra words. The mannequin remains faceless even when mood is suggested: convey it through head tilt/posture, do not add eyes or facial expressions.
+
+PRODUCT ENDING. Same composition as approved LW-CAR-0022 slide 19. Exact very heavy lowercase headline in these five left-aligned lines below y=110:
+harda tracks
+every set you lift
+and shows
+which muscles
+you’re skipping.
+Use coral marker bars behind `every set you lift`, `which muscles` and `you’re skipping` only: the latter two lines together are the specified highlighted phrase `which muscles you’re skipping`. Preserve the curly apostrophe and final period. Make the five-line title fit above y=590. Exact regular body in two lines:
+log your workouts, beat last week,
+and keep every muscle in balance.
+Finish body above y=700, leaving a clear gap before the phone. Lower right: same naturally tall black phone, tilt, scale and placement as approved LW-CAR-0022 slide 19, phone top about y=730, held by a white/light-grey sketch-style anatomical hand and extending off the bottom as needed. The second reference gives the blank-display template: ignore its old copy and logo. Generated display must be EMPTY UNIFORM BLACK, with absolutely NO UI, icons, numbers, charts, axes, buttons or display text. The actual approved real Progress / Muscle balance phone pixel layer will be composited afterward at original scale with offset x=0,y=+200px as in the approved ending. Never generate or imitate app UI. Hand white/light-grey, no beige. No other words.
