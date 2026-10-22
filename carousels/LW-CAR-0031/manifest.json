@@ -1,0 +1,524 @@
+{
+  "carousel_id": "LW-CAR-0031",
+  "content_version": "1.0",
+  "source_commit": "f65f89b947bff2825dbad3afe8de857a5c123ff0",
+  "branch": "claude/charming-einstein-xgejky",
+  "target_branch": "claude/charming-einstein-xgejky",
+  "batch": "B",
+  "batch_task": "carousels/BATCH-B.md",
+  "design_style": "S1",
+  "status": "complete",
+  "carousel_complete": true,
+  "scope": {
+    "total_slides": 8,
+    "authorized_slides": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ]
+  },
+  "reference_id": null,
+  "reference_use": "Owner-approved LW-CAR-0008 slides 1–8 opened and supplied as corresponding templates; approved LW-CAR-0014 supplies DOTS background only. Old arch explicitly omitted. Exact new words from copy.json.",
+  "font_family": "Rubik",
+  "background": "DOTS: opaque #F0F1EB, #D4D4CC 6px dots every 45px",
+  "logo": {
+    "file": "assets/logo/harda-logo-full.png",
+    "position": [
+      48,
+      19
+    ],
+    "size": [
+      218,
+      71
+    ],
+    "old_lightweight_logo_used": false
+  },
+  "phone_composite": {
+    "file": "production-assets/approved-phone-hand-foreground.png",
+    "position": [
+      0,
+      0
+    ],
+    "source_file": "carousels/LW-CAR-0016/production-assets/approved-phone-hand-foreground.png",
+    "source_lineage": "Original approved LW-CAR-0001 phone/hand, also used without scaling in LW-CAR-0008 slide 8.",
+    "description": "Exact approved S1 phone AND hand foreground, with authentic Muscle balance screen and Core axis, composited at original scale and original x=0,y=0 coordinates; transparent background preserves DOTS. No generated UI or resampling of phone/hand."
+  },
+  "generated_images": [
+    "outputs/slide-01.png",
+    "outputs/slide-02.png",
+    "outputs/slide-03.png",
+    "outputs/slide-04.png",
+    "outputs/slide-05.png",
+    "outputs/slide-06.png",
+    "outputs/slide-07.png",
+    "outputs/slide-08.png"
+  ],
+  "blocked_slides": [],
+  "next_slide_to_generate": null,
+  "approved_slides": [],
+  "pending_review_slides": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "user_review": "pending",
+  "agent_visual_review": "not_performed",
+  "next_action": "Owner reviews all generated slides at the end of Batch B.",
+  "caption": "caption.txt",
+  "remote_save": {
+    "remote": "origin",
+    "branch": "claude/charming-einstein-xgejky",
+    "status": "pushed_to_target_branch",
+    "method": "One complete-carousel commit and immediate push under BATCH-B.md.",
+    "commit_lookup": "git log -1 -- carousels/LW-CAR-0031/manifest.json"
+  },
+  "slides": [
+    {
+      "slide": 1,
+      "content_version": "1.0",
+      "role": "hook",
+      "exact_text": [
+        "WEAK",
+        "CORE?"
+      ],
+      "file": "outputs/slide-01.png",
+      "prompt": "Create ONE finished Harda S1 fitness carousel slide, portrait 1080 x 1350, 4:5. The FIRST supplied owner-approved LW-CAR-0008 reference supplies only the layout, Rubik typography hierarchy, scale, badges, underline bars and S1 illustration style. REPLACE ALL its words and exercise/topic content with the exact instructions below. The SECOND reference is ONLY the DOTS background example; ignore its words, checkboxes, props and composition.\n\nBACKGROUND: fill entire canvas SOLID OPAQUE #F0F1EB, then a regular pattern of small dots #D4D4CC, 6px diameter, every 45px, across the whole canvas as on approved LW-CAR-0014. NO ARCH: completely omit the large pale pink arch visible in LW-CAR-0008. No gradient, rings, texture, progress bar, slide counter or transparency checkerboard. Keep entire top 110px free of other content while dots continue behind; the real transparent Harda logo will be inserted later at x=48,y=19,size=218x71. Do not draw a logo or wordmark.\n\nFIGURE STYLE S1: adult athletic bald faceless smooth PLASTIC anatomy teaching mannequin, muscles warm sand #D9CBBE, ivory skin/tendons about #F5F0E5, fine grey linework and delicate sand shading, target muscles coral #F26445. Smooth featureless pelvis, opaque plain sand #D9CBBE gym shorts on every full-body or hip-visible figure. Do not switch to the white S2 figure. No green/sage muscle colors. Equipment black/grey. Rubik for ALL text: heaviest cover, bold titles, semibold subtitles/labels, regular body. Dark #2A2A2A, body grey #6B6B6B, accent #F26445, white text on coral badges. Keep exact provided capitalization, apostrophes, plain hyphens, x and punctuation. No extra text, watermark, signature, labels or panels except the specified map cards. All text fully visible and unobscured.\n\nCOVER, twin of the FIRST reference with the background replaced by DOTS. Exact uppercase headline in exactly two huge lines:\nWEAK\nCORE?\n`WEAK` dark #2A2A2A and `CORE?` coral #F26445, heaviest Rubik, same scale and location as the approved cover, soft grey offset shadow. One small coral paint-splat dot below/right of the question mark, as in the reference. Below, a large S1 sand anatomy mannequin from the HIPS UP, FRONT VIEW, hands behind the head, ABS AND OBLIQUES filled coral. All other muscle groups sand/ivory. Head slightly overlaps the lowest edge of the headline, with words still legible; figure cropped at bottom edge, sand shorts at waist. No chest highlight and no extra words.",
+      "prompt_file": "prompts/slide-01.txt",
+      "reference": [
+        "carousels/LW-CAR-0008/outputs/slide-01.png",
+        "carousels/LW-CAR-0014/outputs/slide-02.png"
+      ],
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "carousels/LW-CAR-0008/outputs/slide-01.png",
+            "carousels/LW-CAR-0014/outputs/slide-02.png"
+          ],
+          "prompt": "Create ONE finished Harda S1 fitness carousel slide, portrait 1080 x 1350, 4:5. The FIRST supplied owner-approved LW-CAR-0008 reference supplies only the layout, Rubik typography hierarchy, scale, badges, underline bars and S1 illustration style. REPLACE ALL its words and exercise/topic content with the exact instructions below. The SECOND reference is ONLY the DOTS background example; ignore its words, checkboxes, props and composition.\n\nBACKGROUND: fill entire canvas SOLID OPAQUE #F0F1EB, then a regular pattern of small dots #D4D4CC, 6px diameter, every 45px, across the whole canvas as on approved LW-CAR-0014. NO ARCH: completely omit the large pale pink arch visible in LW-CAR-0008. No gradient, rings, texture, progress bar, slide counter or transparency checkerboard. Keep entire top 110px free of other content while dots continue behind; the real transparent Harda logo will be inserted later at x=48,y=19,size=218x71. Do not draw a logo or wordmark.\n\nFIGURE STYLE S1: adult athletic bald faceless smooth PLASTIC anatomy teaching mannequin, muscles warm sand #D9CBBE, ivory skin/tendons about #F5F0E5, fine grey linework and delicate sand shading, target muscles coral #F26445. Smooth featureless pelvis, opaque plain sand #D9CBBE gym shorts on every full-body or hip-visible figure. Do not switch to the white S2 figure. No green/sage muscle colors. Equipment black/grey. Rubik for ALL text: heaviest cover, bold titles, semibold subtitles/labels, regular body. Dark #2A2A2A, body grey #6B6B6B, accent #F26445, white text on coral badges. Keep exact provided capitalization, apostrophes, plain hyphens, x and punctuation. No extra text, watermark, signature, labels or panels except the specified map cards. All text fully visible and unobscured.\n\nCOVER, twin of the FIRST reference with the background replaced by DOTS. Exact uppercase headline in exactly two huge lines:\nWEAK\nCORE?\n`WEAK` dark #2A2A2A and `CORE?` coral #F26445, heaviest Rubik, same scale and location as the approved cover, soft grey offset shadow. One small coral paint-splat dot below/right of the question mark, as in the reference. Below, a large S1 sand anatomy mannequin from the HIPS UP, FRONT VIEW, hands behind the head, ABS AND OBLIQUES filled coral. All other muscle groups sand/ivory. Head slightly overlaps the lowest edge of the headline, with words still legible; figure cropped at bottom edge, sand shorts at waist. No chest highlight and no extra words.",
+          "prompt_file": "prompts/slide-01.txt",
+          "raw_result_file": "/workspace/generated_images/exec-ca93ab7f-7dd5-4a95-9ca2-0c66b9075419.png",
+          "preserved_raw_file": "production-assets/slide-01-generated.png",
+          "result_file": "outputs/slide-01.png",
+          "export": {
+            "raw_size": [
+              1122,
+              1402
+            ],
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "has_alpha": false,
+            "logo": "Official transparent logo composited at x=48,y=19,size=218x71; no background patch."
+          }
+        }
+      ],
+      "errors": [],
+      "save_status": "pushed_to_target_branch",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 2,
+      "content_version": "1.0",
+      "role": "map of the core",
+      "exact_text": [
+        "Let's Fix That",
+        "UPPER ABS",
+        "LOWER ABS",
+        "OBLIQUES",
+        "LOWER BACK"
+      ],
+      "file": "outputs/slide-02.png",
+      "prompt": "Create ONE finished Harda S1 fitness carousel slide, portrait 1080 x 1350, 4:5. The FIRST supplied owner-approved LW-CAR-0008 reference supplies only the layout, Rubik typography hierarchy, scale, badges, underline bars and S1 illustration style. REPLACE ALL its words and exercise/topic content with the exact instructions below. The SECOND reference is ONLY the DOTS background example; ignore its words, checkboxes, props and composition.\n\nBACKGROUND: fill entire canvas SOLID OPAQUE #F0F1EB, then a regular pattern of small dots #D4D4CC, 6px diameter, every 45px, across the whole canvas as on approved LW-CAR-0014. NO ARCH: completely omit the large pale pink arch visible in LW-CAR-0008. No gradient, rings, texture, progress bar, slide counter or transparency checkerboard. Keep entire top 110px free of other content while dots continue behind; the real transparent Harda logo will be inserted later at x=48,y=19,size=218x71. Do not draw a logo or wordmark.\n\nFIGURE STYLE S1: adult athletic bald faceless smooth PLASTIC anatomy teaching mannequin, muscles warm sand #D9CBBE, ivory skin/tendons about #F5F0E5, fine grey linework and delicate sand shading, target muscles coral #F26445. Smooth featureless pelvis, opaque plain sand #D9CBBE gym shorts on every full-body or hip-visible figure. Do not switch to the white S2 figure. No green/sage muscle colors. Equipment black/grey. Rubik for ALL text: heaviest cover, bold titles, semibold subtitles/labels, regular body. Dark #2A2A2A, body grey #6B6B6B, accent #F26445, white text on coral badges. Keep exact provided capitalization, apostrophes, plain hyphens, x and punctuation. No extra text, watermark, signature, labels or panels except the specified map cards. All text fully visible and unobscured.\n\nMUSCLE MAP, twin of the FIRST reference's diagram composition, with DOTS replacing its arch. Exact centered title: `Let's Fix That`, bold Rubik #2A2A2A, short coral underline. Center: one large front-view S1 sand/ivory torso, head to hips, abs and obliques coral. Sand shorts at hips. Four rounded thumbnail cards with dark lower label bars and white uppercase exact labels, in the same positions as the reference: TOP LEFT `UPPER ABS`, TOP RIGHT `LOWER ABS`, BOTTOM LEFT `OBLIQUES`, BOTTOM RIGHT `LOWER BACK`. Each mini figure is a cropped teaching torso, only that card's target muscle coral, all other muscles sand/ivory. Upper abs = upper half of six-pack; lower abs = lower half; obliques = sides of waist; lower back = mini REAR torso with V-shaped lower-back erectors coral. Use thin black leader lines with dot endpoints from each card to the corresponding region on the main figure (lower-back line ends near lower waist outline). Do not copy the old reference's chest/triceps labels or highlights. No additional words.",
+      "prompt_file": "prompts/slide-02.txt",
+      "reference": [
+        "carousels/LW-CAR-0008/outputs/slide-02.png",
+        "carousels/LW-CAR-0014/outputs/slide-02.png"
+      ],
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "carousels/LW-CAR-0008/outputs/slide-02.png",
+            "carousels/LW-CAR-0014/outputs/slide-02.png"
+          ],
+          "prompt": "Create ONE finished Harda S1 fitness carousel slide, portrait 1080 x 1350, 4:5. The FIRST supplied owner-approved LW-CAR-0008 reference supplies only the layout, Rubik typography hierarchy, scale, badges, underline bars and S1 illustration style. REPLACE ALL its words and exercise/topic content with the exact instructions below. The SECOND reference is ONLY the DOTS background example; ignore its words, checkboxes, props and composition.\n\nBACKGROUND: fill entire canvas SOLID OPAQUE #F0F1EB, then a regular pattern of small dots #D4D4CC, 6px diameter, every 45px, across the whole canvas as on approved LW-CAR-0014. NO ARCH: completely omit the large pale pink arch visible in LW-CAR-0008. No gradient, rings, texture, progress bar, slide counter or transparency checkerboard. Keep entire top 110px free of other content while dots continue behind; the real transparent Harda logo will be inserted later at x=48,y=19,size=218x71. Do not draw a logo or wordmark.\n\nFIGURE STYLE S1: adult athletic bald faceless smooth PLASTIC anatomy teaching mannequin, muscles warm sand #D9CBBE, ivory skin/tendons about #F5F0E5, fine grey linework and delicate sand shading, target muscles coral #F26445. Smooth featureless pelvis, opaque plain sand #D9CBBE gym shorts on every full-body or hip-visible figure. Do not switch to the white S2 figure. No green/sage muscle colors. Equipment black/grey. Rubik for ALL text: heaviest cover, bold titles, semibold subtitles/labels, regular body. Dark #2A2A2A, body grey #6B6B6B, accent #F26445, white text on coral badges. Keep exact provided capitalization, apostrophes, plain hyphens, x and punctuation. No extra text, watermark, signature, labels or panels except the specified map cards. All text fully visible and unobscured.\n\nMUSCLE MAP, twin of the FIRST reference's diagram composition, with DOTS replacing its arch. Exact centered title: `Let's Fix That`, bold Rubik #2A2A2A, short coral underline. Center: one large front-view S1 sand/ivory torso, head to hips, abs and obliques coral. Sand shorts at hips. Four rounded thumbnail cards with dark lower label bars and white uppercase exact labels, in the same positions as the reference: TOP LEFT `UPPER ABS`, TOP RIGHT `LOWER ABS`, BOTTOM LEFT `OBLIQUES`, BOTTOM RIGHT `LOWER BACK`. Each mini figure is a cropped teaching torso, only that card's target muscle coral, all other muscles sand/ivory. Upper abs = upper half of six-pack; lower abs = lower half; obliques = sides of waist; lower back = mini REAR torso with V-shaped lower-back erectors coral. Use thin black leader lines with dot endpoints from each card to the corresponding region on the main figure (lower-back line ends near lower waist outline). Do not copy the old reference's chest/triceps labels or highlights. No additional words.",
+          "prompt_file": "prompts/slide-02.txt",
+          "raw_result_file": "/workspace/generated_images/exec-8c31453f-cbb2-4c41-914b-23bc4c0514cd.png",
+          "preserved_raw_file": "production-assets/slide-02-generated.png",
+          "result_file": "outputs/slide-02.png",
+          "export": {
+            "raw_size": [
+              1122,
+              1402
+            ],
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "has_alpha": false,
+            "logo": "Official transparent logo composited at x=48,y=19,size=218x71; no background patch."
+          }
+        }
+      ],
+      "errors": [],
+      "save_status": "pushed_to_target_branch",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 3,
+      "content_version": "1.0",
+      "role": "list item 1",
+      "exact_text": [
+        "1",
+        "Upper Abs",
+        "2-3 Sets x 10-15 Reps",
+        "Curl your ribs down toward your hips. Don't just pull on your neck.",
+        "Cable Crunch",
+        "OR",
+        "Crunch"
+      ],
+      "file": "outputs/slide-03.png",
+      "prompt": "Create ONE finished Harda S1 fitness carousel slide, portrait 1080 x 1350, 4:5. The FIRST supplied owner-approved LW-CAR-0008 reference supplies only the layout, Rubik typography hierarchy, scale, badges, underline bars and S1 illustration style. REPLACE ALL its words and exercise/topic content with the exact instructions below. The SECOND reference is ONLY the DOTS background example; ignore its words, checkboxes, props and composition.\n\nBACKGROUND: fill entire canvas SOLID OPAQUE #F0F1EB, then a regular pattern of small dots #D4D4CC, 6px diameter, every 45px, across the whole canvas as on approved LW-CAR-0014. NO ARCH: completely omit the large pale pink arch visible in LW-CAR-0008. No gradient, rings, texture, progress bar, slide counter or transparency checkerboard. Keep entire top 110px free of other content while dots continue behind; the real transparent Harda logo will be inserted later at x=48,y=19,size=218x71. Do not draw a logo or wordmark.\n\nFIGURE STYLE S1: adult athletic bald faceless smooth PLASTIC anatomy teaching mannequin, muscles warm sand #D9CBBE, ivory skin/tendons about #F5F0E5, fine grey linework and delicate sand shading, target muscles coral #F26445. Smooth featureless pelvis, opaque plain sand #D9CBBE gym shorts on every full-body or hip-visible figure. Do not switch to the white S2 figure. No green/sage muscle colors. Equipment black/grey. Rubik for ALL text: heaviest cover, bold titles, semibold subtitles/labels, regular body. Dark #2A2A2A, body grey #6B6B6B, accent #F26445, white text on coral badges. Keep exact provided capitalization, apostrophes, plain hyphens, x and punctuation. No extra text, watermark, signature, labels or panels except the specified map cards. All text fully visible and unobscured.\n\nLIST TEMPLATE — match the FIRST reference's same positions, sizes, badge, title, subtitle, short why line, center muscle close-up and TWO lower exercise figures with OR between them. Exact text:\ncoral circle badge, white number: `1`\ncentered bold title: `Upper Abs`\ncentered semibold subtitle: `2-3 Sets x 10-15 Reps`\ncentered regular grey why line: `Curl your ribs down toward your hips. Don't just pull on your neck.`\nleft exercise label: `Cable Crunch`\nwhite text in coral circle between exercises: `OR`\nright exercise label: `Crunch`\n\nKeep badge below the top 110px logo area, then title, subtitle, short coral underline and why line (up to two lines), all fully visible. Center around y=460 to 800: S1 sand torso CLOSE-UP, front torso, upper half of the six-pack, only that target region coral. No head/pelvis detail is needed in the teaching close-up. Lower area: LEFT exercise exactly kneeling below a high cable, rope by the head, crunching down; RIGHT exercise exactly crunch on a mat, hands by the ears, shoulders lifted. Both exercise figures use the same S1 sand/ivory plastic mannequin with opaque sand shorts and black/grey equipment, with the same target region coral where visible. Put each exact exercise label under its own figure, fully visible above the bottom edge. Coral round OR badge centered in the clear gap between figures, never covering them. Preserve all words and every `2-3`, `10-15`/`10-12`, plain `x`, capital letter and period. No original chest/triceps wording or exercise names from reference. No extra text.",
+      "prompt_file": "prompts/slide-03.txt",
+      "reference": [
+        "carousels/LW-CAR-0008/outputs/slide-03.png",
+        "carousels/LW-CAR-0014/outputs/slide-02.png"
+      ],
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "carousels/LW-CAR-0008/outputs/slide-03.png",
+            "carousels/LW-CAR-0014/outputs/slide-02.png"
+          ],
+          "prompt": "Create ONE finished Harda S1 fitness carousel slide, portrait 1080 x 1350, 4:5. The FIRST supplied owner-approved LW-CAR-0008 reference supplies only the layout, Rubik typography hierarchy, scale, badges, underline bars and S1 illustration style. REPLACE ALL its words and exercise/topic content with the exact instructions below. The SECOND reference is ONLY the DOTS background example; ignore its words, checkboxes, props and composition.\n\nBACKGROUND: fill entire canvas SOLID OPAQUE #F0F1EB, then a regular pattern of small dots #D4D4CC, 6px diameter, every 45px, across the whole canvas as on approved LW-CAR-0014. NO ARCH: completely omit the large pale pink arch visible in LW-CAR-0008. No gradient, rings, texture, progress bar, slide counter or transparency checkerboard. Keep entire top 110px free of other content while dots continue behind; the real transparent Harda logo will be inserted later at x=48,y=19,size=218x71. Do not draw a logo or wordmark.\n\nFIGURE STYLE S1: adult athletic bald faceless smooth PLASTIC anatomy teaching mannequin, muscles warm sand #D9CBBE, ivory skin/tendons about #F5F0E5, fine grey linework and delicate sand shading, target muscles coral #F26445. Smooth featureless pelvis, opaque plain sand #D9CBBE gym shorts on every full-body or hip-visible figure. Do not switch to the white S2 figure. No green/sage muscle colors. Equipment black/grey. Rubik for ALL text: heaviest cover, bold titles, semibold subtitles/labels, regular body. Dark #2A2A2A, body grey #6B6B6B, accent #F26445, white text on coral badges. Keep exact provided capitalization, apostrophes, plain hyphens, x and punctuation. No extra text, watermark, signature, labels or panels except the specified map cards. All text fully visible and unobscured.\n\nLIST TEMPLATE — match the FIRST reference's same positions, sizes, badge, title, subtitle, short why line, center muscle close-up and TWO lower exercise figures with OR between them. Exact text:\ncoral circle badge, white number: `1`\ncentered bold title: `Upper Abs`\ncentered semibold subtitle: `2-3 Sets x 10-15 Reps`\ncentered regular grey why line: `Curl your ribs down toward your hips. Don't just pull on your neck.`\nleft exercise label: `Cable Crunch`\nwhite text in coral circle between exercises: `OR`\nright exercise label: `Crunch`\n\nKeep badge below the top 110px logo area, then title, subtitle, short coral underline and why line (up to two lines), all fully visible. Center around y=460 to 800: S1 sand torso CLOSE-UP, front torso, upper half of the six-pack, only that target region coral. No head/pelvis detail is needed in the teaching close-up. Lower area: LEFT exercise exactly kneeling below a high cable, rope by the head, crunching down; RIGHT exercise exactly crunch on a mat, hands by the ears, shoulders lifted. Both exercise figures use the same S1 sand/ivory plastic mannequin with opaque sand shorts and black/grey equipment, with the same target region coral where visible. Put each exact exercise label under its own figure, fully visible above the bottom edge. Coral round OR badge centered in the clear gap between figures, never covering them. Preserve all words and every `2-3`, `10-15`/`10-12`, plain `x`, capital letter and period. No original chest/triceps wording or exercise names from reference. No extra text.",
+          "prompt_file": "prompts/slide-03.txt",
+          "raw_result_file": "/workspace/generated_images/exec-bcac8754-0791-4f21-9c33-047b6534388f.png",
+          "preserved_raw_file": "production-assets/slide-03-generated.png",
+          "result_file": "outputs/slide-03.png",
+          "export": {
+            "raw_size": [
+              1122,
+              1402
+            ],
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "has_alpha": false,
+            "logo": "Official transparent logo composited at x=48,y=19,size=218x71; no background patch."
+          }
+        }
+      ],
+      "errors": [],
+      "save_status": "pushed_to_target_branch",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 4,
+      "content_version": "1.0",
+      "role": "list item 2",
+      "exact_text": [
+        "2",
+        "Lower Abs",
+        "2-3 Sets x 10-15 Reps",
+        "Tilt your pelvis up. Just swinging your legs works your hip flexors.",
+        "Hanging Leg Raise",
+        "OR",
+        "Reverse Crunch"
+      ],
+      "file": "outputs/slide-04.png",
+      "prompt": "Create ONE finished Harda S1 fitness carousel slide, portrait 1080 x 1350, 4:5. The FIRST supplied owner-approved LW-CAR-0008 reference supplies only the layout, Rubik typography hierarchy, scale, badges, underline bars and S1 illustration style. REPLACE ALL its words and exercise/topic content with the exact instructions below. The SECOND reference is ONLY the DOTS background example; ignore its words, checkboxes, props and composition.\n\nBACKGROUND: fill entire canvas SOLID OPAQUE #F0F1EB, then a regular pattern of small dots #D4D4CC, 6px diameter, every 45px, across the whole canvas as on approved LW-CAR-0014. NO ARCH: completely omit the large pale pink arch visible in LW-CAR-0008. No gradient, rings, texture, progress bar, slide counter or transparency checkerboard. Keep entire top 110px free of other content while dots continue behind; the real transparent Harda logo will be inserted later at x=48,y=19,size=218x71. Do not draw a logo or wordmark.\n\nFIGURE STYLE S1: adult athletic bald faceless smooth PLASTIC anatomy teaching mannequin, muscles warm sand #D9CBBE, ivory skin/tendons about #F5F0E5, fine grey linework and delicate sand shading, target muscles coral #F26445. Smooth featureless pelvis, opaque plain sand #D9CBBE gym shorts on every full-body or hip-visible figure. Do not switch to the white S2 figure. No green/sage muscle colors. Equipment black/grey. Rubik for ALL text: heaviest cover, bold titles, semibold subtitles/labels, regular body. Dark #2A2A2A, body grey #6B6B6B, accent #F26445, white text on coral badges. Keep exact provided capitalization, apostrophes, plain hyphens, x and punctuation. No extra text, watermark, signature, labels or panels except the specified map cards. All text fully visible and unobscured.\n\nLIST TEMPLATE — match the FIRST reference's same positions, sizes, badge, title, subtitle, short why line, center muscle close-up and TWO lower exercise figures with OR between them. Exact text:\ncoral circle badge, white number: `2`\ncentered bold title: `Lower Abs`\ncentered semibold subtitle: `2-3 Sets x 10-15 Reps`\ncentered regular grey why line: `Tilt your pelvis up. Just swinging your legs works your hip flexors.`\nleft exercise label: `Hanging Leg Raise`\nwhite text in coral circle between exercises: `OR`\nright exercise label: `Reverse Crunch`\n\nKeep badge below the top 110px logo area, then title, subtitle, short coral underline and why line (up to two lines), all fully visible. Center around y=460 to 800: S1 sand torso CLOSE-UP, front torso, lower half of the six-pack, only that target region coral. No head/pelvis detail is needed in the teaching close-up. Lower area: LEFT exercise exactly hanging from a pull-up bar, straight legs raised to hip height; RIGHT exercise exactly lying on a mat, knees pulled toward the chest, hips lifting off the floor. Both exercise figures use the same S1 sand/ivory plastic mannequin with opaque sand shorts and black/grey equipment, with the same target region coral where visible. Put each exact exercise label under its own figure, fully visible above the bottom edge. Coral round OR badge centered in the clear gap between figures, never covering them. Preserve all words and every `2-3`, `10-15`/`10-12`, plain `x`, capital letter and period. No original chest/triceps wording or exercise names from reference. No extra text.",
+      "prompt_file": "prompts/slide-04.txt",
+      "reference": [
+        "carousels/LW-CAR-0008/outputs/slide-04.png",
+        "carousels/LW-CAR-0014/outputs/slide-02.png"
+      ],
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "carousels/LW-CAR-0008/outputs/slide-04.png",
+            "carousels/LW-CAR-0014/outputs/slide-02.png"
+          ],
+          "prompt": "Create ONE finished Harda S1 fitness carousel slide, portrait 1080 x 1350, 4:5. The FIRST supplied owner-approved LW-CAR-0008 reference supplies only the layout, Rubik typography hierarchy, scale, badges, underline bars and S1 illustration style. REPLACE ALL its words and exercise/topic content with the exact instructions below. The SECOND reference is ONLY the DOTS background example; ignore its words, checkboxes, props and composition.\n\nBACKGROUND: fill entire canvas SOLID OPAQUE #F0F1EB, then a regular pattern of small dots #D4D4CC, 6px diameter, every 45px, across the whole canvas as on approved LW-CAR-0014. NO ARCH: completely omit the large pale pink arch visible in LW-CAR-0008. No gradient, rings, texture, progress bar, slide counter or transparency checkerboard. Keep entire top 110px free of other content while dots continue behind; the real transparent Harda logo will be inserted later at x=48,y=19,size=218x71. Do not draw a logo or wordmark.\n\nFIGURE STYLE S1: adult athletic bald faceless smooth PLASTIC anatomy teaching mannequin, muscles warm sand #D9CBBE, ivory skin/tendons about #F5F0E5, fine grey linework and delicate sand shading, target muscles coral #F26445. Smooth featureless pelvis, opaque plain sand #D9CBBE gym shorts on every full-body or hip-visible figure. Do not switch to the white S2 figure. No green/sage muscle colors. Equipment black/grey. Rubik for ALL text: heaviest cover, bold titles, semibold subtitles/labels, regular body. Dark #2A2A2A, body grey #6B6B6B, accent #F26445, white text on coral badges. Keep exact provided capitalization, apostrophes, plain hyphens, x and punctuation. No extra text, watermark, signature, labels or panels except the specified map cards. All text fully visible and unobscured.\n\nLIST TEMPLATE — match the FIRST reference's same positions, sizes, badge, title, subtitle, short why line, center muscle close-up and TWO lower exercise figures with OR between them. Exact text:\ncoral circle badge, white number: `2`\ncentered bold title: `Lower Abs`\ncentered semibold subtitle: `2-3 Sets x 10-15 Reps`\ncentered regular grey why line: `Tilt your pelvis up. Just swinging your legs works your hip flexors.`\nleft exercise label: `Hanging Leg Raise`\nwhite text in coral circle between exercises: `OR`\nright exercise label: `Reverse Crunch`\n\nKeep badge below the top 110px logo area, then title, subtitle, short coral underline and why line (up to two lines), all fully visible. Center around y=460 to 800: S1 sand torso CLOSE-UP, front torso, lower half of the six-pack, only that target region coral. No head/pelvis detail is needed in the teaching close-up. Lower area: LEFT exercise exactly hanging from a pull-up bar, straight legs raised to hip height; RIGHT exercise exactly lying on a mat, knees pulled toward the chest, hips lifting off the floor. Both exercise figures use the same S1 sand/ivory plastic mannequin with opaque sand shorts and black/grey equipment, with the same target region coral where visible. Put each exact exercise label under its own figure, fully visible above the bottom edge. Coral round OR badge centered in the clear gap between figures, never covering them. Preserve all words and every `2-3`, `10-15`/`10-12`, plain `x`, capital letter and period. No original chest/triceps wording or exercise names from reference. No extra text.",
+          "prompt_file": "prompts/slide-04.txt",
+          "raw_result_file": "/workspace/generated_images/exec-40d690bb-c0aa-4e7f-9dee-e6550015b2a2.png",
+          "preserved_raw_file": "production-assets/slide-04-generated.png",
+          "result_file": "outputs/slide-04.png",
+          "export": {
+            "raw_size": [
+              1122,
+              1402
+            ],
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "has_alpha": false,
+            "logo": "Official transparent logo composited at x=48,y=19,size=218x71; no background patch."
+          }
+        }
+      ],
+      "errors": [],
+      "save_status": "pushed_to_target_branch",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 5,
+      "content_version": "1.0",
+      "role": "list item 3",
+      "exact_text": [
+        "3",
+        "Obliques",
+        "2-3 Sets x 10-12 Reps",
+        "They turn and brace your torso. Train both sides.",
+        "Cable Woodchop",
+        "OR",
+        "Side Plank Dips"
+      ],
+      "file": "outputs/slide-05.png",
+      "prompt": "Create ONE finished Harda S1 fitness carousel slide, portrait 1080 x 1350, 4:5. The FIRST supplied owner-approved LW-CAR-0008 reference supplies only the layout, Rubik typography hierarchy, scale, badges, underline bars and S1 illustration style. REPLACE ALL its words and exercise/topic content with the exact instructions below. The SECOND reference is ONLY the DOTS background example; ignore its words, checkboxes, props and composition.\n\nBACKGROUND: fill entire canvas SOLID OPAQUE #F0F1EB, then a regular pattern of small dots #D4D4CC, 6px diameter, every 45px, across the whole canvas as on approved LW-CAR-0014. NO ARCH: completely omit the large pale pink arch visible in LW-CAR-0008. No gradient, rings, texture, progress bar, slide counter or transparency checkerboard. Keep entire top 110px free of other content while dots continue behind; the real transparent Harda logo will be inserted later at x=48,y=19,size=218x71. Do not draw a logo or wordmark.\n\nFIGURE STYLE S1: adult athletic bald faceless smooth PLASTIC anatomy teaching mannequin, muscles warm sand #D9CBBE, ivory skin/tendons about #F5F0E5, fine grey linework and delicate sand shading, target muscles coral #F26445. Smooth featureless pelvis, opaque plain sand #D9CBBE gym shorts on every full-body or hip-visible figure. Do not switch to the white S2 figure. No green/sage muscle colors. Equipment black/grey. Rubik for ALL text: heaviest cover, bold titles, semibold subtitles/labels, regular body. Dark #2A2A2A, body grey #6B6B6B, accent #F26445, white text on coral badges. Keep exact provided capitalization, apostrophes, plain hyphens, x and punctuation. No extra text, watermark, signature, labels or panels except the specified map cards. All text fully visible and unobscured.\n\nLIST TEMPLATE — match the FIRST reference's same positions, sizes, badge, title, subtitle, short why line, center muscle close-up and TWO lower exercise figures with OR between them. Exact text:\ncoral circle badge, white number: `3`\ncentered bold title: `Obliques`\ncentered semibold subtitle: `2-3 Sets x 10-12 Reps`\ncentered regular grey why line: `They turn and brace your torso. Train both sides.`\nleft exercise label: `Cable Woodchop`\nwhite text in coral circle between exercises: `OR`\nright exercise label: `Side Plank Dips`\n\nKeep badge below the top 110px logo area, then title, subtitle, short coral underline and why line (up to two lines), all fully visible. Center around y=460 to 800: S1 sand torso CLOSE-UP, front three-quarter torso, obliques on both sides of the waist, only that target region coral. No head/pelvis detail is needed in the teaching close-up. Lower area: LEFT exercise exactly standing at a high cable, rotating it down and across the body; RIGHT exercise exactly side plank on one forearm, hips dipping down and lifting up. Both exercise figures use the same S1 sand/ivory plastic mannequin with opaque sand shorts and black/grey equipment, with the same target region coral where visible. Put each exact exercise label under its own figure, fully visible above the bottom edge. Coral round OR badge centered in the clear gap between figures, never covering them. Preserve all words and every `2-3`, `10-15`/`10-12`, plain `x`, capital letter and period. No original chest/triceps wording or exercise names from reference. No extra text.",
+      "prompt_file": "prompts/slide-05.txt",
+      "reference": [
+        "carousels/LW-CAR-0008/outputs/slide-05.png",
+        "carousels/LW-CAR-0014/outputs/slide-02.png"
+      ],
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "carousels/LW-CAR-0008/outputs/slide-05.png",
+            "carousels/LW-CAR-0014/outputs/slide-02.png"
+          ],
+          "prompt": "Create ONE finished Harda S1 fitness carousel slide, portrait 1080 x 1350, 4:5. The FIRST supplied owner-approved LW-CAR-0008 reference supplies only the layout, Rubik typography hierarchy, scale, badges, underline bars and S1 illustration style. REPLACE ALL its words and exercise/topic content with the exact instructions below. The SECOND reference is ONLY the DOTS background example; ignore its words, checkboxes, props and composition.\n\nBACKGROUND: fill entire canvas SOLID OPAQUE #F0F1EB, then a regular pattern of small dots #D4D4CC, 6px diameter, every 45px, across the whole canvas as on approved LW-CAR-0014. NO ARCH: completely omit the large pale pink arch visible in LW-CAR-0008. No gradient, rings, texture, progress bar, slide counter or transparency checkerboard. Keep entire top 110px free of other content while dots continue behind; the real transparent Harda logo will be inserted later at x=48,y=19,size=218x71. Do not draw a logo or wordmark.\n\nFIGURE STYLE S1: adult athletic bald faceless smooth PLASTIC anatomy teaching mannequin, muscles warm sand #D9CBBE, ivory skin/tendons about #F5F0E5, fine grey linework and delicate sand shading, target muscles coral #F26445. Smooth featureless pelvis, opaque plain sand #D9CBBE gym shorts on every full-body or hip-visible figure. Do not switch to the white S2 figure. No green/sage muscle colors. Equipment black/grey. Rubik for ALL text: heaviest cover, bold titles, semibold subtitles/labels, regular body. Dark #2A2A2A, body grey #6B6B6B, accent #F26445, white text on coral badges. Keep exact provided capitalization, apostrophes, plain hyphens, x and punctuation. No extra text, watermark, signature, labels or panels except the specified map cards. All text fully visible and unobscured.\n\nLIST TEMPLATE — match the FIRST reference's same positions, sizes, badge, title, subtitle, short why line, center muscle close-up and TWO lower exercise figures with OR between them. Exact text:\ncoral circle badge, white number: `3`\ncentered bold title: `Obliques`\ncentered semibold subtitle: `2-3 Sets x 10-12 Reps`\ncentered regular grey why line: `They turn and brace your torso. Train both sides.`\nleft exercise label: `Cable Woodchop`\nwhite text in coral circle between exercises: `OR`\nright exercise label: `Side Plank Dips`\n\nKeep badge below the top 110px logo area, then title, subtitle, short coral underline and why line (up to two lines), all fully visible. Center around y=460 to 800: S1 sand torso CLOSE-UP, front three-quarter torso, obliques on both sides of the waist, only that target region coral. No head/pelvis detail is needed in the teaching close-up. Lower area: LEFT exercise exactly standing at a high cable, rotating it down and across the body; RIGHT exercise exactly side plank on one forearm, hips dipping down and lifting up. Both exercise figures use the same S1 sand/ivory plastic mannequin with opaque sand shorts and black/grey equipment, with the same target region coral where visible. Put each exact exercise label under its own figure, fully visible above the bottom edge. Coral round OR badge centered in the clear gap between figures, never covering them. Preserve all words and every `2-3`, `10-15`/`10-12`, plain `x`, capital letter and period. No original chest/triceps wording or exercise names from reference. No extra text.",
+          "prompt_file": "prompts/slide-05.txt",
+          "raw_result_file": "/workspace/generated_images/exec-6a10ce14-af7e-4e26-a4ea-5798f7721fab.png",
+          "preserved_raw_file": "production-assets/slide-05-generated.png",
+          "result_file": "outputs/slide-05.png",
+          "export": {
+            "raw_size": [
+              1122,
+              1402
+            ],
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "has_alpha": false,
+            "logo": "Official transparent logo composited at x=48,y=19,size=218x71; no background patch."
+          }
+        }
+      ],
+      "errors": [],
+      "save_status": "pushed_to_target_branch",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 6,
+      "content_version": "1.0",
+      "role": "list item 4",
+      "exact_text": [
+        "4",
+        "Lower Back",
+        "2-3 Sets x 10-15 Reps",
+        "A strong lower back keeps your core solid under heavy weights.",
+        "Back Extension",
+        "OR",
+        "Bird Dog"
+      ],
+      "file": "outputs/slide-06.png",
+      "prompt": "Create ONE finished Harda S1 fitness carousel slide, portrait 1080 x 1350, 4:5. The FIRST supplied owner-approved LW-CAR-0008 reference supplies only the layout, Rubik typography hierarchy, scale, badges, underline bars and S1 illustration style. REPLACE ALL its words and exercise/topic content with the exact instructions below. The SECOND reference is ONLY the DOTS background example; ignore its words, checkboxes, props and composition.\n\nBACKGROUND: fill entire canvas SOLID OPAQUE #F0F1EB, then a regular pattern of small dots #D4D4CC, 6px diameter, every 45px, across the whole canvas as on approved LW-CAR-0014. NO ARCH: completely omit the large pale pink arch visible in LW-CAR-0008. No gradient, rings, texture, progress bar, slide counter or transparency checkerboard. Keep entire top 110px free of other content while dots continue behind; the real transparent Harda logo will be inserted later at x=48,y=19,size=218x71. Do not draw a logo or wordmark.\n\nFIGURE STYLE S1: adult athletic bald faceless smooth PLASTIC anatomy teaching mannequin, muscles warm sand #D9CBBE, ivory skin/tendons about #F5F0E5, fine grey linework and delicate sand shading, target muscles coral #F26445. Smooth featureless pelvis, opaque plain sand #D9CBBE gym shorts on every full-body or hip-visible figure. Do not switch to the white S2 figure. No green/sage muscle colors. Equipment black/grey. Rubik for ALL text: heaviest cover, bold titles, semibold subtitles/labels, regular body. Dark #2A2A2A, body grey #6B6B6B, accent #F26445, white text on coral badges. Keep exact provided capitalization, apostrophes, plain hyphens, x and punctuation. No extra text, watermark, signature, labels or panels except the specified map cards. All text fully visible and unobscured.\n\nLIST TEMPLATE — match the FIRST reference's same positions, sizes, badge, title, subtitle, short why line, center muscle close-up and TWO lower exercise figures with OR between them. Exact text:\ncoral circle badge, white number: `4`\ncentered bold title: `Lower Back`\ncentered semibold subtitle: `2-3 Sets x 10-15 Reps`\ncentered regular grey why line: `A strong lower back keeps your core solid under heavy weights.`\nleft exercise label: `Back Extension`\nwhite text in coral circle between exercises: `OR`\nright exercise label: `Bird Dog`\n\nKeep badge below the top 110px logo area, then title, subtitle, short coral underline and why line (up to two lines), all fully visible. Center around y=460 to 800: S1 sand torso CLOSE-UP, rear torso, erectors in a V at the lower back, only that target region coral. No head/pelvis detail is needed in the teaching close-up. Lower area: LEFT exercise exactly 45-degree back extension bench, torso in line with the legs at the top; RIGHT exercise exactly on all fours, one arm and the opposite leg reaching out straight. Both exercise figures use the same S1 sand/ivory plastic mannequin with opaque sand shorts and black/grey equipment, with the same target region coral where visible. Put each exact exercise label under its own figure, fully visible above the bottom edge. Coral round OR badge centered in the clear gap between figures, never covering them. Preserve all words and every `2-3`, `10-15`/`10-12`, plain `x`, capital letter and period. No original chest/triceps wording or exercise names from reference. No extra text.",
+      "prompt_file": "prompts/slide-06.txt",
+      "reference": [
+        "carousels/LW-CAR-0008/outputs/slide-06.png",
+        "carousels/LW-CAR-0014/outputs/slide-02.png"
+      ],
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "carousels/LW-CAR-0008/outputs/slide-06.png",
+            "carousels/LW-CAR-0014/outputs/slide-02.png"
+          ],
+          "prompt": "Create ONE finished Harda S1 fitness carousel slide, portrait 1080 x 1350, 4:5. The FIRST supplied owner-approved LW-CAR-0008 reference supplies only the layout, Rubik typography hierarchy, scale, badges, underline bars and S1 illustration style. REPLACE ALL its words and exercise/topic content with the exact instructions below. The SECOND reference is ONLY the DOTS background example; ignore its words, checkboxes, props and composition.\n\nBACKGROUND: fill entire canvas SOLID OPAQUE #F0F1EB, then a regular pattern of small dots #D4D4CC, 6px diameter, every 45px, across the whole canvas as on approved LW-CAR-0014. NO ARCH: completely omit the large pale pink arch visible in LW-CAR-0008. No gradient, rings, texture, progress bar, slide counter or transparency checkerboard. Keep entire top 110px free of other content while dots continue behind; the real transparent Harda logo will be inserted later at x=48,y=19,size=218x71. Do not draw a logo or wordmark.\n\nFIGURE STYLE S1: adult athletic bald faceless smooth PLASTIC anatomy teaching mannequin, muscles warm sand #D9CBBE, ivory skin/tendons about #F5F0E5, fine grey linework and delicate sand shading, target muscles coral #F26445. Smooth featureless pelvis, opaque plain sand #D9CBBE gym shorts on every full-body or hip-visible figure. Do not switch to the white S2 figure. No green/sage muscle colors. Equipment black/grey. Rubik for ALL text: heaviest cover, bold titles, semibold subtitles/labels, regular body. Dark #2A2A2A, body grey #6B6B6B, accent #F26445, white text on coral badges. Keep exact provided capitalization, apostrophes, plain hyphens, x and punctuation. No extra text, watermark, signature, labels or panels except the specified map cards. All text fully visible and unobscured.\n\nLIST TEMPLATE — match the FIRST reference's same positions, sizes, badge, title, subtitle, short why line, center muscle close-up and TWO lower exercise figures with OR between them. Exact text:\ncoral circle badge, white number: `4`\ncentered bold title: `Lower Back`\ncentered semibold subtitle: `2-3 Sets x 10-15 Reps`\ncentered regular grey why line: `A strong lower back keeps your core solid under heavy weights.`\nleft exercise label: `Back Extension`\nwhite text in coral circle between exercises: `OR`\nright exercise label: `Bird Dog`\n\nKeep badge below the top 110px logo area, then title, subtitle, short coral underline and why line (up to two lines), all fully visible. Center around y=460 to 800: S1 sand torso CLOSE-UP, rear torso, erectors in a V at the lower back, only that target region coral. No head/pelvis detail is needed in the teaching close-up. Lower area: LEFT exercise exactly 45-degree back extension bench, torso in line with the legs at the top; RIGHT exercise exactly on all fours, one arm and the opposite leg reaching out straight. Both exercise figures use the same S1 sand/ivory plastic mannequin with opaque sand shorts and black/grey equipment, with the same target region coral where visible. Put each exact exercise label under its own figure, fully visible above the bottom edge. Coral round OR badge centered in the clear gap between figures, never covering them. Preserve all words and every `2-3`, `10-15`/`10-12`, plain `x`, capital letter and period. No original chest/triceps wording or exercise names from reference. No extra text.",
+          "prompt_file": "prompts/slide-06.txt",
+          "raw_result_file": "/workspace/generated_images/exec-103c6965-9dda-4abc-836a-05d4e83f5cb3.png",
+          "preserved_raw_file": "production-assets/slide-06-generated.png",
+          "result_file": "outputs/slide-06.png",
+          "export": {
+            "raw_size": [
+              1122,
+              1402
+            ],
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "has_alpha": false,
+            "logo": "Official transparent logo composited at x=48,y=19,size=218x71; no background patch."
+          }
+        }
+      ],
+      "errors": [],
+      "save_status": "pushed_to_target_branch",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 7,
+      "content_version": "1.0",
+      "role": "bonus tip",
+      "exact_text": [
+        "Bonus Tip",
+        "Abs show when your body fat drops. Train them hard and keep your diet in check."
+      ],
+      "file": "outputs/slide-07.png",
+      "prompt": "Create ONE finished Harda S1 fitness carousel slide, portrait 1080 x 1350, 4:5. The FIRST supplied owner-approved LW-CAR-0008 reference supplies only the layout, Rubik typography hierarchy, scale, badges, underline bars and S1 illustration style. REPLACE ALL its words and exercise/topic content with the exact instructions below. The SECOND reference is ONLY the DOTS background example; ignore its words, checkboxes, props and composition.\n\nBACKGROUND: fill entire canvas SOLID OPAQUE #F0F1EB, then a regular pattern of small dots #D4D4CC, 6px diameter, every 45px, across the whole canvas as on approved LW-CAR-0014. NO ARCH: completely omit the large pale pink arch visible in LW-CAR-0008. No gradient, rings, texture, progress bar, slide counter or transparency checkerboard. Keep entire top 110px free of other content while dots continue behind; the real transparent Harda logo will be inserted later at x=48,y=19,size=218x71. Do not draw a logo or wordmark.\n\nFIGURE STYLE S1: adult athletic bald faceless smooth PLASTIC anatomy teaching mannequin, muscles warm sand #D9CBBE, ivory skin/tendons about #F5F0E5, fine grey linework and delicate sand shading, target muscles coral #F26445. Smooth featureless pelvis, opaque plain sand #D9CBBE gym shorts on every full-body or hip-visible figure. Do not switch to the white S2 figure. No green/sage muscle colors. Equipment black/grey. Rubik for ALL text: heaviest cover, bold titles, semibold subtitles/labels, regular body. Dark #2A2A2A, body grey #6B6B6B, accent #F26445, white text on coral badges. Keep exact provided capitalization, apostrophes, plain hyphens, x and punctuation. No extra text, watermark, signature, labels or panels except the specified map cards. All text fully visible and unobscured.\n\nBONUS TIP, twin of FIRST reference layout but on DOTS background. Upper-left bold Rubik coral exact title `Bonus Tip`, with a short coral underline. Beneath it, left-aligned regular #6B6B6B exact body: `Abs show when your body fat drops. Train them hard and keep your diet in check.`. Wrap naturally to keep every word visible, above the illustration. Lower approximately 60%: ONE large S1 sand anatomy mannequin holding a FOREARM PLANK, SIDE VIEW, elbows under shoulders, forearms and toes supporting it, head/torso/hips/legs in one straight line, abs filled coral #F26445. Opaque sand shorts. All other muscles sand/ivory, no chest highlight. Complete body fully visible, all clear of the copy. No other text.",
+      "prompt_file": "prompts/slide-07.txt",
+      "reference": [
+        "carousels/LW-CAR-0008/outputs/slide-07.png",
+        "carousels/LW-CAR-0014/outputs/slide-02.png"
+      ],
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "carousels/LW-CAR-0008/outputs/slide-07.png",
+            "carousels/LW-CAR-0014/outputs/slide-02.png"
+          ],
+          "prompt": "Create ONE finished Harda S1 fitness carousel slide, portrait 1080 x 1350, 4:5. The FIRST supplied owner-approved LW-CAR-0008 reference supplies only the layout, Rubik typography hierarchy, scale, badges, underline bars and S1 illustration style. REPLACE ALL its words and exercise/topic content with the exact instructions below. The SECOND reference is ONLY the DOTS background example; ignore its words, checkboxes, props and composition.\n\nBACKGROUND: fill entire canvas SOLID OPAQUE #F0F1EB, then a regular pattern of small dots #D4D4CC, 6px diameter, every 45px, across the whole canvas as on approved LW-CAR-0014. NO ARCH: completely omit the large pale pink arch visible in LW-CAR-0008. No gradient, rings, texture, progress bar, slide counter or transparency checkerboard. Keep entire top 110px free of other content while dots continue behind; the real transparent Harda logo will be inserted later at x=48,y=19,size=218x71. Do not draw a logo or wordmark.\n\nFIGURE STYLE S1: adult athletic bald faceless smooth PLASTIC anatomy teaching mannequin, muscles warm sand #D9CBBE, ivory skin/tendons about #F5F0E5, fine grey linework and delicate sand shading, target muscles coral #F26445. Smooth featureless pelvis, opaque plain sand #D9CBBE gym shorts on every full-body or hip-visible figure. Do not switch to the white S2 figure. No green/sage muscle colors. Equipment black/grey. Rubik for ALL text: heaviest cover, bold titles, semibold subtitles/labels, regular body. Dark #2A2A2A, body grey #6B6B6B, accent #F26445, white text on coral badges. Keep exact provided capitalization, apostrophes, plain hyphens, x and punctuation. No extra text, watermark, signature, labels or panels except the specified map cards. All text fully visible and unobscured.\n\nBONUS TIP, twin of FIRST reference layout but on DOTS background. Upper-left bold Rubik coral exact title `Bonus Tip`, with a short coral underline. Beneath it, left-aligned regular #6B6B6B exact body: `Abs show when your body fat drops. Train them hard and keep your diet in check.`. Wrap naturally to keep every word visible, above the illustration. Lower approximately 60%: ONE large S1 sand anatomy mannequin holding a FOREARM PLANK, SIDE VIEW, elbows under shoulders, forearms and toes supporting it, head/torso/hips/legs in one straight line, abs filled coral #F26445. Opaque sand shorts. All other muscles sand/ivory, no chest highlight. Complete body fully visible, all clear of the copy. No other text.",
+          "prompt_file": "prompts/slide-07.txt",
+          "raw_result_file": "/workspace/generated_images/exec-6f24bfe5-d6ce-48fb-ae32-fc45b8b38efa.png",
+          "preserved_raw_file": "production-assets/slide-07-generated.png",
+          "result_file": "outputs/slide-07.png",
+          "export": {
+            "raw_size": [
+              1122,
+              1402
+            ],
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "has_alpha": false,
+            "logo": "Official transparent logo composited at x=48,y=19,size=218x71; no background patch."
+          }
+        }
+      ],
+      "errors": [],
+      "save_status": "pushed_to_target_branch",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 8,
+      "content_version": "1.0",
+      "role": "product ending",
+      "exact_text": [
+        "Is Your Core Getting Enough Work?",
+        "Log your workouts in Harda.",
+        "See how many sets your core gets compared to every other muscle."
+      ],
+      "file": "outputs/slide-08.png",
+      "prompt": "Create ONE finished Harda S1 fitness carousel slide, portrait 1080 x 1350, 4:5. The FIRST supplied owner-approved LW-CAR-0008 reference supplies only the layout, Rubik typography hierarchy, scale, badges, underline bars and S1 illustration style. REPLACE ALL its words and exercise/topic content with the exact instructions below. The SECOND reference is ONLY the DOTS background example; ignore its words, checkboxes, props and composition.\n\nBACKGROUND: fill entire canvas SOLID OPAQUE #F0F1EB, then a regular pattern of small dots #D4D4CC, 6px diameter, every 45px, across the whole canvas as on approved LW-CAR-0014. NO ARCH: completely omit the large pale pink arch visible in LW-CAR-0008. No gradient, rings, texture, progress bar, slide counter or transparency checkerboard. Keep entire top 110px free of other content while dots continue behind; the real transparent Harda logo will be inserted later at x=48,y=19,size=218x71. Do not draw a logo or wordmark.\n\nFIGURE STYLE S1: adult athletic bald faceless smooth PLASTIC anatomy teaching mannequin, muscles warm sand #D9CBBE, ivory skin/tendons about #F5F0E5, fine grey linework and delicate sand shading, target muscles coral #F26445. Smooth featureless pelvis, opaque plain sand #D9CBBE gym shorts on every full-body or hip-visible figure. Do not switch to the white S2 figure. No green/sage muscle colors. Equipment black/grey. Rubik for ALL text: heaviest cover, bold titles, semibold subtitles/labels, regular body. Dark #2A2A2A, body grey #6B6B6B, accent #F26445, white text on coral badges. Keep exact provided capitalization, apostrophes, plain hyphens, x and punctuation. No extra text, watermark, signature, labels or panels except the specified map cards. All text fully visible and unobscured.\n\nPRODUCT ENDING — generate ONLY the UPPER TEXT on the opaque DOTS background. The FIRST reference supplies the headline/underline/body layout. Do NOT draw a phone, hand, app screen, fake UI, chart, icons or placeholder: the exact approved hand AND real phone pixels will be composited afterward in the lower area at their existing original scale and coordinates, phone top about y=523. Leave the lower area clear of copy.\nExact bold Rubik #2A2A2A headline in two left-aligned lines below y=110:\nIs Your Core\nGetting Enough Work?\nShort coral underline below complete headline, as in reference. Exact regular grey body paragraph 1:\nLog your workouts in Harda.\nThen a separate paragraph 2 in exactly two lines:\nSee how many sets your core gets\ncompared to every other muscle.\nKeep ALL body text above y=500, leaving a visible gap above the real phone. Preserve capitalization, question mark and periods. Use title/body scale and margins of the approved reference. DOTS continue throughout, never copy the old arch or chest text. No other words.",
+      "prompt_file": "prompts/slide-08.txt",
+      "reference": [
+        "carousels/LW-CAR-0008/outputs/slide-08.png",
+        "carousels/LW-CAR-0014/outputs/slide-02.png"
+      ],
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "carousels/LW-CAR-0008/outputs/slide-08.png",
+            "carousels/LW-CAR-0014/outputs/slide-02.png"
+          ],
+          "prompt": "Create ONE finished Harda S1 fitness carousel slide, portrait 1080 x 1350, 4:5. The FIRST supplied owner-approved LW-CAR-0008 reference supplies only the layout, Rubik typography hierarchy, scale, badges, underline bars and S1 illustration style. REPLACE ALL its words and exercise/topic content with the exact instructions below. The SECOND reference is ONLY the DOTS background example; ignore its words, checkboxes, props and composition.\n\nBACKGROUND: fill entire canvas SOLID OPAQUE #F0F1EB, then a regular pattern of small dots #D4D4CC, 6px diameter, every 45px, across the whole canvas as on approved LW-CAR-0014. NO ARCH: completely omit the large pale pink arch visible in LW-CAR-0008. No gradient, rings, texture, progress bar, slide counter or transparency checkerboard. Keep entire top 110px free of other content while dots continue behind; the real transparent Harda logo will be inserted later at x=48,y=19,size=218x71. Do not draw a logo or wordmark.\n\nFIGURE STYLE S1: adult athletic bald faceless smooth PLASTIC anatomy teaching mannequin, muscles warm sand #D9CBBE, ivory skin/tendons about #F5F0E5, fine grey linework and delicate sand shading, target muscles coral #F26445. Smooth featureless pelvis, opaque plain sand #D9CBBE gym shorts on every full-body or hip-visible figure. Do not switch to the white S2 figure. No green/sage muscle colors. Equipment black/grey. Rubik for ALL text: heaviest cover, bold titles, semibold subtitles/labels, regular body. Dark #2A2A2A, body grey #6B6B6B, accent #F26445, white text on coral badges. Keep exact provided capitalization, apostrophes, plain hyphens, x and punctuation. No extra text, watermark, signature, labels or panels except the specified map cards. All text fully visible and unobscured.\n\nPRODUCT ENDING — generate ONLY the UPPER TEXT on the opaque DOTS background. The FIRST reference supplies the headline/underline/body layout. Do NOT draw a phone, hand, app screen, fake UI, chart, icons or placeholder: the exact approved hand AND real phone pixels will be composited afterward in the lower area at their existing original scale and coordinates, phone top about y=523. Leave the lower area clear of copy.\nExact bold Rubik #2A2A2A headline in two left-aligned lines below y=110:\nIs Your Core\nGetting Enough Work?\nShort coral underline below complete headline, as in reference. Exact regular grey body paragraph 1:\nLog your workouts in Harda.\nThen a separate paragraph 2 in exactly two lines:\nSee how many sets your core gets\ncompared to every other muscle.\nKeep ALL body text above y=500, leaving a visible gap above the real phone. Preserve capitalization, question mark and periods. Use title/body scale and margins of the approved reference. DOTS continue throughout, never copy the old arch or chest text. No other words.",
+          "prompt_file": "prompts/slide-08.txt",
+          "raw_result_file": "/workspace/generated_images/exec-d291b718-c8d1-4b8a-8225-10df1d6d82f6.png",
+          "preserved_raw_file": "production-assets/slide-08-generated.png",
+          "post_generation_layers": [
+            "Exact approved S1 phone AND hand foreground, with authentic Muscle balance screen and Core axis, composited at original scale and original x=0,y=0 coordinates; transparent background preserves DOTS. No generated UI or resampling of phone/hand.",
+            "assets/logo/harda-logo-full.png at x=48,y=19,size=218x71, own alpha, no patch"
+          ],
+          "result_file": "outputs/slide-08.png",
+          "export": {
+            "raw_size": [
+              1122,
+              1402
+            ],
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "has_alpha": false,
+            "logo": "Official transparent logo composited at x=48,y=19,size=218x71; no background patch."
+          }
+        }
+      ],
+      "errors": [],
+      "save_status": "pushed_to_target_branch",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    }
+  ],
+  "archive": "LW-CAR-0031-1080x1350.zip",
+  "export_format": {
+    "images": 8,
+    "width": 1080,
+    "height": 1350,
+    "mode": "RGB",
+    "alpha": false,
+    "check": "Required export metadata only. No visual QA, OCR, or automatic regeneration."
+  }
+}

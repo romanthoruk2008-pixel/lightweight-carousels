@@ -1,0 +1,16 @@
+Create ONE finished Harda S1 fitness carousel slide, portrait 1080 x 1350, 4:5. The FIRST supplied owner-approved LW-CAR-0008 reference supplies only the layout, Rubik typography hierarchy, scale, badges, underline bars and S1 illustration style. REPLACE ALL its words and exercise/topic content with the exact instructions below. The SECOND reference is ONLY the DOTS background example; ignore its words, checkboxes, props and composition.
+
+BACKGROUND: fill entire canvas SOLID OPAQUE #F0F1EB, then a regular pattern of small dots #D4D4CC, 6px diameter, every 45px, across the whole canvas as on approved LW-CAR-0014. NO ARCH: completely omit the large pale pink arch visible in LW-CAR-0008. No gradient, rings, texture, progress bar, slide counter or transparency checkerboard. Keep entire top 110px free of other content while dots continue behind; the real transparent Harda logo will be inserted later at x=48,y=19,size=218x71. Do not draw a logo or wordmark.
+
+FIGURE STYLE S1: adult athletic bald faceless smooth PLASTIC anatomy teaching mannequin, muscles warm sand #D9CBBE, ivory skin/tendons about #F5F0E5, fine grey linework and delicate sand shading, target muscles coral #F26445. Smooth featureless pelvis, opaque plain sand #D9CBBE gym shorts on every full-body or hip-visible figure. Do not switch to the white S2 figure. No green/sage muscle colors. Equipment black/grey. Rubik for ALL text: heaviest cover, bold titles, semibold subtitles/labels, regular body. Dark #2A2A2A, body grey #6B6B6B, accent #F26445, white text on coral badges. Keep exact provided capitalization, apostrophes, plain hyphens, x and punctuation. No extra text, watermark, signature, labels or panels except the specified map cards. All text fully visible and unobscured.
+
+LIST TEMPLATE — match the FIRST reference's same positions, sizes, badge, title, subtitle, short why line, center muscle close-up and TWO lower exercise figures with OR between them. Exact text:
+coral circle badge, white number: `4`
+centered bold title: `Lower Back`
+centered semibold subtitle: `2-3 Sets x 10-15 Reps`
+centered regular grey why line: `A strong lower back keeps your core solid under heavy weights.`
+left exercise label: `Back Extension`
+white text in coral circle between exercises: `OR`
+right exercise label: `Bird Dog`
+
+Keep badge below the top 110px logo area, then title, subtitle, short coral underline and why line (up to two lines), all fully visible. Center around y=460 to 800: S1 sand torso CLOSE-UP, rear torso, erectors in a V at the lower back, only that target region coral. No head/pelvis detail is needed in the teaching close-up. Lower area: LEFT exercise exactly 45-degree back extension bench, torso in line with the legs at the top; RIGHT exercise exactly on all fours, one arm and the opposite leg reaching out straight. Both exercise figures use the same S1 sand/ivory plastic mannequin with opaque sand shorts and black/grey equipment, with the same target region coral where visible. Put each exact exercise label under its own figure, fully visible above the bottom edge. Coral round OR badge centered in the clear gap between figures, never covering them. Preserve all words and every `2-3`, `10-15`/`10-12`, plain `x`, capital letter and period. No original chest/triceps wording or exercise names from reference. No extra text.
