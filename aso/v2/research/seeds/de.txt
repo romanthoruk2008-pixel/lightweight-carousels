@@ -1,0 +1,118 @@
+head|trainingsplan
+head|trainingsplaner
+head|trainingsplan app
+head|trainingstagebuch
+head|trainingstracker
+head|trainingsprotokoll
+head|krafttraining
+head|krafttraining app
+head|krafttraining plan
+head|krafttraining tracker
+head|kraftsport
+head|muskelaufbau
+head|muskelaufbau plan
+head|muskelaufbau app
+head|gewichtheben
+head|fitnessstudio
+head|fitnessstudio app
+head|fitnessstudio trainingsplan
+head|gym trainingsplan
+head|gym tagebuch
+head|fitness tagebuch
+head|trainingsplan erstellen
+head|trainingsplan kostenlos
+head|fitness
+head|training
+head|gym
+head|workout
+head|fitness app
+head|fitness tracker
+head|gym tracker
+head|gym app
+head|gym log
+head|workout tracker
+head|workout app
+head|workout planer
+head|workout plan
+head|workout log
+head|trainings app
+head|fitness trainer
+head|personal trainer
+head|fitness coach
+ai|ki trainer
+ai|ki fitness
+ai|ki trainingsplan
+ai|ki personal trainer
+ai|ki coach
+program|bodybuilding
+program|powerlifting
+program|kraftdreikampf
+program|hypertrophie
+program|progressive overload
+program|push pull beine
+program|push pull legs
+program|ganzkörpertraining
+program|split training
+program|trainingssplit
+program|5x5
+program|531
+program|krafttraining frauen
+program|krafttraining anfänger
+program|trainingsplan anfänger
+program|fitnessstudio anfänger
+program|krafttraining männer
+longtail|1rm rechner
+longtail|1rm
+longtail|maximalkraft
+longtail|maximalkraft rechner
+longtail|wiederholungen
+longtail|sätze und wiederholungen
+longtail|satzpause
+longtail|pausentimer
+longtail|trainingstimer
+longtail|übungen
+longtail|fitnessübungen
+longtail|gym übungen
+longtail|übungsbibliothek
+longtail|körpermaße
+longtail|körpermaße tracker
+longtail|fortschrittsfotos
+longtail|fortschritt
+longtail|langhantel
+longtail|kurzhantel training
+longtail|hantel
+longtail|hanteltraining
+longtail|gewichte
+longtail|trainingsprotokoll app
+longtail|trainingsfortschritt
+social|trainingspartner
+social|gym buddy
+social|gym partner
+social|mit freunden trainieren
+social|streak
+social|fitness streak
+social|fitness challenge
+social|motivation
+social|gym motivation
+watch|apple watch training
+watch|apple watch krafttraining
+watch|apple watch fitness
+watch|apple watch gym
+en|weightlifting
+en|weight lifting
+en|lifting
+en|strength training
+en|workout planner
+en|gym workout
+en|gym planner
+en|gym workout planner
+en|weight training
+en|lifting log
+en|training log
+en|strength
+competitor|hevy
+competitor|strong
+competitor|alpha progression
+competitor|gymbook
+competitor|fitbod
+competitor|gymverse

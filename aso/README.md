@@ -66,3 +66,7 @@ Sonar (замість AppTweak): для US і пріоритетних ринк�
 | markets.md | Пріоритетні ринки й локалізації |
 
 Жодних вигаданих volume / popularity / difficulty у цих файлах немає — лише спостережені дані та позначені гіпотези.
+
+## v2 (2026-10-22)
+
+Sonar-measured listings for 14 locales, the App Store Connect audit and competitor research: see [v2/README.md](v2/README.md).

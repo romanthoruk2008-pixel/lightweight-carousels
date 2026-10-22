@@ -1,0 +1,746 @@
+term,popularity,difficulty,field,locale,store,popularity_source,target,relevant,group
+fitness,64,83,keywords,en-US,us,apple,,partly,word
+lift,63,76,keywords,en-US,us,apple,,partly,word
+hevy,61,67,,,us,apple,,no,competitor
+journal,60,74,name,es-MX,us,apple,,partly,word
+coach,60,85,keywords,en-US,us,apple,,partly,word
+workout,59,79,keywords,es-MX,us,apple,,partly,head
+planner,58,72,keywords,en-US,us,apple,,partly,word
+ladder,57,53,,,us,apple,,no,competitor
+fitbod,55,79,,,us,apple,,no,competitor
+gym,54,78,keywords,es-MX,us,apple,,partly,head
+liftoff,53,58,,,us,apple,,no,competitor
+workout tracker,53,74,name,en-US,us,apple,,yes,head
+lyfta,52,72,,,us,apple,,no,competitor
+tracker,52,81,name,en-US,us,apple,,partly,word
+boostcamp,51,68,,,us,apple,,no,competitor
+dinosaur,50,74,,,us,apple,,no,mascot
+workout planner,49,75,name+keywords,en-US,us,apple,,yes,head
+fitness app,49,81,keywords,en-US,us,apple,,yes,head
+gym workout,48,77,keywords,es-MX,us,apple,,yes,head
+split,47,63,keywords,es-MX,us,apple,,partly,word
+calisthenics,47,65,,,us,apple,,no,longtail
+fitness tracker,47,80,name+keywords,en-US,us,apple,,yes,head
+jefit,45,78,,,us,apple,,no,competitor
+gym tracker,44,72,name,en-US,us,apple,,yes,head
+routine,42,69,keywords,en-US,us,apple,,partly,word
+plan,41,65,subtitle,en-US,us,apple,,partly,word
+alpha progression,41,68,,,us,apple,,no,competitor
+training,41,74,subtitle,en-US,us,apple,,partly,word
+muscle,37,66,keywords,es-MX,us,estimate,,partly,word
+gym workout plan,37,75,name+subtitle,en-US,us,estimate,,yes,head
+5x5,35,41,keywords,en-US,us,estimate,,yes,program
+cardio,34,50,,,us,estimate,,no,longtail
+weightlifting,34,53,name,es-MX,us,estimate,,yes,head
+strength,33,44,subtitle,en-US,us,estimate,,partly,head
+trex,33,61,,,us,estimate,,no,mascot
+kettlebell,32,22,,,us,estimate,yes,no,longtail
+bodybuilding,32,49,subtitle,es-MX,us,estimate,,yes,program
+powerlifting,31,32,subtitle,es-MX,us,estimate,yes,yes,program
+dumbbell,31,36,,,us,estimate,yes,partly,longtail
+exercise,31,78,,,us,estimate,,partly,word
+531,30,25,keywords,en-US,us,estimate,yes,yes,program
+hypertrophy,30,25,keywords,es-MX,us,estimate,yes,yes,program
+fitness coach,30,70,keywords,en-US,us,estimate,,partly,ai
+lifting,30,80,keywords,en-US,us,estimate,,partly,head
+resistance training,30,81,,,us,estimate,,yes,head
+1rm,29,13,keywords,en-US,us,estimate,yes,yes,longtail
+roast,29,19,,,us,estimate,yes,no,mascot
+build muscle,29,58,keywords,es-MX,us,estimate,,yes,program
+gains,28,18,keywords,en-US,us,estimate,yes,yes,word
+program,28,20,keywords,en-US,us,estimate,yes,partly,word
+ai trainer,28,49,,,us,estimate,,partly,ai
+lifting app,28,75,keywords,en-US,us,estimate,,yes,head
+weight training,28,78,subtitle+keywords,en-US,us,estimate,,yes,head
+superset,27,7,keywords,es-MX,us,estimate,yes,yes,word
+gymbro,27,17,keywords,en-US,us,estimate,yes,yes,longtail
+strong alternative,27,48,,,us,estimate,,no,competitor
+gym workout tracker,27,70,name,en-US,us,estimate,,yes,head
+fitness log,27,72,subtitle+keywords,en-US,us,estimate,,yes,head
+gym plan,27,76,name+subtitle,en-US,us,estimate,,yes,head
+gym tracking,26,75,,,us,estimate,,yes,head
+strength coach,25,29,subtitle+keywords,en-US,us,estimate,yes,partly,ai
+fitness streak,25,37,keywords,en-US,us,estimate,yes,yes,social
+lifter,25,39,keywords,es-MX,us,estimate,yes,yes,longtail
+workout log,25,55,name+subtitle,en-US,us,estimate,,yes,head
+setgraph,25,73,,,us,estimate,,no,competitor
+weight lifting planner,25,73,keywords,en-US,us,estimate,,yes,head
+gym program,25,74,name+keywords,en-US,us,estimate,,yes,program
+gym workout tracker free,25,74,,,us,estimate,,yes,longtail
+gym workout app,25,76,keywords,es-MX,us,estimate,,yes,head
+workout journal,24,55,name+keywords,es-MX,us,estimate,,yes,head
+apple watch workout tracker,24,72,,,us,estimate,,yes,watch
+strong workout,24,73,,,us,estimate,,no,competitor
+barbell,22,19,keywords,es-MX,us,estimate,yes,yes,longtail
+weights,22,43,keywords,en-US,us,estimate,,partly,word
+ai fitness coach,22,71,keywords,en-US,us,estimate,,partly,ai
+gym tracker free,22,73,,,us,estimate,,yes,longtail
+gym planner,21,61,name+keywords,en-US,us,estimate,,yes,head
+training log,21,61,subtitle,en-US,us,estimate,,yes,head
+workout tracking,21,65,,,us,estimate,,yes,head
+workout tracker apple watch,21,70,,,us,estimate,,yes,longtail
+sarcastic,20,23,,,us,estimate,yes,no,mascot
+social workout,20,32,name+keywords,en-US,us,estimate,yes,yes,social
+gym timer,20,64,keywords,es-MX,us,estimate,,yes,longtail
+workout creator,20,66,,,us,estimate,,yes,program
+training program,20,67,subtitle+keywords,en-US,us,estimate,,yes,program
+muscle workout,20,69,keywords,es-MX,us,estimate,,yes,head
+training tracker,20,69,name+subtitle,en-US,us,estimate,,yes,head
+strength training,20,74,subtitle,en-US,us,estimate,,yes,head
+weight lifting app,20,76,keywords,en-US,us,estimate,,yes,head
+strength training planner,19,66,subtitle+keywords,en-US,us,estimate,,yes,head
+apple watch gym,19,67,,,us,estimate,,yes,watch
+personal trainer,19,73,,,us,estimate,,partly,ai
+weight lifting tracker,19,74,name+keywords,en-US,us,estimate,,yes,head
+workout routine planner,19,75,name+keywords,en-US,us,estimate,,yes,head
+gym workout planner,19,76,name+keywords,en-US,us,estimate,,yes,head
+workout plan,19,76,name+subtitle,en-US,us,estimate,,yes,head
+workout app,19,79,keywords,es-MX,us,estimate,,yes,head
+ai gym,18,59,name+keywords,en-US,us,estimate,,yes,ai
+max calculator,18,64,,,us,estimate,,no,longtail
+gym for beginners,18,65,,,us,estimate,,yes,program
+gym stats,18,67,keywords,es-MX,us,estimate,,yes,longtail
+gym streak,18,69,name+keywords,en-US,us,estimate,,yes,social
+workout buddy,18,69,keywords,es-MX,us,estimate,,yes,social
+workout tracker free,18,70,,,us,estimate,,yes,longtail
+strength training for women,18,72,,,us,estimate,,no,program
+weight lifting,18,73,keywords,en-US,us,estimate,,yes,head
+workout routine,18,73,name+keywords,en-US,us,estimate,,yes,program
+gym app,18,78,keywords,es-MX,us,estimate,,yes,head
+log,17,37,subtitle,en-US,us,estimate,,partly,word
+weight lifting plan,17,60,subtitle+keywords,en-US,us,estimate,,yes,head
+rpe,17,64,,,us,estimate,,no,word
+workout timer,17,64,keywords,es-MX,us,estimate,,yes,longtail
+strong app,17,65,,,us,estimate,,no,competitor
+fitness game,17,67,,,us,estimate,,no,social
+routine planner,17,70,keywords,en-US,us,estimate,,yes,program
+gymverse,16,58,,,us,estimate,,no,competitor
+gym routine,16,62,name+keywords,en-US,us,estimate,,yes,program
+workout program,16,63,name+keywords,en-US,us,estimate,,yes,program
+progress tracker,15,48,,,us,estimate,,yes,longtail
+streak tracker,15,57,name+keywords,en-US,us,estimate,,yes,social
+weightlifting tracker,15,57,,,us,estimate,,yes,head
+weight lifting log,15,58,subtitle+keywords,en-US,us,estimate,,yes,head
+lifting program,15,60,keywords,en-US,us,estimate,,yes,program
+harda,14,27,,,us,estimate,,no,brand
+gym log,14,37,name+subtitle,en-US,us,estimate,,yes,head
+strength training tracker,14,50,name+subtitle,en-US,us,estimate,,yes,head
+full body workout,14,52,,,us,estimate,,yes,program
+strength training log,14,53,subtitle,en-US,us,estimate,,yes,head
+cardio tracker,14,54,,,us,estimate,,no,longtail
+fitness journal,14,54,,,us,estimate,,yes,head
+gym coach,14,54,name+keywords,en-US,us,estimate,,partly,ai
+workout builder,14,55,,,us,estimate,,yes,program
+workout plans,14,56,name+subtitle,en-US,us,estimate,,yes,program
+ai coach,14,57,keywords,en-US,us,estimate,,partly,ai
+workout logbook,14,57,,,us,estimate,,yes,head
+workout motivation,14,57,,,us,estimate,,yes,social
+gym calendar,14,62,,,us,estimate,,yes,longtail
+weightlifting log,13,46,,,us,estimate,,yes,head
+fitness friends,13,47,,,us,estimate,,yes,social
+strength log,13,47,subtitle,en-US,us,estimate,,yes,head
+gym workout log,13,48,name+subtitle,en-US,us,estimate,,yes,head
+workout challenge,13,50,,,us,estimate,,partly,social
+lifting tracker,13,51,name+keywords,en-US,us,estimate,,yes,head
+gym exercises,13,52,,,us,estimate,,yes,longtail
+gym for women,13,52,,,us,estimate,,no,head
+streak,13,53,keywords,en-US,us,estimate,,partly,social
+import workout,13,57,,,us,estimate,,yes,ai
+strength program,13,57,subtitle+keywords,en-US,us,estimate,,yes,program
+body measurement tracker,12,39,,,us,estimate,,yes,longtail
+workout diary,12,40,keywords,es-MX,us,estimate,,yes,longtail
+fitness challenge,12,41,,,us,estimate,,partly,social
+training plan,12,42,subtitle,en-US,us,estimate,,yes,program
+ai workout planner,12,43,name+keywords,en-US,us,estimate,,yes,ai
+workout generator,12,43,,,us,estimate,,yes,ai
+ai workout,12,44,name+keywords,en-US,us,estimate,,yes,ai
+gym diary,12,44,keywords,es-MX,us,estimate,,yes,longtail
+muscle gain,12,45,,,us,estimate,,yes,program
+workout schedule,12,45,,,us,estimate,,yes,longtail
+fitness social,11,29,keywords,en-US,us,estimate,,yes,social
+lift log,11,35,subtitle+keywords,en-US,us,estimate,,yes,head
+exercise log,11,36,,,us,estimate,,yes,head
+set tracker,11,36,,,us,estimate,,yes,longtail
+ai personal trainer,11,37,,,us,estimate,,partly,ai
+ai workout plan,11,37,name+subtitle+keywords,en-US,us,estimate,,yes,ai
+lift tracker,11,39,name+keywords,en-US,us,estimate,,yes,head
+strength tracker,11,39,name+subtitle,en-US,us,estimate,,yes,head
+stronglifts,11,48,,,us,estimate,,no,competitor
+simple gym log,11,52,,,us,estimate,,yes,longtail
+body measurements,10,29,,,us,estimate,,yes,longtail
+fitness motivation,10,29,,,us,estimate,,yes,social
+push pull legs,10,36,,,us,estimate,,yes,program
+ai fitness,10,40,keywords,en-US,us,estimate,,yes,ai
+ai planner,10,41,keywords,en-US,us,estimate,,yes,ai
+workout counter,10,46,,,us,estimate,,yes,longtail
+powerlifting tracker,10,47,,,us,estimate,,yes,program
+workout calendar,10,49,,,us,estimate,,yes,longtail
+watch workout,10,64,,,us,estimate,,yes,watch
+exercise tracker,10,71,,,us,estimate,,yes,head
+apple health workout,10,76,,,us,estimate,,yes,watch
+rep counter,9,20,,,us,estimate,,yes,longtail
+workout stats,9,24,keywords,es-MX,us,estimate,,yes,longtail
+dumbbell workout,9,25,,,us,estimate,,partly,longtail
+volume tracker,9,25,,,us,estimate,,yes,longtail
+progressive overload tracker,9,28,,,us,estimate,,yes,longtail
+rep tracker,9,30,,,us,estimate,,yes,longtail
+5x5 workout,9,31,name+keywords,en-US,us,estimate,,yes,program
+workout reminder,9,31,,,us,estimate,,yes,longtail
+t rex,9,35,,,us,estimate,,no,mascot
+fitness progress,9,42,,,us,estimate,,yes,longtail
+men workout,9,43,,,us,estimate,,no,head
+ai gym coach,9,53,name+keywords,en-US,us,estimate,,yes,ai
+lifting weights,9,55,keywords,en-US,us,estimate,,yes,longtail
+strength workout,9,55,name+subtitle,en-US,us,estimate,,yes,head
+weight lifting for women,9,57,,,us,estimate,,no,head
+one rep max,8,11,,,us,estimate,,yes,longtail
+pr tracker,8,15,,,us,estimate,,yes,longtail
+rest timer,8,15,,,us,estimate,,yes,longtail
+simple workout tracker,8,16,,,us,estimate,,yes,longtail
+leg day,8,17,,,us,estimate,,yes,program
+progressive overload,8,17,,,us,estimate,,yes,longtail
+gym log book,8,19,,,us,estimate,,yes,head
+gym friends,8,21,keywords,es-MX,us,estimate,,yes,social
+lifting log,8,21,subtitle+keywords,en-US,us,estimate,,yes,head
+accountability partner,8,22,,,us,estimate,,yes,social
+exercise library,8,24,,,us,estimate,,yes,longtail
+ai lifting,8,35,keywords,en-US,us,estimate,,yes,ai
+workout notebook,8,35,,,us,estimate,,yes,longtail
+gym motivation,8,38,,,us,estimate,,yes,social
+workout split,8,40,keywords,es-MX,us,estimate,,yes,program
+workout streak,8,43,name+keywords,en-US,us,estimate,,yes,social
+gym split,8,45,keywords,es-MX,us,estimate,,yes,program
+lifting plan,8,46,subtitle+keywords,en-US,us,estimate,,yes,head
+bodybuilding workout,8,47,subtitle+keywords,es-MX,us,estimate,,yes,program
+gym progress,8,47,,,us,estimate,,yes,longtail
+powerlifting program,8,49,,,us,estimate,,yes,program
+gym schedule,8,53,,,us,estimate,,yes,longtail
+1rm calculator,7,10,,,us,estimate,,yes,longtail
+lifting for women,7,11,,,us,estimate,,no,head
+muscle tracker,7,14,,,us,estimate,,yes,longtail
+progress photos,7,20,,,us,estimate,,yes,longtail
+gym buddy,7,21,keywords,es-MX,us,estimate,,yes,social
+weekly workout,7,28,,,us,estimate,,yes,longtail
+gym notes,7,31,,,us,estimate,,yes,longtail
+heart rate workout,7,31,,,us,estimate,,yes,watch
+workout plan generator,7,36,,,us,estimate,,yes,ai
+weight tracker gym,7,44,name+keywords,en-US,us,estimate,,yes,longtail
+watch workout tracker,7,48,,,us,estimate,,yes,watch
+calisthenics tracker,6,6,,,us,estimate,,no,longtail
+ai strength coach,6,7,subtitle+keywords,en-US,us,estimate,,yes,ai
+plate calculator,6,8,,,us,estimate,,no,longtail
+women weight lifting,6,9,,,us,estimate,,no,program
+workout import,6,9,,,us,estimate,,yes,ai
+upper lower split,6,11,,,us,estimate,,yes,program
+lifting routine,6,13,keywords,en-US,us,estimate,,yes,program
+wrist workout,6,13,,,us,estimate,,yes,watch
+gym humor,6,14,,,us,estimate,,no,mascot
+gym partner,6,14,,,us,estimate,,yes,social
+gym social,6,15,name+keywords,en-US,us,estimate,,yes,social
+apple watch lifting,6,16,,,us,estimate,,yes,watch
+workout with friends,6,17,keywords,es-MX,us,estimate,,yes,social
+lifting buddy,6,20,,,us,estimate,,yes,social
+workout friends,6,20,keywords,es-MX,us,estimate,,yes,social
+funny workout,6,22,,,us,estimate,,no,mascot
+workout accountability,6,26,,,us,estimate,,yes,social
+gamified workout,6,27,,,us,estimate,,yes,social
+workout widget,6,28,,,us,estimate,,yes,longtail
+apple watch strength,6,32,,,us,estimate,,yes,watch
+free workout tracker,6,33,,,us,estimate,,yes,longtail
+lifting tracker free,6,33,,,us,estimate,,yes,longtail
+apple watch gym tracker,6,38,,,us,estimate,,yes,watch
+gym journal,6,40,name+keywords,es-MX,us,estimate,,yes,head
+muscle map,5,3,,,us,estimate,,yes,longtail
+workout analytics,5,3,,,us,estimate,,yes,longtail
+gym bro,5,8,,,us,estimate,,yes,longtail
+workout partner,5,8,,,us,estimate,,yes,social
+workout history,5,9,,,us,estimate,,yes,longtail
+gym community,5,10,,,us,estimate,,yes,social
+ppl workout,5,10,,,us,estimate,,yes,program
+gym rat,5,11,,,us,estimate,,yes,longtail
+watch gym,5,13,,,us,estimate,,yes,watch
+hevy alternative,5,14,,,us,estimate,,no,competitor
+personal record,5,14,,,us,estimate,,yes,longtail
+exercise guide,5,24,,,us,estimate,,yes,longtail
+beginner workout plan,5,26,,,us,estimate,,yes,program
+1 rep max,5,27,,,us,estimate,,yes,longtail
+apple watch workout,5,27,,,us,estimate,,yes,watch
+hypertrophy training,5,28,,,us,estimate,,yes,program
+sets and reps,5,31,,,us,estimate,,yes,longtail
+ai workout generator,5,33,,,us,estimate,,yes,ai
+offline workout tracker,5,34,,,us,estimate,,yes,longtail
+lifting coach,5,35,keywords,en-US,us,estimate,,yes,head
+muscle building,5,50,,,us,estimate,,yes,program
+home gym,5,55,,,us,estimate,,no,longtail
+hevy,65,66,,,gb,apple,,no,competitor
+fitness,60,71,keywords,en-GB,gb,apple,,partly,word
+journal,57,54,,,gb,apple,,partly,word
+gym,56,65,name,en-GB,gb,apple,,partly,head
+planner,55,55,name,en-GB,gb,apple,,partly,word
+workout,53,64,name,en-GB,gb,apple,,partly,head
+tracker,50,51,subtitle,en-GB,gb,apple,,partly,word
+coach,50,56,keywords,en-GB,gb,apple,,partly,word
+gym tracker,49,52,name+subtitle,en-GB,gb,apple,,yes,head
+gym workout planner,49,56,name,en-GB,gb,apple,,yes,head
+workout tracker,48,54,name+subtitle,en-GB,gb,apple,,yes,head
+workout planner,46,58,name,en-GB,gb,apple,,yes,head
+lift,45,50,,,gb,apple,,partly,word
+fitness app,45,65,keywords,en-GB,gb,apple,,yes,head
+gym workout,43,59,name,en-GB,gb,apple,,yes,head
+fitness tracker,41,70,subtitle+keywords,en-GB,gb,apple,,yes,head
+routine,39,40,keywords,en-GB,gb,apple,yes,partly,word
+training,38,39,subtitle,en-GB,gb,apple,yes,partly,word
+split,37,24,subtitle,en-GB,gb,estimate,yes,partly,word
+plan,37,39,keywords,en-GB,gb,estimate,yes,partly,word
+muscle,37,51,,,gb,estimate,,partly,word
+exercise,37,64,,,gb,estimate,,partly,word
+strength,32,32,keywords,en-GB,gb,estimate,yes,partly,head
+bodybuilding,30,33,,,gb,estimate,yes,yes,program
+fitness challenge,30,33,,,gb,estimate,yes,partly,social
+hypertrophy,29,16,,,gb,estimate,yes,yes,program
+531,28,16,keywords,en-GB,gb,estimate,yes,yes,program
+barbell,27,13,keywords,en-GB,gb,estimate,yes,yes,longtail
+superset,26,5,,,gb,estimate,yes,yes,word
+gains,25,7,keywords,en-GB,gb,estimate,yes,yes,word
+gymbro,25,7,keywords,en-GB,gb,estimate,yes,yes,longtail
+5x5,24,27,keywords,en-GB,gb,estimate,yes,yes,program
+rep counter,22,31,,,gb,estimate,yes,yes,longtail
+streak,22,32,keywords,en-GB,gb,estimate,yes,partly,social
+workout plan,22,69,name+keywords,en-GB,gb,estimate,,yes,head
+weights,19,32,keywords,en-GB,gb,estimate,,partly,word
+program,18,18,keywords,en-GB,gb,estimate,,partly,word
+lifting,18,66,keywords,en-GB,gb,estimate,,partly,head
+lifter,16,10,,,gb,estimate,,yes,longtail
+gym app,16,58,name,en-GB,gb,estimate,,yes,head
+gym workout app,16,59,name,en-GB,gb,estimate,,yes,head
+strength training,16,60,subtitle+keywords,en-GB,gb,estimate,,yes,head
+weightlifting,16,66,,,gb,estimate,,yes,head
+gym planner,15,47,name,en-GB,gb,estimate,,yes,head
+gym exercises,15,57,,,gb,estimate,,yes,longtail
+fitness coach,15,65,keywords,en-GB,gb,estimate,,partly,ai
+weight lifting tracker,15,65,subtitle+keywords,en-GB,gb,estimate,,yes,head
+workout tracking,14,34,,,gb,estimate,,yes,head
+workout timer,14,45,,,gb,estimate,,yes,longtail
+muscle gain,14,48,,,gb,estimate,,yes,program
+personal trainer,13,42,,,gb,estimate,,partly,ai
+strength tracker,13,42,subtitle+keywords,en-GB,gb,estimate,,yes,head
+apple watch gym,13,59,,,gb,estimate,,yes,watch
+workout app,13,68,name,en-GB,gb,estimate,,yes,head
+progress tracker,12,31,,,gb,estimate,,yes,longtail
+gym diary,12,38,,,gb,estimate,,yes,longtail
+workout generator,12,38,,,gb,estimate,,yes,ai
+ai coach,12,40,keywords,en-GB,gb,estimate,,partly,ai
+lift tracker,12,57,,,gb,estimate,,yes,head
+ai gym,11,34,name+keywords,en-GB,gb,estimate,,yes,ai
+gym workout plan,11,40,name+keywords,en-GB,gb,estimate,,yes,head
+gym workout log,11,51,name+subtitle,en-GB,gb,estimate,,yes,head
+full body workout,11,57,,,gb,estimate,,yes,program
+home gym,11,57,,,gb,estimate,,no,longtail
+ai workout,10,25,name+keywords,en-GB,gb,estimate,,yes,ai
+ai personal trainer,10,27,,,gb,estimate,,partly,ai
+gym log,10,27,name+subtitle,en-GB,gb,estimate,,yes,head
+workout log,10,27,name+subtitle,en-GB,gb,estimate,,yes,head
+build muscle,10,28,,,gb,estimate,,yes,program
+gym workout tracker,10,28,name+subtitle,en-GB,gb,estimate,,yes,head
+strength log,10,28,subtitle+keywords,en-GB,gb,estimate,,yes,head
+weightlifting tracker,10,28,,,gb,estimate,,yes,head
+strong app,10,29,,,gb,estimate,,no,competitor
+workout tracker free,10,29,,,gb,estimate,,yes,longtail
+ai fitness coach,10,31,keywords,en-GB,gb,estimate,,partly,ai
+leg day,10,40,,,gb,estimate,,yes,program
+lifting tracker,10,44,subtitle+keywords,en-GB,gb,estimate,,yes,head
+weight lifting,10,45,keywords,en-GB,gb,estimate,,yes,head
+fitness motivation,9,18,,,gb,estimate,,yes,social
+weight lifting plan,9,26,keywords,en-GB,gb,estimate,,yes,head
+lifting weights,9,30,keywords,en-GB,gb,estimate,,yes,longtail
+gym timer,9,37,,,gb,estimate,,yes,longtail
+workout program,9,38,name+keywords,en-GB,gb,estimate,,yes,program
+workout split,9,38,name+subtitle,en-GB,gb,estimate,,yes,program
+routine planner,9,39,name+keywords,en-GB,gb,estimate,,yes,program
+fitness game,9,40,,,gb,estimate,,no,social
+training log,9,42,subtitle,en-GB,gb,estimate,,yes,head
+workout challenge,9,46,,,gb,estimate,,partly,social
+gym plan,9,47,name+keywords,en-GB,gb,estimate,,yes,head
+workout journal,9,47,,,gb,estimate,,yes,head
+workout plans,9,54,name+keywords,en-GB,gb,estimate,,yes,program
+exercise tracker,9,63,,,gb,estimate,,yes,head
+body measurement tracker,8,15,,,gb,estimate,,yes,longtail
+gamified workout,8,15,,,gb,estimate,,yes,social
+one rep max,8,15,,,gb,estimate,,yes,longtail
+simple workout tracker,8,15,,,gb,estimate,,yes,longtail
+men workout,8,16,,,gb,estimate,,no,head
+streak tracker,8,16,subtitle+keywords,en-GB,gb,estimate,,yes,social
+rest timer,8,19,,,gb,estimate,,yes,longtail
+gym buddy,8,21,,,gb,estimate,,yes,social
+ai workout planner,8,25,name+keywords,en-GB,gb,estimate,,yes,ai
+gym community,8,25,,,gb,estimate,,yes,social
+gym friends,8,26,,,gb,estimate,,yes,social
+ai fitness,8,29,keywords,en-GB,gb,estimate,,yes,ai
+workout calendar,8,31,,,gb,estimate,,yes,longtail
+ai planner,8,33,name+keywords,en-GB,gb,estimate,,yes,ai
+ai trainer,8,35,,,gb,estimate,,partly,ai
+training plan,8,35,subtitle+keywords,en-GB,gb,estimate,,yes,program
+workout counter,8,35,,,gb,estimate,,yes,longtail
+muscle workout,8,36,,,gb,estimate,,yes,head
+lift log,8,38,,,gb,estimate,,yes,head
+personal training,8,38,,,gb,estimate,,yes,uk
+strength workout,8,38,name+keywords,en-GB,gb,estimate,,yes,head
+gym coach,8,39,name+keywords,en-GB,gb,estimate,,partly,ai
+muscle building,8,40,,,gb,estimate,,yes,program
+gym routine,8,41,name+keywords,en-GB,gb,estimate,,yes,program
+lifting app,8,42,keywords,en-GB,gb,estimate,,yes,head
+gym motivation,8,44,,,gb,estimate,,yes,social
+volume tracker,8,48,,,gb,estimate,,yes,longtail
+lifting program,8,49,keywords,en-GB,gb,estimate,,yes,program
+workout routine,8,49,name+keywords,en-GB,gb,estimate,,yes,program
+fitness journal,8,50,,,gb,estimate,,yes,head
+workout diary,8,54,,,gb,estimate,,yes,longtail
+weight training,8,61,subtitle+keywords,en-GB,gb,estimate,,yes,head
+1rm calculator,7,10,,,gb,estimate,,yes,longtail
+fitness social,7,10,,,gb,estimate,,yes,social
+5x5 workout,7,12,name+keywords,en-GB,gb,estimate,,yes,program
+ai gym coach,7,12,name+keywords,en-GB,gb,estimate,,yes,ai
+progressive overload,7,13,,,gb,estimate,,yes,longtail
+strength coach,7,13,keywords,en-GB,gb,estimate,,partly,ai
+workout friends,7,13,,,gb,estimate,,yes,social
+exercise library,7,15,,,gb,estimate,,yes,longtail
+exercise guide,7,16,,,gb,estimate,,yes,longtail
+gym journal,7,21,,,gb,estimate,,yes,head
+gym notes,7,22,,,gb,estimate,,yes,longtail
+fitness friends,7,25,,,gb,estimate,,yes,social
+fitness progress,7,26,,,gb,estimate,,yes,longtail
+resistance training,7,26,,,gb,estimate,,yes,head
+workout motivation,7,28,,,gb,estimate,,yes,social
+body measurements,7,29,,,gb,estimate,,yes,longtail
+gym social,7,29,,,gb,estimate,,yes,social
+training program,7,29,subtitle+keywords,en-GB,gb,estimate,,yes,program
+weight lifting log,7,29,subtitle+keywords,en-GB,gb,estimate,,yes,head
+gym split,7,30,name+subtitle,en-GB,gb,estimate,,yes,program
+lifting buddy,7,30,,,gb,estimate,,yes,social
+rep tracker,7,30,,,gb,estimate,,yes,longtail
+watch workout,7,30,,,gb,estimate,,yes,watch
+personal record,7,31,,,gb,estimate,,yes,longtail
+strength program,7,31,keywords,en-GB,gb,estimate,,yes,program
+workout widget,7,31,,,gb,estimate,,yes,longtail
+gym weights,7,32,name+keywords,en-GB,gb,estimate,,yes,uk
+weights tracker,7,32,subtitle+keywords,en-GB,gb,estimate,,yes,uk
+gym calendar,7,33,,,gb,estimate,,yes,longtail
+weights programme,7,33,,,gb,estimate,,yes,uk
+exercise log,7,35,,,gb,estimate,,yes,head
+ppl workout,7,35,,,gb,estimate,,yes,program
+workout creator,7,35,,,gb,estimate,,yes,program
+workout logbook,7,35,,,gb,estimate,,yes,head
+gym for beginners,7,36,,,gb,estimate,,yes,program
+set tracker,7,36,,,gb,estimate,,yes,longtail
+gym sessions,7,37,,,gb,estimate,,yes,uk
+gym stats,7,37,,,gb,estimate,,yes,longtail
+sets and reps,7,37,,,gb,estimate,,yes,longtail
+workout history,7,37,,,gb,estimate,,yes,longtail
+cardio tracker,7,38,,,gb,estimate,,no,longtail
+fitness log,7,38,subtitle+keywords,en-GB,gb,estimate,,yes,head
+strength training tracker,7,38,subtitle+keywords,en-GB,gb,estimate,,yes,head
+gym schedule,7,40,,,gb,estimate,,yes,longtail
+gym tracking,7,40,,,gb,estimate,,yes,head
+gym for women,7,41,,,gb,estimate,,no,head
+gym program,7,41,name+keywords,en-GB,gb,estimate,,yes,program
+gym progress,7,41,,,gb,estimate,,yes,longtail
+gym session,7,41,,,gb,estimate,,yes,uk
+strength training for women,7,43,,,gb,estimate,,no,program
+workout routine planner,7,43,name+keywords,en-GB,gb,estimate,,yes,head
+gym workout programme,7,44,,,gb,estimate,,yes,uk
+weight lifting app,7,45,keywords,en-GB,gb,estimate,,yes,head
+workout builder,7,45,,,gb,estimate,,yes,program
+workout schedule,7,45,,,gb,estimate,,yes,longtail
+apple health workout,7,49,,,gb,estimate,,yes,watch
+apple watch workout,7,49,,,gb,estimate,,yes,watch
+workout notebook,7,50,,,gb,estimate,,yes,longtail
+upper lower split,6,6,,,gb,estimate,,yes,program
+weights log,6,6,subtitle+keywords,en-GB,gb,estimate,,yes,uk
+weight lifting for women,6,9,,,gb,estimate,,no,head
+powerlifting tracker,6,10,,,gb,estimate,,yes,program
+accountability partner,6,13,,,gb,estimate,,yes,social
+progress photos,6,13,,,gb,estimate,,yes,longtail
+workout programme,6,13,,,gb,estimate,,yes,uk
+gym bro,6,15,,,gb,estimate,,yes,longtail
+import workout,6,15,,,gb,estimate,,yes,ai
+lifting plan,6,15,keywords,en-GB,gb,estimate,,yes,head
+workout buddy,6,15,,,gb,estimate,,yes,social
+workout partner,6,15,,,gb,estimate,,yes,social
+workout streak,6,15,name+keywords,en-GB,gb,estimate,,yes,social
+lifting routine,6,16,keywords,en-GB,gb,estimate,,yes,program
+strength programme,6,16,,,gb,estimate,,yes,uk
+offline workout tracker,6,17,,,gb,estimate,,yes,longtail
+gym partner,6,18,,,gb,estimate,,yes,social
+weight training programme,6,18,,,gb,estimate,,yes,uk
+ai lifting,6,19,keywords,en-GB,gb,estimate,,yes,ai
+ai workout plan,6,19,name+keywords,en-GB,gb,estimate,,yes,ai
+lifting programme,6,19,,,gb,estimate,,yes,uk
+muscle tracker,6,19,,,gb,estimate,,yes,longtail
+bodybuilding workout,6,20,,,gb,estimate,,yes,program
+powerlifting program,6,20,,,gb,estimate,,yes,program
+workout reminder,6,20,,,gb,estimate,,yes,longtail
+gym streak,6,22,name+keywords,en-GB,gb,estimate,,yes,social
+weight lifting planner,6,22,name+keywords,en-GB,gb,estimate,,yes,head
+apple watch strength,6,23,,,gb,estimate,,yes,watch
+progressive overload tracker,6,23,,,gb,estimate,,yes,longtail
+heart rate workout,6,24,,,gb,estimate,,yes,watch
+lifting log,6,24,subtitle+keywords,en-GB,gb,estimate,,yes,head
+training programme,6,24,,,gb,estimate,,yes,uk
+gym log book,6,25,,,gb,estimate,,yes,head
+training tracker,6,25,subtitle,en-GB,gb,estimate,,yes,head
+strength training log,6,27,subtitle+keywords,en-GB,gb,estimate,,yes,head
+apple watch workout tracker,6,28,,,gb,estimate,,yes,watch
+free workout tracker,6,28,,,gb,estimate,,yes,longtail
+workout import,6,28,,,gb,estimate,,yes,ai
+gym programme,6,29,,,gb,estimate,,yes,uk
+watch workout tracker,6,29,,,gb,estimate,,yes,watch
+workout plan generator,6,32,,,gb,estimate,,yes,ai
+apple watch gym tracker,6,33,,,gb,estimate,,yes,watch
+gym tracker free,6,33,,,gb,estimate,,yes,longtail
+strength training planner,6,33,name+subtitle+keywords,en-GB,gb,estimate,,yes,head
+ai strength coach,5,3,keywords,en-GB,gb,estimate,,yes,ai
+lifting coach,5,4,keywords,en-GB,gb,estimate,,yes,head
+pr tracker,5,4,subtitle+keywords,en-GB,gb,estimate,,yes,longtail
+fitness streak,5,5,keywords,en-GB,gb,estimate,,yes,social
+lifting for women,5,5,,,gb,estimate,,no,head
+muscle map,5,5,,,gb,estimate,,yes,longtail
+women weight lifting,5,5,,,gb,estimate,,no,program
+1rm,5,6,,,gb,estimate,,yes,longtail
+weekly workout,5,6,,,gb,estimate,,yes,longtail
+workout with friends,5,6,,,gb,estimate,,yes,social
+calisthenics tracker,5,7,,,gb,estimate,,no,longtail
+social workout,5,7,,,gb,estimate,,yes,social
+workout analytics,5,8,,,gb,estimate,,yes,longtail
+workout stats,5,9,,,gb,estimate,,yes,longtail
+gym rat,5,10,,,gb,estimate,,yes,longtail
+ai workout generator,5,11,,,gb,estimate,,yes,ai
+apple watch lifting,5,11,,,gb,estimate,,yes,watch
+simple gym log,5,12,,,gb,estimate,,yes,longtail
+log,5,13,subtitle,en-GB,gb,estimate,,partly,word
+beginner workout plan,5,14,,,gb,estimate,,yes,program
+workout accountability,5,15,,,gb,estimate,,yes,social
+dumbbell workout,5,18,,,gb,estimate,,partly,longtail
+hypertrophy training,5,20,,,gb,estimate,,yes,program
+powerlifting,5,24,,,gb,estimate,,yes,program
+push pull legs,5,27,,,gb,estimate,,yes,program
+rpe,5,35,,,gb,estimate,,no,word
+weightlifting log,5,36,,,gb,estimate,,yes,head
+fitness,62,62,keywords,en-GB,de,apple,,partly,head
+hevy,60,61,,,de,apple,,no,competitor
+gym,54,65,keywords,de-DE,de,apple,,partly,head
+strong,52,52,,,de,apple,,no,competitor
+trainingsplan,52,60,name,de-DE,de,apple,,yes,head
+alpha progression,50,64,,,de,apple,,no,competitor
+training,50,68,subtitle,en-GB,de,apple,,partly,head
+gym tracker,49,44,name+keywords,de-DE,de,apple,,yes,head
+motivation,47,51,,,de,apple,,no,social
+workout,46,65,name,en-GB,de,apple,,partly,head
+fitness tracker,44,68,subtitle+keywords,en-GB,de,apple,,yes,head
+fitness app,42,61,keywords,en-GB,de,apple,,yes,head
+fitbod,40,53,,,de,apple,,no,competitor
+workout tracker,39,49,name+subtitle,en-GB,de,apple,,yes,head
+krafttraining,37,56,subtitle,de-DE,de,estimate,,yes,head
+muskelaufbau,37,57,subtitle,de-DE,de,estimate,,yes,head
+gym workout,37,60,name,en-GB,de,estimate,,yes,en
+trainingstagebuch,36,49,,,de,estimate,,yes,head
+strength,35,43,keywords,en-GB,de,estimate,,partly,en
+powerlifting,32,28,keywords,de-DE,de,estimate,yes,yes,program
+gymbook,31,46,,,de,estimate,,no,competitor
+5x5,30,30,keywords,en-GB,de,estimate,yes,yes,program
+fortschritt,29,12,,,de,estimate,yes,partly,longtail
+531,29,23,keywords,en-GB,de,estimate,yes,yes,program
+1rm,26,5,keywords,de-DE,de,estimate,yes,yes,longtail
+trainingspartner,25,14,keywords,de-DE,de,estimate,yes,yes,social
+gymverse,25,23,,,de,estimate,yes,no,competitor
+pausentimer,23,11,keywords,de-DE,de,estimate,yes,yes,longtail
+langhantel,19,7,,,de,estimate,,partly,longtail
+streak,18,37,keywords,en-GB,de,estimate,,partly,social
+trainingsplaner,18,49,,,de,estimate,,yes,head
+bodybuilding,18,50,,,de,estimate,,yes,program
+weightlifting,17,44,,,de,estimate,,yes,en
+fitnessübungen,17,61,,,de,estimate,,yes,longtail
+gym tagebuch,16,52,,,de,estimate,,yes,head
+trainingsplan app,16,52,name,de-DE,de,estimate,,yes,head
+trainingsplan erstellen,16,53,,,de,estimate,,yes,head
+fitness coach,16,55,keywords,en-GB,de,estimate,,partly,head
+workout planer,16,55,,,de,estimate,,yes,head
+fitnessstudio app,16,56,keywords,de-DE,de,estimate,,yes,head
+workout planner,16,56,name,en-GB,de,estimate,,yes,en
+workout app,16,57,name,en-GB,de,estimate,,yes,head
+workout plan,16,57,name+keywords,en-GB,de,estimate,,yes,head
+trainingssplit,16,59,,,de,estimate,,yes,program
+krafttraining frauen,16,63,,,de,estimate,,no,program
+körpermaße,15,12,keywords,de-DE,de,estimate,,yes,longtail
+hantel,15,34,,,de,estimate,,partly,longtail
+personal trainer,15,45,,,de,estimate,,partly,head
+trainingstimer,15,47,,,de,estimate,,yes,longtail
+trainingstracker,15,48,,,de,estimate,,yes,head
+trainings app,15,50,subtitle,en-GB,de,estimate,,yes,head
+fitnessstudio,15,65,keywords,de-DE,de,estimate,,yes,head
+gewichte,14,43,,,de,estimate,,partly,longtail
+hanteltraining,14,49,,,de,estimate,,partly,longtail
+gym app,14,56,keywords,de-DE,de,estimate,,yes,head
+fitness tagebuch,14,64,,,de,estimate,,yes,head
+fitness streak,12,39,keywords,en-GB,de,estimate,,yes,social
+gym workout planner,11,48,name,en-GB,de,estimate,,yes,en
+kraftsport,11,56,,,de,estimate,,yes,head
+gym log,10,44,name+subtitle,en-GB,de,estimate,,yes,head
+muskelaufbau plan,10,48,subtitle+keywords,de-DE,de,estimate,,yes,head
+ki fitness,10,54,,,de,estimate,,yes,ai
+wiederholungen,9,8,,,de,estimate,,yes,longtail
+trainingsfortschritt,9,9,,,de,estimate,,yes,longtail
+gym planner,9,47,name,en-GB,de,estimate,,yes,en
+fitness challenge,9,50,,,de,estimate,,partly,social
+lifting,9,50,keywords,en-GB,de,estimate,,partly,en
+satzpause,8,7,,,de,estimate,,yes,longtail
+ki personal trainer,8,12,,,de,estimate,,partly,ai
+übungen,8,45,,,de,estimate,,partly,longtail
+gym übungen,8,46,,,de,estimate,,yes,longtail
+fitness trainer,8,49,,,de,estimate,,partly,head
+fitnessstudio trainingsplan,8,49,name+keywords,de-DE,de,estimate,,yes,head
+strength training,8,51,subtitle+keywords,en-GB,de,estimate,,yes,en
+trainingsplan kostenlos,8,57,,,de,estimate,,yes,head
+apple watch training,8,59,,,de,estimate,,yes,watch
+apple watch fitness,8,64,,,de,estimate,,yes,watch
+übungsbibliothek,7,4,,,de,estimate,,yes,longtail
+ki trainingsplan,7,34,name+keywords,de-DE,de,estimate,,yes,ai
+weight training,7,34,subtitle+keywords,en-GB,de,estimate,,yes,en
+krafttraining männer,7,36,,,de,estimate,,no,program
+lifting log,7,39,subtitle+keywords,en-GB,de,estimate,,yes,en
+krafttraining plan,7,42,subtitle+keywords,de-DE,de,estimate,,yes,head
+weight lifting,7,43,keywords,en-GB,de,estimate,,yes,en
+apple watch krafttraining,7,47,,,de,estimate,,yes,watch
+apple watch gym,7,50,,,de,estimate,,yes,watch
+krafttraining app,7,60,subtitle,de-DE,de,estimate,,yes,head
+körpermaße tracker,6,10,name+keywords,de-DE,de,estimate,,yes,longtail
+krafttraining anfänger,6,15,subtitle+keywords,de-DE,de,estimate,,yes,program
+gym partner,6,16,,,de,estimate,,yes,social
+gym motivation,6,18,,,de,estimate,,yes,social
+trainingsplan anfänger,6,22,name+keywords,de-DE,de,estimate,,yes,program
+kurzhantel training,6,23,,,de,estimate,,partly,longtail
+split training,6,26,subtitle,en-GB,de,estimate,,yes,program
+krafttraining tracker,6,35,name+subtitle,de-DE,de,estimate,,yes,head
+muskelaufbau app,6,57,subtitle,de-DE,de,estimate,,yes,head
+push pull beine,5,3,,,de,estimate,,yes,program
+1rm rechner,5,4,,,de,estimate,,yes,longtail
+fortschrittsfotos,5,4,,,de,estimate,,yes,longtail
+kraftdreikampf,5,4,,,de,estimate,,yes,program
+mit freunden trainieren,5,4,,,de,estimate,,yes,social
+sätze und wiederholungen,5,5,,,de,estimate,,yes,longtail
+maximalkraft,5,6,,,de,estimate,,yes,longtail
+trainingsprotokoll app,5,9,,,de,estimate,,yes,longtail
+fitnessstudio anfänger,5,10,keywords,de-DE,de,estimate,,yes,program
+hypertrophie,5,10,,,de,estimate,,yes,program
+maximalkraft rechner,5,14,,,de,estimate,,yes,longtail
+trainingsprotokoll,5,14,,,de,estimate,,yes,head
+ganzkörpertraining,5,17,,,de,estimate,,yes,program
+push pull legs,5,28,,,de,estimate,,yes,program
+gewichtheben,5,29,,,de,estimate,,yes,head
+ki coach,5,29,keywords,de-DE,de,estimate,,yes,ai
+gym buddy,5,30,,,de,estimate,,yes,social
+progressive overload,5,31,,,de,estimate,,yes,program
+workout log,5,33,name+subtitle,en-GB,de,estimate,,yes,head
+ki trainer,5,43,,,de,estimate,,yes,ai
+training log,5,46,subtitle,en-GB,de,estimate,,yes,en
+gym trainingsplan,5,50,name+keywords,de-DE,de,estimate,,yes,head
+basic fit,76,72,,,fr,apple,,no,competitor
+sport,68,65,,,fr,apple,,no,head
+hevy,62,57,,,fr,apple,,no,competitor
+fitness,55,63,keywords,en-GB,fr,apple,,partly,head
+musculation,53,57,name,fr-FR,fr,apple,,yes,head
+strong,48,46,,,fr,apple,,no,competitor
+gym,48,55,name,en-GB,fr,apple,,partly,head
+split,42,45,subtitle,en-GB,fr,apple,,partly,program
+workout,42,60,name,en-GB,fr,apple,,partly,head
+fitbod,40,56,,,fr,apple,,no,competitor
+entrainement,37,56,keywords,fr-FR,fr,estimate,,partly,head
+bodybuilding,35,48,keywords,fr-FR,fr,estimate,,yes,program
+séries,31,52,subtitle,fr-FR,fr,estimate,,partly,longtail
+barre,30,28,keywords,fr-FR,fr,estimate,yes,partly,longtail
+5x5,30,37,keywords,en-GB,fr,estimate,yes,yes,program
+haltères,29,26,keywords,fr-FR,fr,estimate,yes,partly,longtail
+progression,28,17,subtitle,fr-FR,fr,estimate,yes,partly,longtail
+force,28,47,,,fr,estimate,,partly,program
+mensurations,22,12,keywords,fr-FR,fr,estimate,yes,yes,longtail
+coach sport,22,61,keywords,fr-FR,fr,estimate,,partly,head
+haltère,21,26,,,fr,estimate,yes,partly,longtail
+carnet musculation,19,38,name+subtitle,fr-FR,fr,estimate,,yes,head
+application sport,18,67,,,fr,estimate,,yes,head
+entraînement,17,58,keywords,fr-FR,fr,estimate,,partly,head
+programme musculation,17,60,name,fr-FR,fr,estimate,,yes,head
+musculation maison,17,61,,,fr,estimate,,no,program
+programme sport,17,63,name+keywords,fr-FR,fr,estimate,,yes,head
+application musculation,17,67,,,fr,estimate,,yes,head
+weightlifting,16,35,,,fr,estimate,,yes,en
+coach ia,16,37,keywords,fr-FR,fr,estimate,,yes,ai
+lifting,16,45,keywords,en-GB,fr,estimate,,partly,en
+workout planner,16,53,name,en-GB,fr,estimate,,yes,head
+coach musculation,16,58,name+keywords,fr-FR,fr,estimate,,partly,head
+musculation femme,16,58,,,fr,estimate,,no,program
+coach sportif,16,59,,,fr,estimate,,partly,head
+motivation sport,16,60,,,fr,estimate,,yes,social
+suivi poids,15,53,keywords,fr-FR,fr,estimate,,yes,longtail
+workout tracker,13,39,name+subtitle,en-GB,fr,estimate,,yes,head
+gym tracker,13,41,name+subtitle,en-GB,fr,estimate,,yes,head
+gym workout,13,53,name,en-GB,fr,estimate,,yes,en
+entrainement musculation,13,58,name+keywords,fr-FR,fr,estimate,,yes,head
+exercices musculation,13,59,,,fr,estimate,,yes,longtail
+coach fitness,13,63,keywords,en-GB,fr,estimate,,partly,head
+apple watch musculation,12,57,,,fr,estimate,,yes,watch
+1rm,11,14,keywords,fr-FR,fr,estimate,,yes,longtail
+ia musculation,11,36,name+keywords,fr-FR,fr,estimate,,yes,ai
+strength training,11,50,subtitle+keywords,en-GB,fr,estimate,,yes,en
+salle de sport,11,55,keywords,fr-FR,fr,estimate,,yes,head
+streak,10,28,keywords,en-GB,fr,estimate,,partly,social
+plan d'entraînement,10,48,keywords,fr-FR,fr,estimate,,yes,head
+fitness tracker,10,66,subtitle+keywords,en-GB,fr,estimate,,yes,head
+progression musculation,9,27,name+subtitle,fr-FR,fr,estimate,,yes,longtail
+défi sport,9,58,,,fr,estimate,,partly,social
+série sport,9,59,,,fr,estimate,,yes,social
+full body,8,37,,,fr,estimate,,yes,program
+prise de masse,8,37,,,fr,estimate,,yes,program
+suivi musculation,8,40,name+keywords,fr-FR,fr,estimate,,yes,head
+musculation homme,8,41,,,fr,estimate,,no,program
+séance de sport,8,49,,,fr,estimate,,yes,head
+ia sport,8,51,keywords,fr-FR,fr,estimate,,yes,ai
+chrono musculation,8,53,,,fr,estimate,,yes,longtail
+apple watch sport,8,54,,,fr,estimate,,yes,watch
+exercices salle,8,55,,,fr,estimate,,yes,longtail
+planning entrainement,8,57,,,fr,estimate,,yes,head
+séance musculation,8,57,,,fr,estimate,,yes,head
+exercice sport,8,58,,,fr,estimate,,yes,longtail
+appli musculation,8,59,,,fr,estimate,,yes,head
+photos progression,7,10,,,fr,estimate,,yes,longtail
+programme débutant,7,12,,,fr,estimate,,yes,program
+suivi mensurations,7,22,keywords,fr-FR,fr,estimate,,yes,longtail
+performance sport,7,25,,,fr,estimate,,yes,longtail
+gym log,7,26,name+subtitle,en-GB,fr,estimate,,yes,en
+training log,7,29,subtitle,en-GB,fr,estimate,,yes,en
+statistiques sport,7,35,,,fr,estimate,,yes,longtail
+timer musculation,7,36,,,fr,estimate,,yes,longtail
+sport entre amis,7,38,,,fr,estimate,,yes,social
+carnet entrainement,7,43,subtitle+keywords,fr-FR,fr,estimate,,yes,head
+prise de muscle,7,45,,,fr,estimate,,yes,program
+programme salle de sport,7,50,name+keywords,fr-FR,fr,estimate,,yes,head
+salle de musculation,7,50,name+keywords,fr-FR,fr,estimate,,yes,head
+journal d'entraînement,6,11,,,fr,estimate,,yes,head
+partenaire sport,6,18,,,fr,estimate,,yes,social
+carnet d'entraînement,6,22,subtitle+keywords,fr-FR,fr,estimate,,yes,head
+programme ia,6,26,name+keywords,fr-FR,fr,estimate,,yes,ai
+charge maximale,5,0,,,fr,estimate,,yes,longtail
+partenaire d'entraînement,5,3,,,fr,estimate,,yes,social
+séries et répétitions,5,5,,,fr,estimate,,yes,longtail
+hypertrophie,5,16,,,fr,estimate,,yes,program
+musculation débutant,5,16,,,fr,estimate,,yes,program
+surcharge progressive,5,16,,,fr,estimate,,yes,longtail
+répétitions,5,18,,,fr,estimate,,yes,longtail
+push pull legs,5,23,,,fr,estimate,,yes,program
+suivi entraînement,5,25,keywords,fr-FR,fr,estimate,,yes,head
+haltérophilie,5,26,,,fr,estimate,,yes,program
+street workout,5,26,,,fr,estimate,,no,program
+powerlifting,5,28,,,fr,estimate,,yes,program
+minuteur repos,5,29,,,fr,estimate,,yes,longtail
+suivi entrainement,5,32,keywords,fr-FR,fr,estimate,,yes,head
+strength,5,33,keywords,en-GB,fr,estimate,,partly,en
+workout log,5,38,name+subtitle,en-GB,fr,estimate,,yes,en
+weight lifting,5,43,keywords,en-GB,fr,estimate,,yes,en

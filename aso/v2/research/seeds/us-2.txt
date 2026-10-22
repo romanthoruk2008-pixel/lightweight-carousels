@@ -1,0 +1,62 @@
+word|lift
+word|weights
+word|muscle
+word|gains
+word|tracker
+word|planner
+word|log
+word|coach
+word|routine
+word|plan
+word|program
+word|training
+word|fitness
+word|exercise
+word|journal
+word|split
+word|rpe
+word|superset
+head|gym workout plan
+head|workout tracking
+head|gym tracking
+head|strength training log
+head|strength training planner
+head|strength workout
+head|lifting plan
+head|lifting coach
+head|weight lifting planner
+head|weight lifting plan
+head|gym plan
+head|workout routine planner
+head|workout logbook
+head|gym log book
+head|gym workout app
+head|muscle workout
+head|weight lifting for women
+head|lifting for women
+head|gym for women
+head|men workout
+social|workout friends
+social|lifting buddy
+social|streak tracker
+social|fitness social
+social|gym social
+ai|ai workout generator
+ai|ai gym coach
+ai|ai lifting
+ai|ai strength coach
+ai|ai fitness
+ai|ai planner
+watch|watch gym
+watch|wrist workout
+longtail|1 rep max
+longtail|max calculator
+longtail|plate calculator
+longtail|workout tracker apple watch
+longtail|gym workout tracker free
+longtail|lifting tracker free
+longtail|weight tracker gym
+longtail|calisthenics
+longtail|kettlebell
+longtail|dumbbell
+longtail|cardio
