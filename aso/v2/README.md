@@ -19,8 +19,8 @@ Second round, 2026-10-20 to 2026-10-22. Supersedes the keyword picks in `aso/dra
 1. **Use these keyword fields instead of the ones in `metadata.md`** for the first five locales.
    - No category words: the app's categories are Health & Fitness and Sports, and Apple indexes
      them already (`fitness` out of en-US and en-GB, `sport` out of French).
-   - No `1rm`, `5x5` or `531` anywhere (owner's call): 531 is Jim Wendler's program name, and
-     the app has no such programs. `hypertrophy` (30/25) moves from es-MX to en-US.
+   - No `1rm`, `5x5` or `531` anywhere (owner's call): 5x5 indexes poorly and 531 is
+     Jim Wendler's protected program name. `hypertrophy` (30/25) moves from es-MX to en-US.
 
    | Locale | Keywords | Chars |
    |---|---|---|
