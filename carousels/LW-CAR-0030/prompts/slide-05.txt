@@ -1,13 +1,14 @@
-Create ONE finished Harda S2 portrait carousel slide, 1080 x 1350, 4:5. Precisely match the supplied approved S2 reference for its very heavy tight lowercase grotesk headlines, clean regular sans body, italic grey subtitle, white/light-grey realistic anatomical mannequin, bald and faceless, fine grey shading, black #2A2A2A opaque shorts, smooth featureless pelvis, and black/grey equipment. Athletic adult male as in approved LW-CAR-0022 / 0024. Use reference for design ONLY, replace all its words and poses with instructions below. Solid opaque CLEAN #F0F1EB, no texture or arch. Main text #2A2A2A, secondary #6B6B6B, flat coral #F26445 marker bars. Highlight ONLY the expressly named target muscle regions coral; other muscles white/light-grey, no sand/green muscle colors. Entire top 110px empty for actual transparent Harda logo to be composited later at x=48,y=19,size=218x71. Do not generate logo, brand wordmark, watermark, signature, counter, progress bar, border, panels or additional words. Render every supplied string exactly, retaining lowercase, curly apostrophes, ampersand and hyphens. All text fully visible, never covered by figure or equipment.
+Create ONE complete Harda S2 portrait fitness instruction slide, 1080 x 1350, 4:5. Use the supplied approved LW-CAR-0024 reference only for its page layout, typography and off-white/coral palette. Replace all its words, figure, exercise and equipment with the instructions here.
 
-EXERCISE LAYOUT: exactly the supplied owner-approved LW-CAR-0024 slide 2 layout. Small bold grey lowercase muscle heading at upper-left below y=110; directly below, the very heavy tight lowercase exercise name #2A2A2A on a flat coral marker. Body below, regular #2A2A2A, no more than two lines. No rank, stars, meter or fix line. Long names may wrap to two lines with marker behind each line, preserving all words. Lower roughly 65%: ONE big white anatomical mannequin performing the exact exercise with equipment, fully below the copy, same scale/rendering as approved series. Preserve all needed body/equipment parts inside canvas; move/shrink the illustration to avoid obscuring text.
+SOLID OPAQUE CLEAN background #F0F1EB, no arch or texture. The ENTIRE top 110px is blank for the official transparent Harda logo, which will be composited later at x=48,y=19,size=218x71. Do not draw a logo. Main type #2A2A2A, secondary #6B6B6B, flat coral #F26445 marker. No watermark, signature, counter, border, panels, stars, ratings or additional copy.
 
-EXACT TEXT:
-small grey muscle heading: `quads`
-large exercise name on marker: `reverse nordic`
+EXACT TEXT, preserving lowercase and punctuation:
+small grey heading: `quads`
+large headline on a coral marker: `reverse nordic`
 regular body: `loads your quads in a big stretch with just your bodyweight.`
 
-FIGURE AND EQUIPMENT: kneeling upright on a mat, leaning the whole straight body backwards from the knees, side view.
-ONLY quads filled coral #F26445. All other muscles white/light grey.
-POSE CLARITY: Knees stay grounded on the mat, ankles behind; knees-to-head form one straight line leaning backward around the knees, not hinging forward at the hips.
-No other words, punctuation or colored muscle regions.
+LAYOUT: identical to approved LW-CAR-0024 exercise slides. Small bold grey muscle heading at upper-left below the logo space; very heavy tight lowercase grotesk exercise name beneath, with a flat coral marker behind only the exercise words; then regular body in at most two lines. All copy fully visible and above the figure. Lower roughly 65%: one fully visible adult training mannequin demonstrating reverse nordic on a plain dark exercise mat, neutral full-body instructional SIDE VIEW.
+
+CLOTHING: the mannequin is FULLY DRESSED in an opaque light-grey long-sleeve athletic shirt, opaque black #2A2A2A knee-length gym shorts and opaque light-grey leggings covering the legs, with neutral grey training shoes. White/light-grey smooth mannequin head and hands, head bald and faceless, fine grey technical shading consistent with S2. All torso, hips and legs remain completely covered by the sports clothing. Show only the quadriceps as a flat coral #F26445 educational muscle-map overlay ON TOP OF THE CLOTH of both front thighs; all other clothing remains neutral. This is a clothed training diagram, not exposed anatomy.
+
+POSE: knees grounded on mat, shins extend behind on mat, thighs/hips/torso/head form one straight line leaning backwards about the knees. Hips do not hinge. Arms crossed gently over the chest. Balanced moderate lean, clear side view, no close-up of hips. Keep the full figure and mat below all copy and inside the canvas. No other figures, labels or words.

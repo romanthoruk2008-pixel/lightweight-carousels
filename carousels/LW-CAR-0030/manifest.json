@@ -7,8 +7,8 @@
   "batch": "B",
   "batch_task": "carousels/BATCH-B.md",
   "design_style": "S2",
-  "status": "incomplete",
-  "carousel_complete": false,
+  "status": "complete",
+  "carousel_complete": true,
   "scope": {
     "total_slides": 9,
     "authorized_slides": [
@@ -43,26 +43,36 @@
     "outputs/slide-01.png",
     "outputs/slide-02.png",
     "outputs/slide-03.png",
-    "outputs/slide-04.png"
+    "outputs/slide-04.png",
+    "outputs/slide-05.png",
+    "outputs/slide-06.png",
+    "outputs/slide-07.png",
+    "outputs/slide-08.png",
+    "outputs/slide-09.png"
   ],
   "blocked_slides": [],
-  "next_slide_to_generate": 5,
+  "next_slide_to_generate": null,
   "approved_slides": [],
   "pending_review_slides": [
     1,
     2,
     3,
-    4
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
   ],
   "user_review": "pending",
   "agent_visual_review": "not_performed",
-  "next_action": "Stop batch after pushing incomplete checkpoint. Resume slide 5 only after reconciling actual raw/output files; no automatic repeat.",
+  "next_action": "Owner reviews all generated slides at the end of Batch B.",
   "caption": "caption.txt",
   "remote_save": {
     "remote": "origin",
     "branch": "claude/charming-einstein-xgejky",
     "status": "pushed_to_target_branch",
-    "method": "Immediate incomplete checkpoint after interruption.",
+    "method": "One complete-carousel commit and immediate push under BATCH-B.md.",
     "commit_lookup": "git log -1 -- carousels/LW-CAR-0030/manifest.json"
   },
   "slides": [
@@ -264,8 +274,8 @@
         "loads your quads in a big stretch with just your bodyweight."
       ],
       "file": "outputs/slide-05.png",
-      "prompt": "Create ONE finished Harda S2 portrait carousel slide, 1080 x 1350, 4:5. Precisely match the supplied approved S2 reference for its very heavy tight lowercase grotesk headlines, clean regular sans body, italic grey subtitle, white/light-grey realistic anatomical mannequin, bald and faceless, fine grey shading, black #2A2A2A opaque shorts, smooth featureless pelvis, and black/grey equipment. Athletic adult male as in approved LW-CAR-0022 / 0024. Use reference for design ONLY, replace all its words and poses with instructions below. Solid opaque CLEAN #F0F1EB, no texture or arch. Main text #2A2A2A, secondary #6B6B6B, flat coral #F26445 marker bars. Highlight ONLY the expressly named target muscle regions coral; other muscles white/light-grey, no sand/green muscle colors. Entire top 110px empty for actual transparent Harda logo to be composited later at x=48,y=19,size=218x71. Do not generate logo, brand wordmark, watermark, signature, counter, progress bar, border, panels or additional words. Render every supplied string exactly, retaining lowercase, curly apostrophes, ampersand and hyphens. All text fully visible, never covered by figure or equipment.\n\nEXERCISE LAYOUT: exactly the supplied owner-approved LW-CAR-0024 slide 2 layout. Small bold grey lowercase muscle heading at upper-left below y=110; directly below, the very heavy tight lowercase exercise name #2A2A2A on a flat coral marker. Body below, regular #2A2A2A, no more than two lines. No rank, stars, meter or fix line. Long names may wrap to two lines with marker behind each line, preserving all words. Lower roughly 65%: ONE big white anatomical mannequin performing the exact exercise with equipment, fully below the copy, same scale/rendering as approved series. Preserve all needed body/equipment parts inside canvas; move/shrink the illustration to avoid obscuring text.\n\nEXACT TEXT:\nsmall grey muscle heading: `quads`\nlarge exercise name on marker: `reverse nordic`\nregular body: `loads your quads in a big stretch with just your bodyweight.`\n\nFIGURE AND EQUIPMENT: kneeling upright on a mat, leaning the whole straight body backwards from the knees, side view.\nONLY quads filled coral #F26445. All other muscles white/light grey.\nPOSE CLARITY: Knees stay grounded on the mat, ankles behind; knees-to-head form one straight line leaning backward around the knees, not hinging forward at the hips.\nNo other words, punctuation or colored muscle regions.",
-      "prompt_file": "prompts/slide-05.txt",
+      "prompt": "Create ONE complete Harda S2 portrait fitness instruction slide, 1080 x 1350, 4:5. Use the supplied approved LW-CAR-0024 reference only for its page layout, typography and off-white/coral palette. Replace all its words, figure, exercise and equipment with the instructions here.\n\nSOLID OPAQUE CLEAN background #F0F1EB, no arch or texture. The ENTIRE top 110px is blank for the official transparent Harda logo, which will be composited later at x=48,y=19,size=218x71. Do not draw a logo. Main type #2A2A2A, secondary #6B6B6B, flat coral #F26445 marker. No watermark, signature, counter, border, panels, stars, ratings or additional copy.\n\nEXACT TEXT, preserving lowercase and punctuation:\nsmall grey heading: `quads`\nlarge headline on a coral marker: `reverse nordic`\nregular body: `loads your quads in a big stretch with just your bodyweight.`\n\nLAYOUT: identical to approved LW-CAR-0024 exercise slides. Small bold grey muscle heading at upper-left below the logo space; very heavy tight lowercase grotesk exercise name beneath, with a flat coral marker behind only the exercise words; then regular body in at most two lines. All copy fully visible and above the figure. Lower roughly 65%: one fully visible adult training mannequin demonstrating reverse nordic on a plain dark exercise mat, neutral full-body instructional SIDE VIEW.\n\nCLOTHING: the mannequin is FULLY DRESSED in an opaque light-grey long-sleeve athletic shirt, opaque black #2A2A2A knee-length gym shorts and opaque light-grey leggings covering the legs, with neutral grey training shoes. White/light-grey smooth mannequin head and hands, head bald and faceless, fine grey technical shading consistent with S2. All torso, hips and legs remain completely covered by the sports clothing. Show only the quadriceps as a flat coral #F26445 educational muscle-map overlay ON TOP OF THE CLOTH of both front thighs; all other clothing remains neutral. This is a clothed training diagram, not exposed anatomy.\n\nPOSE: knees grounded on mat, shins extend behind on mat, thighs/hips/torso/head form one straight line leaning backwards about the knees. Hips do not hinge. Arms crossed gently over the chest. Balanced moderate lean, clear side view, no close-up of hips. Keep the full figure and mat below all copy and inside the canvas. No other figures, labels or words.",
+      "prompt_file": "prompts/slide-05-attempt-02.txt",
       "reference": [
         "carousels/LW-CAR-0024/outputs/slide-02.png"
       ],
@@ -278,13 +288,42 @@
           "referenced_image_paths": [
             "carousels/LW-CAR-0024/outputs/slide-02.png"
           ],
-          "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 49684ed0-d20d-4f8e-abb6-838a9ae029b6. safety_violations=[sexual].\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"sexual\\\"\\n      ]\\n    }\\n  }\\n}\")"
+          "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 49684ed0-d20d-4f8e-abb6-838a9ae029b6. safety_violations=[sexual].\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"sexual\\\"\\n      ]\\n    }\\n  }\\n}\")",
+          "prompt": "Create ONE finished Harda S2 portrait carousel slide, 1080 x 1350, 4:5. Precisely match the supplied approved S2 reference for its very heavy tight lowercase grotesk headlines, clean regular sans body, italic grey subtitle, white/light-grey realistic anatomical mannequin, bald and faceless, fine grey shading, black #2A2A2A opaque shorts, smooth featureless pelvis, and black/grey equipment. Athletic adult male as in approved LW-CAR-0022 / 0024. Use reference for design ONLY, replace all its words and poses with instructions below. Solid opaque CLEAN #F0F1EB, no texture or arch. Main text #2A2A2A, secondary #6B6B6B, flat coral #F26445 marker bars. Highlight ONLY the expressly named target muscle regions coral; other muscles white/light-grey, no sand/green muscle colors. Entire top 110px empty for actual transparent Harda logo to be composited later at x=48,y=19,size=218x71. Do not generate logo, brand wordmark, watermark, signature, counter, progress bar, border, panels or additional words. Render every supplied string exactly, retaining lowercase, curly apostrophes, ampersand and hyphens. All text fully visible, never covered by figure or equipment.\n\nEXERCISE LAYOUT: exactly the supplied owner-approved LW-CAR-0024 slide 2 layout. Small bold grey lowercase muscle heading at upper-left below y=110; directly below, the very heavy tight lowercase exercise name #2A2A2A on a flat coral marker. Body below, regular #2A2A2A, no more than two lines. No rank, stars, meter or fix line. Long names may wrap to two lines with marker behind each line, preserving all words. Lower roughly 65%: ONE big white anatomical mannequin performing the exact exercise with equipment, fully below the copy, same scale/rendering as approved series. Preserve all needed body/equipment parts inside canvas; move/shrink the illustration to avoid obscuring text.\n\nEXACT TEXT:\nsmall grey muscle heading: `quads`\nlarge exercise name on marker: `reverse nordic`\nregular body: `loads your quads in a big stretch with just your bodyweight.`\n\nFIGURE AND EQUIPMENT: kneeling upright on a mat, leaning the whole straight body backwards from the knees, side view.\nONLY quads filled coral #F26445. All other muscles white/light grey.\nPOSE CLARITY: Knees stay grounded on the mat, ankles behind; knees-to-head form one straight line leaning backward around the knees, not hinging forward at the hips.\nNo other words, punctuation or colored muscle regions.",
+          "prompt_file": "prompts/slide-05-attempt-01.txt"
+        },
+        {
+          "attempt": 2,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "carousels/LW-CAR-0024/outputs/slide-02.png"
+          ],
+          "prompt": "Create ONE complete Harda S2 portrait fitness instruction slide, 1080 x 1350, 4:5. Use the supplied approved LW-CAR-0024 reference only for its page layout, typography and off-white/coral palette. Replace all its words, figure, exercise and equipment with the instructions here.\n\nSOLID OPAQUE CLEAN background #F0F1EB, no arch or texture. The ENTIRE top 110px is blank for the official transparent Harda logo, which will be composited later at x=48,y=19,size=218x71. Do not draw a logo. Main type #2A2A2A, secondary #6B6B6B, flat coral #F26445 marker. No watermark, signature, counter, border, panels, stars, ratings or additional copy.\n\nEXACT TEXT, preserving lowercase and punctuation:\nsmall grey heading: `quads`\nlarge headline on a coral marker: `reverse nordic`\nregular body: `loads your quads in a big stretch with just your bodyweight.`\n\nLAYOUT: identical to approved LW-CAR-0024 exercise slides. Small bold grey muscle heading at upper-left below the logo space; very heavy tight lowercase grotesk exercise name beneath, with a flat coral marker behind only the exercise words; then regular body in at most two lines. All copy fully visible and above the figure. Lower roughly 65%: one fully visible adult training mannequin demonstrating reverse nordic on a plain dark exercise mat, neutral full-body instructional SIDE VIEW.\n\nCLOTHING: the mannequin is FULLY DRESSED in an opaque light-grey long-sleeve athletic shirt, opaque black #2A2A2A knee-length gym shorts and opaque light-grey leggings covering the legs, with neutral grey training shoes. White/light-grey smooth mannequin head and hands, head bald and faceless, fine grey technical shading consistent with S2. All torso, hips and legs remain completely covered by the sports clothing. Show only the quadriceps as a flat coral #F26445 educational muscle-map overlay ON TOP OF THE CLOTH of both front thighs; all other clothing remains neutral. This is a clothed training diagram, not exposed anatomy.\n\nPOSE: knees grounded on mat, shins extend behind on mat, thighs/hips/torso/head form one straight line leaning backwards about the knees. Hips do not hinge. Arms crossed gently over the chest. Balanced moderate lean, clear side view, no close-up of hips. Keep the full figure and mat below all copy and inside the canvas. No other figures, labels or words.",
+          "prompt_file": "prompts/slide-05-attempt-02.txt",
+          "raw_result_file": "/workspace/generated_images/exec-ad6e416a-c1fd-48f8-bf99-2afdd630ddea.png",
+          "preserved_raw_file": "production-assets/slide-05-generated.png",
+          "result_file": "outputs/slide-05.png",
+          "export": {
+            "raw_size": [
+              1122,
+              1402
+            ],
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "has_alpha": false,
+            "logo": "Official transparent logo composited at x=48,y=19,size=218x71; no background patch."
+          }
         }
       ],
       "errors": [
         "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 49684ed0-d20d-4f8e-abb6-838a9ae029b6. safety_violations=[sexual].\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"sexual\\\"\\n      ]\\n    }\\n  }\\n}\")"
       ],
-      "save_status": "not_generated",
+      "save_status": "pushed_to_target_branch",
       "agent_visual_review": "not_performed",
       "user_review": "pending"
     },
@@ -303,9 +342,37 @@
       "reference": [
         "carousels/LW-CAR-0024/outputs/slide-02.png"
       ],
-      "attempts": [],
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "carousels/LW-CAR-0024/outputs/slide-02.png"
+          ],
+          "prompt": "Create ONE finished Harda S2 portrait carousel slide, 1080 x 1350, 4:5. Precisely match the supplied approved S2 reference for its very heavy tight lowercase grotesk headlines, clean regular sans body, italic grey subtitle, white/light-grey realistic anatomical mannequin, bald and faceless, fine grey shading, black #2A2A2A opaque shorts, smooth featureless pelvis, and black/grey equipment. Athletic adult male as in approved LW-CAR-0022 / 0024. Use reference for design ONLY, replace all its words and poses with instructions below. Solid opaque CLEAN #F0F1EB, no texture or arch. Main text #2A2A2A, secondary #6B6B6B, flat coral #F26445 marker bars. Highlight ONLY the expressly named target muscle regions coral; other muscles white/light-grey, no sand/green muscle colors. Entire top 110px empty for actual transparent Harda logo to be composited later at x=48,y=19,size=218x71. Do not generate logo, brand wordmark, watermark, signature, counter, progress bar, border, panels or additional words. Render every supplied string exactly, retaining lowercase, curly apostrophes, ampersand and hyphens. All text fully visible, never covered by figure or equipment.\n\nEXERCISE LAYOUT: exactly the supplied owner-approved LW-CAR-0024 slide 2 layout. Small bold grey lowercase muscle heading at upper-left below y=110; directly below, the very heavy tight lowercase exercise name #2A2A2A on a flat coral marker. Body below, regular #2A2A2A, no more than two lines. No rank, stars, meter or fix line. Long names may wrap to two lines with marker behind each line, preserving all words. Lower roughly 65%: ONE big white anatomical mannequin performing the exact exercise with equipment, fully below the copy, same scale/rendering as approved series. Preserve all needed body/equipment parts inside canvas; move/shrink the illustration to avoid obscuring text.\n\nEXACT TEXT:\nsmall grey muscle heading: `grip & traps`\nlarge exercise name on marker: `farmer’s carry`\nregular body: `grip, traps and core in one walk.`\n\nFIGURE AND EQUIPMENT: walking forward holding a heavy dumbbell in each hand at the sides, front three-quarter view.\nONLY forearms and traps filled coral #F26445. All other muscles white/light grey.\nPOSE CLARITY: A heavy dumbbell in EACH hand hanging by the sides, walking naturally forward, front three-quarter view.\nNo other words, punctuation or colored muscle regions.",
+          "prompt_file": "prompts/slide-06.txt",
+          "raw_result_file": "/workspace/generated_images/exec-e86b37e4-e393-42c8-9b35-876c8d5204a8.png",
+          "preserved_raw_file": "production-assets/slide-06-generated.png",
+          "result_file": "outputs/slide-06.png",
+          "export": {
+            "raw_size": [
+              1122,
+              1402
+            ],
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "has_alpha": false,
+            "logo": "Official transparent logo composited at x=48,y=19,size=218x71; no background patch."
+          }
+        }
+      ],
       "errors": [],
-      "save_status": "not_generated",
+      "save_status": "pushed_to_target_branch",
       "agent_visual_review": "not_performed",
       "user_review": "pending"
     },
@@ -324,9 +391,37 @@
       "reference": [
         "carousels/LW-CAR-0024/outputs/slide-02.png"
       ],
-      "attempts": [],
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "carousels/LW-CAR-0024/outputs/slide-02.png"
+          ],
+          "prompt": "Create ONE finished Harda S2 portrait carousel slide, 1080 x 1350, 4:5. Precisely match the supplied approved S2 reference for its very heavy tight lowercase grotesk headlines, clean regular sans body, italic grey subtitle, white/light-grey realistic anatomical mannequin, bald and faceless, fine grey shading, black #2A2A2A opaque shorts, smooth featureless pelvis, and black/grey equipment. Athletic adult male as in approved LW-CAR-0022 / 0024. Use reference for design ONLY, replace all its words and poses with instructions below. Solid opaque CLEAN #F0F1EB, no texture or arch. Main text #2A2A2A, secondary #6B6B6B, flat coral #F26445 marker bars. Highlight ONLY the expressly named target muscle regions coral; other muscles white/light-grey, no sand/green muscle colors. Entire top 110px empty for actual transparent Harda logo to be composited later at x=48,y=19,size=218x71. Do not generate logo, brand wordmark, watermark, signature, counter, progress bar, border, panels or additional words. Render every supplied string exactly, retaining lowercase, curly apostrophes, ampersand and hyphens. All text fully visible, never covered by figure or equipment.\n\nEXERCISE LAYOUT: exactly the supplied owner-approved LW-CAR-0024 slide 2 layout. Small bold grey lowercase muscle heading at upper-left below y=110; directly below, the very heavy tight lowercase exercise name #2A2A2A on a flat coral marker. Body below, regular #2A2A2A, no more than two lines. No rank, stars, meter or fix line. Long names may wrap to two lines with marker behind each line, preserving all words. Lower roughly 65%: ONE big white anatomical mannequin performing the exact exercise with equipment, fully below the copy, same scale/rendering as approved series. Preserve all needed body/equipment parts inside canvas; move/shrink the illustration to avoid obscuring text.\n\nEXACT TEXT:\nsmall grey muscle heading: `shins`\nlarge exercise name on marker: `tibialis raise`\nregular body: `the front of your shins. almost nobody trains them.`\n\nFIGURE AND EQUIPMENT: standing with the back against a wall, heels on the floor, lifting the toes up, side view.\nONLY tibialis (front of the shins) filled coral #F26445. All other muscles white/light grey.\nPOSE CLARITY: Back rests against a simple wall, heels remain planted on floor while toes/forefoot lift upward; highlight anterior shins only, not calves.\nNo other words, punctuation or colored muscle regions.",
+          "prompt_file": "prompts/slide-07.txt",
+          "raw_result_file": "/workspace/generated_images/exec-d0c511e5-7d8e-4cf2-8e47-70efc5bc7390.png",
+          "preserved_raw_file": "production-assets/slide-07-generated.png",
+          "result_file": "outputs/slide-07.png",
+          "export": {
+            "raw_size": [
+              1122,
+              1402
+            ],
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "has_alpha": false,
+            "logo": "Official transparent logo composited at x=48,y=19,size=218x71; no background patch."
+          }
+        }
+      ],
       "errors": [],
-      "save_status": "not_generated",
+      "save_status": "pushed_to_target_branch",
       "agent_visual_review": "not_performed",
       "user_review": "pending"
     },
@@ -345,9 +440,37 @@
       "reference": [
         "carousels/LW-CAR-0024/outputs/slide-02.png"
       ],
-      "attempts": [],
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "carousels/LW-CAR-0024/outputs/slide-02.png"
+          ],
+          "prompt": "Create ONE finished Harda S2 portrait carousel slide, 1080 x 1350, 4:5. Precisely match the supplied approved S2 reference for its very heavy tight lowercase grotesk headlines, clean regular sans body, italic grey subtitle, white/light-grey realistic anatomical mannequin, bald and faceless, fine grey shading, black #2A2A2A opaque shorts, smooth featureless pelvis, and black/grey equipment. Athletic adult male as in approved LW-CAR-0022 / 0024. Use reference for design ONLY, replace all its words and poses with instructions below. Solid opaque CLEAN #F0F1EB, no texture or arch. Main text #2A2A2A, secondary #6B6B6B, flat coral #F26445 marker bars. Highlight ONLY the expressly named target muscle regions coral; other muscles white/light-grey, no sand/green muscle colors. Entire top 110px empty for actual transparent Harda logo to be composited later at x=48,y=19,size=218x71. Do not generate logo, brand wordmark, watermark, signature, counter, progress bar, border, panels or additional words. Render every supplied string exactly, retaining lowercase, curly apostrophes, ampersand and hyphens. All text fully visible, never covered by figure or equipment.\n\nEXERCISE LAYOUT: exactly the supplied owner-approved LW-CAR-0024 slide 2 layout. Small bold grey lowercase muscle heading at upper-left below y=110; directly below, the very heavy tight lowercase exercise name #2A2A2A on a flat coral marker. Body below, regular #2A2A2A, no more than two lines. No rank, stars, meter or fix line. Long names may wrap to two lines with marker behind each line, preserving all words. Lower roughly 65%: ONE big white anatomical mannequin performing the exact exercise with equipment, fully below the copy, same scale/rendering as approved series. Preserve all needed body/equipment parts inside canvas; move/shrink the illustration to avoid obscuring text.\n\nEXACT TEXT:\nsmall grey muscle heading: `inner thighs`\nlarge exercise name on marker: `copenhagen plank`\nregular body: `your inner thighs and core, no equipment at all.`\n\nFIGURE AND EQUIPMENT: side plank with the top leg resting on a flat bench and the bottom leg hanging free, front three-quarter view.\nONLY adductors (inner thighs) filled coral #F26445. All other muscles white/light grey.\nPOSE CLARITY: Side plank on forearm, top leg resting on flat bench, bottom leg hanging freely below; show bench and body support clearly.\nNo other words, punctuation or colored muscle regions.",
+          "prompt_file": "prompts/slide-08.txt",
+          "raw_result_file": "/workspace/generated_images/exec-64cf67b6-e0f3-401a-841e-ff688bfa7e5a.png",
+          "preserved_raw_file": "production-assets/slide-08-generated.png",
+          "result_file": "outputs/slide-08.png",
+          "export": {
+            "raw_size": [
+              1122,
+              1402
+            ],
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "has_alpha": false,
+            "logo": "Official transparent logo composited at x=48,y=19,size=218x71; no background patch."
+          }
+        }
+      ],
       "errors": [],
-      "save_status": "not_generated",
+      "save_status": "pushed_to_target_branch",
       "agent_visual_review": "not_performed",
       "user_review": "pending"
     },
@@ -366,24 +489,75 @@
         "carousels/LW-CAR-0022/outputs/slide-19.png",
         "carousels/LW-CAR-0020/production-assets/slide-19-generated-blank-display.png"
       ],
-      "attempts": [],
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "carousels/LW-CAR-0022/outputs/slide-19.png",
+            "carousels/LW-CAR-0020/production-assets/slide-19-generated-blank-display.png"
+          ],
+          "prompt": "Create ONE finished Harda S2 portrait carousel slide, 1080 x 1350, 4:5. Precisely match the supplied approved S2 reference for its very heavy tight lowercase grotesk headlines, clean regular sans body, italic grey subtitle, white/light-grey realistic anatomical mannequin, bald and faceless, fine grey shading, black #2A2A2A opaque shorts, smooth featureless pelvis, and black/grey equipment. Athletic adult male as in approved LW-CAR-0022 / 0024. Use reference for design ONLY, replace all its words and poses with instructions below. Solid opaque CLEAN #F0F1EB, no texture or arch. Main text #2A2A2A, secondary #6B6B6B, flat coral #F26445 marker bars. Highlight ONLY the expressly named target muscle regions coral; other muscles white/light-grey, no sand/green muscle colors. Entire top 110px empty for actual transparent Harda logo to be composited later at x=48,y=19,size=218x71. Do not generate logo, brand wordmark, watermark, signature, counter, progress bar, border, panels or additional words. Render every supplied string exactly, retaining lowercase, curly apostrophes, ampersand and hyphens. All text fully visible, never covered by figure or equipment.\n\nPRODUCT ENDING. Same composition as approved LW-CAR-0022 slide 19. Exact very heavy lowercase headline in four left-aligned lines below y=110:\nharda tracks\nevery set you lift,\nso a new exercise gets\na fair test.\nCoral marker bars behind `every set you lift` and `a fair test` ONLY. Preserve comma and final period. Title ends above y=580. Exact regular body in two lines:\nadd one to your next workout\nand see how your numbers grow.\nFinish body above y=700 with a visible gap before the phone. Lower right: same tall black phone, natural proportions, scale, tilt and position as approved LW-CAR-0022 slide 19, phone top around y=730, held by a white/light-grey sketch-style anatomical hand, extending off bottom as needed. Second reference gives blank-display template; ignore its old text and logo. Generated phone display must be EMPTY UNIFORM BLACK: no UI, icons, chart, axes, numbers, text or buttons. Actual real approved Progress / Muscle balance phone pixel layer will be inserted later at original scale with offset x=0,y=+200px, as in the approved ending. Do not generate or imitate UI. Hand white/light-grey, never beige. No other words.",
+          "prompt_file": "prompts/slide-09.txt",
+          "raw_result_file": "/workspace/generated_images/exec-fd49c6fb-1d68-4f42-9a86-9e584b354074.png",
+          "preserved_raw_file": "production-assets/slide-09-generated.png",
+          "post_generation_layers": [
+            "production-assets/approved-phone-pixels.png composited at original scale, x=0,y=200 as on approved LW-CAR-0022 slide 19",
+            "assets/logo/harda-logo-full.png at x=48,y=19,size=218x71, own alpha, no patch"
+          ],
+          "result_file": "outputs/slide-09.png",
+          "export": {
+            "raw_size": [
+              1122,
+              1402
+            ],
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "has_alpha": false,
+            "logo": "Official transparent logo composited at x=48,y=19,size=218x71; no background patch."
+          }
+        }
+      ],
       "errors": [],
-      "save_status": "not_generated",
+      "save_status": "pushed_to_target_branch",
       "agent_visual_review": "not_performed",
       "user_review": "pending"
     }
   ],
-  "interruption": {
-    "slide": 5,
-    "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 49684ed0-d20d-4f8e-abb6-838a9ae029b6. safety_violations=[sexual].\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"sexual\\\"\\n      ]\\n    }\\n  }\\n}\")"
-  },
   "archive": "LW-CAR-0030-1080x1350.zip",
   "export_format": {
-    "images": 4,
+    "images": 9,
     "width": 1080,
     "height": 1350,
     "mode": "RGB",
     "alpha": false,
     "check": "Required export metadata only. No visual QA, OCR, or automatic regeneration."
+  },
+  "interruption_history": [
+    {
+      "slide": 5,
+      "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 49684ed0-d20d-4f8e-abb6-838a9ae029b6. safety_violations=[sexual].\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"sexual\\\"\\n      ]\\n    }\\n  }\\n}\")"
+    }
+  ],
+  "retry_authorization": {
+    "approved_at": "2026-10-22",
+    "source": "Owner explicitly authorized one more attempt for slide 5 with additional sports clothing and continuation of the carousel/batch.",
+    "slide": 5,
+    "authorized_additional_attempts": 1
+  },
+  "checkpoint_push": {
+    "commit": "85d88b3faba688bc63931b11382633434f1ae8e8",
+    "slides": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "reason": "First slide 5 result was rejected at output moderation; no image returned."
   }
 }

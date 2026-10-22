@@ -1,0 +1,14 @@
+Create ONE complete Harda S2 portrait fitness instruction slide, 1080 x 1350, 4:5. Use the supplied approved LW-CAR-0024 reference only for its page layout, typography and off-white/coral palette. Replace all its words, figure, exercise and equipment with the instructions here.
+
+SOLID OPAQUE CLEAN background #F0F1EB, no arch or texture. The ENTIRE top 110px is blank for the official transparent Harda logo, which will be composited later at x=48,y=19,size=218x71. Do not draw a logo. Main type #2A2A2A, secondary #6B6B6B, flat coral #F26445 marker. No watermark, signature, counter, border, panels, stars, ratings or additional copy.
+
+EXACT TEXT, preserving lowercase and punctuation:
+small grey heading: `quads`
+large headline on a coral marker: `reverse nordic`
+regular body: `loads your quads in a big stretch with just your bodyweight.`
+
+LAYOUT: identical to approved LW-CAR-0024 exercise slides. Small bold grey muscle heading at upper-left below the logo space; very heavy tight lowercase grotesk exercise name beneath, with a flat coral marker behind only the exercise words; then regular body in at most two lines. All copy fully visible and above the figure. Lower roughly 65%: one fully visible adult training mannequin demonstrating reverse nordic on a plain dark exercise mat, neutral full-body instructional SIDE VIEW.
+
+CLOTHING: the mannequin is FULLY DRESSED in an opaque light-grey long-sleeve athletic shirt, opaque black #2A2A2A knee-length gym shorts and opaque light-grey leggings covering the legs, with neutral grey training shoes. White/light-grey smooth mannequin head and hands, head bald and faceless, fine grey technical shading consistent with S2. All torso, hips and legs remain completely covered by the sports clothing. Show only the quadriceps as a flat coral #F26445 educational muscle-map overlay ON TOP OF THE CLOTH of both front thighs; all other clothing remains neutral. This is a clothed training diagram, not exposed anatomy.
+
+POSE: knees grounded on mat, shins extend behind on mat, thighs/hips/torso/head form one straight line leaning backwards about the knees. Hips do not hinge. Arms crossed gently over the chest. Balanced moderate lean, clear side view, no close-up of hips. Keep the full figure and mat below all copy and inside the canvas. No other figures, labels or words.
