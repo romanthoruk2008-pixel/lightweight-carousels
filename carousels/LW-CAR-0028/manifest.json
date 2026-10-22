@@ -1,0 +1,478 @@
+{
+  "carousel_id": "LW-CAR-0028",
+  "content_version": "1.0",
+  "source_commit": "e9262af7b815e4e334e9a5c59a40883691bf95a3",
+  "branch": "claude/charming-einstein-xgejky",
+  "target_branch": "claude/charming-einstein-xgejky",
+  "batch": "A",
+  "batch_task": "carousels/BATCH-A.md",
+  "design_style": "S2",
+  "status": "complete",
+  "carousel_complete": true,
+  "scope": {
+    "total_slides": 8,
+    "authorized_slides": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ]
+  },
+  "reference_id": null,
+  "reference_use": "Owner-approved LW-CAR-0022 for exact S2 look, type and ending. New swap layout is defined by this task; all copy from copy.json v1.0.",
+  "font_family": "REF-008 look: heavy tight grotesk for headlines, clean sans for body, italic for tier lines",
+  "background": "CLEAN #F0F1EB",
+  "logo": {
+    "file": "assets/logo/harda-logo-full.png",
+    "position": [
+      48,
+      19
+    ],
+    "size": [
+      218,
+      71
+    ],
+    "old_lightweight_logo_used": false
+  },
+  "generated_images": [
+    "outputs/slide-01.png",
+    "outputs/slide-02.png",
+    "outputs/slide-03.png",
+    "outputs/slide-04.png",
+    "outputs/slide-05.png",
+    "outputs/slide-06.png",
+    "outputs/slide-07.png",
+    "outputs/slide-08.png"
+  ],
+  "blocked_slides": [],
+  "next_slide_to_generate": null,
+  "approved_slides": [],
+  "pending_review_slides": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "user_review": "pending",
+  "agent_visual_review": "not_performed",
+  "next_action": "Owner reviews all generated slides at the end of Batch A.",
+  "caption": "caption.txt",
+  "remote_save": {
+    "remote": "origin",
+    "branch": "claude/charming-einstein-xgejky",
+    "status": "pushed_to_target_branch",
+    "method": "One complete-carousel commit and immediate push under BATCH-A.md.",
+    "commit_lookup": "git log -1 -- carousels/LW-CAR-0028/manifest.json"
+  },
+  "slides": [
+    {
+      "slide": 1,
+      "content_version": "1.0",
+      "role": "hook",
+      "exact_text": [
+        "stop doing this.",
+        "do this instead"
+      ],
+      "file": "outputs/slide-01.png",
+      "prompt": "Create ONE finished Harda S2 portrait carousel slide, 1080 x 1350, 4:5. Match the supplied approved LW-CAR-0022 reference for exact heavy tight lowercase grotesk headlines, clean regular sans body, realistic WHITE/LIGHT-GREY anatomical mannequin, bald and faceless, fine grey shading, opaque black #2A2A2A shorts, featureless smooth pelvis, and black/grey equipment. Use its LOOK ONLY and replace ALL words, poses and layout with the instructions below. Adult athletic male mannequin as in the approved series. Solid opaque CLEAN #F0F1EB background, no texture or arch. Text dark #2A2A2A, grey #6B6B6B, flat coral #F26445 markers. Only the expressly named target muscles on the GOOD exercise figure are coral; all other muscles white/light-grey, never sand or green. Keep the ENTIRE TOP 110px empty for the real logo. Do not generate a logo, wordmark, watermark, signature, counter, progress bar, panel, border or extra text. The actual transparent Harda logo will be inserted at x=48,y=19,size=218x71. Keep all supplied lowercase strings, hyphens and punctuation exact and fully visible. The requested faded figure is a faded appearance on the solid off-white background, not transparent output.\n\nCOVER. Two centered headline lines below the logo space, same heavy tight lowercase typography and marker treatment as the approved cover. Exact text and lines:\nstop doing this.\ndo this instead\nPut a flat coral #F26445 marker behind ONLY `do this instead`. Keep the exact period after the first line; no period after the second. No subtitle or other words. Lower half: TWO white/light-grey anatomical mannequins side by side, full bodies/equipment visible and on the same baseline. LEFT figure faded to about 40% opacity in appearance, performing a standing barbell upright row, front view, elbows high, bar to chest height, with a round dark #2A2A2A badge containing white `✗`. RIGHT figure fully visible, performing standing dumbbell lateral raise with arms at shoulder height, front view, ONLY both side delts highlighted coral, with a round coral #F26445 badge containing a white `✓`. Keep both badges distinct and clear, and all figures/equipment below the title without overlap. Both wear opaque black shorts. No other labels.",
+      "prompt_file": "prompts/slide-01.txt",
+      "reference": [
+        "carousels/LW-CAR-0022/outputs/slide-01.png"
+      ],
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "carousels/LW-CAR-0022/outputs/slide-01.png"
+          ],
+          "raw_result_file": "/workspace/generated_images/exec-aa837e24-b317-4263-977d-deb71e01757d.png",
+          "preserved_raw_file": "production-assets/slide-01-generated.png",
+          "result_file": "outputs/slide-01.png",
+          "export": {
+            "raw_size": [
+              1122,
+              1402
+            ],
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "has_alpha": false,
+            "logo": "Official transparent logo composited at x=48,y=19,size=218x71; no background patch."
+          }
+        }
+      ],
+      "errors": [],
+      "save_status": "pushed_to_target_branch",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 2,
+      "content_version": "1.0",
+      "role": "swap 1",
+      "exact_text": [
+        "stop:",
+        "upright row",
+        "do this:",
+        "lateral raise",
+        "same wider shoulders, much easier on your joints."
+      ],
+      "file": "outputs/slide-02.png",
+      "prompt": "Create ONE finished Harda S2 portrait carousel slide, 1080 x 1350, 4:5. Match the supplied approved LW-CAR-0022 reference for exact heavy tight lowercase grotesk headlines, clean regular sans body, realistic WHITE/LIGHT-GREY anatomical mannequin, bald and faceless, fine grey shading, opaque black #2A2A2A shorts, featureless smooth pelvis, and black/grey equipment. Use its LOOK ONLY and replace ALL words, poses and layout with the instructions below. Adult athletic male mannequin as in the approved series. Solid opaque CLEAN #F0F1EB background, no texture or arch. Text dark #2A2A2A, grey #6B6B6B, flat coral #F26445 markers. Only the expressly named target muscles on the GOOD exercise figure are coral; all other muscles white/light-grey, never sand or green. Keep the ENTIRE TOP 110px empty for the real logo. Do not generate a logo, wordmark, watermark, signature, counter, progress bar, panel, border or extra text. The actual transparent Harda logo will be inserted at x=48,y=19,size=218x71. Keep all supplied lowercase strings, hyphens and punctuation exact and fully visible. The requested faded figure is a faded appearance on the solid off-white background, not transparent output.\n\nSWAP LAYOUT — identical geometry on all six swap slides. Upper band occupies roughly y=140 to 520 (upper 40% of canvas). At upper-left, small bold grey `stop:` then the bad exercise name in bold lowercase grey #6B6B6B. ONE thick coral #F26445 strike-through line runs through the bad exercise name. To the right, one SMALL faded white anatomical figure doing the bad exercise, about 40% opacity in appearance, with the equipment equally faded. Near this small figure put one round dark #2A2A2A badge holding ONLY a white `✗`. Keep figure and badge clear of the text. A thin light grey #D6D6D2 divider runs horizontally across the slide around y=540. Lower band: small bold coral `do this:` around y=575; then the good exercise name in the HEAVIEST tight lowercase grotesk #2A2A2A with a coral marker behind only that name; then exact regular #2A2A2A body, at most two lines. A long good name can wrap onto two lines with a marker behind each line, preserving every word. Below all copy, ONE LARGE fully visible white anatomical figure doing the good exercise, with full equipment and ONLY its stated target muscle highlighted coral. Good figure significantly larger and stronger than the faded upper one. Keep it fully inside the lower band and canvas, shrinking equipment/figure as necessary to keep every line unobstructed. Do not add a check badge to the bottom band, stars, rankings or any other text.\n\nEXACT TEXT:\nsmall upper label: `stop:`\nstruck upper exercise: `upright row`\nsmall lower label: `do this:`\nlarge highlighted lower exercise: `lateral raise`\nregular body: `same wider shoulders, much easier on your joints.`\n\nSMALL FADED TOP FIGURE AND EQUIPMENT: standing, barbell pulled up to chest height with elbows high, front view.\nLARGE FULLY VISIBLE BOTTOM FIGURE AND EQUIPMENT: standing dumbbell lateral raise, arms at shoulder height, front view.\nONLY the bottom figure's side delts filled coral #F26445. No highlights on the upper figure. All other muscle regions white/light grey. No other words.",
+      "prompt_file": "prompts/slide-02.txt",
+      "reference": [
+        "carousels/LW-CAR-0022/outputs/slide-03.png"
+      ],
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "carousels/LW-CAR-0022/outputs/slide-03.png"
+          ],
+          "raw_result_file": "/workspace/generated_images/exec-b4a3c052-9bf1-4157-8342-382af88030b2.png",
+          "preserved_raw_file": "production-assets/slide-02-generated.png",
+          "result_file": "outputs/slide-02.png",
+          "export": {
+            "raw_size": [
+              1092,
+              1440
+            ],
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "has_alpha": false,
+            "logo": "Official transparent logo composited at x=48,y=19,size=218x71; no background patch."
+          }
+        }
+      ],
+      "errors": [],
+      "save_status": "pushed_to_target_branch",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 3,
+      "content_version": "1.0",
+      "role": "swap 2",
+      "exact_text": [
+        "stop:",
+        "behind-the-neck pulldown",
+        "do this:",
+        "lat pulldown to the chest",
+        "the same lats, without the awkward shoulder angle."
+      ],
+      "file": "outputs/slide-03.png",
+      "prompt": "Create ONE finished Harda S2 portrait carousel slide, 1080 x 1350, 4:5. Match the supplied approved LW-CAR-0022 reference for exact heavy tight lowercase grotesk headlines, clean regular sans body, realistic WHITE/LIGHT-GREY anatomical mannequin, bald and faceless, fine grey shading, opaque black #2A2A2A shorts, featureless smooth pelvis, and black/grey equipment. Use its LOOK ONLY and replace ALL words, poses and layout with the instructions below. Adult athletic male mannequin as in the approved series. Solid opaque CLEAN #F0F1EB background, no texture or arch. Text dark #2A2A2A, grey #6B6B6B, flat coral #F26445 markers. Only the expressly named target muscles on the GOOD exercise figure are coral; all other muscles white/light-grey, never sand or green. Keep the ENTIRE TOP 110px empty for the real logo. Do not generate a logo, wordmark, watermark, signature, counter, progress bar, panel, border or extra text. The actual transparent Harda logo will be inserted at x=48,y=19,size=218x71. Keep all supplied lowercase strings, hyphens and punctuation exact and fully visible. The requested faded figure is a faded appearance on the solid off-white background, not transparent output.\n\nSWAP LAYOUT — identical geometry on all six swap slides. Upper band occupies roughly y=140 to 520 (upper 40% of canvas). At upper-left, small bold grey `stop:` then the bad exercise name in bold lowercase grey #6B6B6B. ONE thick coral #F26445 strike-through line runs through the bad exercise name. To the right, one SMALL faded white anatomical figure doing the bad exercise, about 40% opacity in appearance, with the equipment equally faded. Near this small figure put one round dark #2A2A2A badge holding ONLY a white `✗`. Keep figure and badge clear of the text. A thin light grey #D6D6D2 divider runs horizontally across the slide around y=540. Lower band: small bold coral `do this:` around y=575; then the good exercise name in the HEAVIEST tight lowercase grotesk #2A2A2A with a coral marker behind only that name; then exact regular #2A2A2A body, at most two lines. A long good name can wrap onto two lines with a marker behind each line, preserving every word. Below all copy, ONE LARGE fully visible white anatomical figure doing the good exercise, with full equipment and ONLY its stated target muscle highlighted coral. Good figure significantly larger and stronger than the faded upper one. Keep it fully inside the lower band and canvas, shrinking equipment/figure as necessary to keep every line unobstructed. Do not add a check badge to the bottom band, stars, rankings or any other text.\n\nEXACT TEXT:\nsmall upper label: `stop:`\nstruck upper exercise: `behind-the-neck pulldown`\nsmall lower label: `do this:`\nlarge highlighted lower exercise: `lat pulldown to the chest`\nregular body: `the same lats, without the awkward shoulder angle.`\n\nSMALL FADED TOP FIGURE AND EQUIPMENT: seated lat pulldown, bar pulled down behind the head, rear view.\nLARGE FULLY VISIBLE BOTTOM FIGURE AND EQUIPMENT: seated lat pulldown, wide bar pulled to the upper chest, rear view.\nONLY the bottom figure's lats filled coral #F26445. No highlights on the upper figure. All other muscle regions white/light grey. No other words.",
+      "prompt_file": "prompts/slide-03.txt",
+      "reference": [
+        "carousels/LW-CAR-0022/outputs/slide-03.png"
+      ],
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "carousels/LW-CAR-0022/outputs/slide-03.png"
+          ],
+          "raw_result_file": "/workspace/generated_images/exec-45dd3ef2-307a-4615-a6b8-9ac32ce05279.png",
+          "preserved_raw_file": "production-assets/slide-03-generated.png",
+          "result_file": "outputs/slide-03.png",
+          "export": {
+            "raw_size": [
+              1122,
+              1402
+            ],
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "has_alpha": false,
+            "logo": "Official transparent logo composited at x=48,y=19,size=218x71; no background patch."
+          }
+        }
+      ],
+      "errors": [],
+      "save_status": "pushed_to_target_branch",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 4,
+      "content_version": "1.0",
+      "role": "swap 3",
+      "exact_text": [
+        "stop:",
+        "db flys",
+        "do this:",
+        "seated cable fly",
+        "tension the whole rep, not just at the bottom."
+      ],
+      "file": "outputs/slide-04.png",
+      "prompt": "Create ONE finished Harda S2 portrait carousel slide, 1080 x 1350, 4:5. Match the supplied approved LW-CAR-0022 reference for exact heavy tight lowercase grotesk headlines, clean regular sans body, realistic WHITE/LIGHT-GREY anatomical mannequin, bald and faceless, fine grey shading, opaque black #2A2A2A shorts, featureless smooth pelvis, and black/grey equipment. Use its LOOK ONLY and replace ALL words, poses and layout with the instructions below. Adult athletic male mannequin as in the approved series. Solid opaque CLEAN #F0F1EB background, no texture or arch. Text dark #2A2A2A, grey #6B6B6B, flat coral #F26445 markers. Only the expressly named target muscles on the GOOD exercise figure are coral; all other muscles white/light-grey, never sand or green. Keep the ENTIRE TOP 110px empty for the real logo. Do not generate a logo, wordmark, watermark, signature, counter, progress bar, panel, border or extra text. The actual transparent Harda logo will be inserted at x=48,y=19,size=218x71. Keep all supplied lowercase strings, hyphens and punctuation exact and fully visible. The requested faded figure is a faded appearance on the solid off-white background, not transparent output.\n\nSWAP LAYOUT — identical geometry on all six swap slides. Upper band occupies roughly y=140 to 520 (upper 40% of canvas). At upper-left, small bold grey `stop:` then the bad exercise name in bold lowercase grey #6B6B6B. ONE thick coral #F26445 strike-through line runs through the bad exercise name. To the right, one SMALL faded white anatomical figure doing the bad exercise, about 40% opacity in appearance, with the equipment equally faded. Near this small figure put one round dark #2A2A2A badge holding ONLY a white `✗`. Keep figure and badge clear of the text. A thin light grey #D6D6D2 divider runs horizontally across the slide around y=540. Lower band: small bold coral `do this:` around y=575; then the good exercise name in the HEAVIEST tight lowercase grotesk #2A2A2A with a coral marker behind only that name; then exact regular #2A2A2A body, at most two lines. A long good name can wrap onto two lines with a marker behind each line, preserving every word. Below all copy, ONE LARGE fully visible white anatomical figure doing the good exercise, with full equipment and ONLY its stated target muscle highlighted coral. Good figure significantly larger and stronger than the faded upper one. Keep it fully inside the lower band and canvas, shrinking equipment/figure as necessary to keep every line unobstructed. Do not add a check badge to the bottom band, stars, rankings or any other text.\n\nEXACT TEXT:\nsmall upper label: `stop:`\nstruck upper exercise: `db flys`\nsmall lower label: `do this:`\nlarge highlighted lower exercise: `seated cable fly`\nregular body: `tension the whole rep, not just at the bottom.`\n\nSMALL FADED TOP FIGURE AND EQUIPMENT: dumbbell fly on a flat bench, arms wide open, front three-quarter view.\nLARGE FULLY VISIBLE BOTTOM FIGURE AND EQUIPMENT: seated cable fly on a bench inside a cable crossover frame, front view.\nONLY the bottom figure's chest filled coral #F26445. No highlights on the upper figure. All other muscle regions white/light grey. No other words.",
+      "prompt_file": "prompts/slide-04.txt",
+      "reference": [
+        "carousels/LW-CAR-0022/outputs/slide-03.png"
+      ],
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "carousels/LW-CAR-0022/outputs/slide-03.png"
+          ],
+          "raw_result_file": "/workspace/generated_images/exec-58b027a0-49f1-4415-be01-03d25d9c408d.png",
+          "preserved_raw_file": "production-assets/slide-04-generated.png",
+          "result_file": "outputs/slide-04.png",
+          "export": {
+            "raw_size": [
+              1092,
+              1440
+            ],
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "has_alpha": false,
+            "logo": "Official transparent logo composited at x=48,y=19,size=218x71; no background patch."
+          }
+        }
+      ],
+      "errors": [],
+      "save_status": "pushed_to_target_branch",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 5,
+      "content_version": "1.0",
+      "role": "swap 4",
+      "exact_text": [
+        "stop:",
+        "bosu ball squat",
+        "do this:",
+        "leg press",
+        "real load for your legs instead of a balance act."
+      ],
+      "file": "outputs/slide-05.png",
+      "prompt": "Create ONE finished Harda S2 portrait carousel slide, 1080 x 1350, 4:5. Match the supplied approved LW-CAR-0022 reference for exact heavy tight lowercase grotesk headlines, clean regular sans body, realistic WHITE/LIGHT-GREY anatomical mannequin, bald and faceless, fine grey shading, opaque black #2A2A2A shorts, featureless smooth pelvis, and black/grey equipment. Use its LOOK ONLY and replace ALL words, poses and layout with the instructions below. Adult athletic male mannequin as in the approved series. Solid opaque CLEAN #F0F1EB background, no texture or arch. Text dark #2A2A2A, grey #6B6B6B, flat coral #F26445 markers. Only the expressly named target muscles on the GOOD exercise figure are coral; all other muscles white/light-grey, never sand or green. Keep the ENTIRE TOP 110px empty for the real logo. Do not generate a logo, wordmark, watermark, signature, counter, progress bar, panel, border or extra text. The actual transparent Harda logo will be inserted at x=48,y=19,size=218x71. Keep all supplied lowercase strings, hyphens and punctuation exact and fully visible. The requested faded figure is a faded appearance on the solid off-white background, not transparent output.\n\nSWAP LAYOUT — identical geometry on all six swap slides. Upper band occupies roughly y=140 to 520 (upper 40% of canvas). At upper-left, small bold grey `stop:` then the bad exercise name in bold lowercase grey #6B6B6B. ONE thick coral #F26445 strike-through line runs through the bad exercise name. To the right, one SMALL faded white anatomical figure doing the bad exercise, about 40% opacity in appearance, with the equipment equally faded. Near this small figure put one round dark #2A2A2A badge holding ONLY a white `✗`. Keep figure and badge clear of the text. A thin light grey #D6D6D2 divider runs horizontally across the slide around y=540. Lower band: small bold coral `do this:` around y=575; then the good exercise name in the HEAVIEST tight lowercase grotesk #2A2A2A with a coral marker behind only that name; then exact regular #2A2A2A body, at most two lines. A long good name can wrap onto two lines with a marker behind each line, preserving every word. Below all copy, ONE LARGE fully visible white anatomical figure doing the good exercise, with full equipment and ONLY its stated target muscle highlighted coral. Good figure significantly larger and stronger than the faded upper one. Keep it fully inside the lower band and canvas, shrinking equipment/figure as necessary to keep every line unobstructed. Do not add a check badge to the bottom band, stars, rankings or any other text.\n\nEXACT TEXT:\nsmall upper label: `stop:`\nstruck upper exercise: `bosu ball squat`\nsmall lower label: `do this:`\nlarge highlighted lower exercise: `leg press`\nregular body: `real load for your legs instead of a balance act.`\n\nSMALL FADED TOP FIGURE AND EQUIPMENT: squatting on an upturned bosu ball, arms forward for balance, front three-quarter view.\nLARGE FULLY VISIBLE BOTTOM FIGURE AND EQUIPMENT: seated 45-degree leg press machine, knees bent, side view.\nONLY the bottom figure's quads filled coral #F26445. No highlights on the upper figure. All other muscle regions white/light grey. No other words.",
+      "prompt_file": "prompts/slide-05.txt",
+      "reference": [
+        "carousels/LW-CAR-0022/outputs/slide-03.png"
+      ],
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "carousels/LW-CAR-0022/outputs/slide-03.png"
+          ],
+          "raw_result_file": "/workspace/generated_images/exec-2095a892-fd47-4e9e-9c37-63842e1cf763.png",
+          "preserved_raw_file": "production-assets/slide-05-generated.png",
+          "result_file": "outputs/slide-05.png",
+          "export": {
+            "raw_size": [
+              1092,
+              1440
+            ],
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "has_alpha": false,
+            "logo": "Official transparent logo composited at x=48,y=19,size=218x71; no background patch."
+          }
+        }
+      ],
+      "errors": [],
+      "save_status": "pushed_to_target_branch",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 6,
+      "content_version": "1.0",
+      "role": "swap 5",
+      "exact_text": [
+        "stop:",
+        "21s",
+        "do this:",
+        "incline db curl",
+        "a real stretch and a real weight."
+      ],
+      "file": "outputs/slide-06.png",
+      "prompt": "Create ONE finished Harda S2 portrait carousel slide, 1080 x 1350, 4:5. Match the supplied approved LW-CAR-0022 reference for exact heavy tight lowercase grotesk headlines, clean regular sans body, realistic WHITE/LIGHT-GREY anatomical mannequin, bald and faceless, fine grey shading, opaque black #2A2A2A shorts, featureless smooth pelvis, and black/grey equipment. Use its LOOK ONLY and replace ALL words, poses and layout with the instructions below. Adult athletic male mannequin as in the approved series. Solid opaque CLEAN #F0F1EB background, no texture or arch. Text dark #2A2A2A, grey #6B6B6B, flat coral #F26445 markers. Only the expressly named target muscles on the GOOD exercise figure are coral; all other muscles white/light-grey, never sand or green. Keep the ENTIRE TOP 110px empty for the real logo. Do not generate a logo, wordmark, watermark, signature, counter, progress bar, panel, border or extra text. The actual transparent Harda logo will be inserted at x=48,y=19,size=218x71. Keep all supplied lowercase strings, hyphens and punctuation exact and fully visible. The requested faded figure is a faded appearance on the solid off-white background, not transparent output.\n\nSWAP LAYOUT — identical geometry on all six swap slides. Upper band occupies roughly y=140 to 520 (upper 40% of canvas). At upper-left, small bold grey `stop:` then the bad exercise name in bold lowercase grey #6B6B6B. ONE thick coral #F26445 strike-through line runs through the bad exercise name. To the right, one SMALL faded white anatomical figure doing the bad exercise, about 40% opacity in appearance, with the equipment equally faded. Near this small figure put one round dark #2A2A2A badge holding ONLY a white `✗`. Keep figure and badge clear of the text. A thin light grey #D6D6D2 divider runs horizontally across the slide around y=540. Lower band: small bold coral `do this:` around y=575; then the good exercise name in the HEAVIEST tight lowercase grotesk #2A2A2A with a coral marker behind only that name; then exact regular #2A2A2A body, at most two lines. A long good name can wrap onto two lines with a marker behind each line, preserving every word. Below all copy, ONE LARGE fully visible white anatomical figure doing the good exercise, with full equipment and ONLY its stated target muscle highlighted coral. Good figure significantly larger and stronger than the faded upper one. Keep it fully inside the lower band and canvas, shrinking equipment/figure as necessary to keep every line unobstructed. Do not add a check badge to the bottom band, stars, rankings or any other text.\n\nEXACT TEXT:\nsmall upper label: `stop:`\nstruck upper exercise: `21s`\nsmall lower label: `do this:`\nlarge highlighted lower exercise: `incline db curl`\nregular body: `a real stretch and a real weight.`\n\nSMALL FADED TOP FIGURE AND EQUIPMENT: standing barbell curl with a light bar, halfway up, front view.\nLARGE FULLY VISIBLE BOTTOM FIGURE AND EQUIPMENT: seated on an incline bench, arms hanging back, curling two dumbbells, side view.\nONLY the bottom figure's biceps filled coral #F26445. No highlights on the upper figure. All other muscle regions white/light grey. No other words.",
+      "prompt_file": "prompts/slide-06.txt",
+      "reference": [
+        "carousels/LW-CAR-0022/outputs/slide-03.png"
+      ],
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "carousels/LW-CAR-0022/outputs/slide-03.png"
+          ],
+          "raw_result_file": "/workspace/generated_images/exec-5881318b-6cf8-4e3e-9d06-5ff2fa15191e.png",
+          "preserved_raw_file": "production-assets/slide-06-generated.png",
+          "result_file": "outputs/slide-06.png",
+          "export": {
+            "raw_size": [
+              1122,
+              1402
+            ],
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "has_alpha": false,
+            "logo": "Official transparent logo composited at x=48,y=19,size=218x71; no background patch."
+          }
+        }
+      ],
+      "errors": [],
+      "save_status": "pushed_to_target_branch",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 7,
+      "content_version": "1.0",
+      "role": "swap 6",
+      "exact_text": [
+        "stop:",
+        "crunches",
+        "do this:",
+        "hanging leg raise",
+        "a bigger range for your abs, and no neck pulling."
+      ],
+      "file": "outputs/slide-07.png",
+      "prompt": "Create ONE finished Harda S2 portrait carousel slide, 1080 x 1350, 4:5. Match the supplied approved LW-CAR-0022 reference for exact heavy tight lowercase grotesk headlines, clean regular sans body, realistic WHITE/LIGHT-GREY anatomical mannequin, bald and faceless, fine grey shading, opaque black #2A2A2A shorts, featureless smooth pelvis, and black/grey equipment. Use its LOOK ONLY and replace ALL words, poses and layout with the instructions below. Adult athletic male mannequin as in the approved series. Solid opaque CLEAN #F0F1EB background, no texture or arch. Text dark #2A2A2A, grey #6B6B6B, flat coral #F26445 markers. Only the expressly named target muscles on the GOOD exercise figure are coral; all other muscles white/light-grey, never sand or green. Keep the ENTIRE TOP 110px empty for the real logo. Do not generate a logo, wordmark, watermark, signature, counter, progress bar, panel, border or extra text. The actual transparent Harda logo will be inserted at x=48,y=19,size=218x71. Keep all supplied lowercase strings, hyphens and punctuation exact and fully visible. The requested faded figure is a faded appearance on the solid off-white background, not transparent output.\n\nSWAP LAYOUT — identical geometry on all six swap slides. Upper band occupies roughly y=140 to 520 (upper 40% of canvas). At upper-left, small bold grey `stop:` then the bad exercise name in bold lowercase grey #6B6B6B. ONE thick coral #F26445 strike-through line runs through the bad exercise name. To the right, one SMALL faded white anatomical figure doing the bad exercise, about 40% opacity in appearance, with the equipment equally faded. Near this small figure put one round dark #2A2A2A badge holding ONLY a white `✗`. Keep figure and badge clear of the text. A thin light grey #D6D6D2 divider runs horizontally across the slide around y=540. Lower band: small bold coral `do this:` around y=575; then the good exercise name in the HEAVIEST tight lowercase grotesk #2A2A2A with a coral marker behind only that name; then exact regular #2A2A2A body, at most two lines. A long good name can wrap onto two lines with a marker behind each line, preserving every word. Below all copy, ONE LARGE fully visible white anatomical figure doing the good exercise, with full equipment and ONLY its stated target muscle highlighted coral. Good figure significantly larger and stronger than the faded upper one. Keep it fully inside the lower band and canvas, shrinking equipment/figure as necessary to keep every line unobstructed. Do not add a check badge to the bottom band, stars, rankings or any other text.\n\nEXACT TEXT:\nsmall upper label: `stop:`\nstruck upper exercise: `crunches`\nsmall lower label: `do this:`\nlarge highlighted lower exercise: `hanging leg raise`\nregular body: `a bigger range for your abs, and no neck pulling.`\n\nSMALL FADED TOP FIGURE AND EQUIPMENT: crunch on a mat, hands behind the head, side view.\nLARGE FULLY VISIBLE BOTTOM FIGURE AND EQUIPMENT: hanging from a pull-up bar, straight legs raised to hip height, side view.\nONLY the bottom figure's abs filled coral #F26445. No highlights on the upper figure. All other muscle regions white/light grey. No other words.",
+      "prompt_file": "prompts/slide-07.txt",
+      "reference": [
+        "carousels/LW-CAR-0022/outputs/slide-03.png"
+      ],
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "carousels/LW-CAR-0022/outputs/slide-03.png"
+          ],
+          "raw_result_file": "/workspace/generated_images/exec-cc7ccb86-e8f7-497b-a4f8-b227b8499ce9.png",
+          "preserved_raw_file": "production-assets/slide-07-generated.png",
+          "result_file": "outputs/slide-07.png",
+          "export": {
+            "raw_size": [
+              1092,
+              1440
+            ],
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "has_alpha": false,
+            "logo": "Official transparent logo composited at x=48,y=19,size=218x71; no background patch."
+          }
+        }
+      ],
+      "errors": [],
+      "save_status": "pushed_to_target_branch",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 8,
+      "content_version": "1.0",
+      "role": "product ending",
+      "exact_text": [
+        "harda tracks every set you lift, so you see which swap actually works for you.",
+        "log your workouts and watch your numbers go up."
+      ],
+      "file": "outputs/slide-08.png",
+      "prompt": "Create ONE finished Harda S2 portrait carousel slide, 1080 x 1350, 4:5. Match the supplied approved LW-CAR-0022 reference for exact heavy tight lowercase grotesk headlines, clean regular sans body, realistic WHITE/LIGHT-GREY anatomical mannequin, bald and faceless, fine grey shading, opaque black #2A2A2A shorts, featureless smooth pelvis, and black/grey equipment. Use its LOOK ONLY and replace ALL words, poses and layout with the instructions below. Adult athletic male mannequin as in the approved series. Solid opaque CLEAN #F0F1EB background, no texture or arch. Text dark #2A2A2A, grey #6B6B6B, flat coral #F26445 markers. Only the expressly named target muscles on the GOOD exercise figure are coral; all other muscles white/light-grey, never sand or green. Keep the ENTIRE TOP 110px empty for the real logo. Do not generate a logo, wordmark, watermark, signature, counter, progress bar, panel, border or extra text. The actual transparent Harda logo will be inserted at x=48,y=19,size=218x71. Keep all supplied lowercase strings, hyphens and punctuation exact and fully visible. The requested faded figure is a faded appearance on the solid off-white background, not transparent output.\n\nPRODUCT ENDING. Match approved LW-CAR-0022 slide 19 composition. Exact very heavy lowercase headline in these four left-aligned lines below y=110:\nharda tracks\nevery set you lift,\nso you see which swap\nactually works for you.\nCoral marker bars behind `every set you lift` and `actually works` ONLY. Keep the comma and final period. Finish the title above y=580. Exact regular body in two lines:\nlog your workouts and watch\nyour numbers go up.\nFinish body above y=700 and leave a visible gap before the phone. Lower right: same tall black phone, natural proportions, scale, mild clockwise tilt and position as approved LW-CAR-0022 slide 19, phone top around y=730, held by the white/light-grey sketch-style anatomical hand, possibly extending off the bottom. Second reference supplies its blank-display template; ignore all old words and logos. Generated display must be EMPTY UNIFORM BLACK, with absolutely no UI, chart, axes, icons, numbers, text or buttons. The actual real owner-approved Progress / Muscle balance phone pixel layer will be inserted afterward at its original scale, x=0,y=+200px as on the approved ending. Never imitate app UI. Hand white/light-grey, not beige. No other text.",
+      "prompt_file": "prompts/slide-08.txt",
+      "reference": [
+        "carousels/LW-CAR-0022/outputs/slide-19.png",
+        "carousels/LW-CAR-0020/production-assets/slide-19-generated-blank-display.png"
+      ],
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "carousels/LW-CAR-0022/outputs/slide-19.png",
+            "carousels/LW-CAR-0020/production-assets/slide-19-generated-blank-display.png"
+          ],
+          "raw_result_file": "/workspace/generated_images/exec-e53bd5ed-7de8-4833-a650-c280d7e40c33.png",
+          "preserved_raw_file": "production-assets/slide-08-generated.png",
+          "post_generation_layers": [
+            "production-assets/approved-phone-pixels.png composited at original scale, x=0,y=200 as on approved LW-CAR-0022 slide 19",
+            "assets/logo/harda-logo-full.png at x=48,y=19,size=218x71, own alpha, no patch"
+          ],
+          "result_file": "outputs/slide-08.png",
+          "export": {
+            "raw_size": [
+              1122,
+              1402
+            ],
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "has_alpha": false,
+            "logo": "Official transparent logo composited at x=48,y=19,size=218x71; no background patch."
+          }
+        }
+      ],
+      "errors": [],
+      "save_status": "pushed_to_target_branch",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    }
+  ],
+  "archive": "LW-CAR-0028-1080x1350.zip",
+  "export_format": {
+    "images": 8,
+    "width": 1080,
+    "height": 1350,
+    "mode": "RGB",
+    "alpha": false,
+    "check": "Required export metadata only. No visual QA, OCR, or automatic regeneration."
+  }
+}
