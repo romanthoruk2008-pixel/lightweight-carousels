@@ -16,8 +16,8 @@ paste. Lengths are checked by `python3 -I aso/v2/final/check_listing.py`.
 These lines are in the text because they were in the v1 draft or the screenshots, but the owner
 has not confirmed them one by one. Delete the line if the answer is no.
 
-1. AI features (import from a screenshot or voice, "the workout adapts") are Premium. Is any AI use
-   free? If yes, change the footnote to "Free plan includes limited use."
+1. Hard paywall (owner, 2026-10-22): the whole app needs Harda Premium after the free trial, so the
+   description says so in its Premium paragraph and marks no single feature as Premium.
 2. Personal records are saved automatically.
 3. Build a plan works around an injury ("cranky shoulder").
 4. Seryozha's name in each language (Seryozha / Серьожа / Серёжа).
@@ -44,13 +44,13 @@ LOG FAST, RIGHT IN THE GYM
 • Personal records saved as you hit them
 
 BRING THE PROGRAM YOU ALREADY HAVE
-• A screenshot, a photo of your notebook, text or your voice: Harda turns it into routines you can start right away*
+• A screenshot, a photo of your notebook, text or your voice: Harda turns it into routines you can start right away
 • Switching apps? Import your workout history from a CSV file
 
 A PLAN WHEN YOU NEED ONE
 • Tell Harda your goal, how many days you train, how long you have and what equipment you've got
 • Cranky shoulder? Your plan works around it
-• Different gym today? Say what changed and the workout adapts*
+• Different gym today? Say what changed and the workout adapts
 • Or build your own routines
 
 GYM BRO: TRAIN WITH FRIENDS
@@ -76,10 +76,8 @@ A dinosaur who drops in now and then to comment on your training. Resting for ag
 
 kg or lb. Your call.
 
-* AI feature, part of Harda Premium.
-
 HARDA PREMIUM
-Harda is free to download. Some features require a Harda Premium subscription, monthly or yearly. New subscribers can try it free. Payment is charged to your Apple Account at confirmation of purchase. The subscription renews automatically unless canceled at least 24 hours before the end of the current period. Manage or cancel it in your Apple Account settings.
+Harda requires a Harda Premium subscription, monthly or yearly. New subscribers start with a free trial. Payment is charged to your Apple Account at confirmation of purchase. The subscription renews automatically unless canceled at least 24 hours before the end of the current period. Manage or cancel it in your Apple Account settings.
 
 Terms of Use: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
 Privacy Policy: [PRIVACY POLICY URL]
@@ -118,13 +116,13 @@ LOG FAST, RIGHT IN THE GYM
 • Personal records saved as you hit them
 
 BRING THE PROGRAMME YOU ALREADY HAVE
-• A screenshot, a photo of your notebook, text or your voice: Harda turns it into routines you can start right away*
+• A screenshot, a photo of your notebook, text or your voice: Harda turns it into routines you can start right away
 • Switching apps? Import your workout history from a CSV file
 
 A PLAN WHEN YOU NEED ONE
 • Tell Harda your goal, how many days you train, how long you have and what equipment you've got
 • Dodgy shoulder? Your plan works around it
-• Different gym today? Say what changed and the workout adapts*
+• Different gym today? Say what changed and the workout adapts
 • Or build your own routines
 
 GYM BRO: TRAIN WITH FRIENDS
@@ -150,10 +148,8 @@ A dinosaur who drops in now and then to comment on your training. Resting for ag
 
 kg or lb. Your call.
 
-* AI feature, part of Harda Premium.
-
 HARDA PREMIUM
-Harda is free to download. Some features require a Harda Premium subscription, monthly or yearly. New subscribers can try it free. Payment is charged to your Apple Account at confirmation of purchase. The subscription renews automatically unless cancelled at least 24 hours before the end of the current period. Manage or cancel it in your Apple Account settings.
+Harda requires a Harda Premium subscription, monthly or yearly. New subscribers start with a free trial. Payment is charged to your Apple Account at confirmation of purchase. The subscription renews automatically unless cancelled at least 24 hours before the end of the current period. Manage or cancel it in your Apple Account settings.
 
 Terms of Use: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
 Privacy Policy: [PRIVACY POLICY URL]
@@ -182,13 +178,13 @@ SCHNELL ERFASSEN, DIREKT IM GYM
 • Persönliche Rekorde werden sofort gespeichert
 
 BRING DEINEN PLAN MIT
-• Screenshot, Foto aus dem Notizbuch, Text oder Sprache: Harda macht daraus Routinen, die du sofort starten kannst*
+• Screenshot, Foto aus dem Notizbuch, Text oder Sprache: Harda macht daraus Routinen, die du sofort starten kannst
 • Du wechselst die App? Importiere deinen Trainingsverlauf aus einer CSV-Datei
 
 EIN PLAN, WENN DU EINEN BRAUCHST
 • Sag Harda dein Ziel, wie viele Tage du trainierst, wie viel Zeit du hast und welche Geräte es gibt
 • Die Schulter zwickt? Dein Plan nimmt Rücksicht darauf
-• Heute ein anderes Gym? Sag, was sich geändert hat, und das Training passt sich an*
+• Heute ein anderes Gym? Sag, was sich geändert hat, und das Training passt sich an
 • Oder erstelle deine eigenen Routinen
 
 GYM BRO: TRAINIERE MIT FREUNDEN
@@ -214,10 +210,8 @@ Ein Dinosaurier, der ab und zu dein Training kommentiert. Ewig Pause? Seit einem
 
 kg oder lb. Du entscheidest.
 
-* KI-Funktion, Teil von Harda Premium.
-
 HARDA PREMIUM
-Harda kann kostenlos geladen werden. Einige Funktionen erfordern ein Harda Premium-Abo, monatlich oder jährlich. Neue Abonnenten können es kostenlos testen. Die Zahlung wird bei Bestätigung des Kaufs über deinen Apple Account abgerechnet. Das Abo verlängert sich automatisch, wenn es nicht mindestens 24 Stunden vor Ende des aktuellen Zeitraums gekündigt wird. Verwalten oder kündigen kannst du es in den Einstellungen deines Apple Accounts.
+Für Harda ist ein Harda Premium-Abo erforderlich, monatlich oder jährlich. Neue Abonnenten starten mit einem kostenlosen Testzeitraum. Die Zahlung wird bei Bestätigung des Kaufs über deinen Apple Account abgerechnet. Das Abo verlängert sich automatisch, wenn es nicht mindestens 24 Stunden vor Ende des aktuellen Zeitraums gekündigt wird. Verwalten oder kündigen kannst du es in den Einstellungen deines Apple Accounts.
 
 Nutzungsbedingungen: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
 Datenschutzerklärung: [PRIVACY POLICY URL]
@@ -246,13 +240,13 @@ NOTE VITE, EN PLEINE SÉANCE
 • Records personnels enregistrés automatiquement
 
 IMPORTE LE PROGRAMME QUE TU AS DÉJÀ
-• Capture d'écran, photo de ton carnet, texte ou voix : Harda le transforme en routines prêtes à lancer*
+• Capture d'écran, photo de ton carnet, texte ou voix : Harda le transforme en routines prêtes à lancer
 • Tu changes d'app ? Importe ton historique depuis un fichier CSV
 
 UN PROGRAMME QUAND TU EN AS BESOIN
 • Indique ton objectif, le nombre de jours, le temps dont tu disposes et ton matériel
 • L'épaule qui tire ? Ton programme en tient compte
-• Une autre salle aujourd'hui ? Dis ce qui change et la séance s'adapte*
+• Une autre salle aujourd'hui ? Dis ce qui change et la séance s'adapte
 • Ou crée tes propres routines
 
 GYM BRO : ENTRAÎNE-TOI AVEC TES AMIS
@@ -278,10 +272,8 @@ Un dinosaure qui passe de temps en temps commenter ton entraînement. Repos inte
 
 kg ou lb, à toi de choisir.
 
-* Fonction IA incluse dans Harda Premium.
-
 HARDA PREMIUM
-Harda est gratuit à télécharger. Certaines fonctions nécessitent un abonnement Harda Premium, mensuel ou annuel. Les nouveaux abonnés peuvent l'essayer gratuitement. Le paiement est débité de ton compte Apple à la confirmation de l'achat. L'abonnement se renouvelle automatiquement, sauf s'il est annulé au moins 24 heures avant la fin de la période en cours. Gère-le ou annule-le dans les réglages de ton compte Apple.
+Harda nécessite un abonnement Harda Premium, mensuel ou annuel. Les nouveaux abonnés commencent par un essai gratuit. Le paiement est débité de ton compte Apple à la confirmation de l'achat. L'abonnement se renouvelle automatiquement, sauf s'il est annulé au moins 24 heures avant la fin de la période en cours. Gère-le ou annule-le dans les réglages de ton compte Apple.
 
 Conditions d'utilisation : https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
 Politique de confidentialité : [PRIVACY POLICY URL]
@@ -310,13 +302,13 @@ REGISTRA RÁPIDO, EN PLENO GYM
 • Récords personales guardados al momento
 
 TRAE LA RUTINA QUE YA TIENES
-• Captura de pantalla, foto de tu libreta, texto o voz: Harda lo convierte en rutinas listas para empezar*
+• Captura de pantalla, foto de tu libreta, texto o voz: Harda lo convierte en rutinas listas para empezar
 • ¿Cambias de app? Importa tu historial desde un archivo CSV
 
 UN PLAN CUANDO LO NECESITAS
 • Dile a Harda tu objetivo, cuántos días entrenas, cuánto tiempo tienes y qué material hay
 • ¿Te molesta el hombro? Tu plan lo tiene en cuenta
-• ¿Hoy otro gimnasio? Di qué ha cambiado y el entreno se adapta*
+• ¿Hoy otro gimnasio? Di qué ha cambiado y el entreno se adapta
 • O crea tus propias rutinas
 
 GYM BRO: ENTRENA CON AMIGOS
@@ -342,10 +334,8 @@ Un dinosaurio que de vez en cuando comenta tu entrenamiento. ¿Descansos eternos
 
 kg o lb. Tú eliges.
 
-* Función de IA incluida en Harda Premium.
-
 HARDA PREMIUM
-Harda se descarga gratis. Algunas funciones requieren una suscripción a Harda Premium, mensual o anual. Los nuevos suscriptores pueden probarla gratis. El pago se carga en tu cuenta de Apple al confirmar la compra. La suscripción se renueva automáticamente salvo que se cancele al menos 24 horas antes del final del periodo actual. Gestiónala o cancélala en los ajustes de tu cuenta de Apple.
+Harda requiere una suscripción a Harda Premium, mensual o anual. Los nuevos suscriptores empiezan con una prueba gratuita. El pago se carga en tu cuenta de Apple al confirmar la compra. La suscripción se renueva automáticamente salvo que se cancele al menos 24 horas antes del final del periodo actual. Gestiónala o cancélala en los ajustes de tu cuenta de Apple.
 
 Condiciones de uso: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
 Política de privacidad: [PRIVACY POLICY URL]
@@ -374,13 +364,13 @@ REGISTRA AL VOLO, IN PALESTRA
 • Record personali salvati subito
 
 PORTA LA SCHEDA CHE HAI GIÀ
-• Screenshot, foto del quaderno, testo o voce: Harda la trasforma in routine pronte da avviare*
+• Screenshot, foto del quaderno, testo o voce: Harda la trasforma in routine pronte da avviare
 • Cambi app? Importa lo storico da un file CSV
 
 UNA SCHEDA QUANDO TI SERVE
 • Indica a Harda obiettivo, giorni di allenamento, tempo a disposizione e attrezzatura
 • Fastidio alla spalla? La scheda ne tiene conto
-• Oggi un'altra palestra? Di' cosa è cambiato e l'allenamento si adatta*
+• Oggi un'altra palestra? Di' cosa è cambiato e l'allenamento si adatta
 • Oppure crea le tue routine
 
 GYM BRO: ALLENATI CON GLI AMICI
@@ -406,10 +396,8 @@ Un dinosauro che ogni tanto commenta il tuo allenamento. Recuperi infiniti? Stes
 
 kg o lb. Scegli tu.
 
-* Funzione IA inclusa in Harda Premium.
-
 HARDA PREMIUM
-Harda si scarica gratis. Alcune funzioni richiedono un abbonamento Harda Premium, mensile o annuale. I nuovi abbonati possono provarlo gratis. Il pagamento viene addebitato sul tuo Apple Account alla conferma dell'acquisto. L'abbonamento si rinnova automaticamente se non viene disdetto almeno 24 ore prima della fine del periodo in corso. Puoi gestirlo o disdirlo nelle impostazioni del tuo Apple Account.
+Harda richiede un abbonamento Harda Premium, mensile o annuale. I nuovi abbonati iniziano con una prova gratuita. Il pagamento viene addebitato sul tuo Apple Account alla conferma dell'acquisto. L'abbonamento si rinnova automaticamente se non viene disdetto almeno 24 ore prima della fine del periodo in corso. Puoi gestirlo o disdirlo nelle impostazioni del tuo Apple Account.
 
 Termini di utilizzo: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
 Informativa sulla privacy: [PRIVACY POLICY URL]
@@ -438,13 +426,13 @@ REGISTRE RÁPIDO, NA ACADEMIA
 • Recordes pessoais salvos na hora
 
 TRAGA O TREINO QUE VOCÊ JÁ TEM
-• Print, foto do caderno, texto ou voz: o Harda transforma em rotinas prontas para começar*
+• Print, foto do caderno, texto ou voz: o Harda transforma em rotinas prontas para começar
 • Mudando de app? Importe seu histórico de um arquivo CSV
 
 UM TREINO QUANDO VOCÊ PRECISA
 • Diga ao Harda seu objetivo, quantos dias você treina, quanto tempo tem e quais equipamentos há
 • Ombro incomodando? Seu treino leva isso em conta
-• Outra academia hoje? Diga o que mudou e o treino se adapta*
+• Outra academia hoje? Diga o que mudou e o treino se adapta
 • Ou monte suas próprias rotinas
 
 GYM BRO: TREINE COM AMIGOS
@@ -470,10 +458,8 @@ Um dinossauro que de vez em quando comenta seu treino. Descanso sem fim? O mesmo
 
 kg ou lb. Você escolhe.
 
-* Recurso de IA incluído no Harda Premium.
-
 HARDA PREMIUM
-O Harda é gratuito para baixar. Alguns recursos exigem uma assinatura Harda Premium, mensal ou anual. Novos assinantes podem testar grátis. O pagamento é cobrado na sua Conta Apple na confirmação da compra. A assinatura é renovada automaticamente, a menos que seja cancelada pelo menos 24 horas antes do fim do período atual. Gerencie ou cancele nos ajustes da sua Conta Apple.
+O Harda exige uma assinatura Harda Premium, mensal ou anual. Novos assinantes começam com um teste grátis. O pagamento é cobrado na sua Conta Apple na confirmação da compra. A assinatura é renovada automaticamente, a menos que seja cancelada pelo menos 24 horas antes do fim do período atual. Gerencie ou cancele nos ajustes da sua Conta Apple.
 
 Termos de Uso: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
 Política de Privacidade: [PRIVACY POLICY URL]
@@ -502,13 +488,13 @@ SZYBKI ZAPIS NA SIŁOWNI
 • Rekordy osobiste zapisują się same
 
 PRZENIEŚ PLAN, KTÓRY JUŻ MASZ
-• Zrzut ekranu, zdjęcie notesu, tekst lub głos: Harda zamieni to w treningi gotowe do startu*
+• Zrzut ekranu, zdjęcie notesu, tekst lub głos: Harda zamieni to w treningi gotowe do startu
 • Zmieniasz aplikację? Zaimportuj historię z pliku CSV
 
 PLAN, GDY GO POTRZEBUJESZ
 • Podaj cel, liczbę dni treningowych, ile masz czasu i jaki sprzęt jest dostępny
 • Boli bark? Plan to uwzględni
-• Dziś inna siłownia? Napisz, co się zmieniło, a trening się dopasuje*
+• Dziś inna siłownia? Napisz, co się zmieniło, a trening się dopasuje
 • Albo stwórz własne plany
 
 GYM BRO: TRENUJ ZE ZNAJOMYMI
@@ -534,10 +520,8 @@ Dinozaur, który co jakiś czas komentuje twój trening. Przerwa w nieskończono
 
 kg czy lb? Ty decydujesz.
 
-* Funkcja AI w ramach Harda Premium.
-
 HARDA PREMIUM
-Harda można pobrać za darmo. Niektóre funkcje wymagają subskrypcji Harda Premium, miesięcznej lub rocznej. Nowi subskrybenci mogą wypróbować ją za darmo. Płatność jest pobierana z konta Apple w momencie potwierdzenia zakupu. Subskrypcja odnawia się automatycznie, jeśli nie zostanie anulowana co najmniej 24 godziny przed końcem bieżącego okresu. Możesz nią zarządzać lub ją anulować w ustawieniach konta Apple.
+Korzystanie z Harda wymaga subskrypcji Harda Premium, miesięcznej lub rocznej. Nowi subskrybenci zaczynają od bezpłatnego okresu próbnego. Płatność jest pobierana z konta Apple w momencie potwierdzenia zakupu. Subskrypcja odnawia się automatycznie, jeśli nie zostanie anulowana co najmniej 24 godziny przed końcem bieżącego okresu. Możesz nią zarządzać lub ją anulować w ustawieniach konta Apple.
 
 Warunki korzystania: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
 Polityka prywatności: [PRIVACY POLICY URL]
@@ -566,13 +550,13 @@ SALONDA HIZLI KAYIT
 • Kişisel rekorlar anında kaydedilir
 
 ELİNDEKİ PROGRAMI GETİR
-• Ekran görüntüsü, defter fotoğrafı, metin ya da ses: Harda bunu hemen başlatabileceğin rutinlere dönüştürür*
+• Ekran görüntüsü, defter fotoğrafı, metin ya da ses: Harda bunu hemen başlatabileceğin rutinlere dönüştürür
 • Uygulama mı değiştiriyorsun? Geçmişini CSV dosyasından içe aktar
 
 İHTİYACIN OLDUĞUNDA BİR PLAN
 • Hedefini, haftada kaç gün antrenman yaptığını, ne kadar vaktin olduğunu ve hangi ekipmanın bulunduğunu söyle
 • Omzun mu ağrıyor? Planın bunu hesaba katar
-• Bugün başka bir salon mu? Neyin değiştiğini söyle, antrenman uyum sağlasın*
+• Bugün başka bir salon mu? Neyin değiştiğini söyle, antrenman uyum sağlasın
 • Ya da kendi rutinlerini oluştur
 
 GYM BRO: ARKADAŞLARINLA ANTRENMAN
@@ -598,10 +582,8 @@ Arada bir antrenmanına yorum yapan bir dinozor. Bitmeyen dinlenmeler mi? Bir ay
 
 kg ya da lb. Sen seç.
 
-* Harda Premium'a dahil yapay zekâ özelliği.
-
 HARDA PREMIUM
-Harda'yı indirmek ücretsizdir. Bazı özellikler aylık veya yıllık Harda Premium aboneliği gerektirir. Yeni aboneler ücretsiz deneyebilir. Ödeme, satın alma onaylandığında Apple Hesabınızdan tahsil edilir. Abonelik, mevcut dönemin bitiminden en az 24 saat önce iptal edilmezse otomatik olarak yenilenir. Aboneliğinizi Apple Hesabı ayarlarınızdan yönetebilir veya iptal edebilirsiniz.
+Harda, aylık veya yıllık Harda Premium aboneliği gerektirir. Yeni aboneler ücretsiz deneme süresiyle başlar. Ödeme, satın alma onaylandığında Apple Hesabınızdan tahsil edilir. Abonelik, mevcut dönemin bitiminden en az 24 saat önce iptal edilmezse otomatik olarak yenilenir. Aboneliğinizi Apple Hesabı ayarlarınızdan yönetebilir veya iptal edebilirsiniz.
 
 Kullanım Koşulları: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
 Gizlilik Politikası: [PRIVACY POLICY URL]
@@ -630,13 +612,13 @@ RYCHLÝ ZÁPIS PŘÍMO VE FITKU
 • Osobní rekordy se ukládají samy
 
 PŘENES SI PLÁN, KTERÝ UŽ MÁŠ
-• Snímek obrazovky, fotka sešitu, text nebo hlas: Harda z toho udělá tréninky připravené ke spuštění*
+• Snímek obrazovky, fotka sešitu, text nebo hlas: Harda z toho udělá tréninky připravené ke spuštění
 • Měníš aplikaci? Importuj historii ze souboru CSV
 
 PLÁN, KDYŽ HO POTŘEBUJEŠ
 • Zadej svůj cíl, kolik dní trénuješ, kolik máš času a jaké vybavení je k dispozici
 • Bolí rameno? Plán to zohlední
-• Dnes jiná posilovna? Napiš, co se změnilo, a trénink se přizpůsobí*
+• Dnes jiná posilovna? Napiš, co se změnilo, a trénink se přizpůsobí
 • Nebo si vytvoř vlastní plány
 
 GYM BRO: TRÉNUJ S PŘÁTELI
@@ -662,10 +644,8 @@ Dinosaurus, který občas okomentuje tvůj trénink. Nekonečné pauzy? Měsíc 
 
 kg, nebo lb? Vyber si.
 
-* Funkce AI v rámci Harda Premium.
-
 HARDA PREMIUM
-Harda si můžeš stáhnout zdarma. Některé funkce vyžadují předplatné Harda Premium, měsíční nebo roční. Noví předplatitelé ho mohou vyzkoušet zdarma. Platba se strhne z tvého účtu Apple po potvrzení nákupu. Předplatné se automaticky obnovuje, pokud ho nezrušíš alespoň 24 hodin před koncem aktuálního období. Spravovat nebo zrušit ho můžeš v nastavení účtu Apple.
+Harda vyžaduje předplatné Harda Premium, měsíční nebo roční. Noví předplatitelé začínají zkušební verzí zdarma. Platba se strhne z tvého účtu Apple po potvrzení nákupu. Předplatné se automaticky obnovuje, pokud ho nezrušíš alespoň 24 hodin před koncem aktuálního období. Spravovat nebo zrušit ho můžeš v nastavení účtu Apple.
 
 Podmínky použití: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
 Zásady ochrany osobních údajů: [PRIVACY POLICY URL]
@@ -694,13 +674,13 @@ Harda — трекер тренувань для iPhone і Apple Watch. Запи
 • Особисті рекорди зберігаються автоматично
 
 ПЕРЕНЕСИ ПРОГРАМУ, ЯКА ВЖЕ Є
-• Скриншот, фото з блокнота, текст або голос: Harda перетворить це на тренування, які можна одразу почати*
+• Скриншот, фото з блокнота, текст або голос: Harda перетворить це на тренування, які можна одразу почати
 • Переходиш з іншого застосунку? Імпортуй історію з CSV-файлу
 
 ПЛАН, КОЛИ ВІН ПОТРІБЕН
 • Вкажи мету, скільки днів тренуєшся, скільки маєш часу і яке обладнання є
 • Болить плече? План це врахує
-• Сьогодні інший зал? Напиши, що змінилося, і тренування підлаштується*
+• Сьогодні інший зал? Напиши, що змінилося, і тренування підлаштується
 • Або створи власні програми
 
 GYM BRO: ТРЕНУЙСЯ З ДРУЗЯМИ
@@ -726,10 +706,8 @@ GYM BRO: ТРЕНУЙСЯ З ДРУЗЯМИ
 
 Кілограми чи фунти — вирішуй сам.
 
-* Функція ШІ, входить у Harda Premium.
-
 HARDA PREMIUM
-Harda можна завантажити безкоштовно. Деякі функції потребують підписки Harda Premium — щомісячної або щорічної. Нові підписники можуть спробувати її безкоштовно. Оплата списується з вашого облікового запису Apple після підтвердження покупки. Підписка поновлюється автоматично, якщо її не скасувати щонайменше за 24 години до кінця поточного періоду. Керувати підпискою або скасувати її можна в налаштуваннях облікового запису Apple.
+Для користування Harda потрібна підписка Harda Premium — щомісячна або щорічна. Нові підписники починають із безкоштовного пробного періоду. Оплата списується з вашого облікового запису Apple після підтвердження покупки. Підписка поновлюється автоматично, якщо її не скасувати щонайменше за 24 години до кінця поточного періоду. Керувати підпискою або скасувати її можна в налаштуваннях облікового запису Apple.
 
 Умови використання: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
 Політика конфіденційності: [PRIVACY POLICY URL]
@@ -758,13 +736,13 @@ Harda — трекер тренировок для iPhone и Apple Watch. Зап
 • Личные рекорды сохраняются автоматически
 
 ПЕРЕНЕСИ ПРОГРАММУ, КОТОРАЯ УЖЕ ЕСТЬ
-• Скриншот, фото из блокнота, текст или голос: Harda превратит это в тренировки, которые можно сразу начать*
+• Скриншот, фото из блокнота, текст или голос: Harda превратит это в тренировки, которые можно сразу начать
 • Переходишь из другого приложения? Импортируй историю из CSV-файла
 
 ПЛАН, КОГДА ОН НУЖЕН
 • Укажи цель, сколько дней тренируешься, сколько есть времени и какое оборудование доступно
 • Болит плечо? План это учтёт
-• Сегодня другой зал? Напиши, что изменилось, и тренировка подстроится*
+• Сегодня другой зал? Напиши, что изменилось, и тренировка подстроится
 • Или создай свои программы
 
 GYM BRO: ТРЕНИРУЙСЯ С ДРУЗЬЯМИ
@@ -790,10 +768,8 @@ GYM BRO: ТРЕНИРУЙСЯ С ДРУЗЬЯМИ
 
 Килограммы или фунты — решай сам.
 
-* Функция ИИ, входит в Harda Premium.
-
 HARDA PREMIUM
-Harda можно скачать бесплатно. Некоторые функции требуют подписки Harda Premium — ежемесячной или ежегодной. Новые подписчики могут попробовать её бесплатно. Оплата списывается с вашей учётной записи Apple при подтверждении покупки. Подписка продлевается автоматически, если её не отменить как минимум за 24 часа до конца текущего периода. Управлять подпиской или отменить её можно в настройках учётной записи Apple.
+Для использования Harda нужна подписка Harda Premium — ежемесячная или ежегодная. Новые подписчики начинают с бесплатного пробного периода. Оплата списывается с вашей учётной записи Apple при подтверждении покупки. Подписка продлевается автоматически, если её не отменить как минимум за 24 часа до конца текущего периода. Управлять подпиской или отменить её можно в настройках учётной записи Apple.
 
 Условия использования: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
 Политика конфиденциальности: [PRIVACY POLICY URL]
@@ -822,13 +798,13 @@ SNEL LOGGEN, MIDDEN IN DE SPORTSCHOOL
 • Persoonlijke records worden meteen opgeslagen
 
 NEEM JE SCHEMA MEE
-• Screenshot, foto van je schrift, tekst of spraak: Harda maakt er routines van die je meteen kunt starten*
+• Screenshot, foto van je schrift, tekst of spraak: Harda maakt er routines van die je meteen kunt starten
 • Overstappen van een andere app? Importeer je geschiedenis uit een CSV-bestand
 
 EEN SCHEMA ALS JE ER EEN NODIG HEBT
 • Vertel Harda je doel, hoeveel dagen je traint, hoeveel tijd je hebt en welke apparatuur er is
 • Last van je schouder? Je schema houdt er rekening mee
-• Vandaag een andere sportschool? Zeg wat er anders is en de training past zich aan*
+• Vandaag een andere sportschool? Zeg wat er anders is en de training past zich aan
 • Of maak je eigen routines
 
 GYM BRO: TRAIN MET VRIENDEN
@@ -854,10 +830,8 @@ Een dinosaurus die af en toe commentaar geeft op je training. Eindeloos rusten? 
 
 kg of lb. Jij kiest.
 
-* AI-functie, onderdeel van Harda Premium.
-
 HARDA PREMIUM
-Harda is gratis te downloaden. Sommige functies vereisen een Harda Premium-abonnement, per maand of per jaar. Nieuwe abonnees kunnen het gratis proberen. De betaling wordt bij bevestiging van de aankoop in rekening gebracht via je Apple Account. Het abonnement wordt automatisch verlengd, tenzij het minstens 24 uur voor het einde van de huidige periode wordt opgezegd. Beheer of zeg het op in de instellingen van je Apple Account.
+Voor Harda is een Harda Premium-abonnement nodig, per maand of per jaar. Nieuwe abonnees beginnen met een gratis proefperiode. De betaling wordt bij bevestiging van de aankoop in rekening gebracht via je Apple Account. Het abonnement wordt automatisch verlengd, tenzij het minstens 24 uur voor het einde van de huidige periode wordt opgezegd. Beheer of zeg het op in de instellingen van je Apple Account.
 
 Gebruiksvoorwaarden: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
 Privacybeleid: [PRIVACY POLICY URL]
