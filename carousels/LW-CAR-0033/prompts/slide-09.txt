@@ -1,0 +1,16 @@
+Create ONE finished Harda S2 portrait carousel slide, 1080 x 1350, 4:5. Precisely match supplied owner-approved S2 references for the very heavy tight lowercase grotesk headlines, clean regular sans body, regular italic grey subtitle, flat coral markers, and realistic WHITE/LIGHT-GREY anatomy mannequin: adult athletic, bald and faceless, fine grey shading, opaque black #2A2A2A shorts, smooth featureless pelvis. Equipment black/grey. No sand/green muscle colors. Highlight only the muscle groups expressly specified for this slide. Use references for DESIGN ONLY and replace ALL their words/poses with the exact instructions below. Solid opaque CLEAN #F0F1EB background, no arch, texture, dots or grid. Main text #2A2A2A, secondary #6B6B6B, coral #F26445, white #FFFFFF. Entire top 110px empty for the actual transparent Harda logo, to be composited afterward at x=48,y=19,size=218x71. Do not generate a logo, brand wordmark, watermark, signature, counter, progress bar, border, panels or additional text. Preserve every supplied word, number, capitalization, apostrophe, hyphen, punctuation and symbol exactly. Every line fully visible and separated from figures/equipment. Long headlines may wrap to two lines with a marker behind each line. No automatic changes to copy.
+
+PRODUCT ENDING — generate ONLY TEXT AND CLEAN BACKGROUND. Use the approved ending reference for typography and alignment, NEVER its words. Do not draw a phone, hand, placeholder, app UI, charts or icons. The exact approved real phone AND white hand pixel strip will be inserted afterward at x=0,y=820, at original scale. The actual phone starts around y=828 and may extend off the bottom. Keep the ENTIRE area below y=720 free of ALL generated copy and illustrations, leaving a wide clear gap above the inserted phone.
+
+EXACT very heavy lowercase left-aligned headline, below y=110, in these lines:
+harda tracks
+every set you lift,
+so you can
+see your progress,
+not just feel it.
+
+Coral marker bars behind ONLY these phrases: `every set you lift`, `see your progress`. Finish the complete headline by y=570, without clipping or dropping punctuation. EXACT regular #2A2A2A left-aligned body, in these lines:
+log your workouts and compare
+this month with the last one.
+
+Finish ALL body text by y=700. Below it leave plain empty #F0F1EB background, including y=720 to 820 as a clear reserved gap. Do not put even a phone outline/hand anywhere near the text. Never generate or imitate app UI. Return the text/background plate only.

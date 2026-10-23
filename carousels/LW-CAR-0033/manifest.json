@@ -1,0 +1,475 @@
+{
+  "carousel_id": "LW-CAR-0033",
+  "content_version": "1.0",
+  "source_commit": "28a32e43c27bf266a6c9dcba1d1d66400442d0ff",
+  "branch": "claude/charming-einstein-xgejky",
+  "target_branch": "claude/charming-einstein-xgejky",
+  "batch": "C",
+  "batch_task": "carousels/BATCH-C.md",
+  "design_style": "S2",
+  "status": "incomplete",
+  "carousel_complete": false,
+  "scope": {
+    "total_slides": 9,
+    "authorized_slides": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ]
+  },
+  "reference_id": null,
+  "reference_use": "Approved LW-CAR-0022 for S2 cover/type/ending and LW-CAR-0029 slide 2 for sign layout, removing fix line and adding the specified check badge. Existing references opened before generation. Ending phone/hand is an exact approved pixel strip placed lower to leave the requested gap.",
+  "font_family": "REF-008 look: heavy tight grotesk for headlines, clean sans for body, italic for tier lines",
+  "background": "CLEAN #F0F1EB",
+  "logo": {
+    "file": "assets/logo/harda-logo-full.png",
+    "position": [
+      48,
+      19
+    ],
+    "size": [
+      218,
+      71
+    ],
+    "old_lightweight_logo_used": false
+  },
+  "phone_composite": {
+    "file": "production-assets/approved-phone-hand-strip.png",
+    "position": [
+      0,
+      820
+    ],
+    "source_file": "carousels/LW-CAR-0022/outputs/slide-19.png",
+    "source_crop": [
+      0,
+      720,
+      1080,
+      1350
+    ],
+    "description": "Exact approved S2 phone AND white hand pixels from LW-CAR-0022 slide 19, crop x=0,y=720,w=1080,h=630, pasted at x=0,y=820 WITHOUT scaling. Device starts about y=828, below body copy ending by y=700; no generated UI or hand."
+  },
+  "generated_images": [
+    "outputs/slide-01.png",
+    "outputs/slide-02.png",
+    "outputs/slide-03.png",
+    "outputs/slide-04.png",
+    "outputs/slide-05.png"
+  ],
+  "blocked_slides": [],
+  "next_slide_to_generate": 6,
+  "approved_slides": [],
+  "pending_review_slides": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "user_review": "pending",
+  "agent_visual_review": "not_performed",
+  "next_action": "Stop Batch C after pushing checkpoint. Resume slide 6 only after reconciling raw and exported files; no automatic retry.",
+  "caption": "caption.txt",
+  "remote_save": {
+    "remote": "origin",
+    "branch": "claude/charming-einstein-xgejky",
+    "status": "pushed_to_target_branch",
+    "method": "Immediate incomplete checkpoint after interruption.",
+    "commit_lookup": "git log -1 -- carousels/LW-CAR-0033/manifest.json"
+  },
+  "slides": [
+    {
+      "slide": 1,
+      "content_version": "1.0",
+      "role": "hook",
+      "exact_text": [
+        "signs you’re actually",
+        "making progress",
+        "(even if the mirror says no)"
+      ],
+      "file": "outputs/slide-01.png",
+      "prompt": "Create ONE finished Harda S2 portrait carousel slide, 1080 x 1350, 4:5. Precisely match supplied owner-approved S2 references for the very heavy tight lowercase grotesk headlines, clean regular sans body, regular italic grey subtitle, flat coral markers, and realistic WHITE/LIGHT-GREY anatomy mannequin: adult athletic, bald and faceless, fine grey shading, opaque black #2A2A2A shorts, smooth featureless pelvis. Equipment black/grey. No sand/green muscle colors. Highlight only the muscle groups expressly specified for this slide. Use references for DESIGN ONLY and replace ALL their words/poses with the exact instructions below. Solid opaque CLEAN #F0F1EB background, no arch, texture, dots or grid. Main text #2A2A2A, secondary #6B6B6B, coral #F26445, white #FFFFFF. Entire top 110px empty for the actual transparent Harda logo, to be composited afterward at x=48,y=19,size=218x71. Do not generate a logo, brand wordmark, watermark, signature, counter, progress bar, border, panels or additional text. Preserve every supplied word, number, capitalization, apostrophe, hyphen, punctuation and symbol exactly. Every line fully visible and separated from figures/equipment. Long headlines may wrap to two lines with a marker behind each line. No automatic changes to copy.\n\nCOVER — same centered heavy headline / marker / italic subtitle layout as approved LW-CAR-0022 slide 1. Exact lines:\nsigns you’re actually\nmaking progress\n(even if the mirror says no)\nFirst two lines very heavy tight lowercase grotesk, coral marker behind ONLY `making progress`; subtitle regular italic grey. Keep the full first string in one line, fitted within side margins, not shortened. Lower half: front view from thighs up, white mannequin flexing both arms in a RELAXED front double biceps, proud cheerful body language but face remains featureless. Biceps AND shoulders filled coral, other muscles white/light-grey. Opaque black shorts. No other text or equipment.",
+      "prompt_file": "prompts/slide-01.txt",
+      "reference": [
+        "carousels/LW-CAR-0022/outputs/slide-01.png"
+      ],
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-23T11:09:48.511176+00:00",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "carousels/LW-CAR-0022/outputs/slide-01.png"
+          ],
+          "prompt": "Create ONE finished Harda S2 portrait carousel slide, 1080 x 1350, 4:5. Precisely match supplied owner-approved S2 references for the very heavy tight lowercase grotesk headlines, clean regular sans body, regular italic grey subtitle, flat coral markers, and realistic WHITE/LIGHT-GREY anatomy mannequin: adult athletic, bald and faceless, fine grey shading, opaque black #2A2A2A shorts, smooth featureless pelvis. Equipment black/grey. No sand/green muscle colors. Highlight only the muscle groups expressly specified for this slide. Use references for DESIGN ONLY and replace ALL their words/poses with the exact instructions below. Solid opaque CLEAN #F0F1EB background, no arch, texture, dots or grid. Main text #2A2A2A, secondary #6B6B6B, coral #F26445, white #FFFFFF. Entire top 110px empty for the actual transparent Harda logo, to be composited afterward at x=48,y=19,size=218x71. Do not generate a logo, brand wordmark, watermark, signature, counter, progress bar, border, panels or additional text. Preserve every supplied word, number, capitalization, apostrophe, hyphen, punctuation and symbol exactly. Every line fully visible and separated from figures/equipment. Long headlines may wrap to two lines with a marker behind each line. No automatic changes to copy.\n\nCOVER — same centered heavy headline / marker / italic subtitle layout as approved LW-CAR-0022 slide 1. Exact lines:\nsigns you’re actually\nmaking progress\n(even if the mirror says no)\nFirst two lines very heavy tight lowercase grotesk, coral marker behind ONLY `making progress`; subtitle regular italic grey. Keep the full first string in one line, fitted within side margins, not shortened. Lower half: front view from thighs up, white mannequin flexing both arms in a RELAXED front double biceps, proud cheerful body language but face remains featureless. Biceps AND shoulders filled coral, other muscles white/light-grey. Opaque black shorts. No other text or equipment.",
+          "prompt_file": "prompts/slide-01.txt",
+          "raw_result_file": "/workspace/generated_images/exec-f0d85b12-fa8a-4433-8115-8ce3017866c5.png",
+          "preserved_raw_file": "production-assets/slide-01-generated.png",
+          "finished_at": "2026-10-23T11:10:24.423504+00:00",
+          "result_file": "outputs/slide-01.png",
+          "export": {
+            "raw_size": [
+              1122,
+              1402
+            ],
+            "uniform_fit_size": [
+              1080,
+              1350
+            ],
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "has_alpha": false,
+            "logo": "Actual transparent Harda PNG x48,y19,218x71, own alpha, no backing patch."
+          }
+        }
+      ],
+      "errors": [],
+      "save_status": "pushed_to_target_branch",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 2,
+      "content_version": "1.0",
+      "role": "sign #1",
+      "exact_text": [
+        "#1",
+        "your weights keep going up",
+        "the same exercise, a little heavier than last month."
+      ],
+      "file": "outputs/slide-02.png",
+      "prompt": "Create ONE finished Harda S2 portrait carousel slide, 1080 x 1350, 4:5. Precisely match supplied owner-approved S2 references for the very heavy tight lowercase grotesk headlines, clean regular sans body, regular italic grey subtitle, flat coral markers, and realistic WHITE/LIGHT-GREY anatomy mannequin: adult athletic, bald and faceless, fine grey shading, opaque black #2A2A2A shorts, smooth featureless pelvis. Equipment black/grey. No sand/green muscle colors. Highlight only the muscle groups expressly specified for this slide. Use references for DESIGN ONLY and replace ALL their words/poses with the exact instructions below. Solid opaque CLEAN #F0F1EB background, no arch, texture, dots or grid. Main text #2A2A2A, secondary #6B6B6B, coral #F26445, white #FFFFFF. Entire top 110px empty for the actual transparent Harda logo, to be composited afterward at x=48,y=19,size=218x71. Do not generate a logo, brand wordmark, watermark, signature, counter, progress bar, border, panels or additional text. Preserve every supplied word, number, capitalization, apostrophe, hyphen, punctuation and symbol exactly. Every line fully visible and separated from figures/equipment. Long headlines may wrap to two lines with a marker behind each line. No automatic changes to copy.\n\nSIGN LAYOUT — match approved LW-CAR-0029 slide 2 for the number, very heavy tight lowercase marker headline, regular body and large lower figure. REMOVE the reference's `fix:` line entirely; no stars or difficulty meter. Around 80px side margins. Number at upper left below y=110; next to the number one SMALL ROUND coral #F26445 badge with a WHITE check mark `✓`. The headline is dark #2A2A2A, with coral marker behind HEADLINE WORDS ONLY, not behind number. Long headline may wrap into two lines, preserving every word and hyphen, with marker behind each line. Regular body below, no more than two lines; all copy finishes above about y=500. Lower ~55%: one large white/light-grey mannequin in the exact stated pose with equipment/props. Keep needed body and equipment fully below/clear of copy. Faceless even when mood is suggested; convey mood through posture, no eyes or smile drawn.\n\nEXACT TEXT:\nnumber: `#1`\nmarker headline: `your weights keep going up`\nregular body: `the same exercise, a little heavier than last month.`\nFIGURE: standing barbell curl with a loaded bar, front view.\nHIGHLIGHT: Only both biceps coral.\nAll other muscle regions white/light grey. No other words, line of advice or invented numbers.",
+      "prompt_file": "prompts/slide-02.txt",
+      "reference": [
+        "carousels/LW-CAR-0029/outputs/slide-02.png"
+      ],
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-23T11:10:25.069758+00:00",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "carousels/LW-CAR-0029/outputs/slide-02.png"
+          ],
+          "prompt": "Create ONE finished Harda S2 portrait carousel slide, 1080 x 1350, 4:5. Precisely match supplied owner-approved S2 references for the very heavy tight lowercase grotesk headlines, clean regular sans body, regular italic grey subtitle, flat coral markers, and realistic WHITE/LIGHT-GREY anatomy mannequin: adult athletic, bald and faceless, fine grey shading, opaque black #2A2A2A shorts, smooth featureless pelvis. Equipment black/grey. No sand/green muscle colors. Highlight only the muscle groups expressly specified for this slide. Use references for DESIGN ONLY and replace ALL their words/poses with the exact instructions below. Solid opaque CLEAN #F0F1EB background, no arch, texture, dots or grid. Main text #2A2A2A, secondary #6B6B6B, coral #F26445, white #FFFFFF. Entire top 110px empty for the actual transparent Harda logo, to be composited afterward at x=48,y=19,size=218x71. Do not generate a logo, brand wordmark, watermark, signature, counter, progress bar, border, panels or additional text. Preserve every supplied word, number, capitalization, apostrophe, hyphen, punctuation and symbol exactly. Every line fully visible and separated from figures/equipment. Long headlines may wrap to two lines with a marker behind each line. No automatic changes to copy.\n\nSIGN LAYOUT — match approved LW-CAR-0029 slide 2 for the number, very heavy tight lowercase marker headline, regular body and large lower figure. REMOVE the reference's `fix:` line entirely; no stars or difficulty meter. Around 80px side margins. Number at upper left below y=110; next to the number one SMALL ROUND coral #F26445 badge with a WHITE check mark `✓`. The headline is dark #2A2A2A, with coral marker behind HEADLINE WORDS ONLY, not behind number. Long headline may wrap into two lines, preserving every word and hyphen, with marker behind each line. Regular body below, no more than two lines; all copy finishes above about y=500. Lower ~55%: one large white/light-grey mannequin in the exact stated pose with equipment/props. Keep needed body and equipment fully below/clear of copy. Faceless even when mood is suggested; convey mood through posture, no eyes or smile drawn.\n\nEXACT TEXT:\nnumber: `#1`\nmarker headline: `your weights keep going up`\nregular body: `the same exercise, a little heavier than last month.`\nFIGURE: standing barbell curl with a loaded bar, front view.\nHIGHLIGHT: Only both biceps coral.\nAll other muscle regions white/light grey. No other words, line of advice or invented numbers.",
+          "prompt_file": "prompts/slide-02.txt",
+          "raw_result_file": "/workspace/generated_images/exec-2090ae1a-73d6-47cf-8d43-1a849bcc8edf.png",
+          "preserved_raw_file": "production-assets/slide-02-generated.png",
+          "finished_at": "2026-10-23T11:11:21.433879+00:00",
+          "result_file": "outputs/slide-02.png",
+          "export": {
+            "raw_size": [
+              1122,
+              1402
+            ],
+            "uniform_fit_size": [
+              1080,
+              1350
+            ],
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "has_alpha": false,
+            "logo": "Actual transparent Harda PNG x48,y19,218x71, own alpha, no backing patch."
+          }
+        }
+      ],
+      "errors": [],
+      "save_status": "pushed_to_target_branch",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 3,
+      "content_version": "1.0",
+      "role": "sign #2",
+      "exact_text": [
+        "#2",
+        "you get more reps",
+        "same weight, more reps. that counts too."
+      ],
+      "file": "outputs/slide-03.png",
+      "prompt": "Create ONE finished Harda S2 portrait carousel slide, 1080 x 1350, 4:5. Precisely match supplied owner-approved S2 references for the very heavy tight lowercase grotesk headlines, clean regular sans body, regular italic grey subtitle, flat coral markers, and realistic WHITE/LIGHT-GREY anatomy mannequin: adult athletic, bald and faceless, fine grey shading, opaque black #2A2A2A shorts, smooth featureless pelvis. Equipment black/grey. No sand/green muscle colors. Highlight only the muscle groups expressly specified for this slide. Use references for DESIGN ONLY and replace ALL their words/poses with the exact instructions below. Solid opaque CLEAN #F0F1EB background, no arch, texture, dots or grid. Main text #2A2A2A, secondary #6B6B6B, coral #F26445, white #FFFFFF. Entire top 110px empty for the actual transparent Harda logo, to be composited afterward at x=48,y=19,size=218x71. Do not generate a logo, brand wordmark, watermark, signature, counter, progress bar, border, panels or additional text. Preserve every supplied word, number, capitalization, apostrophe, hyphen, punctuation and symbol exactly. Every line fully visible and separated from figures/equipment. Long headlines may wrap to two lines with a marker behind each line. No automatic changes to copy.\n\nSIGN LAYOUT — match approved LW-CAR-0029 slide 2 for the number, very heavy tight lowercase marker headline, regular body and large lower figure. REMOVE the reference's `fix:` line entirely; no stars or difficulty meter. Around 80px side margins. Number at upper left below y=110; next to the number one SMALL ROUND coral #F26445 badge with a WHITE check mark `✓`. The headline is dark #2A2A2A, with coral marker behind HEADLINE WORDS ONLY, not behind number. Long headline may wrap into two lines, preserving every word and hyphen, with marker behind each line. Regular body below, no more than two lines; all copy finishes above about y=500. Lower ~55%: one large white/light-grey mannequin in the exact stated pose with equipment/props. Keep needed body and equipment fully below/clear of copy. Faceless even when mood is suggested; convey mood through posture, no eyes or smile drawn.\n\nEXACT TEXT:\nnumber: `#2`\nmarker headline: `you get more reps`\nregular body: `same weight, more reps. that counts too.`\nFIGURE: push-up, side view, strong and controlled.\nHIGHLIGHT: Only chest/pectoral muscles coral.\nAll other muscle regions white/light grey. No other words, line of advice or invented numbers.",
+      "prompt_file": "prompts/slide-03.txt",
+      "reference": [
+        "carousels/LW-CAR-0029/outputs/slide-02.png"
+      ],
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-23T11:11:21.845755+00:00",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "carousels/LW-CAR-0029/outputs/slide-02.png"
+          ],
+          "prompt": "Create ONE finished Harda S2 portrait carousel slide, 1080 x 1350, 4:5. Precisely match supplied owner-approved S2 references for the very heavy tight lowercase grotesk headlines, clean regular sans body, regular italic grey subtitle, flat coral markers, and realistic WHITE/LIGHT-GREY anatomy mannequin: adult athletic, bald and faceless, fine grey shading, opaque black #2A2A2A shorts, smooth featureless pelvis. Equipment black/grey. No sand/green muscle colors. Highlight only the muscle groups expressly specified for this slide. Use references for DESIGN ONLY and replace ALL their words/poses with the exact instructions below. Solid opaque CLEAN #F0F1EB background, no arch, texture, dots or grid. Main text #2A2A2A, secondary #6B6B6B, coral #F26445, white #FFFFFF. Entire top 110px empty for the actual transparent Harda logo, to be composited afterward at x=48,y=19,size=218x71. Do not generate a logo, brand wordmark, watermark, signature, counter, progress bar, border, panels or additional text. Preserve every supplied word, number, capitalization, apostrophe, hyphen, punctuation and symbol exactly. Every line fully visible and separated from figures/equipment. Long headlines may wrap to two lines with a marker behind each line. No automatic changes to copy.\n\nSIGN LAYOUT — match approved LW-CAR-0029 slide 2 for the number, very heavy tight lowercase marker headline, regular body and large lower figure. REMOVE the reference's `fix:` line entirely; no stars or difficulty meter. Around 80px side margins. Number at upper left below y=110; next to the number one SMALL ROUND coral #F26445 badge with a WHITE check mark `✓`. The headline is dark #2A2A2A, with coral marker behind HEADLINE WORDS ONLY, not behind number. Long headline may wrap into two lines, preserving every word and hyphen, with marker behind each line. Regular body below, no more than two lines; all copy finishes above about y=500. Lower ~55%: one large white/light-grey mannequin in the exact stated pose with equipment/props. Keep needed body and equipment fully below/clear of copy. Faceless even when mood is suggested; convey mood through posture, no eyes or smile drawn.\n\nEXACT TEXT:\nnumber: `#2`\nmarker headline: `you get more reps`\nregular body: `same weight, more reps. that counts too.`\nFIGURE: push-up, side view, strong and controlled.\nHIGHLIGHT: Only chest/pectoral muscles coral.\nAll other muscle regions white/light grey. No other words, line of advice or invented numbers.",
+          "prompt_file": "prompts/slide-03.txt",
+          "raw_result_file": "/workspace/generated_images/exec-83935ce3-3f58-4fdd-bfd6-3e6d90f924c7.png",
+          "preserved_raw_file": "production-assets/slide-03-generated.png",
+          "finished_at": "2026-10-23T11:12:20.541965+00:00",
+          "result_file": "outputs/slide-03.png",
+          "export": {
+            "raw_size": [
+              1122,
+              1402
+            ],
+            "uniform_fit_size": [
+              1080,
+              1350
+            ],
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "has_alpha": false,
+            "logo": "Actual transparent Harda PNG x48,y19,218x71, own alpha, no backing patch."
+          }
+        }
+      ],
+      "errors": [],
+      "save_status": "pushed_to_target_branch",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 4,
+      "content_version": "1.0",
+      "role": "sign #3",
+      "exact_text": [
+        "#3",
+        "your clothes fit differently",
+        "tighter in the shoulders and arms, looser at the waist."
+      ],
+      "file": "outputs/slide-04.png",
+      "prompt": "Create ONE finished Harda S2 portrait carousel slide, 1080 x 1350, 4:5. Precisely match supplied owner-approved S2 references for the very heavy tight lowercase grotesk headlines, clean regular sans body, regular italic grey subtitle, flat coral markers, and realistic WHITE/LIGHT-GREY anatomy mannequin: adult athletic, bald and faceless, fine grey shading, opaque black #2A2A2A shorts, smooth featureless pelvis. Equipment black/grey. No sand/green muscle colors. Highlight only the muscle groups expressly specified for this slide. Use references for DESIGN ONLY and replace ALL their words/poses with the exact instructions below. Solid opaque CLEAN #F0F1EB background, no arch, texture, dots or grid. Main text #2A2A2A, secondary #6B6B6B, coral #F26445, white #FFFFFF. Entire top 110px empty for the actual transparent Harda logo, to be composited afterward at x=48,y=19,size=218x71. Do not generate a logo, brand wordmark, watermark, signature, counter, progress bar, border, panels or additional text. Preserve every supplied word, number, capitalization, apostrophe, hyphen, punctuation and symbol exactly. Every line fully visible and separated from figures/equipment. Long headlines may wrap to two lines with a marker behind each line. No automatic changes to copy.\n\nSIGN LAYOUT — match approved LW-CAR-0029 slide 2 for the number, very heavy tight lowercase marker headline, regular body and large lower figure. REMOVE the reference's `fix:` line entirely; no stars or difficulty meter. Around 80px side margins. Number at upper left below y=110; next to the number one SMALL ROUND coral #F26445 badge with a WHITE check mark `✓`. The headline is dark #2A2A2A, with coral marker behind HEADLINE WORDS ONLY, not behind number. Long headline may wrap into two lines, preserving every word and hyphen, with marker behind each line. Regular body below, no more than two lines; all copy finishes above about y=500. Lower ~55%: one large white/light-grey mannequin in the exact stated pose with equipment/props. Keep needed body and equipment fully below/clear of copy. Faceless even when mood is suggested; convey mood through posture, no eyes or smile drawn.\n\nEXACT TEXT:\nnumber: `#3`\nmarker headline: `your clothes fit differently`\nregular body: `tighter in the shoulders and arms, looser at the waist.`\nFIGURE: front view from the thighs up, pulling at a tight plain #2A2A2A t-shirt across the shoulders, a little proud.\nHIGHLIGHT: Only shoulders coral as an educational muscle-map overlay on the opaque t-shirt fabric. Do not expose the shoulders or remove shirt.\nAll other muscle regions white/light grey. No other words, line of advice or invented numbers.",
+      "prompt_file": "prompts/slide-04.txt",
+      "reference": [
+        "carousels/LW-CAR-0029/outputs/slide-02.png"
+      ],
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-23T11:12:20.972842+00:00",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "carousels/LW-CAR-0029/outputs/slide-02.png"
+          ],
+          "prompt": "Create ONE finished Harda S2 portrait carousel slide, 1080 x 1350, 4:5. Precisely match supplied owner-approved S2 references for the very heavy tight lowercase grotesk headlines, clean regular sans body, regular italic grey subtitle, flat coral markers, and realistic WHITE/LIGHT-GREY anatomy mannequin: adult athletic, bald and faceless, fine grey shading, opaque black #2A2A2A shorts, smooth featureless pelvis. Equipment black/grey. No sand/green muscle colors. Highlight only the muscle groups expressly specified for this slide. Use references for DESIGN ONLY and replace ALL their words/poses with the exact instructions below. Solid opaque CLEAN #F0F1EB background, no arch, texture, dots or grid. Main text #2A2A2A, secondary #6B6B6B, coral #F26445, white #FFFFFF. Entire top 110px empty for the actual transparent Harda logo, to be composited afterward at x=48,y=19,size=218x71. Do not generate a logo, brand wordmark, watermark, signature, counter, progress bar, border, panels or additional text. Preserve every supplied word, number, capitalization, apostrophe, hyphen, punctuation and symbol exactly. Every line fully visible and separated from figures/equipment. Long headlines may wrap to two lines with a marker behind each line. No automatic changes to copy.\n\nSIGN LAYOUT — match approved LW-CAR-0029 slide 2 for the number, very heavy tight lowercase marker headline, regular body and large lower figure. REMOVE the reference's `fix:` line entirely; no stars or difficulty meter. Around 80px side margins. Number at upper left below y=110; next to the number one SMALL ROUND coral #F26445 badge with a WHITE check mark `✓`. The headline is dark #2A2A2A, with coral marker behind HEADLINE WORDS ONLY, not behind number. Long headline may wrap into two lines, preserving every word and hyphen, with marker behind each line. Regular body below, no more than two lines; all copy finishes above about y=500. Lower ~55%: one large white/light-grey mannequin in the exact stated pose with equipment/props. Keep needed body and equipment fully below/clear of copy. Faceless even when mood is suggested; convey mood through posture, no eyes or smile drawn.\n\nEXACT TEXT:\nnumber: `#3`\nmarker headline: `your clothes fit differently`\nregular body: `tighter in the shoulders and arms, looser at the waist.`\nFIGURE: front view from the thighs up, pulling at a tight plain #2A2A2A t-shirt across the shoulders, a little proud.\nHIGHLIGHT: Only shoulders coral as an educational muscle-map overlay on the opaque t-shirt fabric. Do not expose the shoulders or remove shirt.\nAll other muscle regions white/light grey. No other words, line of advice or invented numbers.",
+          "prompt_file": "prompts/slide-04.txt",
+          "raw_result_file": "/workspace/generated_images/exec-95e455f0-9747-45a7-8502-82eb89a648e3.png",
+          "preserved_raw_file": "production-assets/slide-04-generated.png",
+          "finished_at": "2026-10-23T11:13:09.900750+00:00",
+          "result_file": "outputs/slide-04.png",
+          "export": {
+            "raw_size": [
+              1122,
+              1402
+            ],
+            "uniform_fit_size": [
+              1080,
+              1350
+            ],
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "has_alpha": false,
+            "logo": "Actual transparent Harda PNG x48,y19,218x71, own alpha, no backing patch."
+          }
+        }
+      ],
+      "errors": [],
+      "save_status": "pushed_to_target_branch",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 5,
+      "content_version": "1.0",
+      "role": "sign #4",
+      "exact_text": [
+        "#4",
+        "your old weight is your warm-up",
+        "what used to be hard now feels light."
+      ],
+      "file": "outputs/slide-05.png",
+      "prompt": "Create ONE finished Harda S2 portrait carousel slide, 1080 x 1350, 4:5. Precisely match supplied owner-approved S2 references for the very heavy tight lowercase grotesk headlines, clean regular sans body, regular italic grey subtitle, flat coral markers, and realistic WHITE/LIGHT-GREY anatomy mannequin: adult athletic, bald and faceless, fine grey shading, opaque black #2A2A2A shorts, smooth featureless pelvis. Equipment black/grey. No sand/green muscle colors. Highlight only the muscle groups expressly specified for this slide. Use references for DESIGN ONLY and replace ALL their words/poses with the exact instructions below. Solid opaque CLEAN #F0F1EB background, no arch, texture, dots or grid. Main text #2A2A2A, secondary #6B6B6B, coral #F26445, white #FFFFFF. Entire top 110px empty for the actual transparent Harda logo, to be composited afterward at x=48,y=19,size=218x71. Do not generate a logo, brand wordmark, watermark, signature, counter, progress bar, border, panels or additional text. Preserve every supplied word, number, capitalization, apostrophe, hyphen, punctuation and symbol exactly. Every line fully visible and separated from figures/equipment. Long headlines may wrap to two lines with a marker behind each line. No automatic changes to copy.\n\nSIGN LAYOUT — match approved LW-CAR-0029 slide 2 for the number, very heavy tight lowercase marker headline, regular body and large lower figure. REMOVE the reference's `fix:` line entirely; no stars or difficulty meter. Around 80px side margins. Number at upper left below y=110; next to the number one SMALL ROUND coral #F26445 badge with a WHITE check mark `✓`. The headline is dark #2A2A2A, with coral marker behind HEADLINE WORDS ONLY, not behind number. Long headline may wrap into two lines, preserving every word and hyphen, with marker behind each line. Regular body below, no more than two lines; all copy finishes above about y=500. Lower ~55%: one large white/light-grey mannequin in the exact stated pose with equipment/props. Keep needed body and equipment fully below/clear of copy. Faceless even when mood is suggested; convey mood through posture, no eyes or smile drawn.\n\nEXACT TEXT:\nnumber: `#4`\nmarker headline: `your old weight is your warm-up`\nregular body: `what used to be hard now feels light.`\nFIGURE: seated dumbbell shoulder press with light dumbbells, relaxed and easy, front view.\nHIGHLIGHT: Only both side/lateral delts coral.\nAll other muscle regions white/light grey. No other words, line of advice or invented numbers.",
+      "prompt_file": "prompts/slide-05.txt",
+      "reference": [
+        "carousels/LW-CAR-0029/outputs/slide-02.png"
+      ],
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-23T11:13:10.379224+00:00",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "carousels/LW-CAR-0029/outputs/slide-02.png"
+          ],
+          "prompt": "Create ONE finished Harda S2 portrait carousel slide, 1080 x 1350, 4:5. Precisely match supplied owner-approved S2 references for the very heavy tight lowercase grotesk headlines, clean regular sans body, regular italic grey subtitle, flat coral markers, and realistic WHITE/LIGHT-GREY anatomy mannequin: adult athletic, bald and faceless, fine grey shading, opaque black #2A2A2A shorts, smooth featureless pelvis. Equipment black/grey. No sand/green muscle colors. Highlight only the muscle groups expressly specified for this slide. Use references for DESIGN ONLY and replace ALL their words/poses with the exact instructions below. Solid opaque CLEAN #F0F1EB background, no arch, texture, dots or grid. Main text #2A2A2A, secondary #6B6B6B, coral #F26445, white #FFFFFF. Entire top 110px empty for the actual transparent Harda logo, to be composited afterward at x=48,y=19,size=218x71. Do not generate a logo, brand wordmark, watermark, signature, counter, progress bar, border, panels or additional text. Preserve every supplied word, number, capitalization, apostrophe, hyphen, punctuation and symbol exactly. Every line fully visible and separated from figures/equipment. Long headlines may wrap to two lines with a marker behind each line. No automatic changes to copy.\n\nSIGN LAYOUT — match approved LW-CAR-0029 slide 2 for the number, very heavy tight lowercase marker headline, regular body and large lower figure. REMOVE the reference's `fix:` line entirely; no stars or difficulty meter. Around 80px side margins. Number at upper left below y=110; next to the number one SMALL ROUND coral #F26445 badge with a WHITE check mark `✓`. The headline is dark #2A2A2A, with coral marker behind HEADLINE WORDS ONLY, not behind number. Long headline may wrap into two lines, preserving every word and hyphen, with marker behind each line. Regular body below, no more than two lines; all copy finishes above about y=500. Lower ~55%: one large white/light-grey mannequin in the exact stated pose with equipment/props. Keep needed body and equipment fully below/clear of copy. Faceless even when mood is suggested; convey mood through posture, no eyes or smile drawn.\n\nEXACT TEXT:\nnumber: `#4`\nmarker headline: `your old weight is your warm-up`\nregular body: `what used to be hard now feels light.`\nFIGURE: seated dumbbell shoulder press with light dumbbells, relaxed and easy, front view.\nHIGHLIGHT: Only both side/lateral delts coral.\nAll other muscle regions white/light grey. No other words, line of advice or invented numbers.",
+          "prompt_file": "prompts/slide-05.txt",
+          "raw_result_file": "/workspace/generated_images/exec-768f4111-2a57-4d09-8d91-99aa70de521a.png",
+          "preserved_raw_file": "production-assets/slide-05-generated.png",
+          "finished_at": "2026-10-23T11:13:55.034259+00:00",
+          "result_file": "outputs/slide-05.png",
+          "export": {
+            "raw_size": [
+              1122,
+              1402
+            ],
+            "uniform_fit_size": [
+              1080,
+              1350
+            ],
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "has_alpha": false,
+            "logo": "Actual transparent Harda PNG x48,y19,218x71, own alpha, no backing patch."
+          }
+        }
+      ],
+      "errors": [],
+      "save_status": "pushed_to_target_branch",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 6,
+      "content_version": "1.0",
+      "role": "sign #5",
+      "exact_text": [
+        "#5",
+        "your form looks smoother",
+        "more control on every rep means your body is learning."
+      ],
+      "file": "outputs/slide-06.png",
+      "prompt": "Create ONE finished Harda S2 portrait carousel slide, 1080 x 1350, 4:5. Precisely match supplied owner-approved S2 references for the very heavy tight lowercase grotesk headlines, clean regular sans body, regular italic grey subtitle, flat coral markers, and realistic WHITE/LIGHT-GREY anatomy mannequin: adult athletic, bald and faceless, fine grey shading, opaque black #2A2A2A shorts, smooth featureless pelvis. Equipment black/grey. No sand/green muscle colors. Highlight only the muscle groups expressly specified for this slide. Use references for DESIGN ONLY and replace ALL their words/poses with the exact instructions below. Solid opaque CLEAN #F0F1EB background, no arch, texture, dots or grid. Main text #2A2A2A, secondary #6B6B6B, coral #F26445, white #FFFFFF. Entire top 110px empty for the actual transparent Harda logo, to be composited afterward at x=48,y=19,size=218x71. Do not generate a logo, brand wordmark, watermark, signature, counter, progress bar, border, panels or additional text. Preserve every supplied word, number, capitalization, apostrophe, hyphen, punctuation and symbol exactly. Every line fully visible and separated from figures/equipment. Long headlines may wrap to two lines with a marker behind each line. No automatic changes to copy.\n\nSIGN LAYOUT — match approved LW-CAR-0029 slide 2 for the number, very heavy tight lowercase marker headline, regular body and large lower figure. REMOVE the reference's `fix:` line entirely; no stars or difficulty meter. Around 80px side margins. Number at upper left below y=110; next to the number one SMALL ROUND coral #F26445 badge with a WHITE check mark `✓`. The headline is dark #2A2A2A, with coral marker behind HEADLINE WORDS ONLY, not behind number. Long headline may wrap into two lines, preserving every word and hyphen, with marker behind each line. Regular body below, no more than two lines; all copy finishes above about y=500. Lower ~55%: one large white/light-grey mannequin in the exact stated pose with equipment/props. Keep needed body and equipment fully below/clear of copy. Faceless even when mood is suggested; convey mood through posture, no eyes or smile drawn.\n\nEXACT TEXT:\nnumber: `#5`\nmarker headline: `your form looks smoother`\nregular body: `more control on every rep means your body is learning.`\nFIGURE: barbell romanian deadlift, perfect flat back, hips back, side view.\nHIGHLIGHT: Only hamstrings coral; all other muscles white/light grey.\nAll other muscle regions white/light grey. No other words, line of advice or invented numbers.",
+      "prompt_file": "prompts/slide-06.txt",
+      "reference": [
+        "carousels/LW-CAR-0029/outputs/slide-02.png"
+      ],
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "interrupted",
+          "started_at": "2026-10-23T11:13:56.115451+00:00",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "carousels/LW-CAR-0029/outputs/slide-02.png"
+          ],
+          "prompt": "Create ONE finished Harda S2 portrait carousel slide, 1080 x 1350, 4:5. Precisely match supplied owner-approved S2 references for the very heavy tight lowercase grotesk headlines, clean regular sans body, regular italic grey subtitle, flat coral markers, and realistic WHITE/LIGHT-GREY anatomy mannequin: adult athletic, bald and faceless, fine grey shading, opaque black #2A2A2A shorts, smooth featureless pelvis. Equipment black/grey. No sand/green muscle colors. Highlight only the muscle groups expressly specified for this slide. Use references for DESIGN ONLY and replace ALL their words/poses with the exact instructions below. Solid opaque CLEAN #F0F1EB background, no arch, texture, dots or grid. Main text #2A2A2A, secondary #6B6B6B, coral #F26445, white #FFFFFF. Entire top 110px empty for the actual transparent Harda logo, to be composited afterward at x=48,y=19,size=218x71. Do not generate a logo, brand wordmark, watermark, signature, counter, progress bar, border, panels or additional text. Preserve every supplied word, number, capitalization, apostrophe, hyphen, punctuation and symbol exactly. Every line fully visible and separated from figures/equipment. Long headlines may wrap to two lines with a marker behind each line. No automatic changes to copy.\n\nSIGN LAYOUT — match approved LW-CAR-0029 slide 2 for the number, very heavy tight lowercase marker headline, regular body and large lower figure. REMOVE the reference's `fix:` line entirely; no stars or difficulty meter. Around 80px side margins. Number at upper left below y=110; next to the number one SMALL ROUND coral #F26445 badge with a WHITE check mark `✓`. The headline is dark #2A2A2A, with coral marker behind HEADLINE WORDS ONLY, not behind number. Long headline may wrap into two lines, preserving every word and hyphen, with marker behind each line. Regular body below, no more than two lines; all copy finishes above about y=500. Lower ~55%: one large white/light-grey mannequin in the exact stated pose with equipment/props. Keep needed body and equipment fully below/clear of copy. Faceless even when mood is suggested; convey mood through posture, no eyes or smile drawn.\n\nEXACT TEXT:\nnumber: `#5`\nmarker headline: `your form looks smoother`\nregular body: `more control on every rep means your body is learning.`\nFIGURE: barbell romanian deadlift, perfect flat back, hips back, side view.\nHIGHLIGHT: Only hamstrings coral; all other muscles white/light grey.\nAll other muscle regions white/light grey. No other words, line of advice or invented numbers.",
+          "prompt_file": "prompts/slide-06.txt",
+          "finished_at": "2026-10-23T11:14:48.807551+00:00",
+          "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID f2e36280-a806-4891-bb09-c758c3bf2d84. safety_violations=[sexual].\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"sexual\\\"\\n      ]\\n    }\\n  }\\n}\")"
+        }
+      ],
+      "errors": [
+        "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID f2e36280-a806-4891-bb09-c758c3bf2d84. safety_violations=[sexual].\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"sexual\\\"\\n      ]\\n    }\\n  }\\n}\")"
+      ],
+      "save_status": "not_generated",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 7,
+      "content_version": "1.0",
+      "role": "sign #6",
+      "exact_text": [
+        "#6",
+        "you bounce back faster",
+        "the same workout leaves you less wrecked the next day."
+      ],
+      "file": "outputs/slide-07.png",
+      "prompt": "Create ONE finished Harda S2 portrait carousel slide, 1080 x 1350, 4:5. Precisely match supplied owner-approved S2 references for the very heavy tight lowercase grotesk headlines, clean regular sans body, regular italic grey subtitle, flat coral markers, and realistic WHITE/LIGHT-GREY anatomy mannequin: adult athletic, bald and faceless, fine grey shading, opaque black #2A2A2A shorts, smooth featureless pelvis. Equipment black/grey. No sand/green muscle colors. Highlight only the muscle groups expressly specified for this slide. Use references for DESIGN ONLY and replace ALL their words/poses with the exact instructions below. Solid opaque CLEAN #F0F1EB background, no arch, texture, dots or grid. Main text #2A2A2A, secondary #6B6B6B, coral #F26445, white #FFFFFF. Entire top 110px empty for the actual transparent Harda logo, to be composited afterward at x=48,y=19,size=218x71. Do not generate a logo, brand wordmark, watermark, signature, counter, progress bar, border, panels or additional text. Preserve every supplied word, number, capitalization, apostrophe, hyphen, punctuation and symbol exactly. Every line fully visible and separated from figures/equipment. Long headlines may wrap to two lines with a marker behind each line. No automatic changes to copy.\n\nSIGN LAYOUT — match approved LW-CAR-0029 slide 2 for the number, very heavy tight lowercase marker headline, regular body and large lower figure. REMOVE the reference's `fix:` line entirely; no stars or difficulty meter. Around 80px side margins. Number at upper left below y=110; next to the number one SMALL ROUND coral #F26445 badge with a WHITE check mark `✓`. The headline is dark #2A2A2A, with coral marker behind HEADLINE WORDS ONLY, not behind number. Long headline may wrap into two lines, preserving every word and hyphen, with marker behind each line. Regular body below, no more than two lines; all copy finishes above about y=500. Lower ~55%: one large white/light-grey mannequin in the exact stated pose with equipment/props. Keep needed body and equipment fully below/clear of copy. Faceless even when mood is suggested; convey mood through posture, no eyes or smile drawn.\n\nEXACT TEXT:\nnumber: `#6`\nmarker headline: `you bounce back faster`\nregular body: `the same workout leaves you less wrecked the next day.`\nFIGURE: standing, stretching both arms overhead after waking up, fresh and relaxed, front view.\nHIGHLIGHT: No colored muscles.\nAll other muscle regions white/light grey. No other words, line of advice or invented numbers.",
+      "prompt_file": "prompts/slide-07.txt",
+      "reference": [
+        "carousels/LW-CAR-0029/outputs/slide-02.png"
+      ],
+      "attempts": [],
+      "errors": [],
+      "save_status": "not_generated",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 8,
+      "content_version": "1.0",
+      "role": "sign #7",
+      "exact_text": [
+        "#7",
+        "you show up without thinking",
+        "the gym is just part of your week now."
+      ],
+      "file": "outputs/slide-08.png",
+      "prompt": "Create ONE finished Harda S2 portrait carousel slide, 1080 x 1350, 4:5. Precisely match supplied owner-approved S2 references for the very heavy tight lowercase grotesk headlines, clean regular sans body, regular italic grey subtitle, flat coral markers, and realistic WHITE/LIGHT-GREY anatomy mannequin: adult athletic, bald and faceless, fine grey shading, opaque black #2A2A2A shorts, smooth featureless pelvis. Equipment black/grey. No sand/green muscle colors. Highlight only the muscle groups expressly specified for this slide. Use references for DESIGN ONLY and replace ALL their words/poses with the exact instructions below. Solid opaque CLEAN #F0F1EB background, no arch, texture, dots or grid. Main text #2A2A2A, secondary #6B6B6B, coral #F26445, white #FFFFFF. Entire top 110px empty for the actual transparent Harda logo, to be composited afterward at x=48,y=19,size=218x71. Do not generate a logo, brand wordmark, watermark, signature, counter, progress bar, border, panels or additional text. Preserve every supplied word, number, capitalization, apostrophe, hyphen, punctuation and symbol exactly. Every line fully visible and separated from figures/equipment. Long headlines may wrap to two lines with a marker behind each line. No automatic changes to copy.\n\nSIGN LAYOUT — match approved LW-CAR-0029 slide 2 for the number, very heavy tight lowercase marker headline, regular body and large lower figure. REMOVE the reference's `fix:` line entirely; no stars or difficulty meter. Around 80px side margins. Number at upper left below y=110; next to the number one SMALL ROUND coral #F26445 badge with a WHITE check mark `✓`. The headline is dark #2A2A2A, with coral marker behind HEADLINE WORDS ONLY, not behind number. Long headline may wrap into two lines, preserving every word and hyphen, with marker behind each line. Regular body below, no more than two lines; all copy finishes above about y=500. Lower ~55%: one large white/light-grey mannequin in the exact stated pose with equipment/props. Keep needed body and equipment fully below/clear of copy. Faceless even when mood is suggested; convey mood through posture, no eyes or smile drawn.\n\nEXACT TEXT:\nnumber: `#7`\nmarker headline: `you show up without thinking`\nregular body: `the gym is just part of your week now.`\nFIGURE: walking forward with a gym bag over one shoulder, confident, front three-quarter view.\nHIGHLIGHT: No colored muscles. Gym bag plain black/grey, no logo or writing.\nAll other muscle regions white/light grey. No other words, line of advice or invented numbers.",
+      "prompt_file": "prompts/slide-08.txt",
+      "reference": [
+        "carousels/LW-CAR-0029/outputs/slide-02.png"
+      ],
+      "attempts": [],
+      "errors": [],
+      "save_status": "not_generated",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 9,
+      "content_version": "1.0",
+      "role": "product ending",
+      "exact_text": [
+        "harda tracks every set you lift, so you can see your progress, not just feel it.",
+        "log your workouts and compare this month with the last one."
+      ],
+      "file": "outputs/slide-09.png",
+      "prompt": "Create ONE finished Harda S2 portrait carousel slide, 1080 x 1350, 4:5. Precisely match supplied owner-approved S2 references for the very heavy tight lowercase grotesk headlines, clean regular sans body, regular italic grey subtitle, flat coral markers, and realistic WHITE/LIGHT-GREY anatomy mannequin: adult athletic, bald and faceless, fine grey shading, opaque black #2A2A2A shorts, smooth featureless pelvis. Equipment black/grey. No sand/green muscle colors. Highlight only the muscle groups expressly specified for this slide. Use references for DESIGN ONLY and replace ALL their words/poses with the exact instructions below. Solid opaque CLEAN #F0F1EB background, no arch, texture, dots or grid. Main text #2A2A2A, secondary #6B6B6B, coral #F26445, white #FFFFFF. Entire top 110px empty for the actual transparent Harda logo, to be composited afterward at x=48,y=19,size=218x71. Do not generate a logo, brand wordmark, watermark, signature, counter, progress bar, border, panels or additional text. Preserve every supplied word, number, capitalization, apostrophe, hyphen, punctuation and symbol exactly. Every line fully visible and separated from figures/equipment. Long headlines may wrap to two lines with a marker behind each line. No automatic changes to copy.\n\nPRODUCT ENDING — generate ONLY TEXT AND CLEAN BACKGROUND. Use the approved ending reference for typography and alignment, NEVER its words. Do not draw a phone, hand, placeholder, app UI, charts or icons. The exact approved real phone AND white hand pixel strip will be inserted afterward at x=0,y=820, at original scale. The actual phone starts around y=828 and may extend off the bottom. Keep the ENTIRE area below y=720 free of ALL generated copy and illustrations, leaving a wide clear gap above the inserted phone.\n\nEXACT very heavy lowercase left-aligned headline, below y=110, in these lines:\nharda tracks\nevery set you lift,\nso you can\nsee your progress,\nnot just feel it.\n\nCoral marker bars behind ONLY these phrases: `every set you lift`, `see your progress`. Finish the complete headline by y=570, without clipping or dropping punctuation. EXACT regular #2A2A2A left-aligned body, in these lines:\nlog your workouts and compare\nthis month with the last one.\n\nFinish ALL body text by y=700. Below it leave plain empty #F0F1EB background, including y=720 to 820 as a clear reserved gap. Do not put even a phone outline/hand anywhere near the text. Never generate or imitate app UI. Return the text/background plate only.",
+      "prompt_file": "prompts/slide-09.txt",
+      "reference": [
+        "carousels/LW-CAR-0022/outputs/slide-19.png"
+      ],
+      "attempts": [],
+      "errors": [],
+      "save_status": "not_generated",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    }
+  ],
+  "interruption": {
+    "slide": 6,
+    "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID f2e36280-a806-4891-bb09-c758c3bf2d84. safety_violations=[sexual].\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"sexual\\\"\\n      ]\\n    }\\n  }\\n}\")"
+  },
+  "archive": "LW-CAR-0033-1080x1350.zip",
+  "export_format": {
+    "images": 5,
+    "width": 1080,
+    "height": 1350,
+    "mode": "RGB",
+    "alpha": false,
+    "check": "Required export metadata only; no visual QA, OCR or automatic regeneration."
+  }
+}
