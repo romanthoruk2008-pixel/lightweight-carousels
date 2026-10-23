@@ -1,0 +1,202 @@
+{
+  "carousel_id": "LW-CAR-0034",
+  "content_version": "1.0",
+  "status": "frozen",
+  "type": "original",
+  "design_style": "S2",
+  "language": "en",
+  "background": "CLEAN",
+  "font_family": "REF-008 look: heavy tight grotesk for headlines, clean sans for body, italic for tier lines",
+  "colors": {
+    "accent": "#F26445",
+    "background": "#F0F1EB",
+    "text_dark": "#2A2A2A",
+    "text_body_grey": "#6B6B6B",
+    "white": "#FFFFFF"
+  },
+  "source": {
+    "ref_id": null,
+    "note": "Our own 'not a beginner anymore if' checklist in the S2 look (owner request 2026-10-23). No 'lifter' wording.",
+    "layout_from": "carousels/LW-CAR-0022/outputs (owner-approved S2, Harda logo)"
+  },
+  "caption": {
+    "text": "How many did you get? Be honest 👇 #gymtips #gymlife #fitnessjourney #gymbro",
+    "notes": "comment prompt"
+  },
+  "slides": [
+    {
+      "n": 1,
+      "role": "hook",
+      "text": [
+        {
+          "string": "you’re not a",
+          "style": "cover line 1, lowercase, heaviest weight, text_dark"
+        },
+        {
+          "string": "beginner anymore if…",
+          "style": "cover line 2, lowercase, heaviest weight, text_dark on an accent marker bar"
+        },
+        {
+          "string": "(count how many)",
+          "style": "italic, regular, text_body_grey"
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "role": "point 1",
+      "text": [
+        {
+          "string": "you have a favorite exercise",
+          "style": "heaviest weight, lowercase, text_dark on an accent marker bar"
+        },
+        {
+          "string": "and very strong opinions about it.",
+          "style": "regular, text_dark, up to two lines"
+        },
+        {
+          "string": "1/7",
+          "style": "small italic counter, text_body_grey"
+        }
+      ],
+      "illustration": "standing, holding a barbell across the back, about to squat, confident, front three-quarter view"
+    },
+    {
+      "n": 3,
+      "role": "point 2",
+      "text": [
+        {
+          "string": "you warm up without being told",
+          "style": "heaviest weight, lowercase, text_dark on an accent marker bar"
+        },
+        {
+          "string": "a few light sets before the heavy ones, every time.",
+          "style": "regular, text_dark, up to two lines"
+        },
+        {
+          "string": "2/7",
+          "style": "small italic counter, text_body_grey"
+        }
+      ],
+      "illustration": "doing a light bodyweight squat with arms forward, relaxed, side view"
+    },
+    {
+      "n": 4,
+      "role": "point 3",
+      "text": [
+        {
+          "string": "you plan before you walk in",
+          "style": "heaviest weight, lowercase, text_dark on an accent marker bar"
+        },
+        {
+          "string": "you know every exercise before you touch a weight.",
+          "style": "regular, text_dark, up to two lines"
+        },
+        {
+          "string": "3/7",
+          "style": "small italic counter, text_body_grey"
+        }
+      ],
+      "illustration": "standing, looking at a phone held in one hand (screen not visible), calm, front three-quarter view"
+    },
+    {
+      "n": 5,
+      "role": "point 4",
+      "text": [
+        {
+          "string": "you feel the right muscle working",
+          "style": "heaviest weight, lowercase, text_dark on an accent marker bar"
+        },
+        {
+          "string": "not just moving the weight from a to b.",
+          "style": "regular, text_dark, up to two lines"
+        },
+        {
+          "string": "4/7",
+          "style": "small italic counter, text_body_grey"
+        }
+      ],
+      "illustration": "seated cable row, squeezing the shoulder blades together, side view"
+    },
+    {
+      "n": 6,
+      "role": "point 5",
+      "text": [
+        {
+          "string": "you stopped ego lifting",
+          "style": "heaviest weight, lowercase, text_dark on an accent marker bar"
+        },
+        {
+          "string": "lighter weight, cleaner reps, better results.",
+          "style": "regular, text_dark, up to two lines"
+        },
+        {
+          "string": "5/7",
+          "style": "small italic counter, text_body_grey"
+        }
+      ],
+      "illustration": "dumbbell bench press with controlled moderate dumbbells, front view"
+    },
+    {
+      "n": 7,
+      "role": "point 6",
+      "text": [
+        {
+          "string": "you rest on purpose",
+          "style": "heaviest weight, lowercase, text_dark on an accent marker bar"
+        },
+        {
+          "string": "you know how long you need between sets.",
+          "style": "regular, text_dark, up to two lines"
+        },
+        {
+          "string": "6/7",
+          "style": "small italic counter, text_body_grey"
+        }
+      ],
+      "illustration": "sitting on a flat bench between sets, towel over one shoulder, breathing, side view"
+    },
+    {
+      "n": 8,
+      "role": "point 7",
+      "text": [
+        {
+          "string": "you track every workout",
+          "style": "heaviest weight, lowercase, text_dark on an accent marker bar"
+        },
+        {
+          "string": "you know exactly what to beat next time.",
+          "style": "regular, text_dark, up to two lines"
+        },
+        {
+          "string": "7/7",
+          "style": "small italic counter, text_body_grey"
+        }
+      ],
+      "illustration": "standing next to a squat rack, looking down at a phone held in both hands (screen not visible)"
+    },
+    {
+      "n": 9,
+      "role": "product ending",
+      "text": [
+        {
+          "string": "harda tracks every set you lift, so you always know what to beat next time.",
+          "style": "large, lowercase, heaviest weight, text_dark; accent marker bars under 'every set you lift' and 'what to beat next time'"
+        },
+        {
+          "string": "log your workouts and keep leveling up.",
+          "style": "regular, text_dark, two lines"
+        }
+      ],
+      "screen": "real Harda Progress / Muscle balance screenshot, the same one as in approved LW-CAR-0022 slide 19",
+      "product_claims_checked_against_real_screen": [
+        "workouts are logged",
+        "muscle balance screen (LW-CAR-0022 slide 19)"
+      ]
+    }
+  ],
+  "claims_to_verify": [
+    "Own observations, no numbers or citations.",
+    "Point 7 and the ending: workout logging only."
+  ]
+}

@@ -1,0 +1,209 @@
+{
+  "carousel_id": "LW-CAR-0033",
+  "content_version": "1.0",
+  "status": "frozen",
+  "type": "original",
+  "design_style": "S2",
+  "language": "en",
+  "background": "CLEAN",
+  "font_family": "REF-008 look: heavy tight grotesk for headlines, clean sans for body, italic for tier lines",
+  "colors": {
+    "accent": "#F26445",
+    "background": "#F0F1EB",
+    "text_dark": "#2A2A2A",
+    "text_body_grey": "#6B6B6B",
+    "white": "#FFFFFF"
+  },
+  "source": {
+    "ref_id": null,
+    "note": "Our own positive checklist in the S2 look (owner request 2026-10-23), built on the approved LW-CAR-0029 layout.",
+    "layout_from": "carousels/LW-CAR-0022/outputs (owner-approved S2, Harda logo)"
+  },
+  "caption": {
+    "text": "How many of these are you? 👇 Send this to someone who thinks they’re not progressing 📌 #gymprogress #fitnessjourney #gymtips #workout",
+    "notes": "comment prompt"
+  },
+  "slides": [
+    {
+      "n": 1,
+      "role": "hook",
+      "text": [
+        {
+          "string": "signs you’re actually",
+          "style": "cover line 1, lowercase, heaviest weight, text_dark"
+        },
+        {
+          "string": "making progress",
+          "style": "cover line 2, lowercase, heaviest weight, text_dark on an accent marker bar"
+        },
+        {
+          "string": "(even if the mirror says no)",
+          "style": "italic, regular, text_body_grey"
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "role": "sign #1",
+      "text": [
+        {
+          "string": "#1",
+          "style": "heaviest weight, text_dark"
+        },
+        {
+          "string": "your weights keep going up",
+          "style": "heaviest weight, lowercase, text_dark on an accent marker bar"
+        },
+        {
+          "string": "the same exercise, a little heavier than last month.",
+          "style": "regular, text_dark, up to two lines"
+        }
+      ],
+      "illustration": "standing barbell curl with a loaded bar, front view",
+      "badge": "round accent circle with a white check mark"
+    },
+    {
+      "n": 3,
+      "role": "sign #2",
+      "text": [
+        {
+          "string": "#2",
+          "style": "heaviest weight, text_dark"
+        },
+        {
+          "string": "you get more reps",
+          "style": "heaviest weight, lowercase, text_dark on an accent marker bar"
+        },
+        {
+          "string": "same weight, more reps. that counts too.",
+          "style": "regular, text_dark, up to two lines"
+        }
+      ],
+      "illustration": "push-up, side view, strong and controlled",
+      "badge": "round accent circle with a white check mark"
+    },
+    {
+      "n": 4,
+      "role": "sign #3",
+      "text": [
+        {
+          "string": "#3",
+          "style": "heaviest weight, text_dark"
+        },
+        {
+          "string": "your clothes fit differently",
+          "style": "heaviest weight, lowercase, text_dark on an accent marker bar"
+        },
+        {
+          "string": "tighter in the shoulders and arms, looser at the waist.",
+          "style": "regular, text_dark, up to two lines"
+        }
+      ],
+      "illustration": "front view from the thighs up, pulling at a tight plain #2A2A2A t-shirt across the shoulders, a little proud",
+      "badge": "round accent circle with a white check mark"
+    },
+    {
+      "n": 5,
+      "role": "sign #4",
+      "text": [
+        {
+          "string": "#4",
+          "style": "heaviest weight, text_dark"
+        },
+        {
+          "string": "your old weight is your warm-up",
+          "style": "heaviest weight, lowercase, text_dark on an accent marker bar"
+        },
+        {
+          "string": "what used to be hard now feels light.",
+          "style": "regular, text_dark, up to two lines"
+        }
+      ],
+      "illustration": "seated dumbbell shoulder press with light dumbbells, relaxed and easy, front view",
+      "badge": "round accent circle with a white check mark"
+    },
+    {
+      "n": 6,
+      "role": "sign #5",
+      "text": [
+        {
+          "string": "#5",
+          "style": "heaviest weight, text_dark"
+        },
+        {
+          "string": "your form looks smoother",
+          "style": "heaviest weight, lowercase, text_dark on an accent marker bar"
+        },
+        {
+          "string": "more control on every rep means your body is learning.",
+          "style": "regular, text_dark, up to two lines"
+        }
+      ],
+      "illustration": "barbell romanian deadlift, perfect flat back, hips back, side view",
+      "badge": "round accent circle with a white check mark"
+    },
+    {
+      "n": 7,
+      "role": "sign #6",
+      "text": [
+        {
+          "string": "#6",
+          "style": "heaviest weight, text_dark"
+        },
+        {
+          "string": "you bounce back faster",
+          "style": "heaviest weight, lowercase, text_dark on an accent marker bar"
+        },
+        {
+          "string": "the same workout leaves you less wrecked the next day.",
+          "style": "regular, text_dark, up to two lines"
+        }
+      ],
+      "illustration": "standing, stretching both arms overhead after waking up, fresh and relaxed, front view",
+      "badge": "round accent circle with a white check mark"
+    },
+    {
+      "n": 8,
+      "role": "sign #7",
+      "text": [
+        {
+          "string": "#7",
+          "style": "heaviest weight, text_dark"
+        },
+        {
+          "string": "you show up without thinking",
+          "style": "heaviest weight, lowercase, text_dark on an accent marker bar"
+        },
+        {
+          "string": "the gym is just part of your week now.",
+          "style": "regular, text_dark, up to two lines"
+        }
+      ],
+      "illustration": "walking forward with a gym bag over one shoulder, confident, front three-quarter view",
+      "badge": "round accent circle with a white check mark"
+    },
+    {
+      "n": 9,
+      "role": "product ending",
+      "text": [
+        {
+          "string": "harda tracks every set you lift, so you can see your progress, not just feel it.",
+          "style": "large, lowercase, heaviest weight, text_dark; accent marker bars under 'every set you lift' and 'see your progress'"
+        },
+        {
+          "string": "log your workouts and compare this month with the last one.",
+          "style": "regular, text_dark, two lines"
+        }
+      ],
+      "screen": "real Harda Progress / Muscle balance screenshot, the same one as in approved LW-CAR-0022 slide 19",
+      "product_claims_checked_against_real_screen": [
+        "workouts are logged",
+        "muscle balance screen (LW-CAR-0022 slide 19)"
+      ]
+    }
+  ],
+  "claims_to_verify": [
+    "Own encouragement, no numbers or citations.",
+    "Ending: workout logging and the Progress screen ('Last 3 months') only."
+  ]
+}

@@ -1,0 +1,225 @@
+{
+  "carousel_id": "LW-CAR-0037",
+  "content_version": "1.0",
+  "status": "frozen",
+  "type": "original",
+  "design_style": "S2",
+  "language": "en",
+  "background": "CLEAN",
+  "font_family": "REF-008 look: heavy tight grotesk for headlines, clean sans for body, italic for tier lines",
+  "colors": {
+    "accent": "#F26445",
+    "background": "#F0F1EB",
+    "text_dark": "#2A2A2A",
+    "text_body_grey": "#6B6B6B",
+    "white": "#FFFFFF"
+  },
+  "source": {
+    "ref_id": null,
+    "note": "Our own beginner-vs-advanced comparison in the S2 look (owner request 2026-10-23), a this-or-that variant like LW-CAR-0025. No 'lifter' wording.",
+    "layout_from": "carousels/LW-CAR-0022/outputs (owner-approved S2, Harda logo)"
+  },
+  "caption": {
+    "text": "Which one are you? Be honest 👇 #gymtips #beginnergym #gymlife #fitnessjourney",
+    "notes": "comment prompt"
+  },
+  "slides": [
+    {
+      "n": 1,
+      "role": "hook",
+      "text": [
+        {
+          "string": "beginner vs",
+          "style": "cover line 1, lowercase, heaviest weight, text_dark"
+        },
+        {
+          "string": "advanced",
+          "style": "cover line 2, lowercase, heaviest weight, text_dark on an accent marker bar"
+        },
+        {
+          "string": "(how they really train)",
+          "style": "italic, regular, text_body_grey"
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "role": "round 1",
+      "text": [
+        {
+          "string": "the plan",
+          "style": "headline, heaviest weight, lowercase, text_dark on an accent marker bar"
+        },
+        {
+          "string": "beginner",
+          "style": "column label, bold lowercase, text_body_grey"
+        },
+        {
+          "string": "a random workout every day",
+          "style": "regular, text_body_grey, under the left figure"
+        },
+        {
+          "string": "advanced",
+          "style": "column label, bold lowercase, accent"
+        },
+        {
+          "string": "the same plan for months",
+          "style": "regular, text_dark, under the right figure"
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "role": "round 2",
+      "text": [
+        {
+          "string": "the weight",
+          "style": "headline, heaviest weight, lowercase, text_dark on an accent marker bar"
+        },
+        {
+          "string": "beginner",
+          "style": "column label, bold lowercase, text_body_grey"
+        },
+        {
+          "string": "max weight, messy reps",
+          "style": "regular, text_body_grey, under the left figure"
+        },
+        {
+          "string": "advanced",
+          "style": "column label, bold lowercase, accent"
+        },
+        {
+          "string": "a weight they can control",
+          "style": "regular, text_dark, under the right figure"
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "role": "round 3",
+      "text": [
+        {
+          "string": "the rest",
+          "style": "headline, heaviest weight, lowercase, text_dark on an accent marker bar"
+        },
+        {
+          "string": "beginner",
+          "style": "column label, bold lowercase, text_body_grey"
+        },
+        {
+          "string": "rests until they feel like it",
+          "style": "regular, text_body_grey, under the left figure"
+        },
+        {
+          "string": "advanced",
+          "style": "column label, bold lowercase, accent"
+        },
+        {
+          "string": "rests on purpose",
+          "style": "regular, text_dark, under the right figure"
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "role": "round 4",
+      "text": [
+        {
+          "string": "last week",
+          "style": "headline, heaviest weight, lowercase, text_dark on an accent marker bar"
+        },
+        {
+          "string": "beginner",
+          "style": "column label, bold lowercase, text_body_grey"
+        },
+        {
+          "string": "guesses what they lifted",
+          "style": "regular, text_body_grey, under the left figure"
+        },
+        {
+          "string": "advanced",
+          "style": "column label, bold lowercase, accent"
+        },
+        {
+          "string": "knows every number",
+          "style": "regular, text_dark, under the right figure"
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "role": "round 5",
+      "text": [
+        {
+          "string": "the muscles",
+          "style": "headline, heaviest weight, lowercase, text_dark on an accent marker bar"
+        },
+        {
+          "string": "beginner",
+          "style": "column label, bold lowercase, text_body_grey"
+        },
+        {
+          "string": "chest and arms, every day",
+          "style": "regular, text_body_grey, under the left figure"
+        },
+        {
+          "string": "advanced",
+          "style": "column label, bold lowercase, accent"
+        },
+        {
+          "string": "every muscle, every week",
+          "style": "regular, text_dark, under the right figure"
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "role": "round 6",
+      "text": [
+        {
+          "string": "the goal",
+          "style": "headline, heaviest weight, lowercase, text_dark on an accent marker bar"
+        },
+        {
+          "string": "beginner",
+          "style": "column label, bold lowercase, text_body_grey"
+        },
+        {
+          "string": "wants results in a month",
+          "style": "regular, text_body_grey, under the left figure"
+        },
+        {
+          "string": "advanced",
+          "style": "column label, bold lowercase, accent"
+        },
+        {
+          "string": "plays the long game",
+          "style": "regular, text_dark, under the right figure"
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "role": "product ending",
+      "text": [
+        {
+          "string": "harda tracks every set you lift, so you train like you’re advanced from day one.",
+          "style": "large, lowercase, heaviest weight, text_dark; accent marker bars under 'every set you lift' and 'advanced from day one'"
+        },
+        {
+          "string": "log your workouts and know every number.",
+          "style": "regular, text_dark, two lines"
+        }
+      ],
+      "screen": "real Harda Progress / Muscle balance screenshot, the same one as in approved LW-CAR-0022 slide 19",
+      "product_claims_checked_against_real_screen": [
+        "workouts are logged",
+        "muscle balance screen (LW-CAR-0022 slide 19)"
+      ]
+    }
+  ],
+  "claims_to_verify": [
+    "Own observations, no numbers or citations.",
+    "Ending: workout logging only."
+  ]
+}
