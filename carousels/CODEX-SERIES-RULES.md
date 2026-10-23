@@ -37,6 +37,7 @@ Each task file lists the reference slide URLs in the **real** order. Use that or
 - Default screen: the same Progress / "Muscle balance" screenshot used in the approved LW-CAR-0001 slide 8, unless the task file or the owner gives another one.
 - Keep the screenshot's original proportions and scale it evenly. The phone is a naturally tall real phone held by the sketch-style line-art hand, and it may run off the bottom edge. Never squash the screen to fit it all in (owner feedback on LW-CAR-0001).
 - If you cannot insert the real screenshot cleanly, say so instead of faking it.
+- **The phone never covers text (2026-10-23).** Place the hand and phone below the last line of body text with a clear gap of at least 40 px; never at a fixed height. Move the phone down (it may run off the bottom edge) or make the headline smaller, never drop text.
 
 ## Format and saving
 - 1080 × 1350 px PNG per slide, `carousels/LW-CAR-XXXX/outputs/slide-01.png`, `slide-02.png` … in slide order.
