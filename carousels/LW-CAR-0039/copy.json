@@ -1,0 +1,202 @@
+{
+  "carousel_id": "LW-CAR-0039",
+  "content_version": "1.0",
+  "status": "frozen",
+  "type": "original",
+  "design_style": "S2",
+  "language": "en",
+  "background": "CLEAN",
+  "font_family": "REF-008 look: heavy tight grotesk for headlines, clean sans for body, italic for tier lines",
+  "colors": {
+    "accent": "#F26445",
+    "background": "#F0F1EB",
+    "text_dark": "#2A2A2A",
+    "text_body_grey": "#6B6B6B",
+    "white": "#FFFFFF"
+  },
+  "source": {
+    "ref_id": null,
+    "note": "Our own gym etiquette carousel in the S2 look (owner request 2026-10-23).",
+    "layout_from": "carousels/LW-CAR-0022/outputs (owner-approved S2, Harda logo)"
+  },
+  "caption": {
+    "text": "Which rule do people break most at your gym? 👇 #gymetiquette #gymtips #gymlife #gymrules",
+    "notes": "comment prompt"
+  },
+  "slides": [
+    {
+      "n": 1,
+      "role": "hook",
+      "text": [
+        {
+          "string": "unwritten",
+          "style": "cover line 1, lowercase, heaviest weight, text_dark"
+        },
+        {
+          "string": "gym rules",
+          "style": "cover line 2, lowercase, heaviest weight, text_dark on an accent marker bar"
+        },
+        {
+          "string": "(nobody tells you these)",
+          "style": "italic, regular, text_body_grey"
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "role": "item 1",
+      "text": [
+        {
+          "string": "rule #1",
+          "style": "small label, bold lowercase, accent"
+        },
+        {
+          "string": "re-rack your weights",
+          "style": "heaviest weight, lowercase, text_dark on an accent marker bar"
+        },
+        {
+          "string": "if you can lift it, you can put it back.",
+          "style": "regular, text_dark, up to two lines"
+        }
+      ],
+      "illustration": "sliding two weight plates back onto a weight tree, front three-quarter view"
+    },
+    {
+      "n": 3,
+      "role": "item 2",
+      "text": [
+        {
+          "string": "rule #2",
+          "style": "small label, bold lowercase, accent"
+        },
+        {
+          "string": "wipe down the bench",
+          "style": "heaviest weight, lowercase, text_dark on an accent marker bar"
+        },
+        {
+          "string": "nobody wants to lie in your sweat.",
+          "style": "regular, text_dark, up to two lines"
+        }
+      ],
+      "illustration": "wiping a flat bench with a small towel, side view"
+    },
+    {
+      "n": 4,
+      "role": "item 3",
+      "text": [
+        {
+          "string": "rule #3",
+          "style": "small label, bold lowercase, accent"
+        },
+        {
+          "string": "give people space",
+          "style": "heaviest weight, lowercase, text_dark on an accent marker bar"
+        },
+        {
+          "string": "don’t stand right behind someone mid-set.",
+          "style": "regular, text_dark, up to two lines"
+        }
+      ],
+      "illustration": "front view: one figure squatting under a bar in a rack, a second figure standing at a respectful distance with a clear gap"
+    },
+    {
+      "n": 5,
+      "role": "item 4",
+      "text": [
+        {
+          "string": "rule #4",
+          "style": "small label, bold lowercase, accent"
+        },
+        {
+          "string": "ask how many sets are left",
+          "style": "heaviest weight, lowercase, text_dark on an accent marker bar"
+        },
+        {
+          "string": "then wait or work in. never just hover.",
+          "style": "regular, text_dark, up to two lines"
+        }
+      ],
+      "illustration": "standing next to a cable machine with one hand raised in a friendly ask, a second figure seated using it, front three-quarter view"
+    },
+    {
+      "n": 6,
+      "role": "item 5",
+      "text": [
+        {
+          "string": "rule #5",
+          "style": "small label, bold lowercase, accent"
+        },
+        {
+          "string": "don’t camp on a machine",
+          "style": "heaviest weight, lowercase, text_dark on an accent marker bar"
+        },
+        {
+          "string": "rest somewhere else so others can use it.",
+          "style": "regular, text_dark, up to two lines"
+        }
+      ],
+      "illustration": "standing up from a leg press machine, stepping away with a water bottle, side view"
+    },
+    {
+      "n": 7,
+      "role": "item 6",
+      "text": [
+        {
+          "string": "rule #6",
+          "style": "small label, bold lowercase, accent"
+        },
+        {
+          "string": "no advice nobody asked for",
+          "style": "heaviest weight, lowercase, text_dark on an accent marker bar"
+        },
+        {
+          "string": "unless someone is about to get hurt.",
+          "style": "regular, text_dark, up to two lines"
+        }
+      ],
+      "illustration": "one figure pointing and talking at a second figure who is doing a dumbbell curl and looking annoyed, front view"
+    },
+    {
+      "n": 8,
+      "role": "item 7",
+      "text": [
+        {
+          "string": "rule #7",
+          "style": "small label, bold lowercase, accent"
+        },
+        {
+          "string": "don’t film other people",
+          "style": "heaviest weight, lowercase, text_dark on an accent marker bar"
+        },
+        {
+          "string": "film yourself, not strangers.",
+          "style": "regular, text_dark, up to two lines"
+        }
+      ],
+      "illustration": "a phone on a small tripod pointed only at the figure doing a dumbbell press on a bench, side view"
+    },
+    {
+      "n": 9,
+      "role": "product ending",
+      "text": [
+        {
+          "string": "harda tracks every set you lift, so you know your plan before you walk in.",
+          "style": "large, lowercase, heaviest weight, text_dark; accent marker bars under 'every set you lift' and 'before you walk in'"
+        },
+        {
+          "string": "log your workouts and keep every session simple.",
+          "style": "regular, text_dark, two lines"
+        }
+      ],
+      "screen": "real Harda Progress / Muscle balance screenshot, the same one as in approved LW-CAR-0022 slide 19",
+      "product_claims_checked_against_real_screen": [
+        "workouts are logged",
+        "muscle balance screen (LW-CAR-0022 slide 19)"
+      ]
+    }
+  ],
+  "claims_to_verify": [
+    "Etiquette only, no numbers or citations.",
+    "Ending: workout logging only."
+  ]
+}

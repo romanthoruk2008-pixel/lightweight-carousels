@@ -1,0 +1,231 @@
+{
+  "carousel_id": "LW-CAR-0042",
+  "content_version": "1.0",
+  "status": "frozen",
+  "type": "original",
+  "design_style": "S2",
+  "language": "en",
+  "background": "CLEAN",
+  "font_family": "REF-008 look: heavy tight grotesk for headlines, clean sans for body, italic for tier lines",
+  "colors": {
+    "accent": "#F26445",
+    "background": "#F0F1EB",
+    "text_dark": "#2A2A2A",
+    "text_body_grey": "#6B6B6B",
+    "white": "#FFFFFF"
+  },
+  "source": {
+    "ref_id": null,
+    "note": "Our own aesthetic carousel in the S2 look (owner request 2026-10-23). Exercises agree with LW-CAR-0024 and our tier lists.",
+    "layout_from": "carousels/LW-CAR-0022/outputs (owner-approved S2, Harda logo)"
+  },
+  "caption": {
+    "text": "Which one are you missing? 👇 Save this for your next upper day 📌 #aesthetics #gymtips #upperbody #musclebuilding",
+    "notes": "comment prompt"
+  },
+  "slides": [
+    {
+      "n": 1,
+      "role": "hook",
+      "text": [
+        {
+          "string": "look bigger",
+          "style": "cover line 1, lowercase, heaviest weight, text_dark"
+        },
+        {
+          "string": "in a t-shirt",
+          "style": "cover line 2, lowercase, heaviest weight, text_dark on an accent marker bar"
+        },
+        {
+          "string": "(train these 6)",
+          "style": "italic, regular, text_body_grey"
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "role": "item 1",
+      "text": [
+        {
+          "string": "#1",
+          "style": "label before the headline, heaviest weight, text_dark"
+        },
+        {
+          "string": "side delts",
+          "style": "heaviest weight, lowercase, text_dark on an accent marker bar"
+        },
+        {
+          "string": "wider shoulders make your whole frame look bigger.",
+          "style": "regular, text_dark, up to two lines"
+        },
+        {
+          "string": "do:",
+          "style": "bold, lowercase, accent"
+        },
+        {
+          "string": "lateral raise",
+          "style": "regular, text_dark, after 'do:'"
+        }
+      ],
+      "illustration": "standing dumbbell lateral raise, arms at shoulder height, front view"
+    },
+    {
+      "n": 3,
+      "role": "item 2",
+      "text": [
+        {
+          "string": "#2",
+          "style": "label before the headline, heaviest weight, text_dark"
+        },
+        {
+          "string": "upper chest",
+          "style": "heaviest weight, lowercase, text_dark on an accent marker bar"
+        },
+        {
+          "string": "fills out the top of your t-shirt.",
+          "style": "regular, text_dark, up to two lines"
+        },
+        {
+          "string": "do:",
+          "style": "bold, lowercase, accent"
+        },
+        {
+          "string": "incline db press",
+          "style": "regular, text_dark, after 'do:'"
+        }
+      ],
+      "illustration": "dumbbell press on an incline bench, front three-quarter view"
+    },
+    {
+      "n": 4,
+      "role": "item 3",
+      "text": [
+        {
+          "string": "#3",
+          "style": "label before the headline, heaviest weight, text_dark"
+        },
+        {
+          "string": "traps",
+          "style": "heaviest weight, lowercase, text_dark on an accent marker bar"
+        },
+        {
+          "string": "a thicker line from your neck to your shoulders.",
+          "style": "regular, text_dark, up to two lines"
+        },
+        {
+          "string": "do:",
+          "style": "bold, lowercase, accent"
+        },
+        {
+          "string": "dumbbell shrugs",
+          "style": "regular, text_dark, after 'do:'"
+        }
+      ],
+      "illustration": "standing dumbbell shrug, shoulders raised, front view"
+    },
+    {
+      "n": 5,
+      "role": "item 4",
+      "text": [
+        {
+          "string": "#4",
+          "style": "label before the headline, heaviest weight, text_dark"
+        },
+        {
+          "string": "lats",
+          "style": "heaviest weight, lowercase, text_dark on an accent marker bar"
+        },
+        {
+          "string": "the v-shape that makes your waist look smaller.",
+          "style": "regular, text_dark, up to two lines"
+        },
+        {
+          "string": "do:",
+          "style": "bold, lowercase, accent"
+        },
+        {
+          "string": "lat pulldown",
+          "style": "regular, text_dark, after 'do:'"
+        }
+      ],
+      "illustration": "seated lat pulldown, wide bar pulled to the upper chest, rear view"
+    },
+    {
+      "n": 6,
+      "role": "item 5",
+      "text": [
+        {
+          "string": "#5",
+          "style": "label before the headline, heaviest weight, text_dark"
+        },
+        {
+          "string": "triceps",
+          "style": "heaviest weight, lowercase, text_dark on an accent marker bar"
+        },
+        {
+          "string": "the bigger part of your upper arm, the one that fills the sleeve.",
+          "style": "regular, text_dark, up to two lines"
+        },
+        {
+          "string": "do:",
+          "style": "bold, lowercase, accent"
+        },
+        {
+          "string": "overhead cable extension",
+          "style": "regular, text_dark, after 'do:'"
+        }
+      ],
+      "illustration": "standing facing away from a cable station, rope behind the head, extending the arms overhead, side view"
+    },
+    {
+      "n": 7,
+      "role": "item 6",
+      "text": [
+        {
+          "string": "#6",
+          "style": "label before the headline, heaviest weight, text_dark"
+        },
+        {
+          "string": "biceps",
+          "style": "heaviest weight, lowercase, text_dark on an accent marker bar"
+        },
+        {
+          "string": "the part people notice when you lift your arm.",
+          "style": "regular, text_dark, up to two lines"
+        },
+        {
+          "string": "do:",
+          "style": "bold, lowercase, accent"
+        },
+        {
+          "string": "incline db curl",
+          "style": "regular, text_dark, after 'do:'"
+        }
+      ],
+      "illustration": "seated on an incline bench, arms hanging back, curling two dumbbells, side view"
+    },
+    {
+      "n": 8,
+      "role": "product ending",
+      "text": [
+        {
+          "string": "harda tracks every set you lift and shows which muscles fall behind.",
+          "style": "large, lowercase, heaviest weight, text_dark; accent marker bars under 'every set you lift' and 'which muscles fall behind'"
+        },
+        {
+          "string": "log your workouts and make sure all six get their sets.",
+          "style": "regular, text_dark, two lines"
+        }
+      ],
+      "screen": "real Harda Progress / Muscle balance screenshot, the same one as in approved LW-CAR-0022 slide 19",
+      "product_claims_checked_against_real_screen": [
+        "workouts are logged",
+        "muscle balance screen (LW-CAR-0022 slide 19)"
+      ]
+    }
+  ],
+  "claims_to_verify": [
+    "Own opinions, no numbers or citations. Triceps line avoids the 'two thirds of the arm' figure on purpose.",
+    "Ending: workout logging and the Muscle balance screen."
+  ]
+}
