@@ -8,7 +8,8 @@ paste. Lengths are checked by `python3 -I aso/v2/final/check_listing.py`.
 - **Promotional text and description** were not part of the keyword agent's work. They are built
   from the v1 draft (`aso/drafts/app-store-v1.md`) and only use features confirmed in this
   project. Neither field affects App Store search; they sell the app to someone already on the page.
-- Replace `[PRIVACY POLICY URL]` everywhere before submitting.
+- Links point to Harda's own Terms of Service and Privacy Policy on harda.xata.agency, which
+  include the EULA terms Apple requires.
 - Every non-English text needs a native-speaker check.
 
 ## Confirm before submitting
@@ -16,8 +17,8 @@ paste. Lengths are checked by `python3 -I aso/v2/final/check_listing.py`.
 These lines are in the text because they were in the v1 draft or the screenshots, but the owner
 has not confirmed them one by one. Delete the line if the answer is no.
 
-1. Hard paywall (owner, 2026-10-22): the whole app needs Harda Premium after the free trial, so the
-   description says so in its Premium paragraph and marks no single feature as Premium.
+1. Hard paywall (owner, 2026-10-22; Terms of Service 5.1–5.2): the whole app needs Harda Premium.
+   Only the yearly plan has a free trial, for eligible new subscribers; the monthly plan has none.
 2. Personal records are saved automatically.
 3. Build a plan works around an injury ("cranky shoulder").
 4. Seryozha's name in each language (Seryozha / Серьожа / Серёжа).
@@ -77,10 +78,10 @@ A dinosaur who drops in now and then to comment on your training. Resting for ag
 kg or lb. Your call.
 
 HARDA PREMIUM
-Harda requires a Harda Premium subscription, monthly or yearly. New subscribers start with a free trial. Payment is charged to your Apple Account at confirmation of purchase. The subscription renews automatically unless canceled at least 24 hours before the end of the current period. Manage or cancel it in your Apple Account settings.
+Harda requires a Harda Premium subscription, monthly or yearly. The yearly plan starts with a free trial for eligible new subscribers. Payment is charged to your Apple Account at confirmation of purchase. The subscription renews automatically unless canceled at least 24 hours before the end of the current period. Manage or cancel it in your Apple Account settings.
 
-Terms of Use: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
-Privacy Policy: [PRIVACY POLICY URL]
+Terms of Use: https://harda.xata.agency/terms
+Privacy Policy: https://harda.xata.agency/privacy
 ```
 
 **Keywords**
@@ -149,10 +150,10 @@ A dinosaur who drops in now and then to comment on your training. Resting for ag
 kg or lb. Your call.
 
 HARDA PREMIUM
-Harda requires a Harda Premium subscription, monthly or yearly. New subscribers start with a free trial. Payment is charged to your Apple Account at confirmation of purchase. The subscription renews automatically unless cancelled at least 24 hours before the end of the current period. Manage or cancel it in your Apple Account settings.
+Harda requires a Harda Premium subscription, monthly or yearly. The yearly plan starts with a free trial for eligible new subscribers. Payment is charged to your Apple Account at confirmation of purchase. The subscription renews automatically unless cancelled at least 24 hours before the end of the current period. Manage or cancel it in your Apple Account settings.
 
-Terms of Use: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
-Privacy Policy: [PRIVACY POLICY URL]
+Terms of Use: https://harda.xata.agency/terms
+Privacy Policy: https://harda.xata.agency/privacy
 ```
 
 **Keywords**
@@ -211,10 +212,10 @@ Ein Dinosaurier, der ab und zu dein Training kommentiert. Ewig Pause? Seit einem
 kg oder lb. Du entscheidest.
 
 HARDA PREMIUM
-Für Harda ist ein Harda Premium-Abo erforderlich, monatlich oder jährlich. Neue Abonnenten starten mit einem kostenlosen Testzeitraum. Die Zahlung wird bei Bestätigung des Kaufs über deinen Apple Account abgerechnet. Das Abo verlängert sich automatisch, wenn es nicht mindestens 24 Stunden vor Ende des aktuellen Zeitraums gekündigt wird. Verwalten oder kündigen kannst du es in den Einstellungen deines Apple Accounts.
+Für Harda ist ein Harda Premium-Abo erforderlich, monatlich oder jährlich. Das Jahresabo beginnt für berechtigte Neukunden mit einem kostenlosen Testzeitraum. Die Zahlung wird bei Bestätigung des Kaufs über deinen Apple Account abgerechnet. Das Abo verlängert sich automatisch, wenn es nicht mindestens 24 Stunden vor Ende des aktuellen Zeitraums gekündigt wird. Verwalten oder kündigen kannst du es in den Einstellungen deines Apple Accounts.
 
-Nutzungsbedingungen: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
-Datenschutzerklärung: [PRIVACY POLICY URL]
+Nutzungsbedingungen: https://harda.xata.agency/terms
+Datenschutzerklärung: https://harda.xata.agency/privacy
 ```
 
 **Keywords**
@@ -273,10 +274,10 @@ Un dinosaure qui passe de temps en temps commenter ton entraînement. Repos inte
 kg ou lb, à toi de choisir.
 
 HARDA PREMIUM
-Harda nécessite un abonnement Harda Premium, mensuel ou annuel. Les nouveaux abonnés commencent par un essai gratuit. Le paiement est débité de ton compte Apple à la confirmation de l'achat. L'abonnement se renouvelle automatiquement, sauf s'il est annulé au moins 24 heures avant la fin de la période en cours. Gère-le ou annule-le dans les réglages de ton compte Apple.
+Harda nécessite un abonnement Harda Premium, mensuel ou annuel. L'abonnement annuel commence par un essai gratuit pour les nouveaux abonnés éligibles. Le paiement est débité de ton compte Apple à la confirmation de l'achat. L'abonnement se renouvelle automatiquement, sauf s'il est annulé au moins 24 heures avant la fin de la période en cours. Gère-le ou annule-le dans les réglages de ton compte Apple.
 
-Conditions d'utilisation : https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
-Politique de confidentialité : [PRIVACY POLICY URL]
+Conditions d'utilisation : https://harda.xata.agency/terms
+Politique de confidentialité : https://harda.xata.agency/privacy
 ```
 
 **Keywords**
@@ -335,10 +336,10 @@ Un dinosaurio que de vez en cuando comenta tu entrenamiento. ¿Descansos eternos
 kg o lb. Tú eliges.
 
 HARDA PREMIUM
-Harda requiere una suscripción a Harda Premium, mensual o anual. Los nuevos suscriptores empiezan con una prueba gratuita. El pago se carga en tu cuenta de Apple al confirmar la compra. La suscripción se renueva automáticamente salvo que se cancele al menos 24 horas antes del final del periodo actual. Gestiónala o cancélala en los ajustes de tu cuenta de Apple.
+Harda requiere una suscripción a Harda Premium, mensual o anual. El plan anual empieza con una prueba gratuita para los nuevos suscriptores que cumplan los requisitos. El pago se carga en tu cuenta de Apple al confirmar la compra. La suscripción se renueva automáticamente salvo que se cancele al menos 24 horas antes del final del periodo actual. Gestiónala o cancélala en los ajustes de tu cuenta de Apple.
 
-Condiciones de uso: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
-Política de privacidad: [PRIVACY POLICY URL]
+Condiciones de uso: https://harda.xata.agency/terms
+Política de privacidad: https://harda.xata.agency/privacy
 ```
 
 **Keywords**
@@ -397,10 +398,10 @@ Un dinosauro che ogni tanto commenta il tuo allenamento. Recuperi infiniti? Stes
 kg o lb. Scegli tu.
 
 HARDA PREMIUM
-Harda richiede un abbonamento Harda Premium, mensile o annuale. I nuovi abbonati iniziano con una prova gratuita. Il pagamento viene addebitato sul tuo Apple Account alla conferma dell'acquisto. L'abbonamento si rinnova automaticamente se non viene disdetto almeno 24 ore prima della fine del periodo in corso. Puoi gestirlo o disdirlo nelle impostazioni del tuo Apple Account.
+Harda richiede un abbonamento Harda Premium, mensile o annuale. Il piano annuale inizia con una prova gratuita per i nuovi abbonati idonei. Il pagamento viene addebitato sul tuo Apple Account alla conferma dell'acquisto. L'abbonamento si rinnova automaticamente se non viene disdetto almeno 24 ore prima della fine del periodo in corso. Puoi gestirlo o disdirlo nelle impostazioni del tuo Apple Account.
 
-Termini di utilizzo: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
-Informativa sulla privacy: [PRIVACY POLICY URL]
+Termini di utilizzo: https://harda.xata.agency/terms
+Informativa sulla privacy: https://harda.xata.agency/privacy
 ```
 
 **Keywords**
@@ -459,10 +460,10 @@ Um dinossauro que de vez em quando comenta seu treino. Descanso sem fim? O mesmo
 kg ou lb. Você escolhe.
 
 HARDA PREMIUM
-O Harda exige uma assinatura Harda Premium, mensal ou anual. Novos assinantes começam com um teste grátis. O pagamento é cobrado na sua Conta Apple na confirmação da compra. A assinatura é renovada automaticamente, a menos que seja cancelada pelo menos 24 horas antes do fim do período atual. Gerencie ou cancele nos ajustes da sua Conta Apple.
+O Harda exige uma assinatura Harda Premium, mensal ou anual. O plano anual começa com um teste grátis para novos assinantes elegíveis. O pagamento é cobrado na sua Conta Apple na confirmação da compra. A assinatura é renovada automaticamente, a menos que seja cancelada pelo menos 24 horas antes do fim do período atual. Gerencie ou cancele nos ajustes da sua Conta Apple.
 
-Termos de Uso: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
-Política de Privacidade: [PRIVACY POLICY URL]
+Termos de Uso: https://harda.xata.agency/terms
+Política de Privacidade: https://harda.xata.agency/privacy
 ```
 
 **Keywords**
@@ -521,10 +522,10 @@ Dinozaur, który co jakiś czas komentuje twój trening. Przerwa w nieskończono
 kg czy lb? Ty decydujesz.
 
 HARDA PREMIUM
-Korzystanie z Harda wymaga subskrypcji Harda Premium, miesięcznej lub rocznej. Nowi subskrybenci zaczynają od bezpłatnego okresu próbnego. Płatność jest pobierana z konta Apple w momencie potwierdzenia zakupu. Subskrypcja odnawia się automatycznie, jeśli nie zostanie anulowana co najmniej 24 godziny przed końcem bieżącego okresu. Możesz nią zarządzać lub ją anulować w ustawieniach konta Apple.
+Korzystanie z Harda wymaga subskrypcji Harda Premium, miesięcznej lub rocznej. Plan roczny zaczyna się od bezpłatnego okresu próbnego dla uprawnionych nowych subskrybentów. Płatność jest pobierana z konta Apple w momencie potwierdzenia zakupu. Subskrypcja odnawia się automatycznie, jeśli nie zostanie anulowana co najmniej 24 godziny przed końcem bieżącego okresu. Możesz nią zarządzać lub ją anulować w ustawieniach konta Apple.
 
-Warunki korzystania: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
-Polityka prywatności: [PRIVACY POLICY URL]
+Warunki korzystania: https://harda.xata.agency/terms
+Polityka prywatności: https://harda.xata.agency/privacy
 ```
 
 **Keywords**
@@ -583,10 +584,10 @@ Arada bir antrenmanına yorum yapan bir dinozor. Bitmeyen dinlenmeler mi? Bir ay
 kg ya da lb. Sen seç.
 
 HARDA PREMIUM
-Harda, aylık veya yıllık Harda Premium aboneliği gerektirir. Yeni aboneler ücretsiz deneme süresiyle başlar. Ödeme, satın alma onaylandığında Apple Hesabınızdan tahsil edilir. Abonelik, mevcut dönemin bitiminden en az 24 saat önce iptal edilmezse otomatik olarak yenilenir. Aboneliğinizi Apple Hesabı ayarlarınızdan yönetebilir veya iptal edebilirsiniz.
+Harda, aylık veya yıllık Harda Premium aboneliği gerektirir. Yıllık plan, uygun yeni aboneler için ücretsiz deneme süresiyle başlar. Ödeme, satın alma onaylandığında Apple Hesabınızdan tahsil edilir. Abonelik, mevcut dönemin bitiminden en az 24 saat önce iptal edilmezse otomatik olarak yenilenir. Aboneliğinizi Apple Hesabı ayarlarınızdan yönetebilir veya iptal edebilirsiniz.
 
-Kullanım Koşulları: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
-Gizlilik Politikası: [PRIVACY POLICY URL]
+Kullanım Koşulları: https://harda.xata.agency/terms
+Gizlilik Politikası: https://harda.xata.agency/privacy
 ```
 
 **Keywords**
@@ -645,10 +646,10 @@ Dinosaurus, který občas okomentuje tvůj trénink. Nekonečné pauzy? Měsíc 
 kg, nebo lb? Vyber si.
 
 HARDA PREMIUM
-Harda vyžaduje předplatné Harda Premium, měsíční nebo roční. Noví předplatitelé začínají zkušební verzí zdarma. Platba se strhne z tvého účtu Apple po potvrzení nákupu. Předplatné se automaticky obnovuje, pokud ho nezrušíš alespoň 24 hodin před koncem aktuálního období. Spravovat nebo zrušit ho můžeš v nastavení účtu Apple.
+Harda vyžaduje předplatné Harda Premium, měsíční nebo roční. Roční předplatné začíná pro oprávněné nové předplatitele zkušební dobou zdarma. Platba se strhne z tvého účtu Apple po potvrzení nákupu. Předplatné se automaticky obnovuje, pokud ho nezrušíš alespoň 24 hodin před koncem aktuálního období. Spravovat nebo zrušit ho můžeš v nastavení účtu Apple.
 
-Podmínky použití: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
-Zásady ochrany osobních údajů: [PRIVACY POLICY URL]
+Podmínky použití: https://harda.xata.agency/terms
+Zásady ochrany osobních údajů: https://harda.xata.agency/privacy
 ```
 
 **Keywords**
@@ -707,10 +708,10 @@ GYM BRO: ТРЕНУЙСЯ З ДРУЗЯМИ
 Кілограми чи фунти — вирішуй сам.
 
 HARDA PREMIUM
-Для користування Harda потрібна підписка Harda Premium — щомісячна або щорічна. Нові підписники починають із безкоштовного пробного періоду. Оплата списується з вашого облікового запису Apple після підтвердження покупки. Підписка поновлюється автоматично, якщо її не скасувати щонайменше за 24 години до кінця поточного періоду. Керувати підпискою або скасувати її можна в налаштуваннях облікового запису Apple.
+Для користування Harda потрібна підписка Harda Premium — щомісячна або щорічна. Річний план починається з безкоштовного пробного періоду для нових підписників, які мають на нього право. Оплата списується з вашого облікового запису Apple після підтвердження покупки. Підписка поновлюється автоматично, якщо її не скасувати щонайменше за 24 години до кінця поточного періоду. Керувати підпискою або скасувати її можна в налаштуваннях облікового запису Apple.
 
-Умови використання: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
-Політика конфіденційності: [PRIVACY POLICY URL]
+Умови використання: https://harda.xata.agency/terms
+Політика конфіденційності: https://harda.xata.agency/privacy
 ```
 
 **Keywords**
@@ -769,10 +770,10 @@ GYM BRO: ТРЕНИРУЙСЯ С ДРУЗЬЯМИ
 Килограммы или фунты — решай сам.
 
 HARDA PREMIUM
-Для использования Harda нужна подписка Harda Premium — ежемесячная или ежегодная. Новые подписчики начинают с бесплатного пробного периода. Оплата списывается с вашей учётной записи Apple при подтверждении покупки. Подписка продлевается автоматически, если её не отменить как минимум за 24 часа до конца текущего периода. Управлять подпиской или отменить её можно в настройках учётной записи Apple.
+Для использования Harda нужна подписка Harda Premium — ежемесячная или ежегодная. Годовой план начинается с бесплатного пробного периода для новых подписчиков, которые имеют на него право. Оплата списывается с вашей учётной записи Apple при подтверждении покупки. Подписка продлевается автоматически, если её не отменить как минимум за 24 часа до конца текущего периода. Управлять подпиской или отменить её можно в настройках учётной записи Apple.
 
-Условия использования: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
-Политика конфиденциальности: [PRIVACY POLICY URL]
+Условия использования: https://harda.xata.agency/terms
+Политика конфиденциальности: https://harda.xata.agency/privacy
 ```
 
 **Keywords**
@@ -831,10 +832,10 @@ Een dinosaurus die af en toe commentaar geeft op je training. Eindeloos rusten? 
 kg of lb. Jij kiest.
 
 HARDA PREMIUM
-Voor Harda is een Harda Premium-abonnement nodig, per maand of per jaar. Nieuwe abonnees beginnen met een gratis proefperiode. De betaling wordt bij bevestiging van de aankoop in rekening gebracht via je Apple Account. Het abonnement wordt automatisch verlengd, tenzij het minstens 24 uur voor het einde van de huidige periode wordt opgezegd. Beheer of zeg het op in de instellingen van je Apple Account.
+Voor Harda is een Harda Premium-abonnement nodig, per maand of per jaar. Het jaarabonnement begint met een gratis proefperiode voor nieuwe abonnees die daarvoor in aanmerking komen. De betaling wordt bij bevestiging van de aankoop in rekening gebracht via je Apple Account. Het abonnement wordt automatisch verlengd, tenzij het minstens 24 uur voor het einde van de huidige periode wordt opgezegd. Beheer of zeg het op in de instellingen van je Apple Account.
 
-Gebruiksvoorwaarden: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
-Privacybeleid: [PRIVACY POLICY URL]
+Gebruiksvoorwaarden: https://harda.xata.agency/terms
+Privacybeleid: https://harda.xata.agency/privacy
 ```
 
 **Keywords**
