@@ -540,9 +540,40 @@
         }
       ],
       "errors": [],
-      "save_status": "pushed_to_target_branch",
+      "save_status": "saved_in_cloud_workspace",
       "agent_visual_review": "not_performed",
-      "user_review": "pending"
+      "user_review": "pending",
+      "layout_edits": [
+        {
+          "task": "carousels/FIX-ENDINGS.md",
+          "status": "succeeded",
+          "prompt": "Edit the supplied existing Harda carousel ending. Keep its original headline, coral marker bars, top-left Harda logo and background exactly as they are, with their current placement and size. This is a text/background plate for a pixel-exact composite. REMOVE the phone AND hand completely, filling their old area with the existing background (plain off-white #F0F1EB). Do not generate any phone, hand, app UI or screenshot: the exact original pixels will be moved lower afterward. Do not modify the headline or create any new heading. Restore the exact body text below, in regular clean sans #2A2A2A, approximately 40px on the 1080x1350 canvas, left-aligned x=65, first line below y=839. Keep it fully visible and separate from the original headline. Use these exact lines:\nlog your workouts and know every number.\nNo other body text. Keep everything below the body plain background. Preserve all punctuation, capitalization and apostrophes. Return 1080x1350 opaque image with the same overall look. Never drop, abbreviate or change text.",
+          "prompt_file": "prompts/slide-08-fix-endings.txt",
+          "input_image": "production-assets/slide-08-before-fix-endings.png",
+          "reference_original_commit": "e9a9fdb",
+          "agent_visual_review": "not_performed",
+          "user_review": "pending",
+          "started_at": "2026-10-24T11:17:59.847603+00:00",
+          "tool": "image_gen.imagegen",
+          "finished_at": "2026-10-24T11:18:37.774699+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-8c9fc07b-2b6e-4cf5-8d16-490acd2a62fb.png",
+          "preserved_raw_file": "production-assets/slide-08-fix-endings-generated.png",
+          "result_file": "outputs/slide-08.png",
+          "body_ink_bottom_y": 909,
+          "phone_layer_top_y": 959,
+          "gap_px": 50,
+          "phone_pixels": "Original phone/hand pixels translated vertically only, no resampling; screenshot never regenerated.",
+          "headline_pixels": "Original input top region pasted unchanged.",
+          "export": {
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "alpha": false
+          }
+        }
+      ]
     }
   ],
   "archive": "LW-CAR-0037-1080x1350.zip",
@@ -553,5 +584,16 @@
     "mode": "RGB",
     "alpha": false,
     "check": "Required export metadata only; no visual QA, OCR or automatic regeneration."
+  },
+  "ending_layout_fix": {
+    "task": "carousels/FIX-ENDINGS.md",
+    "status": "complete",
+    "slide": 8,
+    "body_text": "log your workouts and know every number.",
+    "headline_preserved_through_y": 815,
+    "minimum_gap_px": 40,
+    "body_ink_bottom_y": 909,
+    "phone_layer_top_y": 959,
+    "gap_px": 50
   }
 }
