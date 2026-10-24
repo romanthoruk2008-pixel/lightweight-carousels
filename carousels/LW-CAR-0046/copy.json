@@ -1,0 +1,202 @@
+{
+  "carousel_id": "LW-CAR-0046",
+  "content_version": "1.0",
+  "status": "frozen",
+  "type": "original",
+  "design_style": "S2",
+  "language": "en",
+  "background": "CLEAN",
+  "font_family": "REF-008 look: heavy tight grotesk for headlines, clean sans for body, italic for tier lines",
+  "colors": {
+    "accent": "#F26445",
+    "background": "#F0F1EB",
+    "text_dark": "#2A2A2A",
+    "text_body_grey": "#6B6B6B",
+    "white": "#FFFFFF"
+  },
+  "source": {
+    "ref_id": null,
+    "note": "Our own positive sister of the approved LW-CAR-0038 (gym red flags), S2 look (owner request 2026-10-24).",
+    "layout_from": "carousels/LW-CAR-0022/outputs (owner-approved S2, Harda logo)"
+  },
+  "caption": {
+    "text": "Tag the greenest flag in your gym 💚👇 #gymlife #gymtips #greenflags #gymcommunity",
+    "notes": "comment prompt"
+  },
+  "slides": [
+    {
+      "n": 1,
+      "role": "hook",
+      "text": [
+        {
+          "string": "gym",
+          "style": "cover line 1, lowercase, heaviest weight, text_dark"
+        },
+        {
+          "string": "green flags",
+          "style": "cover line 2, lowercase, heaviest weight, text_dark on an accent marker bar"
+        },
+        {
+          "string": "(be this person)",
+          "style": "italic, regular, text_body_grey"
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "role": "item 1",
+      "text": [
+        {
+          "string": "#1",
+          "style": "label before the headline, heaviest weight, text_dark"
+        },
+        {
+          "string": "re-racks every weight",
+          "style": "heaviest weight, lowercase, text_dark on an accent marker bar"
+        },
+        {
+          "string": "leaves the gym better than they found it.",
+          "style": "regular, text_dark, up to two lines"
+        }
+      ],
+      "illustration": "sliding a weight plate back onto a weight tree, front three-quarter view"
+    },
+    {
+      "n": 3,
+      "role": "item 2",
+      "text": [
+        {
+          "string": "#2",
+          "style": "label before the headline, heaviest weight, text_dark"
+        },
+        {
+          "string": "trains legs every week",
+          "style": "heaviest weight, lowercase, text_dark on an accent marker bar"
+        },
+        {
+          "string": "no skipping, no excuses.",
+          "style": "regular, text_dark, up to two lines"
+        }
+      ],
+      "illustration": "barbell back squat in a rack, bottom position, side view"
+    },
+    {
+      "n": 4,
+      "role": "item 3",
+      "text": [
+        {
+          "string": "#3",
+          "style": "label before the headline, heaviest weight, text_dark"
+        },
+        {
+          "string": "helps beginners",
+          "style": "heaviest weight, lowercase, text_dark on an accent marker bar"
+        },
+        {
+          "string": "only when they ask, and always kindly.",
+          "style": "regular, text_dark, up to two lines"
+        }
+      ],
+      "illustration": "one figure calmly showing a second, slimmer figure how to hold a dumbbell, both friendly, front view"
+    },
+    {
+      "n": 5,
+      "role": "item 4",
+      "text": [
+        {
+          "string": "#4",
+          "style": "label before the headline, heaviest weight, text_dark"
+        },
+        {
+          "string": "warms up first",
+          "style": "heaviest weight, lowercase, text_dark on an accent marker bar"
+        },
+        {
+          "string": "light sets before the heavy ones, every time.",
+          "style": "regular, text_dark, up to two lines"
+        }
+      ],
+      "illustration": "barbell back squat with an empty bar, relaxed, side view"
+    },
+    {
+      "n": 6,
+      "role": "item 5",
+      "text": [
+        {
+          "string": "#5",
+          "style": "label before the headline, heaviest weight, text_dark"
+        },
+        {
+          "string": "shares the equipment",
+          "style": "heaviest weight, lowercase, text_dark on an accent marker bar"
+        },
+        {
+          "string": "lets you work in between sets.",
+          "style": "regular, text_dark, up to two lines"
+        }
+      ],
+      "illustration": "one figure stepping away from a cable machine and gesturing to a second figure to use it, front view"
+    },
+    {
+      "n": 7,
+      "role": "item 6",
+      "text": [
+        {
+          "string": "#6",
+          "style": "label before the headline, heaviest weight, text_dark"
+        },
+        {
+          "string": "hypes up other people",
+          "style": "heaviest weight, lowercase, text_dark on an accent marker bar"
+        },
+        {
+          "string": "cheers on strangers like old friends.",
+          "style": "regular, text_dark, up to two lines"
+        }
+      ],
+      "illustration": "clapping next to a second figure who just finished a deadlift at the top, front view"
+    },
+    {
+      "n": 8,
+      "role": "item 7",
+      "text": [
+        {
+          "string": "#7",
+          "style": "label before the headline, heaviest weight, text_dark"
+        },
+        {
+          "string": "tracks every workout",
+          "style": "heaviest weight, lowercase, text_dark on an accent marker bar"
+        },
+        {
+          "string": "knows their numbers without guessing.",
+          "style": "regular, text_dark, up to two lines"
+        }
+      ],
+      "illustration": "standing next to a squat rack, looking down at a phone held in both hands (screen not visible), calm, front view"
+    },
+    {
+      "n": 9,
+      "role": "product ending",
+      "text": [
+        {
+          "string": "be the green flag. track every set in harda.",
+          "style": "large, lowercase, heaviest weight, text_dark; accent marker bars under 'be the green flag' and 'every set'"
+        },
+        {
+          "string": "log your workouts and always know what to beat next time.",
+          "style": "regular, text_dark, two lines"
+        }
+      ],
+      "screen": "real Harda Progress / Muscle balance screenshot, the same one as in approved LW-CAR-0022 slide 19",
+      "product_claims_checked_against_real_screen": [
+        "workouts are logged",
+        "muscle balance screen (LW-CAR-0022 slide 19)"
+      ]
+    }
+  ],
+  "claims_to_verify": [
+    "Etiquette and habits only, no numbers or citations.",
+    "Ending: workout logging only."
+  ]
+}

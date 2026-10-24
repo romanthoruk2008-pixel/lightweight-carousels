@@ -90,3 +90,4 @@ Claude, хмарна генерація, канал точного вставл�
 - Пачка 2026-10-22: BATCH-A (0027 glutes tier list, 0028 stop doing this, 0029 why you're not growing) і BATCH-B (0030 underrated exercises, 0031 WEAK CORE? у стилі S1, 0032 ranking every gym split). Генератори роблять усе одразу, без зупинок на перевірку.
 - Пачка 2026-10-23: BATCH-C (0033 signs you're making progress, 0034 not a beginner anymore, 0035 home workout tier list, 0036 secretly killing your gains, 0037 beginner vs advanced), один агент робить усе одразу.
 - Пачка 2026-10-23: BATCH-D = спершу FIX-ENDINGS (7 фіналів), потім 0038 gym red flags, 0039 unwritten gym rules, 0040 why you keep quitting the gym, 0041 types of people at the gym, 0042 look bigger in a t-shirt.
+- Пачка 2026-10-24: BATCH-E (0043 favorite exercise says about you, 0044 things only gym people understand, 0045 gym bro translator, 0046 gym green flags, 0047 look better shirtless). 0038–0042 готові, 7 старих фіналів виправлені.

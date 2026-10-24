@@ -1,0 +1,202 @@
+{
+  "carousel_id": "LW-CAR-0044",
+  "content_version": "1.0",
+  "status": "frozen",
+  "type": "original",
+  "design_style": "S2",
+  "language": "en",
+  "background": "CLEAN",
+  "font_family": "REF-008 look: heavy tight grotesk for headlines, clean sans for body, italic for tier lines",
+  "colors": {
+    "accent": "#F26445",
+    "background": "#F0F1EB",
+    "text_dark": "#2A2A2A",
+    "text_body_grey": "#6B6B6B",
+    "white": "#FFFFFF"
+  },
+  "source": {
+    "ref_id": null,
+    "note": "Our own relatable gym-humour carousel in the S2 look (owner request 2026-10-24).",
+    "layout_from": "carousels/LW-CAR-0022/outputs (owner-approved S2, Harda logo)"
+  },
+  "caption": {
+    "text": "Which one is too real? 👇 Send it to your gym buddy #gymhumor #gymlife #legday #gymtok",
+    "notes": "comment prompt"
+  },
+  "slides": [
+    {
+      "n": 1,
+      "role": "hook",
+      "text": [
+        {
+          "string": "things only",
+          "style": "cover line 1, lowercase, heaviest weight, text_dark"
+        },
+        {
+          "string": "gym people understand",
+          "style": "cover line 2, lowercase, heaviest weight, text_dark on an accent marker bar"
+        },
+        {
+          "string": "(send to your gym buddy)",
+          "style": "italic, regular, text_body_grey"
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "role": "item 1",
+      "text": [
+        {
+          "string": "#1",
+          "style": "label before the headline, heaviest weight, text_dark"
+        },
+        {
+          "string": "the stairs after leg day",
+          "style": "heaviest weight, lowercase, text_dark on an accent marker bar"
+        },
+        {
+          "string": "every step is a negotiation.",
+          "style": "regular, text_dark, up to two lines"
+        }
+      ],
+      "illustration": "walking down a few plain steps, holding a rail, knees wobbly, small #F26445 shake lines near the legs, side view"
+    },
+    {
+      "n": 3,
+      "role": "item 2",
+      "text": [
+        {
+          "string": "#2",
+          "style": "label before the headline, heaviest weight, text_dark"
+        },
+        {
+          "string": "someone takes your bench",
+          "style": "heaviest weight, lowercase, text_dark on an accent marker bar"
+        },
+        {
+          "string": "mid-rest. you were just drinking water.",
+          "style": "regular, text_dark, up to two lines"
+        }
+      ],
+      "illustration": "front view: one figure holding a water bottle and staring in disbelief at a second figure lying on a flat bench with dumbbells"
+    },
+    {
+      "n": 4,
+      "role": "item 3",
+      "text": [
+        {
+          "string": "#3",
+          "style": "label before the headline, heaviest weight, text_dark"
+        },
+        {
+          "string": "‘one more set’",
+          "style": "heaviest weight, lowercase, text_dark on an accent marker bar"
+        },
+        {
+          "string": "said three sets ago.",
+          "style": "regular, text_dark, up to two lines"
+        }
+      ],
+      "illustration": "standing next to a squat rack, holding up one finger, out of breath, front view"
+    },
+    {
+      "n": 5,
+      "role": "item 4",
+      "text": [
+        {
+          "string": "#4",
+          "style": "label before the headline, heaviest weight, text_dark"
+        },
+        {
+          "string": "forgetting your headphones",
+          "style": "heaviest weight, lowercase, text_dark on an accent marker bar"
+        },
+        {
+          "string": "the whole workout feels twice as long.",
+          "style": "regular, text_dark, up to two lines"
+        }
+      ],
+      "illustration": "standing in the gym patting the empty shorts pockets, worried, front view"
+    },
+    {
+      "n": 6,
+      "role": "item 5",
+      "text": [
+        {
+          "string": "#5",
+          "style": "label before the headline, heaviest weight, text_dark"
+        },
+        {
+          "string": "the pump in the mirror",
+          "style": "heaviest weight, lowercase, text_dark on an accent marker bar"
+        },
+        {
+          "string": "the best you’ll ever look, until you leave the gym.",
+          "style": "regular, text_dark, up to two lines"
+        }
+      ],
+      "illustration": "flexing both arms in front of a plain mirror, the reflection visible and proud, side view"
+    },
+    {
+      "n": 7,
+      "role": "item 6",
+      "text": [
+        {
+          "string": "#6",
+          "style": "label before the headline, heaviest weight, text_dark"
+        },
+        {
+          "string": "the empty gym at 6am",
+          "style": "heaviest weight, lowercase, text_dark on an accent marker bar"
+        },
+        {
+          "string": "total peace. no queue for the rack.",
+          "style": "regular, text_dark, up to two lines"
+        }
+      ],
+      "illustration": "alone in front of an empty squat rack with the bar loaded, arms open in relief, front view"
+    },
+    {
+      "n": 8,
+      "role": "item 7",
+      "text": [
+        {
+          "string": "#7",
+          "style": "label before the headline, heaviest weight, text_dark"
+        },
+        {
+          "string": "a new personal best",
+          "style": "heaviest weight, lowercase, text_dark on an accent marker bar"
+        },
+        {
+          "string": "you tell everyone. nobody cares. still worth it.",
+          "style": "regular, text_dark, up to two lines"
+        }
+      ],
+      "illustration": "standing next to a loaded barbell, both fists raised in celebration, small #F26445 sparks, front view"
+    },
+    {
+      "n": 9,
+      "role": "product ending",
+      "text": [
+        {
+          "string": "harda tracks every set you lift, so your best sets are always on record.",
+          "style": "large, lowercase, heaviest weight, text_dark; accent marker bars under 'every set you lift' and 'always on record'"
+        },
+        {
+          "string": "log your workouts and beat them next time.",
+          "style": "regular, text_dark, two lines"
+        }
+      ],
+      "screen": "real Harda Progress / Muscle balance screenshot, the same one as in approved LW-CAR-0022 slide 19",
+      "product_claims_checked_against_real_screen": [
+        "workouts are logged",
+        "muscle balance screen (LW-CAR-0022 slide 19)"
+      ]
+    }
+  ],
+  "claims_to_verify": [
+    "Humour only, no numbers or citations.",
+    "Ending: 'your best sets are always on record' relies on workout logging only; no PR feature is claimed."
+  ]
+}

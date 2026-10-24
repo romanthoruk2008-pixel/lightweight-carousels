@@ -1,0 +1,230 @@
+{
+  "carousel_id": "LW-CAR-0045",
+  "content_version": "1.0",
+  "status": "frozen",
+  "type": "original",
+  "design_style": "S2",
+  "language": "en",
+  "background": "CLEAN",
+  "font_family": "REF-008 look: heavy tight grotesk for headlines, clean sans for body, italic for tier lines",
+  "colors": {
+    "accent": "#F26445",
+    "background": "#F0F1EB",
+    "text_dark": "#2A2A2A",
+    "text_body_grey": "#6B6B6B",
+    "white": "#FFFFFF"
+  },
+  "source": {
+    "ref_id": null,
+    "note": "Our own 'gym bro translator' humour carousel in the S2 look (owner request 2026-10-24).",
+    "layout_from": "carousels/LW-CAR-0022/outputs (owner-approved S2, Harda logo)"
+  },
+  "caption": {
+    "text": "Which one have you said? 👇 Tag a gym bro #gymbro #gymhumor #gymlife #gymtok",
+    "notes": "comment prompt"
+  },
+  "slides": [
+    {
+      "n": 1,
+      "role": "hook",
+      "text": [
+        {
+          "string": "gym bro",
+          "style": "cover line 1, lowercase, heaviest weight, text_dark"
+        },
+        {
+          "string": "translator",
+          "style": "cover line 2, lowercase, heaviest weight, text_dark on an accent marker bar"
+        },
+        {
+          "string": "(what they say vs what they mean)",
+          "style": "italic, regular, text_body_grey"
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "role": "item 1",
+      "text": [
+        {
+          "string": "they say:",
+          "style": "small label, bold lowercase, accent"
+        },
+        {
+          "string": "“light weight, baby”",
+          "style": "heaviest weight, lowercase, text_dark on an accent marker bar"
+        },
+        {
+          "string": "means:",
+          "style": "bold, lowercase, accent"
+        },
+        {
+          "string": "this is the heaviest thing i’ve ever lifted.",
+          "style": "regular, text_dark, after 'means:'"
+        }
+      ],
+      "illustration": "barbell back squat with a very heavily loaded bar, face straining, side view"
+    },
+    {
+      "n": 3,
+      "role": "item 2",
+      "text": [
+        {
+          "string": "they say:",
+          "style": "small label, bold lowercase, accent"
+        },
+        {
+          "string": "“just warming up”",
+          "style": "heaviest weight, lowercase, text_dark on an accent marker bar"
+        },
+        {
+          "string": "means:",
+          "style": "bold, lowercase, accent"
+        },
+        {
+          "string": "this is my max. please don’t ask.",
+          "style": "regular, text_dark, after 'means:'"
+        }
+      ],
+      "illustration": "flat barbell bench press, arms shaking, small #F26445 shake lines, side three-quarter view"
+    },
+    {
+      "n": 4,
+      "role": "item 3",
+      "text": [
+        {
+          "string": "they say:",
+          "style": "small label, bold lowercase, accent"
+        },
+        {
+          "string": "“i’m on a cut”",
+          "style": "heaviest weight, lowercase, text_dark on an accent marker bar"
+        },
+        {
+          "string": "means:",
+          "style": "bold, lowercase, accent"
+        },
+        {
+          "string": "i ate a whole pizza yesterday.",
+          "style": "regular, text_dark, after 'means:'"
+        }
+      ],
+      "illustration": "sitting on a gym bench holding a protein shaker, looking away guiltily, side view"
+    },
+    {
+      "n": 5,
+      "role": "item 4",
+      "text": [
+        {
+          "string": "they say:",
+          "style": "small label, bold lowercase, accent"
+        },
+        {
+          "string": "“it’s a deload week”",
+          "style": "heaviest weight, lowercase, text_dark on an accent marker bar"
+        },
+        {
+          "string": "means:",
+          "style": "bold, lowercase, accent"
+        },
+        {
+          "string": "i didn’t feel like going heavy.",
+          "style": "regular, text_dark, after 'means:'"
+        }
+      ],
+      "illustration": "lifting a very light pair of dumbbells, relaxed, front view"
+    },
+    {
+      "n": 6,
+      "role": "item 5",
+      "text": [
+        {
+          "string": "they say:",
+          "style": "small label, bold lowercase, accent"
+        },
+        {
+          "string": "“i don’t need a spotter”",
+          "style": "heaviest weight, lowercase, text_dark on an accent marker bar"
+        },
+        {
+          "string": "means:",
+          "style": "bold, lowercase, accent"
+        },
+        {
+          "string": "please stay close. just in case.",
+          "style": "regular, text_dark, after 'means:'"
+        }
+      ],
+      "illustration": "lying on a flat bench under a loaded bar, glancing sideways at a second figure standing nearby, side view"
+    },
+    {
+      "n": 7,
+      "role": "item 6",
+      "text": [
+        {
+          "string": "they say:",
+          "style": "small label, bold lowercase, accent"
+        },
+        {
+          "string": "“one more rep”",
+          "style": "heaviest weight, lowercase, text_dark on an accent marker bar"
+        },
+        {
+          "string": "means:",
+          "style": "bold, lowercase, accent"
+        },
+        {
+          "string": "four more reps.",
+          "style": "regular, text_dark, after 'means:'"
+        }
+      ],
+      "illustration": "standing dumbbell curl, holding up one finger with the free hand, front view"
+    },
+    {
+      "n": 8,
+      "role": "item 7",
+      "text": [
+        {
+          "string": "they say:",
+          "style": "small label, bold lowercase, accent"
+        },
+        {
+          "string": "“i train for strength, not looks”",
+          "style": "heaviest weight, lowercase, text_dark on an accent marker bar"
+        },
+        {
+          "string": "means:",
+          "style": "bold, lowercase, accent"
+        },
+        {
+          "string": "still checks the mirror after every set.",
+          "style": "regular, text_dark, after 'means:'"
+        }
+      ],
+      "illustration": "standing next to a squat rack, glancing at a plain mirror and flexing slightly, side view"
+    },
+    {
+      "n": 9,
+      "role": "product ending",
+      "text": [
+        {
+          "string": "harda tracks every set you lift, so your numbers never need translating.",
+          "style": "large, lowercase, heaviest weight, text_dark; accent marker bars under 'every set you lift' and 'never need translating'"
+        },
+        {
+          "string": "log your workouts and know what you really lifted.",
+          "style": "regular, text_dark, two lines"
+        }
+      ],
+      "screen": "real Harda Progress / Muscle balance screenshot, the same one as in approved LW-CAR-0022 slide 19",
+      "product_claims_checked_against_real_screen": [
+        "workouts are logged",
+        "muscle balance screen (LW-CAR-0022 slide 19)"
+      ]
+    }
+  ],
+  "claims_to_verify": [
+    "Humour only, no numbers or citations.",
+    "Ending: workout logging only."
+  ]
+}
