@@ -1,0 +1,164 @@
+{
+  "carousel_id": "LW-CAR-0048",
+  "content_version": "1.0",
+  "status": "frozen",
+  "type": "original",
+  "design_style": "S2",
+  "language": "en",
+  "background": "CLEAN",
+  "font_family": "REF-008 look: heavy tight grotesk for headlines, clean sans for body, italic for tier lines",
+  "colors": {
+    "accent": "#F26445",
+    "background": "#F0F1EB",
+    "text_dark": "#2A2A2A",
+    "text_body_grey": "#6B6B6B",
+    "white": "#FFFFFF"
+  },
+  "source": {
+    "ref_id": null,
+    "note": "Our own '5 stages of leg day' humour story in the S2 look (owner request 2026-10-24).",
+    "layout_from": "carousels/LW-CAR-0022/outputs (owner-approved S2, Harda logo)"
+  },
+  "caption": {
+    "text": "Which stage are you in right now? 👇 #legday #gymhumor #gymtok #legworkout",
+    "notes": "comment prompt"
+  },
+  "slides": [
+    {
+      "n": 1,
+      "role": "hook",
+      "text": [
+        {
+          "string": "the 5 stages",
+          "style": "cover line 1, lowercase, heaviest weight, text_dark"
+        },
+        {
+          "string": "of leg day",
+          "style": "cover line 2, lowercase, heaviest weight, text_dark on an accent marker bar"
+        },
+        {
+          "string": "(you know them all)",
+          "style": "italic, regular, text_body_grey"
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "role": "item 1",
+      "text": [
+        {
+          "string": "stage 1",
+          "style": "small label, bold lowercase, accent"
+        },
+        {
+          "string": "denial",
+          "style": "heaviest weight, lowercase, text_dark on an accent marker bar"
+        },
+        {
+          "string": "“my legs get enough work from walking.”",
+          "style": "regular, text_dark, up to two lines"
+        }
+      ],
+      "illustration": "sitting on a flat bench, turned away from a squat rack, waving it off with one hand, side view"
+    },
+    {
+      "n": 3,
+      "role": "item 2",
+      "text": [
+        {
+          "string": "stage 2",
+          "style": "small label, bold lowercase, accent"
+        },
+        {
+          "string": "anger",
+          "style": "heaviest weight, lowercase, text_dark on an accent marker bar"
+        },
+        {
+          "string": "“who even invented squats?”",
+          "style": "regular, text_dark, up to two lines"
+        }
+      ],
+      "illustration": "under a loaded barbell in a squat rack, frowning and gripping the bar hard, small #F26445 anger lines near the head, front view"
+    },
+    {
+      "n": 4,
+      "role": "item 3",
+      "text": [
+        {
+          "string": "stage 3",
+          "style": "small label, bold lowercase, accent"
+        },
+        {
+          "string": "bargaining",
+          "style": "heaviest weight, lowercase, text_dark on an accent marker bar"
+        },
+        {
+          "string": "“okay, just leg press. and we skip calves.”",
+          "style": "regular, text_dark, up to two lines"
+        }
+      ],
+      "illustration": "sitting on a 45-degree leg press machine, holding up one finger as if negotiating, side view"
+    },
+    {
+      "n": 5,
+      "role": "item 4",
+      "text": [
+        {
+          "string": "stage 4",
+          "style": "small label, bold lowercase, accent"
+        },
+        {
+          "string": "depression",
+          "style": "heaviest weight, lowercase, text_dark on an accent marker bar"
+        },
+        {
+          "string": "the stairs. every single one.",
+          "style": "regular, text_dark, up to two lines"
+        }
+      ],
+      "illustration": "walking down a few plain steps, holding the rail, slumped, knees wobbly, small #F26445 shake lines near the legs, side view"
+    },
+    {
+      "n": 6,
+      "role": "item 5",
+      "text": [
+        {
+          "string": "stage 5",
+          "style": "small label, bold lowercase, accent"
+        },
+        {
+          "string": "acceptance",
+          "style": "heaviest weight, lowercase, text_dark on an accent marker bar"
+        },
+        {
+          "string": "“see you next week, leg day.”",
+          "style": "regular, text_dark, up to two lines"
+        }
+      ],
+      "illustration": "sitting calmly on a flat bench with a towel over the shoulder, giving a small nod toward a squat rack, side view"
+    },
+    {
+      "n": 7,
+      "role": "product ending",
+      "text": [
+        {
+          "string": "harda tracks every leg day, so you can’t pretend you didn’t skip it.",
+          "style": "large, lowercase, heaviest weight, text_dark; accent marker bars under 'every leg day' and 'didn’t skip it'"
+        },
+        {
+          "string": "log your workouts and check your muscle balance.",
+          "style": "regular, text_dark, two lines"
+        }
+      ],
+      "screen": "real Harda Progress / Muscle balance screenshot, the same one as in approved LW-CAR-0022 slide 19",
+      "product_claims_checked_against_real_screen": [
+        "workouts are logged",
+        "muscle balance screen (LW-CAR-0022 slide 19)"
+      ]
+    }
+  ],
+  "claims_to_verify": [
+    "Humour only, no numbers or citations.",
+    "Ending: workout logging and the Muscle balance screen (Legs axis)."
+  ]
+}

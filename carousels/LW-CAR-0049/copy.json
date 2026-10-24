@@ -1,0 +1,365 @@
+{
+  "carousel_id": "LW-CAR-0049",
+  "content_version": "1.0",
+  "status": "frozen",
+  "type": "original",
+  "design_style": "S2",
+  "language": "en",
+  "background": "CLEAN",
+  "font_family": "REF-008 look: heavy tight grotesk for headlines, clean sans for body, italic for tier lines",
+  "colors": {
+    "accent": "#F26445",
+    "background": "#F0F1EB",
+    "text_dark": "#2A2A2A",
+    "text_body_grey": "#6B6B6B",
+    "white": "#FFFFFF",
+    "tier_S": "#F26445",
+    "tier_A": "#FF9A52",
+    "tier_B": "#FFD95A",
+    "tier_C": "#3FCF5E",
+    "tier_F": "#5BDCE3",
+    "star_empty": "#D6D6D2"
+  },
+  "source": {
+    "ref_id": null,
+    "note": "Our own humorous tier list of gym excuses, from worst to actually valid, S2 look (owner request 2026-10-24).",
+    "layout_from": "carousels/LW-CAR-0022/outputs (owner-approved S2, Harda logo)"
+  },
+  "caption": {
+    "text": "Which excuse did you use this week? 👇 #gymmotivation #gymhumor #tierlist #gymtips",
+    "notes": "comment prompt"
+  },
+  "slides": [
+    {
+      "n": 1,
+      "role": "hook",
+      "text": [
+        {
+          "string": "gym excuses",
+          "style": "cover line 1, lowercase, heaviest weight, text_dark"
+        },
+        {
+          "string": "tier list",
+          "style": "cover line 2, lowercase, heaviest weight, text_dark on an accent marker bar"
+        },
+        {
+          "string": "(from worst to actually valid)",
+          "style": "italic, regular, text_body_grey"
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "role": "tier divider F",
+      "text": [
+        {
+          "string": "F",
+          "style": "white bold letter on a rounded colour tile"
+        },
+        {
+          "string": "tier",
+          "style": "lowercase, heaviest weight, text_dark"
+        },
+        {
+          "string": "not even close",
+          "style": "italic, regular, text_body_grey"
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "role": "item #10",
+      "rating_stars": 1,
+      "text": [
+        {
+          "string": "#10",
+          "style": "heaviest weight, text_dark"
+        },
+        {
+          "string": "“it’s cold outside”",
+          "style": "heaviest weight, lowercase, text_dark on an accent marker bar"
+        },
+        {
+          "string": "the gym has a roof and heating.",
+          "style": "regular, text_dark, up to two lines"
+        }
+      ],
+      "illustration": "standing at a window looking out at snow, wrapped in a blanket, side view"
+    },
+    {
+      "n": 4,
+      "role": "item #9",
+      "rating_stars": 1,
+      "text": [
+        {
+          "string": "#9",
+          "style": "heaviest weight, text_dark"
+        },
+        {
+          "string": "“i’ll start on monday”",
+          "style": "heaviest weight, lowercase, text_dark on an accent marker bar"
+        },
+        {
+          "string": "which monday, exactly?",
+          "style": "regular, text_dark, up to two lines"
+        }
+      ],
+      "illustration": "lying on a bench at home looking at a wall calendar, relaxed, side view"
+    },
+    {
+      "n": 5,
+      "role": "tier divider C",
+      "text": [
+        {
+          "string": "C",
+          "style": "white bold letter on a rounded colour tile"
+        },
+        {
+          "string": "tier",
+          "style": "lowercase, heaviest weight, text_dark"
+        },
+        {
+          "string": "we’ve all said it",
+          "style": "italic, regular, text_body_grey"
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "role": "item #8",
+      "rating_stars": 2,
+      "text": [
+        {
+          "string": "#8",
+          "style": "heaviest weight, text_dark"
+        },
+        {
+          "string": "“i’m too tired”",
+          "style": "heaviest weight, lowercase, text_dark on an accent marker bar"
+        },
+        {
+          "string": "a light session usually wakes you up.",
+          "style": "regular, text_dark, up to two lines"
+        }
+      ],
+      "illustration": "slumped on a sofa-like plain bench, yawning, front view"
+    },
+    {
+      "n": 7,
+      "role": "item #7",
+      "rating_stars": 2.5,
+      "text": [
+        {
+          "string": "#7",
+          "style": "heaviest weight, text_dark"
+        },
+        {
+          "string": "“i’m still sore”",
+          "style": "heaviest weight, lowercase, text_dark on an accent marker bar"
+        },
+        {
+          "string": "train a different muscle today.",
+          "style": "regular, text_dark, up to two lines"
+        }
+      ],
+      "illustration": "holding one sore thigh with both hands, small #F26445 ache lines, front view"
+    },
+    {
+      "n": 8,
+      "role": "tier divider B",
+      "text": [
+        {
+          "string": "B",
+          "style": "white bold letter on a rounded colour tile"
+        },
+        {
+          "string": "tier",
+          "style": "lowercase, heaviest weight, text_dark"
+        },
+        {
+          "string": "almost believable",
+          "style": "italic, regular, text_body_grey"
+        }
+      ]
+    },
+    {
+      "n": 9,
+      "role": "item #6",
+      "rating_stars": 3,
+      "text": [
+        {
+          "string": "#6",
+          "style": "heaviest weight, text_dark"
+        },
+        {
+          "string": "“i don’t have time”",
+          "style": "heaviest weight, lowercase, text_dark on an accent marker bar"
+        },
+        {
+          "string": "a short workout still counts.",
+          "style": "regular, text_dark, up to two lines"
+        }
+      ],
+      "illustration": "looking at a wristwatch, holding a gym bag, in a hurry, front three-quarter view"
+    },
+    {
+      "n": 10,
+      "role": "item #5",
+      "rating_stars": 3,
+      "text": [
+        {
+          "string": "#5",
+          "style": "heaviest weight, text_dark"
+        },
+        {
+          "string": "“the gym is too busy”",
+          "style": "heaviest weight, lowercase, text_dark on an accent marker bar"
+        },
+        {
+          "string": "go earlier, or train with what’s free.",
+          "style": "regular, text_dark, up to two lines"
+        }
+      ],
+      "illustration": "standing in front of a squat rack that is in use by another figure, waiting, front view"
+    },
+    {
+      "n": 11,
+      "role": "tier divider A",
+      "text": [
+        {
+          "string": "A",
+          "style": "white bold letter on a rounded colour tile"
+        },
+        {
+          "string": "tier",
+          "style": "lowercase, heaviest weight, text_dark"
+        },
+        {
+          "string": "fair enough",
+          "style": "italic, regular, text_body_grey"
+        }
+      ]
+    },
+    {
+      "n": 12,
+      "role": "item #4",
+      "rating_stars": 4,
+      "text": [
+        {
+          "string": "#4",
+          "style": "heaviest weight, text_dark"
+        },
+        {
+          "string": "“big deadline tomorrow”",
+          "style": "heaviest weight, lowercase, text_dark on an accent marker bar"
+        },
+        {
+          "string": "skip it, then come back the next day.",
+          "style": "regular, text_dark, up to two lines"
+        }
+      ],
+      "illustration": "sitting at a plain desk with a laptop, focused, side view (screen not visible)"
+    },
+    {
+      "n": 13,
+      "role": "item #3",
+      "rating_stars": 4.5,
+      "text": [
+        {
+          "string": "#3",
+          "style": "heaviest weight, text_dark"
+        },
+        {
+          "string": "“i barely slept”",
+          "style": "heaviest weight, lowercase, text_dark on an accent marker bar"
+        },
+        {
+          "string": "rest or go light. sleep wins.",
+          "style": "regular, text_dark, up to two lines"
+        }
+      ],
+      "illustration": "sitting on the edge of a plain bed rubbing the eyes, side view"
+    },
+    {
+      "n": 14,
+      "role": "tier divider S",
+      "text": [
+        {
+          "string": "S",
+          "style": "white bold letter on a rounded colour tile"
+        },
+        {
+          "string": "tier",
+          "style": "lowercase, heaviest weight, text_dark"
+        },
+        {
+          "string": "valid. stay home.",
+          "style": "italic, regular, text_body_grey"
+        }
+      ]
+    },
+    {
+      "n": 15,
+      "role": "item #2",
+      "rating_stars": 5,
+      "text": [
+        {
+          "string": "#2",
+          "style": "heaviest weight, text_dark"
+        },
+        {
+          "string": "“i’m actually sick”",
+          "style": "heaviest weight, lowercase, text_dark on an accent marker bar"
+        },
+        {
+          "string": "rest. the gym will still be there.",
+          "style": "regular, text_dark, up to two lines"
+        }
+      ],
+      "illustration": "sitting wrapped in a blanket with a mug, holding a tissue, front view"
+    },
+    {
+      "n": 16,
+      "role": "item #1",
+      "rating_stars": 5,
+      "text": [
+        {
+          "string": "#1",
+          "style": "heaviest weight, text_dark"
+        },
+        {
+          "string": "“i’m injured”",
+          "style": "heaviest weight, lowercase, text_dark on an accent marker bar"
+        },
+        {
+          "string": "see a professional and let it heal.",
+          "style": "regular, text_dark, up to two lines"
+        }
+      ],
+      "illustration": "sitting on a bench with one ankle wrapped in a bandage, side view"
+    },
+    {
+      "n": 17,
+      "role": "product ending",
+      "text": [
+        {
+          "string": "harda tracks every workout, so you see when the excuses start winning.",
+          "style": "large, lowercase, heaviest weight, text_dark; accent marker bars under 'every workout' and 'the excuses start winning'"
+        },
+        {
+          "string": "log your workouts and keep showing up.",
+          "style": "regular, text_dark, two lines"
+        }
+      ],
+      "screen": "real Harda Progress / Muscle balance screenshot, the same one as in approved LW-CAR-0022 slide 19",
+      "product_claims_checked_against_real_screen": [
+        "workouts are logged",
+        "muscle balance screen (LW-CAR-0022 slide 19)"
+      ]
+    }
+  ],
+  "claims_to_verify": [
+    "Humour plus common sense. The S tier tells people to rest when sick or injured and to see a professional for injuries; no medical claims beyond that.",
+    "Ending: workout logging only."
+  ]
+}

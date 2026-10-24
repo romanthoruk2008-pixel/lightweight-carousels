@@ -1,0 +1,204 @@
+{
+  "carousel_id": "LW-CAR-0052",
+  "content_version": "1.0",
+  "status": "frozen",
+  "type": "original",
+  "design_style": "S2",
+  "language": "en",
+  "background": "CLEAN",
+  "font_family": "REF-008 look: heavy tight grotesk for headlines, clean sans for body, italic for tier lines",
+  "colors": {
+    "accent": "#F26445",
+    "background": "#F0F1EB",
+    "text_dark": "#2A2A2A",
+    "text_body_grey": "#6B6B6B",
+    "white": "#FFFFFF"
+  },
+  "source": {
+    "ref_id": null,
+    "note": "Our own aesthetic carousel, the third after LW-CAR-0042 and 0047, S2 look (owner request 2026-10-24). Stated as our opinion; no survey or study is claimed.",
+    "layout_from": "carousels/LW-CAR-0022/outputs (owner-approved S2, Harda logo)"
+  },
+  "caption": {
+    "text": "Which one do you notice first? 👇 #aesthetics #gymtips #physique #musclebuilding",
+    "notes": "comment prompt"
+  },
+  "slides": [
+    {
+      "n": 1,
+      "role": "hook",
+      "text": [
+        {
+          "string": "muscles people",
+          "style": "cover line 1, lowercase, heaviest weight, text_dark"
+        },
+        {
+          "string": "notice first",
+          "style": "cover line 2, lowercase, heaviest weight, text_dark on an accent marker bar"
+        },
+        {
+          "string": "(in our opinion)",
+          "style": "italic, regular, text_body_grey"
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "role": "item 1",
+      "text": [
+        {
+          "string": "#1",
+          "style": "label before the headline, heaviest weight, text_dark"
+        },
+        {
+          "string": "shoulders",
+          "style": "heaviest weight, lowercase, text_dark on an accent marker bar"
+        },
+        {
+          "string": "they set your whole outline before anything else.",
+          "style": "regular, text_dark, up to two lines"
+        },
+        {
+          "string": "do:",
+          "style": "bold, lowercase, accent"
+        },
+        {
+          "string": "lateral raise",
+          "style": "regular, text_dark, after 'do:'"
+        }
+      ],
+      "illustration": "standing dumbbell lateral raise, arms at shoulder height, front view"
+    },
+    {
+      "n": 3,
+      "role": "item 2",
+      "text": [
+        {
+          "string": "#2",
+          "style": "label before the headline, heaviest weight, text_dark"
+        },
+        {
+          "string": "arms",
+          "style": "heaviest weight, lowercase, text_dark on an accent marker bar"
+        },
+        {
+          "string": "the part people see every time you wear a t-shirt.",
+          "style": "regular, text_dark, up to two lines"
+        },
+        {
+          "string": "do:",
+          "style": "bold, lowercase, accent"
+        },
+        {
+          "string": "chin-ups",
+          "style": "regular, text_dark, after 'do:'"
+        }
+      ],
+      "illustration": "chin-up on a bar with an underhand grip, chin over the bar, front view"
+    },
+    {
+      "n": 4,
+      "role": "item 3",
+      "text": [
+        {
+          "string": "#3",
+          "style": "label before the headline, heaviest weight, text_dark"
+        },
+        {
+          "string": "chest",
+          "style": "heaviest weight, lowercase, text_dark on an accent marker bar"
+        },
+        {
+          "string": "the first thing people see when you face them.",
+          "style": "regular, text_dark, up to two lines"
+        },
+        {
+          "string": "do:",
+          "style": "bold, lowercase, accent"
+        },
+        {
+          "string": "incline db press",
+          "style": "regular, text_dark, after 'do:'"
+        }
+      ],
+      "illustration": "dumbbell press on an incline bench, front three-quarter view"
+    },
+    {
+      "n": 5,
+      "role": "item 4",
+      "text": [
+        {
+          "string": "#4",
+          "style": "label before the headline, heaviest weight, text_dark"
+        },
+        {
+          "string": "back",
+          "style": "heaviest weight, lowercase, text_dark on an accent marker bar"
+        },
+        {
+          "string": "the shape people see when you walk away.",
+          "style": "regular, text_dark, up to two lines"
+        },
+        {
+          "string": "do:",
+          "style": "bold, lowercase, accent"
+        },
+        {
+          "string": "seated cable row",
+          "style": "regular, text_dark, after 'do:'"
+        }
+      ],
+      "illustration": "seated cable row with a V-handle, rear three-quarter view"
+    },
+    {
+      "n": 6,
+      "role": "item 5",
+      "text": [
+        {
+          "string": "#5",
+          "style": "label before the headline, heaviest weight, text_dark"
+        },
+        {
+          "string": "abs",
+          "style": "heaviest weight, lowercase, text_dark on an accent marker bar"
+        },
+        {
+          "string": "they show when your body fat is low, and people notice.",
+          "style": "regular, text_dark, up to two lines"
+        },
+        {
+          "string": "do:",
+          "style": "bold, lowercase, accent"
+        },
+        {
+          "string": "cable crunch",
+          "style": "regular, text_dark, after 'do:'"
+        }
+      ],
+      "illustration": "kneeling below a high cable, rope by the head, crunching down, side view"
+    },
+    {
+      "n": 7,
+      "role": "product ending",
+      "text": [
+        {
+          "string": "harda tracks every set you lift, so the muscles people notice get the work.",
+          "style": "large, lowercase, heaviest weight, text_dark; accent marker bars under 'every set you lift' and 'get the work'"
+        },
+        {
+          "string": "log your workouts and check your muscle balance.",
+          "style": "regular, text_dark, two lines"
+        }
+      ],
+      "screen": "real Harda Progress / Muscle balance screenshot, the same one as in approved LW-CAR-0022 slide 19",
+      "product_claims_checked_against_real_screen": [
+        "workouts are logged",
+        "muscle balance screen (LW-CAR-0022 slide 19)"
+      ]
+    }
+  ],
+  "claims_to_verify": [
+    "Opinion only: the cover says '(in our opinion)'. No survey, study or numbers.",
+    "Ending: workout logging and the Muscle balance screen."
+  ]
+}
