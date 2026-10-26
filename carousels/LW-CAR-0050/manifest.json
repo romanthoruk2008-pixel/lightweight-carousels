@@ -1,0 +1,529 @@
+{
+  "carousel_id": "LW-CAR-0050",
+  "content_version": "1.0",
+  "source_commit": "f356e3224b877af685abcb3de1a80174d592396c",
+  "batch": "BATCH-F",
+  "instructions": "prompts/codex-task.md",
+  "design_style": "S2",
+  "brand": "Harda",
+  "status": "complete_pending_owner_review",
+  "carousel_complete": true,
+  "generated_images": 9,
+  "next_slide_to_generate": null,
+  "next_action": "Owner reviews all Batch F carousels at the end. Continue the next assigned carousel without review pause.",
+  "agent_visual_review": "not_performed",
+  "user_review": "pending",
+  "logo": {
+    "file": "assets/logo/harda-logo-full.png",
+    "x": 48,
+    "y": 19,
+    "width": 218,
+    "height": 71,
+    "method": "original file composited with own alpha, no backing patch"
+  },
+  "remote_save": {
+    "remote": "origin",
+    "branch": "claude/charming-einstein-xgejky",
+    "status": "commit_and_push_requested",
+    "commit_lookup": "git log -1 -- carousels/LW-CAR-0050/manifest.json"
+  },
+  "slides": [
+    {
+      "slide": 1,
+      "content_version": "1.0",
+      "role": "hook",
+      "exact_text": [
+        "gym",
+        "pet peeves",
+        "(what annoys everyone)"
+      ],
+      "file": "outputs/slide-01.png",
+      "prompt_file": "prompts/slide-01.txt",
+      "references": [
+        "carousels/LW-CAR-0022/outputs/slide-01.png"
+      ],
+      "illustration": "front view from the thighs up, arms crossed, deeply unimpressed expression in the posture, one eyebrow raised",
+      "rating_stars": null,
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-26T13:26:09.610959+00:00",
+          "prompt_file": "prompts/slide-01.txt",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0022/outputs/slide-01.png"
+          ],
+          "finished_at": "2026-10-26T13:26:36.518274+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-9dcba8e2-7321-45b6-8632-ab951b4ecdfa.png",
+          "raw_result_format": {
+            "size": [
+              1092,
+              1440
+            ],
+            "mode": "RGB"
+          },
+          "result_file": "outputs/slide-01.png",
+          "export": {
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "alpha": false,
+            "logo": "original PNG, x48 y19, 218x71"
+          }
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_to_repository_checkout",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 2,
+      "content_version": "1.0",
+      "role": "item 1",
+      "exact_text": [
+        "#1",
+        "blocking the dumbbell rack",
+        "standing right in front of it for the whole set."
+      ],
+      "file": "outputs/slide-02.png",
+      "prompt_file": "prompts/slide-02.txt",
+      "references": [
+        "carousels/LW-CAR-0029/outputs/slide-02.png"
+      ],
+      "illustration": "doing a dumbbell curl directly in front of a dumbbell rack while a second figure waits behind him, front view",
+      "rating_stars": null,
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-26T13:26:37.977246+00:00",
+          "prompt_file": "prompts/slide-02.txt",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0029/outputs/slide-02.png"
+          ],
+          "finished_at": "2026-10-26T13:27:07.436960+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-0df6641d-9e8d-489b-92a5-247bf03c9185.png",
+          "raw_result_format": {
+            "size": [
+              1122,
+              1402
+            ],
+            "mode": "RGB"
+          },
+          "result_file": "outputs/slide-02.png",
+          "export": {
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "alpha": false,
+            "logo": "original PNG, x48 y19, 218x71"
+          }
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_to_repository_checkout",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 3,
+      "content_version": "1.0",
+      "role": "item 2",
+      "exact_text": [
+        "#2",
+        "sweat left on the bench",
+        "a towel exists for a reason."
+      ],
+      "file": "outputs/slide-03.png",
+      "prompt_file": "prompts/slide-03.txt",
+      "references": [
+        "carousels/LW-CAR-0029/outputs/slide-02.png"
+      ],
+      "illustration": "pointing at a flat bench with a few drawn sweat drops on it, disgusted, side view",
+      "rating_stars": null,
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-26T13:27:08.688391+00:00",
+          "prompt_file": "prompts/slide-03.txt",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0029/outputs/slide-02.png"
+          ],
+          "finished_at": "2026-10-26T13:27:51.750429+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-56cd3f91-3629-4e2c-b7fd-86cf63c5a558.png",
+          "raw_result_format": {
+            "size": [
+              1122,
+              1402
+            ],
+            "mode": "RGB"
+          },
+          "result_file": "outputs/slide-03.png",
+          "export": {
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "alpha": false,
+            "logo": "original PNG, x48 y19, 218x71"
+          }
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_to_repository_checkout",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 4,
+      "content_version": "1.0",
+      "role": "item 3",
+      "exact_text": [
+        "#3",
+        "video calls at full volume",
+        "the whole gym is now in the meeting."
+      ],
+      "file": "outputs/slide-04.png",
+      "prompt_file": "prompts/slide-04.txt",
+      "references": [
+        "carousels/LW-CAR-0029/outputs/slide-02.png"
+      ],
+      "illustration": "sitting on a bench holding a phone up at arm’s length as if on a video call (screen not visible), small #F26445 sound lines, front view",
+      "rating_stars": null,
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-26T13:27:53.036249+00:00",
+          "prompt_file": "prompts/slide-04.txt",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0029/outputs/slide-02.png"
+          ],
+          "finished_at": "2026-10-26T13:28:35.858922+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-ff378a81-7a2d-46db-abca-2657cc710ed3.png",
+          "raw_result_format": {
+            "size": [
+              1092,
+              1440
+            ],
+            "mode": "RGB"
+          },
+          "result_file": "outputs/slide-04.png",
+          "export": {
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "alpha": false,
+            "logo": "original PNG, x48 y19, 218x71"
+          }
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_to_repository_checkout",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 5,
+      "content_version": "1.0",
+      "role": "item 4",
+      "exact_text": [
+        "#4",
+        "one person, three machines",
+        "a bench, a rack and a cable, all ‘in use’."
+      ],
+      "file": "outputs/slide-05.png",
+      "prompt_file": "prompts/slide-05.txt",
+      "references": [
+        "carousels/LW-CAR-0029/outputs/slide-02.png"
+      ],
+      "illustration": "standing between a flat bench, a squat rack and a cable machine with a towel or bottle on each, arms spread to claim them, front view",
+      "rating_stars": null,
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-26T13:28:37.060985+00:00",
+          "prompt_file": "prompts/slide-05.txt",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0029/outputs/slide-02.png"
+          ],
+          "finished_at": "2026-10-26T13:29:38.648496+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-0ba093d3-dc92-4312-aea9-2ede782c9e8a.png",
+          "raw_result_format": {
+            "size": [
+              1122,
+              1402
+            ],
+            "mode": "RGB"
+          },
+          "result_file": "outputs/slide-05.png",
+          "export": {
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "alpha": false,
+            "logo": "original PNG, x48 y19, 218x71"
+          }
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_to_repository_checkout",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 6,
+      "content_version": "1.0",
+      "role": "item 5",
+      "exact_text": [
+        "#5",
+        "weights left everywhere",
+        "plates on the bar, dumbbells on the floor."
+      ],
+      "file": "outputs/slide-06.png",
+      "prompt_file": "prompts/slide-06.txt",
+      "references": [
+        "carousels/LW-CAR-0029/outputs/slide-02.png"
+      ],
+      "illustration": "a loaded barbell left in a rack and dumbbells scattered on the floor, a figure walking away whistling, side view",
+      "rating_stars": null,
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-26T13:29:39.821890+00:00",
+          "prompt_file": "prompts/slide-06.txt",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0029/outputs/slide-02.png"
+          ],
+          "finished_at": "2026-10-26T13:30:06.278803+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-13f72fb1-75a2-4cb6-a43f-edf5bde3115e.png",
+          "raw_result_format": {
+            "size": [
+              1122,
+              1402
+            ],
+            "mode": "RGB"
+          },
+          "result_file": "outputs/slide-06.png",
+          "export": {
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "alpha": false,
+            "logo": "original PNG, x48 y19, 218x71"
+          }
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_to_repository_checkout",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 7,
+      "content_version": "1.0",
+      "role": "item 6",
+      "exact_text": [
+        "#6",
+        "dropping weights for attention",
+        "the loud drop after a light set."
+      ],
+      "file": "outputs/slide-07.png",
+      "prompt_file": "prompts/slide-07.txt",
+      "references": [
+        "carousels/LW-CAR-0029/outputs/slide-02.png"
+      ],
+      "illustration": "dropping two light dumbbells to the floor from shoulder height, small #F26445 impact lines, front view",
+      "rating_stars": null,
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-26T13:30:07.757033+00:00",
+          "prompt_file": "prompts/slide-07.txt",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0029/outputs/slide-02.png"
+          ],
+          "finished_at": "2026-10-26T13:31:01.604002+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-128e7d5c-309a-417e-8e8e-17d89300c0f6.png",
+          "raw_result_format": {
+            "size": [
+              1122,
+              1402
+            ],
+            "mode": "RGB"
+          },
+          "result_file": "outputs/slide-07.png",
+          "export": {
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "alpha": false,
+            "logo": "original PNG, x48 y19, 218x71"
+          }
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_to_repository_checkout",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 8,
+      "content_version": "1.0",
+      "role": "item 7",
+      "exact_text": [
+        "#7",
+        "curls in the squat rack",
+        "the only rack in the gym, used for curls."
+      ],
+      "file": "outputs/slide-08.png",
+      "prompt_file": "prompts/slide-08.txt",
+      "references": [
+        "carousels/LW-CAR-0029/outputs/slide-02.png"
+      ],
+      "illustration": "doing a barbell curl inside a squat rack while a second figure waits nearby with arms crossed, front view",
+      "rating_stars": null,
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-26T13:31:02.747755+00:00",
+          "prompt_file": "prompts/slide-08.txt",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0029/outputs/slide-02.png"
+          ],
+          "finished_at": "2026-10-26T13:31:35.719590+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-1fc2d1fd-2526-40f9-94e4-9c90536fc120.png",
+          "raw_result_format": {
+            "size": [
+              1092,
+              1440
+            ],
+            "mode": "RGB"
+          },
+          "result_file": "outputs/slide-08.png",
+          "export": {
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "alpha": false,
+            "logo": "original PNG, x48 y19, 218x71"
+          }
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_to_repository_checkout",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 9,
+      "content_version": "1.0",
+      "role": "product ending",
+      "exact_text": [
+        "harda tracks every set you lift, so your sessions stay short and focused.",
+        "log your workouts and get in and out."
+      ],
+      "file": "outputs/slide-09.png",
+      "prompt_file": "prompts/slide-09.txt",
+      "references": [
+        "carousels/LW-CAR-0022/outputs/slide-19.png"
+      ],
+      "illustration": "hand + phone",
+      "rating_stars": null,
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-26T13:31:36.933464+00:00",
+          "prompt_file": "prompts/slide-09.txt",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0022/outputs/slide-19.png"
+          ],
+          "finished_at": "2026-10-26T13:32:12.161553+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-14ef2aa2-8940-49af-9f9b-6c212b5556a7.png",
+          "raw_result_format": {
+            "size": [
+              1122,
+              1402
+            ],
+            "mode": "RGB"
+          },
+          "result_file": "outputs/slide-09.png",
+          "export": {
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "alpha": false,
+            "logo": "original PNG, x48 y19, 218x71"
+          }
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_to_repository_checkout",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending",
+      "phone_compositing": {
+        "source": "carousels/LW-CAR-0022/outputs/slide-19.png",
+        "source_commit": "f356e3224b877af685abcb3de1a80174d592396c",
+        "source_crop": [
+          0,
+          720,
+          1080,
+          1350
+        ],
+        "asset": "production-assets/approved-phone-hand-strip.png",
+        "measured_text_bottom_exclusive": 807,
+        "placement": [
+          0,
+          857
+        ],
+        "minimum_gap": 50,
+        "measurement": "raster text-ink bounding extent on generated text-only plate; no OCR or visual QA",
+        "scale": "1:1, no resampling",
+        "real_ui_generated": false
+      }
+    }
+  ],
+  "archive": "LW-CAR-0050-1080x1350.zip"
+}
