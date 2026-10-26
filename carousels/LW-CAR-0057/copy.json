@@ -1,0 +1,297 @@
+{
+  "carousel_id": "LW-CAR-0057",
+  "content_version": "1.0",
+  "status": "frozen",
+  "type": "original",
+  "design_style": "S2",
+  "language": "en",
+  "background": "CLEAN",
+  "font_family": "REF-008 look: heavy tight grotesk for headlines, clean sans for body, italic for tier lines",
+  "colors": {
+    "accent": "#F26445",
+    "background": "#F0F1EB",
+    "text_dark": "#2A2A2A",
+    "text_body_grey": "#6B6B6B",
+    "white": "#FFFFFF"
+  },
+  "source": {
+    "ref_id": null,
+    "note": "Our own gym zodiac humour carousel in the S2 look (owner request 2026-10-26). 14 slides: cover, 12 signs, ending.",
+    "layout_from": "carousels/LW-CAR-0022/outputs (owner-approved S2, Harda logo)"
+  },
+  "caption": {
+    "text": "Tag your sign 👇 Which one is you? #gymzodiac #zodiac #gymhumor #gymtok",
+    "notes": "comment prompt"
+  },
+  "slides": [
+    {
+      "n": 1,
+      "role": "hook",
+      "text": [
+        {
+          "string": "gym",
+          "style": "cover line 1, lowercase, heaviest weight, text_dark"
+        },
+        {
+          "string": "zodiac signs",
+          "style": "cover line 2, lowercase, heaviest weight, text_dark on an accent marker bar"
+        },
+        {
+          "string": "(find yours)",
+          "style": "italic, regular, text_body_grey"
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "role": "item 1",
+      "text": [
+        {
+          "string": "#1",
+          "style": "label before the headline, heaviest weight, text_dark"
+        },
+        {
+          "string": "aries",
+          "style": "heaviest weight, lowercase, text_dark on an accent marker bar"
+        },
+        {
+          "string": "goes for a new max on day one.",
+          "style": "regular, text_dark, up to two lines"
+        }
+      ],
+      "illustration": "barbell bench press, pushing a very heavy bar, determined, side view"
+    },
+    {
+      "n": 3,
+      "role": "item 2",
+      "text": [
+        {
+          "string": "#2",
+          "style": "label before the headline, heaviest weight, text_dark"
+        },
+        {
+          "string": "taurus",
+          "style": "heaviest weight, lowercase, text_dark on an accent marker bar"
+        },
+        {
+          "string": "same routine for five years. will not change it.",
+          "style": "regular, text_dark, up to two lines"
+        }
+      ],
+      "illustration": "barbell back squat, calm and stubborn, side view"
+    },
+    {
+      "n": 4,
+      "role": "item 3",
+      "text": [
+        {
+          "string": "#3",
+          "style": "label before the headline, heaviest weight, text_dark"
+        },
+        {
+          "string": "gemini",
+          "style": "heaviest weight, lowercase, text_dark on an accent marker bar"
+        },
+        {
+          "string": "starts a new program every single week.",
+          "style": "regular, text_dark, up to two lines"
+        }
+      ],
+      "illustration": "standing between a squat rack and a cable machine, looking at both, front view"
+    },
+    {
+      "n": 5,
+      "role": "item 4",
+      "text": [
+        {
+          "string": "#4",
+          "style": "label before the headline, heaviest weight, text_dark"
+        },
+        {
+          "string": "cancer",
+          "style": "heaviest weight, lowercase, text_dark on an accent marker bar"
+        },
+        {
+          "string": "only trains with their gym buddy. alone? never.",
+          "style": "regular, text_dark, up to two lines"
+        }
+      ],
+      "illustration": "two figures giving each other a high five between sets, front view"
+    },
+    {
+      "n": 6,
+      "role": "item 5",
+      "text": [
+        {
+          "string": "#5",
+          "style": "label before the headline, heaviest weight, text_dark"
+        },
+        {
+          "string": "leo",
+          "style": "heaviest weight, lowercase, text_dark on an accent marker bar"
+        },
+        {
+          "string": "trains for the mirror. and the camera.",
+          "style": "regular, text_dark, up to two lines"
+        }
+      ],
+      "illustration": "flexing in front of a plain mirror with a phone on a small tripod nearby, side view"
+    },
+    {
+      "n": 7,
+      "role": "item 6",
+      "text": [
+        {
+          "string": "#6",
+          "style": "label before the headline, heaviest weight, text_dark"
+        },
+        {
+          "string": "virgo",
+          "style": "heaviest weight, lowercase, text_dark on an accent marker bar"
+        },
+        {
+          "string": "tracks every set, every rep, every rest.",
+          "style": "regular, text_dark, up to two lines"
+        }
+      ],
+      "illustration": "standing next to a rack, checking a phone held in both hands (screen not visible), focused, front view"
+    },
+    {
+      "n": 8,
+      "role": "item 7",
+      "text": [
+        {
+          "string": "#7",
+          "style": "label before the headline, heaviest weight, text_dark"
+        },
+        {
+          "string": "libra",
+          "style": "heaviest weight, lowercase, text_dark on an accent marker bar"
+        },
+        {
+          "string": "can’t pick dumbbells or cables, so does both.",
+          "style": "regular, text_dark, up to two lines"
+        }
+      ],
+      "illustration": "holding a dumbbell in one hand and a cable handle in the other, undecided, front view"
+    },
+    {
+      "n": 9,
+      "role": "item 8",
+      "text": [
+        {
+          "string": "#8",
+          "style": "label before the headline, heaviest weight, text_dark"
+        },
+        {
+          "string": "scorpio",
+          "style": "heaviest weight, lowercase, text_dark on an accent marker bar"
+        },
+        {
+          "string": "headphones in, no talking, terrifying focus.",
+          "style": "regular, text_dark, up to two lines"
+        }
+      ],
+      "illustration": "heavy deadlift at the top, plain black over-ear headphones on, intense, side view"
+    },
+    {
+      "n": 10,
+      "role": "item 9",
+      "text": [
+        {
+          "string": "#9",
+          "style": "label before the headline, heaviest weight, text_dark"
+        },
+        {
+          "string": "sagittarius",
+          "style": "heaviest weight, lowercase, text_dark on an accent marker bar"
+        },
+        {
+          "string": "skips the gym for a hike and calls it training.",
+          "style": "regular, text_dark, up to two lines"
+        }
+      ],
+      "illustration": "walking with a small backpack, relaxed, side view"
+    },
+    {
+      "n": 11,
+      "role": "item 10",
+      "text": [
+        {
+          "string": "#10",
+          "style": "label before the headline, heaviest weight, text_dark"
+        },
+        {
+          "string": "capricorn",
+          "style": "heaviest weight, lowercase, text_dark on an accent marker bar"
+        },
+        {
+          "string": "5am. every day. no excuses.",
+          "style": "regular, text_dark, up to two lines"
+        }
+      ],
+      "illustration": "barbell back squat in an empty gym, a simple wall clock showing 5:00, side view"
+    },
+    {
+      "n": 12,
+      "role": "item 11",
+      "text": [
+        {
+          "string": "#11",
+          "style": "label before the headline, heaviest weight, text_dark"
+        },
+        {
+          "string": "aquarius",
+          "style": "heaviest weight, lowercase, text_dark on an accent marker bar"
+        },
+        {
+          "string": "invents exercises nobody has ever seen.",
+          "style": "regular, text_dark, up to two lines"
+        }
+      ],
+      "illustration": "doing a strange balance pose with a dumbbell on one leg, playful, front view"
+    },
+    {
+      "n": 13,
+      "role": "item 12",
+      "text": [
+        {
+          "string": "#12",
+          "style": "label before the headline, heaviest weight, text_dark"
+        },
+        {
+          "string": "pisces",
+          "style": "heaviest weight, lowercase, text_dark on an accent marker bar"
+        },
+        {
+          "string": "comes for the vibes and the playlist.",
+          "style": "regular, text_dark, up to two lines"
+        }
+      ],
+      "illustration": "walking slowly on a treadmill with plain black over-ear headphones, dreamy posture, side view"
+    },
+    {
+      "n": 14,
+      "role": "product ending",
+      "text": [
+        {
+          "string": "be a virgo about it. harda tracks every set you lift.",
+          "style": "large, lowercase, heaviest weight, text_dark; accent marker bars under 'be a virgo about it' and 'every set you lift'"
+        },
+        {
+          "string": "log your workouts, whatever your sign.",
+          "style": "regular, text_dark, two lines"
+        }
+      ],
+      "screen": "real Harda Progress / Muscle balance screenshot, the same one as in approved LW-CAR-0022 slide 19",
+      "product_claims_checked_against_real_screen": [
+        "workouts are logged",
+        "muscle balance screen (LW-CAR-0022 slide 19)"
+      ]
+    }
+  ],
+  "claims_to_verify": [
+    "Humour only, no astrology claims, no numbers.",
+    "Ending: workout logging only."
+  ]
+}

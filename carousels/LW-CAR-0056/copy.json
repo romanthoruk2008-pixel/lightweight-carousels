@@ -1,0 +1,365 @@
+{
+  "carousel_id": "LW-CAR-0056",
+  "content_version": "1.0",
+  "status": "frozen",
+  "type": "original",
+  "design_style": "S2",
+  "language": "en",
+  "background": "CLEAN",
+  "font_family": "REF-008 look: heavy tight grotesk for headlines, clean sans for body, italic for tier lines",
+  "colors": {
+    "accent": "#F26445",
+    "background": "#F0F1EB",
+    "text_dark": "#2A2A2A",
+    "text_body_grey": "#6B6B6B",
+    "white": "#FFFFFF",
+    "tier_S": "#F26445",
+    "tier_A": "#FF9A52",
+    "tier_B": "#FFD95A",
+    "tier_C": "#3FCF5E",
+    "tier_F": "#5BDCE3",
+    "star_empty": "#D6D6D2"
+  },
+  "source": {
+    "ref_id": null,
+    "note": "Our own 'most skipped muscles' tier list, S2 look (owner request 2026-10-26). F = least skipped, S = most skipped; stars show how often it is skipped.",
+    "layout_from": "carousels/LW-CAR-0022/outputs (owner-approved S2, Harda logo)"
+  },
+  "caption": {
+    "text": "Which one do you skip? Be honest 👇 #gymtips #musclebalance #tierlist #legday",
+    "notes": "comment prompt"
+  },
+  "slides": [
+    {
+      "n": 1,
+      "role": "hook",
+      "text": [
+        {
+          "string": "most skipped muscles",
+          "style": "cover line 1, lowercase, heaviest weight, text_dark"
+        },
+        {
+          "string": "tier list",
+          "style": "cover line 2, lowercase, heaviest weight, text_dark on an accent marker bar"
+        },
+        {
+          "string": "(least skipped to most skipped)",
+          "style": "italic, regular, text_body_grey"
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "role": "tier divider F",
+      "text": [
+        {
+          "string": "F",
+          "style": "white bold letter on a rounded colour tile"
+        },
+        {
+          "string": "tier",
+          "style": "lowercase, heaviest weight, text_dark"
+        },
+        {
+          "string": "everyone trains these",
+          "style": "italic, regular, text_body_grey"
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "role": "item #10",
+      "rating_stars": 1,
+      "text": [
+        {
+          "string": "#10",
+          "style": "heaviest weight, text_dark"
+        },
+        {
+          "string": "chest",
+          "style": "heaviest weight, lowercase, text_dark on an accent marker bar"
+        },
+        {
+          "string": "never skipped. it’s monday.",
+          "style": "regular, text_dark, up to two lines"
+        }
+      ],
+      "illustration": "flat barbell bench press, front three-quarter view; chest filled #F26445"
+    },
+    {
+      "n": 4,
+      "role": "item #9",
+      "rating_stars": 1,
+      "text": [
+        {
+          "string": "#9",
+          "style": "heaviest weight, text_dark"
+        },
+        {
+          "string": "biceps",
+          "style": "heaviest weight, lowercase, text_dark on an accent marker bar"
+        },
+        {
+          "string": "trained by someone, somewhere, right now.",
+          "style": "regular, text_dark, up to two lines"
+        }
+      ],
+      "illustration": "standing dumbbell curl, front view; biceps filled #F26445"
+    },
+    {
+      "n": 5,
+      "role": "tier divider C",
+      "text": [
+        {
+          "string": "C",
+          "style": "white bold letter on a rounded colour tile"
+        },
+        {
+          "string": "tier",
+          "style": "lowercase, heaviest weight, text_dark"
+        },
+        {
+          "string": "sometimes forgotten",
+          "style": "italic, regular, text_body_grey"
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "role": "item #8",
+      "rating_stars": 2.5,
+      "text": [
+        {
+          "string": "#8",
+          "style": "heaviest weight, text_dark"
+        },
+        {
+          "string": "back",
+          "style": "heaviest weight, lowercase, text_dark on an accent marker bar"
+        },
+        {
+          "string": "you can’t see it, so it gets less love.",
+          "style": "regular, text_dark, up to two lines"
+        }
+      ],
+      "illustration": "seated lat pulldown, rear view; lats filled #F26445"
+    },
+    {
+      "n": 7,
+      "role": "item #7",
+      "rating_stars": 2.5,
+      "text": [
+        {
+          "string": "#7",
+          "style": "heaviest weight, text_dark"
+        },
+        {
+          "string": "abs",
+          "style": "heaviest weight, lowercase, text_dark on an accent marker bar"
+        },
+        {
+          "string": "done ‘at the end’, which usually means never.",
+          "style": "regular, text_dark, up to two lines"
+        }
+      ],
+      "illustration": "hanging leg raise, side view; abs filled #F26445"
+    },
+    {
+      "n": 8,
+      "role": "tier divider B",
+      "text": [
+        {
+          "string": "B",
+          "style": "white bold letter on a rounded colour tile"
+        },
+        {
+          "string": "tier",
+          "style": "lowercase, heaviest weight, text_dark"
+        },
+        {
+          "string": "often skipped",
+          "style": "italic, regular, text_body_grey"
+        }
+      ]
+    },
+    {
+      "n": 9,
+      "role": "item #6",
+      "rating_stars": 3,
+      "text": [
+        {
+          "string": "#6",
+          "style": "heaviest weight, text_dark"
+        },
+        {
+          "string": "legs",
+          "style": "heaviest weight, lowercase, text_dark on an accent marker bar"
+        },
+        {
+          "string": "the classic. everyone knows it.",
+          "style": "regular, text_dark, up to two lines"
+        }
+      ],
+      "illustration": "barbell back squat at the bottom, side view; quads filled #F26445"
+    },
+    {
+      "n": 10,
+      "role": "item #5",
+      "rating_stars": 3.5,
+      "text": [
+        {
+          "string": "#5",
+          "style": "heaviest weight, text_dark"
+        },
+        {
+          "string": "rear delts",
+          "style": "heaviest weight, lowercase, text_dark on an accent marker bar"
+        },
+        {
+          "string": "the back of your shoulders. most people forget they exist.",
+          "style": "regular, text_dark, up to two lines"
+        }
+      ],
+      "illustration": "seated reverse pec deck, rear view; rear delts filled #F26445"
+    },
+    {
+      "n": 11,
+      "role": "tier divider A",
+      "text": [
+        {
+          "string": "A",
+          "style": "white bold letter on a rounded colour tile"
+        },
+        {
+          "string": "tier",
+          "style": "lowercase, heaviest weight, text_dark"
+        },
+        {
+          "string": "mostly skipped",
+          "style": "italic, regular, text_body_grey"
+        }
+      ]
+    },
+    {
+      "n": 12,
+      "role": "item #4",
+      "rating_stars": 4,
+      "text": [
+        {
+          "string": "#4",
+          "style": "heaviest weight, text_dark"
+        },
+        {
+          "string": "forearms",
+          "style": "heaviest weight, lowercase, text_dark on an accent marker bar"
+        },
+        {
+          "string": "only trained by accident when you hold things.",
+          "style": "regular, text_dark, up to two lines"
+        }
+      ],
+      "illustration": "farmer’s carry with heavy dumbbells, front view; forearms filled #F26445"
+    },
+    {
+      "n": 13,
+      "role": "item #3",
+      "rating_stars": 4,
+      "text": [
+        {
+          "string": "#3",
+          "style": "heaviest weight, text_dark"
+        },
+        {
+          "string": "lower back",
+          "style": "heaviest weight, lowercase, text_dark on an accent marker bar"
+        },
+        {
+          "string": "ignored until it starts to hurt.",
+          "style": "regular, text_dark, up to two lines"
+        }
+      ],
+      "illustration": "45-degree back extension, side view; lower back erectors filled #F26445"
+    },
+    {
+      "n": 14,
+      "role": "tier divider S",
+      "text": [
+        {
+          "string": "S",
+          "style": "white bold letter on a rounded colour tile"
+        },
+        {
+          "string": "tier",
+          "style": "lowercase, heaviest weight, text_dark"
+        },
+        {
+          "string": "who even trains these?",
+          "style": "italic, regular, text_body_grey"
+        }
+      ]
+    },
+    {
+      "n": 15,
+      "role": "item #2",
+      "rating_stars": 5,
+      "text": [
+        {
+          "string": "#2",
+          "style": "heaviest weight, text_dark"
+        },
+        {
+          "string": "calves",
+          "style": "heaviest weight, lowercase, text_dark on an accent marker bar"
+        },
+        {
+          "string": "‘they’re genetic’ is not a training plan.",
+          "style": "regular, text_dark, up to two lines"
+        }
+      ],
+      "illustration": "standing calf raise machine, up on the toes, side view; calves filled #F26445"
+    },
+    {
+      "n": 16,
+      "role": "item #1",
+      "rating_stars": 5,
+      "text": [
+        {
+          "string": "#1",
+          "style": "heaviest weight, text_dark"
+        },
+        {
+          "string": "shins",
+          "style": "heaviest weight, lowercase, text_dark on an accent marker bar"
+        },
+        {
+          "string": "most people don’t know it’s a muscle.",
+          "style": "regular, text_dark, up to two lines"
+        }
+      ],
+      "illustration": "tibialis raise with the back against a wall, toes lifted, side view; tibialis filled #F26445"
+    },
+    {
+      "n": 17,
+      "role": "product ending",
+      "text": [
+        {
+          "string": "harda tracks every set and shows exactly which muscles you skip.",
+          "style": "large, lowercase, heaviest weight, text_dark; accent marker bars under 'every set' and 'which muscles you skip'"
+        },
+        {
+          "string": "log your workouts and check your muscle balance.",
+          "style": "regular, text_dark, two lines"
+        }
+      ],
+      "screen": "real Harda Progress / Muscle balance screenshot, the same one as in approved LW-CAR-0022 slide 19",
+      "product_claims_checked_against_real_screen": [
+        "workouts are logged",
+        "muscle balance screen (LW-CAR-0022 slide 19)"
+      ]
+    }
+  ],
+  "claims_to_verify": [
+    "Opinions and humour, no numbers or citations.",
+    "Ending: workout logging and the Muscle balance screen, which is exactly what this list is about."
+  ]
+}

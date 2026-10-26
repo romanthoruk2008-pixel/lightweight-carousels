@@ -1,0 +1,365 @@
+{
+  "carousel_id": "LW-CAR-0059",
+  "content_version": "1.0",
+  "status": "frozen",
+  "type": "original",
+  "design_style": "S2",
+  "language": "en",
+  "background": "CLEAN",
+  "font_family": "REF-008 look: heavy tight grotesk for headlines, clean sans for body, italic for tier lines",
+  "colors": {
+    "accent": "#F26445",
+    "background": "#F0F1EB",
+    "text_dark": "#2A2A2A",
+    "text_body_grey": "#6B6B6B",
+    "white": "#FFFFFF",
+    "tier_S": "#F26445",
+    "tier_A": "#FF9A52",
+    "tier_B": "#FFD95A",
+    "tier_C": "#3FCF5E",
+    "tier_F": "#5BDCE3",
+    "star_empty": "#D6D6D2"
+  },
+  "source": {
+    "ref_id": null,
+    "note": "Our own cardio tier list, S2 look (owner request 2026-10-26).",
+    "layout_from": "carousels/LW-CAR-0022/outputs (owner-approved S2, Harda logo)"
+  },
+  "caption": {
+    "text": "Incline walking at #1. Fight us 👇 #cardio #inclinewalk #tierlist #gymtips",
+    "notes": "comment prompt"
+  },
+  "slides": [
+    {
+      "n": 1,
+      "role": "hook",
+      "text": [
+        {
+          "string": "cardio",
+          "style": "cover line 1, lowercase, heaviest weight, text_dark"
+        },
+        {
+          "string": "tier list",
+          "style": "cover line 2, lowercase, heaviest weight, text_dark on an accent marker bar"
+        },
+        {
+          "string": "(ranked worst to best)",
+          "style": "italic, regular, text_body_grey"
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "role": "tier divider F",
+      "text": [
+        {
+          "string": "F",
+          "style": "white bold letter on a rounded colour tile"
+        },
+        {
+          "string": "tier",
+          "style": "lowercase, heaviest weight, text_dark"
+        },
+        {
+          "string": "skip these",
+          "style": "italic, regular, text_body_grey"
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "role": "item #10",
+      "rating_stars": 1,
+      "text": [
+        {
+          "string": "#10",
+          "style": "heaviest weight, text_dark"
+        },
+        {
+          "string": "vibration plate",
+          "style": "heaviest weight, lowercase, text_dark on an accent marker bar"
+        },
+        {
+          "string": "standing still while a machine shakes you.",
+          "style": "regular, text_dark, up to two lines"
+        }
+      ],
+      "illustration": "standing still on a vibration plate machine, bored, front view"
+    },
+    {
+      "n": 4,
+      "role": "item #9",
+      "rating_stars": 1.5,
+      "text": [
+        {
+          "string": "#9",
+          "style": "heaviest weight, text_dark"
+        },
+        {
+          "string": "slow elliptical while scrolling",
+          "style": "heaviest weight, lowercase, text_dark on an accent marker bar"
+        },
+        {
+          "string": "it moves, but your heart barely notices.",
+          "style": "regular, text_dark, up to two lines"
+        }
+      ],
+      "illustration": "on an elliptical trainer, looking down at a phone (screen not visible), side view"
+    },
+    {
+      "n": 5,
+      "role": "tier divider C",
+      "text": [
+        {
+          "string": "C",
+          "style": "white bold letter on a rounded colour tile"
+        },
+        {
+          "string": "tier",
+          "style": "lowercase, heaviest weight, text_dark"
+        },
+        {
+          "string": "you can do better",
+          "style": "italic, regular, text_body_grey"
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "role": "item #8",
+      "rating_stars": 2.5,
+      "text": [
+        {
+          "string": "#8",
+          "style": "heaviest weight, text_dark"
+        },
+        {
+          "string": "burpees",
+          "style": "heaviest weight, lowercase, text_dark on an accent marker bar"
+        },
+        {
+          "string": "they work, but nobody keeps them up for long.",
+          "style": "regular, text_dark, up to two lines"
+        }
+      ],
+      "illustration": "mid-burpee jumping up with arms overhead, front view"
+    },
+    {
+      "n": 7,
+      "role": "item #7",
+      "rating_stars": 2.5,
+      "text": [
+        {
+          "string": "#7",
+          "style": "heaviest weight, text_dark"
+        },
+        {
+          "string": "elliptical",
+          "style": "heaviest weight, lowercase, text_dark on an accent marker bar"
+        },
+        {
+          "string": "easy on the joints, but easy to coast too.",
+          "style": "regular, text_dark, up to two lines"
+        }
+      ],
+      "illustration": "on an elliptical trainer, moving steadily, side view"
+    },
+    {
+      "n": 8,
+      "role": "tier divider B",
+      "text": [
+        {
+          "string": "B",
+          "style": "white bold letter on a rounded colour tile"
+        },
+        {
+          "string": "tier",
+          "style": "lowercase, heaviest weight, text_dark"
+        },
+        {
+          "string": "solid picks",
+          "style": "italic, regular, text_body_grey"
+        }
+      ]
+    },
+    {
+      "n": 9,
+      "role": "item #6",
+      "rating_stars": 3,
+      "text": [
+        {
+          "string": "#6",
+          "style": "heaviest weight, text_dark"
+        },
+        {
+          "string": "running",
+          "style": "heaviest weight, lowercase, text_dark on an accent marker bar"
+        },
+        {
+          "string": "great, but hard on the knees for some people.",
+          "style": "regular, text_dark, up to two lines"
+        }
+      ],
+      "illustration": "running outdoors on a plain path, side view"
+    },
+    {
+      "n": 10,
+      "role": "item #5",
+      "rating_stars": 3.5,
+      "text": [
+        {
+          "string": "#5",
+          "style": "heaviest weight, text_dark"
+        },
+        {
+          "string": "jump rope",
+          "style": "heaviest weight, lowercase, text_dark on an accent marker bar"
+        },
+        {
+          "string": "cheap, fun and good for coordination.",
+          "style": "regular, text_dark, up to two lines"
+        }
+      ],
+      "illustration": "skipping a jump rope, front view"
+    },
+    {
+      "n": 11,
+      "role": "tier divider A",
+      "text": [
+        {
+          "string": "A",
+          "style": "white bold letter on a rounded colour tile"
+        },
+        {
+          "string": "tier",
+          "style": "lowercase, heaviest weight, text_dark"
+        },
+        {
+          "string": "worth your time",
+          "style": "italic, regular, text_body_grey"
+        }
+      ]
+    },
+    {
+      "n": 12,
+      "role": "item #4",
+      "rating_stars": 4,
+      "text": [
+        {
+          "string": "#4",
+          "style": "heaviest weight, text_dark"
+        },
+        {
+          "string": "rowing machine",
+          "style": "heaviest weight, lowercase, text_dark on an accent marker bar"
+        },
+        {
+          "string": "full body, low impact, and hard if you push.",
+          "style": "regular, text_dark, up to two lines"
+        }
+      ],
+      "illustration": "on a rowing machine at the finish of a stroke, side view"
+    },
+    {
+      "n": 13,
+      "role": "item #3",
+      "rating_stars": 4,
+      "text": [
+        {
+          "string": "#3",
+          "style": "heaviest weight, text_dark"
+        },
+        {
+          "string": "bike",
+          "style": "heaviest weight, lowercase, text_dark on an accent marker bar"
+        },
+        {
+          "string": "easy on the joints and easy to push hard.",
+          "style": "regular, text_dark, up to two lines"
+        }
+      ],
+      "illustration": "on a stationary bike, pedalling hard, side view"
+    },
+    {
+      "n": 14,
+      "role": "tier divider S",
+      "text": [
+        {
+          "string": "S",
+          "style": "white bold letter on a rounded colour tile"
+        },
+        {
+          "string": "tier",
+          "style": "lowercase, heaviest weight, text_dark"
+        },
+        {
+          "string": "the best of the best",
+          "style": "italic, regular, text_body_grey"
+        }
+      ]
+    },
+    {
+      "n": 15,
+      "role": "item #2",
+      "rating_stars": 4.5,
+      "text": [
+        {
+          "string": "#2",
+          "style": "heaviest weight, text_dark"
+        },
+        {
+          "string": "stairmaster",
+          "style": "heaviest weight, lowercase, text_dark on an accent marker bar"
+        },
+        {
+          "string": "short, brutal and great for your legs.",
+          "style": "regular, text_dark, up to two lines"
+        }
+      ],
+      "illustration": "climbing a stair climber machine, side view"
+    },
+    {
+      "n": 16,
+      "role": "item #1",
+      "rating_stars": 5,
+      "text": [
+        {
+          "string": "#1",
+          "style": "heaviest weight, text_dark"
+        },
+        {
+          "string": "incline walking",
+          "style": "heaviest weight, lowercase, text_dark on an accent marker bar"
+        },
+        {
+          "string": "low impact, easy to stick with, and you can keep it up for ages.",
+          "style": "regular, text_dark, up to two lines"
+        }
+      ],
+      "illustration": "walking on a treadmill at a steep incline, relaxed, side view"
+    },
+    {
+      "n": 17,
+      "role": "product ending",
+      "text": [
+        {
+          "string": "harda tracks every set you lift, so cardio never takes over your training.",
+          "style": "large, lowercase, heaviest weight, text_dark; accent marker bars under 'every set you lift' and 'never takes over'"
+        },
+        {
+          "string": "log your workouts and keep lifting in your week.",
+          "style": "regular, text_dark, two lines"
+        }
+      ],
+      "screen": "real Harda Progress / Muscle balance screenshot, the same one as in approved LW-CAR-0022 slide 19",
+      "product_claims_checked_against_real_screen": [
+        "workouts are logged",
+        "muscle balance screen (LW-CAR-0022 slide 19)"
+      ]
+    }
+  ],
+  "claims_to_verify": [
+    "Opinions only, no numbers or citations. 'hard on the knees for some people' is a general statement.",
+    "Ending: does not claim that Harda logs cardio; it only says the lifting log keeps lifting in the week."
+  ]
+}

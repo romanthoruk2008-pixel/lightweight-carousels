@@ -1,0 +1,183 @@
+{
+  "carousel_id": "LW-CAR-0061",
+  "content_version": "1.0",
+  "status": "frozen",
+  "type": "original",
+  "design_style": "S2",
+  "language": "en",
+  "background": "CLEAN",
+  "font_family": "REF-008 look: heavy tight grotesk for headlines, clean sans for body, italic for tier lines",
+  "colors": {
+    "accent": "#F26445",
+    "background": "#F0F1EB",
+    "text_dark": "#2A2A2A",
+    "text_body_grey": "#6B6B6B",
+    "white": "#FFFFFF"
+  },
+  "source": {
+    "ref_id": null,
+    "note": "Fifth carousel in our 'says about you' series, S2 look (owner request 2026-10-26).",
+    "layout_from": "carousels/LW-CAR-0022/outputs (owner-approved S2, Harda logo)"
+  },
+  "caption": {
+    "text": "What time do you train? 👇 #gymtime #5amclub #gymhumor #gymtok",
+    "notes": "comment prompt"
+  },
+  "slides": [
+    {
+      "n": 1,
+      "role": "hook",
+      "text": [
+        {
+          "string": "what your gym time",
+          "style": "cover line 1, lowercase, heaviest weight, text_dark"
+        },
+        {
+          "string": "says about you",
+          "style": "cover line 2, lowercase, heaviest weight, text_dark on an accent marker bar"
+        },
+        {
+          "string": "(5am people, we see you)",
+          "style": "italic, regular, text_body_grey"
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "role": "item 1",
+      "text": [
+        {
+          "string": "#1",
+          "style": "label before the headline, heaviest weight, text_dark"
+        },
+        {
+          "string": "5am",
+          "style": "heaviest weight, lowercase, text_dark on an accent marker bar"
+        },
+        {
+          "string": "empty gym, strong coffee, nobody can stop you.",
+          "style": "regular, text_dark, up to two lines"
+        }
+      ],
+      "illustration": "squatting in an empty gym, a simple wall clock showing 5:00, side view"
+    },
+    {
+      "n": 3,
+      "role": "item 2",
+      "text": [
+        {
+          "string": "#2",
+          "style": "label before the headline, heaviest weight, text_dark"
+        },
+        {
+          "string": "lunch break",
+          "style": "heaviest weight, lowercase, text_dark on an accent marker bar"
+        },
+        {
+          "string": "forty minutes, no small talk, back at the desk on time.",
+          "style": "regular, text_dark, up to two lines"
+        }
+      ],
+      "illustration": "doing a quick dumbbell press on a bench, a simple wall clock showing 12:30, front three-quarter view"
+    },
+    {
+      "n": 4,
+      "role": "item 3",
+      "text": [
+        {
+          "string": "#3",
+          "style": "label before the headline, heaviest weight, text_dark"
+        },
+        {
+          "string": "6pm after work",
+          "style": "heaviest weight, lowercase, text_dark on an accent marker bar"
+        },
+        {
+          "string": "every rack taken, but you came anyway.",
+          "style": "regular, text_dark, up to two lines"
+        }
+      ],
+      "illustration": "waiting next to a busy squat rack used by another figure, a wall clock showing 6:00, front view"
+    },
+    {
+      "n": 5,
+      "role": "item 4",
+      "text": [
+        {
+          "string": "#4",
+          "style": "label before the headline, heaviest weight, text_dark"
+        },
+        {
+          "string": "10pm",
+          "style": "heaviest weight, lowercase, text_dark on an accent marker bar"
+        },
+        {
+          "string": "quiet gym, loud music, slightly unhinged.",
+          "style": "regular, text_dark, up to two lines"
+        }
+      ],
+      "illustration": "heavy deadlift alone, plain black over-ear headphones, a wall clock showing 10:00, side view"
+    },
+    {
+      "n": 6,
+      "role": "item 5",
+      "text": [
+        {
+          "string": "#5",
+          "style": "label before the headline, heaviest weight, text_dark"
+        },
+        {
+          "string": "sunday morning",
+          "style": "heaviest weight, lowercase, text_dark on an accent marker bar"
+        },
+        {
+          "string": "everyone else is asleep. you are building.",
+          "style": "regular, text_dark, up to two lines"
+        }
+      ],
+      "illustration": "seated cable row, calm, a wall clock showing 8:00, side view"
+    },
+    {
+      "n": 7,
+      "role": "item 6",
+      "text": [
+        {
+          "string": "#6",
+          "style": "label before the headline, heaviest weight, text_dark"
+        },
+        {
+          "string": "whenever i feel like it",
+          "style": "heaviest weight, lowercase, text_dark on an accent marker bar"
+        },
+        {
+          "string": "no schedule, all vibes. still shows up.",
+          "style": "regular, text_dark, up to two lines"
+        }
+      ],
+      "illustration": "walking in with a gym bag, relaxed, shrugging, front view"
+    },
+    {
+      "n": 8,
+      "role": "product ending",
+      "text": [
+        {
+          "string": "whenever you train, harda tracks every set you lift.",
+          "style": "large, lowercase, heaviest weight, text_dark; accent marker bars under 'whenever you train' and 'every set you lift'"
+        },
+        {
+          "string": "log your workouts at 5am or 10pm.",
+          "style": "regular, text_dark, two lines"
+        }
+      ],
+      "screen": "real Harda Progress / Muscle balance screenshot, the same one as in approved LW-CAR-0022 slide 19",
+      "product_claims_checked_against_real_screen": [
+        "workouts are logged",
+        "muscle balance screen (LW-CAR-0022 slide 19)"
+      ]
+    }
+  ],
+  "claims_to_verify": [
+    "Humour only, no numbers or citations ('forty minutes' is part of the joke).",
+    "Ending: workout logging only."
+  ]
+}
