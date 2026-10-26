@@ -1,0 +1,953 @@
+{
+  "carousel_id": "LW-CAR-0053",
+  "content_version": "1.0",
+  "source_commit": "f5b9b3fefc286b2cab53ddd12139b0c96ead8861",
+  "batch": "BATCH-F",
+  "instructions": "prompts/codex-task.md",
+  "design_style": "S2",
+  "brand": "Harda",
+  "status": "complete_pending_owner_review",
+  "carousel_complete": true,
+  "generated_images": 17,
+  "next_slide_to_generate": null,
+  "next_action": "Owner reviews all Batch F carousels at the end. Continue the next assigned carousel without review pause.",
+  "agent_visual_review": "not_performed",
+  "user_review": "pending",
+  "logo": {
+    "file": "assets/logo/harda-logo-full.png",
+    "x": 48,
+    "y": 19,
+    "width": 218,
+    "height": 71,
+    "method": "original file composited with own alpha, no backing patch"
+  },
+  "remote_save": {
+    "remote": "origin",
+    "branch": "claude/charming-einstein-xgejky",
+    "status": "commit_and_push_requested",
+    "commit_lookup": "git log -1 -- carousels/LW-CAR-0053/manifest.json"
+  },
+  "slides": [
+    {
+      "slide": 1,
+      "content_version": "1.0",
+      "role": "hook",
+      "exact_text": [
+        "types of gyms",
+        "tier list",
+        "(where do you train?)"
+      ],
+      "file": "outputs/slide-01.png",
+      "prompt_file": "prompts/slide-01.txt",
+      "references": [
+        "carousels/LW-CAR-0022/outputs/slide-01.png"
+      ],
+      "illustration": "front view from the thighs up, holding a gym bag and pointing at the viewer, as if asking where they train",
+      "rating_stars": null,
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-26T13:44:56.725110+00:00",
+          "prompt_file": "prompts/slide-01.txt",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0022/outputs/slide-01.png"
+          ],
+          "finished_at": "2026-10-26T13:45:43.240802+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-6be385c2-d64c-48b4-80a2-98df1facea4a.png",
+          "raw_result_format": {
+            "size": [
+              1122,
+              1402
+            ],
+            "mode": "RGB"
+          },
+          "result_file": "outputs/slide-01.png",
+          "export": {
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "alpha": false,
+            "logo": "original PNG, x48 y19, 218x71"
+          }
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_to_repository_checkout",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 2,
+      "content_version": "1.0",
+      "role": "tier divider F",
+      "exact_text": [
+        "F",
+        "tier",
+        "skip these"
+      ],
+      "file": "outputs/slide-02.png",
+      "prompt_file": "prompts/slide-02.txt",
+      "references": [
+        "carousels/LW-CAR-0022/outputs/slide-02.png"
+      ],
+      "illustration": "—",
+      "rating_stars": null,
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-26T13:45:44.365386+00:00",
+          "prompt_file": "prompts/slide-02.txt",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0022/outputs/slide-02.png"
+          ],
+          "finished_at": "2026-10-26T13:46:25.349695+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-2326631c-5c44-4f0f-99ec-da01f5c3050b.png",
+          "raw_result_format": {
+            "size": [
+              1122,
+              1402
+            ],
+            "mode": "RGB"
+          },
+          "result_file": "outputs/slide-02.png",
+          "export": {
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "alpha": false,
+            "logo": "original PNG, x48 y19, 218x71"
+          }
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_to_repository_checkout",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 3,
+      "content_version": "1.0",
+      "role": "item #10",
+      "exact_text": [
+        "#10",
+        "hotel gym",
+        "two dumbbells and a treadmill from 2009."
+      ],
+      "file": "outputs/slide-03.png",
+      "prompt_file": "prompts/slide-03.txt",
+      "references": [
+        "carousels/LW-CAR-0022/outputs/slide-03.png"
+      ],
+      "illustration": "standing in a tiny room with one treadmill and a pair of small dumbbells, shrugging, front view",
+      "rating_stars": 1,
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-26T13:46:26.566779+00:00",
+          "prompt_file": "prompts/slide-03.txt",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0022/outputs/slide-03.png"
+          ],
+          "finished_at": "2026-10-26T13:46:59.507800+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-773d2da8-45a5-453e-bbf4-b0ec3e21c61a.png",
+          "raw_result_format": {
+            "size": [
+              1122,
+              1402
+            ],
+            "mode": "RGB"
+          },
+          "result_file": "outputs/slide-03.png",
+          "export": {
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "alpha": false,
+            "logo": "original PNG, x48 y19, 218x71"
+          }
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_to_repository_checkout",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 4,
+      "content_version": "1.0",
+      "role": "item #9",
+      "exact_text": [
+        "#9",
+        "apartment building gym",
+        "one bench, a broken cable and a yoga ball."
+      ],
+      "file": "outputs/slide-04.png",
+      "prompt_file": "prompts/slide-04.txt",
+      "references": [
+        "carousels/LW-CAR-0022/outputs/slide-03.png"
+      ],
+      "illustration": "standing next to a single flat bench, a cable machine with a drooping cable and a yoga ball, looking unimpressed, front view",
+      "rating_stars": 1.5,
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-26T13:47:00.645257+00:00",
+          "prompt_file": "prompts/slide-04.txt",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0022/outputs/slide-03.png"
+          ],
+          "finished_at": "2026-10-26T13:47:46.032538+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-ffafc777-bc99-4bc7-a6f5-e72111f61a64.png",
+          "raw_result_format": {
+            "size": [
+              1122,
+              1402
+            ],
+            "mode": "RGB"
+          },
+          "result_file": "outputs/slide-04.png",
+          "export": {
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "alpha": false,
+            "logo": "original PNG, x48 y19, 218x71"
+          }
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_to_repository_checkout",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 5,
+      "content_version": "1.0",
+      "role": "tier divider C",
+      "exact_text": [
+        "C",
+        "tier",
+        "it’ll do"
+      ],
+      "file": "outputs/slide-05.png",
+      "prompt_file": "prompts/slide-05.txt",
+      "references": [
+        "carousels/LW-CAR-0022/outputs/slide-02.png"
+      ],
+      "illustration": "—",
+      "rating_stars": null,
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-26T13:47:47.191314+00:00",
+          "prompt_file": "prompts/slide-05.txt",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0022/outputs/slide-02.png"
+          ],
+          "finished_at": "2026-10-26T13:48:22.991224+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-77285fe4-1b54-45c0-a526-2daade342ea2.png",
+          "raw_result_format": {
+            "size": [
+              1122,
+              1402
+            ],
+            "mode": "RGB"
+          },
+          "result_file": "outputs/slide-05.png",
+          "export": {
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "alpha": false,
+            "logo": "original PNG, x48 y19, 218x71"
+          }
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_to_repository_checkout",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 6,
+      "content_version": "1.0",
+      "role": "item #8",
+      "exact_text": [
+        "#8",
+        "just dumbbells at home",
+        "great to start, but you outgrow it fast."
+      ],
+      "file": "outputs/slide-06.png",
+      "prompt_file": "prompts/slide-06.txt",
+      "references": [
+        "carousels/LW-CAR-0022/outputs/slide-03.png"
+      ],
+      "illustration": "doing a dumbbell curl next to a small rack of light dumbbells on a mat, front view",
+      "rating_stars": 2.5,
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-26T13:48:24.240290+00:00",
+          "prompt_file": "prompts/slide-06.txt",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0022/outputs/slide-03.png"
+          ],
+          "finished_at": "2026-10-26T13:48:58.598668+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-f6986a6e-5987-4f3e-943e-79ee47c69c97.png",
+          "raw_result_format": {
+            "size": [
+              1122,
+              1402
+            ],
+            "mode": "RGB"
+          },
+          "result_file": "outputs/slide-06.png",
+          "export": {
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "alpha": false,
+            "logo": "original PNG, x48 y19, 218x71"
+          }
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_to_repository_checkout",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 7,
+      "content_version": "1.0",
+      "role": "item #7",
+      "exact_text": [
+        "#7",
+        "packed budget gym",
+        "cheap, but you queue for everything at 6pm."
+      ],
+      "file": "outputs/slide-07.png",
+      "prompt_file": "prompts/slide-07.txt",
+      "references": [
+        "carousels/LW-CAR-0022/outputs/slide-03.png"
+      ],
+      "illustration": "standing in a short queue of three figures waiting for one squat rack, front view",
+      "rating_stars": 2.5,
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-26T13:48:59.750732+00:00",
+          "prompt_file": "prompts/slide-07.txt",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0022/outputs/slide-03.png"
+          ],
+          "finished_at": "2026-10-26T13:49:29.079413+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-fe56f449-dc8b-496a-9e0b-789abb18672c.png",
+          "raw_result_format": {
+            "size": [
+              1092,
+              1440
+            ],
+            "mode": "RGB"
+          },
+          "result_file": "outputs/slide-07.png",
+          "export": {
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "alpha": false,
+            "logo": "original PNG, x48 y19, 218x71"
+          }
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_to_repository_checkout",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 8,
+      "content_version": "1.0",
+      "role": "tier divider B",
+      "exact_text": [
+        "B",
+        "tier",
+        "solid"
+      ],
+      "file": "outputs/slide-08.png",
+      "prompt_file": "prompts/slide-08.txt",
+      "references": [
+        "carousels/LW-CAR-0022/outputs/slide-02.png"
+      ],
+      "illustration": "—",
+      "rating_stars": null,
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-26T13:49:30.272382+00:00",
+          "prompt_file": "prompts/slide-08.txt",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0022/outputs/slide-02.png"
+          ],
+          "finished_at": "2026-10-26T13:50:04.901106+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-fd6fb9d7-3cd6-4b15-a9f3-22d86af7df45.png",
+          "raw_result_format": {
+            "size": [
+              1092,
+              1440
+            ],
+            "mode": "RGB"
+          },
+          "result_file": "outputs/slide-08.png",
+          "export": {
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "alpha": false,
+            "logo": "original PNG, x48 y19, 218x71"
+          }
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_to_repository_checkout",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 9,
+      "content_version": "1.0",
+      "role": "item #6",
+      "exact_text": [
+        "#6",
+        "crossfit box",
+        "great community, but not built for bodybuilding."
+      ],
+      "file": "outputs/slide-09.png",
+      "prompt_file": "prompts/slide-09.txt",
+      "references": [
+        "carousels/LW-CAR-0022/outputs/slide-03.png"
+      ],
+      "illustration": "swinging a kettlebell in front of a pull-up rig and a stack of boxes, front three-quarter view",
+      "rating_stars": 3,
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-26T13:50:05.963730+00:00",
+          "prompt_file": "prompts/slide-09.txt",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0022/outputs/slide-03.png"
+          ],
+          "finished_at": "2026-10-26T13:50:36.227386+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-f901c544-0056-4320-8787-0df993d77871.png",
+          "raw_result_format": {
+            "size": [
+              1122,
+              1402
+            ],
+            "mode": "RGB"
+          },
+          "result_file": "outputs/slide-09.png",
+          "export": {
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "alpha": false,
+            "logo": "original PNG, x48 y19, 218x71"
+          }
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_to_repository_checkout",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 10,
+      "content_version": "1.0",
+      "role": "item #5",
+      "exact_text": [
+        "#5",
+        "24/7 chain gym",
+        "open whenever you are, with all the basics."
+      ],
+      "file": "outputs/slide-10.png",
+      "prompt_file": "prompts/slide-10.txt",
+      "references": [
+        "carousels/LW-CAR-0022/outputs/slide-03.png"
+      ],
+      "illustration": "walking past a row of cable machines and a rack, a simple wall clock showing late night, side view",
+      "rating_stars": 3.5,
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-26T13:50:37.519539+00:00",
+          "prompt_file": "prompts/slide-10.txt",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0022/outputs/slide-03.png"
+          ],
+          "finished_at": "2026-10-26T13:51:08.841297+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-4039a269-d277-4ee9-bc97-488d7e2d5f7d.png",
+          "raw_result_format": {
+            "size": [
+              1122,
+              1402
+            ],
+            "mode": "RGB"
+          },
+          "result_file": "outputs/slide-10.png",
+          "export": {
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "alpha": false,
+            "logo": "original PNG, x48 y19, 218x71"
+          }
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_to_repository_checkout",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 11,
+      "content_version": "1.0",
+      "role": "tier divider A",
+      "exact_text": [
+        "A",
+        "tier",
+        "worth it"
+      ],
+      "file": "outputs/slide-11.png",
+      "prompt_file": "prompts/slide-11.txt",
+      "references": [
+        "carousels/LW-CAR-0022/outputs/slide-02.png"
+      ],
+      "illustration": "—",
+      "rating_stars": null,
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-26T13:51:10.167783+00:00",
+          "prompt_file": "prompts/slide-11.txt",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0022/outputs/slide-02.png"
+          ],
+          "finished_at": "2026-10-26T13:51:38.035462+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-4058733c-ad13-43c7-99cc-c173a0b94431.png",
+          "raw_result_format": {
+            "size": [
+              1122,
+              1402
+            ],
+            "mode": "RGB"
+          },
+          "result_file": "outputs/slide-11.png",
+          "export": {
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "alpha": false,
+            "logo": "original PNG, x48 y19, 218x71"
+          }
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_to_repository_checkout",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 12,
+      "content_version": "1.0",
+      "role": "item #4",
+      "exact_text": [
+        "#4",
+        "university gym",
+        "cheap, decent kit and quiet in the morning."
+      ],
+      "file": "outputs/slide-12.png",
+      "prompt_file": "prompts/slide-12.txt",
+      "references": [
+        "carousels/LW-CAR-0022/outputs/slide-03.png"
+      ],
+      "illustration": "squatting in a rack in an almost empty room, calm, side view",
+      "rating_stars": 4,
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-26T13:51:39.302060+00:00",
+          "prompt_file": "prompts/slide-12.txt",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0022/outputs/slide-03.png"
+          ],
+          "finished_at": "2026-10-26T13:52:03.858204+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-5941da55-f50a-4261-9525-357cde337ed2.png",
+          "raw_result_format": {
+            "size": [
+              1122,
+              1402
+            ],
+            "mode": "RGB"
+          },
+          "result_file": "outputs/slide-12.png",
+          "export": {
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "alpha": false,
+            "logo": "original PNG, x48 y19, 218x71"
+          }
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_to_repository_checkout",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 13,
+      "content_version": "1.0",
+      "role": "item #3",
+      "exact_text": [
+        "#3",
+        "full home gym",
+        "no queue, your music, your rack."
+      ],
+      "file": "outputs/slide-13.png",
+      "prompt_file": "prompts/slide-13.txt",
+      "references": [
+        "carousels/LW-CAR-0022/outputs/slide-03.png"
+      ],
+      "illustration": "squatting in a power rack in a simple garage setting with plates on a tree, side view",
+      "rating_stars": 4.5,
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-26T13:52:05.216995+00:00",
+          "prompt_file": "prompts/slide-13.txt",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0022/outputs/slide-03.png"
+          ],
+          "finished_at": "2026-10-26T13:52:57.102712+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-ecad5e50-8cf4-4dc4-b2ab-dcccb23eb68e.png",
+          "raw_result_format": {
+            "size": [
+              1092,
+              1440
+            ],
+            "mode": "RGB"
+          },
+          "result_file": "outputs/slide-13.png",
+          "export": {
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "alpha": false,
+            "logo": "original PNG, x48 y19, 218x71"
+          }
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_to_repository_checkout",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 14,
+      "content_version": "1.0",
+      "role": "tier divider S",
+      "exact_text": [
+        "S",
+        "tier",
+        "the dream"
+      ],
+      "file": "outputs/slide-14.png",
+      "prompt_file": "prompts/slide-14.txt",
+      "references": [
+        "carousels/LW-CAR-0022/outputs/slide-02.png"
+      ],
+      "illustration": "—",
+      "rating_stars": null,
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-26T13:52:58.345992+00:00",
+          "prompt_file": "prompts/slide-14.txt",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0022/outputs/slide-02.png"
+          ],
+          "finished_at": "2026-10-26T13:53:25.505573+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-58525e97-9300-4f2e-864c-c77c184806ff.png",
+          "raw_result_format": {
+            "size": [
+              1122,
+              1402
+            ],
+            "mode": "RGB"
+          },
+          "result_file": "outputs/slide-14.png",
+          "export": {
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "alpha": false,
+            "logo": "original PNG, x48 y19, 218x71"
+          }
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_to_repository_checkout",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 15,
+      "content_version": "1.0",
+      "role": "item #2",
+      "exact_text": [
+        "#2",
+        "old-school hardcore gym",
+        "chalk, heavy plates and nobody on their phone."
+      ],
+      "file": "outputs/slide-15.png",
+      "prompt_file": "prompts/slide-15.txt",
+      "references": [
+        "carousels/LW-CAR-0022/outputs/slide-03.png"
+      ],
+      "illustration": "chalking the hands next to a heavily loaded deadlift bar, a little chalk dust in the air, front view",
+      "rating_stars": 5,
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-26T13:53:26.628870+00:00",
+          "prompt_file": "prompts/slide-15.txt",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0022/outputs/slide-03.png"
+          ],
+          "finished_at": "2026-10-26T13:54:01.809283+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-d2c5f973-7245-4ff0-8543-c1039a452157.png",
+          "raw_result_format": {
+            "size": [
+              1122,
+              1402
+            ],
+            "mode": "RGB"
+          },
+          "result_file": "outputs/slide-15.png",
+          "export": {
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "alpha": false,
+            "logo": "original PNG, x48 y19, 218x71"
+          }
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_to_repository_checkout",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 16,
+      "content_version": "1.0",
+      "role": "item #1",
+      "exact_text": [
+        "#1",
+        "big gym with everything",
+        "every machine, every rack and room to train."
+      ],
+      "file": "outputs/slide-16.png",
+      "prompt_file": "prompts/slide-16.txt",
+      "references": [
+        "carousels/LW-CAR-0022/outputs/slide-03.png"
+      ],
+      "illustration": "standing confidently in front of a row of different machines and two racks, arms open, front view",
+      "rating_stars": 5,
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-26T13:54:03.265556+00:00",
+          "prompt_file": "prompts/slide-16.txt",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0022/outputs/slide-03.png"
+          ],
+          "finished_at": "2026-10-26T13:54:38.482543+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-f9a9a276-4202-4335-8957-3f1df6ee638c.png",
+          "raw_result_format": {
+            "size": [
+              1092,
+              1440
+            ],
+            "mode": "RGB"
+          },
+          "result_file": "outputs/slide-16.png",
+          "export": {
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "alpha": false,
+            "logo": "original PNG, x48 y19, 218x71"
+          }
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_to_repository_checkout",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 17,
+      "content_version": "1.0",
+      "role": "product ending",
+      "exact_text": [
+        "whatever gym you train in, harda tracks every set you lift.",
+        "log your workouts at home, in a hotel or in the gym."
+      ],
+      "file": "outputs/slide-17.png",
+      "prompt_file": "prompts/slide-17.txt",
+      "references": [
+        "carousels/LW-CAR-0022/outputs/slide-19.png"
+      ],
+      "illustration": "hand + phone",
+      "rating_stars": null,
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-26T13:54:39.729080+00:00",
+          "prompt_file": "prompts/slide-17.txt",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0022/outputs/slide-19.png"
+          ],
+          "finished_at": "2026-10-26T13:55:04.959541+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-23dbf4ef-6eaf-49be-8932-bbd071901b84.png",
+          "raw_result_format": {
+            "size": [
+              1122,
+              1402
+            ],
+            "mode": "RGB"
+          },
+          "result_file": "outputs/slide-17.png",
+          "export": {
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "alpha": false,
+            "logo": "original PNG, x48 y19, 218x71"
+          }
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_to_repository_checkout",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending",
+      "phone_compositing": {
+        "source": "carousels/LW-CAR-0022/outputs/slide-19.png",
+        "source_commit": "f5b9b3fefc286b2cab53ddd12139b0c96ead8861",
+        "source_crop": [
+          0,
+          720,
+          1080,
+          1350
+        ],
+        "asset": "production-assets/approved-phone-hand-strip.png",
+        "measured_text_bottom_exclusive": 799,
+        "placement": [
+          0,
+          849
+        ],
+        "minimum_gap": 50,
+        "measurement": "raster text-ink bounding extent on generated text-only plate; no OCR or visual QA",
+        "scale": "1:1, no resampling",
+        "real_ui_generated": false
+      }
+    }
+  ],
+  "archive": "LW-CAR-0053-1080x1350.zip"
+}

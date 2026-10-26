@@ -1,0 +1,10 @@
+Produce ONE 1080 x 1350 portrait fitness carousel slide for Harda. Attached owner-approved images are the visual templates, not the text source. Match S2 exactly: extremely heavy tight lowercase grotesk headlines #2A2A2A; flat coral #F26445 marker behind the LOWER part of headline words only; clean regular dark body type; secondary subtitle italic regular #6B6B6B. Solid opaque CLEAN #F0F1EB, no texture, arch, panel, gradient, slide counter, watermark or extra copy. Leave the top 110 pixels entirely EMPTY background: generate NO logo or wordmark; the ORIGINAL Harda PNG is inserted at x48,y19,218x71 later using its own alpha, no patch. Mannequin is a realistic WHITE/LIGHT-GREY nonhuman anatomical teaching model, bald, smooth faceless head, fine grey shading/muscle fibres, opaque loose charcoal #2A2A2A athletic shorts with full coverage. Other clothing only when explicitly required by this slide. Equipment black/grey. Same rendering as the references, not beige, cartoon or clay. Preserve every exact string below, curly quotes, case, apostrophes and punctuation. Only the requested strings may be visible; no extra words or equipment labels. All text completely readable within slide edges; keep figure below text.
+
+TIER DIVIDER: same centered layout, spacing, proportions and typography as attached divider. Rounded square tile #3FCF5E, huge white bold letter C with soft shadow, large black tier beside it; italic regular grey subtitle centered below. No figure, equipment, stars or marker strips. No coloured muscles. Coral effect lines ONLY where explicitly specified; do not copy coloured legs from the cover template. Express humour through body posture and gestures. Keep all athletic shorts opaque, loose and charcoal.
+
+AUTHORITATIVE TEXT AND STYLES FROM copy.json:
+{"string": "C", "style": "white bold letter on a rounded colour tile"}
+{"string": "tier", "style": "lowercase, heaviest weight, text_dark"}
+{"string": "it’ll do", "style": "italic, regular, text_body_grey"}
+
+Return one complete opaque slide, not a contact sheet.
