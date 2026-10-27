@@ -1,0 +1,984 @@
+{
+  "carousel_id": "LW-CAR-0059",
+  "content_version": "1.0",
+  "source_commit": "93a947155c6001d8679d6a71bd739996b51cc1cc",
+  "batch": "BATCH-G",
+  "batch_status": "resumed",
+  "instructions": "prompts/codex-task.md",
+  "design_style": "S2",
+  "brand": "Harda",
+  "status": "complete_pending_owner_review",
+  "carousel_complete": true,
+  "generated_images": 17,
+  "next_slide_to_generate": null,
+  "next_action": "Owner reviews all Batch G carousels at the end. Continue the next assigned carousel without review pause.",
+  "agent_visual_review": "not_performed",
+  "user_review": "pending",
+  "logo": {
+    "file": "assets/logo/harda-logo-full.png",
+    "x": 48,
+    "y": 19,
+    "width": 218,
+    "height": 71,
+    "method": "original file composited with own alpha, no backing patch"
+  },
+  "remote_save": {
+    "remote": "origin",
+    "branch": "claude/charming-einstein-xgejky",
+    "status": "commit_and_push_requested",
+    "commit_lookup": "git log -1 -- carousels/LW-CAR-0059/manifest.json"
+  },
+  "slides": [
+    {
+      "slide": 1,
+      "content_version": "1.0",
+      "role": "hook",
+      "exact_text": [
+        "cardio",
+        "tier list",
+        "(ranked worst to best)"
+      ],
+      "file": "outputs/slide-01.png",
+      "prompt_file": "prompts/slide-01.txt",
+      "references": [
+        "carousels/LW-CAR-0049/outputs/slide-01.png"
+      ],
+      "illustration": "front view from the thighs up, a towel over the shoulder, slightly out of breath, standing in front of a treadmill",
+      "rating_stars": null,
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-27T10:11:25.311824+00:00",
+          "prompt_file": "prompts/slide-01.txt",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0049/outputs/slide-01.png"
+          ],
+          "finished_at": "2026-10-27T10:12:05.529886+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-54a15e3b-5c39-4351-8bb6-999e58aff338.png",
+          "raw_result_format": {
+            "size": [
+              1122,
+              1402
+            ],
+            "mode": "RGB"
+          },
+          "result_file": "outputs/slide-01.png",
+          "export": {
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "alpha": false,
+            "logo": "original PNG, x48 y19, 218x71"
+          }
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_to_repository_checkout",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 2,
+      "content_version": "1.0",
+      "role": "tier divider F",
+      "exact_text": [
+        "F",
+        "tier",
+        "skip these"
+      ],
+      "file": "outputs/slide-02.png",
+      "prompt_file": "prompts/slide-02.txt",
+      "references": [
+        "carousels/LW-CAR-0049/outputs/slide-02.png",
+        "carousels/LW-CAR-0022/outputs/slide-02.png"
+      ],
+      "illustration": "—",
+      "rating_stars": null,
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-27T10:12:06.738883+00:00",
+          "prompt_file": "prompts/slide-02.txt",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0049/outputs/slide-02.png",
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0022/outputs/slide-02.png"
+          ],
+          "finished_at": "2026-10-27T10:12:31.804388+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-571ed9ae-3828-41cb-8620-9f540e940925.png",
+          "raw_result_format": {
+            "size": [
+              1122,
+              1402
+            ],
+            "mode": "RGB"
+          },
+          "result_file": "outputs/slide-02.png",
+          "export": {
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "alpha": false,
+            "logo": "original PNG, x48 y19, 218x71"
+          }
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_to_repository_checkout",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 3,
+      "content_version": "1.0",
+      "role": "item #10",
+      "exact_text": [
+        "#10",
+        "vibration plate",
+        "standing still while a machine shakes you."
+      ],
+      "file": "outputs/slide-03.png",
+      "prompt_file": "prompts/slide-03.txt",
+      "references": [
+        "carousels/LW-CAR-0053/outputs/slide-03.png",
+        "carousels/LW-CAR-0049/outputs/slide-03.png"
+      ],
+      "illustration": "standing still on a vibration plate machine, bored, front view",
+      "rating_stars": 1,
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-27T10:12:32.925739+00:00",
+          "prompt_file": "prompts/slide-03.txt",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0053/outputs/slide-03.png",
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0049/outputs/slide-03.png"
+          ],
+          "finished_at": "2026-10-27T10:13:04.373994+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-f832db79-959b-4783-b414-3bca383649a1.png",
+          "raw_result_format": {
+            "size": [
+              1122,
+              1402
+            ],
+            "mode": "RGB"
+          },
+          "result_file": "outputs/slide-03.png",
+          "export": {
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "alpha": false,
+            "logo": "original PNG, x48 y19, 218x71"
+          }
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_to_repository_checkout",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 4,
+      "content_version": "1.0",
+      "role": "item #9",
+      "exact_text": [
+        "#9",
+        "slow elliptical while scrolling",
+        "it moves, but your heart barely notices."
+      ],
+      "file": "outputs/slide-04.png",
+      "prompt_file": "prompts/slide-04.txt",
+      "references": [
+        "carousels/LW-CAR-0053/outputs/slide-03.png",
+        "carousels/LW-CAR-0049/outputs/slide-03.png"
+      ],
+      "illustration": "on an elliptical trainer, looking down at a phone (screen not visible), side view",
+      "rating_stars": 1.5,
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-27T10:13:05.507582+00:00",
+          "prompt_file": "prompts/slide-04.txt",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0053/outputs/slide-03.png",
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0049/outputs/slide-03.png"
+          ],
+          "finished_at": "2026-10-27T10:13:32.733730+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-c9f454d6-3595-4093-b037-914b2f0e3cfe.png",
+          "raw_result_format": {
+            "size": [
+              1122,
+              1402
+            ],
+            "mode": "RGB"
+          },
+          "result_file": "outputs/slide-04.png",
+          "export": {
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "alpha": false,
+            "logo": "original PNG, x48 y19, 218x71"
+          }
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_to_repository_checkout",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 5,
+      "content_version": "1.0",
+      "role": "tier divider C",
+      "exact_text": [
+        "C",
+        "tier",
+        "you can do better"
+      ],
+      "file": "outputs/slide-05.png",
+      "prompt_file": "prompts/slide-05.txt",
+      "references": [
+        "carousels/LW-CAR-0049/outputs/slide-02.png",
+        "carousels/LW-CAR-0022/outputs/slide-02.png"
+      ],
+      "illustration": "—",
+      "rating_stars": null,
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-27T10:13:34.245068+00:00",
+          "prompt_file": "prompts/slide-05.txt",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0049/outputs/slide-02.png",
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0022/outputs/slide-02.png"
+          ],
+          "finished_at": "2026-10-27T10:13:56.076860+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-25a5b9c7-ca2b-4706-9466-51e760e9765c.png",
+          "raw_result_format": {
+            "size": [
+              1122,
+              1402
+            ],
+            "mode": "RGB"
+          },
+          "result_file": "outputs/slide-05.png",
+          "export": {
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "alpha": false,
+            "logo": "original PNG, x48 y19, 218x71"
+          }
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_to_repository_checkout",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 6,
+      "content_version": "1.0",
+      "role": "item #8",
+      "exact_text": [
+        "#8",
+        "burpees",
+        "they work, but nobody keeps them up for long."
+      ],
+      "file": "outputs/slide-06.png",
+      "prompt_file": "prompts/slide-06.txt",
+      "references": [
+        "carousels/LW-CAR-0053/outputs/slide-03.png",
+        "carousels/LW-CAR-0049/outputs/slide-03.png"
+      ],
+      "illustration": "mid-burpee jumping up with arms overhead, front view",
+      "rating_stars": 2.5,
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-27T10:13:57.194031+00:00",
+          "prompt_file": "prompts/slide-06.txt",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0053/outputs/slide-03.png",
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0049/outputs/slide-03.png"
+          ],
+          "finished_at": "2026-10-27T10:14:25.674304+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-c4aa3caa-6b74-4186-86da-ebfd690b93a1.png",
+          "raw_result_format": {
+            "size": [
+              1122,
+              1402
+            ],
+            "mode": "RGB"
+          },
+          "result_file": "outputs/slide-06.png",
+          "export": {
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "alpha": false,
+            "logo": "original PNG, x48 y19, 218x71"
+          }
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_to_repository_checkout",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 7,
+      "content_version": "1.0",
+      "role": "item #7",
+      "exact_text": [
+        "#7",
+        "elliptical",
+        "easy on the joints, but easy to coast too."
+      ],
+      "file": "outputs/slide-07.png",
+      "prompt_file": "prompts/slide-07.txt",
+      "references": [
+        "carousels/LW-CAR-0053/outputs/slide-03.png",
+        "carousels/LW-CAR-0049/outputs/slide-03.png"
+      ],
+      "illustration": "on an elliptical trainer, moving steadily, side view",
+      "rating_stars": 2.5,
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-27T10:14:26.876269+00:00",
+          "prompt_file": "prompts/slide-07.txt",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0053/outputs/slide-03.png",
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0049/outputs/slide-03.png"
+          ],
+          "finished_at": "2026-10-27T10:15:20.063626+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-3cd4d98b-8025-480d-bd27-df590d67a567.png",
+          "raw_result_format": {
+            "size": [
+              1122,
+              1402
+            ],
+            "mode": "RGB"
+          },
+          "result_file": "outputs/slide-07.png",
+          "export": {
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "alpha": false,
+            "logo": "original PNG, x48 y19, 218x71"
+          }
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_to_repository_checkout",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 8,
+      "content_version": "1.0",
+      "role": "tier divider B",
+      "exact_text": [
+        "B",
+        "tier",
+        "solid picks"
+      ],
+      "file": "outputs/slide-08.png",
+      "prompt_file": "prompts/slide-08.txt",
+      "references": [
+        "carousels/LW-CAR-0049/outputs/slide-02.png",
+        "carousels/LW-CAR-0022/outputs/slide-02.png"
+      ],
+      "illustration": "—",
+      "rating_stars": null,
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-27T10:15:21.198733+00:00",
+          "prompt_file": "prompts/slide-08.txt",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0049/outputs/slide-02.png",
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0022/outputs/slide-02.png"
+          ],
+          "finished_at": "2026-10-27T10:15:41.561141+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-c5dd550c-d236-478b-b1f6-87c7dc0b79a0.png",
+          "raw_result_format": {
+            "size": [
+              1122,
+              1402
+            ],
+            "mode": "RGB"
+          },
+          "result_file": "outputs/slide-08.png",
+          "export": {
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "alpha": false,
+            "logo": "original PNG, x48 y19, 218x71"
+          }
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_to_repository_checkout",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 9,
+      "content_version": "1.0",
+      "role": "item #6",
+      "exact_text": [
+        "#6",
+        "running",
+        "great, but hard on the knees for some people."
+      ],
+      "file": "outputs/slide-09.png",
+      "prompt_file": "prompts/slide-09.txt",
+      "references": [
+        "carousels/LW-CAR-0053/outputs/slide-03.png",
+        "carousels/LW-CAR-0049/outputs/slide-03.png"
+      ],
+      "illustration": "running outdoors on a plain path, side view",
+      "rating_stars": 3,
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-27T10:15:42.764661+00:00",
+          "prompt_file": "prompts/slide-09.txt",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0053/outputs/slide-03.png",
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0049/outputs/slide-03.png"
+          ],
+          "finished_at": "2026-10-27T10:16:10.145678+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-a392e7f3-6528-4462-be6b-30702879ea40.png",
+          "raw_result_format": {
+            "size": [
+              1122,
+              1402
+            ],
+            "mode": "RGB"
+          },
+          "result_file": "outputs/slide-09.png",
+          "export": {
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "alpha": false,
+            "logo": "original PNG, x48 y19, 218x71"
+          }
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_to_repository_checkout",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 10,
+      "content_version": "1.0",
+      "role": "item #5",
+      "exact_text": [
+        "#5",
+        "jump rope",
+        "cheap, fun and good for coordination."
+      ],
+      "file": "outputs/slide-10.png",
+      "prompt_file": "prompts/slide-10.txt",
+      "references": [
+        "carousels/LW-CAR-0053/outputs/slide-03.png",
+        "carousels/LW-CAR-0049/outputs/slide-03.png"
+      ],
+      "illustration": "skipping a jump rope, front view",
+      "rating_stars": 3.5,
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-27T10:16:11.399833+00:00",
+          "prompt_file": "prompts/slide-10.txt",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0053/outputs/slide-03.png",
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0049/outputs/slide-03.png"
+          ],
+          "finished_at": "2026-10-27T10:16:50.783298+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-c3b6d18a-7633-416a-8b7f-0bc182997a37.png",
+          "raw_result_format": {
+            "size": [
+              1122,
+              1402
+            ],
+            "mode": "RGB"
+          },
+          "result_file": "outputs/slide-10.png",
+          "export": {
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "alpha": false,
+            "logo": "original PNG, x48 y19, 218x71"
+          }
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_to_repository_checkout",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 11,
+      "content_version": "1.0",
+      "role": "tier divider A",
+      "exact_text": [
+        "A",
+        "tier",
+        "worth your time"
+      ],
+      "file": "outputs/slide-11.png",
+      "prompt_file": "prompts/slide-11.txt",
+      "references": [
+        "carousels/LW-CAR-0049/outputs/slide-02.png",
+        "carousels/LW-CAR-0022/outputs/slide-02.png"
+      ],
+      "illustration": "—",
+      "rating_stars": null,
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-27T10:16:51.948328+00:00",
+          "prompt_file": "prompts/slide-11.txt",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0049/outputs/slide-02.png",
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0022/outputs/slide-02.png"
+          ],
+          "finished_at": "2026-10-27T10:17:18.388428+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-28ff9e4a-f521-4cc8-a2a4-393c3bd3584d.png",
+          "raw_result_format": {
+            "size": [
+              1122,
+              1402
+            ],
+            "mode": "RGB"
+          },
+          "result_file": "outputs/slide-11.png",
+          "export": {
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "alpha": false,
+            "logo": "original PNG, x48 y19, 218x71"
+          }
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_to_repository_checkout",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 12,
+      "content_version": "1.0",
+      "role": "item #4",
+      "exact_text": [
+        "#4",
+        "rowing machine",
+        "full body, low impact, and hard if you push."
+      ],
+      "file": "outputs/slide-12.png",
+      "prompt_file": "prompts/slide-12.txt",
+      "references": [
+        "carousels/LW-CAR-0053/outputs/slide-03.png",
+        "carousels/LW-CAR-0049/outputs/slide-03.png"
+      ],
+      "illustration": "on a rowing machine at the finish of a stroke, side view",
+      "rating_stars": 4,
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-27T10:17:19.624381+00:00",
+          "prompt_file": "prompts/slide-12.txt",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0053/outputs/slide-03.png",
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0049/outputs/slide-03.png"
+          ],
+          "finished_at": "2026-10-27T10:18:06.834457+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-ac91f0b6-b2e9-40fe-9a61-422384a42ce3.png",
+          "raw_result_format": {
+            "size": [
+              1122,
+              1402
+            ],
+            "mode": "RGB"
+          },
+          "result_file": "outputs/slide-12.png",
+          "export": {
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "alpha": false,
+            "logo": "original PNG, x48 y19, 218x71"
+          }
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_to_repository_checkout",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 13,
+      "content_version": "1.0",
+      "role": "item #3",
+      "exact_text": [
+        "#3",
+        "bike",
+        "easy on the joints and easy to push hard."
+      ],
+      "file": "outputs/slide-13.png",
+      "prompt_file": "prompts/slide-13.txt",
+      "references": [
+        "carousels/LW-CAR-0053/outputs/slide-03.png",
+        "carousels/LW-CAR-0049/outputs/slide-03.png"
+      ],
+      "illustration": "on a stationary bike, pedalling hard, side view",
+      "rating_stars": 4,
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-27T10:18:08.000428+00:00",
+          "prompt_file": "prompts/slide-13.txt",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0053/outputs/slide-03.png",
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0049/outputs/slide-03.png"
+          ],
+          "finished_at": "2026-10-27T10:18:42.947877+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-4acd9dd7-7919-46a8-a111-e916a03d2db5.png",
+          "raw_result_format": {
+            "size": [
+              1122,
+              1402
+            ],
+            "mode": "RGB"
+          },
+          "result_file": "outputs/slide-13.png",
+          "export": {
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "alpha": false,
+            "logo": "original PNG, x48 y19, 218x71"
+          }
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_to_repository_checkout",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 14,
+      "content_version": "1.0",
+      "role": "tier divider S",
+      "exact_text": [
+        "S",
+        "tier",
+        "the best of the best"
+      ],
+      "file": "outputs/slide-14.png",
+      "prompt_file": "prompts/slide-14.txt",
+      "references": [
+        "carousels/LW-CAR-0049/outputs/slide-02.png",
+        "carousels/LW-CAR-0022/outputs/slide-02.png"
+      ],
+      "illustration": "—",
+      "rating_stars": null,
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-27T10:18:44.128068+00:00",
+          "prompt_file": "prompts/slide-14.txt",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0049/outputs/slide-02.png",
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0022/outputs/slide-02.png"
+          ],
+          "finished_at": "2026-10-27T10:19:12.033235+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-48d7861c-cdd6-4136-89c1-fcb8cb1a06f9.png",
+          "raw_result_format": {
+            "size": [
+              1122,
+              1402
+            ],
+            "mode": "RGB"
+          },
+          "result_file": "outputs/slide-14.png",
+          "export": {
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "alpha": false,
+            "logo": "original PNG, x48 y19, 218x71"
+          }
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_to_repository_checkout",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 15,
+      "content_version": "1.0",
+      "role": "item #2",
+      "exact_text": [
+        "#2",
+        "stairmaster",
+        "short, brutal and great for your legs."
+      ],
+      "file": "outputs/slide-15.png",
+      "prompt_file": "prompts/slide-15.txt",
+      "references": [
+        "carousels/LW-CAR-0053/outputs/slide-03.png",
+        "carousels/LW-CAR-0049/outputs/slide-03.png"
+      ],
+      "illustration": "climbing a stair climber machine, side view",
+      "rating_stars": 4.5,
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-27T10:19:13.192101+00:00",
+          "prompt_file": "prompts/slide-15.txt",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0053/outputs/slide-03.png",
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0049/outputs/slide-03.png"
+          ],
+          "finished_at": "2026-10-27T10:19:49.521707+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-af2381a4-75d2-4b99-9708-cdce2ed5a869.png",
+          "raw_result_format": {
+            "size": [
+              1122,
+              1402
+            ],
+            "mode": "RGB"
+          },
+          "result_file": "outputs/slide-15.png",
+          "export": {
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "alpha": false,
+            "logo": "original PNG, x48 y19, 218x71"
+          }
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_to_repository_checkout",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 16,
+      "content_version": "1.0",
+      "role": "item #1",
+      "exact_text": [
+        "#1",
+        "incline walking",
+        "low impact, easy to stick with, and you can keep it up for ages."
+      ],
+      "file": "outputs/slide-16.png",
+      "prompt_file": "prompts/slide-16.txt",
+      "references": [
+        "carousels/LW-CAR-0053/outputs/slide-03.png",
+        "carousels/LW-CAR-0049/outputs/slide-03.png"
+      ],
+      "illustration": "walking on a treadmill at a steep incline, relaxed, side view",
+      "rating_stars": 5,
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-27T10:19:50.697976+00:00",
+          "prompt_file": "prompts/slide-16.txt",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0053/outputs/slide-03.png",
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0049/outputs/slide-03.png"
+          ],
+          "finished_at": "2026-10-27T10:20:23.999789+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-ee57ff0a-6aa2-43ca-8ec4-aefec7e9e6c7.png",
+          "raw_result_format": {
+            "size": [
+              1122,
+              1402
+            ],
+            "mode": "RGB"
+          },
+          "result_file": "outputs/slide-16.png",
+          "export": {
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "alpha": false,
+            "logo": "original PNG, x48 y19, 218x71"
+          }
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_to_repository_checkout",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 17,
+      "content_version": "1.0",
+      "role": "product ending",
+      "exact_text": [
+        "harda tracks every set you lift, so cardio never takes over your training.",
+        "log your workouts and keep lifting in your week."
+      ],
+      "file": "outputs/slide-17.png",
+      "prompt_file": "prompts/slide-17.txt",
+      "references": [
+        "carousels/LW-CAR-0022/outputs/slide-19.png"
+      ],
+      "illustration": "hand + phone",
+      "rating_stars": null,
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-27T10:20:25.619369+00:00",
+          "prompt_file": "prompts/slide-17.txt",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0022/outputs/slide-19.png"
+          ],
+          "finished_at": "2026-10-27T10:20:51.607633+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-759b56d8-2b1c-482e-86d9-8494b91af2bf.png",
+          "raw_result_format": {
+            "size": [
+              1122,
+              1402
+            ],
+            "mode": "RGB"
+          },
+          "result_file": "outputs/slide-17.png",
+          "export": {
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "alpha": false,
+            "logo": "original PNG, x48 y19, 218x71"
+          }
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_to_repository_checkout",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending",
+      "phone_compositing": {
+        "source": "carousels/LW-CAR-0022/outputs/slide-19.png",
+        "source_commit": "93a947155c6001d8679d6a71bd739996b51cc1cc",
+        "source_crop": [
+          0,
+          720,
+          1080,
+          1350
+        ],
+        "asset": "production-assets/approved-phone-hand-strip.png",
+        "measured_text_bottom_exclusive": 857,
+        "placement": [
+          0,
+          907
+        ],
+        "minimum_gap": 50,
+        "measurement": "raster text-ink bounding extent on generated text-only plate; no OCR or visual QA",
+        "scale": "1:1, no resampling",
+        "real_ui_generated": false
+      }
+    }
+  ],
+  "archive": "LW-CAR-0059-1080x1350.zip"
+}
