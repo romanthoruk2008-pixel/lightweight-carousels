@@ -1,0 +1,984 @@
+{
+  "carousel_id": "LW-CAR-0060",
+  "content_version": "1.0",
+  "source_commit": "9c12d26eeeaa89a5ad9b7591905d396a4a8d4ab9",
+  "batch": "BATCH-G",
+  "batch_status": "resumed",
+  "instructions": "prompts/codex-task.md",
+  "design_style": "S2",
+  "brand": "Harda",
+  "status": "complete_pending_owner_review",
+  "carousel_complete": true,
+  "generated_images": 17,
+  "next_slide_to_generate": null,
+  "next_action": "Owner reviews all Batch G carousels at the end. Continue the next assigned carousel without review pause.",
+  "agent_visual_review": "not_performed",
+  "user_review": "pending",
+  "logo": {
+    "file": "assets/logo/harda-logo-full.png",
+    "x": 48,
+    "y": 19,
+    "width": 218,
+    "height": 71,
+    "method": "original file composited with own alpha, no backing patch"
+  },
+  "remote_save": {
+    "remote": "origin",
+    "branch": "claude/charming-einstein-xgejky",
+    "status": "commit_and_push_requested",
+    "commit_lookup": "git log -1 -- carousels/LW-CAR-0060/manifest.json"
+  },
+  "slides": [
+    {
+      "slide": 1,
+      "content_version": "1.0",
+      "role": "hook",
+      "exact_text": [
+        "post-workout meals",
+        "tier list",
+        "(ranked worst to best)"
+      ],
+      "file": "outputs/slide-01.png",
+      "prompt_file": "prompts/slide-01.txt",
+      "references": [
+        "carousels/LW-CAR-0049/outputs/slide-01.png"
+      ],
+      "illustration": "front view from the thighs up, holding a plate with a fork and knife, hungry posture",
+      "rating_stars": null,
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-27T10:21:26.725323+00:00",
+          "prompt_file": "prompts/slide-01.txt",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0049/outputs/slide-01.png"
+          ],
+          "finished_at": "2026-10-27T10:22:07.395921+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-051997dd-c72b-4448-9e38-72d5b57d7560.png",
+          "raw_result_format": {
+            "size": [
+              1122,
+              1402
+            ],
+            "mode": "RGB"
+          },
+          "result_file": "outputs/slide-01.png",
+          "export": {
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "alpha": false,
+            "logo": "original PNG, x48 y19, 218x71"
+          }
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_to_repository_checkout",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 2,
+      "content_version": "1.0",
+      "role": "tier divider F",
+      "exact_text": [
+        "F",
+        "tier",
+        "skip these"
+      ],
+      "file": "outputs/slide-02.png",
+      "prompt_file": "prompts/slide-02.txt",
+      "references": [
+        "carousels/LW-CAR-0049/outputs/slide-02.png",
+        "carousels/LW-CAR-0022/outputs/slide-02.png"
+      ],
+      "illustration": "—",
+      "rating_stars": null,
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-27T10:22:08.542710+00:00",
+          "prompt_file": "prompts/slide-02.txt",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0049/outputs/slide-02.png",
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0022/outputs/slide-02.png"
+          ],
+          "finished_at": "2026-10-27T10:22:35.469001+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-b8fe2ab3-07d2-4f9f-8181-cb4947e492de.png",
+          "raw_result_format": {
+            "size": [
+              1122,
+              1402
+            ],
+            "mode": "RGB"
+          },
+          "result_file": "outputs/slide-02.png",
+          "export": {
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "alpha": false,
+            "logo": "original PNG, x48 y19, 218x71"
+          }
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_to_repository_checkout",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 3,
+      "content_version": "1.0",
+      "role": "item #10",
+      "exact_text": [
+        "#10",
+        "nothing at all",
+        "you just trained. eat something."
+      ],
+      "file": "outputs/slide-03.png",
+      "prompt_file": "prompts/slide-03.txt",
+      "references": [
+        "carousels/LW-CAR-0053/outputs/slide-03.png",
+        "carousels/LW-CAR-0049/outputs/slide-03.png"
+      ],
+      "illustration": "sitting on a gym bench with an empty plate in the hands, front view",
+      "rating_stars": 1,
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-27T10:22:36.610885+00:00",
+          "prompt_file": "prompts/slide-03.txt",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0053/outputs/slide-03.png",
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0049/outputs/slide-03.png"
+          ],
+          "finished_at": "2026-10-27T10:23:16.523567+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-9baa5fb1-3a7a-4d8d-9d18-e5e05d0e65f5.png",
+          "raw_result_format": {
+            "size": [
+              1122,
+              1402
+            ],
+            "mode": "RGB"
+          },
+          "result_file": "outputs/slide-03.png",
+          "export": {
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "alpha": false,
+            "logo": "original PNG, x48 y19, 218x71"
+          }
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_to_repository_checkout",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 4,
+      "content_version": "1.0",
+      "role": "item #9",
+      "exact_text": [
+        "#9",
+        "energy drink only",
+        "caffeine isn’t a meal."
+      ],
+      "file": "outputs/slide-04.png",
+      "prompt_file": "prompts/slide-04.txt",
+      "references": [
+        "carousels/LW-CAR-0053/outputs/slide-03.png",
+        "carousels/LW-CAR-0049/outputs/slide-03.png"
+      ],
+      "illustration": "holding a plain unbranded can, unimpressed, front view",
+      "rating_stars": 1,
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-27T10:23:17.717980+00:00",
+          "prompt_file": "prompts/slide-04.txt",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0053/outputs/slide-03.png",
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0049/outputs/slide-03.png"
+          ],
+          "finished_at": "2026-10-27T10:23:43.276828+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-73302b56-eeb2-4b45-aadd-c0e33f499002.png",
+          "raw_result_format": {
+            "size": [
+              1122,
+              1402
+            ],
+            "mode": "RGB"
+          },
+          "result_file": "outputs/slide-04.png",
+          "export": {
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "alpha": false,
+            "logo": "original PNG, x48 y19, 218x71"
+          }
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_to_repository_checkout",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 5,
+      "content_version": "1.0",
+      "role": "tier divider C",
+      "exact_text": [
+        "C",
+        "tier",
+        "you can do better"
+      ],
+      "file": "outputs/slide-05.png",
+      "prompt_file": "prompts/slide-05.txt",
+      "references": [
+        "carousels/LW-CAR-0049/outputs/slide-02.png",
+        "carousels/LW-CAR-0022/outputs/slide-02.png"
+      ],
+      "illustration": "—",
+      "rating_stars": null,
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-27T10:23:44.350334+00:00",
+          "prompt_file": "prompts/slide-05.txt",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0049/outputs/slide-02.png",
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0022/outputs/slide-02.png"
+          ],
+          "finished_at": "2026-10-27T10:24:03.985427+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-9a7cf8a2-08a4-46a6-a845-9f315258632b.png",
+          "raw_result_format": {
+            "size": [
+              1122,
+              1402
+            ],
+            "mode": "RGB"
+          },
+          "result_file": "outputs/slide-05.png",
+          "export": {
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "alpha": false,
+            "logo": "original PNG, x48 y19, 218x71"
+          }
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_to_repository_checkout",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 6,
+      "content_version": "1.0",
+      "role": "item #8",
+      "exact_text": [
+        "#8",
+        "pizza",
+        "tasty, and fine sometimes. not every day."
+      ],
+      "file": "outputs/slide-06.png",
+      "prompt_file": "prompts/slide-06.txt",
+      "references": [
+        "carousels/LW-CAR-0053/outputs/slide-03.png",
+        "carousels/LW-CAR-0049/outputs/slide-03.png"
+      ],
+      "illustration": "holding a slice of pizza, guilty posture, front view",
+      "rating_stars": 2,
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-27T10:24:05.221556+00:00",
+          "prompt_file": "prompts/slide-06.txt",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0053/outputs/slide-03.png",
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0049/outputs/slide-03.png"
+          ],
+          "finished_at": "2026-10-27T10:24:49.250371+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-92edb5ca-af44-40cc-afb4-209ec074ac23.png",
+          "raw_result_format": {
+            "size": [
+              1122,
+              1402
+            ],
+            "mode": "RGB"
+          },
+          "result_file": "outputs/slide-06.png",
+          "export": {
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "alpha": false,
+            "logo": "original PNG, x48 y19, 218x71"
+          }
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_to_repository_checkout",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 7,
+      "content_version": "1.0",
+      "role": "item #7",
+      "exact_text": [
+        "#7",
+        "protein bar",
+        "handy on the go, but not a real meal."
+      ],
+      "file": "outputs/slide-07.png",
+      "prompt_file": "prompts/slide-07.txt",
+      "references": [
+        "carousels/LW-CAR-0053/outputs/slide-03.png",
+        "carousels/LW-CAR-0049/outputs/slide-03.png"
+      ],
+      "illustration": "holding a plain unbranded bar while walking with a gym bag, side view",
+      "rating_stars": 2.5,
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-27T10:24:50.418774+00:00",
+          "prompt_file": "prompts/slide-07.txt",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0053/outputs/slide-03.png",
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0049/outputs/slide-03.png"
+          ],
+          "finished_at": "2026-10-27T10:25:33.100664+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-23fed813-dc41-4124-95cd-2feb3ce0995f.png",
+          "raw_result_format": {
+            "size": [
+              1122,
+              1402
+            ],
+            "mode": "RGB"
+          },
+          "result_file": "outputs/slide-07.png",
+          "export": {
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "alpha": false,
+            "logo": "original PNG, x48 y19, 218x71"
+          }
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_to_repository_checkout",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 8,
+      "content_version": "1.0",
+      "role": "tier divider B",
+      "exact_text": [
+        "B",
+        "tier",
+        "solid picks"
+      ],
+      "file": "outputs/slide-08.png",
+      "prompt_file": "prompts/slide-08.txt",
+      "references": [
+        "carousels/LW-CAR-0049/outputs/slide-02.png",
+        "carousels/LW-CAR-0022/outputs/slide-02.png"
+      ],
+      "illustration": "—",
+      "rating_stars": null,
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-27T10:25:34.230060+00:00",
+          "prompt_file": "prompts/slide-08.txt",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0049/outputs/slide-02.png",
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0022/outputs/slide-02.png"
+          ],
+          "finished_at": "2026-10-27T10:25:58.392439+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-804696f7-1063-4dbc-9aae-c6ea35e00aa2.png",
+          "raw_result_format": {
+            "size": [
+              1122,
+              1402
+            ],
+            "mode": "RGB"
+          },
+          "result_file": "outputs/slide-08.png",
+          "export": {
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "alpha": false,
+            "logo": "original PNG, x48 y19, 218x71"
+          }
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_to_repository_checkout",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 9,
+      "content_version": "1.0",
+      "role": "item #6",
+      "exact_text": [
+        "#6",
+        "yogurt and fruit",
+        "quick, light and easy to keep up."
+      ],
+      "file": "outputs/slide-09.png",
+      "prompt_file": "prompts/slide-09.txt",
+      "references": [
+        "carousels/LW-CAR-0053/outputs/slide-03.png",
+        "carousels/LW-CAR-0049/outputs/slide-03.png"
+      ],
+      "illustration": "eating from a bowl of yogurt with fruit, sitting, front view",
+      "rating_stars": 3,
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-27T10:25:59.508206+00:00",
+          "prompt_file": "prompts/slide-09.txt",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0053/outputs/slide-03.png",
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0049/outputs/slide-03.png"
+          ],
+          "finished_at": "2026-10-27T10:26:54.015346+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-a0711a09-f8b3-463d-9e19-2751ea95329b.png",
+          "raw_result_format": {
+            "size": [
+              1122,
+              1402
+            ],
+            "mode": "RGB"
+          },
+          "result_file": "outputs/slide-09.png",
+          "export": {
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "alpha": false,
+            "logo": "original PNG, x48 y19, 218x71"
+          }
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_to_repository_checkout",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 10,
+      "content_version": "1.0",
+      "role": "item #5",
+      "exact_text": [
+        "#5",
+        "shake and a banana",
+        "fast and simple when you’re busy."
+      ],
+      "file": "outputs/slide-10.png",
+      "prompt_file": "prompts/slide-10.txt",
+      "references": [
+        "carousels/LW-CAR-0053/outputs/slide-03.png",
+        "carousels/LW-CAR-0049/outputs/slide-03.png"
+      ],
+      "illustration": "holding a plain shaker and a banana, front view",
+      "rating_stars": 3.5,
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-27T10:26:55.255900+00:00",
+          "prompt_file": "prompts/slide-10.txt",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0053/outputs/slide-03.png",
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0049/outputs/slide-03.png"
+          ],
+          "finished_at": "2026-10-27T10:27:37.397971+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-abc9ef9d-6970-43a4-8131-0c247c11be21.png",
+          "raw_result_format": {
+            "size": [
+              1122,
+              1402
+            ],
+            "mode": "RGB"
+          },
+          "result_file": "outputs/slide-10.png",
+          "export": {
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "alpha": false,
+            "logo": "original PNG, x48 y19, 218x71"
+          }
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_to_repository_checkout",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 11,
+      "content_version": "1.0",
+      "role": "tier divider A",
+      "exact_text": [
+        "A",
+        "tier",
+        "worth your time"
+      ],
+      "file": "outputs/slide-11.png",
+      "prompt_file": "prompts/slide-11.txt",
+      "references": [
+        "carousels/LW-CAR-0049/outputs/slide-02.png",
+        "carousels/LW-CAR-0022/outputs/slide-02.png"
+      ],
+      "illustration": "—",
+      "rating_stars": null,
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-27T10:27:38.605562+00:00",
+          "prompt_file": "prompts/slide-11.txt",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0049/outputs/slide-02.png",
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0022/outputs/slide-02.png"
+          ],
+          "finished_at": "2026-10-27T10:28:04.464291+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-700452e3-cde6-498f-9afc-b375c9148345.png",
+          "raw_result_format": {
+            "size": [
+              1122,
+              1402
+            ],
+            "mode": "RGB"
+          },
+          "result_file": "outputs/slide-11.png",
+          "export": {
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "alpha": false,
+            "logo": "original PNG, x48 y19, 218x71"
+          }
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_to_repository_checkout",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 12,
+      "content_version": "1.0",
+      "role": "item #4",
+      "exact_text": [
+        "#4",
+        "eggs on toast",
+        "simple, filling and full of protein."
+      ],
+      "file": "outputs/slide-12.png",
+      "prompt_file": "prompts/slide-12.txt",
+      "references": [
+        "carousels/LW-CAR-0053/outputs/slide-03.png",
+        "carousels/LW-CAR-0049/outputs/slide-03.png"
+      ],
+      "illustration": "sitting at a table with a plate of eggs on toast, side view",
+      "rating_stars": 4,
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-27T10:28:05.636958+00:00",
+          "prompt_file": "prompts/slide-12.txt",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0053/outputs/slide-03.png",
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0049/outputs/slide-03.png"
+          ],
+          "finished_at": "2026-10-27T10:29:08.352952+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-519e6138-ffdd-43ae-b6e0-8e710a9ce73a.png",
+          "raw_result_format": {
+            "size": [
+              1122,
+              1402
+            ],
+            "mode": "RGB"
+          },
+          "result_file": "outputs/slide-12.png",
+          "export": {
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "alpha": false,
+            "logo": "original PNG, x48 y19, 218x71"
+          }
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_to_repository_checkout",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 13,
+      "content_version": "1.0",
+      "role": "item #3",
+      "exact_text": [
+        "#3",
+        "burrito bowl",
+        "rice, protein, beans and veg in one bowl."
+      ],
+      "file": "outputs/slide-13.png",
+      "prompt_file": "prompts/slide-13.txt",
+      "references": [
+        "carousels/LW-CAR-0053/outputs/slide-03.png",
+        "carousels/LW-CAR-0049/outputs/slide-03.png"
+      ],
+      "illustration": "sitting at a table with a big bowl, side view",
+      "rating_stars": 4.5,
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-27T10:29:09.521710+00:00",
+          "prompt_file": "prompts/slide-13.txt",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0053/outputs/slide-03.png",
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0049/outputs/slide-03.png"
+          ],
+          "finished_at": "2026-10-27T10:29:48.651656+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-2e92ec2f-869b-4db8-a903-88e66acaea25.png",
+          "raw_result_format": {
+            "size": [
+              1122,
+              1402
+            ],
+            "mode": "RGB"
+          },
+          "result_file": "outputs/slide-13.png",
+          "export": {
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "alpha": false,
+            "logo": "original PNG, x48 y19, 218x71"
+          }
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_to_repository_checkout",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 14,
+      "content_version": "1.0",
+      "role": "tier divider S",
+      "exact_text": [
+        "S",
+        "tier",
+        "the best of the best"
+      ],
+      "file": "outputs/slide-14.png",
+      "prompt_file": "prompts/slide-14.txt",
+      "references": [
+        "carousels/LW-CAR-0049/outputs/slide-02.png",
+        "carousels/LW-CAR-0022/outputs/slide-02.png"
+      ],
+      "illustration": "—",
+      "rating_stars": null,
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-27T10:29:49.874837+00:00",
+          "prompt_file": "prompts/slide-14.txt",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0049/outputs/slide-02.png",
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0022/outputs/slide-02.png"
+          ],
+          "finished_at": "2026-10-27T10:30:14.932183+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-6e93b77d-4823-478d-911e-45e5428f1682.png",
+          "raw_result_format": {
+            "size": [
+              1122,
+              1402
+            ],
+            "mode": "RGB"
+          },
+          "result_file": "outputs/slide-14.png",
+          "export": {
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "alpha": false,
+            "logo": "original PNG, x48 y19, 218x71"
+          }
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_to_repository_checkout",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 15,
+      "content_version": "1.0",
+      "role": "item #2",
+      "exact_text": [
+        "#2",
+        "salmon, potatoes and veg",
+        "a complete meal that fills you up properly."
+      ],
+      "file": "outputs/slide-15.png",
+      "prompt_file": "prompts/slide-15.txt",
+      "references": [
+        "carousels/LW-CAR-0053/outputs/slide-03.png",
+        "carousels/LW-CAR-0049/outputs/slide-03.png"
+      ],
+      "illustration": "sitting at a table with a plate of salmon, potatoes and vegetables, side view",
+      "rating_stars": 5,
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-27T10:30:16.056999+00:00",
+          "prompt_file": "prompts/slide-15.txt",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0053/outputs/slide-03.png",
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0049/outputs/slide-03.png"
+          ],
+          "finished_at": "2026-10-27T10:30:48.328585+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-2444f000-3be8-45c9-82f3-ef7695cbcf49.png",
+          "raw_result_format": {
+            "size": [
+              1122,
+              1402
+            ],
+            "mode": "RGB"
+          },
+          "result_file": "outputs/slide-15.png",
+          "export": {
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "alpha": false,
+            "logo": "original PNG, x48 y19, 218x71"
+          }
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_to_repository_checkout",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 16,
+      "content_version": "1.0",
+      "role": "item #1",
+      "exact_text": [
+        "#1",
+        "chicken and rice",
+        "the classic for a reason. simple and complete."
+      ],
+      "file": "outputs/slide-16.png",
+      "prompt_file": "prompts/slide-16.txt",
+      "references": [
+        "carousels/LW-CAR-0053/outputs/slide-03.png",
+        "carousels/LW-CAR-0049/outputs/slide-03.png"
+      ],
+      "illustration": "sitting at a table with a large plate of chicken, rice and vegetables, front three-quarter view",
+      "rating_stars": 5,
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-27T10:30:49.560216+00:00",
+          "prompt_file": "prompts/slide-16.txt",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0053/outputs/slide-03.png",
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0049/outputs/slide-03.png"
+          ],
+          "finished_at": "2026-10-27T10:31:17.596684+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-46eed560-74e4-481b-9ee4-59e479790b8f.png",
+          "raw_result_format": {
+            "size": [
+              1122,
+              1402
+            ],
+            "mode": "RGB"
+          },
+          "result_file": "outputs/slide-16.png",
+          "export": {
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "alpha": false,
+            "logo": "original PNG, x48 y19, 218x71"
+          }
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_to_repository_checkout",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 17,
+      "content_version": "1.0",
+      "role": "product ending",
+      "exact_text": [
+        "harda tracks every set you lift. what you eat after is up to you.",
+        "log your workouts and keep your training consistent."
+      ],
+      "file": "outputs/slide-17.png",
+      "prompt_file": "prompts/slide-17.txt",
+      "references": [
+        "carousels/LW-CAR-0022/outputs/slide-19.png"
+      ],
+      "illustration": "hand + phone",
+      "rating_stars": null,
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-27T10:31:18.797149+00:00",
+          "prompt_file": "prompts/slide-17.txt",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0022/outputs/slide-19.png"
+          ],
+          "finished_at": "2026-10-27T10:31:45.538758+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-cb4d5f7b-2133-4bae-bbfb-14990f6a65bc.png",
+          "raw_result_format": {
+            "size": [
+              1122,
+              1402
+            ],
+            "mode": "RGB"
+          },
+          "result_file": "outputs/slide-17.png",
+          "export": {
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "alpha": false,
+            "logo": "original PNG, x48 y19, 218x71"
+          }
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_to_repository_checkout",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending",
+      "phone_compositing": {
+        "source": "carousels/LW-CAR-0022/outputs/slide-19.png",
+        "source_commit": "9c12d26eeeaa89a5ad9b7591905d396a4a8d4ab9",
+        "source_crop": [
+          0,
+          720,
+          1080,
+          1350
+        ],
+        "asset": "production-assets/approved-phone-hand-strip.png",
+        "measured_text_bottom_exclusive": 868,
+        "placement": [
+          0,
+          918
+        ],
+        "minimum_gap": 50,
+        "measurement": "raster text-ink bounding extent on generated text-only plate; no OCR or visual QA",
+        "scale": "1:1, no resampling",
+        "real_ui_generated": false
+      }
+    }
+  ],
+  "archive": "LW-CAR-0060-1080x1350.zip"
+}
