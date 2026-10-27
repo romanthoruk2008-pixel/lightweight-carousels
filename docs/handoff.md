@@ -93,3 +93,4 @@ Claude, хмарна генерація, канал точного вставл�
 - Пачка 2026-10-24: BATCH-E (0043 favorite exercise says about you, 0044 things only gym people understand, 0045 gym bro translator, 0046 gym green flags, 0047 look better shirtless). 0038–0042 готові, 7 старих фіналів виправлені.
 - Пачка 2026-10-24: BATCH-F (0048 5 stages of leg day, 0049 gym excuses tier list, 0050 gym pet peeves, 0051 gym outfit says about you, 0052 muscles people notice first, 0053 types of gyms tier list). 0043–0047 готові.
 - Пачка 2026-10-26: BATCH-G (0054 if muscles were people, 0055 gym playlist says about you, 0056 most skipped muscles tier list, 0057 gym zodiac signs, 0058 favorite day says about you, 0059 cardio tier list, 0060 post-workout meals tier list, 0061 gym time says about you). BATCH-F ще чекає на перевірку після генерації.
+- 2026-10-27: BATCH-F (0048–0053) готова. BATCH-G: 0054–0055 готові, зупинка через HTTP 408 при push. Дозавершення: carousels/BATCH-G-RESUME.md (0056–0061).
