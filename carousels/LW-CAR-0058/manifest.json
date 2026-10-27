@@ -1,0 +1,544 @@
+{
+  "carousel_id": "LW-CAR-0058",
+  "content_version": "1.0",
+  "source_commit": "cbafb750d8fc235e72f0aced0d13873b55d1fb2d",
+  "batch": "BATCH-G",
+  "batch_status": "resumed",
+  "instructions": "prompts/codex-task.md",
+  "design_style": "S2",
+  "brand": "Harda",
+  "status": "complete_pending_owner_review",
+  "carousel_complete": true,
+  "generated_images": 9,
+  "next_slide_to_generate": null,
+  "next_action": "Owner reviews all Batch G carousels at the end. Continue the next assigned carousel without review pause.",
+  "agent_visual_review": "not_performed",
+  "user_review": "pending",
+  "logo": {
+    "file": "assets/logo/harda-logo-full.png",
+    "x": 48,
+    "y": 19,
+    "width": 218,
+    "height": 71,
+    "method": "original file composited with own alpha, no backing patch"
+  },
+  "remote_save": {
+    "remote": "origin",
+    "branch": "claude/charming-einstein-xgejky",
+    "status": "commit_and_push_requested",
+    "commit_lookup": "git log -1 -- carousels/LW-CAR-0058/manifest.json"
+  },
+  "slides": [
+    {
+      "slide": 1,
+      "content_version": "1.0",
+      "role": "hook",
+      "exact_text": [
+        "what your favorite day",
+        "says about you",
+        "(chest day people, we see you)"
+      ],
+      "file": "outputs/slide-01.png",
+      "prompt_file": "prompts/slide-01.txt",
+      "references": [
+        "carousels/LW-CAR-0049/outputs/slide-01.png"
+      ],
+      "illustration": "front view from the thighs up, holding a small paper wall calendar page and pointing at it, cheerful posture",
+      "rating_stars": null,
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-27T10:05:54.937063+00:00",
+          "prompt_file": "prompts/slide-01.txt",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0049/outputs/slide-01.png"
+          ],
+          "finished_at": "2026-10-27T10:06:18.870734+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-5627eaf8-498e-413b-a4f6-e163527ef7c2.png",
+          "raw_result_format": {
+            "size": [
+              1122,
+              1402
+            ],
+            "mode": "RGB"
+          },
+          "result_file": "outputs/slide-01.png",
+          "export": {
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "alpha": false,
+            "logo": "original PNG, x48 y19, 218x71"
+          }
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_to_repository_checkout",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 2,
+      "content_version": "1.0",
+      "role": "item 1",
+      "exact_text": [
+        "#1",
+        "chest day",
+        "starts every single week on monday. no exceptions."
+      ],
+      "file": "outputs/slide-02.png",
+      "prompt_file": "prompts/slide-02.txt",
+      "references": [
+        "carousels/LW-CAR-0054/outputs/slide-02.png",
+        "carousels/LW-CAR-0055/outputs/slide-02.png"
+      ],
+      "illustration": "flat barbell bench press, side three-quarter view",
+      "rating_stars": null,
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-27T10:06:19.961729+00:00",
+          "prompt_file": "prompts/slide-02.txt",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0054/outputs/slide-02.png",
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0055/outputs/slide-02.png"
+          ],
+          "finished_at": "2026-10-27T10:06:50.144547+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-54651b14-a2c9-4d01-b465-7b555e7dddf7.png",
+          "raw_result_format": {
+            "size": [
+              1122,
+              1402
+            ],
+            "mode": "RGB"
+          },
+          "result_file": "outputs/slide-02.png",
+          "export": {
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "alpha": false,
+            "logo": "original PNG, x48 y19, 218x71"
+          }
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_to_repository_checkout",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 3,
+      "content_version": "1.0",
+      "role": "item 2",
+      "exact_text": [
+        "#2",
+        "back day",
+        "quietly strong. doesn’t need a mirror for this one."
+      ],
+      "file": "outputs/slide-03.png",
+      "prompt_file": "prompts/slide-03.txt",
+      "references": [
+        "carousels/LW-CAR-0054/outputs/slide-02.png",
+        "carousels/LW-CAR-0055/outputs/slide-02.png"
+      ],
+      "illustration": "seated lat pulldown, rear view",
+      "rating_stars": null,
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-27T10:06:51.382823+00:00",
+          "prompt_file": "prompts/slide-03.txt",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0054/outputs/slide-02.png",
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0055/outputs/slide-02.png"
+          ],
+          "finished_at": "2026-10-27T10:07:18.246377+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-6d91c8d6-15a9-44a7-a46b-4cd8e9dbf30f.png",
+          "raw_result_format": {
+            "size": [
+              1122,
+              1402
+            ],
+            "mode": "RGB"
+          },
+          "result_file": "outputs/slide-03.png",
+          "export": {
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "alpha": false,
+            "logo": "original PNG, x48 y19, 218x71"
+          }
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_to_repository_checkout",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 4,
+      "content_version": "1.0",
+      "role": "item 3",
+      "exact_text": [
+        "#3",
+        "leg day",
+        "loves pain. everyone respects you."
+      ],
+      "file": "outputs/slide-04.png",
+      "prompt_file": "prompts/slide-04.txt",
+      "references": [
+        "carousels/LW-CAR-0054/outputs/slide-02.png",
+        "carousels/LW-CAR-0055/outputs/slide-02.png"
+      ],
+      "illustration": "barbell back squat at the bottom, side view",
+      "rating_stars": null,
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-27T10:07:19.529615+00:00",
+          "prompt_file": "prompts/slide-04.txt",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0054/outputs/slide-02.png",
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0055/outputs/slide-02.png"
+          ],
+          "finished_at": "2026-10-27T10:08:03.514891+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-0b44801a-84d4-4c14-9585-21ec04fb7ff6.png",
+          "raw_result_format": {
+            "size": [
+              1122,
+              1402
+            ],
+            "mode": "RGB"
+          },
+          "result_file": "outputs/slide-04.png",
+          "export": {
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "alpha": false,
+            "logo": "original PNG, x48 y19, 218x71"
+          }
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_to_repository_checkout",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 5,
+      "content_version": "1.0",
+      "role": "item 4",
+      "exact_text": [
+        "#4",
+        "arm day",
+        "the pump is the whole point."
+      ],
+      "file": "outputs/slide-05.png",
+      "prompt_file": "prompts/slide-05.txt",
+      "references": [
+        "carousels/LW-CAR-0054/outputs/slide-02.png",
+        "carousels/LW-CAR-0055/outputs/slide-02.png"
+      ],
+      "illustration": "standing barbell curl, front view",
+      "rating_stars": null,
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-27T10:08:04.667868+00:00",
+          "prompt_file": "prompts/slide-05.txt",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0054/outputs/slide-02.png",
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0055/outputs/slide-02.png"
+          ],
+          "finished_at": "2026-10-27T10:08:45.976110+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-6afe79f0-6098-451b-b110-2ca4faa63b4b.png",
+          "raw_result_format": {
+            "size": [
+              1122,
+              1402
+            ],
+            "mode": "RGB"
+          },
+          "result_file": "outputs/slide-05.png",
+          "export": {
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "alpha": false,
+            "logo": "original PNG, x48 y19, 218x71"
+          }
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_to_repository_checkout",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 6,
+      "content_version": "1.0",
+      "role": "item 5",
+      "exact_text": [
+        "#5",
+        "shoulder day",
+        "wants to look wide in every doorway."
+      ],
+      "file": "outputs/slide-06.png",
+      "prompt_file": "prompts/slide-06.txt",
+      "references": [
+        "carousels/LW-CAR-0054/outputs/slide-02.png",
+        "carousels/LW-CAR-0055/outputs/slide-02.png"
+      ],
+      "illustration": "standing dumbbell lateral raise, front view",
+      "rating_stars": null,
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-27T10:08:47.050793+00:00",
+          "prompt_file": "prompts/slide-06.txt",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0054/outputs/slide-02.png",
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0055/outputs/slide-02.png"
+          ],
+          "finished_at": "2026-10-27T10:09:35.469639+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-1869546e-b4a2-4ccf-a30e-afe93eda7e14.png",
+          "raw_result_format": {
+            "size": [
+              1122,
+              1402
+            ],
+            "mode": "RGB"
+          },
+          "result_file": "outputs/slide-06.png",
+          "export": {
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "alpha": false,
+            "logo": "original PNG, x48 y19, 218x71"
+          }
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_to_repository_checkout",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 7,
+      "content_version": "1.0",
+      "role": "item 6",
+      "exact_text": [
+        "#6",
+        "cardio day",
+        "reminds everyone the heart is a muscle too."
+      ],
+      "file": "outputs/slide-07.png",
+      "prompt_file": "prompts/slide-07.txt",
+      "references": [
+        "carousels/LW-CAR-0054/outputs/slide-02.png",
+        "carousels/LW-CAR-0055/outputs/slide-02.png"
+      ],
+      "illustration": "running on a treadmill, side view",
+      "rating_stars": null,
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-27T10:09:36.688561+00:00",
+          "prompt_file": "prompts/slide-07.txt",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0054/outputs/slide-02.png",
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0055/outputs/slide-02.png"
+          ],
+          "finished_at": "2026-10-27T10:10:02.041213+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-56528bc1-7904-4b2b-b346-2930c830e1d5.png",
+          "raw_result_format": {
+            "size": [
+              1122,
+              1402
+            ],
+            "mode": "RGB"
+          },
+          "result_file": "outputs/slide-07.png",
+          "export": {
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "alpha": false,
+            "logo": "original PNG, x48 y19, 218x71"
+          }
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_to_repository_checkout",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 8,
+      "content_version": "1.0",
+      "role": "item 7",
+      "exact_text": [
+        "#7",
+        "rest day",
+        "the smartest one here. recovery is part of training."
+      ],
+      "file": "outputs/slide-08.png",
+      "prompt_file": "prompts/slide-08.txt",
+      "references": [
+        "carousels/LW-CAR-0054/outputs/slide-02.png",
+        "carousels/LW-CAR-0055/outputs/slide-02.png"
+      ],
+      "illustration": "lying on a mat with the arms behind the head, relaxed, side view",
+      "rating_stars": null,
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-27T10:10:03.180111+00:00",
+          "prompt_file": "prompts/slide-08.txt",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0054/outputs/slide-02.png",
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0055/outputs/slide-02.png"
+          ],
+          "finished_at": "2026-10-27T10:10:30.597733+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-c41c972f-9601-4895-a024-17cb2509f2b9.png",
+          "raw_result_format": {
+            "size": [
+              1122,
+              1402
+            ],
+            "mode": "RGB"
+          },
+          "result_file": "outputs/slide-08.png",
+          "export": {
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "alpha": false,
+            "logo": "original PNG, x48 y19, 218x71"
+          }
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_to_repository_checkout",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 9,
+      "content_version": "1.0",
+      "role": "product ending",
+      "exact_text": [
+        "whatever day you love, harda tracks every set you lift.",
+        "log your workouts and see how balanced your week really is."
+      ],
+      "file": "outputs/slide-09.png",
+      "prompt_file": "prompts/slide-09.txt",
+      "references": [
+        "carousels/LW-CAR-0022/outputs/slide-19.png"
+      ],
+      "illustration": "hand + phone",
+      "rating_stars": null,
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-27T10:10:31.711916+00:00",
+          "prompt_file": "prompts/slide-09.txt",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0022/outputs/slide-19.png"
+          ],
+          "finished_at": "2026-10-27T10:10:56.545749+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-876f3b1c-e759-47d5-9292-fad8c70060e7.png",
+          "raw_result_format": {
+            "size": [
+              1122,
+              1402
+            ],
+            "mode": "RGB"
+          },
+          "result_file": "outputs/slide-09.png",
+          "export": {
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "alpha": false,
+            "logo": "original PNG, x48 y19, 218x71"
+          }
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_to_repository_checkout",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending",
+      "phone_compositing": {
+        "source": "carousels/LW-CAR-0022/outputs/slide-19.png",
+        "source_commit": "cbafb750d8fc235e72f0aced0d13873b55d1fb2d",
+        "source_crop": [
+          0,
+          720,
+          1080,
+          1350
+        ],
+        "asset": "production-assets/approved-phone-hand-strip.png",
+        "measured_text_bottom_exclusive": 734,
+        "placement": [
+          0,
+          784
+        ],
+        "minimum_gap": 50,
+        "measurement": "raster text-ink bounding extent on generated text-only plate; no OCR or visual QA",
+        "scale": "1:1, no resampling",
+        "real_ui_generated": false
+      }
+    }
+  ],
+  "archive": "LW-CAR-0058-1080x1350.zip"
+}
