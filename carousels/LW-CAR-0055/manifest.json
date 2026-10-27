@@ -7,7 +7,7 @@
   "batch": "G",
   "batch_task": "carousels/BATCH-G.md",
   "design_style": "S2",
-  "status": "incomplete",
+  "status": "complete",
   "carousel_complete": true,
   "scope": {
     "total_slides": 9,
@@ -608,8 +608,8 @@
     "check": "Required export metadata only; no visual QA, OCR or automatic regeneration."
   },
   "generation_status": "complete",
-  "batch_status": "stopped_after_error",
-  "next_carousel_to_generate": "LW-CAR-0056",
+  "batch_status": "resumed",
+  "next_carousel_to_generate": null,
   "interruption": {
     "stage": "push",
     "carousel": "LW-CAR-0055",
