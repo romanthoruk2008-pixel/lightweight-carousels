@@ -1,0 +1,819 @@
+{
+  "carousel_id": "LW-CAR-0057",
+  "content_version": "1.0",
+  "source_commit": "5ebf190fc1db9b36a6f3f967c645c9ef872f9d2d",
+  "batch": "BATCH-G",
+  "batch_status": "resumed",
+  "instructions": "prompts/codex-task.md",
+  "design_style": "S2",
+  "brand": "Harda",
+  "status": "complete_pending_owner_review",
+  "carousel_complete": true,
+  "generated_images": 14,
+  "next_slide_to_generate": null,
+  "next_action": "Owner reviews all Batch G carousels at the end. Continue the next assigned carousel without review pause.",
+  "agent_visual_review": "not_performed",
+  "user_review": "pending",
+  "logo": {
+    "file": "assets/logo/harda-logo-full.png",
+    "x": 48,
+    "y": 19,
+    "width": 218,
+    "height": 71,
+    "method": "original file composited with own alpha, no backing patch"
+  },
+  "remote_save": {
+    "remote": "origin",
+    "branch": "claude/charming-einstein-xgejky",
+    "status": "commit_and_push_requested",
+    "commit_lookup": "git log -1 -- carousels/LW-CAR-0057/manifest.json"
+  },
+  "slides": [
+    {
+      "slide": 1,
+      "content_version": "1.0",
+      "role": "hook",
+      "exact_text": [
+        "gym",
+        "zodiac signs",
+        "(find yours)"
+      ],
+      "file": "outputs/slide-01.png",
+      "prompt_file": "prompts/slide-01.txt",
+      "references": [
+        "carousels/LW-CAR-0049/outputs/slide-01.png"
+      ],
+      "illustration": "front view from the thighs up, arms crossed, a ring of the twelve small #F26445 zodiac symbols arranged around the head like a halo",
+      "rating_stars": null,
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-27T09:55:55.591593+00:00",
+          "prompt_file": "prompts/slide-01.txt",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0049/outputs/slide-01.png"
+          ],
+          "finished_at": "2026-10-27T09:56:32.458060+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-e0ed8581-a4f5-4e12-b031-3b51b179ba21.png",
+          "raw_result_format": {
+            "size": [
+              1122,
+              1402
+            ],
+            "mode": "RGB"
+          },
+          "result_file": "outputs/slide-01.png",
+          "export": {
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "alpha": false,
+            "logo": "original PNG, x48 y19, 218x71"
+          }
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_to_repository_checkout",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 2,
+      "content_version": "1.0",
+      "role": "item 1",
+      "exact_text": [
+        "#1",
+        "aries",
+        "goes for a new max on day one."
+      ],
+      "file": "outputs/slide-02.png",
+      "prompt_file": "prompts/slide-02.txt",
+      "references": [
+        "carousels/LW-CAR-0054/outputs/slide-02.png",
+        "carousels/LW-CAR-0055/outputs/slide-02.png"
+      ],
+      "illustration": "barbell bench press, pushing a very heavy bar, determined, side view",
+      "rating_stars": null,
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-27T09:56:33.624444+00:00",
+          "prompt_file": "prompts/slide-02.txt",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0054/outputs/slide-02.png",
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0055/outputs/slide-02.png"
+          ],
+          "finished_at": "2026-10-27T09:57:14.524616+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-c043c9e2-457a-4ae8-bbec-c0ce1bcebb90.png",
+          "raw_result_format": {
+            "size": [
+              1122,
+              1402
+            ],
+            "mode": "RGB"
+          },
+          "result_file": "outputs/slide-02.png",
+          "export": {
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "alpha": false,
+            "logo": "original PNG, x48 y19, 218x71"
+          }
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_to_repository_checkout",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 3,
+      "content_version": "1.0",
+      "role": "item 2",
+      "exact_text": [
+        "#2",
+        "taurus",
+        "same routine for five years. will not change it."
+      ],
+      "file": "outputs/slide-03.png",
+      "prompt_file": "prompts/slide-03.txt",
+      "references": [
+        "carousels/LW-CAR-0054/outputs/slide-02.png",
+        "carousels/LW-CAR-0055/outputs/slide-02.png"
+      ],
+      "illustration": "barbell back squat, calm and stubborn, side view",
+      "rating_stars": null,
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-27T09:57:15.775877+00:00",
+          "prompt_file": "prompts/slide-03.txt",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0054/outputs/slide-02.png",
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0055/outputs/slide-02.png"
+          ],
+          "finished_at": "2026-10-27T09:57:58.724315+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-5afa5e76-4c93-41f7-9a13-0ce07cd8679d.png",
+          "raw_result_format": {
+            "size": [
+              1122,
+              1402
+            ],
+            "mode": "RGB"
+          },
+          "result_file": "outputs/slide-03.png",
+          "export": {
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "alpha": false,
+            "logo": "original PNG, x48 y19, 218x71"
+          }
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_to_repository_checkout",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 4,
+      "content_version": "1.0",
+      "role": "item 3",
+      "exact_text": [
+        "#3",
+        "gemini",
+        "starts a new program every single week."
+      ],
+      "file": "outputs/slide-04.png",
+      "prompt_file": "prompts/slide-04.txt",
+      "references": [
+        "carousels/LW-CAR-0054/outputs/slide-02.png",
+        "carousels/LW-CAR-0055/outputs/slide-02.png"
+      ],
+      "illustration": "standing between a squat rack and a cable machine, looking at both, front view",
+      "rating_stars": null,
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-27T09:57:59.974271+00:00",
+          "prompt_file": "prompts/slide-04.txt",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0054/outputs/slide-02.png",
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0055/outputs/slide-02.png"
+          ],
+          "finished_at": "2026-10-27T09:58:31.315026+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-ad24beb3-f325-4b06-823a-02cd3ebcad50.png",
+          "raw_result_format": {
+            "size": [
+              1122,
+              1402
+            ],
+            "mode": "RGB"
+          },
+          "result_file": "outputs/slide-04.png",
+          "export": {
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "alpha": false,
+            "logo": "original PNG, x48 y19, 218x71"
+          }
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_to_repository_checkout",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 5,
+      "content_version": "1.0",
+      "role": "item 4",
+      "exact_text": [
+        "#4",
+        "cancer",
+        "only trains with their gym buddy. alone? never."
+      ],
+      "file": "outputs/slide-05.png",
+      "prompt_file": "prompts/slide-05.txt",
+      "references": [
+        "carousels/LW-CAR-0054/outputs/slide-02.png",
+        "carousels/LW-CAR-0055/outputs/slide-02.png"
+      ],
+      "illustration": "two figures giving each other a high five between sets, front view",
+      "rating_stars": null,
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-27T09:58:32.571304+00:00",
+          "prompt_file": "prompts/slide-05.txt",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0054/outputs/slide-02.png",
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0055/outputs/slide-02.png"
+          ],
+          "finished_at": "2026-10-27T09:59:06.211569+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-4017c583-4971-4a0b-958c-0f578b98ad3d.png",
+          "raw_result_format": {
+            "size": [
+              1122,
+              1402
+            ],
+            "mode": "RGB"
+          },
+          "result_file": "outputs/slide-05.png",
+          "export": {
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "alpha": false,
+            "logo": "original PNG, x48 y19, 218x71"
+          }
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_to_repository_checkout",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 6,
+      "content_version": "1.0",
+      "role": "item 5",
+      "exact_text": [
+        "#5",
+        "leo",
+        "trains for the mirror. and the camera."
+      ],
+      "file": "outputs/slide-06.png",
+      "prompt_file": "prompts/slide-06.txt",
+      "references": [
+        "carousels/LW-CAR-0054/outputs/slide-02.png",
+        "carousels/LW-CAR-0055/outputs/slide-02.png"
+      ],
+      "illustration": "flexing in front of a plain mirror with a phone on a small tripod nearby, side view",
+      "rating_stars": null,
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-27T09:59:07.466414+00:00",
+          "prompt_file": "prompts/slide-06.txt",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0054/outputs/slide-02.png",
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0055/outputs/slide-02.png"
+          ],
+          "finished_at": "2026-10-27T10:00:17.263642+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-4d7cbdec-7dfc-4551-b737-0751543dc52d.png",
+          "raw_result_format": {
+            "size": [
+              1122,
+              1402
+            ],
+            "mode": "RGB"
+          },
+          "result_file": "outputs/slide-06.png",
+          "export": {
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "alpha": false,
+            "logo": "original PNG, x48 y19, 218x71"
+          }
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_to_repository_checkout",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 7,
+      "content_version": "1.0",
+      "role": "item 6",
+      "exact_text": [
+        "#6",
+        "virgo",
+        "tracks every set, every rep, every rest."
+      ],
+      "file": "outputs/slide-07.png",
+      "prompt_file": "prompts/slide-07.txt",
+      "references": [
+        "carousels/LW-CAR-0054/outputs/slide-02.png",
+        "carousels/LW-CAR-0055/outputs/slide-02.png"
+      ],
+      "illustration": "standing next to a rack, checking a phone held in both hands (screen not visible), focused, front view",
+      "rating_stars": null,
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-27T10:00:18.514904+00:00",
+          "prompt_file": "prompts/slide-07.txt",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0054/outputs/slide-02.png",
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0055/outputs/slide-02.png"
+          ],
+          "finished_at": "2026-10-27T10:00:56.151339+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-90f29154-5839-47b2-9130-97014d21fda2.png",
+          "raw_result_format": {
+            "size": [
+              1122,
+              1402
+            ],
+            "mode": "RGB"
+          },
+          "result_file": "outputs/slide-07.png",
+          "export": {
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "alpha": false,
+            "logo": "original PNG, x48 y19, 218x71"
+          }
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_to_repository_checkout",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 8,
+      "content_version": "1.0",
+      "role": "item 7",
+      "exact_text": [
+        "#7",
+        "libra",
+        "can’t pick dumbbells or cables, so does both."
+      ],
+      "file": "outputs/slide-08.png",
+      "prompt_file": "prompts/slide-08.txt",
+      "references": [
+        "carousels/LW-CAR-0054/outputs/slide-02.png",
+        "carousels/LW-CAR-0055/outputs/slide-02.png"
+      ],
+      "illustration": "holding a dumbbell in one hand and a cable handle in the other, undecided, front view",
+      "rating_stars": null,
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-27T10:00:57.258231+00:00",
+          "prompt_file": "prompts/slide-08.txt",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0054/outputs/slide-02.png",
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0055/outputs/slide-02.png"
+          ],
+          "finished_at": "2026-10-27T10:01:23.414001+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-97dd4d4b-6f76-475b-9e1f-dc5c7ce30885.png",
+          "raw_result_format": {
+            "size": [
+              1122,
+              1402
+            ],
+            "mode": "RGB"
+          },
+          "result_file": "outputs/slide-08.png",
+          "export": {
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "alpha": false,
+            "logo": "original PNG, x48 y19, 218x71"
+          }
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_to_repository_checkout",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 9,
+      "content_version": "1.0",
+      "role": "item 8",
+      "exact_text": [
+        "#8",
+        "scorpio",
+        "headphones in, no talking, terrifying focus."
+      ],
+      "file": "outputs/slide-09.png",
+      "prompt_file": "prompts/slide-09.txt",
+      "references": [
+        "carousels/LW-CAR-0054/outputs/slide-02.png",
+        "carousels/LW-CAR-0055/outputs/slide-02.png"
+      ],
+      "illustration": "heavy deadlift at the top, plain black over-ear headphones on, intense, side view",
+      "rating_stars": null,
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-27T10:01:24.675256+00:00",
+          "prompt_file": "prompts/slide-09.txt",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0054/outputs/slide-02.png",
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0055/outputs/slide-02.png"
+          ],
+          "finished_at": "2026-10-27T10:02:16.816822+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-54613268-c753-4ae3-aeed-e291344dac8f.png",
+          "raw_result_format": {
+            "size": [
+              1122,
+              1402
+            ],
+            "mode": "RGB"
+          },
+          "result_file": "outputs/slide-09.png",
+          "export": {
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "alpha": false,
+            "logo": "original PNG, x48 y19, 218x71"
+          }
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_to_repository_checkout",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 10,
+      "content_version": "1.0",
+      "role": "item 9",
+      "exact_text": [
+        "#9",
+        "sagittarius",
+        "skips the gym for a hike and calls it training."
+      ],
+      "file": "outputs/slide-10.png",
+      "prompt_file": "prompts/slide-10.txt",
+      "references": [
+        "carousels/LW-CAR-0054/outputs/slide-02.png",
+        "carousels/LW-CAR-0055/outputs/slide-02.png"
+      ],
+      "illustration": "walking with a small backpack, relaxed, side view",
+      "rating_stars": null,
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-27T10:02:17.985446+00:00",
+          "prompt_file": "prompts/slide-10.txt",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0054/outputs/slide-02.png",
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0055/outputs/slide-02.png"
+          ],
+          "finished_at": "2026-10-27T10:02:59.906118+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-0a656d2a-a6c4-4e57-84b2-4da4eeb206dd.png",
+          "raw_result_format": {
+            "size": [
+              1122,
+              1402
+            ],
+            "mode": "RGB"
+          },
+          "result_file": "outputs/slide-10.png",
+          "export": {
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "alpha": false,
+            "logo": "original PNG, x48 y19, 218x71"
+          }
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_to_repository_checkout",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 11,
+      "content_version": "1.0",
+      "role": "item 10",
+      "exact_text": [
+        "#10",
+        "capricorn",
+        "5am. every day. no excuses."
+      ],
+      "file": "outputs/slide-11.png",
+      "prompt_file": "prompts/slide-11.txt",
+      "references": [
+        "carousels/LW-CAR-0054/outputs/slide-02.png",
+        "carousels/LW-CAR-0055/outputs/slide-02.png"
+      ],
+      "illustration": "barbell back squat in an empty gym, a simple wall clock showing 5:00, side view",
+      "rating_stars": null,
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-27T10:03:01.098081+00:00",
+          "prompt_file": "prompts/slide-11.txt",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0054/outputs/slide-02.png",
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0055/outputs/slide-02.png"
+          ],
+          "finished_at": "2026-10-27T10:03:45.235625+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-87b42ab7-74b6-4179-bebd-10e01b7dc9e2.png",
+          "raw_result_format": {
+            "size": [
+              1122,
+              1402
+            ],
+            "mode": "RGB"
+          },
+          "result_file": "outputs/slide-11.png",
+          "export": {
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "alpha": false,
+            "logo": "original PNG, x48 y19, 218x71"
+          }
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_to_repository_checkout",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 12,
+      "content_version": "1.0",
+      "role": "item 11",
+      "exact_text": [
+        "#11",
+        "aquarius",
+        "invents exercises nobody has ever seen."
+      ],
+      "file": "outputs/slide-12.png",
+      "prompt_file": "prompts/slide-12.txt",
+      "references": [
+        "carousels/LW-CAR-0054/outputs/slide-02.png",
+        "carousels/LW-CAR-0055/outputs/slide-02.png"
+      ],
+      "illustration": "doing a strange balance pose with a dumbbell on one leg, playful, front view",
+      "rating_stars": null,
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-27T10:03:46.532625+00:00",
+          "prompt_file": "prompts/slide-12.txt",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0054/outputs/slide-02.png",
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0055/outputs/slide-02.png"
+          ],
+          "finished_at": "2026-10-27T10:04:14.573919+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-c32c549b-d07c-435c-9324-3ad3f0476863.png",
+          "raw_result_format": {
+            "size": [
+              1122,
+              1402
+            ],
+            "mode": "RGB"
+          },
+          "result_file": "outputs/slide-12.png",
+          "export": {
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "alpha": false,
+            "logo": "original PNG, x48 y19, 218x71"
+          }
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_to_repository_checkout",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 13,
+      "content_version": "1.0",
+      "role": "item 12",
+      "exact_text": [
+        "#12",
+        "pisces",
+        "comes for the vibes and the playlist."
+      ],
+      "file": "outputs/slide-13.png",
+      "prompt_file": "prompts/slide-13.txt",
+      "references": [
+        "carousels/LW-CAR-0054/outputs/slide-02.png",
+        "carousels/LW-CAR-0055/outputs/slide-02.png"
+      ],
+      "illustration": "walking slowly on a treadmill with plain black over-ear headphones, dreamy posture, side view",
+      "rating_stars": null,
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-27T10:04:15.656167+00:00",
+          "prompt_file": "prompts/slide-13.txt",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0054/outputs/slide-02.png",
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0055/outputs/slide-02.png"
+          ],
+          "finished_at": "2026-10-27T10:04:58.179014+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-5d2cab2f-20f1-42bc-85f6-33e74cdccaba.png",
+          "raw_result_format": {
+            "size": [
+              1122,
+              1402
+            ],
+            "mode": "RGB"
+          },
+          "result_file": "outputs/slide-13.png",
+          "export": {
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "alpha": false,
+            "logo": "original PNG, x48 y19, 218x71"
+          }
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_to_repository_checkout",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 14,
+      "content_version": "1.0",
+      "role": "product ending",
+      "exact_text": [
+        "be a virgo about it. harda tracks every set you lift.",
+        "log your workouts, whatever your sign."
+      ],
+      "file": "outputs/slide-14.png",
+      "prompt_file": "prompts/slide-14.txt",
+      "references": [
+        "carousels/LW-CAR-0022/outputs/slide-19.png"
+      ],
+      "illustration": "hand + phone",
+      "rating_stars": null,
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-27T10:04:59.462088+00:00",
+          "prompt_file": "prompts/slide-14.txt",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0022/outputs/slide-19.png"
+          ],
+          "finished_at": "2026-10-27T10:05:23.672074+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-303610f1-1243-49f5-8d86-c583ed6826c1.png",
+          "raw_result_format": {
+            "size": [
+              1122,
+              1402
+            ],
+            "mode": "RGB"
+          },
+          "result_file": "outputs/slide-14.png",
+          "export": {
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "alpha": false,
+            "logo": "original PNG, x48 y19, 218x71"
+          }
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_to_repository_checkout",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending",
+      "phone_compositing": {
+        "source": "carousels/LW-CAR-0022/outputs/slide-19.png",
+        "source_commit": "5ebf190fc1db9b36a6f3f967c645c9ef872f9d2d",
+        "source_crop": [
+          0,
+          720,
+          1080,
+          1350
+        ],
+        "asset": "production-assets/approved-phone-hand-strip.png",
+        "measured_text_bottom_exclusive": 803,
+        "placement": [
+          0,
+          853
+        ],
+        "minimum_gap": 50,
+        "measurement": "raster text-ink bounding extent on generated text-only plate; no OCR or visual QA",
+        "scale": "1:1, no resampling",
+        "real_ui_generated": false
+      }
+    }
+  ],
+  "archive": "LW-CAR-0057-1080x1350.zip"
+}
