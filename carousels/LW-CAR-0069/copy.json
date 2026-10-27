@@ -1,0 +1,259 @@
+{
+  "carousel_id": "LW-CAR-0069",
+  "content_version": "1.0",
+  "status": "frozen",
+  "type": "original",
+  "design_style": "S2",
+  "language": "en",
+  "background": "CLEAN",
+  "font_family": "REF-008 look: heavy tight grotesk for headlines, clean sans for body, italic for tier lines",
+  "colors": {
+    "accent": "#F26445",
+    "background": "#F0F1EB",
+    "text_dark": "#2A2A2A",
+    "text_body_grey": "#6B6B6B",
+    "white": "#FFFFFF"
+  },
+  "source": {
+    "ref_id": null,
+    "note": "Our own saveable 'feels illegal' tips carousel, the useful twin of LW-CAR-0062, S2 look (owner request 2026-10-27).",
+    "layout_from": "carousels/LW-CAR-0022/outputs (owner-approved S2, Harda logo)"
+  },
+  "caption": {
+    "text": "Save this before your next workout 📌 Which one didn’t you know? 👇 #gymtips #gymhacks #workouttips #gymtok",
+    "notes": "comment prompt"
+  },
+  "slides": [
+    {
+      "n": 1,
+      "role": "hook",
+      "text": [
+        {
+          "string": "gym tips that feel",
+          "style": "cover line 1, lowercase, heaviest weight, text_dark"
+        },
+        {
+          "string": "illegal to know",
+          "style": "cover line 2, lowercase, heaviest weight, text_dark on an accent marker bar"
+        },
+        {
+          "string": "(save this before your next workout)",
+          "style": "italic, regular, text_body_grey"
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "role": "item 1",
+      "text": [
+        {
+          "string": "#1",
+          "style": "label before the headline, heaviest weight, text_dark"
+        },
+        {
+          "string": "slow down the way down",
+          "style": "heaviest weight, lowercase, text_dark on an accent marker bar"
+        },
+        {
+          "string": "same weight, way harder. no extra plates needed.",
+          "style": "regular, text_dark, up to two lines"
+        },
+        {
+          "string": "do:",
+          "style": "bold, lowercase, accent"
+        },
+        {
+          "string": "take two seconds to lower every rep.",
+          "style": "regular, text_dark, after 'do:'"
+        }
+      ],
+      "illustration": "flat dumbbell bench press, lowering the dumbbells slowly, small #F26445 down arrow beside the arms, side three-quarter view"
+    },
+    {
+      "n": 3,
+      "role": "item 2",
+      "text": [
+        {
+          "string": "#2",
+          "style": "label before the headline, heaviest weight, text_dark"
+        },
+        {
+          "string": "film one set from the side",
+          "style": "heaviest weight, lowercase, text_dark on an accent marker bar"
+        },
+        {
+          "string": "your form looks different from how it feels.",
+          "style": "regular, text_dark, up to two lines"
+        },
+        {
+          "string": "do:",
+          "style": "bold, lowercase, accent"
+        },
+        {
+          "string": "check your depth and your back on video.",
+          "style": "regular, text_dark, after 'do:'"
+        }
+      ],
+      "illustration": "barbell back squat at the bottom, a phone on a small tripod filming from the side (screen not visible), side view"
+    },
+    {
+      "n": 4,
+      "role": "item 3",
+      "text": [
+        {
+          "string": "#3",
+          "style": "label before the headline, heaviest weight, text_dark"
+        },
+        {
+          "string": "write down every set",
+          "style": "heaviest weight, lowercase, text_dark on an accent marker bar"
+        },
+        {
+          "string": "you can’t beat last week if you don’t remember it.",
+          "style": "regular, text_dark, up to two lines"
+        },
+        {
+          "string": "do:",
+          "style": "bold, lowercase, accent"
+        },
+        {
+          "string": "log the weight and reps after each set.",
+          "style": "regular, text_dark, after 'do:'"
+        }
+      ],
+      "illustration": "sitting on a flat bench between sets, typing on a phone held in both hands (screen not visible), front three-quarter view"
+    },
+    {
+      "n": 5,
+      "role": "item 4",
+      "text": [
+        {
+          "string": "#4",
+          "style": "label before the headline, heaviest weight, text_dark"
+        },
+        {
+          "string": "add a rep before you add weight",
+          "style": "heaviest weight, lowercase, text_dark on an accent marker bar"
+        },
+        {
+          "string": "small wins every week turn into big ones.",
+          "style": "regular, text_dark, up to two lines"
+        },
+        {
+          "string": "do:",
+          "style": "bold, lowercase, accent"
+        },
+        {
+          "string": "hit the top of your rep range, then go heavier.",
+          "style": "regular, text_dark, after 'do:'"
+        }
+      ],
+      "illustration": "seated cable row, finishing a rep, focused, side view"
+    },
+    {
+      "n": 6,
+      "role": "item 5",
+      "text": [
+        {
+          "string": "#5",
+          "style": "label before the headline, heaviest weight, text_dark"
+        },
+        {
+          "string": "rest longer on big lifts",
+          "style": "heaviest weight, lowercase, text_dark on an accent marker bar"
+        },
+        {
+          "string": "rushing makes your next set weaker.",
+          "style": "regular, text_dark, up to two lines"
+        },
+        {
+          "string": "do:",
+          "style": "bold, lowercase, accent"
+        },
+        {
+          "string": "rest two to three minutes on squats and presses.",
+          "style": "regular, text_dark, after 'do:'"
+        }
+      ],
+      "illustration": "sitting on a bench next to a loaded squat rack, calm, drinking from a plain water bottle, front view"
+    },
+    {
+      "n": 7,
+      "role": "item 6",
+      "text": [
+        {
+          "string": "#6",
+          "style": "label before the headline, heaviest weight, text_dark"
+        },
+        {
+          "string": "train your weakest muscle first",
+          "style": "heaviest weight, lowercase, text_dark on an accent marker bar"
+        },
+        {
+          "string": "you have the most energy at the start.",
+          "style": "regular, text_dark, up to two lines"
+        },
+        {
+          "string": "do:",
+          "style": "bold, lowercase, accent"
+        },
+        {
+          "string": "put the muscle you skip at the top of your workout.",
+          "style": "regular, text_dark, after 'do:'"
+        }
+      ],
+      "illustration": "standing calf raise machine, up on the toes, side view"
+    },
+    {
+      "n": 8,
+      "role": "item 7",
+      "text": [
+        {
+          "string": "#7",
+          "style": "label before the headline, heaviest weight, text_dark"
+        },
+        {
+          "string": "leave one rep in the tank",
+          "style": "heaviest weight, lowercase, text_dark on an accent marker bar"
+        },
+        {
+          "string": "most sets don’t need to go to failure to work.",
+          "style": "regular, text_dark, up to two lines"
+        },
+        {
+          "string": "do:",
+          "style": "bold, lowercase, accent"
+        },
+        {
+          "string": "stop when the next rep would break your form.",
+          "style": "regular, text_dark, after 'do:'"
+        }
+      ],
+      "illustration": "standing barbell curl, the bar at the top, controlled, front view"
+    },
+    {
+      "n": 9,
+      "role": "product ending",
+      "text": [
+        {
+          "string": "harda tracks every set you lift, so you always know what to beat.",
+          "style": "large, lowercase, heaviest weight, text_dark; accent marker bars under 'every set you lift' and 'what to beat'"
+        },
+        {
+          "string": "log your workouts and add one rep next time.",
+          "style": "regular, text_dark, two lines"
+        }
+      ],
+      "screen": "real Harda Progress / Muscle balance screenshot, the same one as in approved LW-CAR-0022 slide 19",
+      "product_claims_checked_against_real_screen": [
+        "workouts are logged",
+        "muscle balance screen (LW-CAR-0022 slide 19)"
+      ]
+    }
+  ],
+  "claims_to_verify": [
+    "Practical cues only, no studies or citations. 'two seconds' and 'two to three minutes' are coaching cues, not claims.",
+    "'most sets don’t need to go to failure to work' is stated as general advice.",
+    "Ending: workout logging only; 'what to beat' means the previous logged sets, no PR feature is claimed."
+  ]
+}

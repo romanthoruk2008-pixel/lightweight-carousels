@@ -1,10 +1,10 @@
-# Codex batch H — 7 carousels, generate everything in one run
+# Codex batch H — 8 carousels, generate everything in one run
 
 Repository: romanthoruk2008-pixel/lightweight-carousels, branch `claude/charming-einstein-xgejky`. Run `git pull` first.
 
 **Start only after batch G is finished** (LW-CAR-0056 … 0061 pushed; see `carousels/BATCH-G-RESUME.md`). If batch G is not finished, finish it first.
 
-Read `carousels/CODEX-SERIES-RULES.md` and `docs/DESIGN-STYLES.md` once. This batch mixes two styles: **S2** (white figure, LW-CAR-0062) and **S1** (sand anatomy mannequin, Rubik, LW-CAR-0063 … 0068). Each task file names its style, background and approved reference slides. Never mix the figures between styles.
+Read `carousels/CODEX-SERIES-RULES.md` and `docs/DESIGN-STYLES.md` once. This batch mixes two styles: **S2** (white figure, LW-CAR-0062 and 0069) and **S1** (sand anatomy mannequin, Rubik, LW-CAR-0063 … 0068). Each task file names its style, background and approved reference slides. Never mix the figures between styles.
 
 Do these carousels **in this order**, each by its own task file:
 
@@ -15,9 +15,10 @@ Do these carousels **in this order**, each by its own task file:
 5. **LW-CAR-0066** — STRUCTURE THE PERFECT UPPER DAY (8 slides, style S1, CLEAN): `carousels/LW-CAR-0066/prompts/codex-task.md`
 6. **LW-CAR-0067** — STRUCTURE THE PERFECT ARM DAY (8 slides, style S1, GRID): `carousels/LW-CAR-0067/prompts/codex-task.md`
 7. **LW-CAR-0068** — STRUCTURE THE PERFECT FULL BODY DAY (8 slides, style S1, DOTS): `carousels/LW-CAR-0068/prompts/codex-task.md`
+8. **LW-CAR-0069** — gym tips that feel illegal to know (9 slides, style S2): `carousels/LW-CAR-0069/prompts/codex-task.md`
 
 ## Rules for the whole batch
-- **Do not stop for the owner** between slides or between carousels. The approved carousels named in each task file are the visual reference: LW-CAR-0044 / 0022 for S2, LW-CAR-0031 for WEAK ___?, LW-CAR-0009 for STRUCTURE. Generate every slide of every carousel in this batch.
+- **Do not stop for the owner** between slides or between carousels. The approved carousels named in each task file are the visual reference: LW-CAR-0044 / 0052 / 0022 for S2, LW-CAR-0031 for WEAK ___?, LW-CAR-0009 for STRUCTURE. Generate every slide of every carousel in this batch.
 - Every word comes from that carousel's `copy.json`. Never copy words from other carousels or from references. Keep capitals exactly as written: lowercase in S2, Title Case and UPPERCASE in S1.
 - Harda logo file on every slide. Opaque flattened RGB PNG, 1080 x 1350. **No arch** on any S1 slide, even where an older reference still shows one.
 - **Ending slides:** measure where the body text ends and place the phone below it with a gap of at least 40 px. Never a fixed height. Every word must be visible. The phone shows the real Harda screenshot named in the task file; never generate or redraw app UI.

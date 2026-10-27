@@ -1093,6 +1093,22 @@
       "user_review": "pending",
       "next_action": "Codex batch H: generate all slides in one go (carousels/BATCH-H.md)",
       "path": "carousels/LW-CAR-0068/"
+    },
+    {
+      "id": "LW-CAR-0069",
+      "title": "gym tips that feel illegal to know",
+      "source_ref": null,
+      "type": "original",
+      "design_style": "S2",
+      "content_version": "1.0",
+      "copy_status": "frozen",
+      "slides": 9,
+      "background": "CLEAN",
+      "slides_blocked": [],
+      "generation": "not_started",
+      "user_review": "pending",
+      "next_action": "Codex batch H: generate all slides in one go (carousels/BATCH-H.md)",
+      "path": "carousels/LW-CAR-0069/"
     }
   ],
   "experiments": [
