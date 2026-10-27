@@ -1,0 +1,250 @@
+{
+  "carousel_id": "LW-CAR-0067",
+  "content_version": "1.0",
+  "status": "frozen",
+  "type": "original",
+  "design_style": "S1",
+  "language": "en",
+  "font_family": "Rubik",
+  "background": "GRID",
+  "colors": {
+    "accent": "#F26445",
+    "background": "#F0F1EB",
+    "text_dark": "#2A2A2A",
+    "text_body_grey": "#6B6B6B",
+    "white": "#FFFFFF",
+    "muscle_base_sand": "#D9CBBE",
+    "skin_ivory_approx": "#F5F0E5"
+  },
+  "source": {
+    "ref_id": null,
+    "note": "Our own arm day part of the STRUCTURE series with the approved LW-CAR-0002 (push day) and LW-CAR-0009 (leg day), style S1 (owner request 2026-10-27)."
+  },
+  "caption": {
+    "text": "Build your perfect arm day: pick one exercise from each slot. Save this for arm day 📌 Which one is your favorite? 👇 #armday #biceps #triceps #gymtips",
+    "notes": "save prompt + question. No 'lifters'."
+  },
+  "slides": [
+    {
+      "n": 1,
+      "role": "hook",
+      "text": [
+        {
+          "string": "STRUCTURE",
+          "style": "cover line 1, uppercase, heaviest Rubik, text_dark"
+        },
+        {
+          "string": "THE PERFECT",
+          "style": "cover line 2, uppercase, heaviest Rubik, text_dark"
+        },
+        {
+          "string": "ARM DAY",
+          "style": "cover line 3, uppercase, heaviest Rubik, accent"
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "role": "overview checklist",
+      "text": [
+        {
+          "string": "Your Arm Day\nShould Include:",
+          "style": "title, bold, text_dark, left-aligned, two lines"
+        },
+        {
+          "string": "1x Biceps (Stretched Curl)",
+          "style": "bullet; '1x' regular, 'Biceps' bold, bracket regular"
+        },
+        {
+          "string": "1x Triceps (Overhead)",
+          "style": "bullet; '1x' regular, 'Triceps' bold, bracket regular"
+        },
+        {
+          "string": "1x Brachialis (Hammer Curl)",
+          "style": "bullet; '1x' regular, 'Brachialis' bold, bracket regular"
+        },
+        {
+          "string": "1x Triceps (Pushdown)",
+          "style": "bullet; '1x' regular, 'Triceps' bold, bracket regular"
+        },
+        {
+          "string": "1x Forearms",
+          "style": "bullet; '1x' regular, 'Forearms' bold, bracket regular"
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "role": "list item #1",
+      "text": [
+        {
+          "string": "#1",
+          "style": "big number, bold, accent"
+        },
+        {
+          "string": "Biceps",
+          "style": "title, bold, text_dark"
+        },
+        {
+          "string": "2-3 sets x 8-12 reps",
+          "style": "sets line, regular, text_body_grey"
+        },
+        {
+          "string": "Choose one of these exercises to build your biceps:",
+          "style": "body, regular, text_body_grey, two lines"
+        },
+        {
+          "string": "Incline Dumbbell Curl",
+          "style": "left exercise label"
+        },
+        {
+          "string": "Preacher Curl",
+          "style": "right exercise label"
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "role": "list item #2",
+      "text": [
+        {
+          "string": "#2",
+          "style": "big number, bold, accent"
+        },
+        {
+          "string": "Overhead Triceps",
+          "style": "title, bold, text_dark"
+        },
+        {
+          "string": "2-3 sets x 8-12 reps",
+          "style": "sets line, regular, text_body_grey"
+        },
+        {
+          "string": "Choose one of these exercises to stretch your triceps:",
+          "style": "body, regular, text_body_grey, two lines"
+        },
+        {
+          "string": "Overhead Cable Extension",
+          "style": "left exercise label"
+        },
+        {
+          "string": "Dumbbell Overhead Extension",
+          "style": "right exercise label"
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "role": "list item #3",
+      "text": [
+        {
+          "string": "#3",
+          "style": "big number, bold, accent"
+        },
+        {
+          "string": "Brachialis",
+          "style": "title, bold, text_dark"
+        },
+        {
+          "string": "2-3 sets x 10-12 reps",
+          "style": "sets line, regular, text_body_grey"
+        },
+        {
+          "string": "Choose one of these exercises to thicken your arms:",
+          "style": "body, regular, text_body_grey, two lines"
+        },
+        {
+          "string": "Hammer Curl",
+          "style": "left exercise label"
+        },
+        {
+          "string": "Rope Hammer Curl",
+          "style": "right exercise label"
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "role": "list item #4",
+      "text": [
+        {
+          "string": "#4",
+          "style": "big number, bold, accent"
+        },
+        {
+          "string": "Triceps",
+          "style": "title, bold, text_dark"
+        },
+        {
+          "string": "2-3 sets x 10-15 reps",
+          "style": "sets line, regular, text_body_grey"
+        },
+        {
+          "string": "Choose one of these exercises to finish your triceps:",
+          "style": "body, regular, text_body_grey, two lines"
+        },
+        {
+          "string": "Rope Pushdown",
+          "style": "left exercise label"
+        },
+        {
+          "string": "Bar Pushdown",
+          "style": "right exercise label"
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "role": "list item #5",
+      "text": [
+        {
+          "string": "#5",
+          "style": "big number, bold, accent"
+        },
+        {
+          "string": "Forearms",
+          "style": "title, bold, text_dark"
+        },
+        {
+          "string": "2-3 sets x 12-20 reps",
+          "style": "sets line, regular, text_body_grey"
+        },
+        {
+          "string": "Choose one of these exercises to grow your forearms:",
+          "style": "body, regular, text_body_grey, two lines"
+        },
+        {
+          "string": "Wrist Curl",
+          "style": "left exercise label"
+        },
+        {
+          "string": "Reverse Curl",
+          "style": "right exercise label"
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "role": "product ending",
+      "text": [
+        {
+          "string": "Track Your Arm Day.",
+          "style": "headline line 1, heaviest Rubik, text_dark, left-aligned"
+        },
+        {
+          "string": "See If Your Arms Keep Up.",
+          "style": "headline line 2, heaviest Rubik, accent, left-aligned"
+        }
+      ],
+      "screen": "the same **real Harda Muscle balance screenshot** as on the approved LW-CAR-0009 slide 8 (radar with an Arms axis)",
+      "product_claims_checked_against_real_screen": [
+        "workouts are logged",
+        "Muscle balance radar axes: Chest, Back, Legs, Arms, Core, Shoulders"
+      ]
+    }
+  ],
+  "claims_to_verify": [
+    "Practical plan only, no numbers or citations beyond sets and reps.",
+    "Ending: Muscle balance screen with an Arms axis (real screen)."
+  ]
+}

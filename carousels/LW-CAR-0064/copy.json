@@ -1,0 +1,246 @@
+{
+  "carousel_id": "LW-CAR-0064",
+  "content_version": "1.0",
+  "status": "frozen",
+  "type": "original",
+  "design_style": "S1",
+  "language": "en",
+  "font_family": "Rubik",
+  "background": "DOTS",
+  "colors": {
+    "accent": "#F26445",
+    "background": "#F0F1EB",
+    "text_dark": "#2A2A2A",
+    "text_body_grey": "#6B6B6B",
+    "white": "#FFFFFF",
+    "muscle_base_sand": "#D9CBBE",
+    "skin_ivory_approx": "#F5F0E5"
+  },
+  "source": {
+    "ref_id": null,
+    "note": "Our own shoulders version of the approved WEAK BACK? (LW-CAR-0001), WEAK CHEST? (LW-CAR-0008) and WEAK CORE? (LW-CAR-0031), style S1 (owner request 2026-10-27)."
+  },
+  "caption": {
+    "text": "Shoulders weak? Fix them with these 4. Save this for your next workout 📌 Which one do you skip? 👇 #shoulders #shoulderworkout #gymtips #delts",
+    "notes": "save prompt + question. No 'lifters'."
+  },
+  "slides": [
+    {
+      "n": 1,
+      "role": "hook",
+      "text": [
+        {
+          "string": "WEAK",
+          "style": "cover headline, uppercase, heaviest Rubik weight, text_dark"
+        },
+        {
+          "string": "SHOULDERS?",
+          "style": "cover headline, uppercase, heaviest Rubik weight, accent"
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "role": "map",
+      "text": [
+        {
+          "string": "Let's Fix That",
+          "style": "title, bold, text_dark, centered"
+        },
+        {
+          "string": "FRONT DELTS",
+          "style": "card label, white caps on dark bar"
+        },
+        {
+          "string": "SIDE DELTS",
+          "style": "card label, white caps on dark bar"
+        },
+        {
+          "string": "REAR DELTS",
+          "style": "card label, white caps on dark bar"
+        },
+        {
+          "string": "TRAPS",
+          "style": "card label, white caps on dark bar"
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "role": "list item 1",
+      "text": [
+        {
+          "string": "1",
+          "style": "white number in accent circle badge"
+        },
+        {
+          "string": "Front Delts",
+          "style": "title, bold, text_dark, centered"
+        },
+        {
+          "string": "2-3 Sets x 6-10 Reps",
+          "style": "subtitle, semibold, text_dark, centered"
+        },
+        {
+          "string": "Every press already hits them. One overhead press is enough.",
+          "style": "why line, regular, text_body_grey, centered, up to two lines"
+        },
+        {
+          "string": "Seated Dumbbell Press",
+          "style": "exercise label, semibold"
+        },
+        {
+          "string": "OR",
+          "style": "white text in accent circle badge"
+        },
+        {
+          "string": "Machine Shoulder Press",
+          "style": "exercise label, semibold"
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "role": "list item 2",
+      "text": [
+        {
+          "string": "2",
+          "style": "white number in accent circle badge"
+        },
+        {
+          "string": "Side Delts",
+          "style": "title, bold, text_dark, centered"
+        },
+        {
+          "string": "2-3 Sets x 12-20 Reps",
+          "style": "subtitle, semibold, text_dark, centered"
+        },
+        {
+          "string": "They make you look wide. Lead with your elbows, not your hands.",
+          "style": "why line, regular, text_body_grey, centered, up to two lines"
+        },
+        {
+          "string": "Dumbbell Lateral Raise",
+          "style": "exercise label, semibold"
+        },
+        {
+          "string": "OR",
+          "style": "white text in accent circle badge"
+        },
+        {
+          "string": "Cable Lateral Raise",
+          "style": "exercise label, semibold"
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "role": "list item 3",
+      "text": [
+        {
+          "string": "3",
+          "style": "white number in accent circle badge"
+        },
+        {
+          "string": "Rear Delts",
+          "style": "title, bold, text_dark, centered"
+        },
+        {
+          "string": "2-3 Sets x 12-20 Reps",
+          "style": "subtitle, semibold, text_dark, centered"
+        },
+        {
+          "string": "The back of your shoulder. Pull your arms out wide, not back.",
+          "style": "why line, regular, text_body_grey, centered, up to two lines"
+        },
+        {
+          "string": "Reverse Pec Deck",
+          "style": "exercise label, semibold"
+        },
+        {
+          "string": "OR",
+          "style": "white text in accent circle badge"
+        },
+        {
+          "string": "Face Pull",
+          "style": "exercise label, semibold"
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "role": "list item 4",
+      "text": [
+        {
+          "string": "4",
+          "style": "white number in accent circle badge"
+        },
+        {
+          "string": "Traps",
+          "style": "title, bold, text_dark, centered"
+        },
+        {
+          "string": "2-3 Sets x 10-15 Reps",
+          "style": "subtitle, semibold, text_dark, centered"
+        },
+        {
+          "string": "Shrug straight up and hold the top. Don't roll your shoulders.",
+          "style": "why line, regular, text_body_grey, centered, up to two lines"
+        },
+        {
+          "string": "Dumbbell Shrug",
+          "style": "exercise label, semibold"
+        },
+        {
+          "string": "OR",
+          "style": "white text in accent circle badge"
+        },
+        {
+          "string": "Farmer's Carry",
+          "style": "exercise label, semibold"
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "role": "bonus tip",
+      "text": [
+        {
+          "string": "Bonus Tip",
+          "style": "title, bold, accent"
+        },
+        {
+          "string": "Light weight, clean reps. Swinging heavy dumbbells turns a lateral raise into a shrug.",
+          "style": "body, regular, text_body_grey"
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "role": "product ending",
+      "text": [
+        {
+          "string": "Are Your Shoulders Getting Enough Work?",
+          "style": "headline, bold, text_dark"
+        },
+        {
+          "string": "Log your workouts in Harda.",
+          "style": "body, regular, text_body_grey"
+        },
+        {
+          "string": "See how many sets your shoulders get compared to every other muscle.",
+          "style": "body, regular, text_body_grey"
+        }
+      ],
+      "screen": "the **real Harda Muscle balance screenshot**, the same as on the approved LW-CAR-0031 slide 8 (radar with a Shoulders axis)",
+      "product_claims_checked_against_real_screen": [
+        "workouts are logged",
+        "Muscle balance radar axes: Chest, Back, Legs, Arms, Core, Shoulders"
+      ]
+    }
+  ],
+  "claims_to_verify": [
+    "Practical cues only, no numbers or citations.",
+    "Ending: Muscle balance screen with a Shoulders axis (real screen)."
+  ]
+}

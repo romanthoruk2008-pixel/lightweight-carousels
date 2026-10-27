@@ -1,0 +1,250 @@
+{
+  "carousel_id": "LW-CAR-0066",
+  "content_version": "1.0",
+  "status": "frozen",
+  "type": "original",
+  "design_style": "S1",
+  "language": "en",
+  "font_family": "Rubik",
+  "background": "CLEAN",
+  "colors": {
+    "accent": "#F26445",
+    "background": "#F0F1EB",
+    "text_dark": "#2A2A2A",
+    "text_body_grey": "#6B6B6B",
+    "white": "#FFFFFF",
+    "muscle_base_sand": "#D9CBBE",
+    "skin_ivory_approx": "#F5F0E5"
+  },
+  "source": {
+    "ref_id": null,
+    "note": "Our own upper day part of the STRUCTURE series with the approved LW-CAR-0002 (push day) and LW-CAR-0009 (leg day), style S1 (owner request 2026-10-27)."
+  },
+  "caption": {
+    "text": "Build your perfect upper day: pick one exercise from each slot. Save this for your next upper day 📌 Which one would you swap? 👇 #upperbody #upperlower #gymtips #workoutplan",
+    "notes": "save prompt + question. No 'lifters'."
+  },
+  "slides": [
+    {
+      "n": 1,
+      "role": "hook",
+      "text": [
+        {
+          "string": "STRUCTURE",
+          "style": "cover line 1, uppercase, heaviest Rubik, text_dark"
+        },
+        {
+          "string": "THE PERFECT",
+          "style": "cover line 2, uppercase, heaviest Rubik, text_dark"
+        },
+        {
+          "string": "UPPER DAY",
+          "style": "cover line 3, uppercase, heaviest Rubik, accent"
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "role": "overview checklist",
+      "text": [
+        {
+          "string": "Your Upper Day\nShould Include:",
+          "style": "title, bold, text_dark, left-aligned, two lines"
+        },
+        {
+          "string": "1x Chest (Press)",
+          "style": "bullet; '1x' regular, 'Chest' bold, bracket regular"
+        },
+        {
+          "string": "1x Upper Back (Row)",
+          "style": "bullet; '1x' regular, 'Upper Back' bold, bracket regular"
+        },
+        {
+          "string": "1x Lats (Vertical Pull)",
+          "style": "bullet; '1x' regular, 'Lats' bold, bracket regular"
+        },
+        {
+          "string": "1x Side Delts (Raise)",
+          "style": "bullet; '1x' regular, 'Side Delts' bold, bracket regular"
+        },
+        {
+          "string": "1x Arms (Curl + Pushdown)",
+          "style": "bullet; '1x' regular, 'Arms' bold, bracket regular"
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "role": "list item #1",
+      "text": [
+        {
+          "string": "#1",
+          "style": "big number, bold, accent"
+        },
+        {
+          "string": "Chest",
+          "style": "title, bold, text_dark"
+        },
+        {
+          "string": "2-3 sets x 6-10 reps",
+          "style": "sets line, regular, text_body_grey"
+        },
+        {
+          "string": "Choose one of these exercises to build your chest:",
+          "style": "body, regular, text_body_grey, two lines"
+        },
+        {
+          "string": "Incline Dumbbell Press",
+          "style": "left exercise label"
+        },
+        {
+          "string": "Machine Chest Press",
+          "style": "right exercise label"
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "role": "list item #2",
+      "text": [
+        {
+          "string": "#2",
+          "style": "big number, bold, accent"
+        },
+        {
+          "string": "Upper Back",
+          "style": "title, bold, text_dark"
+        },
+        {
+          "string": "2-3 sets x 8-12 reps",
+          "style": "sets line, regular, text_body_grey"
+        },
+        {
+          "string": "Choose one of these exercises to thicken your back:",
+          "style": "body, regular, text_body_grey, two lines"
+        },
+        {
+          "string": "Chest-Supported Row",
+          "style": "left exercise label"
+        },
+        {
+          "string": "Seated Cable Row",
+          "style": "right exercise label"
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "role": "list item #3",
+      "text": [
+        {
+          "string": "#3",
+          "style": "big number, bold, accent"
+        },
+        {
+          "string": "Lats",
+          "style": "title, bold, text_dark"
+        },
+        {
+          "string": "2-3 sets x 8-12 reps",
+          "style": "sets line, regular, text_body_grey"
+        },
+        {
+          "string": "Choose one of these exercises to widen your back:",
+          "style": "body, regular, text_body_grey, two lines"
+        },
+        {
+          "string": "Lat Pulldown",
+          "style": "left exercise label"
+        },
+        {
+          "string": "Pull-Ups",
+          "style": "right exercise label"
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "role": "list item #4",
+      "text": [
+        {
+          "string": "#4",
+          "style": "big number, bold, accent"
+        },
+        {
+          "string": "Side Delts",
+          "style": "title, bold, text_dark"
+        },
+        {
+          "string": "2-3 sets x 12-20 reps",
+          "style": "sets line, regular, text_body_grey"
+        },
+        {
+          "string": "Choose one of these exercises to widen your shoulders:",
+          "style": "body, regular, text_body_grey, two lines"
+        },
+        {
+          "string": "Dumbbell Lateral Raise",
+          "style": "left exercise label"
+        },
+        {
+          "string": "Cable Lateral Raise",
+          "style": "right exercise label"
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "role": "list item #5",
+      "text": [
+        {
+          "string": "#5",
+          "style": "big number, bold, accent"
+        },
+        {
+          "string": "Arms",
+          "style": "title, bold, text_dark"
+        },
+        {
+          "string": "2-3 sets x 10-15 reps",
+          "style": "sets line, regular, text_body_grey"
+        },
+        {
+          "string": "Finish with one curl and one pushdown:",
+          "style": "body, regular, text_body_grey, two lines"
+        },
+        {
+          "string": "Cable Curl",
+          "style": "left exercise label"
+        },
+        {
+          "string": "Rope Pushdown",
+          "style": "right exercise label"
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "role": "product ending",
+      "text": [
+        {
+          "string": "Track Your Upper Day.",
+          "style": "headline line 1, heaviest Rubik, text_dark, left-aligned"
+        },
+        {
+          "string": "See If Every Muscle Keeps Up.",
+          "style": "headline line 2, heaviest Rubik, accent, left-aligned"
+        }
+      ],
+      "screen": "the same **real Harda Muscle balance screenshot** as on the approved LW-CAR-0009 slide 8 (radar with Chest, Back, Shoulders and Arms axes)",
+      "product_claims_checked_against_real_screen": [
+        "workouts are logged",
+        "Muscle balance radar axes: Chest, Back, Legs, Arms, Core, Shoulders"
+      ]
+    }
+  ],
+  "claims_to_verify": [
+    "Practical plan only, no numbers or citations beyond sets and reps (same style as LW-CAR-0002 and 0009).",
+    "Ending: Muscle balance screen (real screen); no upper/lower split card is claimed."
+  ]
+}

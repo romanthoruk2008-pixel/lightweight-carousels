@@ -1,0 +1,246 @@
+{
+  "carousel_id": "LW-CAR-0065",
+  "content_version": "1.0",
+  "status": "frozen",
+  "type": "original",
+  "design_style": "S1",
+  "language": "en",
+  "font_family": "Rubik",
+  "background": "PLATES",
+  "colors": {
+    "accent": "#F26445",
+    "background": "#F0F1EB",
+    "text_dark": "#2A2A2A",
+    "text_body_grey": "#6B6B6B",
+    "white": "#FFFFFF",
+    "muscle_base_sand": "#D9CBBE",
+    "skin_ivory_approx": "#F5F0E5"
+  },
+  "source": {
+    "ref_id": null,
+    "note": "Our own glutes version of the approved WEAK BACK? (LW-CAR-0001), WEAK CHEST? (LW-CAR-0008) and WEAK CORE? (LW-CAR-0031), style S1 (owner request 2026-10-27)."
+  },
+  "caption": {
+    "text": "Glutes weak? Fix them with these 4. Save this for your next workout 📌 Which one do you skip? 👇 #glutes #gluteworkout #gymtips #legday",
+    "notes": "save prompt + question. No 'lifters'."
+  },
+  "slides": [
+    {
+      "n": 1,
+      "role": "hook",
+      "text": [
+        {
+          "string": "WEAK",
+          "style": "cover headline, uppercase, heaviest Rubik weight, text_dark"
+        },
+        {
+          "string": "GLUTES?",
+          "style": "cover headline, uppercase, heaviest Rubik weight, accent"
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "role": "map",
+      "text": [
+        {
+          "string": "Let's Fix That",
+          "style": "title, bold, text_dark, centered"
+        },
+        {
+          "string": "GLUTE MAX",
+          "style": "card label, white caps on dark bar"
+        },
+        {
+          "string": "GLUTE MEDIUS",
+          "style": "card label, white caps on dark bar"
+        },
+        {
+          "string": "LOWER GLUTES",
+          "style": "card label, white caps on dark bar"
+        },
+        {
+          "string": "HAMSTRINGS",
+          "style": "card label, white caps on dark bar"
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "role": "list item 1",
+      "text": [
+        {
+          "string": "1",
+          "style": "white number in accent circle badge"
+        },
+        {
+          "string": "Glute Max",
+          "style": "title, bold, text_dark, centered"
+        },
+        {
+          "string": "2-3 Sets x 8-12 Reps",
+          "style": "subtitle, semibold, text_dark, centered"
+        },
+        {
+          "string": "Squeeze hard at the top. Don't arch your lower back to get there.",
+          "style": "why line, regular, text_body_grey, centered, up to two lines"
+        },
+        {
+          "string": "Hip Thrust",
+          "style": "exercise label, semibold"
+        },
+        {
+          "string": "OR",
+          "style": "white text in accent circle badge"
+        },
+        {
+          "string": "Glute Bridge",
+          "style": "exercise label, semibold"
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "role": "list item 2",
+      "text": [
+        {
+          "string": "2",
+          "style": "white number in accent circle badge"
+        },
+        {
+          "string": "Glute Medius",
+          "style": "title, bold, text_dark, centered"
+        },
+        {
+          "string": "2-3 Sets x 12-20 Reps",
+          "style": "subtitle, semibold, text_dark, centered"
+        },
+        {
+          "string": "It shapes the side of your hips. Lean forward a little on the machine.",
+          "style": "why line, regular, text_body_grey, centered, up to two lines"
+        },
+        {
+          "string": "Abductor Machine",
+          "style": "exercise label, semibold"
+        },
+        {
+          "string": "OR",
+          "style": "white text in accent circle badge"
+        },
+        {
+          "string": "Cable Hip Abduction",
+          "style": "exercise label, semibold"
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "role": "list item 3",
+      "text": [
+        {
+          "string": "3",
+          "style": "white number in accent circle badge"
+        },
+        {
+          "string": "Lower Glutes",
+          "style": "title, bold, text_dark, centered"
+        },
+        {
+          "string": "2-3 Sets x 8-12 Reps",
+          "style": "subtitle, semibold, text_dark, centered"
+        },
+        {
+          "string": "Lean your torso forward and go deep for more glutes.",
+          "style": "why line, regular, text_body_grey, centered, up to two lines"
+        },
+        {
+          "string": "Bulgarian Split Squat",
+          "style": "exercise label, semibold"
+        },
+        {
+          "string": "OR",
+          "style": "white text in accent circle badge"
+        },
+        {
+          "string": "Reverse Lunge",
+          "style": "exercise label, semibold"
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "role": "list item 4",
+      "text": [
+        {
+          "string": "4",
+          "style": "white number in accent circle badge"
+        },
+        {
+          "string": "Hamstrings",
+          "style": "title, bold, text_dark, centered"
+        },
+        {
+          "string": "2-3 Sets x 8-12 Reps",
+          "style": "subtitle, semibold, text_dark, centered"
+        },
+        {
+          "string": "Your glutes and hamstrings work together in every hinge. Train both.",
+          "style": "why line, regular, text_body_grey, centered, up to two lines"
+        },
+        {
+          "string": "Single-Leg RDL",
+          "style": "exercise label, semibold"
+        },
+        {
+          "string": "OR",
+          "style": "white text in accent circle badge"
+        },
+        {
+          "string": "45° Back Extension",
+          "style": "exercise label, semibold"
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "role": "bonus tip",
+      "text": [
+        {
+          "string": "Bonus Tip",
+          "style": "title, bold, accent"
+        },
+        {
+          "string": "Squats help, but most people need a hip thrust or a lunge to really grow their glutes.",
+          "style": "body, regular, text_body_grey"
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "role": "product ending",
+      "text": [
+        {
+          "string": "Is Your Lower Body Getting Enough Work?",
+          "style": "headline, bold, text_dark"
+        },
+        {
+          "string": "Log your workouts in Harda.",
+          "style": "body, regular, text_body_grey"
+        },
+        {
+          "string": "See how many sets your legs get compared to every other muscle.",
+          "style": "body, regular, text_body_grey"
+        }
+      ],
+      "screen": "the **real Harda Muscle balance screenshot**, the same as on the approved LW-CAR-0031 slide 8 (radar with a Legs axis; there is no separate Glutes axis, so the text speaks about legs)",
+      "product_claims_checked_against_real_screen": [
+        "workouts are logged",
+        "Muscle balance radar axes: Chest, Back, Legs, Arms, Core, Shoulders"
+      ]
+    }
+  ],
+  "claims_to_verify": [
+    "Practical cues only, no numbers or citations. The bonus tip is an opinion ('most people need').",
+    "Ending: Muscle balance has no Glutes axis; the ending speaks about legs only."
+  ]
+}
