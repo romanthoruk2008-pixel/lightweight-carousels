@@ -1,0 +1,489 @@
+{
+  "carousel_id": "LW-CAR-0061",
+  "content_version": "1.0",
+  "source_commit": "9ec1c86d2cfb66064fdcd6da5533d6fcad3a471a",
+  "batch": "BATCH-G",
+  "batch_status": "resumed",
+  "instructions": "prompts/codex-task.md",
+  "design_style": "S2",
+  "brand": "Harda",
+  "status": "complete_pending_owner_review",
+  "carousel_complete": true,
+  "generated_images": 8,
+  "next_slide_to_generate": null,
+  "next_action": "Owner reviews all Batch G carousels at the end. Continue the next assigned carousel without review pause.",
+  "agent_visual_review": "not_performed",
+  "user_review": "pending",
+  "logo": {
+    "file": "assets/logo/harda-logo-full.png",
+    "x": 48,
+    "y": 19,
+    "width": 218,
+    "height": 71,
+    "method": "original file composited with own alpha, no backing patch"
+  },
+  "remote_save": {
+    "remote": "origin",
+    "branch": "claude/charming-einstein-xgejky",
+    "status": "commit_and_push_requested",
+    "commit_lookup": "git log -1 -- carousels/LW-CAR-0061/manifest.json"
+  },
+  "slides": [
+    {
+      "slide": 1,
+      "content_version": "1.0",
+      "role": "hook",
+      "exact_text": [
+        "what your gym time",
+        "says about you",
+        "(5am people, we see you)"
+      ],
+      "file": "outputs/slide-01.png",
+      "prompt_file": "prompts/slide-01.txt",
+      "references": [
+        "carousels/LW-CAR-0049/outputs/slide-01.png"
+      ],
+      "illustration": "front view from the thighs up, holding a large simple round alarm clock, eyebrows raised",
+      "rating_stars": null,
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-27T10:32:30.258348+00:00",
+          "prompt_file": "prompts/slide-01.txt",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0049/outputs/slide-01.png"
+          ],
+          "finished_at": "2026-10-27T10:32:59.317716+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-967d407a-7c14-4411-b56a-d106459fe31d.png",
+          "raw_result_format": {
+            "size": [
+              1122,
+              1402
+            ],
+            "mode": "RGB"
+          },
+          "result_file": "outputs/slide-01.png",
+          "export": {
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "alpha": false,
+            "logo": "original PNG, x48 y19, 218x71"
+          }
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_to_repository_checkout",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 2,
+      "content_version": "1.0",
+      "role": "item 1",
+      "exact_text": [
+        "#1",
+        "5am",
+        "empty gym, strong coffee, nobody can stop you."
+      ],
+      "file": "outputs/slide-02.png",
+      "prompt_file": "prompts/slide-02.txt",
+      "references": [
+        "carousels/LW-CAR-0054/outputs/slide-02.png",
+        "carousels/LW-CAR-0055/outputs/slide-02.png"
+      ],
+      "illustration": "squatting in an empty gym, a simple wall clock showing 5:00, side view",
+      "rating_stars": null,
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-27T10:33:00.448935+00:00",
+          "prompt_file": "prompts/slide-02.txt",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0054/outputs/slide-02.png",
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0055/outputs/slide-02.png"
+          ],
+          "finished_at": "2026-10-27T10:33:44.566792+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-c2ffe70e-09c1-4d33-8a4b-f8ad482f9466.png",
+          "raw_result_format": {
+            "size": [
+              1122,
+              1402
+            ],
+            "mode": "RGB"
+          },
+          "result_file": "outputs/slide-02.png",
+          "export": {
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "alpha": false,
+            "logo": "original PNG, x48 y19, 218x71"
+          }
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_to_repository_checkout",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 3,
+      "content_version": "1.0",
+      "role": "item 2",
+      "exact_text": [
+        "#2",
+        "lunch break",
+        "forty minutes, no small talk, back at the desk on time."
+      ],
+      "file": "outputs/slide-03.png",
+      "prompt_file": "prompts/slide-03.txt",
+      "references": [
+        "carousels/LW-CAR-0054/outputs/slide-02.png",
+        "carousels/LW-CAR-0055/outputs/slide-02.png"
+      ],
+      "illustration": "doing a quick dumbbell press on a bench, a simple wall clock showing 12:30, front three-quarter view",
+      "rating_stars": null,
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-27T10:33:45.767373+00:00",
+          "prompt_file": "prompts/slide-03.txt",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0054/outputs/slide-02.png",
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0055/outputs/slide-02.png"
+          ],
+          "finished_at": "2026-10-27T10:34:20.762868+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-56cb02bc-066a-419a-ada1-5b7ee6598e58.png",
+          "raw_result_format": {
+            "size": [
+              1122,
+              1402
+            ],
+            "mode": "RGB"
+          },
+          "result_file": "outputs/slide-03.png",
+          "export": {
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "alpha": false,
+            "logo": "original PNG, x48 y19, 218x71"
+          }
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_to_repository_checkout",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 4,
+      "content_version": "1.0",
+      "role": "item 3",
+      "exact_text": [
+        "#3",
+        "6pm after work",
+        "every rack taken, but you came anyway."
+      ],
+      "file": "outputs/slide-04.png",
+      "prompt_file": "prompts/slide-04.txt",
+      "references": [
+        "carousels/LW-CAR-0054/outputs/slide-02.png",
+        "carousels/LW-CAR-0055/outputs/slide-02.png"
+      ],
+      "illustration": "waiting next to a busy squat rack used by another figure, a wall clock showing 6:00, front view",
+      "rating_stars": null,
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-27T10:34:21.904737+00:00",
+          "prompt_file": "prompts/slide-04.txt",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0054/outputs/slide-02.png",
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0055/outputs/slide-02.png"
+          ],
+          "finished_at": "2026-10-27T10:35:19.489938+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-65992565-d8aa-456c-9f3f-878cfe90833c.png",
+          "raw_result_format": {
+            "size": [
+              1122,
+              1402
+            ],
+            "mode": "RGB"
+          },
+          "result_file": "outputs/slide-04.png",
+          "export": {
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "alpha": false,
+            "logo": "original PNG, x48 y19, 218x71"
+          }
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_to_repository_checkout",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 5,
+      "content_version": "1.0",
+      "role": "item 4",
+      "exact_text": [
+        "#4",
+        "10pm",
+        "quiet gym, loud music, slightly unhinged."
+      ],
+      "file": "outputs/slide-05.png",
+      "prompt_file": "prompts/slide-05.txt",
+      "references": [
+        "carousels/LW-CAR-0054/outputs/slide-02.png",
+        "carousels/LW-CAR-0055/outputs/slide-02.png"
+      ],
+      "illustration": "heavy deadlift alone, plain black over-ear headphones, a wall clock showing 10:00, side view",
+      "rating_stars": null,
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-27T10:35:20.969073+00:00",
+          "prompt_file": "prompts/slide-05.txt",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0054/outputs/slide-02.png",
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0055/outputs/slide-02.png"
+          ],
+          "finished_at": "2026-10-27T10:36:06.989050+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-7b300ae9-b75d-4238-8958-fad4342abf31.png",
+          "raw_result_format": {
+            "size": [
+              1122,
+              1402
+            ],
+            "mode": "RGB"
+          },
+          "result_file": "outputs/slide-05.png",
+          "export": {
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "alpha": false,
+            "logo": "original PNG, x48 y19, 218x71"
+          }
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_to_repository_checkout",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 6,
+      "content_version": "1.0",
+      "role": "item 5",
+      "exact_text": [
+        "#5",
+        "sunday morning",
+        "everyone else is asleep. you are building."
+      ],
+      "file": "outputs/slide-06.png",
+      "prompt_file": "prompts/slide-06.txt",
+      "references": [
+        "carousels/LW-CAR-0054/outputs/slide-02.png",
+        "carousels/LW-CAR-0055/outputs/slide-02.png"
+      ],
+      "illustration": "seated cable row, calm, a wall clock showing 8:00, side view",
+      "rating_stars": null,
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-27T10:36:08.123412+00:00",
+          "prompt_file": "prompts/slide-06.txt",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0054/outputs/slide-02.png",
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0055/outputs/slide-02.png"
+          ],
+          "finished_at": "2026-10-27T10:36:54.391941+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-947379b8-6353-47c5-a4f4-aa62413de8b3.png",
+          "raw_result_format": {
+            "size": [
+              1122,
+              1402
+            ],
+            "mode": "RGB"
+          },
+          "result_file": "outputs/slide-06.png",
+          "export": {
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "alpha": false,
+            "logo": "original PNG, x48 y19, 218x71"
+          }
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_to_repository_checkout",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 7,
+      "content_version": "1.0",
+      "role": "item 6",
+      "exact_text": [
+        "#6",
+        "whenever i feel like it",
+        "no schedule, all vibes. still shows up."
+      ],
+      "file": "outputs/slide-07.png",
+      "prompt_file": "prompts/slide-07.txt",
+      "references": [
+        "carousels/LW-CAR-0054/outputs/slide-02.png",
+        "carousels/LW-CAR-0055/outputs/slide-02.png"
+      ],
+      "illustration": "walking in with a gym bag, relaxed, shrugging, front view",
+      "rating_stars": null,
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-27T10:36:55.528431+00:00",
+          "prompt_file": "prompts/slide-07.txt",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0054/outputs/slide-02.png",
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0055/outputs/slide-02.png"
+          ],
+          "finished_at": "2026-10-27T10:37:32.716540+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-cb51c4d6-768d-4e53-9b92-83d1c4e450ec.png",
+          "raw_result_format": {
+            "size": [
+              1122,
+              1402
+            ],
+            "mode": "RGB"
+          },
+          "result_file": "outputs/slide-07.png",
+          "export": {
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "alpha": false,
+            "logo": "original PNG, x48 y19, 218x71"
+          }
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_to_repository_checkout",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 8,
+      "content_version": "1.0",
+      "role": "product ending",
+      "exact_text": [
+        "whenever you train, harda tracks every set you lift.",
+        "log your workouts at 5am or 10pm."
+      ],
+      "file": "outputs/slide-08.png",
+      "prompt_file": "prompts/slide-08.txt",
+      "references": [
+        "carousels/LW-CAR-0022/outputs/slide-19.png"
+      ],
+      "illustration": "hand + phone",
+      "rating_stars": null,
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-27T10:37:33.885151+00:00",
+          "prompt_file": "prompts/slide-08.txt",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0022/outputs/slide-19.png"
+          ],
+          "finished_at": "2026-10-27T10:37:55.002307+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-e0d3c0f7-8387-4abd-b3cc-2ffc0d473de5.png",
+          "raw_result_format": {
+            "size": [
+              1122,
+              1402
+            ],
+            "mode": "RGB"
+          },
+          "result_file": "outputs/slide-08.png",
+          "export": {
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "alpha": false,
+            "logo": "original PNG, x48 y19, 218x71"
+          }
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_to_repository_checkout",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending",
+      "phone_compositing": {
+        "source": "carousels/LW-CAR-0022/outputs/slide-19.png",
+        "source_commit": "9ec1c86d2cfb66064fdcd6da5533d6fcad3a471a",
+        "source_crop": [
+          0,
+          720,
+          1080,
+          1350
+        ],
+        "asset": "production-assets/approved-phone-hand-strip.png",
+        "measured_text_bottom_exclusive": 750,
+        "placement": [
+          0,
+          800
+        ],
+        "minimum_gap": 50,
+        "measurement": "raster text-ink bounding extent on generated text-only plate; no OCR or visual QA",
+        "scale": "1:1, no resampling",
+        "real_ui_generated": false
+      }
+    }
+  ],
+  "archive": "LW-CAR-0061-1080x1350.zip"
+}
