@@ -3,13 +3,13 @@
   "batch": "BATCH-I",
   "content_version": "1.0",
   "source_commit": "dfde99cb4466f065b99abee35aca2a2d9f358a77",
-  "status": "incomplete_generation_failed",
-  "carousel_complete": false,
+  "status": "complete_pending_owner_review",
+  "carousel_complete": true,
   "design_style": "S2",
   "background": "CLEAN",
   "brand": "Harda",
-  "generated_images": 0,
-  "next_slide_to_generate": 1,
+  "generated_images": 19,
+  "next_slide_to_generate": null,
   "agent_visual_review": "not_performed",
   "user_review": "pending",
   "remote_save": {
@@ -28,7 +28,7 @@
         "tier list",
         "(in our opinion)"
       ],
-      "prompt_file": "prompts/slide-01.txt",
+      "prompt_file": "prompts/slide-01-clothed-attempt-02.txt",
       "references": [
         "carousels/LW-CAR-0022/outputs/slide-01.png"
       ],
@@ -46,14 +46,30 @@
           "transparent_background": false,
           "finished_at": "2026-10-28T12:57:40.227937+00:00",
           "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 27ebc24d-223c-4223-ad6b-b9040e103759. safety_violations=[sexual].\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"sexual\\\"\\n      ]\\n    }\\n  }\\n}\")"
+        },
+        {
+          "attempt": 2,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-28T14:41:06.729436+00:00",
+          "prompt_file": "prompts/slide-01-clothed-attempt-02.txt",
+          "referenced_image_paths": [
+            "carousels/LW-CAR-0022/outputs/slide-01.png"
+          ],
+          "transparent_background": false,
+          "finished_at": "2026-10-28T14:42:02.349763+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-e57d6862-65a4-48e6-9b7a-49df712d0bc0.png",
+          "preserved_raw_file": "production-assets/slide-01-generated.png",
+          "result_file": "outputs/slide-01.png"
         }
       ],
       "errors": [
         "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 27ebc24d-223c-4223-ad6b-b9040e103759. safety_violations=[sexual].\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"sexual\\\"\\n      ]\\n    }\\n  }\\n}\")"
       ],
-      "save_status": "generation_failed",
+      "save_status": "saved_in_cloud_checkout",
       "agent_visual_review": "not_performed",
-      "user_review": "pending"
+      "user_review": "pending",
+      "visual_adaptation": "Owner-authorized clothed sports mannequin; opaque T-shirt and shorts, target groups identified by coral printed diagrams."
     },
     {
       "slide": 2,
@@ -69,9 +85,25 @@
         "carousels/LW-CAR-0022/outputs/slide-02.png"
       ],
       "file": "outputs/slide-02.png",
-      "attempts": [],
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-28T14:42:43.092598+00:00",
+          "prompt_file": "prompts/slide-02.txt",
+          "referenced_image_paths": [
+            "carousels/LW-CAR-0022/outputs/slide-02.png"
+          ],
+          "transparent_background": false,
+          "finished_at": "2026-10-28T14:43:03.442885+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-34c0e018-f028-4f83-8de2-e8fc8b0a92b6.png",
+          "preserved_raw_file": "production-assets/slide-02-generated.png",
+          "result_file": "outputs/slide-02.png"
+        }
+      ],
       "errors": [],
-      "save_status": "not_started",
+      "save_status": "saved_in_cloud_checkout",
       "agent_visual_review": "not_performed",
       "user_review": "pending"
     },
@@ -84,16 +116,33 @@
         "lower back",
         "important for every lift, but nobody sees it."
       ],
-      "prompt_file": "prompts/slide-03.txt",
+      "prompt_file": "prompts/slide-03-clothed.txt",
       "references": [
         "carousels/LW-CAR-0022/outputs/slide-03.png"
       ],
       "file": "outputs/slide-03.png",
-      "attempts": [],
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-28T14:43:03.694312+00:00",
+          "prompt_file": "prompts/slide-03-clothed.txt",
+          "referenced_image_paths": [
+            "carousels/LW-CAR-0022/outputs/slide-03.png"
+          ],
+          "transparent_background": false,
+          "finished_at": "2026-10-28T14:43:30.141552+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-321edeb8-8e4d-4356-85d7-9011a42d04c9.png",
+          "preserved_raw_file": "production-assets/slide-03-generated.png",
+          "result_file": "outputs/slide-03.png"
+        }
+      ],
       "errors": [],
-      "save_status": "not_started",
+      "save_status": "saved_in_cloud_checkout",
       "agent_visual_review": "not_performed",
-      "user_review": "pending"
+      "user_review": "pending",
+      "visual_adaptation": "Owner-authorized clothed sports mannequin; opaque T-shirt and shorts, target groups identified by coral printed diagrams."
     },
     {
       "slide": 4,
@@ -104,16 +153,33 @@
         "hamstrings",
         "they make strong legs, but shorts hide them."
       ],
-      "prompt_file": "prompts/slide-04.txt",
+      "prompt_file": "prompts/slide-04-clothed.txt",
       "references": [
         "carousels/LW-CAR-0022/outputs/slide-03.png"
       ],
       "file": "outputs/slide-04.png",
-      "attempts": [],
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-28T14:43:30.396617+00:00",
+          "prompt_file": "prompts/slide-04-clothed.txt",
+          "referenced_image_paths": [
+            "carousels/LW-CAR-0022/outputs/slide-03.png"
+          ],
+          "transparent_background": false,
+          "finished_at": "2026-10-28T14:44:15.685317+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-edb4847f-7d6c-46ff-9353-ce93657845fa.png",
+          "preserved_raw_file": "production-assets/slide-04-generated.png",
+          "result_file": "outputs/slide-04.png"
+        }
+      ],
       "errors": [],
-      "save_status": "not_started",
+      "save_status": "saved_in_cloud_checkout",
       "agent_visual_review": "not_performed",
-      "user_review": "pending"
+      "user_review": "pending",
+      "visual_adaptation": "Owner-authorized clothed sports mannequin; opaque T-shirt and shorts, target groups identified by coral printed diagrams."
     },
     {
       "slide": 5,
@@ -129,9 +195,25 @@
         "carousels/LW-CAR-0022/outputs/slide-02.png"
       ],
       "file": "outputs/slide-05.png",
-      "attempts": [],
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-28T14:44:15.953870+00:00",
+          "prompt_file": "prompts/slide-05.txt",
+          "referenced_image_paths": [
+            "carousels/LW-CAR-0022/outputs/slide-02.png"
+          ],
+          "transparent_background": false,
+          "finished_at": "2026-10-28T14:44:37.810804+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-81c26ff8-38b6-4bb1-a451-b0f41421ca7e.png",
+          "preserved_raw_file": "production-assets/slide-05-generated.png",
+          "result_file": "outputs/slide-05.png"
+        }
+      ],
       "errors": [],
-      "save_status": "not_started",
+      "save_status": "saved_in_cloud_checkout",
       "agent_visual_review": "not_performed",
       "user_review": "pending"
     },
@@ -144,16 +226,33 @@
         "calves",
         "great in shorts. invisible in jeans."
       ],
-      "prompt_file": "prompts/slide-06.txt",
+      "prompt_file": "prompts/slide-06-clothed.txt",
       "references": [
         "carousels/LW-CAR-0022/outputs/slide-03.png"
       ],
       "file": "outputs/slide-06.png",
-      "attempts": [],
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-28T14:44:38.060756+00:00",
+          "prompt_file": "prompts/slide-06-clothed.txt",
+          "referenced_image_paths": [
+            "carousels/LW-CAR-0022/outputs/slide-03.png"
+          ],
+          "transparent_background": false,
+          "finished_at": "2026-10-28T14:45:23.758973+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-daab93d9-aedd-419e-a2ba-94253b7dabb1.png",
+          "preserved_raw_file": "production-assets/slide-06-generated.png",
+          "result_file": "outputs/slide-06.png"
+        }
+      ],
       "errors": [],
-      "save_status": "not_started",
+      "save_status": "saved_in_cloud_checkout",
       "agent_visual_review": "not_performed",
-      "user_review": "pending"
+      "user_review": "pending",
+      "visual_adaptation": "Owner-authorized clothed sports mannequin; opaque T-shirt and shorts, target groups identified by coral printed diagrams."
     },
     {
       "slide": 7,
@@ -164,16 +263,33 @@
         "forearms",
         "show up every time you roll up your sleeves."
       ],
-      "prompt_file": "prompts/slide-07.txt",
+      "prompt_file": "prompts/slide-07-clothed.txt",
       "references": [
         "carousels/LW-CAR-0022/outputs/slide-03.png"
       ],
       "file": "outputs/slide-07.png",
-      "attempts": [],
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-28T14:45:24.026265+00:00",
+          "prompt_file": "prompts/slide-07-clothed.txt",
+          "referenced_image_paths": [
+            "carousels/LW-CAR-0022/outputs/slide-03.png"
+          ],
+          "transparent_background": false,
+          "finished_at": "2026-10-28T14:46:01.788209+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-c95d2e4e-739c-47b8-8168-a5ddce70c374.png",
+          "preserved_raw_file": "production-assets/slide-07-generated.png",
+          "result_file": "outputs/slide-07.png"
+        }
+      ],
       "errors": [],
-      "save_status": "not_started",
+      "save_status": "saved_in_cloud_checkout",
       "agent_visual_review": "not_performed",
-      "user_review": "pending"
+      "user_review": "pending",
+      "visual_adaptation": "Owner-authorized clothed sports mannequin; opaque T-shirt and shorts, target groups identified by coral printed diagrams."
     },
     {
       "slide": 8,
@@ -189,9 +305,25 @@
         "carousels/LW-CAR-0022/outputs/slide-02.png"
       ],
       "file": "outputs/slide-08.png",
-      "attempts": [],
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-28T14:46:02.070833+00:00",
+          "prompt_file": "prompts/slide-08.txt",
+          "referenced_image_paths": [
+            "carousels/LW-CAR-0022/outputs/slide-02.png"
+          ],
+          "transparent_background": false,
+          "finished_at": "2026-10-28T14:46:30.712598+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-dc93e817-916d-4cc6-80e8-51452c2cdd39.png",
+          "preserved_raw_file": "production-assets/slide-08-generated.png",
+          "result_file": "outputs/slide-08.png"
+        }
+      ],
       "errors": [],
-      "save_status": "not_started",
+      "save_status": "saved_in_cloud_checkout",
       "agent_visual_review": "not_performed",
       "user_review": "pending"
     },
@@ -204,16 +336,33 @@
         "quads",
         "big quads look strong in any shorts."
       ],
-      "prompt_file": "prompts/slide-09.txt",
+      "prompt_file": "prompts/slide-09-clothed.txt",
       "references": [
         "carousels/LW-CAR-0022/outputs/slide-03.png"
       ],
       "file": "outputs/slide-09.png",
-      "attempts": [],
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-28T14:46:30.967920+00:00",
+          "prompt_file": "prompts/slide-09-clothed.txt",
+          "referenced_image_paths": [
+            "carousels/LW-CAR-0022/outputs/slide-03.png"
+          ],
+          "transparent_background": false,
+          "finished_at": "2026-10-28T14:47:05.140006+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-30c62705-8923-49eb-a68b-28beebc3e511.png",
+          "preserved_raw_file": "production-assets/slide-09-generated.png",
+          "result_file": "outputs/slide-09.png"
+        }
+      ],
       "errors": [],
-      "save_status": "not_started",
+      "save_status": "saved_in_cloud_checkout",
       "agent_visual_review": "not_performed",
-      "user_review": "pending"
+      "user_review": "pending",
+      "visual_adaptation": "Owner-authorized clothed sports mannequin; opaque T-shirt and shorts, target groups identified by coral printed diagrams."
     },
     {
       "slide": 10,
@@ -224,16 +373,33 @@
         "traps",
         "give your neck and shoulders a strong frame."
       ],
-      "prompt_file": "prompts/slide-10.txt",
+      "prompt_file": "prompts/slide-10-clothed.txt",
       "references": [
         "carousels/LW-CAR-0022/outputs/slide-03.png"
       ],
       "file": "outputs/slide-10.png",
-      "attempts": [],
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-28T14:47:05.403637+00:00",
+          "prompt_file": "prompts/slide-10-clothed.txt",
+          "referenced_image_paths": [
+            "carousels/LW-CAR-0022/outputs/slide-03.png"
+          ],
+          "transparent_background": false,
+          "finished_at": "2026-10-28T14:47:36.488374+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-c3dc7827-4d02-4b82-9e56-24abe5e4ab8a.png",
+          "preserved_raw_file": "production-assets/slide-10-generated.png",
+          "result_file": "outputs/slide-10.png"
+        }
+      ],
       "errors": [],
-      "save_status": "not_started",
+      "save_status": "saved_in_cloud_checkout",
       "agent_visual_review": "not_performed",
-      "user_review": "pending"
+      "user_review": "pending",
+      "visual_adaptation": "Owner-authorized clothed sports mannequin; opaque T-shirt and shorts, target groups identified by coral printed diagrams."
     },
     {
       "slide": 11,
@@ -244,16 +410,33 @@
         "glutes",
         "make every pair of jeans fit better."
       ],
-      "prompt_file": "prompts/slide-11.txt",
+      "prompt_file": "prompts/slide-11-clothed.txt",
       "references": [
         "carousels/LW-CAR-0022/outputs/slide-03.png"
       ],
       "file": "outputs/slide-11.png",
-      "attempts": [],
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-28T14:47:36.740354+00:00",
+          "prompt_file": "prompts/slide-11-clothed.txt",
+          "referenced_image_paths": [
+            "carousels/LW-CAR-0022/outputs/slide-03.png"
+          ],
+          "transparent_background": false,
+          "finished_at": "2026-10-28T14:48:20.275426+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-e70e6ff2-0164-40ae-9dfa-58ea1f41bebb.png",
+          "preserved_raw_file": "production-assets/slide-11-generated.png",
+          "result_file": "outputs/slide-11.png"
+        }
+      ],
       "errors": [],
-      "save_status": "not_started",
+      "save_status": "saved_in_cloud_checkout",
       "agent_visual_review": "not_performed",
-      "user_review": "pending"
+      "user_review": "pending",
+      "visual_adaptation": "Owner-authorized clothed sports mannequin; opaque T-shirt and shorts, target groups identified by coral printed diagrams."
     },
     {
       "slide": 12,
@@ -269,9 +452,25 @@
         "carousels/LW-CAR-0022/outputs/slide-02.png"
       ],
       "file": "outputs/slide-12.png",
-      "attempts": [],
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-28T14:48:20.537653+00:00",
+          "prompt_file": "prompts/slide-12.txt",
+          "referenced_image_paths": [
+            "carousels/LW-CAR-0022/outputs/slide-02.png"
+          ],
+          "transparent_background": false,
+          "finished_at": "2026-10-28T14:48:37.061218+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-33c37ef3-b1ce-45d8-b7a2-1463bd045b37.png",
+          "preserved_raw_file": "production-assets/slide-12-generated.png",
+          "result_file": "outputs/slide-12.png"
+        }
+      ],
       "errors": [],
-      "save_status": "not_started",
+      "save_status": "saved_in_cloud_checkout",
       "agent_visual_review": "not_performed",
       "user_review": "pending"
     },
@@ -284,16 +483,33 @@
         "chest",
         "fills out every t-shirt you own."
       ],
-      "prompt_file": "prompts/slide-13.txt",
+      "prompt_file": "prompts/slide-13-clothed.txt",
       "references": [
         "carousels/LW-CAR-0022/outputs/slide-03.png"
       ],
       "file": "outputs/slide-13.png",
-      "attempts": [],
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-28T14:48:37.327111+00:00",
+          "prompt_file": "prompts/slide-13-clothed.txt",
+          "referenced_image_paths": [
+            "carousels/LW-CAR-0022/outputs/slide-03.png"
+          ],
+          "transparent_background": false,
+          "finished_at": "2026-10-28T14:49:01.950998+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-0addf932-f99a-490a-8d7d-1b112b06b7da.png",
+          "preserved_raw_file": "production-assets/slide-13-generated.png",
+          "result_file": "outputs/slide-13.png"
+        }
+      ],
       "errors": [],
-      "save_status": "not_started",
+      "save_status": "saved_in_cloud_checkout",
       "agent_visual_review": "not_performed",
-      "user_review": "pending"
+      "user_review": "pending",
+      "visual_adaptation": "Owner-authorized clothed sports mannequin; opaque T-shirt and shorts, target groups identified by coral printed diagrams."
     },
     {
       "slide": 14,
@@ -304,16 +520,33 @@
         "arms",
         "the first thing people look at in a t-shirt."
       ],
-      "prompt_file": "prompts/slide-14.txt",
+      "prompt_file": "prompts/slide-14-clothed.txt",
       "references": [
         "carousels/LW-CAR-0022/outputs/slide-03.png"
       ],
       "file": "outputs/slide-14.png",
-      "attempts": [],
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-28T14:49:02.252142+00:00",
+          "prompt_file": "prompts/slide-14-clothed.txt",
+          "referenced_image_paths": [
+            "carousels/LW-CAR-0022/outputs/slide-03.png"
+          ],
+          "transparent_background": false,
+          "finished_at": "2026-10-28T14:49:41.631436+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-ef9a546a-d5fb-41b7-900b-1122de8c82d7.png",
+          "preserved_raw_file": "production-assets/slide-14-generated.png",
+          "result_file": "outputs/slide-14.png"
+        }
+      ],
       "errors": [],
-      "save_status": "not_started",
+      "save_status": "saved_in_cloud_checkout",
       "agent_visual_review": "not_performed",
-      "user_review": "pending"
+      "user_review": "pending",
+      "visual_adaptation": "Owner-authorized clothed sports mannequin; opaque T-shirt and shorts, target groups identified by coral printed diagrams."
     },
     {
       "slide": 15,
@@ -324,16 +557,33 @@
         "abs",
         "need low body fat, and everyone notices them."
       ],
-      "prompt_file": "prompts/slide-15.txt",
+      "prompt_file": "prompts/slide-15-clothed.txt",
       "references": [
         "carousels/LW-CAR-0022/outputs/slide-03.png"
       ],
       "file": "outputs/slide-15.png",
-      "attempts": [],
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-28T14:49:41.910693+00:00",
+          "prompt_file": "prompts/slide-15-clothed.txt",
+          "referenced_image_paths": [
+            "carousels/LW-CAR-0022/outputs/slide-03.png"
+          ],
+          "transparent_background": false,
+          "finished_at": "2026-10-28T14:50:38.502196+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-e6dc818b-db6e-4bba-8a02-d21e0b39316b.png",
+          "preserved_raw_file": "production-assets/slide-15-generated.png",
+          "result_file": "outputs/slide-15.png"
+        }
+      ],
       "errors": [],
-      "save_status": "not_started",
+      "save_status": "saved_in_cloud_checkout",
       "agent_visual_review": "not_performed",
-      "user_review": "pending"
+      "user_review": "pending",
+      "visual_adaptation": "Owner-authorized clothed sports mannequin; opaque T-shirt and shorts, target groups identified by coral printed diagrams."
     },
     {
       "slide": 16,
@@ -349,9 +599,25 @@
         "carousels/LW-CAR-0022/outputs/slide-02.png"
       ],
       "file": "outputs/slide-16.png",
-      "attempts": [],
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-28T14:50:38.767919+00:00",
+          "prompt_file": "prompts/slide-16.txt",
+          "referenced_image_paths": [
+            "carousels/LW-CAR-0022/outputs/slide-02.png"
+          ],
+          "transparent_background": false,
+          "finished_at": "2026-10-28T14:51:01.282183+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-cfec39ab-e348-4809-8b76-992f052fc8d5.png",
+          "preserved_raw_file": "production-assets/slide-16-generated.png",
+          "result_file": "outputs/slide-16.png"
+        }
+      ],
       "errors": [],
-      "save_status": "not_started",
+      "save_status": "saved_in_cloud_checkout",
       "agent_visual_review": "not_performed",
       "user_review": "pending"
     },
@@ -364,16 +630,33 @@
         "back",
         "the V shape from every angle."
       ],
-      "prompt_file": "prompts/slide-17.txt",
+      "prompt_file": "prompts/slide-17-clothed.txt",
       "references": [
         "carousels/LW-CAR-0022/outputs/slide-03.png"
       ],
       "file": "outputs/slide-17.png",
-      "attempts": [],
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-28T14:51:01.594338+00:00",
+          "prompt_file": "prompts/slide-17-clothed.txt",
+          "referenced_image_paths": [
+            "carousels/LW-CAR-0022/outputs/slide-03.png"
+          ],
+          "transparent_background": false,
+          "finished_at": "2026-10-28T14:51:35.748580+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-bb2db093-6fa8-4a8d-b090-2785ba04cbce.png",
+          "preserved_raw_file": "production-assets/slide-17-generated.png",
+          "result_file": "outputs/slide-17.png"
+        }
+      ],
       "errors": [],
-      "save_status": "not_started",
+      "save_status": "saved_in_cloud_checkout",
       "agent_visual_review": "not_performed",
-      "user_review": "pending"
+      "user_review": "pending",
+      "visual_adaptation": "Owner-authorized clothed sports mannequin; opaque T-shirt and shorts, target groups identified by coral printed diagrams."
     },
     {
       "slide": 18,
@@ -384,16 +667,33 @@
         "shoulders",
         "wide shoulders change your whole outline."
       ],
-      "prompt_file": "prompts/slide-18.txt",
+      "prompt_file": "prompts/slide-18-clothed.txt",
       "references": [
         "carousels/LW-CAR-0022/outputs/slide-03.png"
       ],
       "file": "outputs/slide-18.png",
-      "attempts": [],
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-28T14:51:36.005890+00:00",
+          "prompt_file": "prompts/slide-18-clothed.txt",
+          "referenced_image_paths": [
+            "carousels/LW-CAR-0022/outputs/slide-03.png"
+          ],
+          "transparent_background": false,
+          "finished_at": "2026-10-28T14:52:11.053871+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-a5c103b4-10bd-4579-8e0d-4d496f8eaad6.png",
+          "preserved_raw_file": "production-assets/slide-18-generated.png",
+          "result_file": "outputs/slide-18.png"
+        }
+      ],
       "errors": [],
-      "save_status": "not_started",
+      "save_status": "saved_in_cloud_checkout",
       "agent_visual_review": "not_performed",
-      "user_review": "pending"
+      "user_review": "pending",
+      "visual_adaptation": "Owner-authorized clothed sports mannequin; opaque T-shirt and shorts, target groups identified by coral printed diagrams."
     },
     {
       "slide": 19,
@@ -408,13 +708,42 @@
         "carousels/LW-CAR-0022/outputs/slide-19.png"
       ],
       "file": "outputs/slide-19.png",
-      "attempts": [],
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-28T14:52:11.312153+00:00",
+          "prompt_file": "prompts/slide-19.txt",
+          "referenced_image_paths": [
+            "carousels/LW-CAR-0022/outputs/slide-19.png"
+          ],
+          "transparent_background": false,
+          "finished_at": "2026-10-28T14:52:49.185578+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-125df323-a5ec-4394-9738-1bf6533c413b.png",
+          "preserved_raw_file": "production-assets/slide-19-generated.png",
+          "result_file": "outputs/slide-19.png"
+        }
+      ],
       "errors": [],
-      "save_status": "not_started",
+      "save_status": "saved_in_cloud_checkout",
       "agent_visual_review": "not_performed",
-      "user_review": "pending"
+      "user_review": "pending",
+      "phone_compositing": {
+        "source": "carousels/LW-CAR-0075/production-assets/approved-phone-hand.png",
+        "text_bottom": 878,
+        "phone_top": 928,
+        "gap_px": 50,
+        "scale": "1:1 original pixels",
+        "ui_generated": false
+      }
     }
   ],
-  "next_action": "Stop Batch I per BATCH-I.md; resume this carousel at slide 1 after the recorded generation blocker is resolved. Do not start LW-CAR-0076.",
-  "archive": "LW-CAR-0075-incomplete-1080x1350.zip"
+  "next_action": "Commit and push this carousel, then continue LW-CAR-0076 without review pause.",
+  "archive": "LW-CAR-0075-1080x1350.zip",
+  "owner_authorized_resume": {
+    "date": "2026-10-28",
+    "additional_attempts_allowed": 2,
+    "scope": "Resume failed LW-CAR-0075 then continue Batch I; owner allows prompt changes. Clothed sports illustration alternative; copy unchanged."
+  }
 }

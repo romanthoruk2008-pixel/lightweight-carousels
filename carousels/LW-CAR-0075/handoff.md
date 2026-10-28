@@ -1,21 +1,9 @@
-# LW-CAR-0075 — Batch I interrupted at slide 1
+# LW-CAR-0075 — complete, pending owner review
 
-The first `image_gen.imagegen` call for the cover failed. No image was returned or saved for this carousel. The exact submitted prompt is `prompts/slide-01.txt`; the original input reference was `carousels/LW-CAR-0022/outputs/slide-01.png`. The full returned error, attempt timestamps, source commit and next slide are recorded in `manifest.json`.
+All 19 slides are saved as opaque flattened RGB 1080 × 1350 PNGs in outputs/. The complete archive is LW-CAR-0075-1080x1350.zip. Caption is copied verbatim from frozen copy.json v1.0. The original Harda logo is composited on every final slide, and the ending reuses the real approved LW-CAR-0022/19 phone/UI pixels below the measured final text row with a 50px gap.
 
-Tool result: HTTP 400, `moderation_blocked`, moderation stage `output`, category `sexual`. Request ID: `27ebc24d-223c-4223-ad6b-b9040e103759`.
+The first original cover call was rejected by the image tool at output moderation. Its original prompt and exact error remain in manifest.json. The owner explicitly authorized up to two additional attempts and prompt changes on 2026-10-28. One additional attempt succeeded: an adult sports display mannequin in an opaque white sports T-shirt and charcoal shorts, with coral muscle-map graphics. This clothed illustration alternative was applied to this carousel's figure slides; exact text, ranking and ratings remain from copy.json. Actual submitted prompts are the prompt_file entries in the manifest, including the cover's slide-01-clothed-attempt-02.txt. No further retries were needed.
 
-Per `carousels/BATCH-I.md`, stop the batch on generation failure and push existing progress. No retry, changed prompt, regeneration, alternate model, paid fallback, OCR or visual review was run. `agent_visual_review: not_performed`; `user_review: pending`.
+agent_visual_review: not_performed. user_review: pending. No OCR, automatic visual QA, reviewer pass or automatic regeneration was run. The initial rejection is history, not a remaining blocker.
 
-Prepared: frozen-copy prompts for all 19 slides, verbatim caption, manifest, production helper and original approved phone/white-hand bitmap for the future ending. The explicitly incomplete ZIP contains the caption and manifest; it contains zero generated slide PNGs.
-
-Next slide to generate: **LW-CAR-0075 slide 1**, after the recorded generation blocker is resolved. Reconcile the manifest and actual outputs before resuming. Do not start LW-CAR-0076 until LW-CAR-0075 is complete.
-
-Earlier Batch I carousels completed and pushed, one commit per carousel:
-
-- LW-CAR-0070: 8 slides, commit `c432ac0`.
-- LW-CAR-0071: 8 slides, commit `f37d609`.
-- LW-CAR-0072: 9 slides, commit `e4369de`.
-- LW-CAR-0073: 8 slides, commit `d2cf281`.
-- LW-CAR-0074: 9 slides, commit `dfde99c`.
-
-LW-CAR-0076 has not been started. Batch H files were not edited by this work. All commands and file operations ran in the cloud checkout, not on the owner's MacBook.
+Next: commit and push this complete carousel, then generate LW-CAR-0076 in order without a review pause. Earlier LW-CAR-0070 through 0074 remain complete and pushed. All file operations ran in the cloud checkout; nothing was installed or downloaded on the owner's MacBook.

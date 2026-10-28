@@ -51,14 +51,17 @@ if action == 'init':
     sys.exit()
 
 m = json.loads(MANIFEST.read_text())
-if action in ('start', 'save', 'error'):
+if action in ('start', 'retry', 'save', 'error'):
     n = int(sys.argv[2])
     slide = m['slides'][n - 1]
-    if action == 'start':
-        if slide['attempts'] or slide['save_status'] != 'not_started':
+    if action in ('start', 'retry'):
+        if action == 'start' and (slide['attempts'] or slide['save_status'] != 'not_started'):
             raise RuntimeError('Do not repeat or overwrite an existing generation attempt')
-        slide['attempts'].append(dict(attempt=1, tool='image_gen.imagegen', status='in_progress', started_at=now(), prompt_file=slide['prompt_file'], referenced_image_paths=slide['references'], transparent_background=False))
+        if action == 'retry' and (slide['save_status'] != 'generation_failed' or len(slide['attempts']) >= 3 or (ROOT / slide['file']).exists()):
+            raise RuntimeError('Only an explicitly authorized retry of a failed, unsaved slide is allowed (two additional attempts maximum)')
+        slide['attempts'].append(dict(attempt=len(slide['attempts']) + 1, tool='image_gen.imagegen', status='in_progress', started_at=now(), prompt_file=slide['prompt_file'], referenced_image_paths=slide['references'], transparent_background=False))
         slide['save_status'] = 'generation_in_progress'
+        m['status'] = 'in_progress'
     elif action == 'error':
         message = sys.argv[3]
         slide['errors'].append(message)
