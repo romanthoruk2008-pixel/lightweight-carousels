@@ -1,0 +1,10 @@
+Create ONE complete 1080 x 1350 portrait Harda fitness carousel slide. The attached approved slide is a VISUAL template only, never the source of words. Exact text below comes only from frozen copy.json. Preserve every capital, hyphen, apostrophe and punctuation. Rubik type: heaviest cover, bold title, regular labels/body. Dark #2A2A2A, body #6B6B6B, accent #F26445. BACKGROUND: entire canvas solid opaque #F0F1EB, then small #D4D4CC DOTS, 6px diameter every 45px. Absolutely NO ARCH, rings, grid, gradient, progress bar, counter, transparency checkerboard, watermark or signature. Leave the top 110px empty except the dots: do NOT draw a logo, brand name or icon there. The ORIGINAL Harda PNG is composited later at x48,y19,218x71 using its own alpha. S1 FIGURES ONLY: bald faceless smooth plastic anatomy teaching mannequin with warm-sand #D9CBBE muscles, darker sand shading, ivory #F5F0E5 tendons, fine grey linework, smooth featureless pelvis covered by opaque plain sand short shorts on full-body figures. Never white S2 figures, green, sage, real human nudity, invented equipment or extra copy. Equipment black/grey. Every word fully visible inside slide edges, no overlap.
+
+COVER twin of attached LW-CAR-0005/01: huge three stacked lines in upper ~55%: BEST EXERCISES coral; FOR EVERY dark; MUSCLE GROUP dark. Small bold italic (Leg Day Edition) centered underneath. Lower portion: S1 anatomical man on BLACK/GREY PLATE-LOADED 45-DEGREE LEG PRESS, three-quarter front view, knees bent; quads coral. Same headline hierarchy and figure scale as approved cover, no arch.
+
+EXACT TEXT AND STYLES, authoritative copy.json:
+{"string": "BEST EXERCISES", "style": "cover line 1, uppercase, heaviest Rubik, accent"}
+{"string": "FOR EVERY", "style": "cover line 2, uppercase, heaviest Rubik, text_dark"}
+{"string": "MUSCLE GROUP", "style": "cover line 3, uppercase, heaviest Rubik, text_dark"}
+{"string": "(Leg Day Edition)", "style": "small bold italic, text_dark, centered under the headline"}
+Return one opaque slide, never a contact sheet.

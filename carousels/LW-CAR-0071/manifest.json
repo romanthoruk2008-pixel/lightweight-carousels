@@ -1,0 +1,326 @@
+{
+  "carousel_id": "LW-CAR-0071",
+  "batch": "BATCH-I",
+  "content_version": "1.0",
+  "source_commit": "c432ac02fe71647b9846d2b168e0f58279e00876",
+  "status": "complete_pending_owner_review",
+  "carousel_complete": true,
+  "design_style": "S1",
+  "background": "DOTS",
+  "brand": "Harda",
+  "generated_images": 8,
+  "next_slide_to_generate": null,
+  "agent_visual_review": "not_performed",
+  "user_review": "pending",
+  "remote_save": {
+    "remote": "origin",
+    "branch": "claude/charming-einstein-xgejky",
+    "status": "prepared_for_commit_and_push",
+    "commit_lookup": "git log -1 -- carousels/LW-CAR-0071/manifest.json"
+  },
+  "slides": [
+    {
+      "slide": 1,
+      "role": "hook",
+      "exact_text": [
+        "BEST EXERCISES",
+        "FOR EVERY",
+        "MUSCLE GROUP",
+        "(Leg Day Edition)"
+      ],
+      "prompt_file": "prompts/slide-01.txt",
+      "references": [
+        "carousels/LW-CAR-0005/outputs/slide-01.png"
+      ],
+      "file": "outputs/slide-01.png",
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-28T12:20:46.835941+00:00",
+          "prompt_file": "prompts/slide-01.txt",
+          "referenced_image_paths": [
+            "carousels/LW-CAR-0005/outputs/slide-01.png"
+          ],
+          "transparent_background": false,
+          "finished_at": "2026-10-28T12:21:24.740440+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-6026d2d9-74e3-4c0b-985a-b3b85b6040fa.png",
+          "preserved_raw_file": "production-assets/slide-01-generated.png",
+          "result_file": "outputs/slide-01.png"
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_in_cloud_checkout",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 2,
+      "role": "muscle 1",
+      "exact_text": [
+        "#1",
+        "Quads",
+        "Hack Squat",
+        "OR",
+        "Leg Extension"
+      ],
+      "prompt_file": "prompts/slide-02.txt",
+      "references": [
+        "carousels/LW-CAR-0005/outputs/slide-02.png"
+      ],
+      "file": "outputs/slide-02.png",
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-28T12:21:24.986590+00:00",
+          "prompt_file": "prompts/slide-02.txt",
+          "referenced_image_paths": [
+            "carousels/LW-CAR-0005/outputs/slide-02.png"
+          ],
+          "transparent_background": false,
+          "finished_at": "2026-10-28T12:22:31.160041+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-0028ee5c-8ca9-4bb9-a7a7-b97d15b78c51.png",
+          "preserved_raw_file": "production-assets/slide-02-generated.png",
+          "result_file": "outputs/slide-02.png"
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_in_cloud_checkout",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 3,
+      "role": "muscle 2",
+      "exact_text": [
+        "#2",
+        "Hamstrings",
+        "Seated Leg Curl",
+        "OR",
+        "Romanian Deadlift"
+      ],
+      "prompt_file": "prompts/slide-03.txt",
+      "references": [
+        "carousels/LW-CAR-0005/outputs/slide-02.png"
+      ],
+      "file": "outputs/slide-03.png",
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-28T12:22:31.402347+00:00",
+          "prompt_file": "prompts/slide-03.txt",
+          "referenced_image_paths": [
+            "carousels/LW-CAR-0005/outputs/slide-02.png"
+          ],
+          "transparent_background": false,
+          "finished_at": "2026-10-28T12:23:10.317213+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-6a15cf1c-5146-4993-9413-59ffd1b295fe.png",
+          "preserved_raw_file": "production-assets/slide-03-generated.png",
+          "result_file": "outputs/slide-03.png"
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_in_cloud_checkout",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 4,
+      "role": "muscle 3",
+      "exact_text": [
+        "#3",
+        "Glutes",
+        "Hip Thrust",
+        "OR",
+        "Bulgarian Split Squat"
+      ],
+      "prompt_file": "prompts/slide-04.txt",
+      "references": [
+        "carousels/LW-CAR-0005/outputs/slide-02.png"
+      ],
+      "file": "outputs/slide-04.png",
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-28T12:23:10.562675+00:00",
+          "prompt_file": "prompts/slide-04.txt",
+          "referenced_image_paths": [
+            "carousels/LW-CAR-0005/outputs/slide-02.png"
+          ],
+          "transparent_background": false,
+          "finished_at": "2026-10-28T12:24:04.229966+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-c080b677-711e-4468-9611-9b6744a8f5bf.png",
+          "preserved_raw_file": "production-assets/slide-04-generated.png",
+          "result_file": "outputs/slide-04.png"
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_in_cloud_checkout",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 5,
+      "role": "muscle 4",
+      "exact_text": [
+        "#4",
+        "Adductors",
+        "Adductor Machine",
+        "OR",
+        "Sumo Squat"
+      ],
+      "prompt_file": "prompts/slide-05.txt",
+      "references": [
+        "carousels/LW-CAR-0005/outputs/slide-02.png"
+      ],
+      "file": "outputs/slide-05.png",
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-28T12:24:04.490345+00:00",
+          "prompt_file": "prompts/slide-05.txt",
+          "referenced_image_paths": [
+            "carousels/LW-CAR-0005/outputs/slide-02.png"
+          ],
+          "transparent_background": false,
+          "finished_at": "2026-10-28T12:24:53.288908+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-de881f66-162c-4106-8aba-465b303b1ddd.png",
+          "preserved_raw_file": "production-assets/slide-05-generated.png",
+          "result_file": "outputs/slide-05.png"
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_in_cloud_checkout",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 6,
+      "role": "muscle 5",
+      "exact_text": [
+        "#5",
+        "Outer Glutes",
+        "Abductor Machine",
+        "OR",
+        "Banded Side Walk"
+      ],
+      "prompt_file": "prompts/slide-06.txt",
+      "references": [
+        "carousels/LW-CAR-0005/outputs/slide-02.png"
+      ],
+      "file": "outputs/slide-06.png",
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-28T12:24:53.550706+00:00",
+          "prompt_file": "prompts/slide-06.txt",
+          "referenced_image_paths": [
+            "carousels/LW-CAR-0005/outputs/slide-02.png"
+          ],
+          "transparent_background": false,
+          "finished_at": "2026-10-28T12:25:23.090015+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-47d35f59-a152-4b80-bd5a-3210868d4eee.png",
+          "preserved_raw_file": "production-assets/slide-06-generated.png",
+          "result_file": "outputs/slide-06.png"
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_in_cloud_checkout",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 7,
+      "role": "muscle 6",
+      "exact_text": [
+        "#6",
+        "Calves",
+        "Standing Calf Raise",
+        "OR",
+        "Leg Press Calf Raise"
+      ],
+      "prompt_file": "prompts/slide-07.txt",
+      "references": [
+        "carousels/LW-CAR-0005/outputs/slide-02.png"
+      ],
+      "file": "outputs/slide-07.png",
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-28T12:25:23.343576+00:00",
+          "prompt_file": "prompts/slide-07.txt",
+          "referenced_image_paths": [
+            "carousels/LW-CAR-0005/outputs/slide-02.png"
+          ],
+          "transparent_background": false,
+          "finished_at": "2026-10-28T12:25:57.771289+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-bf750c69-52b7-4253-93ea-bf16c8b8312a.png",
+          "preserved_raw_file": "production-assets/slide-07-generated.png",
+          "result_file": "outputs/slide-07.png"
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_in_cloud_checkout",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 8,
+      "role": "product ending",
+      "exact_text": [
+        "Are Your Legs Getting Enough Work?",
+        "Log your workouts in Harda.",
+        "See how many sets your legs get compared to every other muscle."
+      ],
+      "prompt_file": "prompts/slide-08.txt",
+      "references": [
+        "carousels/LW-CAR-0031/outputs/slide-08.png"
+      ],
+      "file": "outputs/slide-08.png",
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-28T12:25:58.034973+00:00",
+          "prompt_file": "prompts/slide-08.txt",
+          "referenced_image_paths": [
+            "carousels/LW-CAR-0031/outputs/slide-08.png"
+          ],
+          "transparent_background": false,
+          "finished_at": "2026-10-28T12:26:57.190885+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-49052841-6178-41a5-af11-e3f3128b0324.png",
+          "preserved_raw_file": "production-assets/slide-08-generated.png",
+          "result_file": "outputs/slide-08.png"
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_in_cloud_checkout",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending",
+      "phone_compositing": {
+        "source": "carousels/LW-CAR-0031/production-assets/approved-phone-hand-foreground.png",
+        "text_bottom": 662,
+        "phone_top": 712,
+        "gap_px": 50,
+        "scale": "1:1 original pixels",
+        "ui_generated": false
+      }
+    }
+  ],
+  "next_action": "Commit and push this carousel, then continue LW-CAR-0072 without review pause.",
+  "archive": "LW-CAR-0071-1080x1350.zip"
+}
