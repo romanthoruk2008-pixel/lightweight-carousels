@@ -1,0 +1,234 @@
+{
+  "carousel_id": "LW-CAR-0071",
+  "content_version": "1.0",
+  "status": "frozen",
+  "type": "original",
+  "design_style": "S1",
+  "language": "en",
+  "font_family": "Rubik",
+  "background": "DOTS",
+  "colors": {
+    "accent": "#F26445",
+    "background": "#F0F1EB",
+    "text_dark": "#2A2A2A",
+    "text_body_grey": "#6B6B6B",
+    "white": "#FFFFFF",
+    "muscle_base_sand": "#D9CBBE",
+    "skin_ivory_approx": "#F5F0E5"
+  },
+  "source": {
+    "ref_id": null,
+    "note": "Our own Leg Day Edition of the approved LW-CAR-0005 (Push Day Edition) layout, style S1 (owner request 2026-10-28). Exercise picks are our own."
+  },
+  "caption": {
+    "text": "The best exercises for every muscle group. Leg day edition! Save this for your next leg day 📌 Which ones do you use? 👇 #legday #legworkout #gymtips #bestexercises",
+    "notes": "save prompt + question. No 'lifters'."
+  },
+  "slides": [
+    {
+      "n": 1,
+      "role": "hook",
+      "text": [
+        {
+          "string": "BEST EXERCISES",
+          "style": "cover line 1, uppercase, heaviest Rubik, accent"
+        },
+        {
+          "string": "FOR EVERY",
+          "style": "cover line 2, uppercase, heaviest Rubik, text_dark"
+        },
+        {
+          "string": "MUSCLE GROUP",
+          "style": "cover line 3, uppercase, heaviest Rubik, text_dark"
+        },
+        {
+          "string": "(Leg Day Edition)",
+          "style": "small bold italic, text_dark, centered under the headline"
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "role": "muscle 1",
+      "text": [
+        {
+          "string": "#1",
+          "style": "number, bold, accent, underlined"
+        },
+        {
+          "string": "Quads",
+          "style": "title, bold, text_dark"
+        },
+        {
+          "string": "Hack Squat",
+          "style": "left exercise label"
+        },
+        {
+          "string": "OR",
+          "style": "white text in accent circle badge"
+        },
+        {
+          "string": "Leg Extension",
+          "style": "right exercise label"
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "role": "muscle 2",
+      "text": [
+        {
+          "string": "#2",
+          "style": "number, bold, accent, underlined"
+        },
+        {
+          "string": "Hamstrings",
+          "style": "title, bold, text_dark"
+        },
+        {
+          "string": "Seated Leg Curl",
+          "style": "left exercise label"
+        },
+        {
+          "string": "OR",
+          "style": "white text in accent circle badge"
+        },
+        {
+          "string": "Romanian Deadlift",
+          "style": "right exercise label"
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "role": "muscle 3",
+      "text": [
+        {
+          "string": "#3",
+          "style": "number, bold, accent, underlined"
+        },
+        {
+          "string": "Glutes",
+          "style": "title, bold, text_dark"
+        },
+        {
+          "string": "Hip Thrust",
+          "style": "left exercise label"
+        },
+        {
+          "string": "OR",
+          "style": "white text in accent circle badge"
+        },
+        {
+          "string": "Bulgarian Split Squat",
+          "style": "right exercise label"
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "role": "muscle 4",
+      "text": [
+        {
+          "string": "#4",
+          "style": "number, bold, accent, underlined"
+        },
+        {
+          "string": "Adductors",
+          "style": "title, bold, text_dark"
+        },
+        {
+          "string": "Adductor Machine",
+          "style": "left exercise label"
+        },
+        {
+          "string": "OR",
+          "style": "white text in accent circle badge"
+        },
+        {
+          "string": "Sumo Squat",
+          "style": "right exercise label"
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "role": "muscle 5",
+      "text": [
+        {
+          "string": "#5",
+          "style": "number, bold, accent, underlined"
+        },
+        {
+          "string": "Outer Glutes",
+          "style": "title, bold, text_dark"
+        },
+        {
+          "string": "Abductor Machine",
+          "style": "left exercise label"
+        },
+        {
+          "string": "OR",
+          "style": "white text in accent circle badge"
+        },
+        {
+          "string": "Banded Side Walk",
+          "style": "right exercise label"
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "role": "muscle 6",
+      "text": [
+        {
+          "string": "#6",
+          "style": "number, bold, accent, underlined"
+        },
+        {
+          "string": "Calves",
+          "style": "title, bold, text_dark"
+        },
+        {
+          "string": "Standing Calf Raise",
+          "style": "left exercise label"
+        },
+        {
+          "string": "OR",
+          "style": "white text in accent circle badge"
+        },
+        {
+          "string": "Leg Press Calf Raise",
+          "style": "right exercise label"
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "role": "product ending",
+      "text": [
+        {
+          "string": "Are Your Legs Getting Enough Work?",
+          "style": "headline, bold, text_dark"
+        },
+        {
+          "string": "Log your workouts in Harda.",
+          "style": "body, regular, text_body_grey"
+        },
+        {
+          "string": "See how many sets your legs get compared to every other muscle.",
+          "style": "body, regular, text_body_grey"
+        }
+      ],
+      "screen": "the **real Harda Muscle balance screenshot**, the same as on the approved LW-CAR-0031 slide 8 (radar with a Legs axis)",
+      "product_claims_checked_against_real_screen": [
+        "workouts are logged",
+        "Muscle balance radar axes: Chest, Back, Legs, Arms, Core, Shoulders"
+      ]
+    }
+  ],
+  "claims_to_verify": [
+    "Exercise picks are our own; no numbers or citations.",
+    "Ending: Muscle balance screen with a Legs axis (real screen)."
+  ]
+}

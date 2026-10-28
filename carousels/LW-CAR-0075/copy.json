@@ -1,0 +1,406 @@
+{
+  "carousel_id": "LW-CAR-0075",
+  "content_version": "1.0",
+  "status": "frozen",
+  "type": "original",
+  "design_style": "S2",
+  "language": "en",
+  "background": "CLEAN",
+  "font_family": "REF-008 look: heavy tight grotesk for headlines, clean sans for body, italic for tier lines",
+  "colors": {
+    "accent": "#F26445",
+    "background": "#F0F1EB",
+    "text_dark": "#2A2A2A",
+    "text_body_grey": "#6B6B6B",
+    "white": "#FFFFFF",
+    "tier_S": "#F26445",
+    "tier_A": "#FF9A52",
+    "tier_B": "#FFD95A",
+    "tier_C": "#3FCF5E",
+    "tier_F": "#5BDCE3",
+    "star_empty": "#D6D6D2"
+  },
+  "source": {
+    "ref_id": null,
+    "note": "Our own 'most aesthetic muscles' tier list, S2 look (owner request 2026-10-28). Stated as our opinion; no survey or study is claimed.",
+    "layout_from": "carousels/LW-CAR-0022/outputs (owner-approved S2, Harda logo)"
+  },
+  "caption": {
+    "text": "Shoulders at #1. Agree? 👇 #aesthetics #physique #tierlist #gymtips",
+    "notes": "comment prompt"
+  },
+  "slides": [
+    {
+      "n": 1,
+      "role": "hook",
+      "text": [
+        {
+          "string": "most aesthetic muscles",
+          "style": "cover line 1, lowercase, heaviest weight, text_dark"
+        },
+        {
+          "string": "tier list",
+          "style": "cover line 2, lowercase, heaviest weight, text_dark on an accent marker bar"
+        },
+        {
+          "string": "(in our opinion)",
+          "style": "italic, regular, text_body_grey"
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "role": "tier divider F",
+      "text": [
+        {
+          "string": "F",
+          "style": "white bold letter on a rounded colour tile"
+        },
+        {
+          "string": "tier",
+          "style": "lowercase, heaviest weight, text_dark"
+        },
+        {
+          "string": "nobody notices",
+          "style": "italic, regular, text_body_grey"
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "role": "item #12",
+      "rating_stars": 1,
+      "text": [
+        {
+          "string": "#12",
+          "style": "heaviest weight, text_dark"
+        },
+        {
+          "string": "lower back",
+          "style": "heaviest weight, lowercase, text_dark on an accent marker bar"
+        },
+        {
+          "string": "important for every lift, but nobody sees it.",
+          "style": "regular, text_dark, up to two lines"
+        }
+      ],
+      "illustration": "rear view, standing relaxed, lower back erectors filled #F26445"
+    },
+    {
+      "n": 4,
+      "role": "item #11",
+      "rating_stars": 1.5,
+      "text": [
+        {
+          "string": "#11",
+          "style": "heaviest weight, text_dark"
+        },
+        {
+          "string": "hamstrings",
+          "style": "heaviest weight, lowercase, text_dark on an accent marker bar"
+        },
+        {
+          "string": "they make strong legs, but shorts hide them.",
+          "style": "regular, text_dark, up to two lines"
+        }
+      ],
+      "illustration": "rear view, standing, one leg slightly back, hamstrings filled #F26445"
+    },
+    {
+      "n": 5,
+      "role": "tier divider C",
+      "text": [
+        {
+          "string": "C",
+          "style": "white bold letter on a rounded colour tile"
+        },
+        {
+          "string": "tier",
+          "style": "lowercase, heaviest weight, text_dark"
+        },
+        {
+          "string": "nice bonus",
+          "style": "italic, regular, text_body_grey"
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "role": "item #10",
+      "rating_stars": 2,
+      "text": [
+        {
+          "string": "#10",
+          "style": "heaviest weight, text_dark"
+        },
+        {
+          "string": "calves",
+          "style": "heaviest weight, lowercase, text_dark on an accent marker bar"
+        },
+        {
+          "string": "great in shorts. invisible in jeans.",
+          "style": "regular, text_dark, up to two lines"
+        }
+      ],
+      "illustration": "rear view, standing on the toes, calves filled #F26445"
+    },
+    {
+      "n": 7,
+      "role": "item #9",
+      "rating_stars": 2.5,
+      "text": [
+        {
+          "string": "#9",
+          "style": "heaviest weight, text_dark"
+        },
+        {
+          "string": "forearms",
+          "style": "heaviest weight, lowercase, text_dark on an accent marker bar"
+        },
+        {
+          "string": "show up every time you roll up your sleeves.",
+          "style": "regular, text_dark, up to two lines"
+        }
+      ],
+      "illustration": "front view from the waist up, one fist clenched in front of the body, forearms filled #F26445"
+    },
+    {
+      "n": 8,
+      "role": "tier divider B",
+      "text": [
+        {
+          "string": "B",
+          "style": "white bold letter on a rounded colour tile"
+        },
+        {
+          "string": "tier",
+          "style": "lowercase, heaviest weight, text_dark"
+        },
+        {
+          "string": "solid picks",
+          "style": "italic, regular, text_body_grey"
+        }
+      ]
+    },
+    {
+      "n": 9,
+      "role": "item #8",
+      "rating_stars": 3,
+      "text": [
+        {
+          "string": "#8",
+          "style": "heaviest weight, text_dark"
+        },
+        {
+          "string": "quads",
+          "style": "heaviest weight, lowercase, text_dark on an accent marker bar"
+        },
+        {
+          "string": "big quads look strong in any shorts.",
+          "style": "regular, text_dark, up to two lines"
+        }
+      ],
+      "illustration": "front view, standing, one leg forward and flexed, quads filled #F26445"
+    },
+    {
+      "n": 10,
+      "role": "item #7",
+      "rating_stars": 3,
+      "text": [
+        {
+          "string": "#7",
+          "style": "heaviest weight, text_dark"
+        },
+        {
+          "string": "traps",
+          "style": "heaviest weight, lowercase, text_dark on an accent marker bar"
+        },
+        {
+          "string": "give your neck and shoulders a strong frame.",
+          "style": "regular, text_dark, up to two lines"
+        }
+      ],
+      "illustration": "rear view from the waist up, arms relaxed, traps filled #F26445"
+    },
+    {
+      "n": 11,
+      "role": "item #6",
+      "rating_stars": 3.5,
+      "text": [
+        {
+          "string": "#6",
+          "style": "heaviest weight, text_dark"
+        },
+        {
+          "string": "glutes",
+          "style": "heaviest weight, lowercase, text_dark on an accent marker bar"
+        },
+        {
+          "string": "make every pair of jeans fit better.",
+          "style": "regular, text_dark, up to two lines"
+        }
+      ],
+      "illustration": "rear three-quarter view, standing, glutes filled #F26445"
+    },
+    {
+      "n": 12,
+      "role": "tier divider A",
+      "text": [
+        {
+          "string": "A",
+          "style": "white bold letter on a rounded colour tile"
+        },
+        {
+          "string": "tier",
+          "style": "lowercase, heaviest weight, text_dark"
+        },
+        {
+          "string": "turn heads",
+          "style": "italic, regular, text_body_grey"
+        }
+      ]
+    },
+    {
+      "n": 13,
+      "role": "item #5",
+      "rating_stars": 4,
+      "text": [
+        {
+          "string": "#5",
+          "style": "heaviest weight, text_dark"
+        },
+        {
+          "string": "chest",
+          "style": "heaviest weight, lowercase, text_dark on an accent marker bar"
+        },
+        {
+          "string": "fills out every t-shirt you own.",
+          "style": "regular, text_dark, up to two lines"
+        }
+      ],
+      "illustration": "front view from the waist up, hands on hips, chest filled #F26445"
+    },
+    {
+      "n": 14,
+      "role": "item #4",
+      "rating_stars": 4,
+      "text": [
+        {
+          "string": "#4",
+          "style": "heaviest weight, text_dark"
+        },
+        {
+          "string": "arms",
+          "style": "heaviest weight, lowercase, text_dark on an accent marker bar"
+        },
+        {
+          "string": "the first thing people look at in a t-shirt.",
+          "style": "regular, text_dark, up to two lines"
+        }
+      ],
+      "illustration": "front view from the waist up, front double biceps pose, biceps and triceps filled #F26445"
+    },
+    {
+      "n": 15,
+      "role": "item #3",
+      "rating_stars": 4.5,
+      "text": [
+        {
+          "string": "#3",
+          "style": "heaviest weight, text_dark"
+        },
+        {
+          "string": "abs",
+          "style": "heaviest weight, lowercase, text_dark on an accent marker bar"
+        },
+        {
+          "string": "need low body fat, and everyone notices them.",
+          "style": "regular, text_dark, up to two lines"
+        }
+      ],
+      "illustration": "front view from the thighs up, hands behind the head, abs filled #F26445"
+    },
+    {
+      "n": 16,
+      "role": "tier divider S",
+      "text": [
+        {
+          "string": "S",
+          "style": "white bold letter on a rounded colour tile"
+        },
+        {
+          "string": "tier",
+          "style": "lowercase, heaviest weight, text_dark"
+        },
+        {
+          "string": "the dream",
+          "style": "italic, regular, text_body_grey"
+        }
+      ]
+    },
+    {
+      "n": 17,
+      "role": "item #2",
+      "rating_stars": 5,
+      "text": [
+        {
+          "string": "#2",
+          "style": "heaviest weight, text_dark"
+        },
+        {
+          "string": "back",
+          "style": "heaviest weight, lowercase, text_dark on an accent marker bar"
+        },
+        {
+          "string": "the V shape from every angle.",
+          "style": "regular, text_dark, up to two lines"
+        }
+      ],
+      "illustration": "rear view from the waist up, rear lat spread pose, lats and upper back filled #F26445"
+    },
+    {
+      "n": 18,
+      "role": "item #1",
+      "rating_stars": 5,
+      "text": [
+        {
+          "string": "#1",
+          "style": "heaviest weight, text_dark"
+        },
+        {
+          "string": "shoulders",
+          "style": "heaviest weight, lowercase, text_dark on an accent marker bar"
+        },
+        {
+          "string": "wide shoulders change your whole outline.",
+          "style": "regular, text_dark, up to two lines"
+        }
+      ],
+      "illustration": "front view from the waist up, arms slightly away from the body, all three delts filled #F26445"
+    },
+    {
+      "n": 19,
+      "role": "product ending",
+      "text": [
+        {
+          "string": "harda tracks every set you lift, so every muscle gets its turn.",
+          "style": "large, lowercase, heaviest weight, text_dark; accent marker bars under 'every set you lift' and 'every muscle gets its turn'"
+        },
+        {
+          "string": "log your workouts and check your muscle balance.",
+          "style": "regular, text_dark, two lines"
+        }
+      ],
+      "screen": "real Harda Progress / Muscle balance screenshot, the same one as in approved LW-CAR-0022 slide 19",
+      "product_claims_checked_against_real_screen": [
+        "workouts are logged",
+        "muscle balance screen (LW-CAR-0022 slide 19)"
+      ]
+    }
+  ],
+  "claims_to_verify": [
+    "Opinion only: the cover says '(in our opinion)'. No survey, study or numbers.",
+    "'abs need low body fat' matches LW-CAR-0018, 0031 and 0052.",
+    "Ending: workout logging and the Muscle balance screen."
+  ]
+}

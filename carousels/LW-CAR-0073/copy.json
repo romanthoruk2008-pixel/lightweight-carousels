@@ -1,0 +1,250 @@
+{
+  "carousel_id": "LW-CAR-0073",
+  "content_version": "1.0",
+  "status": "frozen",
+  "type": "original",
+  "design_style": "S1",
+  "language": "en",
+  "font_family": "Rubik",
+  "background": "CLEAN",
+  "colors": {
+    "accent": "#F26445",
+    "background": "#F0F1EB",
+    "text_dark": "#2A2A2A",
+    "text_body_grey": "#6B6B6B",
+    "white": "#FFFFFF",
+    "muscle_base_sand": "#D9CBBE",
+    "skin_ivory_approx": "#F5F0E5"
+  },
+  "source": {
+    "ref_id": null,
+    "note": "Our own glute day part of the STRUCTURE series with the approved LW-CAR-0002 (push day) and LW-CAR-0009 (leg day), style S1 (owner request 2026-10-27)."
+  },
+  "caption": {
+    "text": "Build your perfect glute day: pick one exercise from each slot. Save this for your next glute day 📌 Which one is your favorite? 👇 #gluteday #glutes #legday #gymtips",
+    "notes": "save prompt + question. No 'lifters'."
+  },
+  "slides": [
+    {
+      "n": 1,
+      "role": "hook",
+      "text": [
+        {
+          "string": "STRUCTURE",
+          "style": "cover line 1, uppercase, heaviest Rubik, text_dark"
+        },
+        {
+          "string": "THE PERFECT",
+          "style": "cover line 2, uppercase, heaviest Rubik, text_dark"
+        },
+        {
+          "string": "GLUTE DAY",
+          "style": "cover line 3, uppercase, heaviest Rubik, accent"
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "role": "overview checklist",
+      "text": [
+        {
+          "string": "Your Glute Day\nShould Include:",
+          "style": "title, bold, text_dark, left-aligned, two lines"
+        },
+        {
+          "string": "1x Glute Max (Hip Thrust)",
+          "style": "bullet; '1x' regular, 'Glute Max' bold, bracket regular"
+        },
+        {
+          "string": "1x Glutes (Lunge)",
+          "style": "bullet; '1x' regular, 'Glutes' bold, bracket regular"
+        },
+        {
+          "string": "1x Hamstrings (Hinge)",
+          "style": "bullet; '1x' regular, 'Hamstrings' bold, bracket regular"
+        },
+        {
+          "string": "1x Glute Medius (Abduction)",
+          "style": "bullet; '1x' regular, 'Glute Medius' bold, bracket regular"
+        },
+        {
+          "string": "1x Glutes (Finisher)",
+          "style": "bullet; '1x' regular, 'Glutes' bold, bracket regular"
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "role": "list item #1",
+      "text": [
+        {
+          "string": "#1",
+          "style": "big number, bold, accent"
+        },
+        {
+          "string": "Glute Max",
+          "style": "title, bold, text_dark"
+        },
+        {
+          "string": "2-3 sets x 6-10 reps",
+          "style": "sets line, regular, text_body_grey"
+        },
+        {
+          "string": "Choose one of these exercises to build your glutes:",
+          "style": "body, regular, text_body_grey, two lines"
+        },
+        {
+          "string": "Barbell Hip Thrust",
+          "style": "left exercise label"
+        },
+        {
+          "string": "Hip Thrust Machine",
+          "style": "right exercise label"
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "role": "list item #2",
+      "text": [
+        {
+          "string": "#2",
+          "style": "big number, bold, accent"
+        },
+        {
+          "string": "Glutes",
+          "style": "title, bold, text_dark"
+        },
+        {
+          "string": "2-3 sets x 8-12 reps",
+          "style": "sets line, regular, text_body_grey"
+        },
+        {
+          "string": "Choose one of these exercises to train your glutes in a deep stretch:",
+          "style": "body, regular, text_body_grey, two lines"
+        },
+        {
+          "string": "Bulgarian Split Squat",
+          "style": "left exercise label"
+        },
+        {
+          "string": "Walking Lunges",
+          "style": "right exercise label"
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "role": "list item #3",
+      "text": [
+        {
+          "string": "#3",
+          "style": "big number, bold, accent"
+        },
+        {
+          "string": "Hamstrings",
+          "style": "title, bold, text_dark"
+        },
+        {
+          "string": "2-3 sets x 8-12 reps",
+          "style": "sets line, regular, text_body_grey"
+        },
+        {
+          "string": "Choose one of these exercises to hinge with your hips:",
+          "style": "body, regular, text_body_grey, two lines"
+        },
+        {
+          "string": "Romanian Deadlift",
+          "style": "left exercise label"
+        },
+        {
+          "string": "45° Back Extension",
+          "style": "right exercise label"
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "role": "list item #4",
+      "text": [
+        {
+          "string": "#4",
+          "style": "big number, bold, accent"
+        },
+        {
+          "string": "Glute Medius",
+          "style": "title, bold, text_dark"
+        },
+        {
+          "string": "2-3 sets x 12-20 reps",
+          "style": "sets line, regular, text_body_grey"
+        },
+        {
+          "string": "Choose one of these exercises to train the side of your hips:",
+          "style": "body, regular, text_body_grey, two lines"
+        },
+        {
+          "string": "Abductor Machine",
+          "style": "left exercise label"
+        },
+        {
+          "string": "Cable Hip Abduction",
+          "style": "right exercise label"
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "role": "list item #5",
+      "text": [
+        {
+          "string": "#5",
+          "style": "big number, bold, accent"
+        },
+        {
+          "string": "Glutes",
+          "style": "title, bold, text_dark"
+        },
+        {
+          "string": "2-3 sets x 15-20 reps",
+          "style": "sets line, regular, text_body_grey"
+        },
+        {
+          "string": "Finish with one of these for a burn:",
+          "style": "body, regular, text_body_grey, two lines"
+        },
+        {
+          "string": "Cable Kickback",
+          "style": "left exercise label"
+        },
+        {
+          "string": "Glute Bridge",
+          "style": "right exercise label"
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "role": "product ending",
+      "text": [
+        {
+          "string": "Track Your Glute Day.",
+          "style": "headline line 1, heaviest Rubik, text_dark, left-aligned"
+        },
+        {
+          "string": "See If Your Legs Keep Up.",
+          "style": "headline line 2, heaviest Rubik, accent, left-aligned"
+        }
+      ],
+      "screen": "the same **real Harda Muscle balance screenshot** as on the approved LW-CAR-0009 slide 8 (radar with a Legs axis; there is no separate Glutes axis, so the text speaks about legs)",
+      "product_claims_checked_against_real_screen": [
+        "workouts are logged",
+        "Muscle balance radar axes: Chest, Back, Legs, Arms, Core, Shoulders"
+      ]
+    }
+  ],
+  "claims_to_verify": [
+    "Practical plan only, no numbers or citations beyond sets and reps.",
+    "Ending: Muscle balance has no Glutes axis; the ending speaks about legs only."
+  ]
+}
