@@ -1,0 +1,326 @@
+{
+  "carousel_id": "LW-CAR-0070",
+  "batch": "BATCH-I",
+  "content_version": "1.0",
+  "source_commit": "007b67fb50912f3fad71e4418f44c33449119b0a",
+  "status": "complete_pending_owner_review",
+  "carousel_complete": true,
+  "design_style": "S1",
+  "background": "GRID",
+  "brand": "Harda",
+  "generated_images": 8,
+  "next_slide_to_generate": null,
+  "agent_visual_review": "not_performed",
+  "user_review": "pending",
+  "remote_save": {
+    "remote": "origin",
+    "branch": "claude/charming-einstein-xgejky",
+    "status": "prepared_for_commit_and_push",
+    "commit_lookup": "git log -1 -- carousels/LW-CAR-0070/manifest.json"
+  },
+  "slides": [
+    {
+      "slide": 1,
+      "role": "hook",
+      "exact_text": [
+        "BEST EXERCISES",
+        "FOR EVERY",
+        "MUSCLE GROUP",
+        "(Pull Day Edition)"
+      ],
+      "prompt_file": "prompts/slide-01.txt",
+      "references": [
+        "carousels/LW-CAR-0005/outputs/slide-01.png"
+      ],
+      "file": "outputs/slide-01.png",
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-28T12:11:38.402840+00:00",
+          "prompt_file": "prompts/slide-01.txt",
+          "referenced_image_paths": [
+            "carousels/LW-CAR-0005/outputs/slide-01.png"
+          ],
+          "transparent_background": false,
+          "finished_at": "2026-10-28T12:13:08.905651+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-cb379b65-f367-4add-ab14-5068874b4b08.png",
+          "preserved_raw_file": "production-assets/slide-01-generated.png",
+          "result_file": "outputs/slide-01.png"
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_in_cloud_checkout",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 2,
+      "role": "muscle 1",
+      "exact_text": [
+        "#1",
+        "Lats",
+        "Lat Pulldown",
+        "OR",
+        "Pull-Ups"
+      ],
+      "prompt_file": "prompts/slide-02.txt",
+      "references": [
+        "carousels/LW-CAR-0005/outputs/slide-02.png"
+      ],
+      "file": "outputs/slide-02.png",
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-28T12:13:31.574818+00:00",
+          "prompt_file": "prompts/slide-02.txt",
+          "referenced_image_paths": [
+            "carousels/LW-CAR-0005/outputs/slide-02.png"
+          ],
+          "transparent_background": false,
+          "finished_at": "2026-10-28T12:14:34.022127+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-5523e96a-e76a-4f58-a2c0-44458c9286f3.png",
+          "preserved_raw_file": "production-assets/slide-02-generated.png",
+          "result_file": "outputs/slide-02.png"
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_in_cloud_checkout",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 3,
+      "role": "muscle 2",
+      "exact_text": [
+        "#2",
+        "Upper Back",
+        "Chest-Supported Row",
+        "OR",
+        "Wide-Grip Cable Row"
+      ],
+      "prompt_file": "prompts/slide-03.txt",
+      "references": [
+        "carousels/LW-CAR-0005/outputs/slide-02.png"
+      ],
+      "file": "outputs/slide-03.png",
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-28T12:14:34.274009+00:00",
+          "prompt_file": "prompts/slide-03.txt",
+          "referenced_image_paths": [
+            "carousels/LW-CAR-0005/outputs/slide-02.png"
+          ],
+          "transparent_background": false,
+          "finished_at": "2026-10-28T12:15:21.850993+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-49ac16fa-9fce-433b-b969-6a053454571d.png",
+          "preserved_raw_file": "production-assets/slide-03-generated.png",
+          "result_file": "outputs/slide-03.png"
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_in_cloud_checkout",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 4,
+      "role": "muscle 3",
+      "exact_text": [
+        "#3",
+        "Rear Deltoid",
+        "Reverse Pec Dec",
+        "OR",
+        "Face Pull"
+      ],
+      "prompt_file": "prompts/slide-04.txt",
+      "references": [
+        "carousels/LW-CAR-0005/outputs/slide-02.png"
+      ],
+      "file": "outputs/slide-04.png",
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-28T12:15:22.098401+00:00",
+          "prompt_file": "prompts/slide-04.txt",
+          "referenced_image_paths": [
+            "carousels/LW-CAR-0005/outputs/slide-02.png"
+          ],
+          "transparent_background": false,
+          "finished_at": "2026-10-28T12:15:56.713991+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-e7a77bef-d377-4378-8a64-622ad601930b.png",
+          "preserved_raw_file": "production-assets/slide-04-generated.png",
+          "result_file": "outputs/slide-04.png"
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_in_cloud_checkout",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 5,
+      "role": "muscle 4",
+      "exact_text": [
+        "#4",
+        "Traps",
+        "DB Shrug",
+        "OR",
+        "Cable Shrug"
+      ],
+      "prompt_file": "prompts/slide-05.txt",
+      "references": [
+        "carousels/LW-CAR-0005/outputs/slide-02.png"
+      ],
+      "file": "outputs/slide-05.png",
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-28T12:15:56.958302+00:00",
+          "prompt_file": "prompts/slide-05.txt",
+          "referenced_image_paths": [
+            "carousels/LW-CAR-0005/outputs/slide-02.png"
+          ],
+          "transparent_background": false,
+          "finished_at": "2026-10-28T12:16:38.549259+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-67f93f92-91d2-4f64-a3e3-bcf7c5eef25f.png",
+          "preserved_raw_file": "production-assets/slide-05-generated.png",
+          "result_file": "outputs/slide-05.png"
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_in_cloud_checkout",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 6,
+      "role": "muscle 5",
+      "exact_text": [
+        "#5",
+        "Biceps",
+        "EZ-Bar Curl",
+        "OR",
+        "Bayesian Cable Curl"
+      ],
+      "prompt_file": "prompts/slide-06.txt",
+      "references": [
+        "carousels/LW-CAR-0005/outputs/slide-02.png"
+      ],
+      "file": "outputs/slide-06.png",
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-28T12:16:38.806632+00:00",
+          "prompt_file": "prompts/slide-06.txt",
+          "referenced_image_paths": [
+            "carousels/LW-CAR-0005/outputs/slide-02.png"
+          ],
+          "transparent_background": false,
+          "finished_at": "2026-10-28T12:17:11.119649+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-463ac77c-fe1b-4296-9021-12d5efdbe4d6.png",
+          "preserved_raw_file": "production-assets/slide-06-generated.png",
+          "result_file": "outputs/slide-06.png"
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_in_cloud_checkout",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 7,
+      "role": "muscle 6",
+      "exact_text": [
+        "#6",
+        "Brachialis",
+        "Hammer Curl",
+        "OR",
+        "Reverse Curl"
+      ],
+      "prompt_file": "prompts/slide-07.txt",
+      "references": [
+        "carousels/LW-CAR-0005/outputs/slide-02.png"
+      ],
+      "file": "outputs/slide-07.png",
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-28T12:17:11.391783+00:00",
+          "prompt_file": "prompts/slide-07.txt",
+          "referenced_image_paths": [
+            "carousels/LW-CAR-0005/outputs/slide-02.png"
+          ],
+          "transparent_background": false,
+          "finished_at": "2026-10-28T12:18:27.978821+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-e1f370ef-7267-4046-92ca-091175fc83b8.png",
+          "preserved_raw_file": "production-assets/slide-07-generated.png",
+          "result_file": "outputs/slide-07.png"
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_in_cloud_checkout",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 8,
+      "role": "product ending",
+      "exact_text": [
+        "Is Your Back Getting Enough Work?",
+        "Log your workouts in Harda.",
+        "See how many sets your back and arms get compared to every other muscle."
+      ],
+      "prompt_file": "prompts/slide-08.txt",
+      "references": [
+        "carousels/LW-CAR-0031/outputs/slide-08.png"
+      ],
+      "file": "outputs/slide-08.png",
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-28T12:18:39.860817+00:00",
+          "prompt_file": "prompts/slide-08.txt",
+          "referenced_image_paths": [
+            "carousels/LW-CAR-0031/outputs/slide-08.png"
+          ],
+          "transparent_background": false,
+          "finished_at": "2026-10-28T12:19:19.552192+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-c4c919e0-751f-4315-9ea4-ba90876841bf.png",
+          "preserved_raw_file": "production-assets/slide-08-generated.png",
+          "result_file": "outputs/slide-08.png"
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_in_cloud_checkout",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending",
+      "phone_compositing": {
+        "source": "carousels/LW-CAR-0031/production-assets/approved-phone-hand-foreground.png",
+        "text_bottom": 691,
+        "phone_top": 741,
+        "gap_px": 50,
+        "scale": "1:1 original pixels",
+        "ui_generated": false
+      }
+    }
+  ],
+  "next_action": "Commit and push this carousel, then continue LW-CAR-0071 without review pause.",
+  "archive": "LW-CAR-0070-1080x1350.zip"
+}

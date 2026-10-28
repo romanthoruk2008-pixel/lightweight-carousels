@@ -1,0 +1,12 @@
+Create ONE complete 1080 x 1350 portrait Harda fitness carousel slide. The attached approved slide is a VISUAL template only, never the source of words. Exact text below comes only from frozen copy.json. Preserve every capital, hyphen, apostrophe and punctuation. Rubik type: heaviest cover, bold title, regular labels/body. Dark #2A2A2A, body #6B6B6B, accent #F26445. BACKGROUND: entire canvas solid opaque #F0F1EB, then thin #E1E2DA GRID lines 2px every 54px. Absolutely NO ARCH, rings, dots, gradient, progress bar, counter, transparency checkerboard, watermark or signature. Leave the top 110px empty except the grid: do NOT draw a logo, brand name or icon there. The ORIGINAL Harda PNG is composited later at x48,y19,218x71 using its own alpha. S1 FIGURES ONLY: bald faceless smooth plastic anatomy teaching mannequin with warm-sand #D9CBBE muscles, darker sand shading, ivory #F5F0E5 tendons, fine grey linework, smooth featureless pelvis covered by opaque plain sand short shorts on full-body figures. Never white S2 figures, green, sage, real human nudity, invented equipment or extra copy. Equipment black/grey. Every word fully visible inside slide edges, no overlap.
+
+A OR B template: top centered coral underlined #N and bold dark muscle title on SAME LINE, immediately below top clear area. Under title: upper anatomy close-up. Two thin curved coral arrows lead down to separate left/right exercise figures. Both exercise figures entirely sand/ivory with NO highlighted muscles. Coral circle badge with white OR between them. Exact left/right regular labels under figures, keep full labels visible. Same spacing and proportions as attached approved LW-CAR-0005/02, replace ALL words/figures.
+Traps. Upper anatomical close-up: upper back and neck from behind, only upper traps coral. Bottom left standing heavy dumbbells at sides, shoulders shrugged up, front view. Bottom right standing between two low cables, shrugging handles up, front view.
+
+EXACT TEXT AND STYLES, authoritative copy.json:
+{"string": "#4", "style": "number, bold, accent, underlined"}
+{"string": "Traps", "style": "title, bold, text_dark"}
+{"string": "DB Shrug", "style": "left exercise label"}
+{"string": "OR", "style": "white text in accent circle badge"}
+{"string": "Cable Shrug", "style": "right exercise label"}
+Return one opaque slide, never a contact sheet.
