@@ -1,0 +1,12 @@
+Create ONE complete 1080 x 1350 portrait Harda fitness carousel slide. The attached approved slide is a VISUAL template only, never the source of words. Exact text below comes only from frozen copy.json. Preserve every capital, hyphen, apostrophe and punctuation. Rubik type: heaviest cover, bold title, regular labels/body. Dark #2A2A2A, body #6B6B6B, accent #F26445. BACKGROUND: entire canvas solid opaque #F0F1EB, CLEAN plain background, nothing else. Absolutely NO ARCH, rings, grid, dots, gradient, progress bar, counter, transparency checkerboard, watermark or signature. Leave the top 110px empty except the background: do NOT draw a logo, brand name or icon there. The ORIGINAL Harda PNG is composited later at x48,y19,218x71 using its own alpha. S1 FIGURES ONLY: bald faceless smooth plastic anatomy teaching mannequin with warm-sand #D9CBBE muscles, darker sand shading, ivory #F5F0E5 tendons, fine grey linework, smooth featureless pelvis. Full-body exercise figures wear opaque plain sand short shorts; COVER and OVERVIEW only are unclothed smooth nonhuman teaching mannequins with no genital detail, as explicitly required by the task. Never white S2 figures, green, sage, real human nudity, invented equipment or extra copy. Equipment black/grey. Every word fully visible inside slide edges, no overlap.
+
+CHECKLIST twin of attached LW-CAR-0009/02: top-left exact two-line bold title, short coral underline, five left-aligned bulleted lines with 1x regular, muscle word bold, brackets regular. Bottom-right cropped at right and bottom, LOWER BODY waist to feet, three-quarter REAR VIEW, one leg slightly forward; glutes, glute medius and hamstrings coral. No shorts on this overview only, smooth featureless plastic nonhuman teaching mannequin, no genital detail. Keep all five lines fully visible.
+
+EXACT TEXT AND STYLES, authoritative copy.json:
+{"string": "Your Glute Day\nShould Include:", "style": "title, bold, text_dark, left-aligned, two lines"}
+{"string": "1x Glute Max (Hip Thrust)", "style": "bullet; '1x' regular, 'Glute Max' bold, bracket regular"}
+{"string": "1x Glutes (Lunge)", "style": "bullet; '1x' regular, 'Glutes' bold, bracket regular"}
+{"string": "1x Hamstrings (Hinge)", "style": "bullet; '1x' regular, 'Hamstrings' bold, bracket regular"}
+{"string": "1x Glute Medius (Abduction)", "style": "bullet; '1x' regular, 'Glute Medius' bold, bracket regular"}
+{"string": "1x Glutes (Finisher)", "style": "bullet; '1x' regular, 'Glutes' bold, bracket regular"}
+Return one opaque slide, never a contact sheet.

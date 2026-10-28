@@ -1,0 +1,330 @@
+{
+  "carousel_id": "LW-CAR-0073",
+  "batch": "BATCH-I",
+  "content_version": "1.0",
+  "source_commit": "e4369de0338f8cb6f4a02c6258d67aa77d812325",
+  "status": "complete_pending_owner_review",
+  "carousel_complete": true,
+  "design_style": "S1",
+  "background": "CLEAN",
+  "brand": "Harda",
+  "generated_images": 8,
+  "next_slide_to_generate": null,
+  "agent_visual_review": "not_performed",
+  "user_review": "pending",
+  "remote_save": {
+    "remote": "origin",
+    "branch": "claude/charming-einstein-xgejky",
+    "status": "prepared_for_commit_and_push",
+    "commit_lookup": "git log -1 -- carousels/LW-CAR-0073/manifest.json"
+  },
+  "slides": [
+    {
+      "slide": 1,
+      "role": "hook",
+      "exact_text": [
+        "STRUCTURE",
+        "THE PERFECT",
+        "GLUTE DAY"
+      ],
+      "prompt_file": "prompts/slide-01.txt",
+      "references": [
+        "carousels/LW-CAR-0009/outputs/slide-01.png"
+      ],
+      "file": "outputs/slide-01.png",
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-28T12:37:03.571869+00:00",
+          "prompt_file": "prompts/slide-01.txt",
+          "referenced_image_paths": [
+            "carousels/LW-CAR-0009/outputs/slide-01.png"
+          ],
+          "transparent_background": false,
+          "finished_at": "2026-10-28T12:38:07.789595+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-a7111d5e-f910-4a20-8c51-937236ae3564.png",
+          "preserved_raw_file": "production-assets/slide-01-generated.png",
+          "result_file": "outputs/slide-01.png"
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_in_cloud_checkout",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 2,
+      "role": "overview checklist",
+      "exact_text": [
+        "Your Glute Day\nShould Include:",
+        "1x Glute Max (Hip Thrust)",
+        "1x Glutes (Lunge)",
+        "1x Hamstrings (Hinge)",
+        "1x Glute Medius (Abduction)",
+        "1x Glutes (Finisher)"
+      ],
+      "prompt_file": "prompts/slide-02.txt",
+      "references": [
+        "carousels/LW-CAR-0009/outputs/slide-02.png"
+      ],
+      "file": "outputs/slide-02.png",
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-28T12:38:08.059480+00:00",
+          "prompt_file": "prompts/slide-02.txt",
+          "referenced_image_paths": [
+            "carousels/LW-CAR-0009/outputs/slide-02.png"
+          ],
+          "transparent_background": false,
+          "finished_at": "2026-10-28T12:39:27.489078+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-7754973f-c6b8-4305-8628-0138a07e8fee.png",
+          "preserved_raw_file": "production-assets/slide-02-generated.png",
+          "result_file": "outputs/slide-02.png"
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_in_cloud_checkout",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 3,
+      "role": "list item #1",
+      "exact_text": [
+        "#1",
+        "Glute Max",
+        "2-3 sets x 6-10 reps",
+        "Choose one of these exercises to build your glutes:",
+        "Barbell Hip Thrust",
+        "Hip Thrust Machine"
+      ],
+      "prompt_file": "prompts/slide-03.txt",
+      "references": [
+        "carousels/LW-CAR-0009/outputs/slide-03.png"
+      ],
+      "file": "outputs/slide-03.png",
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-28T12:39:27.755086+00:00",
+          "prompt_file": "prompts/slide-03.txt",
+          "referenced_image_paths": [
+            "carousels/LW-CAR-0009/outputs/slide-03.png"
+          ],
+          "transparent_background": false,
+          "finished_at": "2026-10-28T12:40:33.283148+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-3995fe1d-347d-4536-866b-359bf4cab7cc.png",
+          "preserved_raw_file": "production-assets/slide-03-generated.png",
+          "result_file": "outputs/slide-03.png"
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_in_cloud_checkout",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 4,
+      "role": "list item #2",
+      "exact_text": [
+        "#2",
+        "Glutes",
+        "2-3 sets x 8-12 reps",
+        "Choose one of these exercises to train your glutes in a deep stretch:",
+        "Bulgarian Split Squat",
+        "Walking Lunges"
+      ],
+      "prompt_file": "prompts/slide-04.txt",
+      "references": [
+        "carousels/LW-CAR-0009/outputs/slide-03.png"
+      ],
+      "file": "outputs/slide-04.png",
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-28T12:40:33.545367+00:00",
+          "prompt_file": "prompts/slide-04.txt",
+          "referenced_image_paths": [
+            "carousels/LW-CAR-0009/outputs/slide-03.png"
+          ],
+          "transparent_background": false,
+          "finished_at": "2026-10-28T12:41:28.938853+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-00227411-5681-4a66-84de-5d1ff411a8cb.png",
+          "preserved_raw_file": "production-assets/slide-04-generated.png",
+          "result_file": "outputs/slide-04.png"
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_in_cloud_checkout",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 5,
+      "role": "list item #3",
+      "exact_text": [
+        "#3",
+        "Hamstrings",
+        "2-3 sets x 8-12 reps",
+        "Choose one of these exercises to hinge with your hips:",
+        "Romanian Deadlift",
+        "45° Back Extension"
+      ],
+      "prompt_file": "prompts/slide-05.txt",
+      "references": [
+        "carousels/LW-CAR-0009/outputs/slide-03.png"
+      ],
+      "file": "outputs/slide-05.png",
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-28T12:41:29.230392+00:00",
+          "prompt_file": "prompts/slide-05.txt",
+          "referenced_image_paths": [
+            "carousels/LW-CAR-0009/outputs/slide-03.png"
+          ],
+          "transparent_background": false,
+          "finished_at": "2026-10-28T12:42:16.433609+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-fd3984c0-c582-4f18-aa4c-0968766d34ce.png",
+          "preserved_raw_file": "production-assets/slide-05-generated.png",
+          "result_file": "outputs/slide-05.png"
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_in_cloud_checkout",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 6,
+      "role": "list item #4",
+      "exact_text": [
+        "#4",
+        "Glute Medius",
+        "2-3 sets x 12-20 reps",
+        "Choose one of these exercises to train the side of your hips:",
+        "Abductor Machine",
+        "Cable Hip Abduction"
+      ],
+      "prompt_file": "prompts/slide-06.txt",
+      "references": [
+        "carousels/LW-CAR-0009/outputs/slide-03.png"
+      ],
+      "file": "outputs/slide-06.png",
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-28T12:42:16.716067+00:00",
+          "prompt_file": "prompts/slide-06.txt",
+          "referenced_image_paths": [
+            "carousels/LW-CAR-0009/outputs/slide-03.png"
+          ],
+          "transparent_background": false,
+          "finished_at": "2026-10-28T12:43:03.806330+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-87c8b7d4-5468-48f5-b056-36b708ab8ba1.png",
+          "preserved_raw_file": "production-assets/slide-06-generated.png",
+          "result_file": "outputs/slide-06.png"
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_in_cloud_checkout",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 7,
+      "role": "list item #5",
+      "exact_text": [
+        "#5",
+        "Glutes",
+        "2-3 sets x 15-20 reps",
+        "Finish with one of these for a burn:",
+        "Cable Kickback",
+        "Glute Bridge"
+      ],
+      "prompt_file": "prompts/slide-07.txt",
+      "references": [
+        "carousels/LW-CAR-0009/outputs/slide-03.png"
+      ],
+      "file": "outputs/slide-07.png",
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-28T12:43:04.069748+00:00",
+          "prompt_file": "prompts/slide-07.txt",
+          "referenced_image_paths": [
+            "carousels/LW-CAR-0009/outputs/slide-03.png"
+          ],
+          "transparent_background": false,
+          "finished_at": "2026-10-28T12:44:20.595484+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-1a538f69-eca3-49e7-8477-7cebaffade29.png",
+          "preserved_raw_file": "production-assets/slide-07-generated.png",
+          "result_file": "outputs/slide-07.png"
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_in_cloud_checkout",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 8,
+      "role": "product ending",
+      "exact_text": [
+        "Track Your Glute Day.",
+        "See If Your Legs Keep Up."
+      ],
+      "prompt_file": "prompts/slide-08.txt",
+      "references": [
+        "carousels/LW-CAR-0009/outputs/slide-08.png"
+      ],
+      "file": "outputs/slide-08.png",
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-28T12:44:20.855703+00:00",
+          "prompt_file": "prompts/slide-08.txt",
+          "referenced_image_paths": [
+            "carousels/LW-CAR-0009/outputs/slide-08.png"
+          ],
+          "transparent_background": false,
+          "finished_at": "2026-10-28T12:44:53.768056+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-729f8586-dc27-4bd0-a28f-e195315372f8.png",
+          "preserved_raw_file": "production-assets/slide-08-generated.png",
+          "result_file": "outputs/slide-08.png"
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_in_cloud_checkout",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending",
+      "phone_compositing": {
+        "source": "carousels/LW-CAR-0073/production-assets/approved-phone-hand.png",
+        "text_bottom": 421,
+        "phone_top": 471,
+        "gap_px": 50,
+        "scale": "1:1 original pixels",
+        "ui_generated": false
+      }
+    }
+  ],
+  "next_action": "Commit and push this carousel, then continue LW-CAR-0074 without review pause.",
+  "archive": "LW-CAR-0073-1080x1350.zip"
+}
