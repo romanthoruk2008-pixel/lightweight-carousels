@@ -1,0 +1,9 @@
+Create ONE complete 1080 x 1350 portrait Harda S2 fitness-humour carousel slide. Use the attached approved reference ONLY for layout, typography, spacing and colours, never its words or outfit. Heavy tight lowercase black #2A2A2A headlines with solid coral #F26445 marker bars behind the LOWER part of headline words only. Clean regular dark body, grey #6B6B6B italic subtitle. Solid opaque CLEAN #F0F1EB background, no texture, arch, rings, dots, grid, panel, slide counter, border, watermark or signature. Top 110px entirely empty for the ORIGINAL Harda PNG to be composited later at x48,y19,218x71; do not generate a logo. FIGURES: adult white/light-grey faceless sports display mannequins in OPAQUE WHITE CREW-NECK SPORTS T-SHIRTS with sleeves and loose CHARCOAL #2A2A2A athletic shorts. Shirts fully cover torsos. Neutral friendly sports-catalogue illustration, fine grey shading. Keep all clothing opaque and covering the body. No coloured muscles. Equipment black/grey and unbranded, no extra readable labels. Friendly harmless gym humour: nobody hurt, no injuries. Coral effect marks only when this slide explicitly specifies them. Preserve exact copy, all lowercase, curly apostrophes and punctuation. All words fully visible and separate from figures.
+
+TIER DIVIDER twin of LW-CAR-0022/02: centered rounded-square tile #FFD95A, huge white bold letter B with soft shadow, huge black lowercase tier to its right. Center exact italic grey subtitle below. No figures, equipment, stars, marker bars, number or other text.
+
+EXACT TEXT AND STYLES, authoritative copy.json:
+{"string": "B", "style": "white bold letter on a rounded colour tile"}
+{"string": "tier", "style": "lowercase, heaviest weight, text_dark"}
+{"string": "people noticed", "style": "italic, regular, text_body_grey"}
+Return one opaque slide, never a contact sheet.

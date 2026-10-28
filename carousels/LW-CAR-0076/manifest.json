@@ -1,0 +1,649 @@
+{
+  "carousel_id": "LW-CAR-0076",
+  "batch": "BATCH-I",
+  "content_version": "1.0",
+  "source_commit": "6b7dbf7f68b4b814a40f3f89bf4f705ab61195fa",
+  "status": "complete_pending_owner_review",
+  "carousel_complete": true,
+  "design_style": "S2",
+  "background": "CLEAN",
+  "brand": "Harda",
+  "generated_images": 17,
+  "next_slide_to_generate": null,
+  "agent_visual_review": "not_performed",
+  "user_review": "pending",
+  "remote_save": {
+    "remote": "origin",
+    "branch": "claude/charming-einstein-xgejky",
+    "status": "prepared_for_commit_and_push",
+    "commit_lookup": "git log -1 -- carousels/LW-CAR-0076/manifest.json"
+  },
+  "slides": [
+    {
+      "slide": 1,
+      "role": "hook",
+      "rating_stars": null,
+      "exact_text": [
+        "gym fails",
+        "tier list",
+        "(least to most embarrassing)"
+      ],
+      "prompt_file": "prompts/slide-01.txt",
+      "references": [
+        "carousels/LW-CAR-0022/outputs/slide-01.png"
+      ],
+      "file": "outputs/slide-01.png",
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-28T14:56:20.727775+00:00",
+          "prompt_file": "prompts/slide-01.txt",
+          "referenced_image_paths": [
+            "carousels/LW-CAR-0022/outputs/slide-01.png"
+          ],
+          "transparent_background": false,
+          "finished_at": "2026-10-28T14:56:54.333190+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-7013b5fe-962e-4711-b844-afb0d329dd83.png",
+          "preserved_raw_file": "production-assets/slide-01-generated.png",
+          "result_file": "outputs/slide-01.png"
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_in_cloud_checkout",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 2,
+      "role": "tier divider F",
+      "rating_stars": null,
+      "exact_text": [
+        "F",
+        "tier",
+        "happens to everyone"
+      ],
+      "prompt_file": "prompts/slide-02.txt",
+      "references": [
+        "carousels/LW-CAR-0022/outputs/slide-02.png"
+      ],
+      "file": "outputs/slide-02.png",
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-28T14:56:54.593943+00:00",
+          "prompt_file": "prompts/slide-02.txt",
+          "referenced_image_paths": [
+            "carousels/LW-CAR-0022/outputs/slide-02.png"
+          ],
+          "transparent_background": false,
+          "finished_at": "2026-10-28T14:57:24.550171+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-3c69d585-8923-49ca-b70e-9f8606d5c331.png",
+          "preserved_raw_file": "production-assets/slide-02-generated.png",
+          "result_file": "outputs/slide-02.png"
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_in_cloud_checkout",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 3,
+      "role": "item #10",
+      "rating_stars": 1,
+      "exact_text": [
+        "#10",
+        "forgetting your headphones",
+        "the longest workout of your life."
+      ],
+      "prompt_file": "prompts/slide-03.txt",
+      "references": [
+        "carousels/LW-CAR-0022/outputs/slide-03.png"
+      ],
+      "file": "outputs/slide-03.png",
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-28T14:57:24.926314+00:00",
+          "prompt_file": "prompts/slide-03.txt",
+          "referenced_image_paths": [
+            "carousels/LW-CAR-0022/outputs/slide-03.png"
+          ],
+          "transparent_background": false,
+          "finished_at": "2026-10-28T14:57:51.416431+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-b06ea1ef-47b1-4523-9c30-3915bacb6ced.png",
+          "preserved_raw_file": "production-assets/slide-03-generated.png",
+          "result_file": "outputs/slide-03.png"
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_in_cloud_checkout",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 4,
+      "role": "item #9",
+      "rating_stars": 1.5,
+      "exact_text": [
+        "#9",
+        "waving back at someone",
+        "they were waving at the person behind you."
+      ],
+      "prompt_file": "prompts/slide-04.txt",
+      "references": [
+        "carousels/LW-CAR-0022/outputs/slide-03.png"
+      ],
+      "file": "outputs/slide-04.png",
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-28T14:57:51.680626+00:00",
+          "prompt_file": "prompts/slide-04.txt",
+          "referenced_image_paths": [
+            "carousels/LW-CAR-0022/outputs/slide-03.png"
+          ],
+          "transparent_background": false,
+          "finished_at": "2026-10-28T14:58:20.214005+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-990b1d3e-526f-4ad2-be66-081b316f762e.png",
+          "preserved_raw_file": "production-assets/slide-04-generated.png",
+          "result_file": "outputs/slide-04.png"
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_in_cloud_checkout",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 5,
+      "role": "tier divider C",
+      "rating_stars": null,
+      "exact_text": [
+        "C",
+        "tier",
+        "a little awkward"
+      ],
+      "prompt_file": "prompts/slide-05.txt",
+      "references": [
+        "carousels/LW-CAR-0022/outputs/slide-02.png"
+      ],
+      "file": "outputs/slide-05.png",
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-28T14:58:20.479508+00:00",
+          "prompt_file": "prompts/slide-05.txt",
+          "referenced_image_paths": [
+            "carousels/LW-CAR-0022/outputs/slide-02.png"
+          ],
+          "transparent_background": false,
+          "finished_at": "2026-10-28T14:58:42.332725+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-b75f4c5f-fc33-428f-8b3a-5ceb4f6c227a.png",
+          "preserved_raw_file": "production-assets/slide-05-generated.png",
+          "result_file": "outputs/slide-05.png"
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_in_cloud_checkout",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 6,
+      "role": "item #8",
+      "rating_stars": 2,
+      "exact_text": [
+        "#8",
+        "taking someone’s machine",
+        "they were just drinking water. you didn’t know."
+      ],
+      "prompt_file": "prompts/slide-06.txt",
+      "references": [
+        "carousels/LW-CAR-0022/outputs/slide-03.png"
+      ],
+      "file": "outputs/slide-06.png",
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-28T14:58:42.617476+00:00",
+          "prompt_file": "prompts/slide-06.txt",
+          "referenced_image_paths": [
+            "carousels/LW-CAR-0022/outputs/slide-03.png"
+          ],
+          "transparent_background": false,
+          "finished_at": "2026-10-28T14:59:21.084302+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-f7baa06e-f077-4ebb-9189-fe4ac9e56a88.png",
+          "preserved_raw_file": "production-assets/slide-06-generated.png",
+          "result_file": "outputs/slide-06.png"
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_in_cloud_checkout",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 7,
+      "role": "item #7",
+      "rating_stars": 2.5,
+      "exact_text": [
+        "#7",
+        "pushing a pull door",
+        "in front of the whole gym, through the glass."
+      ],
+      "prompt_file": "prompts/slide-07.txt",
+      "references": [
+        "carousels/LW-CAR-0022/outputs/slide-03.png"
+      ],
+      "file": "outputs/slide-07.png",
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-28T14:59:21.375282+00:00",
+          "prompt_file": "prompts/slide-07.txt",
+          "referenced_image_paths": [
+            "carousels/LW-CAR-0022/outputs/slide-03.png"
+          ],
+          "transparent_background": false,
+          "finished_at": "2026-10-28T15:00:08.516420+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-8f4f4742-f916-4304-84b3-be96f591920c.png",
+          "preserved_raw_file": "production-assets/slide-07-generated.png",
+          "result_file": "outputs/slide-07.png"
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_in_cloud_checkout",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 8,
+      "role": "tier divider B",
+      "rating_stars": null,
+      "exact_text": [
+        "B",
+        "tier",
+        "people noticed"
+      ],
+      "prompt_file": "prompts/slide-08.txt",
+      "references": [
+        "carousels/LW-CAR-0022/outputs/slide-02.png"
+      ],
+      "file": "outputs/slide-08.png",
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-28T15:00:08.795953+00:00",
+          "prompt_file": "prompts/slide-08.txt",
+          "referenced_image_paths": [
+            "carousels/LW-CAR-0022/outputs/slide-02.png"
+          ],
+          "transparent_background": false,
+          "finished_at": "2026-10-28T15:00:33.388513+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-1b6cf1c8-7b04-40c5-b272-707a35964809.png",
+          "preserved_raw_file": "production-assets/slide-08-generated.png",
+          "result_file": "outputs/slide-08.png"
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_in_cloud_checkout",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 9,
+      "role": "item #6",
+      "rating_stars": 3,
+      "exact_text": [
+        "#6",
+        "forgetting the clips",
+        "one side slides off. everyone hears it."
+      ],
+      "prompt_file": "prompts/slide-09.txt",
+      "references": [
+        "carousels/LW-CAR-0022/outputs/slide-03.png"
+      ],
+      "file": "outputs/slide-09.png",
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-28T15:00:33.663846+00:00",
+          "prompt_file": "prompts/slide-09.txt",
+          "referenced_image_paths": [
+            "carousels/LW-CAR-0022/outputs/slide-03.png"
+          ],
+          "transparent_background": false,
+          "finished_at": "2026-10-28T15:01:11.845254+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-55a028bf-4fea-46b0-9801-387b24f2e32e.png",
+          "preserved_raw_file": "production-assets/slide-09-generated.png",
+          "result_file": "outputs/slide-09.png"
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_in_cloud_checkout",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 10,
+      "role": "item #5",
+      "rating_stars": 3.5,
+      "exact_text": [
+        "#5",
+        "loading the bar unevenly",
+        "one side heavier. the bar tells everyone."
+      ],
+      "prompt_file": "prompts/slide-10.txt",
+      "references": [
+        "carousels/LW-CAR-0022/outputs/slide-03.png"
+      ],
+      "file": "outputs/slide-10.png",
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-28T15:01:12.133664+00:00",
+          "prompt_file": "prompts/slide-10.txt",
+          "referenced_image_paths": [
+            "carousels/LW-CAR-0022/outputs/slide-03.png"
+          ],
+          "transparent_background": false,
+          "finished_at": "2026-10-28T15:01:42.879803+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-ed8cacd6-0657-4a05-97f5-d9b20091a830.png",
+          "preserved_raw_file": "production-assets/slide-10-generated.png",
+          "result_file": "outputs/slide-10.png"
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_in_cloud_checkout",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 11,
+      "role": "tier divider A",
+      "rating_stars": null,
+      "exact_text": [
+        "A",
+        "tier",
+        "everyone saw it"
+      ],
+      "prompt_file": "prompts/slide-11.txt",
+      "references": [
+        "carousels/LW-CAR-0022/outputs/slide-02.png"
+      ],
+      "file": "outputs/slide-11.png",
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-28T15:01:43.153035+00:00",
+          "prompt_file": "prompts/slide-11.txt",
+          "referenced_image_paths": [
+            "carousels/LW-CAR-0022/outputs/slide-02.png"
+          ],
+          "transparent_background": false,
+          "finished_at": "2026-10-28T15:02:03.786011+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-42d32082-03f6-453b-a0c5-769a505ebe3d.png",
+          "preserved_raw_file": "production-assets/slide-11-generated.png",
+          "result_file": "outputs/slide-11.png"
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_in_cloud_checkout",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 12,
+      "role": "item #4",
+      "rating_stars": 4,
+      "exact_text": [
+        "#4",
+        "dropping a dumbbell",
+        "the whole gym turns around."
+      ],
+      "prompt_file": "prompts/slide-12.txt",
+      "references": [
+        "carousels/LW-CAR-0022/outputs/slide-03.png"
+      ],
+      "file": "outputs/slide-12.png",
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-28T15:02:04.074883+00:00",
+          "prompt_file": "prompts/slide-12.txt",
+          "referenced_image_paths": [
+            "carousels/LW-CAR-0022/outputs/slide-03.png"
+          ],
+          "transparent_background": false,
+          "finished_at": "2026-10-28T15:02:34.429818+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-6fcf942c-936b-43e1-bc03-4b8c4d21fa35.png",
+          "preserved_raw_file": "production-assets/slide-12-generated.png",
+          "result_file": "outputs/slide-12.png"
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_in_cloud_checkout",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 13,
+      "role": "item #3",
+      "rating_stars": 4.5,
+      "exact_text": [
+        "#3",
+        "failing a rep with no spotter",
+        "just you, the bar and a long slow roll."
+      ],
+      "prompt_file": "prompts/slide-13.txt",
+      "references": [
+        "carousels/LW-CAR-0022/outputs/slide-03.png"
+      ],
+      "file": "outputs/slide-13.png",
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-28T15:02:34.700548+00:00",
+          "prompt_file": "prompts/slide-13.txt",
+          "referenced_image_paths": [
+            "carousels/LW-CAR-0022/outputs/slide-03.png"
+          ],
+          "transparent_background": false,
+          "finished_at": "2026-10-28T15:03:21.907349+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-a6a753ee-ee37-449d-b8d5-86f3bd439ea3.png",
+          "preserved_raw_file": "production-assets/slide-13-generated.png",
+          "result_file": "outputs/slide-13.png"
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_in_cloud_checkout",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 14,
+      "role": "tier divider S",
+      "rating_stars": null,
+      "exact_text": [
+        "S",
+        "tier",
+        "legendary"
+      ],
+      "prompt_file": "prompts/slide-14.txt",
+      "references": [
+        "carousels/LW-CAR-0022/outputs/slide-02.png"
+      ],
+      "file": "outputs/slide-14.png",
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-28T15:03:22.170629+00:00",
+          "prompt_file": "prompts/slide-14.txt",
+          "referenced_image_paths": [
+            "carousels/LW-CAR-0022/outputs/slide-02.png"
+          ],
+          "transparent_background": false,
+          "finished_at": "2026-10-28T15:03:56.165033+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-20d7fd63-6946-42e9-a7f3-ca9c2f2501a5.png",
+          "preserved_raw_file": "production-assets/slide-14-generated.png",
+          "result_file": "outputs/slide-14.png"
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_in_cloud_checkout",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 15,
+      "role": "item #2",
+      "rating_stars": 5,
+      "exact_text": [
+        "#2",
+        "ripping your shorts on a squat",
+        "loud, sudden and unforgettable."
+      ],
+      "prompt_file": "prompts/slide-15.txt",
+      "references": [
+        "carousels/LW-CAR-0022/outputs/slide-03.png"
+      ],
+      "file": "outputs/slide-15.png",
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-28T15:03:56.427361+00:00",
+          "prompt_file": "prompts/slide-15.txt",
+          "referenced_image_paths": [
+            "carousels/LW-CAR-0022/outputs/slide-03.png"
+          ],
+          "transparent_background": false,
+          "finished_at": "2026-10-28T15:04:28.073479+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-b2d50db3-272a-438e-b33f-57f20f62df21.png",
+          "preserved_raw_file": "production-assets/slide-15-generated.png",
+          "result_file": "outputs/slide-15.png"
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_in_cloud_checkout",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 16,
+      "role": "item #1",
+      "rating_stars": 5,
+      "exact_text": [
+        "#1",
+        "falling off the treadmill",
+        "you will never forget it. neither will they."
+      ],
+      "prompt_file": "prompts/slide-16.txt",
+      "references": [
+        "carousels/LW-CAR-0022/outputs/slide-03.png"
+      ],
+      "file": "outputs/slide-16.png",
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-28T15:04:28.325961+00:00",
+          "prompt_file": "prompts/slide-16.txt",
+          "referenced_image_paths": [
+            "carousels/LW-CAR-0022/outputs/slide-03.png"
+          ],
+          "transparent_background": false,
+          "finished_at": "2026-10-28T15:05:07.236413+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-d4f88928-7b8e-4eae-9b75-cd4f68d56529.png",
+          "preserved_raw_file": "production-assets/slide-16-generated.png",
+          "result_file": "outputs/slide-16.png"
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_in_cloud_checkout",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 17,
+      "role": "product ending",
+      "rating_stars": null,
+      "exact_text": [
+        "harda tracks every set you lift. the fails stay between us.",
+        "log your workouts and keep coming back."
+      ],
+      "prompt_file": "prompts/slide-17.txt",
+      "references": [
+        "carousels/LW-CAR-0022/outputs/slide-19.png"
+      ],
+      "file": "outputs/slide-17.png",
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-28T15:05:07.540481+00:00",
+          "prompt_file": "prompts/slide-17.txt",
+          "referenced_image_paths": [
+            "carousels/LW-CAR-0022/outputs/slide-19.png"
+          ],
+          "transparent_background": false,
+          "finished_at": "2026-10-28T15:06:02.223090+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-46003a9e-3ac3-4615-900d-e3ef3144bf34.png",
+          "preserved_raw_file": "production-assets/slide-17-generated.png",
+          "result_file": "outputs/slide-17.png"
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_in_cloud_checkout",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending",
+      "phone_compositing": {
+        "source": "carousels/LW-CAR-0076/production-assets/approved-phone-hand.png",
+        "text_bottom": 853,
+        "phone_top": 903,
+        "gap_px": 50,
+        "scale": "1:1 original pixels",
+        "ui_generated": false
+      }
+    }
+  ],
+  "owner_authorized_resume": {
+    "date": "2026-10-28",
+    "scope": "Continue remaining Batch I carousels; owner allows prompt changes."
+  },
+  "visual_adaptation": "White/light-grey sports mannequins in opaque white sports T-shirts and charcoal shorts. No coloured muscles. Shorts-tear joke uses drawn effect marks with clothing remaining opaque.",
+  "next_action": "Commit and push this carousel. Batch I generation is complete; owner review remains pending.",
+  "archive": "LW-CAR-0076-1080x1350.zip"
+}
