@@ -1,0 +1,13 @@
+Create ONE complete 1080 x 1350 portrait Harda fitness carousel slide. The attached approved slide is a VISUAL template only, never the source of words. Exact text below comes only from frozen copy.json. Preserve every capital, hyphen, apostrophe and punctuation. Rubik type: heaviest cover, bold title, regular labels/body. Dark #2A2A2A, body #6B6B6B, accent #F26445. BACKGROUND: entire canvas solid opaque #F0F1EB, then three concentric #EAE0D6 rings of stroke 26/22/18px and radius 520/400/280px centered at x1010,y1290, mostly off-canvas like weight plates. Absolutely NO ARCH, grid, dots, gradient, progress bar, counter, transparency checkerboard, watermark or signature. Leave the top 110px empty except the background: do NOT draw a logo, brand name or icon there. The ORIGINAL Harda PNG is composited later at x48,y19,218x71 using its own alpha. S1 FIGURES ONLY: bald faceless smooth plastic anatomy teaching mannequin with warm-sand #D9CBBE muscles, darker sand shading, ivory #F5F0E5 tendons, fine grey linework, smooth featureless pelvis covered by opaque plain sand short shorts on full-body figures. Never white S2 figures, green, sage, real human nudity, invented equipment or extra copy. Equipment black/grey. Every word fully visible inside slide edges, no overlap.
+
+CHECKLIST twin of attached LW-CAR-0009/02: top-left two-line bold exact title, short coral underline; six left-aligned bulleted lines with 1x regular, muscle name bold, brackets regular. At bottom-right cropped at right and bottom, UPPER BODY head to waist REAR VIEW, one arm flexed in double-biceps-style pose; lats, traps, rear delts and biceps coral. Replace reference legs with this upper body. Keep full text visible.
+
+EXACT TEXT AND STYLES, authoritative copy.json:
+{"string": "Your Pull Day\nShould Include:", "style": "title, bold, text_dark, left-aligned, two lines"}
+{"string": "1x Lats (Vertical Pull)", "style": "bullet; '1x' regular, 'Lats' bold, bracket regular"}
+{"string": "1x Upper Back (Row)", "style": "bullet; '1x' regular, 'Upper Back' bold, bracket regular"}
+{"string": "1x Lats (Arm Path Back)", "style": "bullet; '1x' regular, 'Lats' bold, bracket regular"}
+{"string": "1x Rear Delts", "style": "bullet; '1x' regular, 'Rear Delts' bold, bracket regular"}
+{"string": "1x Biceps", "style": "bullet; '1x' regular, 'Biceps' bold, bracket regular"}
+{"string": "1x Forearms (Hammer)", "style": "bullet; '1x' regular, 'Forearms' bold, bracket regular"}
+Return one opaque slide, never a contact sheet.

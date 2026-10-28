@@ -1,0 +1,369 @@
+{
+  "carousel_id": "LW-CAR-0072",
+  "batch": "BATCH-I",
+  "content_version": "1.0",
+  "source_commit": "f37d60977f56a31f4ae1cf58bfb896fd39eb3c51",
+  "status": "complete_pending_owner_review",
+  "carousel_complete": true,
+  "design_style": "S1",
+  "background": "PLATES",
+  "brand": "Harda",
+  "generated_images": 9,
+  "next_slide_to_generate": null,
+  "agent_visual_review": "not_performed",
+  "user_review": "pending",
+  "remote_save": {
+    "remote": "origin",
+    "branch": "claude/charming-einstein-xgejky",
+    "status": "prepared_for_commit_and_push",
+    "commit_lookup": "git log -1 -- carousels/LW-CAR-0072/manifest.json"
+  },
+  "slides": [
+    {
+      "slide": 1,
+      "role": "hook",
+      "exact_text": [
+        "STRUCTURE",
+        "THE PERFECT",
+        "PULL DAY"
+      ],
+      "prompt_file": "prompts/slide-01.txt",
+      "references": [
+        "carousels/LW-CAR-0009/outputs/slide-01.png"
+      ],
+      "file": "outputs/slide-01.png",
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-28T12:29:12.958929+00:00",
+          "prompt_file": "prompts/slide-01.txt",
+          "referenced_image_paths": [
+            "carousels/LW-CAR-0009/outputs/slide-01.png"
+          ],
+          "transparent_background": false,
+          "finished_at": "2026-10-28T12:29:43.955697+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-cd10a8c0-66c0-4ee1-bf64-5c272a0e5a21.png",
+          "preserved_raw_file": "production-assets/slide-01-generated.png",
+          "result_file": "outputs/slide-01.png"
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_in_cloud_checkout",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 2,
+      "role": "overview checklist",
+      "exact_text": [
+        "Your Pull Day\nShould Include:",
+        "1x Lats (Vertical Pull)",
+        "1x Upper Back (Row)",
+        "1x Lats (Arm Path Back)",
+        "1x Rear Delts",
+        "1x Biceps",
+        "1x Forearms (Hammer)"
+      ],
+      "prompt_file": "prompts/slide-02.txt",
+      "references": [
+        "carousels/LW-CAR-0009/outputs/slide-02.png"
+      ],
+      "file": "outputs/slide-02.png",
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-28T12:29:44.196963+00:00",
+          "prompt_file": "prompts/slide-02.txt",
+          "referenced_image_paths": [
+            "carousels/LW-CAR-0009/outputs/slide-02.png"
+          ],
+          "transparent_background": false,
+          "finished_at": "2026-10-28T12:30:12.708433+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-3bde8357-8449-42ff-a129-165aec9cf294.png",
+          "preserved_raw_file": "production-assets/slide-02-generated.png",
+          "result_file": "outputs/slide-02.png"
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_in_cloud_checkout",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 3,
+      "role": "list item #1",
+      "exact_text": [
+        "#1",
+        "Lats",
+        "2-3 sets x 6-10 reps",
+        "Choose one of these exercises to widen your back:",
+        "Lat Pulldown",
+        "Pull-Ups"
+      ],
+      "prompt_file": "prompts/slide-03.txt",
+      "references": [
+        "carousels/LW-CAR-0009/outputs/slide-03.png"
+      ],
+      "file": "outputs/slide-03.png",
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-28T12:30:12.951364+00:00",
+          "prompt_file": "prompts/slide-03.txt",
+          "referenced_image_paths": [
+            "carousels/LW-CAR-0009/outputs/slide-03.png"
+          ],
+          "transparent_background": false,
+          "finished_at": "2026-10-28T12:30:59.889415+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-43af5ff9-28d5-469d-9660-f43ddb768a7d.png",
+          "preserved_raw_file": "production-assets/slide-03-generated.png",
+          "result_file": "outputs/slide-03.png"
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_in_cloud_checkout",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 4,
+      "role": "list item #2",
+      "exact_text": [
+        "#2",
+        "Upper Back",
+        "2-3 sets x 6-10 reps",
+        "Choose one of these exercises to thicken your upper back:",
+        "T-Bar Row",
+        "Wide-Grip Machine Row"
+      ],
+      "prompt_file": "prompts/slide-04.txt",
+      "references": [
+        "carousels/LW-CAR-0009/outputs/slide-03.png"
+      ],
+      "file": "outputs/slide-04.png",
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-28T12:31:00.148632+00:00",
+          "prompt_file": "prompts/slide-04.txt",
+          "referenced_image_paths": [
+            "carousels/LW-CAR-0009/outputs/slide-03.png"
+          ],
+          "transparent_background": false,
+          "finished_at": "2026-10-28T12:31:47.244747+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-0a998106-a39c-4b3f-978a-ae95d502499e.png",
+          "preserved_raw_file": "production-assets/slide-04-generated.png",
+          "result_file": "outputs/slide-04.png"
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_in_cloud_checkout",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 5,
+      "role": "list item #3",
+      "exact_text": [
+        "#3",
+        "Lats",
+        "2-3 sets x 8-12 reps",
+        "Choose one of these exercises to pull your elbows back to your hips:",
+        "Close-Grip Seated Row",
+        "Lat Pullover"
+      ],
+      "prompt_file": "prompts/slide-05.txt",
+      "references": [
+        "carousels/LW-CAR-0009/outputs/slide-03.png"
+      ],
+      "file": "outputs/slide-05.png",
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-28T12:31:47.484348+00:00",
+          "prompt_file": "prompts/slide-05.txt",
+          "referenced_image_paths": [
+            "carousels/LW-CAR-0009/outputs/slide-03.png"
+          ],
+          "transparent_background": false,
+          "finished_at": "2026-10-28T12:32:20.675956+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-896f4750-a596-4481-8726-4c95feb4dba1.png",
+          "preserved_raw_file": "production-assets/slide-05-generated.png",
+          "result_file": "outputs/slide-05.png"
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_in_cloud_checkout",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 6,
+      "role": "list item #4",
+      "exact_text": [
+        "#4",
+        "Rear Delts",
+        "2-3 sets x 12-20 reps",
+        "Choose one of these exercises to isolate your rear delts:",
+        "Reverse Pec Dec",
+        "Cable Reverse Fly"
+      ],
+      "prompt_file": "prompts/slide-06.txt",
+      "references": [
+        "carousels/LW-CAR-0009/outputs/slide-03.png"
+      ],
+      "file": "outputs/slide-06.png",
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-28T12:32:20.926474+00:00",
+          "prompt_file": "prompts/slide-06.txt",
+          "referenced_image_paths": [
+            "carousels/LW-CAR-0009/outputs/slide-03.png"
+          ],
+          "transparent_background": false,
+          "finished_at": "2026-10-28T12:33:39.257582+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-0058a7a7-0795-492b-ba45-a3e69ae068a8.png",
+          "preserved_raw_file": "production-assets/slide-06-generated.png",
+          "result_file": "outputs/slide-06.png"
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_in_cloud_checkout",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 7,
+      "role": "list item #5",
+      "exact_text": [
+        "#5",
+        "Biceps",
+        "2-3 sets x 8-12 reps",
+        "Choose one of these exercises to isolate your biceps:",
+        "Preacher Curl",
+        "Cable Curl"
+      ],
+      "prompt_file": "prompts/slide-07.txt",
+      "references": [
+        "carousels/LW-CAR-0009/outputs/slide-03.png"
+      ],
+      "file": "outputs/slide-07.png",
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-28T12:33:39.511338+00:00",
+          "prompt_file": "prompts/slide-07.txt",
+          "referenced_image_paths": [
+            "carousels/LW-CAR-0009/outputs/slide-03.png"
+          ],
+          "transparent_background": false,
+          "finished_at": "2026-10-28T12:34:10.527578+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-50d63bae-5e69-4bd6-94d3-d5b586143269.png",
+          "preserved_raw_file": "production-assets/slide-07-generated.png",
+          "result_file": "outputs/slide-07.png"
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_in_cloud_checkout",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 8,
+      "role": "list item #6",
+      "exact_text": [
+        "#6",
+        "Forearms",
+        "2-3 sets x 10-15 reps",
+        "Choose one of these exercises to train your forearms:",
+        "Cable Hammer Curl",
+        "Cable Reverse Curl"
+      ],
+      "prompt_file": "prompts/slide-08.txt",
+      "references": [
+        "carousels/LW-CAR-0009/outputs/slide-03.png"
+      ],
+      "file": "outputs/slide-08.png",
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-28T12:34:10.773172+00:00",
+          "prompt_file": "prompts/slide-08.txt",
+          "referenced_image_paths": [
+            "carousels/LW-CAR-0009/outputs/slide-03.png"
+          ],
+          "transparent_background": false,
+          "finished_at": "2026-10-28T12:34:54.131053+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-5c9f235c-ef9b-40bd-a784-0147d7c31835.png",
+          "preserved_raw_file": "production-assets/slide-08-generated.png",
+          "result_file": "outputs/slide-08.png"
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_in_cloud_checkout",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 9,
+      "role": "product ending",
+      "exact_text": [
+        "Track Your Pull Day.",
+        "See If Your Back Keeps Up."
+      ],
+      "prompt_file": "prompts/slide-09.txt",
+      "references": [
+        "carousels/LW-CAR-0009/outputs/slide-08.png"
+      ],
+      "file": "outputs/slide-09.png",
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-28T12:34:54.380510+00:00",
+          "prompt_file": "prompts/slide-09.txt",
+          "referenced_image_paths": [
+            "carousels/LW-CAR-0009/outputs/slide-08.png"
+          ],
+          "transparent_background": false,
+          "finished_at": "2026-10-28T12:35:37.481263+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-4d0bc997-834f-4746-8a22-50ed0d0ed30f.png",
+          "preserved_raw_file": "production-assets/slide-09-generated.png",
+          "result_file": "outputs/slide-09.png"
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_in_cloud_checkout",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending",
+      "phone_compositing": {
+        "source": "carousels/LW-CAR-0072/production-assets/approved-phone-hand.png",
+        "text_bottom": 426,
+        "phone_top": 476,
+        "gap_px": 50,
+        "scale": "1:1 original pixels",
+        "ui_generated": false
+      }
+    }
+  ],
+  "next_action": "Commit and push this carousel, then continue LW-CAR-0073 without review pause.",
+  "archive": "LW-CAR-0072-1080x1350.zip"
+}

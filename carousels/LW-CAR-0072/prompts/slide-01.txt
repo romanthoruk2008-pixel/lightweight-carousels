@@ -1,0 +1,9 @@
+Create ONE complete 1080 x 1350 portrait Harda fitness carousel slide. The attached approved slide is a VISUAL template only, never the source of words. Exact text below comes only from frozen copy.json. Preserve every capital, hyphen, apostrophe and punctuation. Rubik type: heaviest cover, bold title, regular labels/body. Dark #2A2A2A, body #6B6B6B, accent #F26445. BACKGROUND: entire canvas solid opaque #F0F1EB, then three concentric #EAE0D6 rings of stroke 26/22/18px and radius 520/400/280px centered at x1010,y1290, mostly off-canvas like weight plates. Absolutely NO ARCH, grid, dots, gradient, progress bar, counter, transparency checkerboard, watermark or signature. Leave the top 110px empty except the background: do NOT draw a logo, brand name or icon there. The ORIGINAL Harda PNG is composited later at x48,y19,218x71 using its own alpha. S1 FIGURES ONLY: bald faceless smooth plastic anatomy teaching mannequin with warm-sand #D9CBBE muscles, darker sand shading, ivory #F5F0E5 tendons, fine grey linework, smooth featureless pelvis covered by opaque plain sand short shorts on full-body figures. Never white S2 figures, green, sage, real human nudity, invented equipment or extra copy. Equipment black/grey. Every word fully visible inside slide edges, no overlap.
+
+COVER twin of attached LW-CAR-0009/01: three very large stacked UPPERCASE Rubik lines: STRUCTURE dark; THE PERFECT dark; PULL DAY coral. Lower half anatomy mannequin doing a PULL-UP on a bar, REAR VIEW, chin OVER bar; lats and upper back coral. Lower edge may crop like template. No arch.
+
+EXACT TEXT AND STYLES, authoritative copy.json:
+{"string": "STRUCTURE", "style": "cover line 1, uppercase, heaviest Rubik, text_dark"}
+{"string": "THE PERFECT", "style": "cover line 2, uppercase, heaviest Rubik, text_dark"}
+{"string": "PULL DAY", "style": "cover line 3, uppercase, heaviest Rubik, accent"}
+Return one opaque slide, never a contact sheet.
