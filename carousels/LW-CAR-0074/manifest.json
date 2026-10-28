@@ -1,0 +1,347 @@
+{
+  "carousel_id": "LW-CAR-0074",
+  "batch": "BATCH-I",
+  "content_version": "1.0",
+  "source_commit": "d2cf28138781032fe4bcf6320df1af2f99cefd9c",
+  "status": "complete_pending_owner_review",
+  "carousel_complete": true,
+  "design_style": "S2",
+  "background": "CLEAN",
+  "brand": "Harda",
+  "generated_images": 9,
+  "next_slide_to_generate": null,
+  "agent_visual_review": "not_performed",
+  "user_review": "pending",
+  "remote_save": {
+    "remote": "origin",
+    "branch": "claude/charming-einstein-xgejky",
+    "status": "prepared_for_commit_and_push",
+    "commit_lookup": "git log -1 -- carousels/LW-CAR-0074/manifest.json"
+  },
+  "slides": [
+    {
+      "slide": 1,
+      "role": "hook",
+      "exact_text": [
+        "types of",
+        "gym buddies",
+        "(tag yours)"
+      ],
+      "prompt_file": "prompts/slide-01.txt",
+      "references": [
+        "carousels/LW-CAR-0022/outputs/slide-01.png"
+      ],
+      "file": "outputs/slide-01.png",
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-28T12:47:11.172772+00:00",
+          "prompt_file": "prompts/slide-01.txt",
+          "referenced_image_paths": [
+            "carousels/LW-CAR-0022/outputs/slide-01.png"
+          ],
+          "transparent_background": false,
+          "finished_at": "2026-10-28T12:47:52.447178+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-db732a54-683c-4d8d-993f-958c25de95b7.png",
+          "preserved_raw_file": "production-assets/slide-01-generated.png",
+          "result_file": "outputs/slide-01.png"
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_in_cloud_checkout",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 2,
+      "role": "item 1",
+      "exact_text": [
+        "#1",
+        "the hype man",
+        "screams ‘one more’ when you’ve already done three more."
+      ],
+      "prompt_file": "prompts/slide-02.txt",
+      "references": [
+        "carousels/LW-CAR-0029/outputs/slide-02.png"
+      ],
+      "file": "outputs/slide-02.png",
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-28T12:47:52.707969+00:00",
+          "prompt_file": "prompts/slide-02.txt",
+          "referenced_image_paths": [
+            "carousels/LW-CAR-0029/outputs/slide-02.png"
+          ],
+          "transparent_background": false,
+          "finished_at": "2026-10-28T12:48:46.257927+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-e9e873ad-903f-4fe3-9d2c-9dc74d806c69.png",
+          "preserved_raw_file": "production-assets/slide-02-generated.png",
+          "result_file": "outputs/slide-02.png"
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_in_cloud_checkout",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 3,
+      "role": "item 2",
+      "exact_text": [
+        "#2",
+        "the one who always cancels",
+        "‘can’t today, bro.’ every single time."
+      ],
+      "prompt_file": "prompts/slide-03.txt",
+      "references": [
+        "carousels/LW-CAR-0029/outputs/slide-02.png"
+      ],
+      "file": "outputs/slide-03.png",
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-28T12:48:46.516924+00:00",
+          "prompt_file": "prompts/slide-03.txt",
+          "referenced_image_paths": [
+            "carousels/LW-CAR-0029/outputs/slide-02.png"
+          ],
+          "transparent_background": false,
+          "finished_at": "2026-10-28T12:49:51.383215+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-aa2e8e3d-b0fe-4d74-a652-d6248a7303ea.png",
+          "preserved_raw_file": "production-assets/slide-03-generated.png",
+          "result_file": "outputs/slide-03.png"
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_in_cloud_checkout",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 4,
+      "role": "item 3",
+      "exact_text": [
+        "#3",
+        "the coach",
+        "has a tip for every rep you do. asked or not."
+      ],
+      "prompt_file": "prompts/slide-04.txt",
+      "references": [
+        "carousels/LW-CAR-0029/outputs/slide-02.png"
+      ],
+      "file": "outputs/slide-04.png",
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-28T12:49:51.643489+00:00",
+          "prompt_file": "prompts/slide-04.txt",
+          "referenced_image_paths": [
+            "carousels/LW-CAR-0029/outputs/slide-02.png"
+          ],
+          "transparent_background": false,
+          "finished_at": "2026-10-28T12:50:25.852519+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-2fc4995b-6bfd-40b7-a670-eadf3009eb27.png",
+          "preserved_raw_file": "production-assets/slide-04-generated.png",
+          "result_file": "outputs/slide-04.png"
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_in_cloud_checkout",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 5,
+      "role": "item 4",
+      "exact_text": [
+        "#4",
+        "the talker",
+        "one set, twenty minutes of conversation."
+      ],
+      "prompt_file": "prompts/slide-05.txt",
+      "references": [
+        "carousels/LW-CAR-0029/outputs/slide-02.png"
+      ],
+      "file": "outputs/slide-05.png",
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-28T12:50:26.112416+00:00",
+          "prompt_file": "prompts/slide-05.txt",
+          "referenced_image_paths": [
+            "carousels/LW-CAR-0029/outputs/slide-02.png"
+          ],
+          "transparent_background": false,
+          "finished_at": "2026-10-28T12:51:13.250419+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-7172e1c9-0ce2-49f6-af7c-e81e819831a6.png",
+          "preserved_raw_file": "production-assets/slide-05-generated.png",
+          "result_file": "outputs/slide-05.png"
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_in_cloud_checkout",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 6,
+      "role": "item 5",
+      "exact_text": [
+        "#5",
+        "the competitor",
+        "whatever you lift, they add a plate."
+      ],
+      "prompt_file": "prompts/slide-06.txt",
+      "references": [
+        "carousels/LW-CAR-0029/outputs/slide-02.png"
+      ],
+      "file": "outputs/slide-06.png",
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-28T12:51:13.520077+00:00",
+          "prompt_file": "prompts/slide-06.txt",
+          "referenced_image_paths": [
+            "carousels/LW-CAR-0029/outputs/slide-02.png"
+          ],
+          "transparent_background": false,
+          "finished_at": "2026-10-28T12:52:03.402953+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-cbc86894-0b95-45ee-b809-34935c4e43ac.png",
+          "preserved_raw_file": "production-assets/slide-06-generated.png",
+          "result_file": "outputs/slide-06.png"
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_in_cloud_checkout",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 7,
+      "role": "item 6",
+      "exact_text": [
+        "#6",
+        "the silent one",
+        "headphones in, no words, best workout of your week."
+      ],
+      "prompt_file": "prompts/slide-07.txt",
+      "references": [
+        "carousels/LW-CAR-0029/outputs/slide-02.png"
+      ],
+      "file": "outputs/slide-07.png",
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-28T12:52:03.670040+00:00",
+          "prompt_file": "prompts/slide-07.txt",
+          "referenced_image_paths": [
+            "carousels/LW-CAR-0029/outputs/slide-02.png"
+          ],
+          "transparent_background": false,
+          "finished_at": "2026-10-28T12:52:34.292787+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-06f6e94a-1e13-44e6-8a31-ab11de5646cc.png",
+          "preserved_raw_file": "production-assets/slide-07-generated.png",
+          "result_file": "outputs/slide-07.png"
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_in_cloud_checkout",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 8,
+      "role": "item 7",
+      "exact_text": [
+        "#7",
+        "the perfect one",
+        "shows up on time, spots you, re-racks, goes home."
+      ],
+      "prompt_file": "prompts/slide-08.txt",
+      "references": [
+        "carousels/LW-CAR-0029/outputs/slide-02.png"
+      ],
+      "file": "outputs/slide-08.png",
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-28T12:52:34.544654+00:00",
+          "prompt_file": "prompts/slide-08.txt",
+          "referenced_image_paths": [
+            "carousels/LW-CAR-0029/outputs/slide-02.png"
+          ],
+          "transparent_background": false,
+          "finished_at": "2026-10-28T12:53:26.277402+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-58941102-4bfd-4b1d-98e4-397824c25e47.png",
+          "preserved_raw_file": "production-assets/slide-08-generated.png",
+          "result_file": "outputs/slide-08.png"
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_in_cloud_checkout",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 9,
+      "role": "product ending",
+      "exact_text": [
+        "harda tracks every set you lift, even when your buddy cancels.",
+        "log your workouts and keep showing up."
+      ],
+      "prompt_file": "prompts/slide-09.txt",
+      "references": [
+        "carousels/LW-CAR-0022/outputs/slide-19.png"
+      ],
+      "file": "outputs/slide-09.png",
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-28T12:53:26.559137+00:00",
+          "prompt_file": "prompts/slide-09.txt",
+          "referenced_image_paths": [
+            "carousels/LW-CAR-0022/outputs/slide-19.png"
+          ],
+          "transparent_background": false,
+          "finished_at": "2026-10-28T12:54:34.849919+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-7584c4c8-1e69-46a0-a694-b32de3fa3460.png",
+          "preserved_raw_file": "production-assets/slide-09-generated.png",
+          "result_file": "outputs/slide-09.png"
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_in_cloud_checkout",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending",
+      "phone_compositing": {
+        "source": "carousels/LW-CAR-0074/production-assets/approved-phone-hand.png",
+        "text_bottom": 921,
+        "phone_top": 971,
+        "gap_px": 50,
+        "scale": "1:1 original pixels",
+        "ui_generated": false
+      }
+    }
+  ],
+  "next_action": "Commit and push this carousel, then continue LW-CAR-0075 without review pause.",
+  "archive": "LW-CAR-0074-1080x1350.zip"
+}
