@@ -1,0 +1,420 @@
+{
+  "carousel_id": "LW-CAR-0075",
+  "batch": "BATCH-I",
+  "content_version": "1.0",
+  "source_commit": "dfde99cb4466f065b99abee35aca2a2d9f358a77",
+  "status": "incomplete_generation_failed",
+  "carousel_complete": false,
+  "design_style": "S2",
+  "background": "CLEAN",
+  "brand": "Harda",
+  "generated_images": 0,
+  "next_slide_to_generate": 1,
+  "agent_visual_review": "not_performed",
+  "user_review": "pending",
+  "remote_save": {
+    "remote": "origin",
+    "branch": "claude/charming-einstein-xgejky",
+    "status": "prepared_for_commit_and_push",
+    "commit_lookup": "git log -1 -- carousels/LW-CAR-0075/manifest.json"
+  },
+  "slides": [
+    {
+      "slide": 1,
+      "role": "hook",
+      "rating_stars": null,
+      "exact_text": [
+        "most aesthetic muscles",
+        "tier list",
+        "(in our opinion)"
+      ],
+      "prompt_file": "prompts/slide-01.txt",
+      "references": [
+        "carousels/LW-CAR-0022/outputs/slide-01.png"
+      ],
+      "file": "outputs/slide-01.png",
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "error",
+          "started_at": "2026-10-28T12:57:17.313641+00:00",
+          "prompt_file": "prompts/slide-01.txt",
+          "referenced_image_paths": [
+            "carousels/LW-CAR-0022/outputs/slide-01.png"
+          ],
+          "transparent_background": false,
+          "finished_at": "2026-10-28T12:57:40.227937+00:00",
+          "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 27ebc24d-223c-4223-ad6b-b9040e103759. safety_violations=[sexual].\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"sexual\\\"\\n      ]\\n    }\\n  }\\n}\")"
+        }
+      ],
+      "errors": [
+        "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 27ebc24d-223c-4223-ad6b-b9040e103759. safety_violations=[sexual].\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"sexual\\\"\\n      ]\\n    }\\n  }\\n}\")"
+      ],
+      "save_status": "generation_failed",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 2,
+      "role": "tier divider F",
+      "rating_stars": null,
+      "exact_text": [
+        "F",
+        "tier",
+        "nobody notices"
+      ],
+      "prompt_file": "prompts/slide-02.txt",
+      "references": [
+        "carousels/LW-CAR-0022/outputs/slide-02.png"
+      ],
+      "file": "outputs/slide-02.png",
+      "attempts": [],
+      "errors": [],
+      "save_status": "not_started",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 3,
+      "role": "item #12",
+      "rating_stars": 1,
+      "exact_text": [
+        "#12",
+        "lower back",
+        "important for every lift, but nobody sees it."
+      ],
+      "prompt_file": "prompts/slide-03.txt",
+      "references": [
+        "carousels/LW-CAR-0022/outputs/slide-03.png"
+      ],
+      "file": "outputs/slide-03.png",
+      "attempts": [],
+      "errors": [],
+      "save_status": "not_started",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 4,
+      "role": "item #11",
+      "rating_stars": 1.5,
+      "exact_text": [
+        "#11",
+        "hamstrings",
+        "they make strong legs, but shorts hide them."
+      ],
+      "prompt_file": "prompts/slide-04.txt",
+      "references": [
+        "carousels/LW-CAR-0022/outputs/slide-03.png"
+      ],
+      "file": "outputs/slide-04.png",
+      "attempts": [],
+      "errors": [],
+      "save_status": "not_started",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 5,
+      "role": "tier divider C",
+      "rating_stars": null,
+      "exact_text": [
+        "C",
+        "tier",
+        "nice bonus"
+      ],
+      "prompt_file": "prompts/slide-05.txt",
+      "references": [
+        "carousels/LW-CAR-0022/outputs/slide-02.png"
+      ],
+      "file": "outputs/slide-05.png",
+      "attempts": [],
+      "errors": [],
+      "save_status": "not_started",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 6,
+      "role": "item #10",
+      "rating_stars": 2,
+      "exact_text": [
+        "#10",
+        "calves",
+        "great in shorts. invisible in jeans."
+      ],
+      "prompt_file": "prompts/slide-06.txt",
+      "references": [
+        "carousels/LW-CAR-0022/outputs/slide-03.png"
+      ],
+      "file": "outputs/slide-06.png",
+      "attempts": [],
+      "errors": [],
+      "save_status": "not_started",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 7,
+      "role": "item #9",
+      "rating_stars": 2.5,
+      "exact_text": [
+        "#9",
+        "forearms",
+        "show up every time you roll up your sleeves."
+      ],
+      "prompt_file": "prompts/slide-07.txt",
+      "references": [
+        "carousels/LW-CAR-0022/outputs/slide-03.png"
+      ],
+      "file": "outputs/slide-07.png",
+      "attempts": [],
+      "errors": [],
+      "save_status": "not_started",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 8,
+      "role": "tier divider B",
+      "rating_stars": null,
+      "exact_text": [
+        "B",
+        "tier",
+        "solid picks"
+      ],
+      "prompt_file": "prompts/slide-08.txt",
+      "references": [
+        "carousels/LW-CAR-0022/outputs/slide-02.png"
+      ],
+      "file": "outputs/slide-08.png",
+      "attempts": [],
+      "errors": [],
+      "save_status": "not_started",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 9,
+      "role": "item #8",
+      "rating_stars": 3,
+      "exact_text": [
+        "#8",
+        "quads",
+        "big quads look strong in any shorts."
+      ],
+      "prompt_file": "prompts/slide-09.txt",
+      "references": [
+        "carousels/LW-CAR-0022/outputs/slide-03.png"
+      ],
+      "file": "outputs/slide-09.png",
+      "attempts": [],
+      "errors": [],
+      "save_status": "not_started",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 10,
+      "role": "item #7",
+      "rating_stars": 3,
+      "exact_text": [
+        "#7",
+        "traps",
+        "give your neck and shoulders a strong frame."
+      ],
+      "prompt_file": "prompts/slide-10.txt",
+      "references": [
+        "carousels/LW-CAR-0022/outputs/slide-03.png"
+      ],
+      "file": "outputs/slide-10.png",
+      "attempts": [],
+      "errors": [],
+      "save_status": "not_started",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 11,
+      "role": "item #6",
+      "rating_stars": 3.5,
+      "exact_text": [
+        "#6",
+        "glutes",
+        "make every pair of jeans fit better."
+      ],
+      "prompt_file": "prompts/slide-11.txt",
+      "references": [
+        "carousels/LW-CAR-0022/outputs/slide-03.png"
+      ],
+      "file": "outputs/slide-11.png",
+      "attempts": [],
+      "errors": [],
+      "save_status": "not_started",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 12,
+      "role": "tier divider A",
+      "rating_stars": null,
+      "exact_text": [
+        "A",
+        "tier",
+        "turn heads"
+      ],
+      "prompt_file": "prompts/slide-12.txt",
+      "references": [
+        "carousels/LW-CAR-0022/outputs/slide-02.png"
+      ],
+      "file": "outputs/slide-12.png",
+      "attempts": [],
+      "errors": [],
+      "save_status": "not_started",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 13,
+      "role": "item #5",
+      "rating_stars": 4,
+      "exact_text": [
+        "#5",
+        "chest",
+        "fills out every t-shirt you own."
+      ],
+      "prompt_file": "prompts/slide-13.txt",
+      "references": [
+        "carousels/LW-CAR-0022/outputs/slide-03.png"
+      ],
+      "file": "outputs/slide-13.png",
+      "attempts": [],
+      "errors": [],
+      "save_status": "not_started",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 14,
+      "role": "item #4",
+      "rating_stars": 4,
+      "exact_text": [
+        "#4",
+        "arms",
+        "the first thing people look at in a t-shirt."
+      ],
+      "prompt_file": "prompts/slide-14.txt",
+      "references": [
+        "carousels/LW-CAR-0022/outputs/slide-03.png"
+      ],
+      "file": "outputs/slide-14.png",
+      "attempts": [],
+      "errors": [],
+      "save_status": "not_started",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 15,
+      "role": "item #3",
+      "rating_stars": 4.5,
+      "exact_text": [
+        "#3",
+        "abs",
+        "need low body fat, and everyone notices them."
+      ],
+      "prompt_file": "prompts/slide-15.txt",
+      "references": [
+        "carousels/LW-CAR-0022/outputs/slide-03.png"
+      ],
+      "file": "outputs/slide-15.png",
+      "attempts": [],
+      "errors": [],
+      "save_status": "not_started",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 16,
+      "role": "tier divider S",
+      "rating_stars": null,
+      "exact_text": [
+        "S",
+        "tier",
+        "the dream"
+      ],
+      "prompt_file": "prompts/slide-16.txt",
+      "references": [
+        "carousels/LW-CAR-0022/outputs/slide-02.png"
+      ],
+      "file": "outputs/slide-16.png",
+      "attempts": [],
+      "errors": [],
+      "save_status": "not_started",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 17,
+      "role": "item #2",
+      "rating_stars": 5,
+      "exact_text": [
+        "#2",
+        "back",
+        "the V shape from every angle."
+      ],
+      "prompt_file": "prompts/slide-17.txt",
+      "references": [
+        "carousels/LW-CAR-0022/outputs/slide-03.png"
+      ],
+      "file": "outputs/slide-17.png",
+      "attempts": [],
+      "errors": [],
+      "save_status": "not_started",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 18,
+      "role": "item #1",
+      "rating_stars": 5,
+      "exact_text": [
+        "#1",
+        "shoulders",
+        "wide shoulders change your whole outline."
+      ],
+      "prompt_file": "prompts/slide-18.txt",
+      "references": [
+        "carousels/LW-CAR-0022/outputs/slide-03.png"
+      ],
+      "file": "outputs/slide-18.png",
+      "attempts": [],
+      "errors": [],
+      "save_status": "not_started",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 19,
+      "role": "product ending",
+      "rating_stars": null,
+      "exact_text": [
+        "harda tracks every set you lift, so every muscle gets its turn.",
+        "log your workouts and check your muscle balance."
+      ],
+      "prompt_file": "prompts/slide-19.txt",
+      "references": [
+        "carousels/LW-CAR-0022/outputs/slide-19.png"
+      ],
+      "file": "outputs/slide-19.png",
+      "attempts": [],
+      "errors": [],
+      "save_status": "not_started",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    }
+  ],
+  "next_action": "Stop Batch I per BATCH-I.md; resume this carousel at slide 1 after the recorded generation blocker is resolved. Do not start LW-CAR-0076.",
+  "archive": "LW-CAR-0075-incomplete-1080x1350.zip"
+}
