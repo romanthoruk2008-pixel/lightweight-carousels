@@ -1,0 +1,18 @@
+Create ONE Harda S1 fitness carousel slide for export as 1080 x 1350 opaque RGB PNG. Match the attached approved S1 reference for layout, typography hierarchy, sizes, illustration style, linework, badges and underline bars. Reference supplies DESIGN ONLY; all words must come from the current slide's copy.json entries below.
+BACKGROUND: fill entire canvas solid opaque #F0F1EB FIRST, then thin #E1E2DA grid lines, 2 px every 54 px, across the whole canvas. This background is GRID, even if the reference shows a different background. NO ARCH, no pink arch, no progress bar, slide counter, watermark, gradient, checkerboard or transparent canvas.
+Keep the top 110 px free of all text, badges, figures and logos; the background pattern continues there. Do NOT draw a logo or wordmark: the exact original Harda PNG is composited later at x48 y19, size218x71 using its own alpha, with no patch.
+S1 FIGURES: bald faceless smooth PLASTIC anatomy teaching mannequins with featureless pelvis, fine grey linework, ivory skin/tendons about #F5F0E5, muscles warm sand #D9CBBE with darker sand shading; target highlights #F26445 only as specified. No white S2 figure, no green/sage. Full-body or hip-visible figures wear plain opaque short sand #D9CBBE gym shorts. Equipment realistic black/grey. Do not copy exercises or muscle highlights from reference; use only the current assigned subject.
+FONT: Rubik for EVERY word, cover heaviest, titles bold, sets/subtitles/labels semibold, body regular. Text #2A2A2A, body #6B6B6B, accent #F26445, white badge text. Preserve EXACT case, apostrophes, plain hyphens, x and punctuation from copy.json. No other words, no equipment labels. Keep every line fully visible and away from the slide edges; scale illustrations down if needed, never omit or rewrite copy.
+
+CURRENT SLIDE INSTRUCTIONS:
+### Slide 1 — hook (twin of LW-CAR-0031 slide 1)
+- `WEAK` in #2A2A2A and `LEGS?` in #F26445, heaviest Rubik, uppercase, soft grey offset shadow, same position and scale, with the small #F26445 paint-splat dot under and right of the "?".
+- Below: the man in full body, front view, standing tall, quads, adductors and calves filled #F26445; he may be cropped at the shins. Head slightly overlapping the bottom of the headline, cropped at the bottom edge.
+
+
+Use the reference headline scale and two lines, with WEAK dark and the assigned body-part word coral, grey offset shadow and small coral paint-splat dot near the question mark. Use only the pose/target muscles specified above, never the reference core pose.
+
+AUTHORITATIVE EXACT COPY AND STYLES:
+{"string": "WEAK", "style": "cover headline, uppercase, heaviest Rubik weight, text_dark"}
+{"string": "LEGS?", "style": "cover headline, uppercase, heaviest Rubik weight, accent"}
+Return one complete slide, no variants.

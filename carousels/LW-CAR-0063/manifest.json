@@ -1,0 +1,418 @@
+{
+  "carousel_id": "LW-CAR-0063",
+  "content_version": "1.0",
+  "source_commit": "007b67fb50912f3fad71e4418f44c33449119b0a",
+  "batch": "BATCH-H",
+  "batch_status": "stopped_after_error",
+  "design_style": "S1",
+  "background": "GRID",
+  "brand": "Harda",
+  "status": "incomplete_interrupted",
+  "carousel_complete": false,
+  "generated_images": 6,
+  "next_slide_to_generate": 7,
+  "next_action": "Push current progress and stop. Next slide to generate: 7.",
+  "agent_visual_review": "not_performed",
+  "user_review": "pending",
+  "logo": {
+    "file": "assets/logo/harda-logo-full.png",
+    "placement": [
+      48,
+      19,
+      218,
+      71
+    ],
+    "method": "original PNG with own alpha; no backing patch"
+  },
+  "phone_source": {
+    "file": "carousels/LW-CAR-0031/production-assets/approved-phone-hand-foreground.png",
+    "crop": [
+      0,
+      522,
+      1080,
+      1350
+    ],
+    "scale": "1:1"
+  },
+  "remote_save": {
+    "remote": "origin",
+    "branch": "claude/charming-einstein-xgejky",
+    "status": "commit_and_push_requested",
+    "commit_lookup": "git log -1 -- carousels/LW-CAR-0063/manifest.json"
+  },
+  "slides": [
+    {
+      "slide": 1,
+      "role": "hook",
+      "content_version": "1.0",
+      "exact_text": [
+        "WEAK",
+        "LEGS?"
+      ],
+      "file": "outputs/slide-01.png",
+      "prompt_file": "prompts/slide-01.txt",
+      "references": [
+        "carousels/LW-CAR-0031/outputs/slide-01.png"
+      ],
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-28T12:03:49.716592+00:00",
+          "prompt_file": "prompts/slide-01.txt",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0031/outputs/slide-01.png"
+          ],
+          "finished_at": "2026-10-28T12:04:38.505576+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-aabcd263-bb8d-4bf2-9ef7-2e6051beab03.png",
+          "raw_result_format": {
+            "size": [
+              1122,
+              1402
+            ],
+            "mode": "RGB"
+          },
+          "result_file": "outputs/slide-01.png",
+          "export": {
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "alpha": false
+          }
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_to_repository_checkout",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 2,
+      "role": "map",
+      "content_version": "1.0",
+      "exact_text": [
+        "Let's Fix That",
+        "QUADS",
+        "HAMSTRINGS",
+        "ADDUCTORS",
+        "CALVES"
+      ],
+      "file": "outputs/slide-02.png",
+      "prompt_file": "prompts/slide-02.txt",
+      "references": [
+        "carousels/LW-CAR-0031/outputs/slide-02.png"
+      ],
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-28T12:04:50.235889+00:00",
+          "prompt_file": "prompts/slide-02.txt",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0031/outputs/slide-02.png"
+          ],
+          "finished_at": "2026-10-28T12:05:26.941152+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-9a706f14-1f30-4655-b006-0dde76ac1fd1.png",
+          "raw_result_format": {
+            "size": [
+              1122,
+              1402
+            ],
+            "mode": "RGB"
+          },
+          "result_file": "outputs/slide-02.png",
+          "export": {
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "alpha": false
+          }
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_to_repository_checkout",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 3,
+      "role": "list item 1",
+      "content_version": "1.0",
+      "exact_text": [
+        "1",
+        "Quads",
+        "2-3 Sets x 6-10 Reps",
+        "Let your knees travel forward and sit deep. Half reps cheat your quads.",
+        "Leg Press",
+        "OR",
+        "Goblet Squat"
+      ],
+      "file": "outputs/slide-03.png",
+      "prompt_file": "prompts/slide-03.txt",
+      "references": [
+        "carousels/LW-CAR-0031/outputs/slide-03.png"
+      ],
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-28T12:05:40.883152+00:00",
+          "prompt_file": "prompts/slide-03.txt",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0031/outputs/slide-03.png"
+          ],
+          "finished_at": "2026-10-28T12:06:17.455364+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-1e1007ad-d672-42ad-92ed-dfe5ec84d851.png",
+          "raw_result_format": {
+            "size": [
+              1122,
+              1402
+            ],
+            "mode": "RGB"
+          },
+          "result_file": "outputs/slide-03.png",
+          "export": {
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "alpha": false
+          }
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_to_repository_checkout",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 4,
+      "role": "list item 2",
+      "content_version": "1.0",
+      "exact_text": [
+        "2",
+        "Hamstrings",
+        "2-3 Sets x 8-12 Reps",
+        "They bend your knee and hinge your hip. Train both moves.",
+        "Romanian Deadlift",
+        "OR",
+        "Lying Leg Curl"
+      ],
+      "file": "outputs/slide-04.png",
+      "prompt_file": "prompts/slide-04.txt",
+      "references": [
+        "carousels/LW-CAR-0031/outputs/slide-04.png"
+      ],
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-28T12:06:30.570108+00:00",
+          "prompt_file": "prompts/slide-04.txt",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0031/outputs/slide-04.png"
+          ],
+          "finished_at": "2026-10-28T12:07:32.687035+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-475d7a1d-4859-4173-9195-229820f37063.png",
+          "raw_result_format": {
+            "size": [
+              1122,
+              1402
+            ],
+            "mode": "RGB"
+          },
+          "result_file": "outputs/slide-04.png",
+          "export": {
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "alpha": false
+          }
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_to_repository_checkout",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 5,
+      "role": "list item 3",
+      "content_version": "1.0",
+      "exact_text": [
+        "3",
+        "Adductors",
+        "2-3 Sets x 10-15 Reps",
+        "Your inner thighs are a big part of your legs. Most people skip them.",
+        "Adductor Machine",
+        "OR",
+        "Copenhagen Plank"
+      ],
+      "file": "outputs/slide-05.png",
+      "prompt_file": "prompts/slide-05.txt",
+      "references": [
+        "carousels/LW-CAR-0031/outputs/slide-05.png"
+      ],
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-28T12:07:43.083067+00:00",
+          "prompt_file": "prompts/slide-05.txt",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0031/outputs/slide-05.png"
+          ],
+          "finished_at": "2026-10-28T12:08:31.465699+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-0e752cf0-fac1-47ee-a249-edcb482ffc84.png",
+          "raw_result_format": {
+            "size": [
+              1122,
+              1402
+            ],
+            "mode": "RGB"
+          },
+          "result_file": "outputs/slide-05.png",
+          "export": {
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "alpha": false
+          }
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_to_repository_checkout",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 6,
+      "role": "list item 4",
+      "content_version": "1.0",
+      "exact_text": [
+        "4",
+        "Calves",
+        "2-3 Sets x 10-15 Reps",
+        "Pause in the bottom stretch. Bouncing lets your tendons do the work.",
+        "Standing Calf Raise",
+        "OR",
+        "Seated Calf Raise"
+      ],
+      "file": "outputs/slide-06.png",
+      "prompt_file": "prompts/slide-06.txt",
+      "references": [
+        "carousels/LW-CAR-0031/outputs/slide-06.png"
+      ],
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-28T12:08:44.832007+00:00",
+          "prompt_file": "prompts/slide-06.txt",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0031/outputs/slide-06.png"
+          ],
+          "finished_at": "2026-10-28T12:09:28.763689+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-c5017ba8-63cc-48bc-9836-b1d9cf0e3328.png",
+          "raw_result_format": {
+            "size": [
+              1122,
+              1402
+            ],
+            "mode": "RGB"
+          },
+          "result_file": "outputs/slide-06.png",
+          "export": {
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "alpha": false
+          }
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_to_repository_checkout",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 7,
+      "role": "bonus tip",
+      "content_version": "1.0",
+      "exact_text": [
+        "Bonus Tip",
+        "Leg day is the day most people skip. Just showing up every week puts you ahead."
+      ],
+      "file": "outputs/slide-07.png",
+      "prompt_file": "prompts/slide-07.txt",
+      "references": [
+        "carousels/LW-CAR-0031/outputs/slide-07.png"
+      ],
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "error",
+          "started_at": "2026-10-28T12:09:40.021456+00:00",
+          "prompt_file": "prompts/slide-07.txt",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0031/outputs/slide-07.png"
+          ],
+          "finished_at": "2026-10-28T12:10:09.521870+00:00",
+          "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID c7ae3df7-a1ed-4012-a89d-e42cbd38da3a. safety_violations=[sexual].\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"sexual\\\"\\n      ]\\n    }\\n  }\\n}\")"
+        }
+      ],
+      "errors": [
+        "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID c7ae3df7-a1ed-4012-a89d-e42cbd38da3a. safety_violations=[sexual].\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"sexual\\\"\\n      ]\\n    }\\n  }\\n}\")"
+      ],
+      "save_status": "interrupted",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 8,
+      "role": "product ending",
+      "content_version": "1.0",
+      "exact_text": [
+        "Are Your Legs Getting Enough Work?",
+        "Log your workouts in Harda.",
+        "See how many sets your legs get compared to every other muscle."
+      ],
+      "file": "outputs/slide-08.png",
+      "prompt_file": "prompts/slide-08.txt",
+      "references": [
+        "carousels/LW-CAR-0031/outputs/slide-08.png"
+      ],
+      "attempts": [],
+      "errors": [],
+      "save_status": "not_started",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    }
+  ],
+  "archive": "LW-CAR-0063-1080x1350.zip"
+}
