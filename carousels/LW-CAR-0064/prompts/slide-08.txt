@@ -1,0 +1,27 @@
+Create ONE Harda S1 fitness carousel slide for export as 1080 x 1350 opaque RGB PNG. Match the attached approved S1 reference for layout, typography hierarchy, sizes, illustration style, linework, badges and underline bars. Reference supplies DESIGN ONLY; all words must come from the current slide's copy.json entries below.
+BACKGROUND: fill entire canvas solid opaque #F0F1EB FIRST, then small #D4D4CC dots, 6 px diameter every 45 px, across the whole canvas. This background is DOTS, even if the reference shows a different background. NO ARCH, no pink arch, no progress bar, slide counter, watermark, gradient, checkerboard or transparent canvas.
+Keep the top 110 px free of all text, badges, figures and logos; the background pattern continues there. Do NOT draw a logo or wordmark: the exact original Harda PNG is composited later at x48 y19, size218x71 using its own alpha, with no patch.
+S1 FIGURES: bald faceless smooth PLASTIC anatomy teaching mannequins with featureless pelvis, fine grey linework, ivory skin/tendons about #F5F0E5, muscles warm sand #D9CBBE with darker sand shading; target highlights #F26445 only as specified. No white S2 figure, no green/sage. Full-body or hip-visible figures wear plain opaque short sand #D9CBBE gym shorts. Equipment realistic black/grey. Do not copy exercises or muscle highlights from reference; use only the current assigned subject.
+FONT: Rubik for EVERY word, cover heaviest, titles bold, sets/subtitles/labels semibold, body regular. Text #2A2A2A, body #6B6B6B, accent #F26445, white badge text. Preserve EXACT case, apostrophes, plain hyphens, x and punctuation from copy.json. No other words, no equipment labels. Keep every line fully visible and away from the slide edges; scale illustrations down if needed, never omit or rewrite copy.
+
+CURRENT SLIDE INSTRUCTIONS:
+### Slide 8 — product ending (twin of LW-CAR-0031 slide 8)
+- Headline: `Are Your Shoulders Getting Enough Work?` (bold, #2A2A2A, two lines if needed) + short #F26445 underline bar.
+- Body, two paragraphs, regular #6B6B6B: `Log your workouts in Harda.` / `See how many sets your shoulders get compared to every other muscle.`
+- Phone: the **real Harda Muscle balance screenshot**, the same as on the approved LW-CAR-0031 slide 8 (radar with a Shoulders axis), true proportions, never squashed. Never generate, redraw or imitate UI.
+
+- **The phone must never touch or cover the body text.** Measure where the body text ends and place the hand and phone below it with a clear gap of at least 40 px; it may run off the bottom edge. Never place the phone at a fixed height.
+
+## Caption
+Write `caption.txt` from `copy.json` → `caption.text`, verbatim.
+
+## Order of work
+Generate **all slides in one go**, without stopping for the owner between slides; the approved slides above are the visual reference. Then write the manifest (`agent_visual_review: not_performed`, `user_review: pending`), the caption and the ZIP, and commit and push the whole carousel in one commit. If a limit or error interrupts you, push what exists immediately, marked incomplete, with the next slide to generate.
+
+PRODUCTION OVERRIDE FOR EXACT UI: generate ONLY the headline, its short coral underline, and both body paragraphs on the background. NO phone, hand, screenshot, UI, chart, placeholder or decoration. Lower area remains empty of foreground objects. Headline bold Rubik, left aligned below y150; body regular grey paragraphs below, complete and readable, comfortably above y850. The ORIGINAL transparent S1 hand/phone/real Muscle balance image from the approved reference will be composited at unchanged 1:1 scale AFTER measuring the actual last body-text row, with a 50 px gap below it. Never generate app UI and never place a phone at a fixed height. Ignore the phone in the input image for generation.
+
+AUTHORITATIVE EXACT COPY AND STYLES:
+{"string": "Are Your Shoulders Getting Enough Work?", "style": "headline, bold, text_dark"}
+{"string": "Log your workouts in Harda.", "style": "body, regular, text_body_grey"}
+{"string": "See how many sets your shoulders get compared to every other muscle.", "style": "body, regular, text_body_grey"}
+Return one complete slide, no variants.

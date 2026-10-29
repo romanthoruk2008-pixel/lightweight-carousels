@@ -1,0 +1,484 @@
+{
+  "carousel_id": "LW-CAR-0064",
+  "content_version": "1.0",
+  "source_commit": "bf0682a6b28fc24800b0d7c0c80497d25af1d99c",
+  "batch": "BATCH-H",
+  "batch_status": "carousel_complete",
+  "design_style": "S1",
+  "background": "DOTS",
+  "brand": "Harda",
+  "status": "complete_pending_owner_review",
+  "carousel_complete": true,
+  "generated_images": 8,
+  "next_slide_to_generate": null,
+  "next_action": "Continue next BATCH-H carousel without review pause. Owner reviews at end.",
+  "agent_visual_review": "not_performed",
+  "user_review": "pending",
+  "logo": {
+    "file": "assets/logo/harda-logo-full.png",
+    "placement": [
+      48,
+      19,
+      218,
+      71
+    ],
+    "method": "original PNG with own alpha; no backing patch"
+  },
+  "phone_source": {
+    "file": "carousels/LW-CAR-0031/production-assets/approved-phone-hand-foreground.png",
+    "crop": [
+      0,
+      522,
+      1080,
+      1350
+    ],
+    "scale": "1:1"
+  },
+  "remote_save": {
+    "remote": "origin",
+    "branch": "claude/charming-einstein-xgejky",
+    "status": "commit_and_push_requested",
+    "commit_lookup": "git log -1 -- carousels/LW-CAR-0064/manifest.json"
+  },
+  "slides": [
+    {
+      "slide": 1,
+      "role": "hook",
+      "content_version": "1.0",
+      "exact_text": [
+        "WEAK",
+        "SHOULDERS?"
+      ],
+      "file": "outputs/slide-01.png",
+      "prompt_file": "prompts/slide-01.txt",
+      "references": [
+        "carousels/LW-CAR-0031/outputs/slide-01.png"
+      ],
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-29T08:25:15.108569+00:00",
+          "prompt_file": "prompts/slide-01.txt",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0031/outputs/slide-01.png"
+          ],
+          "finished_at": "2026-10-29T08:25:40.640031+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-0c405d0d-64fd-4654-a602-d6ccd34366ae.png",
+          "raw_result_format": {
+            "size": [
+              1122,
+              1402
+            ],
+            "mode": "RGB"
+          },
+          "result_file": "outputs/slide-01.png",
+          "export": {
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "alpha": false
+          }
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_to_repository_checkout",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 2,
+      "role": "map",
+      "content_version": "1.0",
+      "exact_text": [
+        "Let's Fix That",
+        "FRONT DELTS",
+        "SIDE DELTS",
+        "REAR DELTS",
+        "TRAPS"
+      ],
+      "file": "outputs/slide-02.png",
+      "prompt_file": "prompts/slide-02.txt",
+      "references": [
+        "carousels/LW-CAR-0031/outputs/slide-02.png"
+      ],
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-29T08:25:58.826112+00:00",
+          "prompt_file": "prompts/slide-02.txt",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0031/outputs/slide-02.png"
+          ],
+          "finished_at": "2026-10-29T08:26:44.121093+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-a110994a-1bbc-4a37-85fa-0ac249525fbf.png",
+          "raw_result_format": {
+            "size": [
+              1092,
+              1440
+            ],
+            "mode": "RGB"
+          },
+          "result_file": "outputs/slide-02.png",
+          "export": {
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "alpha": false
+          }
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_to_repository_checkout",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 3,
+      "role": "list item 1",
+      "content_version": "1.0",
+      "exact_text": [
+        "1",
+        "Front Delts",
+        "2-3 Sets x 6-10 Reps",
+        "Every press already hits them. One overhead press is enough.",
+        "Seated Dumbbell Press",
+        "OR",
+        "Machine Shoulder Press"
+      ],
+      "file": "outputs/slide-03.png",
+      "prompt_file": "prompts/slide-03.txt",
+      "references": [
+        "carousels/LW-CAR-0031/outputs/slide-03.png"
+      ],
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-29T08:27:03.226445+00:00",
+          "prompt_file": "prompts/slide-03.txt",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0031/outputs/slide-03.png"
+          ],
+          "finished_at": "2026-10-29T08:27:35.235038+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-40463a6c-2793-4b2d-ac60-1260395397bc.png",
+          "raw_result_format": {
+            "size": [
+              1122,
+              1402
+            ],
+            "mode": "RGB"
+          },
+          "result_file": "outputs/slide-03.png",
+          "export": {
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "alpha": false
+          }
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_to_repository_checkout",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 4,
+      "role": "list item 2",
+      "content_version": "1.0",
+      "exact_text": [
+        "2",
+        "Side Delts",
+        "2-3 Sets x 12-20 Reps",
+        "They make you look wide. Lead with your elbows, not your hands.",
+        "Dumbbell Lateral Raise",
+        "OR",
+        "Cable Lateral Raise"
+      ],
+      "file": "outputs/slide-04.png",
+      "prompt_file": "prompts/slide-04.txt",
+      "references": [
+        "carousels/LW-CAR-0031/outputs/slide-04.png"
+      ],
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-29T08:27:46.916831+00:00",
+          "prompt_file": "prompts/slide-04.txt",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0031/outputs/slide-04.png"
+          ],
+          "finished_at": "2026-10-29T08:28:24.594087+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-c0098384-eeae-48b3-9911-d0f1e914a42b.png",
+          "raw_result_format": {
+            "size": [
+              1122,
+              1402
+            ],
+            "mode": "RGB"
+          },
+          "result_file": "outputs/slide-04.png",
+          "export": {
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "alpha": false
+          }
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_to_repository_checkout",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 5,
+      "role": "list item 3",
+      "content_version": "1.0",
+      "exact_text": [
+        "3",
+        "Rear Delts",
+        "2-3 Sets x 12-20 Reps",
+        "The back of your shoulder. Pull your arms out wide, not back.",
+        "Reverse Pec Deck",
+        "OR",
+        "Face Pull"
+      ],
+      "file": "outputs/slide-05.png",
+      "prompt_file": "prompts/slide-05.txt",
+      "references": [
+        "carousels/LW-CAR-0031/outputs/slide-05.png"
+      ],
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-29T08:28:36.327735+00:00",
+          "prompt_file": "prompts/slide-05.txt",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0031/outputs/slide-05.png"
+          ],
+          "finished_at": "2026-10-29T08:29:54.752924+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-4ccbf9ca-6249-4466-aeb4-23958be9ffce.png",
+          "raw_result_format": {
+            "size": [
+              1092,
+              1440
+            ],
+            "mode": "RGB"
+          },
+          "result_file": "outputs/slide-05.png",
+          "export": {
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "alpha": false
+          }
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_to_repository_checkout",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 6,
+      "role": "list item 4",
+      "content_version": "1.0",
+      "exact_text": [
+        "4",
+        "Traps",
+        "2-3 Sets x 10-15 Reps",
+        "Shrug straight up and hold the top. Don't roll your shoulders.",
+        "Dumbbell Shrug",
+        "OR",
+        "Farmer's Carry"
+      ],
+      "file": "outputs/slide-06.png",
+      "prompt_file": "prompts/slide-06.txt",
+      "references": [
+        "carousels/LW-CAR-0031/outputs/slide-06.png"
+      ],
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-29T08:30:07.521330+00:00",
+          "prompt_file": "prompts/slide-06.txt",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0031/outputs/slide-06.png"
+          ],
+          "finished_at": "2026-10-29T08:30:54.920347+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-2a18baa8-b27a-4692-8d0c-d1a1f37d80a2.png",
+          "raw_result_format": {
+            "size": [
+              1122,
+              1402
+            ],
+            "mode": "RGB"
+          },
+          "result_file": "outputs/slide-06.png",
+          "export": {
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "alpha": false
+          }
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_to_repository_checkout",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 7,
+      "role": "bonus tip",
+      "content_version": "1.0",
+      "exact_text": [
+        "Bonus Tip",
+        "Light weight, clean reps. Swinging heavy dumbbells turns a lateral raise into a shrug."
+      ],
+      "file": "outputs/slide-07.png",
+      "prompt_file": "prompts/slide-07.txt",
+      "references": [
+        "carousels/LW-CAR-0031/outputs/slide-07.png"
+      ],
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-29T08:31:07.670224+00:00",
+          "prompt_file": "prompts/slide-07.txt",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0031/outputs/slide-07.png"
+          ],
+          "finished_at": "2026-10-29T08:31:49.106598+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-564ce348-3da2-49fc-912b-0c0b3579314f.png",
+          "raw_result_format": {
+            "size": [
+              1122,
+              1402
+            ],
+            "mode": "RGB"
+          },
+          "result_file": "outputs/slide-07.png",
+          "export": {
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "alpha": false
+          }
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_to_repository_checkout",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 8,
+      "role": "product ending",
+      "content_version": "1.0",
+      "exact_text": [
+        "Are Your Shoulders Getting Enough Work?",
+        "Log your workouts in Harda.",
+        "See how many sets your shoulders get compared to every other muscle."
+      ],
+      "file": "outputs/slide-08.png",
+      "prompt_file": "prompts/slide-08.txt",
+      "references": [
+        "carousels/LW-CAR-0031/outputs/slide-08.png"
+      ],
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-29T08:32:05.181679+00:00",
+          "prompt_file": "prompts/slide-08.txt",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0031/outputs/slide-08.png"
+          ],
+          "finished_at": "2026-10-29T08:32:54.193804+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-e665d910-92c3-4b08-9dd1-7a817ef850f7.png",
+          "raw_result_format": {
+            "size": [
+              1122,
+              1402
+            ],
+            "mode": "RGB"
+          },
+          "result_file": "outputs/slide-08.png",
+          "export": {
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "alpha": false
+          }
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_to_repository_checkout",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending",
+      "phone_compositing": {
+        "source": {
+          "file": "carousels/LW-CAR-0031/production-assets/approved-phone-hand-foreground.png",
+          "crop": [
+            0,
+            522,
+            1080,
+            1350
+          ],
+          "scale": "1:1"
+        },
+        "asset": "production-assets/approved-phone-hand-foreground.png",
+        "measured_text_bottom_exclusive": 646,
+        "placement": [
+          0,
+          696
+        ],
+        "minimum_gap": 50,
+        "scale": "1:1; no resampling",
+        "real_ui_generated": false,
+        "measurement": "raster ink extent solely for requested layout; no OCR or visual QA"
+      }
+    }
+  ],
+  "archive": "LW-CAR-0064-1080x1350.zip"
+}

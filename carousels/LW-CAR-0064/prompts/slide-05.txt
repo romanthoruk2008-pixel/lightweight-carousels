@@ -1,0 +1,20 @@
+Create ONE Harda S1 fitness carousel slide for export as 1080 x 1350 opaque RGB PNG. Match the attached approved S1 reference for layout, typography hierarchy, sizes, illustration style, linework, badges and underline bars. Reference supplies DESIGN ONLY; all words must come from the current slide's copy.json entries below.
+BACKGROUND: fill entire canvas solid opaque #F0F1EB FIRST, then small #D4D4CC dots, 6 px diameter every 45 px, across the whole canvas. This background is DOTS, even if the reference shows a different background. NO ARCH, no pink arch, no progress bar, slide counter, watermark, gradient, checkerboard or transparent canvas.
+Keep the top 110 px free of all text, badges, figures and logos; the background pattern continues there. Do NOT draw a logo or wordmark: the exact original Harda PNG is composited later at x48 y19, size218x71 using its own alpha, with no patch.
+S1 FIGURES: bald faceless smooth PLASTIC anatomy teaching mannequins with featureless pelvis, fine grey linework, ivory skin/tendons about #F5F0E5, muscles warm sand #D9CBBE with darker sand shading; target highlights #F26445 only as specified. No white S2 figure, no green/sage. Full-body or hip-visible figures wear plain opaque short sand #D9CBBE gym shorts. Equipment realistic black/grey. Do not copy exercises or muscle highlights from reference; use only the current assigned subject.
+FONT: Rubik for EVERY word, cover heaviest, titles bold, sets/subtitles/labels semibold, body regular. Text #2A2A2A, body #6B6B6B, accent #F26445, white badge text. Preserve EXACT case, apostrophes, plain hyphens, x and punctuation from copy.json. No other words, no equipment labels. Keep every line fully visible and away from the slide edges; scale illustrations down if needed, never omit or rewrite copy.
+
+CURRENT SLIDE INSTRUCTIONS:
+LIST TEMPLATE: coral circle with white badge number centered below y110, bold centered muscle title, sets line, short coral underline, centered grey why line below. Middle: large anatomical CLOSE-UP with only specified muscle highlighted. Lower section: TWO full-body exercise mannequins, left and right, CORAL OR circle between them, exercise labels fully visible beneath. Exercise figures have NO muscle highlights: all muscles stay sand. Match reference sizes/spacing, but replace close-up, exercises, labels and every word with the current row. Keep equipment entirely readable and all copy clear.
+Columns: Slide | Badge | Title | Subtitle | Why line | Close-up highlighted | Left exercise/label | Right exercise/label
+| 5 | 3 | `Rear Delts` | `2-3 Sets x 12-20 Reps` | `The back of your shoulder. Pull your arms out wide, not back.` | back of the shoulder | seated reverse pec deck, arms opening wide, rear view — `Reverse Pec Deck` | standing at a high cable with a rope, pulling it toward the face, elbows high and wide, side view — `Face Pull` |
+
+AUTHORITATIVE EXACT COPY AND STYLES:
+{"string": "3", "style": "white number in accent circle badge"}
+{"string": "Rear Delts", "style": "title, bold, text_dark, centered"}
+{"string": "2-3 Sets x 12-20 Reps", "style": "subtitle, semibold, text_dark, centered"}
+{"string": "The back of your shoulder. Pull your arms out wide, not back.", "style": "why line, regular, text_body_grey, centered, up to two lines"}
+{"string": "Reverse Pec Deck", "style": "exercise label, semibold"}
+{"string": "OR", "style": "white text in accent circle badge"}
+{"string": "Face Pull", "style": "exercise label, semibold"}
+Return one complete slide, no variants.
