@@ -1,0 +1,268 @@
+{
+  "carousel_id": "LW-CAR-0065",
+  "content_version": "1.0",
+  "source_commit": "4a41ca0ca48b00117d86e45d9100ab0fa465260a",
+  "batch": "BATCH-H",
+  "batch_status": "stopped_after_error",
+  "design_style": "S1",
+  "background": "PLATES",
+  "brand": "Harda",
+  "status": "incomplete_interrupted",
+  "carousel_complete": false,
+  "generated_images": 1,
+  "next_slide_to_generate": 2,
+  "next_action": "Push current progress and stop. Next slide to generate: 2.",
+  "agent_visual_review": "not_performed",
+  "user_review": "pending",
+  "logo": {
+    "file": "assets/logo/harda-logo-full.png",
+    "placement": [
+      48,
+      19,
+      218,
+      71
+    ],
+    "method": "original PNG with own alpha; no backing patch"
+  },
+  "phone_source": {
+    "file": "carousels/LW-CAR-0031/production-assets/approved-phone-hand-foreground.png",
+    "crop": [
+      0,
+      522,
+      1080,
+      1350
+    ],
+    "scale": "1:1"
+  },
+  "remote_save": {
+    "remote": "origin",
+    "branch": "claude/charming-einstein-xgejky",
+    "status": "commit_and_push_requested",
+    "commit_lookup": "git log -1 -- carousels/LW-CAR-0065/manifest.json"
+  },
+  "slides": [
+    {
+      "slide": 1,
+      "role": "hook",
+      "content_version": "1.0",
+      "exact_text": [
+        "WEAK",
+        "GLUTES?"
+      ],
+      "file": "outputs/slide-01.png",
+      "prompt_file": "prompts/slide-01.txt",
+      "references": [
+        "carousels/LW-CAR-0031/outputs/slide-01.png"
+      ],
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-29T08:33:40.318771+00:00",
+          "prompt_file": "prompts/slide-01.txt",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0031/outputs/slide-01.png"
+          ],
+          "finished_at": "2026-10-29T08:34:11.646599+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-03ab92fb-b4b2-4553-96e7-d5c7af70d78d.png",
+          "raw_result_format": {
+            "size": [
+              1122,
+              1402
+            ],
+            "mode": "RGB"
+          },
+          "result_file": "outputs/slide-01.png",
+          "export": {
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "alpha": false
+          }
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_to_repository_checkout",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 2,
+      "role": "map",
+      "content_version": "1.0",
+      "exact_text": [
+        "Let's Fix That",
+        "GLUTE MAX",
+        "GLUTE MEDIUS",
+        "LOWER GLUTES",
+        "HAMSTRINGS"
+      ],
+      "file": "outputs/slide-02.png",
+      "prompt_file": "prompts/slide-02.txt",
+      "references": [
+        "carousels/LW-CAR-0031/outputs/slide-02.png"
+      ],
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "error",
+          "started_at": "2026-10-29T08:34:25.942821+00:00",
+          "prompt_file": "prompts/slide-02.txt",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0031/outputs/slide-02.png"
+          ],
+          "finished_at": "2026-10-29T08:35:11.364339+00:00",
+          "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 056341ca-bebe-48c5-8dfb-a9e496901aab. safety_violations=[sexual].\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"sexual\\\"\\n      ]\\n    }\\n  }\\n}\")"
+        }
+      ],
+      "errors": [
+        "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 056341ca-bebe-48c5-8dfb-a9e496901aab. safety_violations=[sexual].\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"sexual\\\"\\n      ]\\n    }\\n  }\\n}\")"
+      ],
+      "save_status": "interrupted",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 3,
+      "role": "list item 1",
+      "content_version": "1.0",
+      "exact_text": [
+        "1",
+        "Glute Max",
+        "2-3 Sets x 8-12 Reps",
+        "Squeeze hard at the top. Don't arch your lower back to get there.",
+        "Hip Thrust",
+        "OR",
+        "Glute Bridge"
+      ],
+      "file": "outputs/slide-03.png",
+      "prompt_file": "prompts/slide-03.txt",
+      "references": [
+        "carousels/LW-CAR-0031/outputs/slide-03.png"
+      ],
+      "attempts": [],
+      "errors": [],
+      "save_status": "not_started",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 4,
+      "role": "list item 2",
+      "content_version": "1.0",
+      "exact_text": [
+        "2",
+        "Glute Medius",
+        "2-3 Sets x 12-20 Reps",
+        "It shapes the side of your hips. Lean forward a little on the machine.",
+        "Abductor Machine",
+        "OR",
+        "Cable Hip Abduction"
+      ],
+      "file": "outputs/slide-04.png",
+      "prompt_file": "prompts/slide-04.txt",
+      "references": [
+        "carousels/LW-CAR-0031/outputs/slide-04.png"
+      ],
+      "attempts": [],
+      "errors": [],
+      "save_status": "not_started",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 5,
+      "role": "list item 3",
+      "content_version": "1.0",
+      "exact_text": [
+        "3",
+        "Lower Glutes",
+        "2-3 Sets x 8-12 Reps",
+        "Lean your torso forward and go deep for more glutes.",
+        "Bulgarian Split Squat",
+        "OR",
+        "Reverse Lunge"
+      ],
+      "file": "outputs/slide-05.png",
+      "prompt_file": "prompts/slide-05.txt",
+      "references": [
+        "carousels/LW-CAR-0031/outputs/slide-05.png"
+      ],
+      "attempts": [],
+      "errors": [],
+      "save_status": "not_started",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 6,
+      "role": "list item 4",
+      "content_version": "1.0",
+      "exact_text": [
+        "4",
+        "Hamstrings",
+        "2-3 Sets x 8-12 Reps",
+        "Your glutes and hamstrings work together in every hinge. Train both.",
+        "Single-Leg RDL",
+        "OR",
+        "45° Back Extension"
+      ],
+      "file": "outputs/slide-06.png",
+      "prompt_file": "prompts/slide-06.txt",
+      "references": [
+        "carousels/LW-CAR-0031/outputs/slide-06.png"
+      ],
+      "attempts": [],
+      "errors": [],
+      "save_status": "not_started",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 7,
+      "role": "bonus tip",
+      "content_version": "1.0",
+      "exact_text": [
+        "Bonus Tip",
+        "Squats help, but most people need a hip thrust or a lunge to really grow their glutes."
+      ],
+      "file": "outputs/slide-07.png",
+      "prompt_file": "prompts/slide-07.txt",
+      "references": [
+        "carousels/LW-CAR-0031/outputs/slide-07.png"
+      ],
+      "attempts": [],
+      "errors": [],
+      "save_status": "not_started",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 8,
+      "role": "product ending",
+      "content_version": "1.0",
+      "exact_text": [
+        "Is Your Lower Body Getting Enough Work?",
+        "Log your workouts in Harda.",
+        "See how many sets your legs get compared to every other muscle."
+      ],
+      "file": "outputs/slide-08.png",
+      "prompt_file": "prompts/slide-08.txt",
+      "references": [
+        "carousels/LW-CAR-0031/outputs/slide-08.png"
+      ],
+      "attempts": [],
+      "errors": [],
+      "save_status": "not_started",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    }
+  ],
+  "archive": "LW-CAR-0065-1080x1350.zip"
+}
