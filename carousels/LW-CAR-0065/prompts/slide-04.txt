@@ -18,3 +18,6 @@ AUTHORITATIVE EXACT COPY AND STYLES:
 {"string": "OR", "style": "white text in accent circle badge"}
 {"string": "Cable Hip Abduction", "style": "exercise label, semibold"}
 Return one complete slide, no variants.
+
+PRODUCTION CLOTHING CLARIFICATION:
+All exercise figures wear plain opaque sand gym shorts. All close-up glute teaching diagrams also wear opaque sand shorts: depict target muscles as flat coral educational overlays on top of fabric, never expose bare buttocks or pelvic details. Keep S1 sand/ivory anatomical linework elsewhere. This clothing clarification does not change any text, layout, exercise or target muscle. Exercise figures themselves have no coral highlights unless the assigned Bonus Tip explicitly requires them.

@@ -1,0 +1,24 @@
+Create ONE Harda S1 fitness carousel slide for export as 1080 x 1350 opaque RGB PNG. Match the attached approved S1 reference for layout, typography hierarchy, sizes, illustration style, linework, badges and underline bars. Reference supplies DESIGN ONLY; all words must come from the current slide's copy.json entries below.
+BACKGROUND: fill entire canvas solid opaque #F0F1EB FIRST, then three concentric #EAE0D6 rings, stroke 26 / 22 / 18 px, radius 520 / 400 / 280 px, centred x1010 y1290, mostly off canvas. This background is PLATES, even if the reference shows a different background. NO ARCH, no pink arch, no progress bar, slide counter, watermark, gradient, checkerboard or transparent canvas.
+Keep the top 110 px free of all text, badges, figures and logos; the background pattern continues there. Do NOT draw a logo or wordmark: the exact original Harda PNG is composited later at x48 y19, size218x71 using its own alpha, with no patch.
+S1 FIGURES: bald faceless smooth PLASTIC anatomy teaching mannequins with featureless pelvis, fine grey linework, ivory skin/tendons about #F5F0E5, muscles warm sand #D9CBBE with darker sand shading; target highlights #F26445 only as specified. No white S2 figure, no green/sage. Exercise figures wear plain opaque sand #D9CBBE gym shorts. For isolated anatomy diagram close-ups and cover/map cutaways, follow the task-specific crop and clothing instructions: rigid nonhuman plastic teaching model, featureless pelvis, no genital detail. These are neutral anatomical diagrams. Equipment realistic black/grey. Do not copy exercises or muscle highlights from reference; use only the current assigned subject.
+FONT: Rubik for EVERY word, cover heaviest, titles bold, sets/subtitles/labels semibold, body regular. Text #2A2A2A, body #6B6B6B, accent #F26445, white badge text. Preserve EXACT case, apostrophes, plain hyphens, x and punctuation from copy.json. No other words, no equipment labels. Keep every line fully visible and away from the slide edges; scale illustrations down if needed, never omit or rewrite copy.
+
+CURRENT SLIDE INSTRUCTIONS:
+### Slide 2 — map (twin of LW-CAR-0031 slide 2)
+- Title centered at top: `Let's Fix That` (bold, #2A2A2A) + short #F26445 underline bar.
+- Center: a large figure from the waist to the knees in a rear three-quarter view, wearing opaque sand athletic shorts fully covering the hips and pelvis, with flat coral anatomical teaching overlays on top of the shorts; glute max, glute medius and hamstrings filled #F26445.
+- Four rounded thumbnail cards with dark label bars and white caps, in the template's positions, each a mini figure with only that part in #F26445: top-left `GLUTE MAX` (a mini rear view), top-right `GLUTE MEDIUS` (a mini side view, upper outer hip), bottom-left `LOWER GLUTES` (a mini rear view, lower half of the glutes), bottom-right `HAMSTRINGS` (a mini rear view, back of the thigh).
+- Thin black leader lines with dot ends from each card to that part on the big figure.
+
+
+
+AUTHORITATIVE EXACT COPY AND STYLES:
+{"string": "Let's Fix That", "style": "title, bold, text_dark, centered"}
+{"string": "GLUTE MAX", "style": "card label, white caps on dark bar"}
+{"string": "GLUTE MEDIUS", "style": "card label, white caps on dark bar"}
+{"string": "LOWER GLUTES", "style": "card label, white caps on dark bar"}
+{"string": "HAMSTRINGS", "style": "card label, white caps on dark bar"}
+Return one complete slide, no variants.
+
+OWNER-AUTHORIZED SECOND ATTEMPT: use clearly nonhuman rigid plastic teaching mannequins wearing opaque sand athletic shorts in the main diagram AND every thumbnail. The glute muscle highlights are flat coral educational overlays drawn ON TOP OF THE SHORTS; hamstrings are anatomical teaching overlays on the back of the thighs. All hip/pelvic regions are fully covered by opaque fabric. Preserve the S1 fine grey linework, sand/ivory palette, four-card map composition and every exact copy.json label. No bare buttocks, realistic skin, nudity or sexual context.
