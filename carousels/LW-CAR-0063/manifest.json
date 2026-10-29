@@ -3,15 +3,15 @@
   "content_version": "1.0",
   "source_commit": "007b67fb50912f3fad71e4418f44c33449119b0a",
   "batch": "BATCH-H",
-  "batch_status": "stopped_after_error",
+  "batch_status": "carousel_complete",
   "design_style": "S1",
   "background": "GRID",
   "brand": "Harda",
-  "status": "incomplete_interrupted",
-  "carousel_complete": false,
-  "generated_images": 6,
-  "next_slide_to_generate": 7,
-  "next_action": "Push current progress and stop. Next slide to generate: 7.",
+  "status": "complete_pending_owner_review",
+  "carousel_complete": true,
+  "generated_images": 8,
+  "next_slide_to_generate": null,
+  "next_action": "Continue next BATCH-H carousel without review pause. Owner reviews at end.",
   "agent_visual_review": "not_performed",
   "user_review": "pending",
   "logo": {
@@ -367,7 +367,7 @@
         "Leg day is the day most people skip. Just showing up every week puts you ahead."
       ],
       "file": "outputs/slide-07.png",
-      "prompt_file": "prompts/slide-07.txt",
+      "prompt_file": "prompts/slide-07-attempt-02.txt",
       "references": [
         "carousels/LW-CAR-0031/outputs/slide-07.png"
       ],
@@ -377,19 +377,50 @@
           "tool": "image_gen.imagegen",
           "status": "error",
           "started_at": "2026-10-28T12:09:40.021456+00:00",
-          "prompt_file": "prompts/slide-07.txt",
+          "prompt_file": "prompts/slide-07-attempt-01.txt",
           "transparent_background": false,
           "referenced_image_paths": [
             "/workspace/lightweight-carousels/carousels/LW-CAR-0031/outputs/slide-07.png"
           ],
           "finished_at": "2026-10-28T12:10:09.521870+00:00",
           "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID c7ae3df7-a1ed-4012-a89d-e42cbd38da3a. safety_violations=[sexual].\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"sexual\\\"\\n      ]\\n    }\\n  }\\n}\")"
+        },
+        {
+          "attempt": 2,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-29T08:22:31.949411+00:00",
+          "prompt_file": "prompts/slide-07-attempt-02.txt",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0031/outputs/slide-07.png"
+          ],
+          "authorization": "Owner: you can make one more try and continue to generate",
+          "clothing_adjustment": "Opaque sand athletic top and mid-thigh shorts; coral instructional overlays on quads/calves",
+          "finished_at": "2026-10-29T08:23:29.421958+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-cb8f71d1-f58d-4757-bd71-5c5bcf39384f.png",
+          "raw_result_format": {
+            "size": [
+              1122,
+              1402
+            ],
+            "mode": "RGB"
+          },
+          "result_file": "outputs/slide-07.png",
+          "export": {
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "alpha": false
+          }
         }
       ],
       "errors": [
         "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID c7ae3df7-a1ed-4012-a89d-e42cbd38da3a. safety_violations=[sexual].\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"sexual\\\"\\n      ]\\n    }\\n  }\\n}\")"
       ],
-      "save_status": "interrupted",
+      "save_status": "saved_to_repository_checkout",
       "agent_visual_review": "not_performed",
       "user_review": "pending"
     },
@@ -407,11 +438,63 @@
       "references": [
         "carousels/LW-CAR-0031/outputs/slide-08.png"
       ],
-      "attempts": [],
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-29T08:23:40.957197+00:00",
+          "prompt_file": "prompts/slide-08.txt",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0031/outputs/slide-08.png"
+          ],
+          "finished_at": "2026-10-29T08:24:25.127013+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-03ccb1e9-6056-4e96-863d-cf3734ecc7ca.png",
+          "raw_result_format": {
+            "size": [
+              1122,
+              1402
+            ],
+            "mode": "RGB"
+          },
+          "result_file": "outputs/slide-08.png",
+          "export": {
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "alpha": false
+          }
+        }
+      ],
       "errors": [],
-      "save_status": "not_started",
+      "save_status": "saved_to_repository_checkout",
       "agent_visual_review": "not_performed",
-      "user_review": "pending"
+      "user_review": "pending",
+      "phone_compositing": {
+        "source": {
+          "file": "carousels/LW-CAR-0031/production-assets/approved-phone-hand-foreground.png",
+          "crop": [
+            0,
+            522,
+            1080,
+            1350
+          ],
+          "scale": "1:1"
+        },
+        "asset": "production-assets/approved-phone-hand-foreground.png",
+        "measured_text_bottom_exclusive": 637,
+        "placement": [
+          0,
+          687
+        ],
+        "minimum_gap": 50,
+        "scale": "1:1; no resampling",
+        "real_ui_generated": false,
+        "measurement": "raster ink extent solely for requested layout; no OCR or visual QA"
+      }
     }
   ],
   "archive": "LW-CAR-0063-1080x1350.zip"
