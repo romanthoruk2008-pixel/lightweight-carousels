@@ -1,0 +1,15 @@
+Create ONE Harda S2 fitness carousel slide, portrait for final opaque RGB PNG export1080x1350. Attached owner-approved slides give only DESIGN: the same heavy tight lowercase grotesk, flat coral#F26445 marker behind lower half of headline words, dark#2A2A2A text, clean regular dark body type, italic regular grey#6B6B6B subtitles. Solid opaque CLEAN#F0F1EB background, no arch, texture, card behind text, gradient, slide counter, signature or watermark.
+Keep top110px completely empty of foreground objects, text and logos. Do not draw any logo or wordmark: the exact original transparent Harda PNG is composited at x48,y19,size218x71 afterward, own alpha and no patch.
+S2 mannequin is nonhuman, realistic WHITE/LIGHT-GREY, bald smooth faceless head, fine grey anatomical shading/linework, featureless smooth pelvis, opaque loose charcoal#2A2A2A shorts fully covering hips. Equipment black/grey. No sand/beige S1 figure, no coloured muscles, no clothing or decorative props inherited from reference. Only explicitly specified arrows or effect marks may be coral. Plain unlabelled props. Phones in exercise scenes show their BACK, never any screen or UI.
+Preserve every exact string from copy.json including lowercase, curly apostrophes, commas, periods, colon, parentheses and hyphens. Render NO other words or numbers; never copy reference wording. All text fully visible within generous safe margins, keep figures below text. Long headline may wrap onto two lines, with a coral marker under each line; never abbreviate copy. No stars or rating icons, music notes, extra labels, OR badges or counters.
+
+CURRENT SLIDE LAYOUT:
+ITEM: same layout every time. Unhighlighted heavy dark #N number precedes very heavy lowercase headline with coral marker behind HEADLINE ONLY. Regular dark body below. Then a small BOLD CORAL do: label followed by the exact tip in regular dark text, as in second reference. No fix: label, no words from references. Lower55%: big white S2 figure with only these required equipment/props: seated cable row, finishing a rep, focused, side view. No coloured muscles. Keep ALL three text components clear of illustration and within edges.
+
+AUTHORITATIVE EXACT COPY AND STYLES:
+{"string": "#4", "style": "label before the headline, heaviest weight, text_dark"}
+{"string": "add a rep before you add weight", "style": "heaviest weight, lowercase, text_dark on an accent marker bar"}
+{"string": "small wins every week turn into big ones.", "style": "regular, text_dark, up to two lines"}
+{"string": "do:", "style": "bold, lowercase, accent"}
+{"string": "hit the top of your rep range, then go heavier.", "style": "regular, text_dark, after 'do:'"}
+Return one complete slide, not a contact sheet.

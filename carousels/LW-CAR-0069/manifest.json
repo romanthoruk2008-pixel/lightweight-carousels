@@ -1,0 +1,572 @@
+{
+  "carousel_id": "LW-CAR-0069",
+  "content_version": "1.0",
+  "source_commit": "a55e3b434550d142c6b20c909bbf7c5d48f6f7e6",
+  "batch": "BATCH-H",
+  "batch_status": "carousel_complete",
+  "design_style": "S2",
+  "background": "CLEAN",
+  "brand": "Harda",
+  "status": "complete_pending_owner_review",
+  "carousel_complete": true,
+  "generated_images": 9,
+  "next_slide_to_generate": null,
+  "next_action": "BATCH-H generation complete; owner reviews returned results. Do not start unassigned batches.",
+  "agent_visual_review": "not_performed",
+  "user_review": "pending",
+  "logo": {
+    "file": "assets/logo/harda-logo-full.png",
+    "placement": [
+      48,
+      19,
+      218,
+      71
+    ],
+    "method": "original PNG with own alpha, no backing patch"
+  },
+  "phone_source": {
+    "file": "carousels/LW-CAR-0022/outputs/slide-19.png",
+    "crop": [
+      0,
+      725,
+      1080,
+      1350
+    ],
+    "scale": "1:1",
+    "mask": "External background flood-filled outside original dark silhouette; original foreground RGB unchanged; no UI generation"
+  },
+  "remote_save": {
+    "remote": "origin",
+    "branch": "claude/charming-einstein-xgejky",
+    "status": "commit_and_push_requested",
+    "commit_lookup": "git log -1 -- carousels/LW-CAR-0069/manifest.json"
+  },
+  "slides": [
+    {
+      "slide": 1,
+      "role": "hook",
+      "content_version": "1.0",
+      "exact_text": [
+        "gym tips that feel",
+        "illegal to know",
+        "(save this before your next workout)"
+      ],
+      "file": "outputs/slide-01.png",
+      "prompt_file": "prompts/slide-01.txt",
+      "references": [
+        "carousels/LW-CAR-0022/outputs/slide-01.png"
+      ],
+      "illustration": "front view from the thighs up, holding a small closed notebook to the chest and looking around sneakily, one finger raised in front of the face in a 'shh' gesture",
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-30T16:36:17.689739+00:00",
+          "prompt_file": "prompts/slide-01.txt",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0022/outputs/slide-01.png"
+          ],
+          "retry_policy": "Owner 2026-10-30: at most two additional attempts per failed slide; then continue other slides/packages",
+          "finished_at": "2026-10-30T16:36:43.494225+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-c136371a-f66c-4bce-8bfd-3895ac5f8d08.png",
+          "raw_result_format": {
+            "size": [
+              1122,
+              1402
+            ],
+            "mode": "RGB"
+          },
+          "result_file": "outputs/slide-01.png",
+          "export": {
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "alpha": false
+          }
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_to_repository_checkout",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 2,
+      "role": "item 1",
+      "content_version": "1.0",
+      "exact_text": [
+        "#1",
+        "slow down the way down",
+        "same weight, way harder. no extra plates needed.",
+        "do:",
+        "take two seconds to lower every rep."
+      ],
+      "file": "outputs/slide-02.png",
+      "prompt_file": "prompts/slide-02.txt",
+      "references": [
+        "carousels/LW-CAR-0029/outputs/slide-02.png",
+        "carousels/LW-CAR-0052/outputs/slide-02.png"
+      ],
+      "illustration": "flat dumbbell bench press, lowering the dumbbells slowly, small #F26445 down arrow beside the arms, side three-quarter view",
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-30T16:37:02.331147+00:00",
+          "prompt_file": "prompts/slide-02.txt",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0029/outputs/slide-02.png",
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0052/outputs/slide-02.png"
+          ],
+          "retry_policy": "Owner 2026-10-30: at most two additional attempts per failed slide; then continue other slides/packages",
+          "finished_at": "2026-10-30T16:38:17.752115+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-5a1f88a6-a5f6-4c85-ac7b-ae17522c95d0.png",
+          "raw_result_format": {
+            "size": [
+              1122,
+              1402
+            ],
+            "mode": "RGB"
+          },
+          "result_file": "outputs/slide-02.png",
+          "export": {
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "alpha": false
+          }
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_to_repository_checkout",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 3,
+      "role": "item 2",
+      "content_version": "1.0",
+      "exact_text": [
+        "#2",
+        "film one set from the side",
+        "your form looks different from how it feels.",
+        "do:",
+        "check your depth and your back on video."
+      ],
+      "file": "outputs/slide-03.png",
+      "prompt_file": "prompts/slide-03.txt",
+      "references": [
+        "carousels/LW-CAR-0029/outputs/slide-02.png",
+        "carousels/LW-CAR-0052/outputs/slide-02.png"
+      ],
+      "illustration": "barbell back squat at the bottom, a phone on a small tripod filming from the side (screen not visible), side view",
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-30T16:38:46.704558+00:00",
+          "prompt_file": "prompts/slide-03.txt",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0029/outputs/slide-02.png",
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0052/outputs/slide-02.png"
+          ],
+          "retry_policy": "Owner 2026-10-30: at most two additional attempts per failed slide; then continue other slides/packages",
+          "finished_at": "2026-10-30T16:39:19.288312+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-58e6ae7f-ac33-47d0-ab83-2173a141fe5e.png",
+          "raw_result_format": {
+            "size": [
+              1122,
+              1402
+            ],
+            "mode": "RGB"
+          },
+          "result_file": "outputs/slide-03.png",
+          "export": {
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "alpha": false
+          }
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_to_repository_checkout",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 4,
+      "role": "item 3",
+      "content_version": "1.0",
+      "exact_text": [
+        "#3",
+        "write down every set",
+        "you can’t beat last week if you don’t remember it.",
+        "do:",
+        "log the weight and reps after each set."
+      ],
+      "file": "outputs/slide-04.png",
+      "prompt_file": "prompts/slide-04.txt",
+      "references": [
+        "carousels/LW-CAR-0029/outputs/slide-02.png",
+        "carousels/LW-CAR-0052/outputs/slide-02.png"
+      ],
+      "illustration": "sitting on a flat bench between sets, typing on a phone held in both hands (screen not visible), front three-quarter view",
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-30T16:39:39.270095+00:00",
+          "prompt_file": "prompts/slide-04.txt",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0029/outputs/slide-02.png",
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0052/outputs/slide-02.png"
+          ],
+          "retry_policy": "Owner 2026-10-30: at most two additional attempts per failed slide; then continue other slides/packages",
+          "finished_at": "2026-10-30T16:40:43.178086+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-465deb85-a9e7-48fa-ae05-f5dc806a4a0e.png",
+          "raw_result_format": {
+            "size": [
+              1122,
+              1402
+            ],
+            "mode": "RGB"
+          },
+          "result_file": "outputs/slide-04.png",
+          "export": {
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "alpha": false
+          }
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_to_repository_checkout",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 5,
+      "role": "item 4",
+      "content_version": "1.0",
+      "exact_text": [
+        "#4",
+        "add a rep before you add weight",
+        "small wins every week turn into big ones.",
+        "do:",
+        "hit the top of your rep range, then go heavier."
+      ],
+      "file": "outputs/slide-05.png",
+      "prompt_file": "prompts/slide-05.txt",
+      "references": [
+        "carousels/LW-CAR-0029/outputs/slide-02.png",
+        "carousels/LW-CAR-0052/outputs/slide-02.png"
+      ],
+      "illustration": "seated cable row, finishing a rep, focused, side view",
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-30T16:41:05.351214+00:00",
+          "prompt_file": "prompts/slide-05.txt",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0029/outputs/slide-02.png",
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0052/outputs/slide-02.png"
+          ],
+          "retry_policy": "Owner 2026-10-30: at most two additional attempts per failed slide; then continue other slides/packages",
+          "finished_at": "2026-10-30T16:41:33.390055+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-fcad4348-c2a8-4b43-9f73-0c16c82e0ed6.png",
+          "raw_result_format": {
+            "size": [
+              1122,
+              1402
+            ],
+            "mode": "RGB"
+          },
+          "result_file": "outputs/slide-05.png",
+          "export": {
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "alpha": false
+          }
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_to_repository_checkout",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 6,
+      "role": "item 5",
+      "content_version": "1.0",
+      "exact_text": [
+        "#5",
+        "rest longer on big lifts",
+        "rushing makes your next set weaker.",
+        "do:",
+        "rest two to three minutes on squats and presses."
+      ],
+      "file": "outputs/slide-06.png",
+      "prompt_file": "prompts/slide-06.txt",
+      "references": [
+        "carousels/LW-CAR-0029/outputs/slide-02.png",
+        "carousels/LW-CAR-0052/outputs/slide-02.png"
+      ],
+      "illustration": "sitting on a bench next to a loaded squat rack, calm, drinking from a plain water bottle, front view",
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-30T16:41:55.053156+00:00",
+          "prompt_file": "prompts/slide-06.txt",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0029/outputs/slide-02.png",
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0052/outputs/slide-02.png"
+          ],
+          "retry_policy": "Owner 2026-10-30: at most two additional attempts per failed slide; then continue other slides/packages",
+          "finished_at": "2026-10-30T16:43:18.030196+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-b6a961a9-f5a3-4ea1-ab07-26114bd4f870.png",
+          "raw_result_format": {
+            "size": [
+              1122,
+              1402
+            ],
+            "mode": "RGB"
+          },
+          "result_file": "outputs/slide-06.png",
+          "export": {
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "alpha": false
+          }
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_to_repository_checkout",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 7,
+      "role": "item 6",
+      "content_version": "1.0",
+      "exact_text": [
+        "#6",
+        "train your weakest muscle first",
+        "you have the most energy at the start.",
+        "do:",
+        "put the muscle you skip at the top of your workout."
+      ],
+      "file": "outputs/slide-07.png",
+      "prompt_file": "prompts/slide-07.txt",
+      "references": [
+        "carousels/LW-CAR-0029/outputs/slide-02.png",
+        "carousels/LW-CAR-0052/outputs/slide-02.png"
+      ],
+      "illustration": "standing calf raise machine, up on the toes, side view",
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-30T16:43:45.238253+00:00",
+          "prompt_file": "prompts/slide-07.txt",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0029/outputs/slide-02.png",
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0052/outputs/slide-02.png"
+          ],
+          "retry_policy": "Owner 2026-10-30: at most two additional attempts per failed slide; then continue other slides/packages",
+          "finished_at": "2026-10-30T16:44:27.601895+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-e86f40f4-331f-4e55-86b1-6966a2bcb4b7.png",
+          "raw_result_format": {
+            "size": [
+              1122,
+              1402
+            ],
+            "mode": "RGB"
+          },
+          "result_file": "outputs/slide-07.png",
+          "export": {
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "alpha": false
+          }
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_to_repository_checkout",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 8,
+      "role": "item 7",
+      "content_version": "1.0",
+      "exact_text": [
+        "#7",
+        "leave one rep in the tank",
+        "most sets don’t need to go to failure to work.",
+        "do:",
+        "stop when the next rep would break your form."
+      ],
+      "file": "outputs/slide-08.png",
+      "prompt_file": "prompts/slide-08.txt",
+      "references": [
+        "carousels/LW-CAR-0029/outputs/slide-02.png",
+        "carousels/LW-CAR-0052/outputs/slide-02.png"
+      ],
+      "illustration": "standing barbell curl, the bar at the top, controlled, front view",
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-30T16:44:48.916302+00:00",
+          "prompt_file": "prompts/slide-08.txt",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0029/outputs/slide-02.png",
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0052/outputs/slide-02.png"
+          ],
+          "retry_policy": "Owner 2026-10-30: at most two additional attempts per failed slide; then continue other slides/packages",
+          "finished_at": "2026-10-30T16:45:30.764086+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-3f65c2ad-4dad-4e57-bb9a-371f308361e3.png",
+          "raw_result_format": {
+            "size": [
+              1122,
+              1402
+            ],
+            "mode": "RGB"
+          },
+          "result_file": "outputs/slide-08.png",
+          "export": {
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "alpha": false
+          }
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_to_repository_checkout",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 9,
+      "role": "product ending",
+      "content_version": "1.0",
+      "exact_text": [
+        "harda tracks every set you lift, so you always know what to beat.",
+        "log your workouts and add one rep next time."
+      ],
+      "file": "outputs/slide-09.png",
+      "prompt_file": "prompts/slide-09.txt",
+      "references": [
+        "carousels/LW-CAR-0022/outputs/slide-19.png"
+      ],
+      "illustration": "hand + phone",
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-30T16:46:09.496029+00:00",
+          "prompt_file": "prompts/slide-09.txt",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0022/outputs/slide-19.png"
+          ],
+          "retry_policy": "Owner 2026-10-30: at most two additional attempts per failed slide; then continue other slides/packages",
+          "finished_at": "2026-10-30T16:46:43.489590+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-7eccd2c2-7aa1-4255-bddd-ce14174f742e.png",
+          "raw_result_format": {
+            "size": [
+              1122,
+              1402
+            ],
+            "mode": "RGB"
+          },
+          "result_file": "outputs/slide-09.png",
+          "export": {
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "alpha": false
+          }
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_to_repository_checkout",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending",
+      "phone_compositing": {
+        "source": {
+          "file": "carousels/LW-CAR-0022/outputs/slide-19.png",
+          "crop": [
+            0,
+            725,
+            1080,
+            1350
+          ],
+          "scale": "1:1",
+          "mask": "External background flood-filled outside original dark silhouette; original foreground RGB unchanged; no UI generation"
+        },
+        "asset": "production-assets/approved-phone-hand-foreground.png",
+        "measured_text_bottom_exclusive": 908,
+        "placement": [
+          0,
+          958
+        ],
+        "minimum_gap": 50,
+        "scale": "1:1; no resampling",
+        "real_ui_generated": false,
+        "measurement": "raster ink extent solely for requested layout; no OCR or visual QA"
+      }
+    }
+  ],
+  "archive": "LW-CAR-0069-1080x1350.zip",
+  "missing_slides": [],
+  "retry_policy": {
+    "max_additional_attempts": 2,
+    "max_total_attempts": 3,
+    "continue_after_exhaustion": true,
+    "owner_directive": "2026-10-30"
+  }
+}
