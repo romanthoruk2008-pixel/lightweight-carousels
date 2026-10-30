@@ -1,0 +1,13 @@
+Create ONE Harda S1 STRUCTURE-series fitness carousel slide, portrait for export at 1080x1350 opaque RGB. Attached approved LW-CAR-0009 slide gives the layout, sizes, type hierarchy, linework and S1 drawing style ONLY. REPLACE every word and exercise with the current authoritative copy and task details below.
+BACKGROUND: solid opaque #F0F1EB FIRST, then thin #E1E2DA grid lines, 2px every 54px, across the canvas. This carousel uses GRID. NO ARCH: completely remove the large pale pink arch visible on the OLD reference. No progress bar, slide counter, watermark, signature, gradient or checkerboard.
+Leave the top110px empty of all text, figures, badges and logos. Do not draw any logo or wordmark: original transparent Harda PNG is composited later at x48,y19,size218x71 using its own alpha, without a backing patch.
+S1 figure: adult bald faceless PLASTIC anatomical teaching mannequin, smooth featureless pelvis, fine grey linework, sand #D9CBBE muscle forms, ivory #F5F0E5 tendons, darker sand shading. Plain opaque sand gym shorts on all exercise/hip-visible figures. Target highlights coral #F26445 ONLY where this slide explicitly requests them; ordinary exercise figures all sand with no highlights. Equipment black/grey, plain and unlabelled. Keep the S1 style, never the white S2 mannequin. Neutral exercise instruction.
+Rubik for ALL text: heaviest cover, bold headings, regular body and sets lines. Dark#2A2A2A, body grey#6B6B6B, coral#F26445. Copy EXACT case, punctuation, apostrophes, hyphens, x, plus signs and brackets from copy.json. No extra words from templates. Keep every line inside safe margins, fully visible and separate from illustrations. Long exercise labels may wrap, never shorten them.
+
+CURRENT SLIDE:
+PRODUCT ENDING TEXT PLATE: same left-aligned heading scale and short coral bar as the template. Render ONLY the two exact copy.json strings with their specified colors. First string dark #2A2A2A; second coral #F26445. Keep case, periods and every word. Wrap long headings neatly within safe margins below y150, comfortably above y800. DO NOT generate phone, hand, screen, app UI, chart or placeholder. Leave the entire lower foreground empty. The ORIGINAL approved phone/hand pixels from the reference are composited later at 1:1 scale below the measured last text row with a50px gap. The phone may extend off the bottom edge. No arch.
+
+AUTHORITATIVE EXACT COPY AND STYLES:
+{"string": "Track Your Arm Day.", "style": "headline line 1, heaviest Rubik, text_dark, left-aligned"}
+{"string": "See If Your Arms Keep Up.", "style": "headline line 2, heaviest Rubik, accent, left-aligned"}
+Return one complete slide, no variants.

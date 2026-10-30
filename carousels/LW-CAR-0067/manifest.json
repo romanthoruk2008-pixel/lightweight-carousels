@@ -1,0 +1,502 @@
+{
+  "carousel_id": "LW-CAR-0067",
+  "content_version": "1.0",
+  "source_commit": "0875c6ba09ed490e19d289d21ad46331b0326513",
+  "batch": "BATCH-H",
+  "batch_status": "carousel_complete",
+  "design_style": "S1",
+  "background": "GRID",
+  "brand": "Harda",
+  "status": "complete_pending_owner_review",
+  "carousel_complete": true,
+  "generated_images": 8,
+  "next_slide_to_generate": null,
+  "next_action": "Continue next assigned BATCH-H carousel. Preserve missing slides for later recovery; no review pause.",
+  "agent_visual_review": "not_performed",
+  "user_review": "pending",
+  "logo": {
+    "file": "assets/logo/harda-logo-full.png",
+    "placement": [
+      48,
+      19,
+      218,
+      71
+    ],
+    "method": "original PNG with own alpha, no backing patch"
+  },
+  "phone_source": {
+    "file": "carousels/LW-CAR-0009/outputs/slide-08.png",
+    "crop": [
+      0,
+      424,
+      1080,
+      1350
+    ],
+    "scale": "1:1",
+    "mask": "External background flood-filled outside original dark silhouette; original foreground RGB unchanged; no UI generation"
+  },
+  "remote_save": {
+    "remote": "origin",
+    "branch": "claude/charming-einstein-xgejky",
+    "status": "commit_and_push_requested",
+    "commit_lookup": "git log -1 -- carousels/LW-CAR-0067/manifest.json"
+  },
+  "slides": [
+    {
+      "slide": 1,
+      "role": "hook",
+      "content_version": "1.0",
+      "exact_text": [
+        "STRUCTURE",
+        "THE PERFECT",
+        "ARM DAY"
+      ],
+      "file": "outputs/slide-01.png",
+      "prompt_file": "prompts/slide-01.txt",
+      "references": [
+        "carousels/LW-CAR-0009/outputs/slide-01.png"
+      ],
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-30T16:14:32.429596+00:00",
+          "prompt_file": "prompts/slide-01.txt",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0009/outputs/slide-01.png"
+          ],
+          "retry_policy": "Owner 2026-10-30: at most two additional attempts per failed slide; then continue other slides/packages",
+          "finished_at": "2026-10-30T16:15:34.218349+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-80171ea6-b0a7-4abb-b280-ed6ecd8f53b6.png",
+          "raw_result_format": {
+            "size": [
+              1092,
+              1440
+            ],
+            "mode": "RGB"
+          },
+          "result_file": "outputs/slide-01.png",
+          "export": {
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "alpha": false
+          }
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_to_repository_checkout",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 2,
+      "role": "overview checklist",
+      "content_version": "1.0",
+      "exact_text": [
+        "Your Arm Day\nShould Include:",
+        "1x Biceps (Stretched Curl)",
+        "1x Triceps (Overhead)",
+        "1x Brachialis (Hammer Curl)",
+        "1x Triceps (Pushdown)",
+        "1x Forearms"
+      ],
+      "file": "outputs/slide-02.png",
+      "prompt_file": "prompts/slide-02.txt",
+      "references": [
+        "carousels/LW-CAR-0009/outputs/slide-02.png"
+      ],
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-30T16:15:56.026677+00:00",
+          "prompt_file": "prompts/slide-02.txt",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0009/outputs/slide-02.png"
+          ],
+          "retry_policy": "Owner 2026-10-30: at most two additional attempts per failed slide; then continue other slides/packages",
+          "finished_at": "2026-10-30T16:16:37.226475+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-db965eeb-af45-4849-8cce-c34a6fa16bce.png",
+          "raw_result_format": {
+            "size": [
+              1122,
+              1402
+            ],
+            "mode": "RGB"
+          },
+          "result_file": "outputs/slide-02.png",
+          "export": {
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "alpha": false
+          }
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_to_repository_checkout",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 3,
+      "role": "list item #1",
+      "content_version": "1.0",
+      "exact_text": [
+        "#1",
+        "Biceps",
+        "2-3 sets x 8-12 reps",
+        "Choose one of these exercises to build your biceps:",
+        "Incline Dumbbell Curl",
+        "Preacher Curl"
+      ],
+      "file": "outputs/slide-03.png",
+      "prompt_file": "prompts/slide-03.txt",
+      "references": [
+        "carousels/LW-CAR-0009/outputs/slide-03.png"
+      ],
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-30T16:16:54.677261+00:00",
+          "prompt_file": "prompts/slide-03.txt",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0009/outputs/slide-03.png"
+          ],
+          "retry_policy": "Owner 2026-10-30: at most two additional attempts per failed slide; then continue other slides/packages",
+          "finished_at": "2026-10-30T16:17:39.907570+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-be837ddd-68a9-4118-99b5-6223d0b70af1.png",
+          "raw_result_format": {
+            "size": [
+              1092,
+              1440
+            ],
+            "mode": "RGB"
+          },
+          "result_file": "outputs/slide-03.png",
+          "export": {
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "alpha": false
+          }
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_to_repository_checkout",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 4,
+      "role": "list item #2",
+      "content_version": "1.0",
+      "exact_text": [
+        "#2",
+        "Overhead Triceps",
+        "2-3 sets x 8-12 reps",
+        "Choose one of these exercises to stretch your triceps:",
+        "Overhead Cable Extension",
+        "Dumbbell Overhead Extension"
+      ],
+      "file": "outputs/slide-04.png",
+      "prompt_file": "prompts/slide-04.txt",
+      "references": [
+        "carousels/LW-CAR-0009/outputs/slide-04.png"
+      ],
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-30T16:17:58.524362+00:00",
+          "prompt_file": "prompts/slide-04.txt",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0009/outputs/slide-04.png"
+          ],
+          "retry_policy": "Owner 2026-10-30: at most two additional attempts per failed slide; then continue other slides/packages",
+          "finished_at": "2026-10-30T16:18:58.729634+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-2ad37c51-04e1-4186-b2f3-e6464006df44.png",
+          "raw_result_format": {
+            "size": [
+              1092,
+              1440
+            ],
+            "mode": "RGB"
+          },
+          "result_file": "outputs/slide-04.png",
+          "export": {
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "alpha": false
+          }
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_to_repository_checkout",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 5,
+      "role": "list item #3",
+      "content_version": "1.0",
+      "exact_text": [
+        "#3",
+        "Brachialis",
+        "2-3 sets x 10-12 reps",
+        "Choose one of these exercises to thicken your arms:",
+        "Hammer Curl",
+        "Rope Hammer Curl"
+      ],
+      "file": "outputs/slide-05.png",
+      "prompt_file": "prompts/slide-05.txt",
+      "references": [
+        "carousels/LW-CAR-0009/outputs/slide-05.png"
+      ],
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-30T16:19:16.767011+00:00",
+          "prompt_file": "prompts/slide-05.txt",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0009/outputs/slide-05.png"
+          ],
+          "retry_policy": "Owner 2026-10-30: at most two additional attempts per failed slide; then continue other slides/packages",
+          "finished_at": "2026-10-30T16:20:07.691428+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-17e4df86-da8a-4d0f-a247-3ee1623fc795.png",
+          "raw_result_format": {
+            "size": [
+              1122,
+              1402
+            ],
+            "mode": "RGB"
+          },
+          "result_file": "outputs/slide-05.png",
+          "export": {
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "alpha": false
+          }
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_to_repository_checkout",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 6,
+      "role": "list item #4",
+      "content_version": "1.0",
+      "exact_text": [
+        "#4",
+        "Triceps",
+        "2-3 sets x 10-15 reps",
+        "Choose one of these exercises to finish your triceps:",
+        "Rope Pushdown",
+        "Bar Pushdown"
+      ],
+      "file": "outputs/slide-06.png",
+      "prompt_file": "prompts/slide-06.txt",
+      "references": [
+        "carousels/LW-CAR-0009/outputs/slide-06.png"
+      ],
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-30T16:20:26.779054+00:00",
+          "prompt_file": "prompts/slide-06.txt",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0009/outputs/slide-06.png"
+          ],
+          "retry_policy": "Owner 2026-10-30: at most two additional attempts per failed slide; then continue other slides/packages",
+          "finished_at": "2026-10-30T16:21:11.986186+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-ff5e1d1f-389f-4548-9257-7d43884956d4.png",
+          "raw_result_format": {
+            "size": [
+              1092,
+              1440
+            ],
+            "mode": "RGB"
+          },
+          "result_file": "outputs/slide-06.png",
+          "export": {
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "alpha": false
+          }
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_to_repository_checkout",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 7,
+      "role": "list item #5",
+      "content_version": "1.0",
+      "exact_text": [
+        "#5",
+        "Forearms",
+        "2-3 sets x 12-20 reps",
+        "Choose one of these exercises to grow your forearms:",
+        "Wrist Curl",
+        "Reverse Curl"
+      ],
+      "file": "outputs/slide-07.png",
+      "prompt_file": "prompts/slide-07.txt",
+      "references": [
+        "carousels/LW-CAR-0009/outputs/slide-07.png"
+      ],
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-30T16:21:31.799522+00:00",
+          "prompt_file": "prompts/slide-07.txt",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0009/outputs/slide-07.png"
+          ],
+          "retry_policy": "Owner 2026-10-30: at most two additional attempts per failed slide; then continue other slides/packages",
+          "finished_at": "2026-10-30T16:22:14.710278+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-4ec95a49-fb24-4d28-8f0d-945bbf713da6.png",
+          "raw_result_format": {
+            "size": [
+              1122,
+              1402
+            ],
+            "mode": "RGB"
+          },
+          "result_file": "outputs/slide-07.png",
+          "export": {
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "alpha": false
+          }
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_to_repository_checkout",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 8,
+      "role": "product ending",
+      "content_version": "1.0",
+      "exact_text": [
+        "Track Your Arm Day.",
+        "See If Your Arms Keep Up."
+      ],
+      "file": "outputs/slide-08.png",
+      "prompt_file": "prompts/slide-08.txt",
+      "references": [
+        "carousels/LW-CAR-0009/outputs/slide-08.png"
+      ],
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-30T16:22:35.705441+00:00",
+          "prompt_file": "prompts/slide-08.txt",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0009/outputs/slide-08.png"
+          ],
+          "retry_policy": "Owner 2026-10-30: at most two additional attempts per failed slide; then continue other slides/packages",
+          "finished_at": "2026-10-30T16:23:21.950843+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-58d2836a-3152-4f86-b57e-2ff1805c4a85.png",
+          "raw_result_format": {
+            "size": [
+              1122,
+              1402
+            ],
+            "mode": "RGB"
+          },
+          "result_file": "outputs/slide-08.png",
+          "export": {
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "alpha": false
+          }
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_to_repository_checkout",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending",
+      "phone_compositing": {
+        "source": {
+          "file": "carousels/LW-CAR-0009/outputs/slide-08.png",
+          "crop": [
+            0,
+            424,
+            1080,
+            1350
+          ],
+          "scale": "1:1",
+          "mask": "External background flood-filled outside original dark silhouette; original foreground RGB unchanged; no UI generation"
+        },
+        "asset": "production-assets/approved-phone-hand-foreground.png",
+        "measured_text_bottom_exclusive": 420,
+        "placement": [
+          0,
+          470
+        ],
+        "minimum_gap": 50,
+        "scale": "1:1; no resampling",
+        "real_ui_generated": false,
+        "measurement": "raster ink extent solely for requested layout; no OCR or visual QA"
+      }
+    }
+  ],
+  "archive": "LW-CAR-0067-1080x1350.zip",
+  "missing_slides": [],
+  "retry_policy": {
+    "max_additional_attempts": 2,
+    "max_total_attempts": 3,
+    "continue_after_exhaustion": true,
+    "owner_directive": "2026-10-30"
+  }
+}
