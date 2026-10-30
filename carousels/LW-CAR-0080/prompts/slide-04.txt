@@ -1,0 +1,25 @@
+Produce ONE Harda S2 fitness carousel slide, portrait for final opaque RGB PNG export1080x1350. Approved reference images supply DESIGN ONLY: extremely heavy tightly spaced lowercase grotesk headlines, coral#F26445 marker bars behind the lower half of requested headline words, dark#2A2A2A clean regular body text, regular italic grey#6B6B6B sets/subtitle lines. Solid opaque CLEAN#F0F1EB background with NO texture, arch, gradient, progress bar, slide counter, watermark or signature. Do not use the sand S1 figure or uppercase Rubik design.
+Keep the top110px completely empty of foreground: no logo, icon, text, badges or figures there. The original transparent Harda logo PNG is composited later at x48,y19,size218x71, own alpha with no patch. Do not draw a wordmark or logo.
+S2 figures: adult nonhuman WHITE/LIGHT-GREY realistic anatomical teaching mannequins, bald faceless heads, fine grey shading, smooth featureless pelvis. Every figure wears opaque loose charcoal#2A2A2A gym shorts fully covering hips. Show only neutral standing poses or the assigned exercise, never a close physique pose. Equipment plain black/grey with no readable labels. Highlight muscles coral ONLY when the current task row explicitly requests it; otherwise all muscles white/light-grey. Do not copy reference poses, exercise choices or muscle highlights.
+All visible words must be the EXACT current-slide copy.json strings below. Preserve lowercase, hyphens, curly apostrophes, colons, question marks, commas and periods exactly. No words, stars, ratings or label lines from references unless explicitly present in the current copy. Every line fully visible within safe margins, separate from figures; long labels may wrap but never shorten text. Generate only this one requested slide, not all layouts or slides described in context.
+
+TASK LAYOUT CONTEXT (use only the applicable current-slide layout):
+## Item slide layout (slides 2–6, one identical layout)
+- Copy the layout of the approved `carousels/LW-CAR-0029/outputs/slide-02.png`: label and headline in the heaviest lowercase grotesk #2A2A2A with the #F26445 marker bar behind the headline only, body line in regular #2A2A2A, then (where the table has one) the small bold #F26445 label followed by its text in regular #2A2A2A. Lower ~55%: the big white figure from the table.
+- After the body line, the small bold #F26445 label `do:` followed by the tip in regular #2A2A2A, as on the approved `carousels/LW-CAR-0052/outputs/slide-02.png`.
+- On slides 2–5 the figure does the exercise **with the named muscles filled #F26445**. Slide 6 has no coloured muscles.
+- **Figures always wear the opaque #2A2A2A shorts and are shown doing an exercise or standing in a neutral pose**, never in a close physique pose. If a slide is rejected by the safety system, follow the retry rule in `carousels/CODEX-SERIES-RULES.md`.
+
+
+
+CURRENT SLIDE:
+CURRENT SLIDE TYPE: item 3. Follow only its applicable layout from the task context below. Use ONLY the current exact copy; do not add a fix:, do:, star row or badge if absent from copy. Figures/props and left/right order are exactly this task table row:
+| 4 | item | `#3` `upper back` (marker) / `a thick upper back makes your whole frame look bigger.` / `do:` `rows and face pulls.` | seated cable row with a wide bar, rear three-quarter view; **upper back, traps and rear delts filled #F26445** |
+
+AUTHORITATIVE EXACT COPY AND STYLES:
+{"string": "#3", "style": "label before the headline, heaviest weight, text_dark"}
+{"string": "upper back", "style": "heaviest weight, lowercase, text_dark on an accent marker bar"}
+{"string": "a thick upper back makes your whole frame look bigger.", "style": "regular, text_dark, up to two lines"}
+{"string": "do:", "style": "bold, lowercase, accent"}
+{"string": "rows and face pulls.", "style": "regular, text_dark, after 'do:'"}
+Return one complete slide, no variants.
