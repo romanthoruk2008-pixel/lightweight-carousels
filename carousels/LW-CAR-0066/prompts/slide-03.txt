@@ -1,0 +1,25 @@
+Create ONE Harda S1 STRUCTURE-series fitness carousel slide, portrait for export at 1080x1350 opaque RGB. Attached approved LW-CAR-0009 slide gives the layout, sizes, type hierarchy, linework and S1 drawing style ONLY. REPLACE every word and exercise with the current authoritative copy and task details below.
+BACKGROUND: solid opaque #F0F1EB FIRST, then plain solid background, nothing else. This carousel uses CLEAN. NO ARCH: completely remove the large pale pink arch visible on the OLD reference. No progress bar, slide counter, watermark, signature, gradient or checkerboard.
+Leave the top110px empty of all text, figures, badges and logos. Do not draw any logo or wordmark: original transparent Harda PNG is composited later at x48,y19,size218x71 using its own alpha, without a backing patch.
+S1 figure: adult bald faceless PLASTIC anatomical teaching mannequin, smooth featureless pelvis, fine grey linework, sand #D9CBBE muscle forms, ivory #F5F0E5 tendons, darker sand shading. Plain opaque sand gym shorts on all exercise/hip-visible figures. Target highlights coral #F26445 ONLY where this slide explicitly requests them; ordinary exercise figures all sand with no highlights. Equipment black/grey, plain and unlabelled. Keep the S1 style, never the white S2 mannequin. Neutral exercise instruction.
+Rubik for ALL text: heaviest cover, bold headings, regular body and sets lines. Dark#2A2A2A, body grey#6B6B6B, coral#F26445. Copy EXACT case, punctuation, apostrophes, hyphens, x, plus signs and brackets from copy.json. No extra words from templates. Keep every line inside safe margins, fully visible and separate from illustrations. Long exercise labels may wrap, never shorten them.
+
+CURRENT SLIDE:
+### Slides 3–7 — list template (twin of LW-CAR-0009 slides 3–7)
+- Top-left: big bold `#N` in #F26445 with a short #F26445 underline bar under it. To its right, the title (bold, #2A2A2A), and under the title the sets line (regular, #6B6B6B).
+- Under the header, left-aligned: one sentence in regular #6B6B6B, up to two lines.
+- Bottom ~55%: two full-body figures doing the exercises side by side, separated by a thin vertical #F26445 line. Labels under each, regular #2A2A2A.
+
+
+Current row columns: Slide | Number | Title | Sets line | Sentence | Left exercise/label | Right exercise/label
+| 3 | `#1` | `Chest` | `2-3 sets x 6-10 reps` | `Choose one of these exercises to build your chest:` | dumbbell press on an incline bench, front three-quarter view — `Incline Dumbbell Press` | seated chest press machine, handles pressed forward, side view — `Machine Chest Press` |
+Match the template: large coral #N top-left and coral underline under it; title and regular grey sets line to its right. Grey sentence below. Two exercise figures in the lower55%, separated by one THIN VERTICAL CORAL LINE, with labels underneath. No OR badge, circular number badge, close-up muscle inset or additional words. All exercise figures all sand with NO coral muscle highlights.
+
+AUTHORITATIVE EXACT COPY AND STYLES:
+{"string": "#1", "style": "big number, bold, accent"}
+{"string": "Chest", "style": "title, bold, text_dark"}
+{"string": "2-3 sets x 6-10 reps", "style": "sets line, regular, text_body_grey"}
+{"string": "Choose one of these exercises to build your chest:", "style": "body, regular, text_body_grey, two lines"}
+{"string": "Incline Dumbbell Press", "style": "left exercise label"}
+{"string": "Machine Chest Press", "style": "right exercise label"}
+Return one complete slide, no variants.
