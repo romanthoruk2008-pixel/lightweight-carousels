@@ -1,0 +1,253 @@
+{
+  "carousel_id": "LW-CAR-0077",
+  "content_version": "1.0",
+  "status": "frozen",
+  "type": "original",
+  "design_style": "S2",
+  "language": "en",
+  "background": "CLEAN",
+  "font_family": "REF-008 look: heavy tight grotesk for headlines, clean sans for body, italic for tier lines",
+  "colors": {
+    "accent": "#F26445",
+    "background": "#F0F1EB",
+    "text_dark": "#2A2A2A",
+    "text_body_grey": "#6B6B6B",
+    "white": "#FFFFFF"
+  },
+  "source": {
+    "ref_id": null,
+    "note": "Our STRUCTURE series (LW-CAR-0002 / 0009) in the new S2 look (owner request 2026-10-30).",
+    "layout_from": "carousels/LW-CAR-0022/outputs (owner-approved S2, Harda logo)"
+  },
+  "caption": {
+    "text": "Build your perfect chest day: pick one exercise from each slot. Save this for your next chest day 📌 Which one would you swap? 👇 #chestday #chestworkout #gymtips #workoutplan",
+    "notes": "comment prompt"
+  },
+  "slides": [
+    {
+      "n": 1,
+      "role": "hook",
+      "text": [
+        {
+          "string": "structure the perfect",
+          "style": "cover line 1, lowercase, heaviest weight, text_dark"
+        },
+        {
+          "string": "chest day",
+          "style": "cover line 2, lowercase, heaviest weight, text_dark on an accent marker bar"
+        },
+        {
+          "string": "(pick one from each slot)",
+          "style": "italic, regular, text_body_grey"
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "role": "checklist",
+      "text": [
+        {
+          "string": "your chest day",
+          "style": "title line 1, lowercase, heaviest weight, text_dark"
+        },
+        {
+          "string": "should include:",
+          "style": "title line 2, lowercase, heaviest weight, text_dark on an accent marker bar"
+        },
+        {
+          "string": "1x upper chest (incline press)",
+          "style": "bullet; '1x' bold accent, muscle word bold text_dark, bracket regular text_body_grey"
+        },
+        {
+          "string": "1x mid chest (flat press)",
+          "style": "bullet; '1x' bold accent, muscle word bold text_dark, bracket regular text_body_grey"
+        },
+        {
+          "string": "1x lower chest (dips)",
+          "style": "bullet; '1x' bold accent, muscle word bold text_dark, bracket regular text_body_grey"
+        },
+        {
+          "string": "1x chest squeeze (fly)",
+          "style": "bullet; '1x' bold accent, muscle word bold text_dark, bracket regular text_body_grey"
+        },
+        {
+          "string": "1x triceps (pushdown)",
+          "style": "bullet; '1x' bold accent, muscle word bold text_dark, bracket regular text_body_grey"
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "role": "slot 1",
+      "text": [
+        {
+          "string": "#1",
+          "style": "label before the headline, heaviest weight, text_dark"
+        },
+        {
+          "string": "upper chest",
+          "style": "heaviest weight, lowercase, text_dark on an accent marker bar"
+        },
+        {
+          "string": "2-3 sets x 6-10 reps",
+          "style": "italic, regular, text_body_grey"
+        },
+        {
+          "string": "choose one of these to build your upper chest:",
+          "style": "regular, text_dark, up to two lines"
+        },
+        {
+          "string": "incline db press",
+          "style": "left exercise label, bold lowercase, text_dark"
+        },
+        {
+          "string": "incline smith press",
+          "style": "right exercise label, bold lowercase, text_dark"
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "role": "slot 2",
+      "text": [
+        {
+          "string": "#2",
+          "style": "label before the headline, heaviest weight, text_dark"
+        },
+        {
+          "string": "mid chest",
+          "style": "heaviest weight, lowercase, text_dark on an accent marker bar"
+        },
+        {
+          "string": "2-3 sets x 6-10 reps",
+          "style": "italic, regular, text_body_grey"
+        },
+        {
+          "string": "choose one of these to build your whole chest:",
+          "style": "regular, text_dark, up to two lines"
+        },
+        {
+          "string": "barbell bench press",
+          "style": "left exercise label, bold lowercase, text_dark"
+        },
+        {
+          "string": "machine chest press",
+          "style": "right exercise label, bold lowercase, text_dark"
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "role": "slot 3",
+      "text": [
+        {
+          "string": "#3",
+          "style": "label before the headline, heaviest weight, text_dark"
+        },
+        {
+          "string": "lower chest",
+          "style": "heaviest weight, lowercase, text_dark on an accent marker bar"
+        },
+        {
+          "string": "2-3 sets x 8-12 reps",
+          "style": "italic, regular, text_body_grey"
+        },
+        {
+          "string": "choose one of these to build your lower chest:",
+          "style": "regular, text_dark, up to two lines"
+        },
+        {
+          "string": "dips",
+          "style": "left exercise label, bold lowercase, text_dark"
+        },
+        {
+          "string": "high-to-low cable fly",
+          "style": "right exercise label, bold lowercase, text_dark"
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "role": "slot 4",
+      "text": [
+        {
+          "string": "#4",
+          "style": "label before the headline, heaviest weight, text_dark"
+        },
+        {
+          "string": "chest squeeze",
+          "style": "heaviest weight, lowercase, text_dark on an accent marker bar"
+        },
+        {
+          "string": "2-3 sets x 10-15 reps",
+          "style": "italic, regular, text_body_grey"
+        },
+        {
+          "string": "choose one of these to finish your chest:",
+          "style": "regular, text_dark, up to two lines"
+        },
+        {
+          "string": "pec deck",
+          "style": "left exercise label, bold lowercase, text_dark"
+        },
+        {
+          "string": "seated cable fly",
+          "style": "right exercise label, bold lowercase, text_dark"
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "role": "slot 5",
+      "text": [
+        {
+          "string": "#5",
+          "style": "label before the headline, heaviest weight, text_dark"
+        },
+        {
+          "string": "triceps",
+          "style": "heaviest weight, lowercase, text_dark on an accent marker bar"
+        },
+        {
+          "string": "2-3 sets x 10-15 reps",
+          "style": "italic, regular, text_body_grey"
+        },
+        {
+          "string": "choose one of these to finish your triceps:",
+          "style": "regular, text_dark, up to two lines"
+        },
+        {
+          "string": "rope pushdown",
+          "style": "left exercise label, bold lowercase, text_dark"
+        },
+        {
+          "string": "overhead cable extension",
+          "style": "right exercise label, bold lowercase, text_dark"
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "role": "product ending",
+      "text": [
+        {
+          "string": "harda tracks every set of your chest day and shows if your chest keeps up.",
+          "style": "large, lowercase, heaviest weight, text_dark; accent marker bars under 'every set' and 'your chest keeps up'"
+        },
+        {
+          "string": "log your workouts and check your muscle balance.",
+          "style": "regular, text_dark, two lines"
+        }
+      ],
+      "screen": "real Harda Progress / Muscle balance screenshot, the same one as in approved LW-CAR-0022 slide 19",
+      "product_claims_checked_against_real_screen": [
+        "workouts are logged",
+        "muscle balance screen (LW-CAR-0022 slide 19)"
+      ]
+    }
+  ],
+  "claims_to_verify": [
+    "Practical plan only, no numbers or citations beyond sets and reps.",
+    "Ending: workout logging and the Muscle balance screen (Chest axis)."
+  ]
+}

@@ -1,0 +1,253 @@
+{
+  "carousel_id": "LW-CAR-0078",
+  "content_version": "1.0",
+  "status": "frozen",
+  "type": "original",
+  "design_style": "S2",
+  "language": "en",
+  "background": "CLEAN",
+  "font_family": "REF-008 look: heavy tight grotesk for headlines, clean sans for body, italic for tier lines",
+  "colors": {
+    "accent": "#F26445",
+    "background": "#F0F1EB",
+    "text_dark": "#2A2A2A",
+    "text_body_grey": "#6B6B6B",
+    "white": "#FFFFFF"
+  },
+  "source": {
+    "ref_id": null,
+    "note": "Our STRUCTURE series (LW-CAR-0002 / 0009 / 0072) in the new S2 look (owner request 2026-10-30).",
+    "layout_from": "carousels/LW-CAR-0022/outputs (owner-approved S2, Harda logo)"
+  },
+  "caption": {
+    "text": "Build your perfect back day: pick one exercise from each slot. Save this for your next back day 📌 Which one would you swap? 👇 #backday #backworkout #gymtips #workoutplan",
+    "notes": "comment prompt"
+  },
+  "slides": [
+    {
+      "n": 1,
+      "role": "hook",
+      "text": [
+        {
+          "string": "structure the perfect",
+          "style": "cover line 1, lowercase, heaviest weight, text_dark"
+        },
+        {
+          "string": "back day",
+          "style": "cover line 2, lowercase, heaviest weight, text_dark on an accent marker bar"
+        },
+        {
+          "string": "(pick one from each slot)",
+          "style": "italic, regular, text_body_grey"
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "role": "checklist",
+      "text": [
+        {
+          "string": "your back day",
+          "style": "title line 1, lowercase, heaviest weight, text_dark"
+        },
+        {
+          "string": "should include:",
+          "style": "title line 2, lowercase, heaviest weight, text_dark on an accent marker bar"
+        },
+        {
+          "string": "1x lats (vertical pull)",
+          "style": "bullet; '1x' bold accent, muscle word bold text_dark, bracket regular text_body_grey"
+        },
+        {
+          "string": "1x upper back (row)",
+          "style": "bullet; '1x' bold accent, muscle word bold text_dark, bracket regular text_body_grey"
+        },
+        {
+          "string": "1x lats (single arm)",
+          "style": "bullet; '1x' bold accent, muscle word bold text_dark, bracket regular text_body_grey"
+        },
+        {
+          "string": "1x rear delts (fly)",
+          "style": "bullet; '1x' bold accent, muscle word bold text_dark, bracket regular text_body_grey"
+        },
+        {
+          "string": "1x lower back (extension)",
+          "style": "bullet; '1x' bold accent, muscle word bold text_dark, bracket regular text_body_grey"
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "role": "slot 1",
+      "text": [
+        {
+          "string": "#1",
+          "style": "label before the headline, heaviest weight, text_dark"
+        },
+        {
+          "string": "lats",
+          "style": "heaviest weight, lowercase, text_dark on an accent marker bar"
+        },
+        {
+          "string": "2-3 sets x 6-10 reps",
+          "style": "italic, regular, text_body_grey"
+        },
+        {
+          "string": "choose one of these to widen your back:",
+          "style": "regular, text_dark, up to two lines"
+        },
+        {
+          "string": "lat pulldown",
+          "style": "left exercise label, bold lowercase, text_dark"
+        },
+        {
+          "string": "pull-ups",
+          "style": "right exercise label, bold lowercase, text_dark"
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "role": "slot 2",
+      "text": [
+        {
+          "string": "#2",
+          "style": "label before the headline, heaviest weight, text_dark"
+        },
+        {
+          "string": "upper back",
+          "style": "heaviest weight, lowercase, text_dark on an accent marker bar"
+        },
+        {
+          "string": "2-3 sets x 6-10 reps",
+          "style": "italic, regular, text_body_grey"
+        },
+        {
+          "string": "choose one of these to thicken your upper back:",
+          "style": "regular, text_dark, up to two lines"
+        },
+        {
+          "string": "chest-supported t-bar row",
+          "style": "left exercise label, bold lowercase, text_dark"
+        },
+        {
+          "string": "barbell row",
+          "style": "right exercise label, bold lowercase, text_dark"
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "role": "slot 3",
+      "text": [
+        {
+          "string": "#3",
+          "style": "label before the headline, heaviest weight, text_dark"
+        },
+        {
+          "string": "lats",
+          "style": "heaviest weight, lowercase, text_dark on an accent marker bar"
+        },
+        {
+          "string": "2-3 sets x 8-12 reps",
+          "style": "italic, regular, text_body_grey"
+        },
+        {
+          "string": "choose one of these to train each side on its own:",
+          "style": "regular, text_dark, up to two lines"
+        },
+        {
+          "string": "single-arm cable row",
+          "style": "left exercise label, bold lowercase, text_dark"
+        },
+        {
+          "string": "single-arm db row",
+          "style": "right exercise label, bold lowercase, text_dark"
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "role": "slot 4",
+      "text": [
+        {
+          "string": "#4",
+          "style": "label before the headline, heaviest weight, text_dark"
+        },
+        {
+          "string": "rear delts",
+          "style": "heaviest weight, lowercase, text_dark on an accent marker bar"
+        },
+        {
+          "string": "2-3 sets x 12-20 reps",
+          "style": "italic, regular, text_body_grey"
+        },
+        {
+          "string": "choose one of these to finish your rear delts:",
+          "style": "regular, text_dark, up to two lines"
+        },
+        {
+          "string": "reverse pec deck",
+          "style": "left exercise label, bold lowercase, text_dark"
+        },
+        {
+          "string": "face pull",
+          "style": "right exercise label, bold lowercase, text_dark"
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "role": "slot 5",
+      "text": [
+        {
+          "string": "#5",
+          "style": "label before the headline, heaviest weight, text_dark"
+        },
+        {
+          "string": "lower back",
+          "style": "heaviest weight, lowercase, text_dark on an accent marker bar"
+        },
+        {
+          "string": "2-3 sets x 10-15 reps",
+          "style": "italic, regular, text_body_grey"
+        },
+        {
+          "string": "choose one of these to strengthen your lower back:",
+          "style": "regular, text_dark, up to two lines"
+        },
+        {
+          "string": "back extension",
+          "style": "left exercise label, bold lowercase, text_dark"
+        },
+        {
+          "string": "romanian deadlift",
+          "style": "right exercise label, bold lowercase, text_dark"
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "role": "product ending",
+      "text": [
+        {
+          "string": "harda tracks every set of your back day and shows if your back keeps up.",
+          "style": "large, lowercase, heaviest weight, text_dark; accent marker bars under 'every set' and 'your back keeps up'"
+        },
+        {
+          "string": "log your workouts and check your muscle balance.",
+          "style": "regular, text_dark, two lines"
+        }
+      ],
+      "screen": "real Harda Progress / Muscle balance screenshot, the same one as in approved LW-CAR-0022 slide 19",
+      "product_claims_checked_against_real_screen": [
+        "workouts are logged",
+        "muscle balance screen (LW-CAR-0022 slide 19)"
+      ]
+    }
+  ],
+  "claims_to_verify": [
+    "Practical plan only, no numbers or citations beyond sets and reps.",
+    "Ending: workout logging and the Muscle balance screen (Back axis)."
+  ]
+}
