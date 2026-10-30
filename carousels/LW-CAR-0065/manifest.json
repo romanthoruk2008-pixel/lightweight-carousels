@@ -3,15 +3,15 @@
   "content_version": "1.0",
   "source_commit": "4a41ca0ca48b00117d86e45d9100ab0fa465260a",
   "batch": "BATCH-H",
-  "batch_status": "stopped_after_error",
+  "batch_status": "carousel_complete",
   "design_style": "S1",
   "background": "PLATES",
   "brand": "Harda",
-  "status": "incomplete_interrupted",
-  "carousel_complete": false,
-  "generated_images": 6,
-  "next_slide_to_generate": 7,
-  "next_action": "Push current progress and stop. Next slide to generate: 7.",
+  "status": "complete_pending_owner_review",
+  "carousel_complete": true,
+  "generated_images": 8,
+  "next_slide_to_generate": null,
+  "next_action": "Continue next assigned BATCH-H carousel. Preserve missing slides for later recovery; no review pause.",
   "agent_visual_review": "not_performed",
   "user_review": "pending",
   "logo": {
@@ -388,7 +388,7 @@
         "Squats help, but most people need a hip thrust or a lunge to really grow their glutes."
       ],
       "file": "outputs/slide-07.png",
-      "prompt_file": "prompts/slide-07.txt",
+      "prompt_file": "prompts/slide-07-attempt-02.txt",
       "references": [
         "carousels/LW-CAR-0031/outputs/slide-07.png"
       ],
@@ -405,12 +405,42 @@
           ],
           "finished_at": "2026-10-29T14:33:36.074150+00:00",
           "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID a9e6a215-f86e-431a-bc12-35df9c3ef1fb. safety_violations=[sexual].\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"sexual\\\"\\n      ]\\n    }\\n  }\\n}\")"
+        },
+        {
+          "attempt": 2,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-30T16:00:35.289604+00:00",
+          "prompt_file": "prompts/slide-07-attempt-02.txt",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0031/outputs/slide-07.png"
+          ],
+          "retry_policy": "Owner 2026-10-30: at most two additional attempts per failed slide; then continue other slides/packages",
+          "finished_at": "2026-10-30T16:01:11.356155+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-d9a39da3-6e60-4d5b-ab13-d559b27c11a3.png",
+          "raw_result_format": {
+            "size": [
+              1122,
+              1402
+            ],
+            "mode": "RGB"
+          },
+          "result_file": "outputs/slide-07.png",
+          "export": {
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "alpha": false
+          }
         }
       ],
       "errors": [
         "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID a9e6a215-f86e-431a-bc12-35df9c3ef1fb. safety_violations=[sexual].\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"sexual\\\"\\n      ]\\n    }\\n  }\\n}\")"
       ],
-      "save_status": "interrupted",
+      "save_status": "saved_to_repository_checkout",
       "agent_visual_review": "not_performed",
       "user_review": "pending",
       "production_clothing_note": "All exercise figures wear plain opaque sand gym shorts. All close-up glute teaching diagrams also wear opaque sand shorts: depict target muscles as flat coral educational overlays on top of fabric, never expose bare buttocks or pelvic details. Keep S1 sand/ivory anatomical linework elsewhere. This clothing clarification does not change any text, layout, exercise or target muscle. Exercise figures themselves have no coral highlights unless the assigned Bonus Tip explicitly requires them."
@@ -429,12 +459,72 @@
       "references": [
         "carousels/LW-CAR-0031/outputs/slide-08.png"
       ],
-      "attempts": [],
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-30T16:01:29.378454+00:00",
+          "prompt_file": "prompts/slide-08.txt",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0031/outputs/slide-08.png"
+          ],
+          "retry_policy": "Owner 2026-10-30: at most two additional attempts per failed slide; then continue other slides/packages",
+          "finished_at": "2026-10-30T16:02:04.944330+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-03e8d1fe-be3b-443b-9ed3-f380ef9e02e5.png",
+          "raw_result_format": {
+            "size": [
+              1122,
+              1402
+            ],
+            "mode": "RGB"
+          },
+          "result_file": "outputs/slide-08.png",
+          "export": {
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "alpha": false
+          }
+        }
+      ],
       "errors": [],
-      "save_status": "not_started",
+      "save_status": "saved_to_repository_checkout",
       "agent_visual_review": "not_performed",
-      "user_review": "pending"
+      "user_review": "pending",
+      "phone_compositing": {
+        "source": {
+          "file": "carousels/LW-CAR-0031/production-assets/approved-phone-hand-foreground.png",
+          "crop": [
+            0,
+            522,
+            1080,
+            1350
+          ],
+          "scale": "1:1"
+        },
+        "asset": "production-assets/approved-phone-hand-foreground.png",
+        "measured_text_bottom_exclusive": 656,
+        "placement": [
+          0,
+          706
+        ],
+        "minimum_gap": 50,
+        "scale": "1:1; no resampling",
+        "real_ui_generated": false,
+        "measurement": "raster ink extent solely for requested layout; no OCR or visual QA"
+      }
     }
   ],
-  "archive": "LW-CAR-0065-1080x1350.zip"
+  "archive": "LW-CAR-0065-1080x1350.zip",
+  "missing_slides": [],
+  "retry_policy": {
+    "max_additional_attempts": 2,
+    "max_total_attempts": 3,
+    "continue_after_exhaustion": true,
+    "owner_directive": "2026-10-30"
+  }
 }

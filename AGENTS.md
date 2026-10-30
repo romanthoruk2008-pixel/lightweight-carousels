@@ -41,6 +41,12 @@ Before resuming, reconcile the log with actual outputs; do not blindly repeat in
 
 No default audit scripts or checksum passes are required. Record the output actually returned and whether its remote save succeeded. Keep not_run/not_performed for checks that did not happen. A successful save is not a visual review or owner approval. Temporary cloud paths are not durable storage.
 
+## Failure retries — owner directive 2026-10-30
+
+For each failed image-generation slide, make up to TWO additional attempts (three attempts total per slide), without pausing for permission. Use a meaningful supported correction, such as opaque sports clothing and neutral instructional overlays after a safety rejection; do not bypass safeguards. Preserve each prompt, error and attempt. Never regenerate a successful slide automatically, and do not add visual QA, OCR or reviewer passes.
+
+If both additional attempts fail, mark that slide failed_after_retries and the carousel incomplete, record the exact missing slide and blocker, then continue the remaining slides and subsequent assigned carousels/packages. Package, commit and push each carousel's actual results, including incomplete results. This directive overrides older batch/task wording that says to stop the whole batch on the first generation error. It does not authorize extra paid APIs, new unassigned batches or invented outputs.
+
 ## Generation boundaries
 
 Use built-in image_gen only where actually available. No paid API fallback has been agreed. On quota/unavailable tools, stop the package and save the exact next step. No automatic correction passes.

@@ -47,3 +47,11 @@ Each task file lists the reference slide URLs in the **real** order. Use that or
 - Manifest per slide: prompt, result file, attempts, errors, save status. Set `agent_visual_review` to `not_performed` and `user_review` to `pending`. Mark `approved` only after the owner says so.
 - No automatic QA, OCR, reviewer passes or automatic regenerations. Redo a slide only when the owner asks, and only that slide.
 - Slides marked BLOCKED in the task file wait for the owner. Generate everything else.
+
+
+## Failure retries — owner directive 2026-10-30
+
+For each failed image-generation slide, make up to TWO additional attempts (three attempts total per slide), without pausing for permission. Use a meaningful supported correction, such as opaque sports clothing and neutral instructional overlays after a safety rejection; do not bypass safeguards. Preserve each prompt, error and attempt. Never regenerate a successful slide automatically, and do not add visual QA, OCR or reviewer passes.
+
+If both additional attempts fail, mark that slide failed_after_retries and the carousel incomplete, record the exact missing slide and blocker, then continue the remaining slides and subsequent assigned carousels/packages. Package, commit and push each carousel's actual results, including incomplete results. This directive overrides older batch/task wording that says to stop the whole batch on the first generation error. It does not authorize extra paid APIs, new unassigned batches or invented outputs.
+

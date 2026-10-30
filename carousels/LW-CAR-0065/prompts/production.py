@@ -1,4 +1,4 @@
-"""Batch H production and exact-file layers; no visual QA, OCR or retries."""
+"""Batch H production and exact-file layers; no visual QA or OCR; at most two additional failure attempts."""
 import json
 import re
 import shutil
@@ -80,10 +80,29 @@ if action in ('start','save','error'):
     n = int(sys.argv[3])
     s = next(s for s in m['slides'] if s['slide']==n)
     if action == 'start':
-        if s['attempts'] or s['save_status'] != 'not_started':
-            raise RuntimeError('No automatic retry or overwrite')
+        count = len(s['attempts'])
+        if (root/s['file']).exists() or s['save_status']=='saved_to_repository_checkout':
+            raise RuntimeError('Never regenerate a saved slide automatically')
+        if count >= 3 or (count and s['attempts'][-1]['status'] != 'error'):
+            raise RuntimeError('Retry budget exhausted or attempt unresolved')
+        if not count and s['save_status'] != 'not_started':
+            raise RuntimeError('Reconcile unexpected slide state')
+        if count:
+            original = root/s['attempts'][0]['prompt_file']
+            retry_file = f'prompts/slide-{n:02d}-attempt-{count+1:02d}.txt'
+            if (root/retry_file).exists():
+                raise RuntimeError('Do not overwrite an existing attempt prompt')
+            if s['role']=='product ending':
+                correction = 'Simplify this to a clean text-only plate, with all exact words and requested hierarchy, ample spacing and no foreground objects below the final text line. The original real UI is inserted later. Do not copy reference text.'
+            elif count==1:
+                correction = 'Use an adult nonhuman sports teaching mannequin fully dressed in an opaque sand long-sleeve athletic top and full-length sand sports leggings. All hips, torso and legs are covered by fabric. Show specified target muscles only as flat coral instructional patches ON TOP OF CLOTHING. Preserve the exact specified exercise, neutral side/front view, layout, S1 linework/palette and every word. No exposed anatomical body or realistic skin.'
+            else:
+                correction = 'Use a simple neutral sports-instruction drawing of a faceless adult plastic figurine in a fully covering opaque sand tracksuit, full-length trousers and athletic shoes, with simplified joints and fine grey outlines. Use a flat coral patch on the clothing for the specified muscle target. Keep the same requested ordinary gym movement and equipment, shown neutrally from the side, the same layout and ALL exact copy. No exposed anatomy or skin. This is an exercise diagram, not a realistic human body.'
+            (root/retry_file).write_text(original.read_text()+'\nFAILURE RETRY CORRECTION — owner directive 2026-10-30:\n'+correction+'\n')
+            s['prompt_file'] = retry_file
         s['save_status'] = 'generation_in_progress'
-        s['attempts'].append(dict(attempt=1,tool='image_gen.imagegen',status='in_progress',started_at=now,prompt_file=s['prompt_file'],transparent_background=False,referenced_image_paths=[str(repo/p) for p in s['references']]))
+        s['attempts'].append(dict(attempt=count+1,tool='image_gen.imagegen',status='in_progress',started_at=now,prompt_file=s['prompt_file'],transparent_background=False,referenced_image_paths=[str(repo/p) for p in s['references']],retry_policy='Owner 2026-10-30: at most two additional attempts per failed slide; then continue other slides/packages'))
+        m.update(status='in_progress',batch_status='running_with_failure_retries',next_action='Finish remaining slides; after at most two additional failed attempts record the missing slide and continue the next carousel.')
     elif action == 'save':
         raw_path = Path(sys.argv[4])
         with Image.open(raw_path) as raw:
@@ -116,21 +135,24 @@ if action in ('start','save','error'):
     else:
         error = sys.argv[4]
         s['errors'].append(error)
-        s['save_status'] = 'interrupted'
+        s['save_status'] = 'failed_after_retries' if len(s['attempts'])>=3 else 'interrupted'
         s['attempts'][-1].update(status='error',finished_at=now,error=error)
-        m.update(status='incomplete_interrupted',batch_status='stopped_after_error',next_action=f'Push current progress and stop. Next slide to generate: {n}.')
+        m.update(status='in_progress',batch_status='running_with_failure_retries',next_action=f'Retry slide {n} up to three total attempts, then continue remaining slides and carousels; retain missing-slide status.')
     m['generated_images'] = sum(s['save_status']=='saved_to_repository_checkout' for s in m['slides'])
     m['next_slide_to_generate'] = next((s['slide'] for s in m['slides'] if s['save_status']!='saved_to_repository_checkout'),None)
     write(m)
     print(json.dumps(dict(carousel=cid,slide=n,action=action,saved=m['generated_images'],total=len(m['slides']))))
 elif action == 'package':
     complete = m['generated_images']==len(m['slides'])
-    m.update(carousel_complete=complete,status='complete_pending_owner_review' if complete else 'incomplete_interrupted',archive=cid+'-1080x1350.zip')
+    m.update(carousel_complete=complete,status='complete_pending_owner_review' if complete else 'incomplete_after_retries',archive=cid+'-1080x1350.zip')
     if complete:
         m.update(batch_status='carousel_complete',next_action='Continue next BATCH-H carousel without review pause. Owner reviews at end.')
+    m['missing_slides']=[s['slide'] for s in m['slides'] if s['save_status']!='saved_to_repository_checkout']
+    m['retry_policy']={'max_additional_attempts':2,'max_total_attempts':3,'continue_after_exhaustion':True,'owner_directive':'2026-10-30'}
+    m['next_action']='Continue next assigned BATCH-H carousel. Preserve missing slides for later recovery; no review pause.'
     m['remote_save'].update(status='commit_and_push_requested',commit_lookup='git log -1 -- carousels/'+cid+'/manifest.json')
     write(m)
-    (root/'handoff.md').write_text(f"# {cid} — BATCH-H\n\nSaved {m['generated_images']}/{len(m['slides'])} opaque RGB 1080x1350 slides from frozen copy v{m['content_version']}. Original Harda logo composited with own alpha, no patch. Caption verbatim. Actual prompts, source references, tool attempts, returned paths, errors and export status are in manifest.json.\n\nWhen generated, the ending must use original S1 phone/hand/real UI pixels at 1:1 below the measured text boundary with a 50px gap. An ungenerated ending is not claimed as saved.\n\nStatus: {m['status']}. agent_visual_review=not_performed; user_review=pending. No OCR, visual QA, reviewer pass or automatic regeneration.\n\nNext slide: {m['next_slide_to_generate']}. {m['next_action']}\n")
+    (root/'handoff.md').write_text(f"# {cid} — BATCH-H\n\nSaved {m['generated_images']}/{len(m['slides'])} opaque RGB 1080x1350 slides from frozen copy v{m['content_version']}. Original Harda logo composited with own alpha, no patch. Caption verbatim. Actual prompts, source references, tool attempts, returned paths, errors and export status are in manifest.json.\n\nWhen generated, the ending must use original S1 phone/hand/real UI pixels at 1:1 below the measured text boundary with a 50px gap. An ungenerated ending is not claimed as saved.\n\nStatus: {m['status']}. agent_visual_review=not_performed; user_review=pending. No OCR, visual QA or reviewer pass. At most two additional attempts after failure; successful slides are never automatically regenerated.\n\nNext slide: {m['next_slide_to_generate']}. {m['next_action']}\n")
     with zipfile.ZipFile(root/m['archive'],'w',compression=zipfile.ZIP_DEFLATED) as archive:
         for path in sorted(root.rglob('*')):
             if path.is_file() and path.suffix!='.zip' and '__pycache__' not in path.parts:
