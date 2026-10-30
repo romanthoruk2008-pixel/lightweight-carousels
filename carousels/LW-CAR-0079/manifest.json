@@ -1,0 +1,346 @@
+{
+  "carousel_id": "LW-CAR-0079",
+  "content_version": "1.0",
+  "source_commit": "87bdbf8ff657544ca05db6c22e7a200caf651f0d",
+  "batch": "BATCH-J",
+  "batch_status": "resuming_after_environment_restart",
+  "design_style": "S2",
+  "background": "CLEAN",
+  "brand": "Harda",
+  "status": "incomplete_environment_interruption",
+  "carousel_complete": false,
+  "generated_images": 2,
+  "next_slide_to_generate": 3,
+  "next_action": "Resume slide 3 with attempt 2 of at most 3; preserve existing slides 1-2, then finish this carousel and remaining BATCH-J packages.",
+  "agent_visual_review": "not_performed",
+  "user_review": "pending",
+  "logo": {
+    "file": "assets/logo/harda-logo-full.png",
+    "placement": [
+      48,
+      19,
+      218,
+      71
+    ],
+    "method": "original PNG with own alpha; no backing patch"
+  },
+  "phone_source": {
+    "file": "carousels/LW-CAR-0022/outputs/slide-19.png",
+    "crop": [
+      0,
+      725,
+      1080,
+      1350
+    ],
+    "scale": "1:1",
+    "mask": "External background flood-filled outside original dark silhouette; original foreground RGB unchanged; no UI generation",
+    "retained_foreground": "carousels/LW-CAR-0069/production-assets/approved-phone-hand-foreground.png"
+  },
+  "remote_save": {
+    "remote": "origin",
+    "branch": "claude/charming-einstein-xgejky",
+    "status": "commit_and_push_requested",
+    "commit_lookup": "git log -1 -- carousels/LW-CAR-0079/manifest.json"
+  },
+  "slides": [
+    {
+      "slide": 1,
+      "role": "hook",
+      "content_version": "1.0",
+      "exact_text": [
+        "structure the perfect",
+        "arm day",
+        "(pick one from each slot)"
+      ],
+      "file": "outputs/slide-01.png",
+      "prompt_file": "prompts/slide-01.txt",
+      "references": [
+        "carousels/LW-CAR-0022/outputs/slide-01.png"
+      ],
+      "illustration": "front view from the thighs up, doing a standing dumbbell curl with one arm at the top; biceps and triceps filled #F26445",
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-30T22:44:48.061291+00:00",
+          "prompt_file": "prompts/slide-01.txt",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0022/outputs/slide-01.png"
+          ],
+          "retry_policy": "Owner 2026-10-30: at most two additional attempts per failed slide; then continue other slides/packages",
+          "finished_at": "2026-10-30T22:45:10.284173+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-56424550-12fa-4620-86f4-57a4d81c6514.png",
+          "raw_result_format": {
+            "size": [
+              1122,
+              1402
+            ],
+            "mode": "RGB"
+          },
+          "result_file": "outputs/slide-01.png",
+          "export": {
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "alpha": false
+          }
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_to_repository_checkout",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 2,
+      "role": "checklist",
+      "content_version": "1.0",
+      "exact_text": [
+        "your arm day",
+        "should include:",
+        "1x biceps (stretched curl)",
+        "1x triceps (overhead)",
+        "1x brachialis (hammer curl)",
+        "1x triceps (pushdown)",
+        "1x forearms"
+      ],
+      "file": "outputs/slide-02.png",
+      "prompt_file": "prompts/slide-02.txt",
+      "references": [
+        "carousels/LW-CAR-0029/outputs/slide-02.png",
+        "carousels/LW-CAR-0022/outputs/slide-01.png"
+      ],
+      "illustration": "the white figure from the waist up, three-quarter side view, one arm bent at 90 degrees; biceps, triceps, brachialis and forearms filled #F26445",
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-30T22:45:14.864129+00:00",
+          "prompt_file": "prompts/slide-02.txt",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0029/outputs/slide-02.png",
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0022/outputs/slide-01.png"
+          ],
+          "retry_policy": "Owner 2026-10-30: at most two additional attempts per failed slide; then continue other slides/packages",
+          "finished_at": "2026-10-30T22:45:41.651514+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-7da9fed6-5a72-43aa-9389-c466359c0a6c.png",
+          "raw_result_format": {
+            "size": [
+              1122,
+              1402
+            ],
+            "mode": "RGB"
+          },
+          "result_file": "outputs/slide-02.png",
+          "export": {
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "alpha": false
+          }
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_to_repository_checkout",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 3,
+      "role": "slot 1",
+      "content_version": "1.0",
+      "exact_text": [
+        "#1",
+        "biceps",
+        "2-3 sets x 8-12 reps",
+        "choose one of these to build your biceps:",
+        "incline db curl",
+        "preacher curl"
+      ],
+      "file": "outputs/slide-03.png",
+      "prompt_file": "prompts/slide-03.txt",
+      "references": [
+        "carousels/LW-CAR-0029/outputs/slide-02.png",
+        "carousels/LW-CAR-0022/outputs/slide-03.png"
+      ],
+      "illustration": "left: seated on an incline bench, arms hanging back, curling two dumbbells, side view — `incline db curl`; right: seated at a preacher bench, curling an EZ bar, side view — `preacher curl`",
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "error",
+          "started_at": "2026-10-30T22:45:47.382777+00:00",
+          "prompt_file": "prompts/slide-03.txt",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0029/outputs/slide-02.png",
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0022/outputs/slide-03.png"
+          ],
+          "retry_policy": "Owner 2026-10-30: at most two additional attempts per failed slide; then continue other slides/packages",
+          "finished_at": "2026-10-30T22:47:18.011692+00:00",
+          "error": "Image generation call aborted during cloud environment restart: tool returned \"aborted by user after 42.2s\"; no returned image or newer raw file exists."
+        }
+      ],
+      "errors": [
+        "Image generation call aborted during cloud environment restart: tool returned \"aborted by user after 42.2s\"; no returned image or newer raw file exists."
+      ],
+      "save_status": "interrupted",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 4,
+      "role": "slot 2",
+      "content_version": "1.0",
+      "exact_text": [
+        "#2",
+        "triceps",
+        "2-3 sets x 8-12 reps",
+        "choose one of these to stretch your triceps:",
+        "overhead cable extension",
+        "db overhead extension"
+      ],
+      "file": "outputs/slide-04.png",
+      "prompt_file": "prompts/slide-04.txt",
+      "references": [
+        "carousels/LW-CAR-0029/outputs/slide-02.png",
+        "carousels/LW-CAR-0022/outputs/slide-03.png"
+      ],
+      "illustration": "left: facing away from a cable with a rope, extending the arms up overhead, side view — `overhead cable extension`; right: seated, one dumbbell held overhead in both hands, lowered behind the head, side view — `db overhead extension`",
+      "attempts": [],
+      "errors": [],
+      "save_status": "not_started",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 5,
+      "role": "slot 3",
+      "content_version": "1.0",
+      "exact_text": [
+        "#3",
+        "brachialis",
+        "2-3 sets x 10-12 reps",
+        "choose one of these to thicken your arms:",
+        "hammer curl",
+        "rope hammer curl"
+      ],
+      "file": "outputs/slide-05.png",
+      "prompt_file": "prompts/slide-05.txt",
+      "references": [
+        "carousels/LW-CAR-0029/outputs/slide-02.png",
+        "carousels/LW-CAR-0022/outputs/slide-03.png"
+      ],
+      "illustration": "left: standing hammer curl with dumbbells, palms facing in, front view — `hammer curl`; right: standing at a low cable with a rope, curling with palms facing in, front view — `rope hammer curl`",
+      "attempts": [],
+      "errors": [],
+      "save_status": "not_started",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 6,
+      "role": "slot 4",
+      "content_version": "1.0",
+      "exact_text": [
+        "#4",
+        "triceps",
+        "2-3 sets x 10-15 reps",
+        "choose one of these to finish your triceps:",
+        "rope pushdown",
+        "bar pushdown"
+      ],
+      "file": "outputs/slide-06.png",
+      "prompt_file": "prompts/slide-06.txt",
+      "references": [
+        "carousels/LW-CAR-0029/outputs/slide-02.png",
+        "carousels/LW-CAR-0022/outputs/slide-03.png"
+      ],
+      "illustration": "left: standing rope pushdown at a high pulley, elbows at the sides, front view — `rope pushdown`; right: standing straight-bar pushdown at a high pulley, elbows at the sides, front view — `bar pushdown`",
+      "attempts": [],
+      "errors": [],
+      "save_status": "not_started",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 7,
+      "role": "slot 5",
+      "content_version": "1.0",
+      "exact_text": [
+        "#5",
+        "forearms",
+        "2-3 sets x 12-20 reps",
+        "choose one of these to grow your forearms:",
+        "wrist curl",
+        "reverse curl"
+      ],
+      "file": "outputs/slide-07.png",
+      "prompt_file": "prompts/slide-07.txt",
+      "references": [
+        "carousels/LW-CAR-0029/outputs/slide-02.png",
+        "carousels/LW-CAR-0022/outputs/slide-03.png"
+      ],
+      "illustration": "left: seated, forearms resting on the thighs, curling a dumbbell with the wrist, side view — `wrist curl`; right: standing EZ-bar curl with an overhand grip, front view — `reverse curl`",
+      "attempts": [],
+      "errors": [],
+      "save_status": "not_started",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 8,
+      "role": "product ending",
+      "content_version": "1.0",
+      "exact_text": [
+        "harda tracks every set of your arm day and shows if your arms keep up.",
+        "log your workouts and check your muscle balance."
+      ],
+      "file": "outputs/slide-08.png",
+      "prompt_file": "prompts/slide-08.txt",
+      "references": [
+        "carousels/LW-CAR-0022/outputs/slide-19.png"
+      ],
+      "illustration": "hand + phone",
+      "attempts": [],
+      "errors": [],
+      "save_status": "not_started",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    }
+  ],
+  "archive": "LW-CAR-0079-1080x1350.zip",
+  "missing_slides": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "retry_policy": {
+    "max_additional_attempts": 2,
+    "max_total_attempts": 3,
+    "continue_after_exhaustion": true,
+    "owner_directive": "2026-10-30"
+  },
+  "interruptions": [
+    {
+      "slide": 3,
+      "reason": "Cloud restart interrupted tool before a returned image",
+      "checkpoint_saved_slides": [
+        1,
+        2
+      ],
+      "next_attempt": 2
+    }
+  ]
+}
