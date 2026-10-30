@@ -1,0 +1,518 @@
+{
+  "carousel_id": "LW-CAR-0082",
+  "content_version": "1.0",
+  "source_commit": "2fe42528473a66a97420cc7e02ee133a61c34c55",
+  "batch": "BATCH-J",
+  "batch_status": "carousel_complete",
+  "design_style": "S2",
+  "background": "CLEAN",
+  "brand": "Harda",
+  "status": "complete_pending_owner_review",
+  "carousel_complete": true,
+  "generated_images": 8,
+  "next_slide_to_generate": null,
+  "next_action": "Continue next assigned BATCH-J carousel. Preserve missing slides for later recovery; no review pause.",
+  "agent_visual_review": "not_performed",
+  "user_review": "pending",
+  "logo": {
+    "file": "assets/logo/harda-logo-full.png",
+    "placement": [
+      48,
+      19,
+      218,
+      71
+    ],
+    "method": "original PNG with own alpha; no backing patch"
+  },
+  "phone_source": {
+    "file": "carousels/LW-CAR-0022/outputs/slide-19.png",
+    "crop": [
+      0,
+      725,
+      1080,
+      1350
+    ],
+    "scale": "1:1",
+    "mask": "External background flood-filled outside original dark silhouette; original foreground RGB unchanged; no UI generation",
+    "retained_foreground": "carousels/LW-CAR-0069/production-assets/approved-phone-hand-foreground.png"
+  },
+  "remote_save": {
+    "remote": "origin",
+    "branch": "claude/charming-einstein-xgejky",
+    "status": "commit_and_push_requested",
+    "commit_lookup": "git log -1 -- carousels/LW-CAR-0082/manifest.json"
+  },
+  "slides": [
+    {
+      "slide": 1,
+      "role": "hook",
+      "content_version": "1.0",
+      "exact_text": [
+        "best exercises",
+        "for every muscle group",
+        "(arm day edition)"
+      ],
+      "file": "outputs/slide-01.png",
+      "prompt_file": "prompts/slide-01.txt",
+      "references": [
+        "carousels/LW-CAR-0022/outputs/slide-01.png"
+      ],
+      "illustration": "front view from the thighs up, doing a standing EZ-bar curl at the top; biceps and forearms filled #F26445",
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-30T23:03:01.086521+00:00",
+          "prompt_file": "prompts/slide-01.txt",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0022/outputs/slide-01.png"
+          ],
+          "retry_policy": "Owner 2026-10-30: at most two additional attempts per failed slide; then continue other slides/packages",
+          "finished_at": "2026-10-30T23:03:49.851256+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-117c6478-e830-4573-a606-b5e2298f839b.png",
+          "raw_result_format": {
+            "size": [
+              1122,
+              1402
+            ],
+            "mode": "RGB"
+          },
+          "result_file": "outputs/slide-01.png",
+          "export": {
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "alpha": false
+          }
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_to_repository_checkout",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 2,
+      "role": "muscle 1",
+      "content_version": "1.0",
+      "exact_text": [
+        "#1",
+        "biceps long head",
+        "incline db curl",
+        "or",
+        "bayesian cable curl"
+      ],
+      "file": "outputs/slide-02.png",
+      "prompt_file": "prompts/slide-02.txt",
+      "references": [
+        "carousels/LW-CAR-0029/outputs/slide-02.png",
+        "carousels/LW-CAR-0022/outputs/slide-03.png"
+      ],
+      "illustration": "close-up: front upper arm, the outer part of the biceps; left: seated on an incline bench, arms hanging back, curling two dumbbells, side view — `incline db curl`; right: facing away from a low cable, one arm behind the body, curling the handle forward, side view — `bayesian cable curl`",
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-30T23:03:58.478371+00:00",
+          "prompt_file": "prompts/slide-02.txt",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0029/outputs/slide-02.png",
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0022/outputs/slide-03.png"
+          ],
+          "retry_policy": "Owner 2026-10-30: at most two additional attempts per failed slide; then continue other slides/packages",
+          "finished_at": "2026-10-30T23:04:44.806635+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-389bb8f9-ca24-49a0-a814-aaace6b71211.png",
+          "raw_result_format": {
+            "size": [
+              1122,
+              1402
+            ],
+            "mode": "RGB"
+          },
+          "result_file": "outputs/slide-02.png",
+          "export": {
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "alpha": false
+          }
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_to_repository_checkout",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 3,
+      "role": "muscle 2",
+      "content_version": "1.0",
+      "exact_text": [
+        "#2",
+        "biceps short head",
+        "preacher curl",
+        "or",
+        "spider curl"
+      ],
+      "file": "outputs/slide-03.png",
+      "prompt_file": "prompts/slide-03.txt",
+      "references": [
+        "carousels/LW-CAR-0029/outputs/slide-02.png",
+        "carousels/LW-CAR-0022/outputs/slide-03.png"
+      ],
+      "illustration": "close-up: front upper arm, the inner part of the biceps; left: seated at a preacher bench, curling an EZ bar, side view — `preacher curl`; right: lying chest-down on an incline bench, arms hanging straight down, curling an EZ bar, side view — `spider curl`",
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-30T23:04:54.125773+00:00",
+          "prompt_file": "prompts/slide-03.txt",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0029/outputs/slide-02.png",
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0022/outputs/slide-03.png"
+          ],
+          "retry_policy": "Owner 2026-10-30: at most two additional attempts per failed slide; then continue other slides/packages",
+          "finished_at": "2026-10-30T23:05:33.800329+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-23e21abe-cf61-47b8-8a07-755201ec16ce.png",
+          "raw_result_format": {
+            "size": [
+              1122,
+              1402
+            ],
+            "mode": "RGB"
+          },
+          "result_file": "outputs/slide-03.png",
+          "export": {
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "alpha": false
+          }
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_to_repository_checkout",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 4,
+      "role": "muscle 3",
+      "content_version": "1.0",
+      "exact_text": [
+        "#3",
+        "brachialis",
+        "hammer curl",
+        "or",
+        "rope hammer curl"
+      ],
+      "file": "outputs/slide-04.png",
+      "prompt_file": "prompts/slide-04.txt",
+      "references": [
+        "carousels/LW-CAR-0029/outputs/slide-02.png",
+        "carousels/LW-CAR-0022/outputs/slide-03.png"
+      ],
+      "illustration": "close-up: side of the upper arm, the brachialis; left: standing hammer curl with dumbbells, palms facing in, front view — `hammer curl`; right: standing at a low cable with a rope, curling with palms facing in, front view — `rope hammer curl`",
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-30T23:05:43.188732+00:00",
+          "prompt_file": "prompts/slide-04.txt",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0029/outputs/slide-02.png",
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0022/outputs/slide-03.png"
+          ],
+          "retry_policy": "Owner 2026-10-30: at most two additional attempts per failed slide; then continue other slides/packages",
+          "finished_at": "2026-10-30T23:06:12.525644+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-08522511-a430-4eec-afdb-0f259011afcb.png",
+          "raw_result_format": {
+            "size": [
+              1122,
+              1402
+            ],
+            "mode": "RGB"
+          },
+          "result_file": "outputs/slide-04.png",
+          "export": {
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "alpha": false
+          }
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_to_repository_checkout",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 5,
+      "role": "muscle 4",
+      "content_version": "1.0",
+      "exact_text": [
+        "#4",
+        "triceps long head",
+        "overhead cable extension",
+        "or",
+        "db overhead extension"
+      ],
+      "file": "outputs/slide-05.png",
+      "prompt_file": "prompts/slide-05.txt",
+      "references": [
+        "carousels/LW-CAR-0029/outputs/slide-02.png",
+        "carousels/LW-CAR-0022/outputs/slide-03.png"
+      ],
+      "illustration": "close-up: rear upper arm, the long head of the triceps; left: facing away from a cable with a rope, extending the arms up overhead, side view — `overhead cable extension`; right: seated, one dumbbell held overhead in both hands, lowered behind the head, side view — `db overhead extension`",
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-30T23:06:19.363605+00:00",
+          "prompt_file": "prompts/slide-05.txt",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0029/outputs/slide-02.png",
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0022/outputs/slide-03.png"
+          ],
+          "retry_policy": "Owner 2026-10-30: at most two additional attempts per failed slide; then continue other slides/packages",
+          "finished_at": "2026-10-30T23:06:44.527424+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-91557eb6-f2d9-4903-a8c8-ea2ed2c1e4bc.png",
+          "raw_result_format": {
+            "size": [
+              1122,
+              1402
+            ],
+            "mode": "RGB"
+          },
+          "result_file": "outputs/slide-05.png",
+          "export": {
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "alpha": false
+          }
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_to_repository_checkout",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 6,
+      "role": "muscle 5",
+      "content_version": "1.0",
+      "exact_text": [
+        "#5",
+        "triceps lateral head",
+        "rope pushdown",
+        "or",
+        "jm press"
+      ],
+      "file": "outputs/slide-06.png",
+      "prompt_file": "prompts/slide-06.txt",
+      "references": [
+        "carousels/LW-CAR-0029/outputs/slide-02.png",
+        "carousels/LW-CAR-0022/outputs/slide-03.png"
+      ],
+      "illustration": "close-up: rear upper arm, the outer head of the triceps; left: standing rope pushdown at a high pulley, elbows at the sides, front view — `rope pushdown`; right: lying on a flat bench in a Smith machine, lowering the bar toward the upper chest with elbows forward, side view — `jm press`",
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-30T23:06:53.266589+00:00",
+          "prompt_file": "prompts/slide-06.txt",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0029/outputs/slide-02.png",
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0022/outputs/slide-03.png"
+          ],
+          "retry_policy": "Owner 2026-10-30: at most two additional attempts per failed slide; then continue other slides/packages",
+          "finished_at": "2026-10-30T23:07:31.725053+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-39f8a543-76af-4e20-a8dc-1332b1cf9fd2.png",
+          "raw_result_format": {
+            "size": [
+              1122,
+              1402
+            ],
+            "mode": "RGB"
+          },
+          "result_file": "outputs/slide-06.png",
+          "export": {
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "alpha": false
+          }
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_to_repository_checkout",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 7,
+      "role": "muscle 6",
+      "content_version": "1.0",
+      "exact_text": [
+        "#6",
+        "forearms",
+        "wrist curl",
+        "or",
+        "reverse curl"
+      ],
+      "file": "outputs/slide-07.png",
+      "prompt_file": "prompts/slide-07.txt",
+      "references": [
+        "carousels/LW-CAR-0029/outputs/slide-02.png",
+        "carousels/LW-CAR-0022/outputs/slide-03.png"
+      ],
+      "illustration": "close-up: forearm close-up; left: seated, forearms resting on the thighs, curling a dumbbell with the wrist, side view — `wrist curl`; right: standing EZ-bar curl with an overhand grip, front view — `reverse curl`",
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-30T23:07:40.114302+00:00",
+          "prompt_file": "prompts/slide-07.txt",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0029/outputs/slide-02.png",
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0022/outputs/slide-03.png"
+          ],
+          "retry_policy": "Owner 2026-10-30: at most two additional attempts per failed slide; then continue other slides/packages",
+          "finished_at": "2026-10-30T23:08:20.441688+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-d518b2fd-f9ff-413d-b7d4-b92452b1ee4e.png",
+          "raw_result_format": {
+            "size": [
+              1122,
+              1402
+            ],
+            "mode": "RGB"
+          },
+          "result_file": "outputs/slide-07.png",
+          "export": {
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "alpha": false
+          }
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_to_repository_checkout",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 8,
+      "role": "product ending",
+      "content_version": "1.0",
+      "exact_text": [
+        "harda tracks every set of your arm day and shows if your arms keep up.",
+        "log your workouts and check your muscle balance."
+      ],
+      "file": "outputs/slide-08.png",
+      "prompt_file": "prompts/slide-08.txt",
+      "references": [
+        "carousels/LW-CAR-0022/outputs/slide-19.png"
+      ],
+      "illustration": "hand + phone",
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-10-30T23:08:28.440301+00:00",
+          "prompt_file": "prompts/slide-08.txt",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0022/outputs/slide-19.png"
+          ],
+          "retry_policy": "Owner 2026-10-30: at most two additional attempts per failed slide; then continue other slides/packages",
+          "finished_at": "2026-10-30T23:09:02.273385+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-8f1ac168-6b5a-4bb1-905a-f0f8cae42500.png",
+          "raw_result_format": {
+            "size": [
+              1122,
+              1402
+            ],
+            "mode": "RGB"
+          },
+          "result_file": "outputs/slide-08.png",
+          "export": {
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "alpha": false
+          }
+        }
+      ],
+      "errors": [],
+      "save_status": "saved_to_repository_checkout",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending",
+      "phone_compositing": {
+        "source": {
+          "file": "carousels/LW-CAR-0022/outputs/slide-19.png",
+          "crop": [
+            0,
+            725,
+            1080,
+            1350
+          ],
+          "scale": "1:1",
+          "mask": "External background flood-filled outside original dark silhouette; original foreground RGB unchanged; no UI generation",
+          "retained_foreground": "carousels/LW-CAR-0069/production-assets/approved-phone-hand-foreground.png"
+        },
+        "asset": "production-assets/approved-phone-hand-foreground.png",
+        "measured_text_bottom_exclusive": 890,
+        "placement": [
+          0,
+          940
+        ],
+        "minimum_gap": 50,
+        "scale": "1:1; no resampling",
+        "real_ui_generated": false,
+        "measurement": "raster ink extent solely for requested layout; no OCR or visual QA"
+      }
+    }
+  ],
+  "archive": "LW-CAR-0082-1080x1350.zip",
+  "missing_slides": [],
+  "retry_policy": {
+    "max_additional_attempts": 2,
+    "max_total_attempts": 3,
+    "continue_after_exhaustion": true,
+    "owner_directive": "2026-10-30"
+  }
+}

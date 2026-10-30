@@ -1,0 +1,25 @@
+Produce ONE Harda S2 fitness carousel slide, portrait for final opaque RGB PNG export1080x1350. Approved reference images supply DESIGN ONLY: extremely heavy tightly spaced lowercase grotesk headlines, coral#F26445 marker bars behind the lower half of requested headline words, dark#2A2A2A clean regular body text, regular italic grey#6B6B6B sets/subtitle lines. Solid opaque CLEAN#F0F1EB background with NO texture, arch, gradient, progress bar, slide counter, watermark or signature. Do not use the sand S1 figure or uppercase Rubik design.
+Keep the top110px completely empty of foreground: no logo, icon, text, badges or figures there. The original transparent Harda logo PNG is composited later at x48,y19,size218x71, own alpha with no patch. Do not draw a wordmark or logo.
+S2 figures: adult nonhuman WHITE/LIGHT-GREY realistic anatomical teaching mannequins, bald faceless heads, fine grey shading, smooth featureless pelvis. Every figure wears opaque loose charcoal#2A2A2A gym shorts fully covering hips. Show only neutral standing poses or the assigned exercise, never a close physique pose. Equipment plain black/grey with no readable labels. Highlight muscles coral ONLY when the current task row explicitly requests it; otherwise all muscles white/light-grey. Do not copy reference poses, exercise choices or muscle highlights.
+All visible words must be the EXACT current-slide copy.json strings below. Preserve lowercase, hyphens, curly apostrophes, colons, question marks, commas and periods exactly. No words, stars, ratings or label lines from references unless explicitly present in the current copy. Every line fully visible within safe margins, separate from figures; long labels may wrap but never shorten text. Generate only this one requested slide, not all layouts or slides described in context.
+
+TASK LAYOUT CONTEXT (use only the applicable current-slide layout):
+## Layouts (the old BEST EXERCISES structure, drawn in the S2 look)
+The **structure** is our old BEST EXERCISES series (LW-CAR-0005, 0070, 0071): cover, one "A or B" slide per muscle, product ending. The **look** is S2, exactly like the approved S2 tier lists: white figure, heavy lowercase grotesk, coral marker bars, solid #F0F1EB. Never the sand S1 figure, never Rubik uppercase, never an arch.
+- **Cover:** as LW-CAR-0022 slide 1: line 1 heavy lowercase, line 2 on the #F26445 marker bar, italic #6B6B6B subtitle, big white figure below.
+- **Muscle slides (one identical layout):** top-left `#N` and the muscle name in the heaviest lowercase grotesk with the marker bar behind the name only. Upper middle: a **close-up of the white mannequin** showing that body region, with only the target muscle filled #F26445. Two thin curved #F26445 arrows lead down from the close-up, one to each exercise figure. Lower half: **two white figures** doing the exercises, left and right, with a #F26445 circle badge with white lowercase `or` between them; labels under each in bold lowercase #2A2A2A. No coloured muscles on the exercise figures.
+- **Figures always wear the opaque #2A2A2A shorts and are shown doing an exercise or standing in a neutral pose**, never in a close physique pose. If a slide is rejected by the safety system, follow the retry rule in `carousels/CODEX-SERIES-RULES.md`.
+
+
+
+CURRENT SLIDE:
+CURRENT SLIDE TYPE: muscle 6. Follow only its applicable layout from the task context below. Use ONLY the current exact copy; do not add a fix:, do:, star row or badge if absent from copy. Figures/props and left/right order are exactly this task table row:
+| 7 | muscle | `#6` `forearms` (marker) | close-up: forearm close-up; left: seated, forearms resting on the thighs, curling a dumbbell with the wrist, side view — `wrist curl`; right: standing EZ-bar curl with an overhand grip, front view — `reverse curl` |
+
+AUTHORITATIVE EXACT COPY AND STYLES:
+{"string": "#6", "style": "label before the headline, heaviest weight, text_dark"}
+{"string": "forearms", "style": "heaviest weight, lowercase, text_dark on an accent marker bar"}
+{"string": "wrist curl", "style": "left exercise label, bold lowercase, text_dark"}
+{"string": "or", "style": "white bold lowercase in an accent circle badge"}
+{"string": "reverse curl", "style": "right exercise label, bold lowercase, text_dark"}
+Return one complete slide, no variants.
