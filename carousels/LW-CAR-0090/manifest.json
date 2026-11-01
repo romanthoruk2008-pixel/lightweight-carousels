@@ -1,0 +1,247 @@
+{
+  "carousel_id": "LW-CAR-0090",
+  "content_version": "1.0",
+  "source_commit": "c0fbf0837d213cd61fab63f9558e66aa49840e75",
+  "batch": "BATCH-K",
+  "batch_status": "running",
+  "design_style": "S2",
+  "background": "CLEAN",
+  "brand": "Harda",
+  "status": "in_progress",
+  "carousel_complete": false,
+  "generated_images": 0,
+  "next_slide_to_generate": 1,
+  "next_action": "Generate all assigned slides in order with at most two additional attempts after failure; package/commit/pull --rebase/push each carousel and continue night-run batches K, L, M.",
+  "agent_visual_review": "not_performed",
+  "user_review": "pending",
+  "logo": {
+    "file": "assets/logo/harda-logo-full.png",
+    "placement": [
+      48,
+      19,
+      218,
+      71
+    ],
+    "method": "original PNG with own alpha; no backing patch"
+  },
+  "phone_source": {
+    "file": "carousels/LW-CAR-0022/outputs/slide-19.png",
+    "crop": [
+      0,
+      725,
+      1080,
+      1350
+    ],
+    "scale": "1:1",
+    "mask": "External background flood-filled outside original dark silhouette; original foreground RGB unchanged; no UI generation",
+    "retained_foreground": "carousels/LW-CAR-0069/production-assets/approved-phone-hand-foreground.png"
+  },
+  "remote_save": {
+    "remote": "origin",
+    "branch": "claude/charming-einstein-xgejky",
+    "status": "not_yet_pushed"
+  },
+  "slides": [
+    {
+      "slide": 1,
+      "role": "hook",
+      "content_version": "1.0",
+      "exact_text": [
+        "structure the perfect",
+        "shoulder day",
+        "(pick one from each slot)"
+      ],
+      "file": "outputs/slide-01.png",
+      "prompt_file": "prompts/slide-01.txt",
+      "references": [
+        "carousels/LW-CAR-0022/outputs/slide-01.png"
+      ],
+      "illustration": "front view from the thighs up, doing a dumbbell lateral raise at the top; all three delts filled #F26445",
+      "attempts": [],
+      "errors": [],
+      "save_status": "not_started",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 2,
+      "role": "checklist",
+      "content_version": "1.0",
+      "exact_text": [
+        "your shoulder day",
+        "should include:",
+        "1x front delts (press)",
+        "1x side delts (raise)",
+        "1x side delts (machine)",
+        "1x rear delts (fly)",
+        "1x traps (shrug)"
+      ],
+      "file": "outputs/slide-02.png",
+      "prompt_file": "prompts/slide-02.txt",
+      "references": [
+        "carousels/LW-CAR-0029/outputs/slide-02.png",
+        "carousels/LW-CAR-0022/outputs/slide-01.png"
+      ],
+      "illustration": "the white figure from the waist up, three-quarter side view; front, side and rear delts and traps filled #F26445",
+      "attempts": [],
+      "errors": [],
+      "save_status": "not_started",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 3,
+      "role": "slot 1",
+      "content_version": "1.0",
+      "exact_text": [
+        "#1",
+        "front delts",
+        "2-3 sets x 6-10 reps",
+        "choose one of these to press overhead:",
+        "seated db press",
+        "machine shoulder press"
+      ],
+      "file": "outputs/slide-03.png",
+      "prompt_file": "prompts/slide-03.txt",
+      "references": [
+        "carousels/LW-CAR-0029/outputs/slide-02.png",
+        "carousels/LW-CAR-0022/outputs/slide-03.png"
+      ],
+      "illustration": "left: doing a seated db press, side view — `seated db press`; right: doing a machine shoulder press, side view — `machine shoulder press`",
+      "attempts": [],
+      "errors": [],
+      "save_status": "not_started",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 4,
+      "role": "slot 2",
+      "content_version": "1.0",
+      "exact_text": [
+        "#2",
+        "side delts",
+        "2-3 sets x 12-20 reps",
+        "choose one of these to widen your shoulders:",
+        "db lateral raise",
+        "cable lateral raise"
+      ],
+      "file": "outputs/slide-04.png",
+      "prompt_file": "prompts/slide-04.txt",
+      "references": [
+        "carousels/LW-CAR-0029/outputs/slide-02.png",
+        "carousels/LW-CAR-0022/outputs/slide-03.png"
+      ],
+      "illustration": "left: doing a db lateral raise, side view — `db lateral raise`; right: doing a cable lateral raise, side view — `cable lateral raise`",
+      "attempts": [],
+      "errors": [],
+      "save_status": "not_started",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 5,
+      "role": "slot 3",
+      "content_version": "1.0",
+      "exact_text": [
+        "#3",
+        "side delts",
+        "2-3 sets x 12-20 reps",
+        "choose one of these for more width:",
+        "machine lateral raise",
+        "lean-away lateral raise"
+      ],
+      "file": "outputs/slide-05.png",
+      "prompt_file": "prompts/slide-05.txt",
+      "references": [
+        "carousels/LW-CAR-0029/outputs/slide-02.png",
+        "carousels/LW-CAR-0022/outputs/slide-03.png"
+      ],
+      "illustration": "left: doing a machine lateral raise, side view — `machine lateral raise`; right: doing a lean-away lateral raise, side view — `lean-away lateral raise`",
+      "attempts": [],
+      "errors": [],
+      "save_status": "not_started",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 6,
+      "role": "slot 4",
+      "content_version": "1.0",
+      "exact_text": [
+        "#4",
+        "rear delts",
+        "2-3 sets x 12-20 reps",
+        "choose one of these to finish your rear delts:",
+        "reverse pec deck",
+        "face pull"
+      ],
+      "file": "outputs/slide-06.png",
+      "prompt_file": "prompts/slide-06.txt",
+      "references": [
+        "carousels/LW-CAR-0029/outputs/slide-02.png",
+        "carousels/LW-CAR-0022/outputs/slide-03.png"
+      ],
+      "illustration": "left: doing a reverse pec deck, side view — `reverse pec deck`; right: doing a face pull, side view — `face pull`",
+      "attempts": [],
+      "errors": [],
+      "save_status": "not_started",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 7,
+      "role": "slot 5",
+      "content_version": "1.0",
+      "exact_text": [
+        "#5",
+        "traps",
+        "2-3 sets x 10-15 reps",
+        "choose one of these to build your traps:",
+        "db shrug",
+        "cable shrug"
+      ],
+      "file": "outputs/slide-07.png",
+      "prompt_file": "prompts/slide-07.txt",
+      "references": [
+        "carousels/LW-CAR-0029/outputs/slide-02.png",
+        "carousels/LW-CAR-0022/outputs/slide-03.png"
+      ],
+      "illustration": "left: doing a db shrug, side view — `db shrug`; right: doing a cable shrug, side view — `cable shrug`",
+      "attempts": [],
+      "errors": [],
+      "save_status": "not_started",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 8,
+      "role": "product ending",
+      "content_version": "1.0",
+      "exact_text": [
+        "harda tracks every set of your shoulder day and shows if your shoulders keep up.",
+        "log your workouts and check your muscle balance."
+      ],
+      "file": "outputs/slide-08.png",
+      "prompt_file": "prompts/slide-08.txt",
+      "references": [
+        "carousels/LW-CAR-0022/outputs/slide-19.png"
+      ],
+      "illustration": "hand + phone",
+      "attempts": [],
+      "errors": [],
+      "save_status": "not_started",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    }
+  ],
+  "night_run": {
+    "instruction_file": "carousels/NIGHT-RUN.md",
+    "order": "K then L then M",
+    "stop_on_image_quota": true,
+    "owner_directive": "2026-11-01"
+  },
+  "reasonable_choices": [
+    "S2 bald faceless design takes precedence over any facial-expression wording; communicate emotion through the assigned pose and props, without extra readable text."
+  ]
+}
