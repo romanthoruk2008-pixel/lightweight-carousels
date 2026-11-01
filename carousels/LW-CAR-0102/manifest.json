@@ -3,15 +3,15 @@
   "content_version": "1.0",
   "source_commit": "4fa773cf95af245f5fd39da5cca5df498f5f318f",
   "batch": "BATCH-M",
-  "batch_status": "running",
+  "batch_status": "carousel_complete",
   "design_style": "S2",
   "background": "CLEAN",
   "brand": "Harda",
-  "status": "in_progress",
-  "carousel_complete": false,
-  "generated_images": 0,
-  "next_slide_to_generate": 1,
-  "next_action": "Generate all assigned slides in order with at most two additional attempts after failure; package/commit/pull --rebase/push each carousel and continue night-run batches K, L, M.",
+  "status": "complete_pending_owner_review",
+  "carousel_complete": true,
+  "generated_images": 8,
+  "next_slide_to_generate": null,
+  "next_action": "Continue next assigned night-run carousel. Preserve missing slides for later recovery; no review pause.",
   "agent_visual_review": "not_performed",
   "user_review": "pending",
   "logo": {
@@ -39,7 +39,8 @@
   "remote_save": {
     "remote": "origin",
     "branch": "claude/charming-einstein-xgejky",
-    "status": "not_yet_pushed"
+    "status": "commit_and_push_requested",
+    "commit_lookup": "git log -1 -- carousels/LW-CAR-0102/manifest.json"
   },
   "slides": [
     {
@@ -57,9 +58,40 @@
         "carousels/LW-CAR-0022/outputs/slide-01.png"
       ],
       "illustration": "rear view from the thighs up, doing a lat pulldown; lats filled #F26445",
-      "attempts": [],
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-11-01T15:07:06.029686+00:00",
+          "prompt_file": "prompts/slide-01.txt",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0022/outputs/slide-01.png"
+          ],
+          "retry_policy": "Owner 2026-10-30: at most two additional attempts per failed slide; then continue other slides/packages",
+          "finished_at": "2026-11-01T15:07:33.032085+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-e0d4557a-93ae-493c-84e6-94c30f3e3080.png",
+          "raw_result_format": {
+            "size": [
+              1122,
+              1402
+            ],
+            "mode": "RGB"
+          },
+          "result_file": "outputs/slide-01.png",
+          "export": {
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "alpha": false
+          }
+        }
+      ],
       "errors": [],
-      "save_status": "not_started",
+      "save_status": "saved_to_repository_checkout",
       "agent_visual_review": "not_performed",
       "user_review": "pending"
     },
@@ -81,9 +113,41 @@
         "carousels/LW-CAR-0022/outputs/slide-03.png"
       ],
       "illustration": "close-up: rear torso, the lats; left: doing a lat pulldown, clear side or front view — `lat pulldown`; right: doing a single-arm cable pulldown, clear side or front view — `single-arm cable pulldown`",
-      "attempts": [],
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-11-01T15:07:46.949321+00:00",
+          "prompt_file": "prompts/slide-02.txt",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0029/outputs/slide-02.png",
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0022/outputs/slide-03.png"
+          ],
+          "retry_policy": "Owner 2026-10-30: at most two additional attempts per failed slide; then continue other slides/packages",
+          "finished_at": "2026-11-01T15:08:41.741106+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-d4a002df-e782-4289-a376-80ce7c08ac47.png",
+          "raw_result_format": {
+            "size": [
+              1122,
+              1402
+            ],
+            "mode": "RGB"
+          },
+          "result_file": "outputs/slide-02.png",
+          "export": {
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "alpha": false
+          }
+        }
+      ],
       "errors": [],
-      "save_status": "not_started",
+      "save_status": "saved_to_repository_checkout",
       "agent_visual_review": "not_performed",
       "user_review": "pending"
     },
@@ -105,9 +169,41 @@
         "carousels/LW-CAR-0022/outputs/slide-03.png"
       ],
       "illustration": "close-up: rear torso, the middle of the back; left: doing a chest-supported t-bar row, clear side or front view — `chest-supported t-bar row`; right: doing a seated cable row, clear side or front view — `seated cable row`",
-      "attempts": [],
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-11-01T15:08:56.812808+00:00",
+          "prompt_file": "prompts/slide-03.txt",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0029/outputs/slide-02.png",
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0022/outputs/slide-03.png"
+          ],
+          "retry_policy": "Owner 2026-10-30: at most two additional attempts per failed slide; then continue other slides/packages",
+          "finished_at": "2026-11-01T15:09:28.930795+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-cbe706a0-5c52-49c0-b3c6-8189763678c5.png",
+          "raw_result_format": {
+            "size": [
+              1122,
+              1402
+            ],
+            "mode": "RGB"
+          },
+          "result_file": "outputs/slide-03.png",
+          "export": {
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "alpha": false
+          }
+        }
+      ],
       "errors": [],
-      "save_status": "not_started",
+      "save_status": "saved_to_repository_checkout",
       "agent_visual_review": "not_performed",
       "user_review": "pending"
     },
@@ -129,9 +225,41 @@
         "carousels/LW-CAR-0022/outputs/slide-03.png"
       ],
       "illustration": "close-up: shoulder from behind, the rear delt; left: doing a reverse pec deck, clear side or front view — `reverse pec deck`; right: doing a cable reverse fly, clear side or front view — `cable reverse fly`",
-      "attempts": [],
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-11-01T15:09:41.667696+00:00",
+          "prompt_file": "prompts/slide-04.txt",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0029/outputs/slide-02.png",
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0022/outputs/slide-03.png"
+          ],
+          "retry_policy": "Owner 2026-10-30: at most two additional attempts per failed slide; then continue other slides/packages",
+          "finished_at": "2026-11-01T15:10:20.059109+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-6785deeb-fccf-4e14-a8d7-42acf66b6818.png",
+          "raw_result_format": {
+            "size": [
+              1122,
+              1402
+            ],
+            "mode": "RGB"
+          },
+          "result_file": "outputs/slide-04.png",
+          "export": {
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "alpha": false
+          }
+        }
+      ],
       "errors": [],
-      "save_status": "not_started",
+      "save_status": "saved_to_repository_checkout",
       "agent_visual_review": "not_performed",
       "user_review": "pending"
     },
@@ -153,9 +281,41 @@
         "carousels/LW-CAR-0022/outputs/slide-03.png"
       ],
       "illustration": "close-up: upper back and neck, the traps; left: doing a db shrug, clear side or front view — `db shrug`; right: doing a farmer’s carry, clear side or front view — `farmer’s carry`",
-      "attempts": [],
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-11-01T15:10:32.652054+00:00",
+          "prompt_file": "prompts/slide-05.txt",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0029/outputs/slide-02.png",
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0022/outputs/slide-03.png"
+          ],
+          "retry_policy": "Owner 2026-10-30: at most two additional attempts per failed slide; then continue other slides/packages",
+          "finished_at": "2026-11-01T15:11:27.016899+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-e2d6cf50-3f5c-4098-80c6-cb2ad0a5ff92.png",
+          "raw_result_format": {
+            "size": [
+              1122,
+              1402
+            ],
+            "mode": "RGB"
+          },
+          "result_file": "outputs/slide-05.png",
+          "export": {
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "alpha": false
+          }
+        }
+      ],
       "errors": [],
-      "save_status": "not_started",
+      "save_status": "saved_to_repository_checkout",
       "agent_visual_review": "not_performed",
       "user_review": "pending"
     },
@@ -177,9 +337,41 @@
         "carousels/LW-CAR-0022/outputs/slide-03.png"
       ],
       "illustration": "close-up: front upper arm, the biceps; left: doing a preacher curl, clear side or front view — `preacher curl`; right: doing a cable curl, clear side or front view — `cable curl`",
-      "attempts": [],
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-11-01T15:11:38.870410+00:00",
+          "prompt_file": "prompts/slide-06.txt",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0029/outputs/slide-02.png",
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0022/outputs/slide-03.png"
+          ],
+          "retry_policy": "Owner 2026-10-30: at most two additional attempts per failed slide; then continue other slides/packages",
+          "finished_at": "2026-11-01T15:12:18.969850+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-37e408b0-7f64-4dfd-acc4-11660eb9fbc6.png",
+          "raw_result_format": {
+            "size": [
+              1122,
+              1402
+            ],
+            "mode": "RGB"
+          },
+          "result_file": "outputs/slide-06.png",
+          "export": {
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "alpha": false
+          }
+        }
+      ],
       "errors": [],
-      "save_status": "not_started",
+      "save_status": "saved_to_repository_checkout",
       "agent_visual_review": "not_performed",
       "user_review": "pending"
     },
@@ -201,9 +393,41 @@
         "carousels/LW-CAR-0022/outputs/slide-03.png"
       ],
       "illustration": "close-up: side of the upper arm; left: doing a hammer curl, clear side or front view — `hammer curl`; right: doing a rope hammer curl, clear side or front view — `rope hammer curl`",
-      "attempts": [],
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-11-01T15:12:33.414571+00:00",
+          "prompt_file": "prompts/slide-07.txt",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0029/outputs/slide-02.png",
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0022/outputs/slide-03.png"
+          ],
+          "retry_policy": "Owner 2026-10-30: at most two additional attempts per failed slide; then continue other slides/packages",
+          "finished_at": "2026-11-01T15:13:10.512260+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-52a1c0f4-4303-429f-86be-b6f661525430.png",
+          "raw_result_format": {
+            "size": [
+              1122,
+              1402
+            ],
+            "mode": "RGB"
+          },
+          "result_file": "outputs/slide-07.png",
+          "export": {
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "alpha": false
+          }
+        }
+      ],
       "errors": [],
-      "save_status": "not_started",
+      "save_status": "saved_to_repository_checkout",
       "agent_visual_review": "not_performed",
       "user_review": "pending"
     },
@@ -221,11 +445,66 @@
         "carousels/LW-CAR-0022/outputs/slide-19.png"
       ],
       "illustration": "hand + phone",
-      "attempts": [],
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-11-01T15:13:33.142589+00:00",
+          "prompt_file": "prompts/slide-08.txt",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0022/outputs/slide-19.png"
+          ],
+          "retry_policy": "Owner 2026-10-30: at most two additional attempts per failed slide; then continue other slides/packages",
+          "finished_at": "2026-11-01T15:14:19.239585+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-daf699ad-8cf9-4d5a-a805-0cfd000919e1.png",
+          "raw_result_format": {
+            "size": [
+              1122,
+              1402
+            ],
+            "mode": "RGB"
+          },
+          "result_file": "outputs/slide-08.png",
+          "export": {
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "alpha": false
+          }
+        }
+      ],
       "errors": [],
-      "save_status": "not_started",
+      "save_status": "saved_to_repository_checkout",
       "agent_visual_review": "not_performed",
-      "user_review": "pending"
+      "user_review": "pending",
+      "phone_compositing": {
+        "source": {
+          "file": "carousels/LW-CAR-0022/outputs/slide-19.png",
+          "crop": [
+            0,
+            725,
+            1080,
+            1350
+          ],
+          "scale": "1:1",
+          "mask": "External background flood-filled outside original dark silhouette; original foreground RGB unchanged; no UI generation",
+          "retained_foreground": "carousels/LW-CAR-0069/production-assets/approved-phone-hand-foreground.png"
+        },
+        "asset": "production-assets/approved-phone-hand-foreground.png",
+        "measured_text_bottom_exclusive": 784,
+        "placement": [
+          0,
+          834
+        ],
+        "minimum_gap": 50,
+        "scale": "1:1; no resampling",
+        "real_ui_generated": false,
+        "measurement": "raster ink extent solely for requested layout; no OCR or visual QA"
+      }
     }
   ],
   "night_run": {
@@ -236,5 +515,13 @@
   },
   "reasonable_choices": [
     "S2 bald faceless design takes precedence over any facial-expression wording; communicate emotion through the assigned pose and props, without extra readable text."
-  ]
+  ],
+  "archive": "LW-CAR-0102-1080x1350.zip",
+  "missing_slides": [],
+  "retry_policy": {
+    "max_additional_attempts": 2,
+    "max_total_attempts": 3,
+    "continue_after_exhaustion": true,
+    "owner_directive": "2026-10-30"
+  }
 }
