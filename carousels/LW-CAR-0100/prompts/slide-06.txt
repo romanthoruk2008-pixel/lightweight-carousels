@@ -1,0 +1,34 @@
+Produce ONE Harda S2 fitness carousel slide, portrait for final opaque RGB PNG export1080x1350. Approved reference images supply DESIGN ONLY: extremely heavy tightly spaced lowercase grotesk headlines, coral#F26445 marker bars behind the lower half of requested headline words, dark#2A2A2A clean regular body text, regular italic grey#6B6B6B sets/subtitle lines. Solid opaque CLEAN#F0F1EB background with NO texture, arch, gradient, progress bar, slide counter, watermark or signature. Do not use the sand S1 figure or uppercase Rubik design.
+Keep the top110px completely empty of foreground: no logo, icon, text, badges or figures there. The original transparent Harda logo PNG is composited later at x48,y19,size218x71, own alpha with no patch. Do not draw a wordmark or logo.
+S2 figures: adult nonhuman WHITE/LIGHT-GREY realistic anatomical teaching mannequins, bald faceless heads, fine grey shading, smooth featureless pelvis. Every figure wears opaque loose charcoal#2A2A2A gym shorts fully covering hips. Show only neutral standing poses or the assigned exercise, never a close physique pose. Equipment plain black/grey with no readable labels. Highlight muscles coral ONLY when the current task row explicitly requests it; otherwise all muscles white/light-grey. Do not copy reference poses, exercise choices or muscle highlights.
+All visible words must be the EXACT current-slide copy.json strings below. Preserve lowercase, hyphens, curly apostrophes, colons, question marks, commas and periods exactly. No words, stars, ratings or label lines from references unless explicitly present in the current copy. Every line fully visible within safe margins, separate from figures; long labels may wrap but never shorten text. Generate only this one requested slide, not all layouts or slides described in context.
+
+S2 design resolution: keep all heads completely faceless, communicate expression through the assigned pose and props only. No extra readable words or numbers on props.
+
+TASK LAYOUT CONTEXT (use only the applicable current-slide layout):
+## Layouts (S2 look)
+- **Cover:** as LW-CAR-0022 slide 1: line 1 heavy lowercase, line 2 on the #F26445 marker bar, italic #6B6B6B subtitle, big white figure below.
+- **Overview (slide 2):** two-line heavy lowercase title top-left, the marker bar behind line 2 only. Under it, one row per day, left-aligned, generous spacing: the day in bold #F26445, then the workout in bold #2A2A2A; rest days in regular italic #6B6B6B. Small white figure bottom right.
+- **Day slides:** top-left `day N` and the workout name in the heaviest lowercase grotesk with the marker bar behind the name only (as LW-CAR-0029 slide 2). Under it, a clean list of five rows separated by thin #D6D6D2 lines: exercise name in bold lowercase #2A2A2A on the left, sets in regular #6B6B6B right-aligned on the same row. Lower ~45%: one big white figure doing the first exercise of the day. No coloured muscles.
+- **Figures always wear the opaque #2A2A2A shorts and are shown doing an exercise or standing in a neutral pose**, never in a close physique pose. If a slide is rejected by the safety system, follow the retry rule in `carousels/CODEX-SERIES-RULES.md`.
+
+
+
+CURRENT SLIDE:
+CURRENT SLIDE TYPE: day 4. Follow only its applicable layout from the task context below. Use ONLY the current exact copy; do not add a fix:, do:, star row or badge if absent from copy. Figures/props and left/right order are exactly this task table row:
+| 6 | day | `day 4` `lower b` (marker) / rows: `leg press` — `3 x 8-12`, `hip thrust` — `3 x 8-12`, `lying leg curl` — `2 x 10-15`, `bulgarian split squat` — `2 x 8-12`, `seated calf raise` — `2 x 10-15` | seated 45-degree leg press, side view |
+
+AUTHORITATIVE EXACT COPY AND STYLES:
+{"string": "day 4", "style": "label before the headline, heaviest weight, text_dark"}
+{"string": "lower b", "style": "heaviest weight, lowercase, text_dark on an accent marker bar"}
+{"string": "leg press", "style": "exercise name, bold lowercase, text_dark"}
+{"string": "3 x 8-12", "style": "sets, regular, text_body_grey, right-aligned on the same row"}
+{"string": "hip thrust", "style": "exercise name, bold lowercase, text_dark"}
+{"string": "3 x 8-12", "style": "sets, regular, text_body_grey, right-aligned on the same row"}
+{"string": "lying leg curl", "style": "exercise name, bold lowercase, text_dark"}
+{"string": "2 x 10-15", "style": "sets, regular, text_body_grey, right-aligned on the same row"}
+{"string": "bulgarian split squat", "style": "exercise name, bold lowercase, text_dark"}
+{"string": "2 x 8-12", "style": "sets, regular, text_body_grey, right-aligned on the same row"}
+{"string": "seated calf raise", "style": "exercise name, bold lowercase, text_dark"}
+{"string": "2 x 10-15", "style": "sets, regular, text_body_grey, right-aligned on the same row"}
+Return one complete slide, no variants.
