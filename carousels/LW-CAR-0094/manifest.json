@@ -1,0 +1,216 @@
+{
+  "carousel_id": "LW-CAR-0094",
+  "content_version": "1.0",
+  "source_commit": "dde355a0378bfdcdede8dd09ad729c01dcf4a4fa",
+  "batch": "BATCH-L",
+  "batch_status": "running",
+  "design_style": "S2",
+  "background": "CLEAN",
+  "brand": "Harda",
+  "status": "in_progress",
+  "carousel_complete": false,
+  "generated_images": 0,
+  "next_slide_to_generate": 1,
+  "next_action": "Generate all assigned slides in order with at most two additional attempts after failure; package/commit/pull --rebase/push each carousel and continue night-run batches K, L, M.",
+  "agent_visual_review": "not_performed",
+  "user_review": "pending",
+  "logo": {
+    "file": "assets/logo/harda-logo-full.png",
+    "placement": [
+      48,
+      19,
+      218,
+      71
+    ],
+    "method": "original PNG with own alpha; no backing patch"
+  },
+  "phone_source": {
+    "file": "carousels/LW-CAR-0022/outputs/slide-19.png",
+    "crop": [
+      0,
+      725,
+      1080,
+      1350
+    ],
+    "scale": "1:1",
+    "mask": "External background flood-filled outside original dark silhouette; original foreground RGB unchanged; no UI generation",
+    "retained_foreground": "carousels/LW-CAR-0069/production-assets/approved-phone-hand-foreground.png"
+  },
+  "remote_save": {
+    "remote": "origin",
+    "branch": "claude/charming-einstein-xgejky",
+    "status": "not_yet_pushed"
+  },
+  "slides": [
+    {
+      "slide": 1,
+      "role": "hook",
+      "content_version": "1.0",
+      "exact_text": [
+        "how to build",
+        "bigger shoulders",
+        "(save this for shoulder day)"
+      ],
+      "file": "outputs/slide-01.png",
+      "prompt_file": "prompts/slide-01.txt",
+      "references": [
+        "carousels/LW-CAR-0022/outputs/slide-01.png"
+      ],
+      "illustration": "front view from the thighs up, doing a seated dumbbell shoulder press at the top; delts filled #F26445",
+      "attempts": [],
+      "errors": [],
+      "save_status": "not_started",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 2,
+      "role": "item 1",
+      "content_version": "1.0",
+      "exact_text": [
+        "#1",
+        "prioritise side delts",
+        "they are what makes you look wide.",
+        "do:",
+        "lateral raises on most upper days."
+      ],
+      "file": "outputs/slide-02.png",
+      "prompt_file": "prompts/slide-02.txt",
+      "references": [
+        "carousels/LW-CAR-0029/outputs/slide-02.png",
+        "carousels/LW-CAR-0052/outputs/slide-02.png"
+      ],
+      "illustration": "standing dumbbell lateral raise at the top, front view",
+      "attempts": [],
+      "errors": [],
+      "save_status": "not_started",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 3,
+      "role": "item 2",
+      "content_version": "1.0",
+      "exact_text": [
+        "#2",
+        "press overhead",
+        "a heavy press builds the whole shoulder.",
+        "do:",
+        "seated dumbbell or machine press once a week."
+      ],
+      "file": "outputs/slide-03.png",
+      "prompt_file": "prompts/slide-03.txt",
+      "references": [
+        "carousels/LW-CAR-0029/outputs/slide-02.png",
+        "carousels/LW-CAR-0052/outputs/slide-02.png"
+      ],
+      "illustration": "seated dumbbell shoulder press, front view",
+      "attempts": [],
+      "errors": [],
+      "save_status": "not_started",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 4,
+      "role": "item 3",
+      "content_version": "1.0",
+      "exact_text": [
+        "#3",
+        "train the back of the shoulder",
+        "rear delts are the part most people forget.",
+        "do:",
+        "reverse pec deck or face pulls."
+      ],
+      "file": "outputs/slide-04.png",
+      "prompt_file": "prompts/slide-04.txt",
+      "references": [
+        "carousels/LW-CAR-0029/outputs/slide-02.png",
+        "carousels/LW-CAR-0052/outputs/slide-02.png"
+      ],
+      "illustration": "standing at a high cable with a rope, pulling it toward the face, side view",
+      "attempts": [],
+      "errors": [],
+      "save_status": "not_started",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 5,
+      "role": "item 4",
+      "content_version": "1.0",
+      "exact_text": [
+        "#4",
+        "go light on raises",
+        "heavy swinging turns a raise into a shrug.",
+        "do:",
+        "pick a weight you can control for 12 to 20 reps."
+      ],
+      "file": "outputs/slide-05.png",
+      "prompt_file": "prompts/slide-05.txt",
+      "references": [
+        "carousels/LW-CAR-0029/outputs/slide-02.png",
+        "carousels/LW-CAR-0052/outputs/slide-02.png"
+      ],
+      "illustration": "standing cable lateral raise, controlled, front view",
+      "attempts": [],
+      "errors": [],
+      "save_status": "not_started",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 6,
+      "role": "item 5",
+      "content_version": "1.0",
+      "exact_text": [
+        "#5",
+        "add a cable raise",
+        "the cable keeps tension at the bottom.",
+        "do:",
+        "one cable raise after your dumbbell sets."
+      ],
+      "file": "outputs/slide-06.png",
+      "prompt_file": "prompts/slide-06.txt",
+      "references": [
+        "carousels/LW-CAR-0029/outputs/slide-02.png",
+        "carousels/LW-CAR-0052/outputs/slide-02.png"
+      ],
+      "illustration": "standing side-on to a low cable, raising one arm out to the side, front view",
+      "attempts": [],
+      "errors": [],
+      "save_status": "not_started",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 7,
+      "role": "product ending",
+      "content_version": "1.0",
+      "exact_text": [
+        "harda tracks every set and shows if your shoulders keep up.",
+        "log your workouts and check your muscle balance."
+      ],
+      "file": "outputs/slide-07.png",
+      "prompt_file": "prompts/slide-07.txt",
+      "references": [
+        "carousels/LW-CAR-0022/outputs/slide-19.png"
+      ],
+      "illustration": "hand + phone",
+      "attempts": [],
+      "errors": [],
+      "save_status": "not_started",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    }
+  ],
+  "night_run": {
+    "instruction_file": "carousels/NIGHT-RUN.md",
+    "order": "K then L then M",
+    "stop_on_image_quota": true,
+    "owner_directive": "2026-11-01"
+  },
+  "reasonable_choices": [
+    "S2 bald faceless design takes precedence over any facial-expression wording; communicate emotion through the assigned pose and props, without extra readable text."
+  ]
+}
