@@ -3,15 +3,15 @@
   "content_version": "1.0",
   "source_commit": "b0dbdd5e0cfb89db23ca68753de2ab9d325f3d4d",
   "batch": "BATCH-M",
-  "batch_status": "running",
+  "batch_status": "carousel_complete",
   "design_style": "S2",
   "background": "CLEAN",
   "brand": "Harda",
-  "status": "in_progress",
-  "carousel_complete": false,
-  "generated_images": 0,
-  "next_slide_to_generate": 1,
-  "next_action": "Generate all assigned slides in order with at most two additional attempts after failure; package/commit/pull --rebase/push each carousel and continue night-run batches K, L, M.",
+  "status": "complete_pending_owner_review",
+  "carousel_complete": true,
+  "generated_images": 9,
+  "next_slide_to_generate": null,
+  "next_action": "Night-run K/L/M generation complete; owner reviews returned results. Do not start unassigned batches.",
   "agent_visual_review": "not_performed",
   "user_review": "pending",
   "logo": {
@@ -39,7 +39,8 @@
   "remote_save": {
     "remote": "origin",
     "branch": "claude/charming-einstein-xgejky",
-    "status": "not_yet_pushed"
+    "status": "commit_and_push_requested",
+    "commit_lookup": "git log -1 -- carousels/LW-CAR-0106/manifest.json"
   },
   "slides": [
     {
@@ -57,9 +58,40 @@
         "carousels/LW-CAR-0022/outputs/slide-01.png"
       ],
       "illustration": "front view from the thighs up, standing in a gym holding a light dumbbell in each hand, relaxed; no coloured muscles",
-      "attempts": [],
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-11-01T20:25:10.489913+00:00",
+          "prompt_file": "prompts/slide-01.txt",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0022/outputs/slide-01.png"
+          ],
+          "retry_policy": "Owner 2026-10-30: at most two additional attempts per failed slide; then continue other slides/packages",
+          "finished_at": "2026-11-01T20:25:41.532817+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-fb8e7a1e-1c88-4d9e-9d36-ad2e0cbefe2d.png",
+          "raw_result_format": {
+            "size": [
+              1122,
+              1402
+            ],
+            "mode": "RGB"
+          },
+          "result_file": "outputs/slide-01.png",
+          "export": {
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "alpha": false
+          }
+        }
+      ],
       "errors": [],
-      "save_status": "not_started",
+      "save_status": "saved_to_repository_checkout",
       "agent_visual_review": "not_performed",
       "user_review": "pending"
     },
@@ -81,9 +113,41 @@
         "carousels/LW-CAR-0022/outputs/slide-03.png"
       ],
       "illustration": "close-up: front torso, the chest; left: doing a machine chest press, clear side or front view — `machine chest press`; right: doing a push-ups, clear side or front view — `push-ups`",
-      "attempts": [],
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-11-01T20:25:48.688376+00:00",
+          "prompt_file": "prompts/slide-02.txt",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0029/outputs/slide-02.png",
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0022/outputs/slide-03.png"
+          ],
+          "retry_policy": "Owner 2026-10-30: at most two additional attempts per failed slide; then continue other slides/packages",
+          "finished_at": "2026-11-01T20:26:33.299234+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-4ba2adc6-074c-4991-bcc3-3a7693f164fe.png",
+          "raw_result_format": {
+            "size": [
+              1122,
+              1402
+            ],
+            "mode": "RGB"
+          },
+          "result_file": "outputs/slide-02.png",
+          "export": {
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "alpha": false
+          }
+        }
+      ],
       "errors": [],
-      "save_status": "not_started",
+      "save_status": "saved_to_repository_checkout",
       "agent_visual_review": "not_performed",
       "user_review": "pending"
     },
@@ -105,9 +169,41 @@
         "carousels/LW-CAR-0022/outputs/slide-03.png"
       ],
       "illustration": "close-up: rear torso, the lats; left: doing a lat pulldown, clear side or front view — `lat pulldown`; right: doing a seated cable row, clear side or front view — `seated cable row`",
-      "attempts": [],
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-11-01T20:26:39.801976+00:00",
+          "prompt_file": "prompts/slide-03.txt",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0029/outputs/slide-02.png",
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0022/outputs/slide-03.png"
+          ],
+          "retry_policy": "Owner 2026-10-30: at most two additional attempts per failed slide; then continue other slides/packages",
+          "finished_at": "2026-11-01T20:27:08.294181+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-cea4f790-af45-4fae-b1ee-a0217c31de1f.png",
+          "raw_result_format": {
+            "size": [
+              1122,
+              1402
+            ],
+            "mode": "RGB"
+          },
+          "result_file": "outputs/slide-03.png",
+          "export": {
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "alpha": false
+          }
+        }
+      ],
       "errors": [],
-      "save_status": "not_started",
+      "save_status": "saved_to_repository_checkout",
       "agent_visual_review": "not_performed",
       "user_review": "pending"
     },
@@ -129,9 +225,41 @@
         "carousels/LW-CAR-0022/outputs/slide-03.png"
       ],
       "illustration": "close-up: shoulder close-up, the delts; left: doing a machine shoulder press, clear side or front view — `machine shoulder press`; right: doing a db lateral raise, clear side or front view — `db lateral raise`",
-      "attempts": [],
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-11-01T20:27:15.783316+00:00",
+          "prompt_file": "prompts/slide-04.txt",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0029/outputs/slide-02.png",
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0022/outputs/slide-03.png"
+          ],
+          "retry_policy": "Owner 2026-10-30: at most two additional attempts per failed slide; then continue other slides/packages",
+          "finished_at": "2026-11-01T20:28:06.981449+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-f19bb6b5-f366-4ba7-bf5b-789acaec37db.png",
+          "raw_result_format": {
+            "size": [
+              1122,
+              1402
+            ],
+            "mode": "RGB"
+          },
+          "result_file": "outputs/slide-04.png",
+          "export": {
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "alpha": false
+          }
+        }
+      ],
       "errors": [],
-      "save_status": "not_started",
+      "save_status": "saved_to_repository_checkout",
       "agent_visual_review": "not_performed",
       "user_review": "pending"
     },
@@ -153,9 +281,41 @@
         "carousels/LW-CAR-0022/outputs/slide-03.png"
       ],
       "illustration": "close-up: front of the thigh; left: doing a leg press, clear side or front view — `leg press`; right: doing a goblet squat, clear side or front view — `goblet squat`",
-      "attempts": [],
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-11-01T20:28:13.970080+00:00",
+          "prompt_file": "prompts/slide-05.txt",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0029/outputs/slide-02.png",
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0022/outputs/slide-03.png"
+          ],
+          "retry_policy": "Owner 2026-10-30: at most two additional attempts per failed slide; then continue other slides/packages",
+          "finished_at": "2026-11-01T20:28:37.724680+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-d256381f-7430-4769-9bae-b90e88dd59af.png",
+          "raw_result_format": {
+            "size": [
+              1122,
+              1402
+            ],
+            "mode": "RGB"
+          },
+          "result_file": "outputs/slide-05.png",
+          "export": {
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "alpha": false
+          }
+        }
+      ],
       "errors": [],
-      "save_status": "not_started",
+      "save_status": "saved_to_repository_checkout",
       "agent_visual_review": "not_performed",
       "user_review": "pending"
     },
@@ -177,9 +337,41 @@
         "carousels/LW-CAR-0022/outputs/slide-03.png"
       ],
       "illustration": "close-up: back of the thigh; left: doing a seated leg curl, clear side or front view — `seated leg curl`; right: doing a db romanian deadlift, clear side or front view — `db romanian deadlift`",
-      "attempts": [],
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-11-01T20:28:44.764628+00:00",
+          "prompt_file": "prompts/slide-06.txt",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0029/outputs/slide-02.png",
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0022/outputs/slide-03.png"
+          ],
+          "retry_policy": "Owner 2026-10-30: at most two additional attempts per failed slide; then continue other slides/packages",
+          "finished_at": "2026-11-01T20:29:10.815300+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-80bc13bc-2a9a-451a-aee1-66f38b392fb7.png",
+          "raw_result_format": {
+            "size": [
+              1122,
+              1402
+            ],
+            "mode": "RGB"
+          },
+          "result_file": "outputs/slide-06.png",
+          "export": {
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "alpha": false
+          }
+        }
+      ],
       "errors": [],
-      "save_status": "not_started",
+      "save_status": "saved_to_repository_checkout",
       "agent_visual_review": "not_performed",
       "user_review": "pending"
     },
@@ -201,9 +393,41 @@
         "carousels/LW-CAR-0022/outputs/slide-03.png"
       ],
       "illustration": "close-up: upper arm, biceps and triceps; left: doing a cable curl, clear side or front view — `cable curl`; right: doing a rope pushdown, clear side or front view — `rope pushdown`",
-      "attempts": [],
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-11-01T20:29:18.592606+00:00",
+          "prompt_file": "prompts/slide-07.txt",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0029/outputs/slide-02.png",
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0022/outputs/slide-03.png"
+          ],
+          "retry_policy": "Owner 2026-10-30: at most two additional attempts per failed slide; then continue other slides/packages",
+          "finished_at": "2026-11-01T20:29:48.138723+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-3c499a3a-ebc6-4251-a507-d089095a4c5e.png",
+          "raw_result_format": {
+            "size": [
+              1122,
+              1402
+            ],
+            "mode": "RGB"
+          },
+          "result_file": "outputs/slide-07.png",
+          "export": {
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "alpha": false
+          }
+        }
+      ],
       "errors": [],
-      "save_status": "not_started",
+      "save_status": "saved_to_repository_checkout",
       "agent_visual_review": "not_performed",
       "user_review": "pending"
     },
@@ -225,9 +449,41 @@
         "carousels/LW-CAR-0022/outputs/slide-03.png"
       ],
       "illustration": "close-up: front torso, the abs; left: doing a plank, clear side or front view — `plank`; right: doing a dead bug, clear side or front view — `dead bug`",
-      "attempts": [],
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-11-01T20:29:53.843407+00:00",
+          "prompt_file": "prompts/slide-08.txt",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0029/outputs/slide-02.png",
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0022/outputs/slide-03.png"
+          ],
+          "retry_policy": "Owner 2026-10-30: at most two additional attempts per failed slide; then continue other slides/packages",
+          "finished_at": "2026-11-01T20:30:15.340393+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-832d5191-bfec-4986-b9bb-4af8f274b497.png",
+          "raw_result_format": {
+            "size": [
+              1122,
+              1402
+            ],
+            "mode": "RGB"
+          },
+          "result_file": "outputs/slide-08.png",
+          "export": {
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "alpha": false
+          }
+        }
+      ],
       "errors": [],
-      "save_status": "not_started",
+      "save_status": "saved_to_repository_checkout",
       "agent_visual_review": "not_performed",
       "user_review": "pending"
     },
@@ -245,11 +501,66 @@
         "carousels/LW-CAR-0022/outputs/slide-19.png"
       ],
       "illustration": "hand + phone",
-      "attempts": [],
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "status": "succeeded",
+          "started_at": "2026-11-01T20:30:24.017836+00:00",
+          "prompt_file": "prompts/slide-09.txt",
+          "transparent_background": false,
+          "referenced_image_paths": [
+            "/workspace/lightweight-carousels/carousels/LW-CAR-0022/outputs/slide-19.png"
+          ],
+          "retry_policy": "Owner 2026-10-30: at most two additional attempts per failed slide; then continue other slides/packages",
+          "finished_at": "2026-11-01T20:30:54.910320+00:00",
+          "raw_result_file": "/workspace/generated_images/exec-d6266a90-073a-46e5-9143-4f28e6e5a1a1.png",
+          "raw_result_format": {
+            "size": [
+              1122,
+              1402
+            ],
+            "mode": "RGB"
+          },
+          "result_file": "outputs/slide-09.png",
+          "export": {
+            "size": [
+              1080,
+              1350
+            ],
+            "mode": "RGB",
+            "alpha": false
+          }
+        }
+      ],
       "errors": [],
-      "save_status": "not_started",
+      "save_status": "saved_to_repository_checkout",
       "agent_visual_review": "not_performed",
-      "user_review": "pending"
+      "user_review": "pending",
+      "phone_compositing": {
+        "source": {
+          "file": "carousels/LW-CAR-0022/outputs/slide-19.png",
+          "crop": [
+            0,
+            725,
+            1080,
+            1350
+          ],
+          "scale": "1:1",
+          "mask": "External background flood-filled outside original dark silhouette; original foreground RGB unchanged; no UI generation",
+          "retained_foreground": "carousels/LW-CAR-0069/production-assets/approved-phone-hand-foreground.png"
+        },
+        "asset": "production-assets/approved-phone-hand-foreground.png",
+        "measured_text_bottom_exclusive": 885,
+        "placement": [
+          0,
+          935
+        ],
+        "minimum_gap": 50,
+        "scale": "1:1; no resampling",
+        "real_ui_generated": false,
+        "measurement": "raster ink extent solely for requested layout; no OCR or visual QA"
+      }
     }
   ],
   "night_run": {
@@ -260,5 +571,13 @@
   },
   "reasonable_choices": [
     "S2 bald faceless design takes precedence over any facial-expression wording; communicate emotion through the assigned pose and props, without extra readable text."
-  ]
+  ],
+  "archive": "LW-CAR-0106-1080x1350.zip",
+  "missing_slides": [],
+  "retry_policy": {
+    "max_additional_attempts": 2,
+    "max_total_attempts": 3,
+    "continue_after_exhaustion": true,
+    "owner_directive": "2026-10-30"
+  }
 }
