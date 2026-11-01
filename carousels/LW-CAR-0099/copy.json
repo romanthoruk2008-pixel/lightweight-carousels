@@ -1,0 +1,272 @@
+{
+  "carousel_id": "LW-CAR-0099",
+  "content_version": "1.0",
+  "status": "frozen",
+  "type": "original",
+  "design_style": "S2",
+  "language": "en",
+  "background": "CLEAN",
+  "font_family": "REF-008 look: heavy tight grotesk for headlines, clean sans for body, italic for tier lines",
+  "colors": {
+    "accent": "#F26445",
+    "background": "#F0F1EB",
+    "text_dark": "#2A2A2A",
+    "text_body_grey": "#6B6B6B",
+    "white": "#FFFFFF"
+  },
+  "source": {
+    "ref_id": null,
+    "note": "Our own 'structure the perfect 3-day week' plan in the S2 look (owner request 2026-11-01, night run).",
+    "layout_from": "carousels/LW-CAR-0022/outputs (owner-approved S2, Harda logo)"
+  },
+  "caption": {
+    "text": "Only 3 days a week? This is all you need. Save this 📌 Which day is your favorite? 👇 #fullbody #workoutplan #gymtips #3dayplan",
+    "notes": "comment prompt"
+  },
+  "slides": [
+    {
+      "n": 1,
+      "role": "hook",
+      "text": [
+        {
+          "string": "structure the perfect",
+          "style": "cover line 1, lowercase, heaviest weight, text_dark"
+        },
+        {
+          "string": "3-day week",
+          "style": "cover line 2, lowercase, heaviest weight, text_dark on an accent marker bar"
+        },
+        {
+          "string": "(3 days, every muscle)",
+          "style": "italic, regular, text_body_grey"
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "role": "week overview",
+      "text": [
+        {
+          "string": "your 3-day",
+          "style": "title line 1, lowercase, heaviest weight, text_dark"
+        },
+        {
+          "string": "week:",
+          "style": "title line 2, lowercase, heaviest weight, text_dark on an accent marker bar"
+        },
+        {
+          "string": "mon: full body a",
+          "style": "row; day bold accent, workout bold text_dark; rest days regular italic text_body_grey"
+        },
+        {
+          "string": "tue: rest",
+          "style": "row; day bold accent, workout bold text_dark; rest days regular italic text_body_grey"
+        },
+        {
+          "string": "wed: full body b",
+          "style": "row; day bold accent, workout bold text_dark; rest days regular italic text_body_grey"
+        },
+        {
+          "string": "thu: rest",
+          "style": "row; day bold accent, workout bold text_dark; rest days regular italic text_body_grey"
+        },
+        {
+          "string": "fri: full body c",
+          "style": "row; day bold accent, workout bold text_dark; rest days regular italic text_body_grey"
+        },
+        {
+          "string": "sat + sun: rest",
+          "style": "row; day bold accent, workout bold text_dark; rest days regular italic text_body_grey"
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "role": "day 1",
+      "text": [
+        {
+          "string": "day 1",
+          "style": "label before the headline, heaviest weight, text_dark"
+        },
+        {
+          "string": "full body a",
+          "style": "heaviest weight, lowercase, text_dark on an accent marker bar"
+        },
+        {
+          "string": "back squat",
+          "style": "exercise name, bold lowercase, text_dark"
+        },
+        {
+          "string": "3 x 6-8",
+          "style": "sets, regular, text_body_grey, right-aligned on the same row"
+        },
+        {
+          "string": "bench press",
+          "style": "exercise name, bold lowercase, text_dark"
+        },
+        {
+          "string": "3 x 6-8",
+          "style": "sets, regular, text_body_grey, right-aligned on the same row"
+        },
+        {
+          "string": "lat pulldown",
+          "style": "exercise name, bold lowercase, text_dark"
+        },
+        {
+          "string": "3 x 8-12",
+          "style": "sets, regular, text_body_grey, right-aligned on the same row"
+        },
+        {
+          "string": "lateral raise",
+          "style": "exercise name, bold lowercase, text_dark"
+        },
+        {
+          "string": "2 x 12-20",
+          "style": "sets, regular, text_body_grey, right-aligned on the same row"
+        },
+        {
+          "string": "cable curl",
+          "style": "exercise name, bold lowercase, text_dark"
+        },
+        {
+          "string": "2 x 10-15",
+          "style": "sets, regular, text_body_grey, right-aligned on the same row"
+        }
+      ],
+      "illustration": "barbell back squat in a rack, side view"
+    },
+    {
+      "n": 4,
+      "role": "day 2",
+      "text": [
+        {
+          "string": "day 2",
+          "style": "label before the headline, heaviest weight, text_dark"
+        },
+        {
+          "string": "full body b",
+          "style": "heaviest weight, lowercase, text_dark on an accent marker bar"
+        },
+        {
+          "string": "romanian deadlift",
+          "style": "exercise name, bold lowercase, text_dark"
+        },
+        {
+          "string": "3 x 8-10",
+          "style": "sets, regular, text_body_grey, right-aligned on the same row"
+        },
+        {
+          "string": "incline db press",
+          "style": "exercise name, bold lowercase, text_dark"
+        },
+        {
+          "string": "3 x 8-12",
+          "style": "sets, regular, text_body_grey, right-aligned on the same row"
+        },
+        {
+          "string": "seated cable row",
+          "style": "exercise name, bold lowercase, text_dark"
+        },
+        {
+          "string": "3 x 8-12",
+          "style": "sets, regular, text_body_grey, right-aligned on the same row"
+        },
+        {
+          "string": "leg curl",
+          "style": "exercise name, bold lowercase, text_dark"
+        },
+        {
+          "string": "2 x 10-15",
+          "style": "sets, regular, text_body_grey, right-aligned on the same row"
+        },
+        {
+          "string": "overhead cable extension",
+          "style": "exercise name, bold lowercase, text_dark"
+        },
+        {
+          "string": "2 x 10-15",
+          "style": "sets, regular, text_body_grey, right-aligned on the same row"
+        }
+      ],
+      "illustration": "barbell romanian deadlift, side view"
+    },
+    {
+      "n": 5,
+      "role": "day 3",
+      "text": [
+        {
+          "string": "day 3",
+          "style": "label before the headline, heaviest weight, text_dark"
+        },
+        {
+          "string": "full body c",
+          "style": "heaviest weight, lowercase, text_dark on an accent marker bar"
+        },
+        {
+          "string": "leg press",
+          "style": "exercise name, bold lowercase, text_dark"
+        },
+        {
+          "string": "3 x 8-12",
+          "style": "sets, regular, text_body_grey, right-aligned on the same row"
+        },
+        {
+          "string": "machine shoulder press",
+          "style": "exercise name, bold lowercase, text_dark"
+        },
+        {
+          "string": "3 x 8-12",
+          "style": "sets, regular, text_body_grey, right-aligned on the same row"
+        },
+        {
+          "string": "pull-ups",
+          "style": "exercise name, bold lowercase, text_dark"
+        },
+        {
+          "string": "3 x 6-10",
+          "style": "sets, regular, text_body_grey, right-aligned on the same row"
+        },
+        {
+          "string": "dips",
+          "style": "exercise name, bold lowercase, text_dark"
+        },
+        {
+          "string": "2 x 8-12",
+          "style": "sets, regular, text_body_grey, right-aligned on the same row"
+        },
+        {
+          "string": "calf raise",
+          "style": "exercise name, bold lowercase, text_dark"
+        },
+        {
+          "string": "2 x 10-15",
+          "style": "sets, regular, text_body_grey, right-aligned on the same row"
+        }
+      ],
+      "illustration": "seated 45-degree leg press, side view"
+    },
+    {
+      "n": 6,
+      "role": "product ending",
+      "text": [
+        {
+          "string": "harda tracks every set of your week and shows if every muscle keeps up.",
+          "style": "large, lowercase, heaviest weight, text_dark; accent marker bars under 'every set of your week' and 'every muscle keeps up'"
+        },
+        {
+          "string": "log your workouts and check your muscle balance.",
+          "style": "regular, text_dark, two lines"
+        }
+      ],
+      "screen": "real Harda Progress / Muscle balance screenshot, the same one as in approved LW-CAR-0022 slide 19",
+      "product_claims_checked_against_real_screen": [
+        "workouts are logged",
+        "muscle balance screen (LW-CAR-0022 slide 19)"
+      ]
+    }
+  ],
+  "claims_to_verify": [
+    "Practical plan only, no numbers or citations beyond sets and reps.",
+    "Ending: workout logging and the Muscle balance screen. Harda split cards exist in the app, but the ending does not claim custom plans."
+  ]
+}

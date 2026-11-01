@@ -1,0 +1,204 @@
+{
+  "carousel_id": "LW-CAR-0087",
+  "content_version": "1.0",
+  "status": "frozen",
+  "type": "original",
+  "design_style": "S2",
+  "language": "en",
+  "background": "CLEAN",
+  "font_family": "REF-008 look: heavy tight grotesk for headlines, clean sans for body, italic for tier lines",
+  "colors": {
+    "accent": "#F26445",
+    "background": "#F0F1EB",
+    "text_dark": "#2A2A2A",
+    "text_body_grey": "#6B6B6B",
+    "white": "#FFFFFF"
+  },
+  "source": {
+    "ref_id": null,
+    "note": "Our own 'how to build a bigger chest' guide in the S2 look (owner request 2026-11-01, night run).",
+    "layout_from": "carousels/LW-CAR-0022/outputs (owner-approved S2, Harda logo)"
+  },
+  "caption": {
+    "text": "Want a bigger chest? Save these 5 📌 Which one do you skip? 👇 #chestday #chestworkout #gymtips #bench",
+    "notes": "comment prompt"
+  },
+  "slides": [
+    {
+      "n": 1,
+      "role": "hook",
+      "text": [
+        {
+          "string": "how to build",
+          "style": "cover line 1, lowercase, heaviest weight, text_dark"
+        },
+        {
+          "string": "a bigger chest",
+          "style": "cover line 2, lowercase, heaviest weight, text_dark on an accent marker bar"
+        },
+        {
+          "string": "(save this for chest day)",
+          "style": "italic, regular, text_body_grey"
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "role": "item 1",
+      "text": [
+        {
+          "string": "#1",
+          "style": "label before the headline, heaviest weight, text_dark"
+        },
+        {
+          "string": "start with an incline press",
+          "style": "heaviest weight, lowercase, text_dark on an accent marker bar"
+        },
+        {
+          "string": "the upper chest fills out your t-shirt.",
+          "style": "regular, text_dark, up to two lines"
+        },
+        {
+          "string": "do:",
+          "style": "bold, lowercase, accent"
+        },
+        {
+          "string": "incline dumbbell press first on chest day.",
+          "style": "regular, text_dark, after 'do:'"
+        }
+      ],
+      "illustration": "dumbbell press on an incline bench, front three-quarter view"
+    },
+    {
+      "n": 3,
+      "role": "item 2",
+      "text": [
+        {
+          "string": "#2",
+          "style": "label before the headline, heaviest weight, text_dark"
+        },
+        {
+          "string": "get a deep stretch",
+          "style": "heaviest weight, lowercase, text_dark on an accent marker bar"
+        },
+        {
+          "string": "half reps cheat your chest.",
+          "style": "regular, text_dark, up to two lines"
+        },
+        {
+          "string": "do:",
+          "style": "bold, lowercase, accent"
+        },
+        {
+          "string": "lower the weight until you feel a stretch.",
+          "style": "regular, text_dark, after 'do:'"
+        }
+      ],
+      "illustration": "dumbbell bench press at the bottom position, front three-quarter view"
+    },
+    {
+      "n": 4,
+      "role": "item 3",
+      "text": [
+        {
+          "string": "#3",
+          "style": "label before the headline, heaviest weight, text_dark"
+        },
+        {
+          "string": "finish with a fly",
+          "style": "heaviest weight, lowercase, text_dark on an accent marker bar"
+        },
+        {
+          "string": "presses tire your triceps before your chest.",
+          "style": "regular, text_dark, up to two lines"
+        },
+        {
+          "string": "do:",
+          "style": "bold, lowercase, accent"
+        },
+        {
+          "string": "pec deck or cable fly at the end.",
+          "style": "regular, text_dark, after 'do:'"
+        }
+      ],
+      "illustration": "seated pec deck machine, front view"
+    },
+    {
+      "n": 5,
+      "role": "item 4",
+      "text": [
+        {
+          "string": "#4",
+          "style": "label before the headline, heaviest weight, text_dark"
+        },
+        {
+          "string": "add one rep at a time",
+          "style": "heaviest weight, lowercase, text_dark on an accent marker bar"
+        },
+        {
+          "string": "more reps or more weight every week is how you grow.",
+          "style": "regular, text_dark, up to two lines"
+        },
+        {
+          "string": "do:",
+          "style": "bold, lowercase, accent"
+        },
+        {
+          "string": "log every set and beat it next time.",
+          "style": "regular, text_dark, after 'do:'"
+        }
+      ],
+      "illustration": "barbell bench press in a rack, front three-quarter view"
+    },
+    {
+      "n": 6,
+      "role": "item 5",
+      "text": [
+        {
+          "string": "#5",
+          "style": "label before the headline, heaviest weight, text_dark"
+        },
+        {
+          "string": "don’t forget dips",
+          "style": "heaviest weight, lowercase, text_dark on an accent marker bar"
+        },
+        {
+          "string": "a big stretch for your lower chest.",
+          "style": "regular, text_dark, up to two lines"
+        },
+        {
+          "string": "do:",
+          "style": "bold, lowercase, accent"
+        },
+        {
+          "string": "lean forward and go deep.",
+          "style": "regular, text_dark, after 'do:'"
+        }
+      ],
+      "illustration": "dip on parallel bars, torso leaning forward, side view"
+    },
+    {
+      "n": 7,
+      "role": "product ending",
+      "text": [
+        {
+          "string": "harda tracks every set and shows if your chest keeps up.",
+          "style": "large, lowercase, heaviest weight, text_dark; accent marker bars under 'every set' and 'your chest keeps up'"
+        },
+        {
+          "string": "log your workouts and check your muscle balance.",
+          "style": "regular, text_dark, two lines"
+        }
+      ],
+      "screen": "real Harda Progress / Muscle balance screenshot, the same one as in approved LW-CAR-0022 slide 19",
+      "product_claims_checked_against_real_screen": [
+        "workouts are logged",
+        "muscle balance screen (LW-CAR-0022 slide 19)"
+      ]
+    }
+  ],
+  "claims_to_verify": [
+    "Practical cues only, no numbers or citations beyond simple coaching cues.",
+    "Ending: workout logging and the Muscle balance screen (Chest axis)."
+  ]
+}

@@ -1,0 +1,251 @@
+{
+  "carousel_id": "LW-CAR-0105",
+  "content_version": "1.0",
+  "status": "frozen",
+  "type": "original",
+  "design_style": "S2",
+  "language": "en",
+  "background": "CLEAN",
+  "font_family": "REF-008 look: heavy tight grotesk for headlines, clean sans for body, italic for tier lines",
+  "colors": {
+    "accent": "#F26445",
+    "background": "#F0F1EB",
+    "text_dark": "#2A2A2A",
+    "text_body_grey": "#6B6B6B",
+    "white": "#FFFFFF"
+  },
+  "source": {
+    "ref_id": null,
+    "note": "Our BEST EXERCISES series in the new S2 look, (machines only) (owner request 2026-11-01, night run).",
+    "layout_from": "carousels/LW-CAR-0022/outputs (owner-approved S2, Harda logo)"
+  },
+  "caption": {
+    "text": "Machines only, full body. Save this 📌 Which machine is your favorite? 👇 #machines #gymtips #beginnergym #bestexercises",
+    "notes": "comment prompt"
+  },
+  "slides": [
+    {
+      "n": 1,
+      "role": "hook",
+      "text": [
+        {
+          "string": "best exercises",
+          "style": "cover line 1, lowercase, heaviest weight, text_dark"
+        },
+        {
+          "string": "for every muscle group",
+          "style": "cover line 2, lowercase, heaviest weight, text_dark on an accent marker bar"
+        },
+        {
+          "string": "(machines only)",
+          "style": "italic, regular, text_body_grey"
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "role": "muscle 1",
+      "text": [
+        {
+          "string": "#1",
+          "style": "label before the headline, heaviest weight, text_dark"
+        },
+        {
+          "string": "chest",
+          "style": "heaviest weight, lowercase, text_dark on an accent marker bar"
+        },
+        {
+          "string": "machine chest press",
+          "style": "left exercise label, bold lowercase, text_dark"
+        },
+        {
+          "string": "or",
+          "style": "white bold lowercase in an accent circle badge"
+        },
+        {
+          "string": "pec deck",
+          "style": "right exercise label, bold lowercase, text_dark"
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "role": "muscle 2",
+      "text": [
+        {
+          "string": "#2",
+          "style": "label before the headline, heaviest weight, text_dark"
+        },
+        {
+          "string": "back",
+          "style": "heaviest weight, lowercase, text_dark on an accent marker bar"
+        },
+        {
+          "string": "lat pulldown",
+          "style": "left exercise label, bold lowercase, text_dark"
+        },
+        {
+          "string": "or",
+          "style": "white bold lowercase in an accent circle badge"
+        },
+        {
+          "string": "machine row",
+          "style": "right exercise label, bold lowercase, text_dark"
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "role": "muscle 3",
+      "text": [
+        {
+          "string": "#3",
+          "style": "label before the headline, heaviest weight, text_dark"
+        },
+        {
+          "string": "shoulders",
+          "style": "heaviest weight, lowercase, text_dark on an accent marker bar"
+        },
+        {
+          "string": "machine shoulder press",
+          "style": "left exercise label, bold lowercase, text_dark"
+        },
+        {
+          "string": "or",
+          "style": "white bold lowercase in an accent circle badge"
+        },
+        {
+          "string": "machine lateral raise",
+          "style": "right exercise label, bold lowercase, text_dark"
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "role": "muscle 4",
+      "text": [
+        {
+          "string": "#4",
+          "style": "label before the headline, heaviest weight, text_dark"
+        },
+        {
+          "string": "arms",
+          "style": "heaviest weight, lowercase, text_dark on an accent marker bar"
+        },
+        {
+          "string": "machine preacher curl",
+          "style": "left exercise label, bold lowercase, text_dark"
+        },
+        {
+          "string": "or",
+          "style": "white bold lowercase in an accent circle badge"
+        },
+        {
+          "string": "machine dip",
+          "style": "right exercise label, bold lowercase, text_dark"
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "role": "muscle 5",
+      "text": [
+        {
+          "string": "#5",
+          "style": "label before the headline, heaviest weight, text_dark"
+        },
+        {
+          "string": "quads",
+          "style": "heaviest weight, lowercase, text_dark on an accent marker bar"
+        },
+        {
+          "string": "leg press",
+          "style": "left exercise label, bold lowercase, text_dark"
+        },
+        {
+          "string": "or",
+          "style": "white bold lowercase in an accent circle badge"
+        },
+        {
+          "string": "leg extension",
+          "style": "right exercise label, bold lowercase, text_dark"
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "role": "muscle 6",
+      "text": [
+        {
+          "string": "#6",
+          "style": "label before the headline, heaviest weight, text_dark"
+        },
+        {
+          "string": "hamstrings",
+          "style": "heaviest weight, lowercase, text_dark on an accent marker bar"
+        },
+        {
+          "string": "seated leg curl",
+          "style": "left exercise label, bold lowercase, text_dark"
+        },
+        {
+          "string": "or",
+          "style": "white bold lowercase in an accent circle badge"
+        },
+        {
+          "string": "lying leg curl",
+          "style": "right exercise label, bold lowercase, text_dark"
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "role": "muscle 7",
+      "text": [
+        {
+          "string": "#7",
+          "style": "label before the headline, heaviest weight, text_dark"
+        },
+        {
+          "string": "calves",
+          "style": "heaviest weight, lowercase, text_dark on an accent marker bar"
+        },
+        {
+          "string": "seated calf raise",
+          "style": "left exercise label, bold lowercase, text_dark"
+        },
+        {
+          "string": "or",
+          "style": "white bold lowercase in an accent circle badge"
+        },
+        {
+          "string": "standing calf raise machine",
+          "style": "right exercise label, bold lowercase, text_dark"
+        }
+      ]
+    },
+    {
+      "n": 9,
+      "role": "product ending",
+      "text": [
+        {
+          "string": "harda tracks every set, on every machine you use.",
+          "style": "large, lowercase, heaviest weight, text_dark; accent marker bars under 'every set' and 'every machine you use'"
+        },
+        {
+          "string": "log your workouts and keep your plan on track.",
+          "style": "regular, text_dark, two lines"
+        }
+      ],
+      "screen": "real Harda Progress / Muscle balance screenshot, the same one as in approved LW-CAR-0022 slide 19",
+      "product_claims_checked_against_real_screen": [
+        "workouts are logged",
+        "muscle balance screen (LW-CAR-0022 slide 19)"
+      ]
+    }
+  ],
+  "claims_to_verify": [
+    "Exercise picks are our own; no numbers or citations.",
+    "Ending: workout logging only."
+  ]
+}
