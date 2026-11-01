@@ -1,0 +1,288 @@
+{
+  "carousel_id": "LW-CAR-0092",
+  "content_version": "1.0",
+  "source_commit": "0ebbde4dd3879ff87ff595bb74566c0999edc137",
+  "batch": "BATCH-K",
+  "batch_status": "running",
+  "design_style": "S2",
+  "background": "CLEAN",
+  "brand": "Harda",
+  "status": "in_progress",
+  "carousel_complete": false,
+  "generated_images": 0,
+  "next_slide_to_generate": 1,
+  "next_action": "Generate all assigned slides in order with at most two additional attempts after failure; package/commit/pull --rebase/push each carousel and continue night-run batches K, L, M.",
+  "agent_visual_review": "not_performed",
+  "user_review": "pending",
+  "logo": {
+    "file": "assets/logo/harda-logo-full.png",
+    "placement": [
+      48,
+      19,
+      218,
+      71
+    ],
+    "method": "original PNG with own alpha; no backing patch"
+  },
+  "phone_source": {
+    "file": "carousels/LW-CAR-0022/outputs/slide-19.png",
+    "crop": [
+      0,
+      725,
+      1080,
+      1350
+    ],
+    "scale": "1:1",
+    "mask": "External background flood-filled outside original dark silhouette; original foreground RGB unchanged; no UI generation",
+    "retained_foreground": "carousels/LW-CAR-0069/production-assets/approved-phone-hand-foreground.png"
+  },
+  "remote_save": {
+    "remote": "origin",
+    "branch": "claude/charming-einstein-xgejky",
+    "status": "not_yet_pushed"
+  },
+  "slides": [
+    {
+      "slide": 1,
+      "role": "hook",
+      "content_version": "1.0",
+      "exact_text": [
+        "best exercises",
+        "for every muscle group",
+        "(bodyweight only)"
+      ],
+      "file": "outputs/slide-01.png",
+      "prompt_file": "prompts/slide-01.txt",
+      "references": [
+        "carousels/LW-CAR-0022/outputs/slide-01.png"
+      ],
+      "illustration": "front view from the thighs up, doing a push-up hold at the top, side view; no coloured muscles",
+      "attempts": [],
+      "errors": [],
+      "save_status": "not_started",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 2,
+      "role": "muscle 1",
+      "content_version": "1.0",
+      "exact_text": [
+        "#1",
+        "chest",
+        "push-ups",
+        "or",
+        "deficit push-ups"
+      ],
+      "file": "outputs/slide-02.png",
+      "prompt_file": "prompts/slide-02.txt",
+      "references": [
+        "carousels/LW-CAR-0029/outputs/slide-02.png",
+        "carousels/LW-CAR-0022/outputs/slide-03.png"
+      ],
+      "illustration": "close-up: front torso, the chest; left: doing a push-ups, clear side or front view — `push-ups`; right: doing a deficit push-ups, clear side or front view — `deficit push-ups`",
+      "attempts": [],
+      "errors": [],
+      "save_status": "not_started",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 3,
+      "role": "muscle 2",
+      "content_version": "1.0",
+      "exact_text": [
+        "#2",
+        "back",
+        "pull-ups",
+        "or",
+        "inverted rows"
+      ],
+      "file": "outputs/slide-03.png",
+      "prompt_file": "prompts/slide-03.txt",
+      "references": [
+        "carousels/LW-CAR-0029/outputs/slide-02.png",
+        "carousels/LW-CAR-0022/outputs/slide-03.png"
+      ],
+      "illustration": "close-up: rear torso, the lats; left: doing a pull-ups, clear side or front view — `pull-ups`; right: doing a inverted rows, clear side or front view — `inverted rows`",
+      "attempts": [],
+      "errors": [],
+      "save_status": "not_started",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 4,
+      "role": "muscle 3",
+      "content_version": "1.0",
+      "exact_text": [
+        "#3",
+        "shoulders",
+        "pike push-ups",
+        "or",
+        "wall walks"
+      ],
+      "file": "outputs/slide-04.png",
+      "prompt_file": "prompts/slide-04.txt",
+      "references": [
+        "carousels/LW-CAR-0029/outputs/slide-02.png",
+        "carousels/LW-CAR-0022/outputs/slide-03.png"
+      ],
+      "illustration": "close-up: shoulder close-up, the delts; left: doing a pike push-ups, clear side or front view — `pike push-ups`; right: doing a wall walks, clear side or front view — `wall walks`",
+      "attempts": [],
+      "errors": [],
+      "save_status": "not_started",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 5,
+      "role": "muscle 4",
+      "content_version": "1.0",
+      "exact_text": [
+        "#4",
+        "triceps",
+        "diamond push-ups",
+        "or",
+        "bench dips"
+      ],
+      "file": "outputs/slide-05.png",
+      "prompt_file": "prompts/slide-05.txt",
+      "references": [
+        "carousels/LW-CAR-0029/outputs/slide-02.png",
+        "carousels/LW-CAR-0022/outputs/slide-03.png"
+      ],
+      "illustration": "close-up: rear upper arm, the triceps; left: doing a diamond push-ups, clear side or front view — `diamond push-ups`; right: doing a bench dips, clear side or front view — `bench dips`",
+      "attempts": [],
+      "errors": [],
+      "save_status": "not_started",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 6,
+      "role": "muscle 5",
+      "content_version": "1.0",
+      "exact_text": [
+        "#5",
+        "biceps",
+        "chin-ups",
+        "or",
+        "underhand inverted rows"
+      ],
+      "file": "outputs/slide-06.png",
+      "prompt_file": "prompts/slide-06.txt",
+      "references": [
+        "carousels/LW-CAR-0029/outputs/slide-02.png",
+        "carousels/LW-CAR-0022/outputs/slide-03.png"
+      ],
+      "illustration": "close-up: front upper arm, the biceps; left: doing a chin-ups, clear side or front view — `chin-ups`; right: doing a underhand inverted rows, clear side or front view — `underhand inverted rows`",
+      "attempts": [],
+      "errors": [],
+      "save_status": "not_started",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 7,
+      "role": "muscle 6",
+      "content_version": "1.0",
+      "exact_text": [
+        "#6",
+        "quads",
+        "split squats",
+        "or",
+        "step-ups"
+      ],
+      "file": "outputs/slide-07.png",
+      "prompt_file": "prompts/slide-07.txt",
+      "references": [
+        "carousels/LW-CAR-0029/outputs/slide-02.png",
+        "carousels/LW-CAR-0022/outputs/slide-03.png"
+      ],
+      "illustration": "close-up: front of the thigh, the quads; left: doing a split squats, clear side or front view — `split squats`; right: doing a step-ups, clear side or front view — `step-ups`",
+      "attempts": [],
+      "errors": [],
+      "save_status": "not_started",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 8,
+      "role": "muscle 7",
+      "content_version": "1.0",
+      "exact_text": [
+        "#7",
+        "hamstrings",
+        "single-leg glute bridge",
+        "or",
+        "nordic curl"
+      ],
+      "file": "outputs/slide-08.png",
+      "prompt_file": "prompts/slide-08.txt",
+      "references": [
+        "carousels/LW-CAR-0029/outputs/slide-02.png",
+        "carousels/LW-CAR-0022/outputs/slide-03.png"
+      ],
+      "illustration": "close-up: back of the thigh, the hamstrings; left: doing a single-leg glute bridge, clear side or front view — `single-leg glute bridge`; right: doing a nordic curl, clear side or front view — `nordic curl`",
+      "attempts": [],
+      "errors": [],
+      "save_status": "not_started",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 9,
+      "role": "muscle 8",
+      "content_version": "1.0",
+      "exact_text": [
+        "#8",
+        "abs",
+        "hanging leg raise",
+        "or",
+        "plank"
+      ],
+      "file": "outputs/slide-09.png",
+      "prompt_file": "prompts/slide-09.txt",
+      "references": [
+        "carousels/LW-CAR-0029/outputs/slide-02.png",
+        "carousels/LW-CAR-0022/outputs/slide-03.png"
+      ],
+      "illustration": "close-up: front torso, the abs; left: doing a hanging leg raise, clear side or front view — `hanging leg raise`; right: doing a plank, clear side or front view — `plank`",
+      "attempts": [],
+      "errors": [],
+      "save_status": "not_started",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 10,
+      "role": "product ending",
+      "content_version": "1.0",
+      "exact_text": [
+        "harda tracks every set, even with no equipment at all.",
+        "log your workouts at home, in the park or in the gym."
+      ],
+      "file": "outputs/slide-10.png",
+      "prompt_file": "prompts/slide-10.txt",
+      "references": [
+        "carousels/LW-CAR-0022/outputs/slide-19.png"
+      ],
+      "illustration": "hand + phone",
+      "attempts": [],
+      "errors": [],
+      "save_status": "not_started",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    }
+  ],
+  "night_run": {
+    "instruction_file": "carousels/NIGHT-RUN.md",
+    "order": "K then L then M",
+    "stop_on_image_quota": true,
+    "owner_directive": "2026-11-01"
+  },
+  "reasonable_choices": [
+    "S2 bald faceless design takes precedence over any facial-expression wording; communicate emotion through the assigned pose and props, without extra readable text."
+  ]
+}
