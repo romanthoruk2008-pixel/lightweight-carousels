@@ -1,0 +1,216 @@
+{
+  "carousel_id": "LW-CAR-0099",
+  "content_version": "1.0",
+  "source_commit": "0ec4eef684de3921442c6e325284369b18d3c25f",
+  "batch": "BATCH-L",
+  "batch_status": "running",
+  "design_style": "S2",
+  "background": "CLEAN",
+  "brand": "Harda",
+  "status": "in_progress",
+  "carousel_complete": false,
+  "generated_images": 0,
+  "next_slide_to_generate": 1,
+  "next_action": "Generate all assigned slides in order with at most two additional attempts after failure; package/commit/pull --rebase/push each carousel and continue night-run batches K, L, M.",
+  "agent_visual_review": "not_performed",
+  "user_review": "pending",
+  "logo": {
+    "file": "assets/logo/harda-logo-full.png",
+    "placement": [
+      48,
+      19,
+      218,
+      71
+    ],
+    "method": "original PNG with own alpha; no backing patch"
+  },
+  "phone_source": {
+    "file": "carousels/LW-CAR-0022/outputs/slide-19.png",
+    "crop": [
+      0,
+      725,
+      1080,
+      1350
+    ],
+    "scale": "1:1",
+    "mask": "External background flood-filled outside original dark silhouette; original foreground RGB unchanged; no UI generation",
+    "retained_foreground": "carousels/LW-CAR-0069/production-assets/approved-phone-hand-foreground.png"
+  },
+  "remote_save": {
+    "remote": "origin",
+    "branch": "claude/charming-einstein-xgejky",
+    "status": "not_yet_pushed"
+  },
+  "slides": [
+    {
+      "slide": 1,
+      "role": "hook",
+      "content_version": "1.0",
+      "exact_text": [
+        "structure the perfect",
+        "3-day week",
+        "(3 days, every muscle)"
+      ],
+      "file": "outputs/slide-01.png",
+      "prompt_file": "prompts/slide-01.txt",
+      "references": [
+        "carousels/LW-CAR-0022/outputs/slide-01.png"
+      ],
+      "illustration": "front view from the thighs up, standing next to a squat rack holding a small weekly calendar card; no coloured muscles",
+      "attempts": [],
+      "errors": [],
+      "save_status": "not_started",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 2,
+      "role": "week overview",
+      "content_version": "1.0",
+      "exact_text": [
+        "your 3-day",
+        "week:",
+        "mon: full body a",
+        "tue: rest",
+        "wed: full body b",
+        "thu: rest",
+        "fri: full body c",
+        "sat + sun: rest"
+      ],
+      "file": "outputs/slide-02.png",
+      "prompt_file": "prompts/slide-02.txt",
+      "references": [
+        "carousels/LW-CAR-0029/outputs/slide-02.png",
+        "carousels/LW-CAR-0022/outputs/slide-03.png"
+      ],
+      "illustration": "small white figure bottom right, standing relaxed with a towel over one shoulder",
+      "attempts": [],
+      "errors": [],
+      "save_status": "not_started",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 3,
+      "role": "day 1",
+      "content_version": "1.0",
+      "exact_text": [
+        "day 1",
+        "full body a",
+        "back squat",
+        "3 x 6-8",
+        "bench press",
+        "3 x 6-8",
+        "lat pulldown",
+        "3 x 8-12",
+        "lateral raise",
+        "2 x 12-20",
+        "cable curl",
+        "2 x 10-15"
+      ],
+      "file": "outputs/slide-03.png",
+      "prompt_file": "prompts/slide-03.txt",
+      "references": [
+        "carousels/LW-CAR-0029/outputs/slide-02.png",
+        "carousels/LW-CAR-0022/outputs/slide-03.png"
+      ],
+      "illustration": "barbell back squat in a rack, side view",
+      "attempts": [],
+      "errors": [],
+      "save_status": "not_started",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 4,
+      "role": "day 2",
+      "content_version": "1.0",
+      "exact_text": [
+        "day 2",
+        "full body b",
+        "romanian deadlift",
+        "3 x 8-10",
+        "incline db press",
+        "3 x 8-12",
+        "seated cable row",
+        "3 x 8-12",
+        "leg curl",
+        "2 x 10-15",
+        "overhead cable extension",
+        "2 x 10-15"
+      ],
+      "file": "outputs/slide-04.png",
+      "prompt_file": "prompts/slide-04.txt",
+      "references": [
+        "carousels/LW-CAR-0029/outputs/slide-02.png",
+        "carousels/LW-CAR-0022/outputs/slide-03.png"
+      ],
+      "illustration": "barbell romanian deadlift, side view",
+      "attempts": [],
+      "errors": [],
+      "save_status": "not_started",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 5,
+      "role": "day 3",
+      "content_version": "1.0",
+      "exact_text": [
+        "day 3",
+        "full body c",
+        "leg press",
+        "3 x 8-12",
+        "machine shoulder press",
+        "3 x 8-12",
+        "pull-ups",
+        "3 x 6-10",
+        "dips",
+        "2 x 8-12",
+        "calf raise",
+        "2 x 10-15"
+      ],
+      "file": "outputs/slide-05.png",
+      "prompt_file": "prompts/slide-05.txt",
+      "references": [
+        "carousels/LW-CAR-0029/outputs/slide-02.png",
+        "carousels/LW-CAR-0022/outputs/slide-03.png"
+      ],
+      "illustration": "seated 45-degree leg press, side view",
+      "attempts": [],
+      "errors": [],
+      "save_status": "not_started",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    },
+    {
+      "slide": 6,
+      "role": "product ending",
+      "content_version": "1.0",
+      "exact_text": [
+        "harda tracks every set of your week and shows if every muscle keeps up.",
+        "log your workouts and check your muscle balance."
+      ],
+      "file": "outputs/slide-06.png",
+      "prompt_file": "prompts/slide-06.txt",
+      "references": [
+        "carousels/LW-CAR-0022/outputs/slide-19.png"
+      ],
+      "illustration": "hand + phone",
+      "attempts": [],
+      "errors": [],
+      "save_status": "not_started",
+      "agent_visual_review": "not_performed",
+      "user_review": "pending"
+    }
+  ],
+  "night_run": {
+    "instruction_file": "carousels/NIGHT-RUN.md",
+    "order": "K then L then M",
+    "stop_on_image_quota": true,
+    "owner_directive": "2026-11-01"
+  },
+  "reasonable_choices": [
+    "S2 bald faceless design takes precedence over any facial-expression wording; communicate emotion through the assigned pose and props, without extra readable text."
+  ]
+}
