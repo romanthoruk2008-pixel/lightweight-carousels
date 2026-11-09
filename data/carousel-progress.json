@@ -1250,10 +1250,16 @@
       "slides": 8,
       "background": "CLEAN",
       "slides_blocked": [],
-      "generation": "not_started",
-      "user_review": "pending",
-      "next_action": "Codex batch J: generate all slides in one go (carousels/BATCH-J.md)",
-      "path": "carousels/LW-CAR-0078/"
+      "generation": "complete",
+      "user_review": "approved_by_publishing",
+      "next_action": "Published on TikTok 2026-11-09. Track results.",
+      "path": "carousels/LW-CAR-0078/",
+      "published": [
+        {
+          "platform": "TikTok",
+          "date": "2026-11-09"
+        }
+      ]
     },
     {
       "id": "LW-CAR-0079",
