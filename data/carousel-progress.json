@@ -1708,6 +1708,22 @@
       "user_review": "pending",
       "next_action": "Codex night run: see carousels/NIGHT-RUN.md (batches K, L, M)",
       "path": "carousels/LW-CAR-0106/"
+    },
+    {
+      "id": "LW-CAR-0107",
+      "title": "the 4-day split that actually works",
+      "source_ref": null,
+      "type": "original",
+      "design_style": "S2",
+      "content_version": "1.0",
+      "copy_status": "frozen",
+      "slides": 6,
+      "background": "CLEAN",
+      "slides_blocked": [],
+      "generation": "not_started",
+      "user_review": "pending",
+      "next_action": "Codex: generate LW-CAR-0107 (carousels/LW-CAR-0107/prompts/codex-task.md)",
+      "path": "carousels/LW-CAR-0107/"
     }
   ],
   "experiments": [

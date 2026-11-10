@@ -1,0 +1,413 @@
+{
+  "carousel_id": "LW-CAR-0107",
+  "content_version": "1.0",
+  "status": "frozen",
+  "type": "original",
+  "design_style": "S2",
+  "language": "en",
+  "background": "CLEAN",
+  "font_family": "REF-008 look: heavy tight grotesk for headlines, clean sans for body, italic for tier lines",
+  "colors": {
+    "accent": "#F26445",
+    "background": "#F0F1EB",
+    "text_dark": "#2A2A2A",
+    "text_body_grey": "#6B6B6B",
+    "white": "#FFFFFF"
+  },
+  "source": {
+    "ref_id": "REF-009",
+    "note": "Our own 4-day upper/lower split in the S2 look, using the exercise-grid format of REF-009 (layout only; own exercises, text and colours). Owner request 2026-11-10.",
+    "layout_from": "carousels/LW-CAR-0022/outputs (owner-approved S2, Harda logo)"
+  },
+  "caption": {
+    "text": "Save this 4-day upper/lower split for next week 💪 Mon: upper a · Tue: lower a · Thu: upper b · Fri: lower b. Which day is your favorite? 👇 #workoutsplit #upperlower #gymtips #workoutplan",
+    "notes": "comment prompt"
+  },
+  "slides": [
+    {
+      "n": 1,
+      "role": "hook",
+      "text": [
+        {
+          "string": "the 4-day split",
+          "style": "cover line 1, lowercase, heaviest weight, text_dark"
+        },
+        {
+          "string": "that actually works",
+          "style": "cover line 2, lowercase, heaviest weight, text_dark on an accent marker bar"
+        },
+        {
+          "string": "(upper / lower, save this)",
+          "style": "italic, regular, text_body_grey"
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "role": "day 1",
+      "text": [
+        {
+          "string": "01",
+          "style": "white heaviest number in a solid accent square tile"
+        },
+        {
+          "string": "upper body a",
+          "style": "heaviest weight, lowercase, text_dark"
+        },
+        {
+          "string": "1",
+          "style": "white bold number in a small dark circle"
+        },
+        {
+          "string": "chest press machine",
+          "style": "card title, bold lowercase, text_dark"
+        },
+        {
+          "string": "3 sets x 6-10 reps",
+          "style": "card footer, regular, text_body_grey"
+        },
+        {
+          "string": "2",
+          "style": "white bold number in a small dark circle"
+        },
+        {
+          "string": "lat pulldown",
+          "style": "card title, bold lowercase, text_dark"
+        },
+        {
+          "string": "2 sets x 8-12 reps",
+          "style": "card footer, regular, text_body_grey"
+        },
+        {
+          "string": "3",
+          "style": "white bold number in a small dark circle"
+        },
+        {
+          "string": "seated db press",
+          "style": "card title, bold lowercase, text_dark"
+        },
+        {
+          "string": "2 sets x 8-12 reps",
+          "style": "card footer, regular, text_body_grey"
+        },
+        {
+          "string": "4",
+          "style": "white bold number in a small dark circle"
+        },
+        {
+          "string": "chest-supported row",
+          "style": "card title, bold lowercase, text_dark"
+        },
+        {
+          "string": "2 sets x 8-12 reps",
+          "style": "card footer, regular, text_body_grey"
+        },
+        {
+          "string": "5",
+          "style": "white bold number in a small dark circle"
+        },
+        {
+          "string": "rope pushdown",
+          "style": "card title, bold lowercase, text_dark"
+        },
+        {
+          "string": "2 sets x 10-15 reps",
+          "style": "card footer, regular, text_body_grey"
+        },
+        {
+          "string": "6",
+          "style": "white bold number in a small dark circle"
+        },
+        {
+          "string": "ez-bar curl",
+          "style": "card title, bold lowercase, text_dark"
+        },
+        {
+          "string": "2 sets x 10-15 reps",
+          "style": "card footer, regular, text_body_grey"
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "role": "day 2",
+      "text": [
+        {
+          "string": "02",
+          "style": "white heaviest number in a solid accent square tile"
+        },
+        {
+          "string": "lower body a",
+          "style": "heaviest weight, lowercase, text_dark"
+        },
+        {
+          "string": "1",
+          "style": "white bold number in a small dark circle"
+        },
+        {
+          "string": "hack squat",
+          "style": "card title, bold lowercase, text_dark"
+        },
+        {
+          "string": "3 sets x 6-10 reps",
+          "style": "card footer, regular, text_body_grey"
+        },
+        {
+          "string": "2",
+          "style": "white bold number in a small dark circle"
+        },
+        {
+          "string": "romanian deadlift",
+          "style": "card title, bold lowercase, text_dark"
+        },
+        {
+          "string": "2 sets x 8-10 reps",
+          "style": "card footer, regular, text_body_grey"
+        },
+        {
+          "string": "3",
+          "style": "white bold number in a small dark circle"
+        },
+        {
+          "string": "leg extension",
+          "style": "card title, bold lowercase, text_dark"
+        },
+        {
+          "string": "2 sets x 10-15 reps",
+          "style": "card footer, regular, text_body_grey"
+        },
+        {
+          "string": "4",
+          "style": "white bold number in a small dark circle"
+        },
+        {
+          "string": "seated leg curl",
+          "style": "card title, bold lowercase, text_dark"
+        },
+        {
+          "string": "2 sets x 10-15 reps",
+          "style": "card footer, regular, text_body_grey"
+        },
+        {
+          "string": "5",
+          "style": "white bold number in a small dark circle"
+        },
+        {
+          "string": "standing calf raise",
+          "style": "card title, bold lowercase, text_dark"
+        },
+        {
+          "string": "2 sets x 10-15 reps",
+          "style": "card footer, regular, text_body_grey"
+        },
+        {
+          "string": "6",
+          "style": "white bold number in a small dark circle"
+        },
+        {
+          "string": "cable crunch",
+          "style": "card title, bold lowercase, text_dark"
+        },
+        {
+          "string": "2 sets x 10-15 reps",
+          "style": "card footer, regular, text_body_grey"
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "role": "day 3",
+      "text": [
+        {
+          "string": "03",
+          "style": "white heaviest number in a solid accent square tile"
+        },
+        {
+          "string": "upper body b",
+          "style": "heaviest weight, lowercase, text_dark"
+        },
+        {
+          "string": "1",
+          "style": "white bold number in a small dark circle"
+        },
+        {
+          "string": "incline db press",
+          "style": "card title, bold lowercase, text_dark"
+        },
+        {
+          "string": "3 sets x 6-10 reps",
+          "style": "card footer, regular, text_body_grey"
+        },
+        {
+          "string": "2",
+          "style": "white bold number in a small dark circle"
+        },
+        {
+          "string": "pull-ups",
+          "style": "card title, bold lowercase, text_dark"
+        },
+        {
+          "string": "2 sets x 6-10 reps",
+          "style": "card footer, regular, text_body_grey"
+        },
+        {
+          "string": "3",
+          "style": "white bold number in a small dark circle"
+        },
+        {
+          "string": "seated cable row",
+          "style": "card title, bold lowercase, text_dark"
+        },
+        {
+          "string": "2 sets x 8-12 reps",
+          "style": "card footer, regular, text_body_grey"
+        },
+        {
+          "string": "4",
+          "style": "white bold number in a small dark circle"
+        },
+        {
+          "string": "db lateral raise",
+          "style": "card title, bold lowercase, text_dark"
+        },
+        {
+          "string": "2 sets x 12-15 reps",
+          "style": "card footer, regular, text_body_grey"
+        },
+        {
+          "string": "5",
+          "style": "white bold number in a small dark circle"
+        },
+        {
+          "string": "overhead cable extension",
+          "style": "card title, bold lowercase, text_dark"
+        },
+        {
+          "string": "2 sets x 10-15 reps",
+          "style": "card footer, regular, text_body_grey"
+        },
+        {
+          "string": "6",
+          "style": "white bold number in a small dark circle"
+        },
+        {
+          "string": "hammer curl",
+          "style": "card title, bold lowercase, text_dark"
+        },
+        {
+          "string": "2 sets x 10-12 reps",
+          "style": "card footer, regular, text_body_grey"
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "role": "day 4",
+      "text": [
+        {
+          "string": "04",
+          "style": "white heaviest number in a solid accent square tile"
+        },
+        {
+          "string": "lower body b",
+          "style": "heaviest weight, lowercase, text_dark"
+        },
+        {
+          "string": "1",
+          "style": "white bold number in a small dark circle"
+        },
+        {
+          "string": "leg press",
+          "style": "card title, bold lowercase, text_dark"
+        },
+        {
+          "string": "3 sets x 8-12 reps",
+          "style": "card footer, regular, text_body_grey"
+        },
+        {
+          "string": "2",
+          "style": "white bold number in a small dark circle"
+        },
+        {
+          "string": "hip thrust",
+          "style": "card title, bold lowercase, text_dark"
+        },
+        {
+          "string": "2 sets x 8-12 reps",
+          "style": "card footer, regular, text_body_grey"
+        },
+        {
+          "string": "3",
+          "style": "white bold number in a small dark circle"
+        },
+        {
+          "string": "lying leg curl",
+          "style": "card title, bold lowercase, text_dark"
+        },
+        {
+          "string": "2 sets x 10-15 reps",
+          "style": "card footer, regular, text_body_grey"
+        },
+        {
+          "string": "4",
+          "style": "white bold number in a small dark circle"
+        },
+        {
+          "string": "bulgarian split squat",
+          "style": "card title, bold lowercase, text_dark"
+        },
+        {
+          "string": "2 sets x 8-12 reps",
+          "style": "card footer, regular, text_body_grey"
+        },
+        {
+          "string": "5",
+          "style": "white bold number in a small dark circle"
+        },
+        {
+          "string": "seated calf raise",
+          "style": "card title, bold lowercase, text_dark"
+        },
+        {
+          "string": "2 sets x 10-15 reps",
+          "style": "card footer, regular, text_body_grey"
+        },
+        {
+          "string": "6",
+          "style": "white bold number in a small dark circle"
+        },
+        {
+          "string": "hanging leg raise",
+          "style": "card title, bold lowercase, text_dark"
+        },
+        {
+          "string": "2 sets x 10-15 reps",
+          "style": "card footer, regular, text_body_grey"
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "role": "product ending",
+      "text": [
+        {
+          "string": "harda tracks every set you lift, so next week you know what to beat.",
+          "style": "large, lowercase, heaviest weight, text_dark; accent marker bars under 'every set you lift' and 'what to beat'"
+        },
+        {
+          "string": "log your workouts and check your muscle balance.",
+          "style": "regular, text_dark, two lines"
+        }
+      ],
+      "screen": "real Harda Progress / Muscle balance screenshot, the same one as in approved LW-CAR-0022 slide 19",
+      "product_claims_checked_against_real_screen": [
+        "workouts are logged",
+        "muscle balance screen (LW-CAR-0022 slide 19)"
+      ]
+    }
+  ],
+  "claims_to_verify": [
+    "Practical plan only, no numbers or citations beyond sets and reps.",
+    "Ending: workout logging and the Muscle balance screen (real screenshot strip)."
+  ]
+}
