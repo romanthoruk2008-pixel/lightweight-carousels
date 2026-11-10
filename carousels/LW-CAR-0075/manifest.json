@@ -745,5 +745,12 @@
     "date": "2026-10-28",
     "additional_attempts_allowed": 2,
     "scope": "Resume failed LW-CAR-0075 then continue Batch I; owner allows prompt changes. Clothed sports illustration alternative; copy unchanged."
+  },
+  "phone_ending_update_2026_11_10": {
+    "slide": "slide-19.png",
+    "new_strip": "assets/phone/harda-phone-hand-muscle-balance.png",
+    "screen": "assets/phone/screen-muscle-balance.png",
+    "reason": "Owner request: replace the old composited phone (seams, peach hand) with a clean drawn phone, white hand and real Harda screenshot with status bar.",
+    "text_changed": false
   }
 }

@@ -568,5 +568,12 @@
     "max_total_attempts": 3,
     "continue_after_exhaustion": true,
     "owner_directive": "2026-10-30"
+  },
+  "phone_ending_update_2026_11_10": {
+    "slide": "slide-09.png",
+    "new_strip": "assets/phone/harda-phone-hand-muscle-balance.png",
+    "screen": "assets/phone/screen-muscle-balance.png",
+    "reason": "Owner request: replace the old composited phone (seams, peach hand) with a clean drawn phone, white hand and real Harda screenshot with status bar.",
+    "text_changed": false
   }
 }

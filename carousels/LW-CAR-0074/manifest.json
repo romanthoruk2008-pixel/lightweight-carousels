@@ -343,5 +343,12 @@
     }
   ],
   "next_action": "Commit and push this carousel, then continue LW-CAR-0075 without review pause.",
-  "archive": "LW-CAR-0074-1080x1350.zip"
+  "archive": "LW-CAR-0074-1080x1350.zip",
+  "phone_ending_update_2026_11_10": {
+    "slide": "slide-09.png",
+    "new_strip": "assets/phone/harda-phone-hand-muscle-map.png",
+    "screen": "assets/phone/screen-muscle-map.png",
+    "reason": "Owner request: replace the old composited phone (seams, peach hand) with a clean drawn phone, white hand and real Harda screenshot with status bar.",
+    "text_changed": false
+  }
 }
