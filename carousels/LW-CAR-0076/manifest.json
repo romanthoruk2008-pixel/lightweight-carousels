@@ -645,5 +645,12 @@
   },
   "visual_adaptation": "White/light-grey sports mannequins in opaque white sports T-shirts and charcoal shorts. No coloured muscles. Shorts-tear joke uses drawn effect marks with clothing remaining opaque.",
   "next_action": "Commit and push this carousel. Batch I generation is complete; owner review remains pending.",
-  "archive": "LW-CAR-0076-1080x1350.zip"
+  "archive": "LW-CAR-0076-1080x1350.zip",
+  "phone_ending_update_2026_11_10": {
+    "slide": "slide-17.png",
+    "new_strip": "assets/phone/harda-phone-hand-muscle-map.png",
+    "screen": "assets/phone/screen-muscle-map.png",
+    "reason": "Owner request: replace the old composited phone (seams, peach hand) with a clean drawn phone, white hand and real Harda screenshot with status bar.",
+    "text_changed": false
+  }
 }
