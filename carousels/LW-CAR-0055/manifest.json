@@ -617,5 +617,12 @@
     "error": "Git push failed: RPC failed; HTTP408 curl22; unexpected disconnect while reading sideband packet; remote end hung up unexpectedly. Remote branch remained at1ea8f1d after failure.",
     "batch_stopped": true,
     "next_step": "LW-CAR-0056 slide1 after ensuring this checkpoint is pushed."
+  },
+  "phone_ending_update_2026_11_10": {
+    "slide": "slide-09.png",
+    "new_strip": "assets/phone/harda-phone-hand-muscle-balance.png",
+    "screen": "assets/phone/screen-muscle-balance.png",
+    "reason": "Owner request: replace the old composited phone (seams, peach hand) with a clean drawn phone, white hand and real Harda screenshot with status bar.",
+    "text_changed": false
   }
 }
