@@ -639,5 +639,12 @@
     "body_ink_bottom_y": 916,
     "phone_layer_top_y": 966,
     "gap_px": 50
+  },
+  "phone_ending_update_2026_11_10": {
+    "slide": "slide-09.png",
+    "new_strip": "assets/phone/harda-phone-hand-muscle-map.png",
+    "screen": "assets/phone/screen-muscle-map.png",
+    "reason": "Owner request: replace the old composited phone (seams, peach hand) with a clean drawn phone, white hand and real Harda screenshot with status bar.",
+    "text_changed": false
   }
 }
