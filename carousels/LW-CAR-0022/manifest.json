@@ -892,5 +892,12 @@
       4
     ],
     "reason": "The slide 4 post-processing wrapper failed to parse the successful raw result path; its output was saved manually and slides 1–4 were pushed as an incomplete checkpoint before generation resumed."
+  },
+  "phone_ending_update_2026_11_10": {
+    "slide": "slide-19.png",
+    "new_strip": "assets/phone/harda-phone-hand-muscle-map.png",
+    "screen": "assets/phone/screen-muscle-map.png",
+    "reason": "Owner request: replace the old composited phone (seams, peach hand) with a clean drawn phone, white hand and real Harda screenshot with status bar.",
+    "text_changed": false
   }
 }

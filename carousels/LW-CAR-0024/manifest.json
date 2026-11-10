@@ -715,5 +715,12 @@
   ],
   "archive": "LW-CAR-0024-1080x1350.zip",
   "continuation_source_commit": "6d83188204e06e7c3a4cedf79fab334ee2e195dc",
-  "owner_approval": "2026-10-21: owner explicitly accepted all 12 slides from output commit ace16827fd63778d39983d8ef4ef54270ba51734 and requested pushing the user-approved status to GitHub."
+  "owner_approval": "2026-10-21: owner explicitly accepted all 12 slides from output commit ace16827fd63778d39983d8ef4ef54270ba51734 and requested pushing the user-approved status to GitHub.",
+  "phone_ending_update_2026_11_10": {
+    "slide": "slide-12.png",
+    "new_strip": "assets/phone/harda-phone-hand-muscle-map.png",
+    "screen": "assets/phone/screen-muscle-map.png",
+    "reason": "Owner request: replace the old composited phone (seams, peach hand) with a clean drawn phone, white hand and real Harda screenshot with status bar.",
+    "text_changed": false
+  }
 }

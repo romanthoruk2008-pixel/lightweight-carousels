@@ -1174,5 +1174,12 @@
     "source_commit": "b42cab2f3629659ef6064edc7c7cbf191b6d0d38",
     "status": "edited_ending_pending_owner_review",
     "other_slides": "unchanged; prior owner approvals remain in force"
+  },
+  "phone_ending_update_2026_11_10": {
+    "slide": "slide-19.png",
+    "new_strip": "assets/phone/harda-phone-hand-muscle-map.png",
+    "screen": "assets/phone/screen-muscle-map.png",
+    "reason": "Owner request: replace the old composited phone (seams, peach hand) with a clean drawn phone, white hand and real Harda screenshot with status bar.",
+    "text_changed": false
   }
 }
