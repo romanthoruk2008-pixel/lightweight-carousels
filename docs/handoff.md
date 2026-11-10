@@ -99,3 +99,4 @@ Claude, хмарна генерація, канал точного вставл�
 - Пачка 2026-10-30: BATCH-J, усе в S2 (0077–0079 structure the perfect chest / back / arm day, 0080 how to build a v-taper, 0081 best exercises dumbbells only, 0082 best exercises arm day edition, 0083 machine taken? do this instead, 0084 how to get wider). BATCH-H і BATCH-I готові повністю.
 - Нічний запуск 2026-11-01: NIGHT-RUN.md + BATCH-K (0085–0092), BATCH-L (0093–0099), BATCH-M (0100–0106). 22 каруселі, ~171 слайд, усе S2, агент не зупиняється до кінця ліміту. BATCH-J готова повністю.
 - 2026-11-09: додано нову іконку з App Store: assets/logo/harda-app-icon-1024.png (опис у assets/logo/README.md). На каруселях поки лишається старий логотип harda-logo-full.png.
+- 2026-11-10: на 73 фіналах S2 (0020–0106) старий телефон замінено на новий чистий (assets/phone/), половина з екраном схеми тіла, половина з Muscle balance; ZIP оновлено, текст не змінювався. S1-фінали і 0025, 0028, 0030 поки зі старим телефоном.
