@@ -1180,9 +1180,10 @@
   "owner_approval": "2026-10-20: owner explicitly approved all 19 slides from output commit b5f25183f795b4da3f60ed2fc1f7aee999be8122 and requested pushing the accepted status to GitHub.",
   "phone_ending_update_2026_11_10": {
     "slide": "slide-19.png",
-    "new_strip": "assets/phone/harda-phone-hand-muscle-balance.png",
-    "screen": "assets/phone/screen-muscle-balance.png",
+    "new_strip": "assets/phone/harda-phone-hand-muscle-map.png",
+    "screen": "assets/phone/screen-muscle-map.png",
     "reason": "Owner request: replace the old composited phone (seams, peach hand) with a clean drawn phone, white hand and real Harda screenshot with status bar.",
-    "text_changed": false
+    "text_changed": false,
+    "owner_choice": "muscle map silhouette (owner request)"
   }
 }
